@@ -1,0 +1,4890 @@
+{
+  "version": 1,
+  "item_count": 47,
+  "items": [
+    {
+      "id": "T6_MILK",
+      "index": "142",
+      "category": "Farming_Pasture",
+      "slot": "2h",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": "40",
+        "resourcevalue": null,
+        "famevalue": "20",
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T6_MILK",
+        "item_database_index": "142"
+      },
+      "tier": 6,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Sheep's Milk",
+        "DE-DE": "Schafsmilch",
+        "FR-FR": "Lait de mouton",
+        "RU-RU": "Овечье молоко",
+        "PL-PL": "Owcze Mleko",
+        "ES-ES": "Leche de oveja",
+        "PT-BR": "Leite de Ovelha",
+        "IT-IT": "Latte di pecora",
+        "ZH-CN": "绵羊奶",
+        "KO-KR": "양젖",
+        "JA-JP": "羊のミルク",
+        "ZH-TW": "綿羊奶",
+        "ID-ID": "Susu Domba",
+        "TR-TR": "Koyun Sütü",
+        "AR-SA": "حليب الخراف"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Sheep's Milk is used in various meals and potions, and can be turned into Sheep's Butter",
+        "DE-DE": "Schafsmilch wird in vielen Gerichten und Tränken verwendet. Aus ihr kann Schafsmilchbutter gemacht werden.",
+        "FR-FR": "Le lait de mouton sert à concocter du beurre de mouton et d'autres recettes et potions",
+        "RU-RU": "Используется в различных блюдах и эликсирах. Из него сбивают овечье масло.",
+        "PL-PL": "Owcze mleko służy do przygotowania różnych potraw i mikstur, można je też zamienić w owcze masło.",
+        "ES-ES": "La leche de oveja se usa para elaborar comida y pociones, y se puede transformar en manteca de oveja",
+        "PT-BR": "Leite de Ovelha é usado em várias receitas e poções, e pode virar Manteiga de Ovelha",
+        "IT-IT": "Si utilizza per svariate pietanze e pozioni e si può anche trasformare in burro di pecora.",
+        "ZH-CN": "绵羊奶用于制作多种餐食和药水，也可以变成绵羊黄油。",
+        "KO-KR": "양젖은 다양한 식사와 포션에 쓰이며, 양젖 버터로 만들 수 있습니다.",
+        "JA-JP": "羊のミルクは様々な料理やポーションで使われており、羊のバターにすることもできます。",
+        "ZH-TW": "綿羊奶可作為多種料理和藥水的原料，也可以加工成綿羊奶油",
+        "ID-ID": "Susu Domba digunakan dalam berbagai makanan dan ramuan, dan bisa diubah menjadi Mentega Domba.",
+        "TR-TR": "Koyun Sütü, çeşitli yemek ve iksir yapımında kullanılır veya Koyun Tereyağı'na dönüştürülebilir.",
+        "AR-SA": "يُستخدم حليب الخراف في عدة وجبات وجرعات ويمكن تحويله إلى زبدة الخراف"
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T6_MILK",
+        "description_variable": "@ITEMS_T6_MILK_DESC"
+      },
+      "origin": "Farming/Pasture/Pasture_T6_MILK.json",
+      "raw": {
+        "@uniquename": "T6_MILK",
+        "@nutrition": "48",
+        "@shopcategory": "farming",
+        "@shopsubcategory1": "pasture",
+        "@resourcetype": "PRODUCTS",
+        "@tier": "6",
+        "@weight": "0.6",
+        "@maxstacksize": "999",
+        "@itemvalue": "40",
+        "@famevalue": "20",
+        "@shopsubcategory2": "milk"
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T8_MILK",
+      "index": "143",
+      "category": "Farming_Pasture",
+      "slot": "2h",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": "40",
+        "resourcevalue": null,
+        "famevalue": "20",
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T8_MILK",
+        "item_database_index": "143"
+      },
+      "tier": 8,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Cow's Milk",
+        "DE-DE": "Kuhmilch",
+        "FR-FR": "Lait de vache",
+        "RU-RU": "Коровье молоко",
+        "PL-PL": "Krowie mleko",
+        "ES-ES": "Leche de vaca",
+        "PT-BR": "Leite de Vaca",
+        "IT-IT": "Latte di mucca",
+        "ZH-CN": "牛奶",
+        "KO-KR": "우유",
+        "JA-JP": "雌牛のミルク",
+        "ZH-TW": "牛奶",
+        "ID-ID": "Susu Sapi",
+        "TR-TR": "İnek Sütü",
+        "AR-SA": "حليب البقرة"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Cow's Milk is used in various meals and potions, and can be turned into Cow's Butter.",
+        "DE-DE": "Wird in vielen Gerichten und Tränken verwendet. Aus ihr kann Kuhbutter gemacht werden.",
+        "FR-FR": "Le lait de vache sert à concocter du beurre de vache et d'autres recettes et potions.",
+        "RU-RU": "Используется в различных блюдах и эликсирах. Из него сбивают коровье масло.",
+        "PL-PL": "Krowie mleko jest używane w wielu potrawach i miksturach. Można zmienić w krowie masło",
+        "ES-ES": "La leche de vaca se usa para elaborar comida y pociones, y se puede transformar en manteca de vaca",
+        "PT-BR": "Leite de Vaca é usado em várias receitas e poções, e pode virar Manteiga de Vaca",
+        "IT-IT": "Si utilizza per svariate pietanze e pozioni e si può anche trasformare in burro di mucca.",
+        "ZH-CN": "牛奶用于制作多种餐食和药水，也可以变成牛奶黄油。",
+        "KO-KR": "우유은 다양한 식사와 포션에 쓰이며, 우유 버터로 만들 수 있습니다.",
+        "JA-JP": "雌牛のミルクは様々な料理やポーションで使われており、雌牛のバターにすることもできます。",
+        "ZH-TW": "牛奶可作為多種料理和藥水的原料，也可以加工成乳牛奶油。",
+        "ID-ID": "Susu Sapi digunakan dalam berbagai makanan dan ramuan, dan bisa diubah menjadi Mentega Sapi.",
+        "TR-TR": "İnek Sütü, çeşitli yemek ve iksirlerin yapımında kullanılır veya İnek Tereyağı'na dönüştürülebilir.",
+        "AR-SA": "يُستخدم حليب البقر في عدة وجبات وجرعات ويمكن تحويله إلى زبدة بقرية."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T8_MILK",
+        "description_variable": "@ITEMS_T8_MILK_DESC"
+      },
+      "origin": "Farming/Pasture/Pasture_T8_MILK.json",
+      "raw": {
+        "@uniquename": "T8_MILK",
+        "@nutrition": "48",
+        "@shopcategory": "farming",
+        "@shopsubcategory1": "pasture",
+        "@resourcetype": "PRODUCTS",
+        "@tier": "8",
+        "@weight": "0.6",
+        "@maxstacksize": "999",
+        "@itemvalue": "40",
+        "@famevalue": "20",
+        "@shopsubcategory2": "milk"
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T4_MILK",
+      "index": "140",
+      "category": "Farming_Pasture",
+      "slot": "2h",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": "40",
+        "resourcevalue": null,
+        "famevalue": "20",
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T4_MILK",
+        "item_database_index": "140"
+      },
+      "tier": 4,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Goat's Milk",
+        "DE-DE": "Ziegenmilch",
+        "FR-FR": "Lait de chèvre",
+        "RU-RU": "Козье молоко",
+        "PL-PL": "Kozie Mleko",
+        "ES-ES": "Leche de cabra",
+        "PT-BR": "Leite de Cabra",
+        "IT-IT": "Latte di capra",
+        "ZH-CN": "山羊奶",
+        "KO-KR": "염소젖",
+        "JA-JP": "ヤギのミルク",
+        "ZH-TW": "山羊奶",
+        "ID-ID": "Susu Kambing",
+        "TR-TR": "Keçi Sütü",
+        "AR-SA": "حليب الماعز"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Goat's Milk is used in various meals and potions, and can be turned into Goat's Butter.",
+        "DE-DE": "Wird in vielen Gerichten und Tränken verwendet. Aus ihr kann Ziegenmilchbutter gemacht werden.",
+        "FR-FR": "Le lait de chèvre sert à concocter du beurre de chèvre et d'autres recettes et potions.",
+        "RU-RU": "Используется в различных блюдах и эликсирах. Из него сбивают козье масло.",
+        "PL-PL": "Kozie mleko jest używane w wielu potrawach i miksturach. Można zmienić w kozie masło",
+        "ES-ES": "La leche de cabra se usa para elaborar comida y pociones, y se puede transformar en manteca de cabra",
+        "PT-BR": "Leite de Cabra é usado em várias receitas e poções, e pode virar Manteiga de Cabra",
+        "IT-IT": "Si utilizza per svariate pietanze e pozioni e si può anche trasformare in burro di capra.",
+        "ZH-CN": "山羊奶用于制作多种餐食和药水，也可以变成山羊黄油。",
+        "KO-KR": "염소젖은 다양한 식사와 포션에 쓰이며, 염소젖 버터로 만들 수 있습니다.",
+        "JA-JP": "ヤギのミルクは様々な料理やポーションで使われており、ヤギのバターにすることもできます。",
+        "ZH-TW": "山羊奶可作為多種料理和藥水的原料，也可以加工成山羊奶油。",
+        "ID-ID": "Susu Kambing digunakan dalam berbagai makanan dan ramuan, dan bisa diubah menjadi Mentega Kambing.",
+        "TR-TR": "Keçi Sütü çeşitli yemek ve iksirlerin yapımında kullanılır veya Keçi Tereyağı'na dönüştürülebilir.",
+        "AR-SA": "يُستخدم حليب الماعز في عدة وجبات وجرعات ويمكن تحويله إلى زبدة الماعز."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T4_MILK",
+        "description_variable": "@ITEMS_T4_MILK_DESC"
+      },
+      "origin": "Farming/Pasture/Pasture_T4_MILK.json",
+      "raw": {
+        "@uniquename": "T4_MILK",
+        "@nutrition": "48",
+        "@shopcategory": "farming",
+        "@shopsubcategory1": "pasture",
+        "@resourcetype": "PRODUCTS",
+        "@tier": "4",
+        "@weight": "0.6",
+        "@maxstacksize": "999",
+        "@itemvalue": "40",
+        "@famevalue": "20",
+        "@shopsubcategory2": "milk"
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T6_FARM_GIANTSTAG_GROWN",
+      "index": "87",
+      "category": "Farming_Pasture",
+      "slot": "2h",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": "0",
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T6_FARM_GIANTSTAG_GROWN",
+        "item_database_index": "87"
+      },
+      "tier": 6,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Master's Tame Giant Stag",
+        "DE-DE": "Zahmer Riesenhirsch des Meisters",
+        "FR-FR": "Cerf géant apprivoisé de l'adepte",
+        "RU-RU": "Ручной гигантский олень (мастер)",
+        "PL-PL": "Oswojony Jelonek Olbrzymi Mistrza",
+        "ES-ES": "Ciervo gigante domado del maestro",
+        "PT-BR": "Veado Gigante Manso do Mestre",
+        "IT-IT": "Cervo gigante domato del maestro",
+        "ZH-CN": "大师级家养巨鹿",
+        "KO-KR": "마스터의 길들인 거대 숫사슴",
+        "JA-JP": "飼い慣らした巨大雄ジカ（マスター）",
+        "ZH-TW": "大師級馴化巨鹿",
+        "ID-ID": "Rusa Raksasa Jinak Master",
+        "TR-TR": "Usta Evcil Dev Geyiği",
+        "AR-SA": "الأيل العملاق الأليف للخبير"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Can be kept in a pasture, but cannot be used to craft a Master's Giant Stag mount.",
+        "DE-DE": "Kann auf der Weide gehalten, aber nicht zu einem reitbaren Riesenhirsch des Meisters ausgebildet werden.",
+        "FR-FR": "Peut être garder dans un pâturage, mais ne peut être utilisé pour fabriquer une monture de Cerf géant.",
+        "RU-RU": "Может быть помещен в загон, но из него невозможно создать Гигантского оленя мастера.",
+        "PL-PL": "Może zostać umieszczony na pastwisku, lecz nie może zostać wykorzystany do wytworzenia Oswojonego Jelonka Olbrzymiego Mistrza-wierzchowca.",
+        "ES-ES": "Puede colocarse en el pasto, pero no puede ser usado para crear la montura de ciervo gigante del maestro.",
+        "PT-BR": "Pode ser mantido em um pasto, mas não pode ser usado para fabricar uma montaria Veado Gigante do Mestre.",
+        "IT-IT": "Si può tenere in un pascolo, ma non si può usare per creare una cavalcatura \"Cervo gigante del maestro\".",
+        "ZH-CN": "可以在栏圈里饲养，但不能驯养成为大师级巨鹿坐骑。",
+        "KO-KR": "목초지에 둘 수는 있지만, 훈련을 거쳐 마스터의 거대 숫사슴 탈것으로 제작할 수는 없습니다.",
+        "JA-JP": "牧草地に置いておけますが、飼い慣らした巨大雄ジカ（マスター）の騎獣の製造に使うことはできません。",
+        "ZH-TW": "可飼養於牧場中，但無法加工成大師級巨鹿坐騎。",
+        "ID-ID": "Bisa dipelihara di padang rumput, tapi tidak bisa dibuat menjadi Rusa Raksasa Master tunggangan.",
+        "TR-TR": "Otlak yerinde tutulabilir ancak bir Usta Dev Geyiği bineği zanaatı için kullanılamaz.",
+        "AR-SA": "يمكن وضعه في مرعى، لكن لا يمكن استخدامه في تصنيع مطية أيل عملاق للخبير."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T6_FARM_GIANTSTAG_GROWN",
+        "description_variable": "@ITEMS_T6_FARM_GIANTSTAG_GROWN_DESC"
+      },
+      "origin": "Farming/Pasture/Pasture_T6_FARM_GIANTSTAG_GROWN.json",
+      "raw": {
+        "@uniquename": "T6_FARM_GIANTSTAG_GROWN",
+        "@uisprite": "FARM_GIANTSTAG_GROWN_02",
+        "@tier": "6",
+        "@placefame": "0",
+        "@pickupable": "true",
+        "@destroyable": "false",
+        "@unlockedtoplace": "false",
+        "@maxstacksize": "999",
+        "@shopcategory": "farming",
+        "@shopsubcategory1": "pasture",
+        "@kind": "animal",
+        "@weight": "30",
+        "@unlockedtocraft": "false",
+        "@tile": "T6_FARM_GIANTSTAG_BABY",
+        "@prefabname": "FARM_GIANTSTAG_GROWN_02",
+        "@prefabscale": "1.65",
+        "@resourcevalue": "0",
+        "@animationid": "breed",
+        "@shopsubcategory2": "animals",
+        "@shopsubcategory3": "giantstag",
+        "@nutrition": "5905",
+        "@foodcategory": "mount",
+        "AudioInfo": {
+          "@name": "FARMABLE_GIANTSTAG"
+        }
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T4_FARM_HORSE_GROWN",
+      "index": "44",
+      "category": "Farming_Pasture",
+      "slot": "2h",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": "0",
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T4_FARM_HORSE_GROWN",
+        "item_database_index": "44"
+      },
+      "tier": 4,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Adept's Horse",
+        "DE-DE": "Pferd des Adepten",
+        "FR-FR": "Cheval de l'adepte",
+        "RU-RU": "Лошадь (знаток)",
+        "PL-PL": "Koń Adepta",
+        "ES-ES": "Caballo del iniciado",
+        "PT-BR": "Cavalo do Adepto",
+        "IT-IT": "Cavallo del sapiente",
+        "ZH-CN": "老手级成年马",
+        "KO-KR": "숙련자의 말",
+        "JA-JP": "馬（名人）",
+        "ZH-TW": "老手級成年馬",
+        "ID-ID": "Kuda Mahir",
+        "TR-TR": "Ehil Atı",
+        "AR-SA": "حصان البارع"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Can be used to craft an Adept's Riding Horse.",
+        "DE-DE": "Daraus kann ein Reitpferd des Adepten gefertigt werden.",
+        "FR-FR": "Peut être utilisé pour fabriquer un cheval de monte de l'adepte",
+        "RU-RU": "Лошадь знатока можно сделать ездовой.",
+        "PL-PL": "Można go użyć do stworzenia Konia Wierzchowego Adepta.",
+        "ES-ES": "Se puede utilizar para crear un caballo de montar del iniciado.",
+        "PT-BR": "Pode ser usado para virar um Cavalo de Montar do Adepto.",
+        "IT-IT": "Si può usare per creare un cavallo da sella del sapiente.",
+        "ZH-CN": "可以驯养成为老手级骑乘马。",
+        "KO-KR": "숙련자의 승용마를 제작하는 데 사용될 수 있습니다.",
+        "JA-JP": "乗用馬（名人）の製造に使用可能です。",
+        "ZH-TW": "可訓練成老手級騎乘馬。",
+        "ID-ID": "Bisa digunakan untuk membuat Kuda Tunggangan Mahir.",
+        "TR-TR": "Bir Ehil Binek Atı zanaatı için kullanılabilir.",
+        "AR-SA": "يمكن استخدامه لتصنيع حصان ركوب للبارع."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T4_FARM_HORSE_GROWN",
+        "description_variable": "@ITEMS_T4_FARM_HORSE_GROWN_DESC"
+      },
+      "origin": "Farming/Pasture/Pasture_T4_FARM_HORSE_GROWN.json",
+      "raw": {
+        "@uniquename": "T4_FARM_HORSE_GROWN",
+        "@tier": "4",
+        "@placefame": "0",
+        "@pickupable": "true",
+        "@destroyable": "false",
+        "@unlockedtoplace": "false",
+        "@maxstacksize": "999",
+        "@shopcategory": "farming",
+        "@shopsubcategory1": "pasture",
+        "@kind": "animal",
+        "@weight": "15",
+        "@unlockedtocraft": "false",
+        "@tile": "T4_FARM_HORSE_BABY",
+        "@prefabname": "FARM_HORSE_GROWN_02",
+        "@prefabscale": "1.44",
+        "@resourcevalue": "0",
+        "@animationid": "breed",
+        "@shopsubcategory2": "animals",
+        "@shopsubcategory3": "horse",
+        "@nutrition": "583",
+        "@foodcategory": "mount",
+        "AudioInfo": {
+          "@name": "FARMABLE_HORSE"
+        }
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T7_FARM_PIG_GROWN",
+      "index": "115",
+      "category": "Farming_Pasture",
+      "slot": "2h",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": "720",
+        "resourcevalue": "554",
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T7_FARM_PIG_GROWN",
+        "item_database_index": "115"
+      },
+      "tier": 7,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Pig",
+        "DE-DE": "Schwein",
+        "FR-FR": "Cochon",
+        "RU-RU": "Свинья",
+        "PL-PL": "Świnia",
+        "ES-ES": "Cerdo",
+        "PT-BR": "Porco",
+        "IT-IT": "Maiale",
+        "ZH-CN": "家猪",
+        "KO-KR": "돼지",
+        "JA-JP": "豚",
+        "ZH-TW": "豬",
+        "ID-ID": "Babi",
+        "TR-TR": "Domuz",
+        "AR-SA": "خنزير"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Pigs can be slaughtered to produce Raw Pork",
+        "DE-DE": "Schlachte Schweine für rohes Schweinefleisch.",
+        "FR-FR": "Tuez un cochon pour obtenir du porc cru",
+        "RU-RU": "Забейте свинью ради мяса.",
+        "PL-PL": "Świnie można zabić, aby otrzymać Surową Wieprzowinę",
+        "ES-ES": "Puedes sacrificar cerdos para conseguir carne de cerdo",
+        "PT-BR": "Abata Porcos para produzir Porco Cru",
+        "IT-IT": "Un maiale può essere macellato per produrre carne di maiale cruda.",
+        "ZH-CN": "家猪可以宰杀变成猪肉",
+        "KO-KR": "돼지는 도살해서 생 돼지고기를 생산할 수 있습니다",
+        "JA-JP": "豚は屠殺して生の豚肉に加工できます。",
+        "ZH-TW": "豬可經屠宰製成生豬肉",
+        "ID-ID": "Babi bisa disembelih untuk menghasilkan Daging Babi Mentah",
+        "TR-TR": "Domuzlar, Çiğ Domuz Eti elde etmek üzere kesilebilir.",
+        "AR-SA": "يمكن ذبح الخنزير لإنتاج خنزير نيئ"
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T7_FARM_PIG_GROWN",
+        "description_variable": "@ITEMS_T7_FARM_PIG_GROWN_DESC"
+      },
+      "origin": "Farming/Pasture/Pasture_T7_FARM_PIG_GROWN.json",
+      "raw": {
+        "@uniquename": "T7_FARM_PIG_GROWN",
+        "@tier": "7",
+        "@placefame": "0",
+        "@pickupable": "true",
+        "@destroyable": "false",
+        "@unlockedtoplace": "false",
+        "@maxstacksize": "999",
+        "@shopcategory": "farming",
+        "@shopsubcategory1": "pasture",
+        "@kind": "animal",
+        "@weight": "10.83",
+        "@unlockedtocraft": "false",
+        "@tile": "T7_FARM_PIG_BABY",
+        "@prefabname": "FARM_PIG_GROWN_01",
+        "@prefabscale": "1.2",
+        "@resourcevalue": "554",
+        "@animationid": "breed",
+        "@itemvalue": "720",
+        "@shopsubcategory2": "animals",
+        "@shopsubcategory3": "pig",
+        "AudioInfo": {
+          "@name": "FARMABLE_PIG"
+        }
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T4_FARM_HORSE_BABY",
+      "index": "38",
+      "category": "Farming_Pasture",
+      "slot": "2h",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": "0",
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T4_FARM_HORSE_BABY",
+        "item_database_index": "38"
+      },
+      "tier": 4,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Adept's Foal",
+        "DE-DE": "Fohlen des Adepten",
+        "FR-FR": "Poulain de l'adepte",
+        "RU-RU": "Жеребенок (знаток)",
+        "PL-PL": "Źrebak Adepta",
+        "ES-ES": "Potro del iniciado",
+        "PT-BR": "Potro do Adepto",
+        "IT-IT": "Puledro del sapiente",
+        "ZH-CN": "老手级马驹",
+        "KO-KR": "숙련자의 망아지",
+        "JA-JP": "子馬（名人）",
+        "ZH-TW": "老手級小馬",
+        "ID-ID": "Anak Kuda Mahir",
+        "TR-TR": "Ehil Tayı",
+        "AR-SA": "مهر البارع"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Grows into an Adept's Horse, which can be used to craft an Adept's Riding Horse.",
+        "DE-DE": "Wird zu einem Pferd des Adepten, woraus ein Reitpferd des Adepten gefertigt werden kann.",
+        "FR-FR": "Devient un cheval de l'adepte pouvant être utilisé pour fabriquer un cheval de monte de l'adepte",
+        "RU-RU": "Такие жеребята вырастают в лошадей знатока, которых можно превратить в ездовых животных.",
+        "PL-PL": "Z czasem staje się Koniem Adepta, którego można użyć do stworzenia Konia Wierzchowego Adepta.",
+        "ES-ES": "Se convierte en un caballo del iniciado, que se puede utilizar para crear un caballo de montar del iniciado.",
+        "PT-BR": "Cresce e vira um Cavalo do Adepto, que pode ser usado para virar um Cavalo de Montar do Adepto.",
+        "IT-IT": "Crescendo diventa un cavallo del sapiente, che si può usare per creare un cavallo da sella del sapiente.",
+        "ZH-CN": "可以长成老手级成年马，之后可以驯养成为老手级骑乘马。",
+        "KO-KR": "자라면 숙련자의 말이 되어, 숙련자의 승용마를 제작하는 데 사용될 수 있습니다.",
+        "JA-JP": "成長すると馬（名人）になります。乗用馬（名人）の製造に使用可能です。",
+        "ZH-TW": "長大後成為老手級成年馬，可訓練成老手級騎乘馬。",
+        "ID-ID": "Tumbuh menjadi Kuda Mahir, yang bisa digunakan untuk membuat Kuda Tunggangan Mahir.",
+        "TR-TR": "Yetiştiğinde Ehil Atı olur ve bir Ehil Binek Atı zanaatı için kullanılabilir.",
+        "AR-SA": "ينمو ليصبح حصان البارع، والذي يمكن استخدامه لتصنيع حصان ركوب للبارع."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T4_FARM_HORSE_BABY",
+        "description_variable": "@ITEMS_T4_FARM_HORSE_BABY_DESC"
+      },
+      "origin": "Farming/Pasture/Pasture_T4_FARM_HORSE_BABY.json",
+      "raw": {
+        "@uniquename": "T4_FARM_HORSE_BABY",
+        "@tier": "4",
+        "@placefame": "0",
+        "@pickupable": "true",
+        "@destroyable": "false",
+        "@unlockedtoplace": "false",
+        "@maxstacksize": "999",
+        "@shopcategory": "farming",
+        "@shopsubcategory1": "pasture",
+        "@kind": "animal",
+        "@weight": "1.5",
+        "@unlockedtocraft": "true",
+        "@animationid": "breed",
+        "@prefabname": "FARM_HORSE_BABY_02",
+        "@prefabscale": "0.96",
+        "@resourcevalue": "0",
+        "@activefarmfocuscost": "1000",
+        "@activefarmmaxcycles": "2",
+        "@activefarmactiondurationseconds": "1",
+        "@activefarmcyclelengthseconds": "79200",
+        "@activefarmbonus": "0.1333",
+        "@shopsubcategory2": "babys",
+        "@shopsubcategory3": "horse",
+        "AudioInfo": {
+          "@name": "FARMABLE_HORSE_BABY"
+        },
+        "craftingrequirements": {
+          "@silver": "75000",
+          "@time": "0",
+          "@swaptransaction": "true"
+        },
+        "grownitem": {
+          "@uniquename": "T4_FARM_HORSE_GROWN",
+          "@growtime": "331200",
+          "@fame": "200",
+          "offspring": {
+            "@chance": "0.7867",
+            "@amount": "1"
+          }
+        },
+        "consumption": {
+          "food": {
+            "@nutritionmax": "768",
+            "@secondspernutrition": "230",
+            "@lossbeforehungry": "48",
+            "@hungryoverheadicon": "FX/ClientPrefabs/fx_farming_focus_icon_vegetable",
+            "acceptedfood": {
+              "@foodcategory": "plants"
+            }
+          }
+        }
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T7_FARM_OX_BABY",
+      "index": "29",
+      "category": "Farming_Pasture",
+      "slot": "2h",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": "0",
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T7_FARM_OX_BABY",
+        "item_database_index": "29"
+      },
+      "tier": 7,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Grandmaster's Ox Calf",
+        "DE-DE": "Ochsenkalb des Großmeisters",
+        "FR-FR": "Veau du grand maître",
+        "RU-RU": "Бычок (магистр)",
+        "PL-PL": "Cielę Wołu Wszechmistrza",
+        "ES-ES": "Becerro del gran maestro",
+        "PT-BR": "Novilho do Grão-mestre",
+        "IT-IT": "Vitello di bue del gran maestro",
+        "ZH-CN": "宗师级牛犊",
+        "KO-KR": "그랜드 마스터의 황소 송아지",
+        "JA-JP": "子牛（グランドマスター）",
+        "ZH-TW": "宗師級小公牛",
+        "ID-ID": "Anak Lembu Grandmaster",
+        "TR-TR": "Büyük Usta Buzağısı",
+        "AR-SA": "عجل الثور للأستاذ"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Grows into an Grandmaster's Ox which can be used to craft a Grandmaster's Transport Ox.",
+        "DE-DE": "Wird zu einem Ochsen des Großmeisters, woraus ein Transportochse des Großmeisters gefertigt werden kann.",
+        "FR-FR": "Devient un bœuf du grand maître pouvant être utilisé pour fabriquer un bœuf de transport du grand maître",
+        "RU-RU": "Вырастет в быка магистра, которого можно сделать ездовым.",
+        "PL-PL": "Z czasem staje się Wołem Wszechmistrza, którego można użyć do stworzenia Wołu Pociągowego Wszechmistrza.",
+        "ES-ES": "Se convierte en un buey del gran maestro, que se puede utilizar para crear un buey de transporte del gran maestro.",
+        "PT-BR": "Cresce e vira um Boi do Grão-mestre, que pode ser usado para virar um Boi de Transporte do Grão-mestre.",
+        "IT-IT": "Crescendo diventa un bue del gran maestro, che si può usare per creare un Bue da Soma del gran maestro.",
+        "ZH-CN": "可以长成宗师级成年牛，之后可以驯养成为宗师级役牛。",
+        "KO-KR": "자라면 그랜드 마스터의 황소가 되어, 그랜드 마스터의 수송용 황소를 제작하는 데 사용될 수 있습니다.",
+        "JA-JP": "成長すると牛（グランドマスター）になります。荷運び牛（グランドマスター）の製造に使用可能です。",
+        "ZH-TW": "長大後成為宗師級公牛，可訓練成宗師級運輸公牛。",
+        "ID-ID": "Tumbuh menjadi Lembu Grandmaster yang bisa digunakan untuk membuat Lembu Pengangkut Grandmaster.",
+        "TR-TR": "Yetiştiğinde Büyük Usta Öküzü olur ve bir Büyük Usta Yük Öküzü zanaatı için kullanılabilir.",
+        "AR-SA": "ينمو ليصبح ثور للأستاذ والذي يمكن استخدامه لتصنيع ثور نقل للأستاذ."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T7_FARM_OX_BABY",
+        "description_variable": "@ITEMS_T7_FARM_OX_BABY_DESC"
+      },
+      "origin": "Farming/Pasture/Pasture_T7_FARM_OX_BABY.json",
+      "raw": {
+        "@uniquename": "T7_FARM_OX_BABY",
+        "@tier": "7",
+        "@placefame": "0",
+        "@pickupable": "true",
+        "@destroyable": "false",
+        "@unlockedtoplace": "false",
+        "@maxstacksize": "999",
+        "@shopcategory": "farming",
+        "@shopsubcategory1": "pasture",
+        "@kind": "animal",
+        "@weight": "1.5",
+        "@unlockedtocraft": "true",
+        "@animationid": "breed",
+        "@prefabname": "FARM_OX_BABY_05",
+        "@prefabscale": "0.72",
+        "@resourcevalue": "0",
+        "@activefarmfocuscost": "1000",
+        "@activefarmmaxcycles": "5",
+        "@activefarmactiondurationseconds": "1",
+        "@activefarmcyclelengthseconds": "79200",
+        "@activefarmbonus": "0.0395",
+        "@shopsubcategory2": "babys",
+        "@shopsubcategory3": "ox",
+        "AudioInfo": {
+          "@name": "FARMABLE_OX_BABY"
+        },
+        "craftingrequirements": {
+          "@silver": "2025000",
+          "@time": "0",
+          "@swaptransaction": "true"
+        },
+        "grownitem": {
+          "@uniquename": "T7_FARM_OX_GROWN",
+          "@growtime": "849600",
+          "@fame": "500",
+          "offspring": {
+            "@chance": "0.8420",
+            "@amount": "1"
+          }
+        },
+        "consumption": {
+          "food": {
+            "@nutritionmax": "7920",
+            "@secondspernutrition": "21.85",
+            "@lossbeforehungry": "48",
+            "@hungryoverheadicon": "FX/ClientPrefabs/fx_farming_focus_icon_vegetable",
+            "acceptedfood": {
+              "@foodcategory": "plants"
+            }
+          }
+        }
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T3_FARM_OX_BABY",
+      "index": "25",
+      "category": "Farming_Pasture",
+      "slot": "2h",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": "0",
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T3_FARM_OX_BABY",
+        "item_database_index": "25"
+      },
+      "tier": 3,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Journeyman's Ox Calf",
+        "DE-DE": "Ochsenkalb des Gesellen",
+        "FR-FR": "Veau du compagnon",
+        "RU-RU": "Бычок (странник)",
+        "PL-PL": "Cielę Czeladnika",
+        "ES-ES": "Becerro del obrero",
+        "PT-BR": "Novilho do Iniciante",
+        "IT-IT": "Vitello di bue dell'apprendista",
+        "ZH-CN": "学徒级牛犊",
+        "KO-KR": "장인의 황소 송아지",
+        "JA-JP": "子牛（熟練）",
+        "ZH-TW": "學徒級小公牛",
+        "ID-ID": "Anak Lembu Pengembara",
+        "TR-TR": "Kalfa Buzağısı",
+        "AR-SA": "عجل ثور للموثوق"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Grows into a Journeyman's Ox, which can be used to craft a Journeyman's Transport Ox.",
+        "DE-DE": "Wird zu einem Ochsen des Gesellen, woraus ein Transportochse des Gesellen werden kann.",
+        "FR-FR": "Devient un bœuf du compagnon pouvant être utilisé pour fabriquer un bœuf de transport du compagnon.",
+        "RU-RU": "Вырастет в Быка (странник), которого можно сделать ездовым.",
+        "PL-PL": "Z czasem wyrasta na Woła Czeladnika, którego można użyć do stworzenia Woła Pociągowego Czeladnika.",
+        "ES-ES": "Crece y se convierte en un buey del obrero que puede ser usado para fabricar un buey de transporte del obrero.",
+        "PT-BR": "Cresce e vira um Boi do Iniciante, que pode ser usado para virar um Boi de Transporte do Iniciante.",
+        "IT-IT": "Crescendo diventa un bue dell'apprendista, che si può usare per creare un Bue da Soma dell'apprendista.",
+        "ZH-CN": "可以长成学徒级成年牛，之后可以驯养成为学徒级役牛。",
+        "KO-KR": "자라면 장인의 황소가 되어, 장인의 수송용 황소를 제작하는 데 사용될 수 있습니다.",
+        "JA-JP": "成長すると牛（熟練）になります。荷運び牛（熟練）の製造に使用可能です。",
+        "ZH-TW": "長大後成為學徒級公牛，可訓練成學徒級運輸公牛。",
+        "ID-ID": "Tumbuh menjadi Lembu Pengembara, yang bisa digunakan untuk membuat Lembu Pengangkut Pengembara.",
+        "TR-TR": "Yetiştiğinde bir Kalfa Öküzü olur, bu da bir Kalfa Yük Öküzü zanaatı için kullanılabilir.",
+        "AR-SA": "ينمو ليصبح عجل ثور للموثوق، الذي يمكن استخدامه لتصنيع ثور نقل للموثوق."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T3_FARM_OX_BABY",
+        "description_variable": "@ITEMS_T3_FARM_OX_BABY_DESC"
+      },
+      "origin": "Farming/Pasture/Pasture_T3_FARM_OX_BABY.json",
+      "raw": {
+        "@uniquename": "T3_FARM_OX_BABY",
+        "@tier": "3",
+        "@placefame": "0",
+        "@pickupable": "true",
+        "@destroyable": "false",
+        "@unlockedtoplace": "false",
+        "@maxstacksize": "999",
+        "@shopcategory": "farming",
+        "@shopsubcategory1": "pasture",
+        "@kind": "animal",
+        "@weight": "1.5",
+        "@unlockedtocraft": "true",
+        "@animationid": "breed",
+        "@prefabname": "FARM_OX_BABY_01",
+        "@prefabscale": "0.72",
+        "@resourcevalue": "0",
+        "@activefarmfocuscost": "1000",
+        "@activefarmmaxcycles": "1",
+        "@activefarmactiondurationseconds": "1",
+        "@activefarmcyclelengthseconds": "79200",
+        "@activefarmbonus": "0.2000",
+        "@shopsubcategory2": "babys",
+        "@shopsubcategory3": "ox",
+        "AudioInfo": {
+          "@name": "FARMABLE_OX_BABY"
+        },
+        "craftingrequirements": {
+          "@silver": "25000",
+          "@time": "0",
+          "@swaptransaction": "true"
+        },
+        "grownitem": {
+          "@uniquename": "T3_FARM_OX_GROWN",
+          "@growtime": "158400",
+          "@fame": "100",
+          "offspring": {
+            "@chance": "0.8400",
+            "@amount": "1"
+          }
+        },
+        "consumption": {
+          "food": {
+            "@nutritionmax": "480",
+            "@secondspernutrition": "330",
+            "@hungryoverheadicon": "FX/ClientPrefabs/fx_farming_focus_icon_vegetable",
+            "acceptedfood": {
+              "@foodcategory": "plants"
+            }
+          }
+        }
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T4_FARM_OX_GROWN",
+      "index": "32",
+      "category": "Farming_Pasture",
+      "slot": "2h",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": "0",
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T4_FARM_OX_GROWN",
+        "item_database_index": "32"
+      },
+      "tier": 4,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Adept's Ox",
+        "DE-DE": "Ochse des Adepten",
+        "FR-FR": "Bœuf de l'adepte",
+        "RU-RU": "Бык (знаток)",
+        "PL-PL": "Wół Adepta",
+        "ES-ES": "Buey del iniciado",
+        "PT-BR": "Boi do Adepto",
+        "IT-IT": "Bue del sapiente",
+        "ZH-CN": "老手级成年牛",
+        "KO-KR": "숙련자의 황소",
+        "JA-JP": "牛（名人）",
+        "ZH-TW": "老手級公牛",
+        "ID-ID": "Lembu Mahir",
+        "TR-TR": "Ehil Öküzü",
+        "AR-SA": "ثور البارع"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Can be used to craft an Adept's Transport Ox.",
+        "DE-DE": "Daraus kann ein Transportochse des Adepten gefertigt werden.",
+        "FR-FR": "Peut être utilisé pour fabriquer un bœuf de transport de l'adepte",
+        "RU-RU": "Этого быка можно сделать ездовым.",
+        "PL-PL": "Można go użyć do stworzenia Wołu Pociągowego Adepta.",
+        "ES-ES": "Se puede utilizar para crear un buey de transporte del iniciado.",
+        "PT-BR": "Pode ser usado para virar um Boi de Transporte do Adepto.",
+        "IT-IT": "Si può usare per creare un Bue da Soma del sapiente.",
+        "ZH-CN": "可以驯养成为老手级役牛。",
+        "KO-KR": "숙련자의 수송용 황소를 제작하는 데 사용될 수 있습니다.",
+        "JA-JP": "荷運び牛（名人）の製造に使用可能です。",
+        "ZH-TW": "可訓練成老手級運輸公牛。",
+        "ID-ID": "Bisa digunakan untuk membuat Lembu Pengangkut Mahir.",
+        "TR-TR": "Bir Ehil Yük Öküzü zanaatı için kullanılabilir.",
+        "AR-SA": "يمكن استخدامه لتصنيع ثور نقل للبارع."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T4_FARM_OX_GROWN",
+        "description_variable": "@ITEMS_T4_FARM_OX_GROWN_DESC"
+      },
+      "origin": "Farming/Pasture/Pasture_T4_FARM_OX_GROWN.json",
+      "raw": {
+        "@uniquename": "T4_FARM_OX_GROWN",
+        "@tier": "4",
+        "@placefame": "0",
+        "@pickupable": "true",
+        "@destroyable": "false",
+        "@unlockedtoplace": "false",
+        "@maxstacksize": "999",
+        "@shopcategory": "farming",
+        "@shopsubcategory1": "pasture",
+        "@kind": "animal",
+        "@weight": "15",
+        "@unlockedtocraft": "false",
+        "@tile": "T4_FARM_OX_BABY",
+        "@prefabname": "FARM_OX_GROWN_02",
+        "@prefabscale": "1.2",
+        "@resourcevalue": "0",
+        "@animationid": "breed",
+        "@shopsubcategory2": "animals",
+        "@shopsubcategory3": "ox",
+        "@nutrition": "583",
+        "@foodcategory": "mount",
+        "AudioInfo": {
+          "@name": "FARMABLE_OX"
+        }
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T8_FARM_OX_GROWN",
+      "index": "36",
+      "category": "Farming_Pasture",
+      "slot": "2h",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": "0",
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T8_FARM_OX_GROWN",
+        "item_database_index": "36"
+      },
+      "tier": 8,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Elder's Ox",
+        "DE-DE": "Ochse des Ältesten",
+        "FR-FR": "Bœuf du sage",
+        "RU-RU": "Бык (старейшина)",
+        "PL-PL": "Wół Starszego",
+        "ES-ES": "Buey del anciano",
+        "PT-BR": "Boi do Ancião",
+        "IT-IT": "Bue dell'anziano",
+        "ZH-CN": "禅师级成年牛",
+        "KO-KR": "장로의 황소",
+        "JA-JP": "牛（老熟）",
+        "ZH-TW": "禪師級公牛",
+        "ID-ID": "Lembu Tetua",
+        "TR-TR": "Yüce Öküzü",
+        "AR-SA": "ثور الحكيم"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Can be used to craft a Elder's Transport Ox.",
+        "DE-DE": "Daraus kann ein Transportochse des Ältesten gefertigt werden.",
+        "FR-FR": "Peut être utilisé pour fabriquer un bœuf de transport du sage",
+        "RU-RU": "Этого быка можно сделать ездовым.",
+        "PL-PL": "Można go użyć do stworzenia Wołu Pociągowego Starszego.",
+        "ES-ES": "Se puede utilizar para crear un buey de transporte del anciano.",
+        "PT-BR": "Pode ser usado para virar um Boi de Transporte do Ancião.",
+        "IT-IT": "Si può usare per creare un Bue da Soma dell'anziano.",
+        "ZH-CN": "可以驯养成为禅师级役牛。",
+        "KO-KR": "장로의 수송용 황소를 제작하는 데 사용될 수 있습니다.",
+        "JA-JP": "荷運び牛（老熟）の製造に使用可能です。",
+        "ZH-TW": "可訓練成禪師級運輸公牛。",
+        "ID-ID": "Bisa digunakan untuk membuat Lembu Pengangkut Tetua.",
+        "TR-TR": "Bir Yüce Yük Öküzü zanaatında kullanılabilir.",
+        "AR-SA": "يمكن استخدامه لتصنيع ثور نقل للحكيم."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T8_FARM_OX_GROWN",
+        "description_variable": "@ITEMS_T8_FARM_OX_GROWN_DESC"
+      },
+      "origin": "Farming/Pasture/Pasture_T8_FARM_OX_GROWN.json",
+      "raw": {
+        "@uniquename": "T8_FARM_OX_GROWN",
+        "@tier": "8",
+        "@placefame": "0",
+        "@pickupable": "true",
+        "@destroyable": "false",
+        "@unlockedtoplace": "false",
+        "@maxstacksize": "999",
+        "@shopcategory": "farming",
+        "@shopsubcategory1": "pasture",
+        "@kind": "animal",
+        "@weight": "15",
+        "@unlockedtocraft": "false",
+        "@tile": "T8_FARM_OX_BABY",
+        "@prefabname": "FARM_OX_GROWN_06",
+        "@prefabscale": "1.2",
+        "@resourcevalue": "0",
+        "@animationid": "breed",
+        "@shopsubcategory2": "animals",
+        "@shopsubcategory3": "ox",
+        "@nutrition": "59049",
+        "@foodcategory": "mount",
+        "AudioInfo": {
+          "@name": "FARMABLE_OX"
+        }
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T5_FARM_GOOSE_BABY",
+      "index": "107",
+      "category": "Farming_Pasture",
+      "slot": "2h",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": "720",
+        "resourcevalue": "220",
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T5_FARM_GOOSE_BABY",
+        "item_database_index": "107"
+      },
+      "tier": 5,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Gosling",
+        "DE-DE": "Gänslein",
+        "FR-FR": "Oison",
+        "RU-RU": "Гусенок",
+        "PL-PL": "Gąska",
+        "ES-ES": "Ansarino",
+        "PT-BR": "Gansinho",
+        "IT-IT": "Pulcino d'oca",
+        "ZH-CN": "小鹅",
+        "KO-KR": "새끼 거위",
+        "JA-JP": "ガチョウのひな",
+        "ZH-TW": "小鵝",
+        "ID-ID": "Anak Angsa",
+        "TR-TR": "Palaz",
+        "AR-SA": "أفراخ الإوز"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "You can place Goslings in a pasture to grow them into Geese.",
+        "DE-DE": "Du kannst Gänslein auf die Weide schicken, damit sie zu Gänsen werden.",
+        "FR-FR": "Dans votre pâturage, les oisons deviennent des oies",
+        "RU-RU": "Отправьте гусят на пастбище, и они вырастут в гусынь.",
+        "PL-PL": "Możesz umieścić gąski na swoim pastwisku, aby wyrosły z nich gęsi",
+        "ES-ES": "Puedes colocar ansarinos en tu pasto para que se conviertan en gansos",
+        "PT-BR": "Coloque os Gansinhos no pasto e eles crescerão até virarem Gansos",
+        "IT-IT": "Assegna i pulcini d'oca a un pascolo per farli diventare oche.",
+        "ZH-CN": "你可以把小鹅送进你的栏圈，把它们养大。",
+        "KO-KR": "새끼 거위를 목초지에 배치해서 거위로 키울 수 있습니다.",
+        "JA-JP": "ガチョウのひなを牧草地に配置すれば、ガチョウに育てることができます。",
+        "ZH-TW": "您可以把小鵝放入牧場，將牠們養大。",
+        "ID-ID": "Kamu bisa meletakkan Anak Angsa di padang rumput agar mereka tumbuh menjadi Angsa.",
+        "TR-TR": "Palazları otlak yerlerine koyup Kaz olmaları için yetiştirebilirsin.",
+        "AR-SA": "يمكنك وضع أفراخ الإوز في مرعى لتنمو إلى إوز."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T5_FARM_GOOSE_BABY",
+        "description_variable": "@ITEMS_T5_FARM_GOOSE_BABY_DESC"
+      },
+      "origin": "Farming/Pasture/Pasture_T5_FARM_GOOSE_BABY.json",
+      "raw": {
+        "@uniquename": "T5_FARM_GOOSE_BABY",
+        "@tier": "5",
+        "@placefame": "0",
+        "@pickupable": "true",
+        "@destroyable": "false",
+        "@unlockedtoplace": "false",
+        "@maxstacksize": "999",
+        "@shopcategory": "farming",
+        "@shopsubcategory1": "pasture",
+        "@kind": "animal",
+        "@weight": "0.2",
+        "@unlockedtocraft": "true",
+        "@animationid": "breed",
+        "@prefabname": "FARM_GOOSE_BABY_01",
+        "@prefabscale": "1.1",
+        "@resourcevalue": "220",
+        "@activefarmfocuscost": "1000",
+        "@activefarmmaxcycles": "1",
+        "@activefarmactiondurationseconds": "1",
+        "@activefarmcyclelengthseconds": "79200",
+        "@activefarmbonus": "0.4",
+        "@itemvalue": "720",
+        "@shopsubcategory2": "babys",
+        "@shopsubcategory3": "goose",
+        "craftingrequirements": {
+          "@silver": "10000",
+          "@time": "0",
+          "@swaptransaction": "true"
+        },
+        "AudioInfo": {
+          "@name": "FARMABLE_GOOSE_BABY"
+        },
+        "grownitem": {
+          "@uniquename": "T5_FARM_GOOSE_GROWN",
+          "@growtime": "158400",
+          "@fame": "100",
+          "offspring": {
+            "@chance": "0.8000",
+            "@amount": "1"
+          }
+        },
+        "consumption": {
+          "food": {
+            "@nutritionmax": "864",
+            "@secondspernutrition": "183.34",
+            "@hungryoverheadicon": "FX/ClientPrefabs/fx_farming_focus_icon_cabbage",
+            "acceptedfood": {
+              "@foodcategory": "plants",
+              "@favorite": "T5_CABBAGE",
+              "@favoritebonus": "1"
+            }
+          }
+        }
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T8_FARM_HORSE_BABY",
+      "index": "42",
+      "category": "Farming_Pasture",
+      "slot": "2h",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": "0",
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T8_FARM_HORSE_BABY",
+        "item_database_index": "42"
+      },
+      "tier": 8,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Elder's Foal",
+        "DE-DE": "Fohlen des Ältesten",
+        "FR-FR": "Poulain du sage",
+        "RU-RU": "Жеребенок (старейшина)",
+        "PL-PL": "Źrebak Starszego",
+        "ES-ES": "Potro del anciano",
+        "PT-BR": "Potro do Ancião",
+        "IT-IT": "Puledro dell'anziano",
+        "ZH-CN": "禅师级马驹",
+        "KO-KR": "장로의 망아지",
+        "JA-JP": "子馬（老熟）",
+        "ZH-TW": "禪師級小馬",
+        "ID-ID": "Anak Kuda Tetua",
+        "TR-TR": "Yüce Tayı",
+        "AR-SA": "مهر الحكيم"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Grow into a Elder's Horse which can be used to craft an Elder's Riding Horse or an Elder's Armored Horse.",
+        "DE-DE": "Wird zu einem Pferd des Ältesten, woraus ein Reitpferd des Ältesten oder ein Gepanzertes Pferd des Ältesten gefertigt werden kann.",
+        "FR-FR": "Devient un cheval du sage pouvant être utilisé pour fabriquer un cheval de monte du sage ou un cheval protégé du sage",
+        "RU-RU": "Такие жеребята вырастают в лошадей старейшины, которых можно превратить в ездовых животных.",
+        "PL-PL": "Z czasem staje się Koniem Starszego, którego można użyć do stworzenia Konia Wierzchowego lub Konia w Zbroi Starszego.",
+        "ES-ES": "Se convierte en un caballo del anciano, que se puede utilizar para crear un caballo de montar del anciano o un caballo blindado del anciano.",
+        "PT-BR": "Cresce e vira um Cavalo do Ancião, que pode ser usado para virar um Cavalo de Montar do Ancião ou um Cavalo Blindado do Ancião.",
+        "IT-IT": "Crescendo diventa un cavallo dell'anziano, che si può usare per creare un cavallo da sella dell'anziano o un cavallo corazzato dell'anziano.",
+        "ZH-CN": "可以长成禅师级成年马，之后可以驯养成为禅师级骑乘马或禅师级铠马。",
+        "KO-KR": "자라면 장로의 말이 되어, 전문가의 승용마 또는 전문가의 갑주마를 제작하는 데 사용될 수 있습니다.",
+        "JA-JP": "成長すると馬（老熟）になります。乗用馬（老熟）または装甲馬（老熟）の製造に使用可能です。",
+        "ZH-TW": "長大後成為禪師級成年馬，可訓練成禪師級騎乘馬或禪師級鐵甲馬。",
+        "ID-ID": "Tumbuh menjadi Kuda Tetua yang bisa digunakan untuk membuat Kuda Tunggangan Tetua atau Kuda Berzirah Tetua.",
+        "TR-TR": "Yetiştiğinde Yüce Atı olur ve bir Yüce Binek Atı ya da Yüce Zırhlı Atı zanaatında kullanılabilir.",
+        "AR-SA": "ينمو ليصبح حصان للحكيم والذي يمكن استخدامه لتصنيع حصان ركوب للحكيم أو حصان مدرّع للحكيم."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T8_FARM_HORSE_BABY",
+        "description_variable": "@ITEMS_T8_FARM_HORSE_BABY_DESC"
+      },
+      "origin": "Farming/Pasture/Pasture_T8_FARM_HORSE_BABY.json",
+      "raw": {
+        "@uniquename": "T8_FARM_HORSE_BABY",
+        "@tier": "8",
+        "@placefame": "0",
+        "@pickupable": "true",
+        "@destroyable": "false",
+        "@unlockedtoplace": "false",
+        "@maxstacksize": "999",
+        "@shopcategory": "farming",
+        "@shopsubcategory1": "pasture",
+        "@kind": "animal",
+        "@weight": "1.5",
+        "@unlockedtocraft": "true",
+        "@animationid": "breed",
+        "@prefabname": "FARM_HORSE_BABY_06",
+        "@prefabscale": "0.96",
+        "@resourcevalue": "0",
+        "@activefarmfocuscost": "1000",
+        "@activefarmmaxcycles": "6",
+        "@activefarmactiondurationseconds": "1",
+        "@activefarmcyclelengthseconds": "79200",
+        "@activefarmbonus": "0.0263",
+        "@shopsubcategory2": "babys",
+        "@shopsubcategory3": "horse",
+        "AudioInfo": {
+          "@name": "FARMABLE_HORSE_BABY"
+        },
+        "craftingrequirements": {
+          "@silver": "6075000",
+          "@time": "0",
+          "@swaptransaction": "true"
+        },
+        "grownitem": {
+          "@uniquename": "T8_FARM_HORSE_GROWN",
+          "@growtime": "1022400",
+          "@fame": "600",
+          "offspring": {
+            "@chance": "0.8736",
+            "@amount": "1"
+          }
+        },
+        "consumption": {
+          "food": {
+            "@nutritionmax": "19728",
+            "@secondspernutrition": "8.77",
+            "@lossbeforehungry": "48",
+            "@hungryoverheadicon": "FX/ClientPrefabs/fx_farming_focus_icon_vegetable",
+            "acceptedfood": {
+              "@foodcategory": "plants"
+            }
+          }
+        }
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T5_FARM_OX_BABY",
+      "index": "27",
+      "category": "Farming_Pasture",
+      "slot": "2h",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": "0",
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T5_FARM_OX_BABY",
+        "item_database_index": "27"
+      },
+      "tier": 5,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Expert's Ox Calf",
+        "DE-DE": "Ochsenkalb des Experten",
+        "FR-FR": "Veau de l'expert",
+        "RU-RU": "Бычок (эксперт)",
+        "PL-PL": "Cielę Wołu Znawcy",
+        "ES-ES": "Becerro del experto",
+        "PT-BR": "Novilho do Perito",
+        "IT-IT": "Vitello di bue dell'esperto",
+        "ZH-CN": "专家级牛犊",
+        "KO-KR": "전문가의 황소 송아지",
+        "JA-JP": "子牛（達人）",
+        "ZH-TW": "專家級小公牛",
+        "ID-ID": "Anak Lembu Ahli",
+        "TR-TR": "Uzman Buzağısı",
+        "AR-SA": "عجل الثور للأخصائي"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Grows into an Expert's Ox, which can be used to craft an Expert's Transport Ox.",
+        "DE-DE": "Wird zu einem Ochsen des Experten, woraus ein Transportochse des Experten gefertigt werden kann.",
+        "FR-FR": "Devient un bœuf de l'expert pouvant être utilisé pour fabriquer un bœuf de transport de l'expert",
+        "RU-RU": "Вырастет в быка эксперта, которого можно сделать ездовым.",
+        "PL-PL": "Z czasem staje się Wołem Znawcy, którego można użyć do stworzenia Wołu Pociągowego Znawcy.",
+        "ES-ES": "Se convierte en un buey del experto, que se puede utilizar para crear un buey de transporte del experto.",
+        "PT-BR": "Cresce e vira um Boi do Perito, que pode ser usado para virar um Boi de Transporte do Perito.",
+        "IT-IT": "Crescendo diventa un bue dell'esperto, che si può usare per creare un Bue da Soma dell'esperto.",
+        "ZH-CN": "可以长成专家级成年牛，之后可以驯养成为专家级役牛。",
+        "KO-KR": "자라면 전문가의 황소가 되어, 전문가의 수송용 황소를 제작하는 데 사용될 수 있습니다.",
+        "JA-JP": "成長すると牛（達人）になります。荷運び牛（達人）の製造に使用可能です。",
+        "ZH-TW": "長大後成為專家級公牛，可訓練成專家級運輸公牛。",
+        "ID-ID": "Tumbuh menjadi Lembu Ahli, yang bisa digunakan untuk membuat Lembu Pengangkut Ahli.",
+        "TR-TR": "Yetiştiğinde Uzman Öküzü olur ve bir Uzman Yük Öküzü zanaatı için kullanılabilir.",
+        "AR-SA": "ينمو ليصبح ثور الأخصائي، والذي يمكن استخدامه لتصنيع ثور نقل للأخصائي."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T5_FARM_OX_BABY",
+        "description_variable": "@ITEMS_T5_FARM_OX_BABY_DESC"
+      },
+      "origin": "Farming/Pasture/Pasture_T5_FARM_OX_BABY.json",
+      "raw": {
+        "@uniquename": "T5_FARM_OX_BABY",
+        "@tier": "5",
+        "@placefame": "0",
+        "@pickupable": "true",
+        "@destroyable": "false",
+        "@unlockedtoplace": "false",
+        "@maxstacksize": "999",
+        "@shopcategory": "farming",
+        "@shopsubcategory1": "pasture",
+        "@kind": "animal",
+        "@weight": "1.5",
+        "@unlockedtocraft": "true",
+        "@animationid": "breed",
+        "@prefabname": "FARM_OX_BABY_03",
+        "@prefabscale": "0.72",
+        "@resourcevalue": "0",
+        "@activefarmfocuscost": "1000",
+        "@activefarmmaxcycles": "3",
+        "@activefarmactiondurationseconds": "1",
+        "@activefarmcyclelengthseconds": "79200",
+        "@activefarmbonus": "0.0889",
+        "@shopsubcategory2": "babys",
+        "@shopsubcategory3": "ox",
+        "AudioInfo": {
+          "@name": "FARMABLE_OX_BABY"
+        },
+        "craftingrequirements": {
+          "@silver": "225000",
+          "@time": "0",
+          "@swaptransaction": "true"
+        },
+        "grownitem": {
+          "@uniquename": "T5_FARM_OX_GROWN",
+          "@growtime": "504000",
+          "@fame": "300",
+          "offspring": {
+            "@chance": "0.7867",
+            "@amount": "1"
+          }
+        },
+        "consumption": {
+          "food": {
+            "@nutritionmax": "1488",
+            "@secondspernutrition": "116.67",
+            "@lossbeforehungry": "48",
+            "@hungryoverheadicon": "FX/ClientPrefabs/fx_farming_focus_icon_vegetable",
+            "acceptedfood": {
+              "@foodcategory": "plants"
+            }
+          }
+        }
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T4_FARM_OX_BABY",
+      "index": "26",
+      "category": "Farming_Pasture",
+      "slot": "2h",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": "0",
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T4_FARM_OX_BABY",
+        "item_database_index": "26"
+      },
+      "tier": 4,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Adept's Ox Calf",
+        "DE-DE": "Ochsenkalb des Adepten",
+        "FR-FR": "Veau de l'adepte",
+        "RU-RU": "Бычок (знаток)",
+        "PL-PL": "Cielę Wołu Adepta",
+        "ES-ES": "Becerro del iniciado",
+        "PT-BR": "Novilho do Adepto",
+        "IT-IT": "Vitello di bue del sapiente",
+        "ZH-CN": "老手级牛犊",
+        "KO-KR": "숙련자의 황소 송아지",
+        "JA-JP": "子牛（名人）",
+        "ZH-TW": "老手級小公牛",
+        "ID-ID": "Anak Lembu Mahir",
+        "TR-TR": "Ehil Buzağısı",
+        "AR-SA": "عجل الثور للبارع"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Grows into an Adept's Ox, which can be used to craft an Adept's Transport Ox.",
+        "DE-DE": "Wird zu einem Ochsen des Adepten, woraus ein Transportochse des Adepten gefertigt werden kann.",
+        "FR-FR": "Devient un bœuf de l'adepte pouvant être utilisé pour fabriquer un bœuf de transport de l'adepte",
+        "RU-RU": "Вырастет в быка знатока, которого можно сделать ездовым.",
+        "PL-PL": "Z czasem staje się Wołem Adepta, którego można użyć do stworzenia Wołu Pociągowego Adepta.",
+        "ES-ES": "Se convierte en un buey del iniciado, que se puede utilizar para crear un buey de transporte del iniciado.",
+        "PT-BR": "Cresce e vira um Boi do Adepto, que pode ser usado para virar um Boi de Transporte do Adepto.",
+        "IT-IT": "Crescendo diventa un bue del sapiente, che si può usare per creare un Bue da Soma del sapiente.",
+        "ZH-CN": "可以长成老手级成年牛，之后可以驯养成为老手级役牛。",
+        "KO-KR": "자라면 숙련자의 황소가 되어, 숙련자의 수송용 황소를 제작하는 데 사용될 수 있습니다.",
+        "JA-JP": "成長すると牛（名人）になります。荷運び牛（名人）の製造に使用可能です。",
+        "ZH-TW": "長大後成為老手級公牛，可訓練成老手級運輸公牛。",
+        "ID-ID": "Tumbuh menjadi Lembu Mahir, yang bisa digunakan untuk membuat Lembu Pengangkut Mahir.",
+        "TR-TR": "Yetiştiğinde Ehil Öküzü olur ve bir Ehil Yük Öküzü zanaatı için kullanılabilir.",
+        "AR-SA": "ينمو ليصبح ثور البارع، الذي يمكن استخدامه لتصنيع ثور نقل للبارع."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T4_FARM_OX_BABY",
+        "description_variable": "@ITEMS_T4_FARM_OX_BABY_DESC"
+      },
+      "origin": "Farming/Pasture/Pasture_T4_FARM_OX_BABY.json",
+      "raw": {
+        "@uniquename": "T4_FARM_OX_BABY",
+        "@tier": "4",
+        "@placefame": "0",
+        "@pickupable": "true",
+        "@destroyable": "false",
+        "@unlockedtoplace": "false",
+        "@maxstacksize": "999",
+        "@shopcategory": "farming",
+        "@shopsubcategory1": "pasture",
+        "@kind": "animal",
+        "@weight": "1.5",
+        "@unlockedtocraft": "true",
+        "@animationid": "breed",
+        "@prefabname": "FARM_OX_BABY_02",
+        "@prefabscale": "0.72",
+        "@resourcevalue": "0",
+        "@activefarmfocuscost": "1000",
+        "@activefarmmaxcycles": "2",
+        "@activefarmactiondurationseconds": "1",
+        "@activefarmcyclelengthseconds": "79200",
+        "@activefarmbonus": "0.1333",
+        "@shopsubcategory2": "babys",
+        "@shopsubcategory3": "ox",
+        "AudioInfo": {
+          "@name": "FARMABLE_OX_BABY"
+        },
+        "craftingrequirements": {
+          "@silver": "75000",
+          "@time": "0",
+          "@swaptransaction": "true"
+        },
+        "grownitem": {
+          "@uniquename": "T4_FARM_OX_GROWN",
+          "@growtime": "331200",
+          "@fame": "200",
+          "offspring": {
+            "@chance": "0.7867",
+            "@amount": "1"
+          }
+        },
+        "consumption": {
+          "food": {
+            "@nutritionmax": "768",
+            "@secondspernutrition": "230",
+            "@lossbeforehungry": "48",
+            "@hungryoverheadicon": "FX/ClientPrefabs/fx_farming_focus_icon_vegetable",
+            "acceptedfood": {
+              "@foodcategory": "plants"
+            }
+          }
+        }
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T7_FARM_PIG_BABY",
+      "index": "109",
+      "category": "Farming_Pasture",
+      "slot": "2h",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": "720",
+        "resourcevalue": "554",
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T7_FARM_PIG_BABY",
+        "item_database_index": "109"
+      },
+      "tier": 7,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Piglet",
+        "DE-DE": "Ferkel",
+        "FR-FR": "Porcelet",
+        "RU-RU": "Поросенок",
+        "PL-PL": "Prosię",
+        "ES-ES": "Lechón",
+        "PT-BR": "Leitão",
+        "IT-IT": "Maialino",
+        "ZH-CN": "猪崽",
+        "KO-KR": "새끼 돼지",
+        "JA-JP": "子豚",
+        "ZH-TW": "小豬",
+        "ID-ID": "Anak Babi",
+        "TR-TR": "Domuz Yavrusu",
+        "AR-SA": "صغير خنزير"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "You can Place piglets on your pasture for them to grow up into Pigs",
+        "DE-DE": "Du kannst Ferkel auf die Weide schicken, damit sie zu Schweinen werden.",
+        "FR-FR": "Dans votre pâturage, les porcelets deviennent des cochons",
+        "RU-RU": "Отправьте поросят на пастбище, и они вырастут в свиней.",
+        "PL-PL": "Można umieścić Prosię na swojej farmie, gdzie z czasem stanie się dorosłą Świnią",
+        "ES-ES": "Puedes colocar lechones en tu pasto para que se conviertan en cerdos",
+        "PT-BR": "Coloque os Leitões no pasto e eles crescerão até virarem Porcos",
+        "IT-IT": "Assegna i maialini a un pascolo per farli diventare maiali.",
+        "ZH-CN": "猪崽可以送进栏圈，之后可以长成家猪。",
+        "KO-KR": "새끼 돼지를 목초지에 배치해서 돼지로 키울 수 있습니다.",
+        "JA-JP": "子豚を牧草地に配置して、豚に成長させることができます。",
+        "ZH-TW": "您可以把小豬放入牧場，將牠們養大",
+        "ID-ID": "Kamu bisa Meletakkan anak babi di padang rumputmu agar tumbuh menjadi Babi",
+        "TR-TR": "Otlak yerlerine Domuz Yavruları yerleştirerek Domuz elde etmek üzere yetiştirebilirsin.",
+        "AR-SA": "يمكنك وضع صغار الخنازير في المرعى كي تنمو وتصبح خنازير"
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T7_FARM_PIG_BABY",
+        "description_variable": "@ITEMS_T7_FARM_PIG_BABY_DESC"
+      },
+      "origin": "Farming/Pasture/Pasture_T7_FARM_PIG_BABY.json",
+      "raw": {
+        "@uniquename": "T7_FARM_PIG_BABY",
+        "@tier": "7",
+        "@placefame": "0",
+        "@pickupable": "true",
+        "@destroyable": "false",
+        "@unlockedtoplace": "false",
+        "@maxstacksize": "999",
+        "@shopcategory": "farming",
+        "@shopsubcategory1": "pasture",
+        "@kind": "animal",
+        "@weight": "0.2",
+        "@unlockedtocraft": "true",
+        "@animationid": "breed",
+        "@prefabname": "FARM_PIG_BABY_01",
+        "@prefabscale": "0.6",
+        "@resourcevalue": "554",
+        "@activefarmfocuscost": "1000",
+        "@activefarmmaxcycles": "1",
+        "@activefarmactiondurationseconds": "1",
+        "@activefarmcyclelengthseconds": "79200",
+        "@activefarmbonus": "0.1778",
+        "@itemvalue": "720",
+        "@shopsubcategory2": "babys",
+        "@shopsubcategory3": "pig",
+        "craftingrequirements": {
+          "@silver": "22500",
+          "@time": "0",
+          "@swaptransaction": "true"
+        },
+        "AudioInfo": {
+          "@name": "FARMABLE_PIG_BABY"
+        },
+        "grownitem": {
+          "@uniquename": "T7_FARM_PIG_GROWN",
+          "@growtime": "158400",
+          "@fame": "100",
+          "offspring": {
+            "@chance": "0.9111",
+            "@amount": "1"
+          }
+        },
+        "consumption": {
+          "food": {
+            "@nutritionmax": "864",
+            "@secondspernutrition": "183.34",
+            "@hungryoverheadicon": "FX/ClientPrefabs/fx_farming_focus_icon_corn",
+            "acceptedfood": {
+              "@foodcategory": "plants",
+              "@favorite": "T7_CORN",
+              "@favoritebonus": "1"
+            }
+          }
+        }
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T4_FARM_GIANTSTAG_GROWN",
+      "index": "86",
+      "category": "Farming_Pasture",
+      "slot": "2h",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": "0",
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T4_FARM_GIANTSTAG_GROWN",
+        "item_database_index": "86"
+      },
+      "tier": 4,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Adept's Tame Giant Stag",
+        "DE-DE": "Zahmer Riesenhirsch des Adepten",
+        "FR-FR": "Cerf géant apprivoisé de l'adepte",
+        "RU-RU": "Ручной гигантский олень (знаток)",
+        "PL-PL": "Oswojony Jelonek Olbrzymi Adepta",
+        "ES-ES": "Ciervo gigante domado del iniciado",
+        "PT-BR": "Veado Gigante Manso do Adepto",
+        "IT-IT": "Cervo gigante domato del sapiente",
+        "ZH-CN": "老手级家养巨鹿",
+        "KO-KR": "숙련자의 길들인 거대 숫사슴",
+        "JA-JP": "飼い慣らした巨大雄ジカ（名人）",
+        "ZH-TW": "老手級馴化巨鹿",
+        "ID-ID": "Rusa Raksasa Jinak Mahir",
+        "TR-TR": "Ehil Evcil Dev Geyiği",
+        "AR-SA": "الأيل العملاق المروّض للبارع"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Can be used to craft a Giant Stag mount.",
+        "DE-DE": "Kann zu einem reitbaren Riesenhirsch ausgebildet werden.",
+        "FR-FR": "Peut être utilisé pour fabriquer une monture Cerf géant.",
+        "RU-RU": "Можно использовать для создания скакуна «Гигантский олень».",
+        "PL-PL": "Może zostać wykorzystany do uzyskania Osiodłanego Jelonka Olbrzymiego.",
+        "ES-ES": "Puede ser usado para crear la montura de Ciervo gigante.",
+        "PT-BR": "Pode ser usado para virar uma montaria Veado Gigante.",
+        "IT-IT": "Si può usare per creare una cavalcatura \"Cervo gigante\".",
+        "ZH-CN": "可以驯养成为巨鹿坐骑。",
+        "KO-KR": "거대 숫사슴 탈것을 제작하는 데 사용될 수 있습니다.",
+        "JA-JP": "巨大雄ジカ（騎獣）の製造に使用可能です。",
+        "ZH-TW": "可訓練成巨鹿坐騎。",
+        "ID-ID": "Bisa digunakan untuk membuat Rusa Raksasa tunggangan.",
+        "TR-TR": "Bir Dev Geyik bineği zanaatı için kullanılabilir.",
+        "AR-SA": "يمكن استخدامه لتصنيع مطية أيل عملاق."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T4_FARM_GIANTSTAG_GROWN",
+        "description_variable": "@ITEMS_T4_FARM_GIANTSTAG_GROWN_DESC"
+      },
+      "origin": "Farming/Pasture/Pasture_T4_FARM_GIANTSTAG_GROWN.json",
+      "raw": {
+        "@uniquename": "T4_FARM_GIANTSTAG_GROWN",
+        "@uisprite": "FARM_GIANTSTAG_GROWN_01",
+        "@tier": "4",
+        "@placefame": "0",
+        "@pickupable": "true",
+        "@destroyable": "false",
+        "@unlockedtoplace": "false",
+        "@maxstacksize": "999",
+        "@shopcategory": "farming",
+        "@shopsubcategory1": "pasture",
+        "@kind": "animal",
+        "@weight": "15",
+        "@unlockedtocraft": "false",
+        "@tile": "T4_FARM_GIANTSTAG_BABY",
+        "@prefabname": "FARM_GIANTSTAG_GROWN_01",
+        "@prefabscale": "1.65",
+        "@resourcevalue": "0",
+        "@animationid": "breed",
+        "@shopsubcategory2": "animals",
+        "@shopsubcategory3": "giantstag",
+        "@nutrition": "583",
+        "@foodcategory": "mount",
+        "AudioInfo": {
+          "@name": "FARMABLE_GIANTSTAG"
+        }
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T5_FARM_HORSE_BABY",
+      "index": "39",
+      "category": "Farming_Pasture",
+      "slot": "2h",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": "0",
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T5_FARM_HORSE_BABY",
+        "item_database_index": "39"
+      },
+      "tier": 5,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Expert's Foal",
+        "DE-DE": "Fohlen des Experten",
+        "FR-FR": "Poulain de l'expert",
+        "RU-RU": "Жеребенок (эксперт)",
+        "PL-PL": "Źrebak Znawcy",
+        "ES-ES": "Potro del experto",
+        "PT-BR": "Potro do Perito",
+        "IT-IT": "Puledro dell'esperto",
+        "ZH-CN": "专家级马驹",
+        "KO-KR": "전문가의 망아지",
+        "JA-JP": "子馬（達人）",
+        "ZH-TW": "專家級小馬",
+        "ID-ID": "Anak Kuda Ahli",
+        "TR-TR": "Uzman Tayı",
+        "AR-SA": "مهر الأخصائي"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Grows into an Expert's Horse, which can be used to craft an Expert's Riding Horse or an Expert's Armored Horse.",
+        "DE-DE": "Wird zu einem Pferd des Experten, woraus ein Reitpferd des Experten oder ein Gepanzertes Pferd des Experten gefertigt werden kann.",
+        "FR-FR": "Devient un cheval de l'expert pouvant être utilisé pour fabriquer un cheval de monte de l'expert ou un cheval protégé de l'expert",
+        "RU-RU": "Такие жеребята вырастают в лошадей эксперта, которых можно превратить в ездовых животных.",
+        "PL-PL": "Z czasem staje się Koniem Znawcy, którego można użyć do stworzenia Konia Wierzchowego lub Konia w Zbroi Znawcy.",
+        "ES-ES": "Se convierte en un caballo del experto, que se puede utilizar para crear un caballo de montar del experto o un caballo blindado del experto.",
+        "PT-BR": "Cresce e vira um Cavalo do Perito, que pode ser usado para virar um Cavalo de Montar do Perito ou um Cavalo Blindado do Perito.",
+        "IT-IT": "Crescendo diventa un cavallo dell'esperto, che si può usare per creare un cavallo da sella dell'esperto o un cavallo corazzato dell'esperto.",
+        "ZH-CN": "可以长成专家级成年马，之后可以驯养成为专家级骑乘马或专家级铠马。",
+        "KO-KR": "자라면 전문가의 말이 되어, 전문가의 승용마 또는 전문가의 갑주마를 제작하는 데 사용될 수 있습니다.",
+        "JA-JP": "成長すると馬（達人）になります。乗用馬（達人）または装甲馬（達人）の製造に使用可能です。",
+        "ZH-TW": "長大後成為專家級成年馬，可訓練成專家級騎乘馬或專家級鐵甲馬。",
+        "ID-ID": "Tumbuh menjadi Kuda Ahli, yang bisa digunakan untuk membuat Kuda Tunggangan Ahli atau Kuda Berzirah Ahli.",
+        "TR-TR": "Yetiştiğinde Uzman Atı olur ve bir Uzman Binek Atı ya da Uzman Zırhlı Atı zanaatı için kullanılabilir.",
+        "AR-SA": "ينمو ليصبح حصان الأخصائي الذي يمكن استخدامه لتصنيع حصان ركوب للأخصائي أو حصان مدرّع للأخصائي."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T5_FARM_HORSE_BABY",
+        "description_variable": "@ITEMS_T5_FARM_HORSE_BABY_DESC"
+      },
+      "origin": "Farming/Pasture/Pasture_T5_FARM_HORSE_BABY.json",
+      "raw": {
+        "@uniquename": "T5_FARM_HORSE_BABY",
+        "@tier": "5",
+        "@placefame": "0",
+        "@pickupable": "true",
+        "@destroyable": "false",
+        "@unlockedtoplace": "false",
+        "@maxstacksize": "999",
+        "@shopcategory": "farming",
+        "@shopsubcategory1": "pasture",
+        "@kind": "animal",
+        "@weight": "1.5",
+        "@unlockedtocraft": "true",
+        "@animationid": "breed",
+        "@prefabname": "FARM_HORSE_BABY_03",
+        "@prefabscale": "0.96",
+        "@resourcevalue": "0",
+        "@activefarmfocuscost": "1000",
+        "@activefarmmaxcycles": "3",
+        "@activefarmactiondurationseconds": "1",
+        "@activefarmcyclelengthseconds": "79200",
+        "@activefarmbonus": "0.0889",
+        "@shopsubcategory2": "babys",
+        "@shopsubcategory3": "horse",
+        "AudioInfo": {
+          "@name": "FARMABLE_HORSE_BABY"
+        },
+        "craftingrequirements": {
+          "@silver": "225000",
+          "@time": "0",
+          "@swaptransaction": "true"
+        },
+        "grownitem": {
+          "@uniquename": "T5_FARM_HORSE_GROWN",
+          "@growtime": "504000",
+          "@fame": "300",
+          "offspring": {
+            "@chance": "0.7867",
+            "@amount": "1"
+          }
+        },
+        "consumption": {
+          "food": {
+            "@nutritionmax": "1488",
+            "@secondspernutrition": "116.67",
+            "@lossbeforehungry": "48",
+            "@hungryoverheadicon": "FX/ClientPrefabs/fx_farming_focus_icon_vegetable",
+            "acceptedfood": {
+              "@foodcategory": "plants"
+            }
+          }
+        }
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T8_FARM_COW_BABY",
+      "index": "110",
+      "category": "Farming_Pasture",
+      "slot": "2h",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": "720",
+        "resourcevalue": "931",
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T8_FARM_COW_BABY",
+        "item_database_index": "110"
+      },
+      "tier": 8,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Calf",
+        "DE-DE": "Kalb",
+        "FR-FR": "Vachette",
+        "RU-RU": "Теленок",
+        "PL-PL": "Cielę",
+        "ES-ES": "Ternero",
+        "PT-BR": "Novilho",
+        "IT-IT": "Vitello",
+        "ZH-CN": "牛犊",
+        "KO-KR": "암송아지",
+        "JA-JP": "雌牛の子",
+        "ZH-TW": "小乳牛",
+        "ID-ID": "Anak Sapi",
+        "TR-TR": "Buzağı",
+        "AR-SA": "عِجل"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "You can place Calves on your pasture for them to grow up into Cows",
+        "DE-DE": "Du kannst Kälber auf die Weide schicken, damit sie zu Kühen werden.",
+        "FR-FR": "Dans votre pâturage, les veaux deviennent des vaches",
+        "RU-RU": "Отправьте телят на пастбище, и они вырастут в коров.",
+        "PL-PL": "Cielę można umieścić na swojej farmie, gdzie z czasem stanie się dorosłą krową",
+        "ES-ES": "Puedes colocar terneros en tu pasto para que se conviertan en vacas",
+        "PT-BR": "Coloque os Novilhos no pasto e eles crescerão até virarem Vacas",
+        "IT-IT": "Assegna i vitelli a un pascolo per farli diventare mucche.",
+        "ZH-CN": "牛犊可以送进栏圈，之后可以长成奶牛。",
+        "KO-KR": "암송아지를 목초지에 배치해서 암소로 키울 수 있습니다.",
+        "JA-JP": "子牛を牧草地に配置して、雌牛に成長させることができます。",
+        "ZH-TW": "您可以把小乳牛放入牧場，將牠們養大",
+        "ID-ID": "Kamu bisa meletakkan Anak Sapi di padang ruputmu agar mereka tumbuh menjadi Sapi",
+        "TR-TR": "Otlak yerlerine Buzağılar yerleştirerek İnek elde etmek üzere yetiştirebilirsin.",
+        "AR-SA": "يمكنك وضع العجول في المرعى كي تنمو وتصبح أبقارًا"
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T8_FARM_COW_BABY",
+        "description_variable": "@ITEMS_T8_FARM_COW_BABY_DESC"
+      },
+      "origin": "Farming/Pasture/Pasture_T8_FARM_COW_BABY.json",
+      "raw": {
+        "@uniquename": "T8_FARM_COW_BABY",
+        "@tier": "8",
+        "@placefame": "0",
+        "@pickupable": "true",
+        "@destroyable": "false",
+        "@unlockedtoplace": "false",
+        "@maxstacksize": "999",
+        "@shopcategory": "farming",
+        "@shopsubcategory1": "pasture",
+        "@kind": "animal",
+        "@weight": "0.2",
+        "@unlockedtocraft": "true",
+        "@animationid": "breed",
+        "@prefabname": "FARM_COW_BABY_01",
+        "@prefabscale": "0.6",
+        "@resourcevalue": "931",
+        "@activefarmfocuscost": "1000",
+        "@activefarmmaxcycles": "1",
+        "@activefarmactiondurationseconds": "1",
+        "@activefarmcyclelengthseconds": "79200",
+        "@activefarmbonus": "0.1333",
+        "@itemvalue": "720",
+        "@shopsubcategory2": "babys",
+        "@shopsubcategory3": "cow",
+        "craftingrequirements": {
+          "@silver": "30000",
+          "@time": "0",
+          "@swaptransaction": "true"
+        },
+        "AudioInfo": {
+          "@name": "FARMABLE_COW_BABY"
+        },
+        "grownitem": {
+          "@uniquename": "T8_FARM_COW_GROWN",
+          "@growtime": "158400",
+          "@fame": "100",
+          "offspring": {
+            "@chance": "0.9333",
+            "@amount": "1"
+          }
+        },
+        "consumption": {
+          "food": {
+            "@nutritionmax": "864",
+            "@secondspernutrition": "183.34",
+            "@hungryoverheadicon": "FX/ClientPrefabs/fx_farming_focus_icon_pumpkin",
+            "acceptedfood": {
+              "@foodcategory": "plants",
+              "@favorite": "T8_PUMPKIN",
+              "@favoritebonus": "1"
+            }
+          }
+        }
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T5_EGG",
+      "index": "141",
+      "category": "Farming_Pasture",
+      "slot": "2h",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": "40",
+        "resourcevalue": null,
+        "famevalue": "20",
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T5_EGG",
+        "item_database_index": "141"
+      },
+      "tier": 5,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Goose Eggs",
+        "DE-DE": "Gänseeier",
+        "FR-FR": "Œuf d'oie",
+        "RU-RU": "Гусиные яйца",
+        "PL-PL": "Gęsie Jaja",
+        "ES-ES": "Huevos de ganso",
+        "PT-BR": "Ovos de Ganso",
+        "IT-IT": "Uova di oca",
+        "ZH-CN": "鹅蛋",
+        "KO-KR": "거위 알",
+        "JA-JP": "ガチョウの卵",
+        "ZH-TW": "鵝蛋",
+        "ID-ID": "Telur Angsa",
+        "TR-TR": "Kaz Yumurtaları",
+        "AR-SA": "بيض الأوز"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Goose Eggs are used in several cooking recipes and potions.",
+        "DE-DE": "Mehrere Kochrezepte und Tränke verwenden Gänseeier.",
+        "FR-FR": "Les œufs d'oie servent à concocter recettes et potions",
+        "RU-RU": "Используется в различных блюдах и эликсирах.",
+        "PL-PL": "Gęsie jaja służą do przygotowania kilku potraw oraz mikstur",
+        "ES-ES": "Los huevos de ganso se usan en varias recetas de cocina y pociones",
+        "PT-BR": "Os Ovos de Ganso são usados em várias receitas e poções",
+        "IT-IT": "Le uova di oca sono un ingrediente di molte ricette e pozioni.",
+        "ZH-CN": "鹅蛋可以用于烹饪多种食物或配制多种药水。",
+        "KO-KR": "거위 알은 다양한 요리 레시피와 포션에 사용됩니다.",
+        "JA-JP": "ガチョウの卵は、様々な調理レシピやポーションに使われています。",
+        "ZH-TW": "鵝蛋可作為數種料理的食材和藥水的原料。",
+        "ID-ID": "Telur Angsa digunakan dalam beberapa resep memasak dan ramuan.",
+        "TR-TR": "Kaz Yumurtaları, çeşitli yemek tariflerinde ve iksir yapımlarında kullanılır.",
+        "AR-SA": "يُستخدم بيض الأوز في جرعات وصفات طبخ عديدة."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T5_EGG",
+        "description_variable": "@ITEMS_T5_EGG_DESC"
+      },
+      "origin": "Farming/Pasture/Pasture_T5_EGG.json",
+      "raw": {
+        "@uniquename": "T5_EGG",
+        "@nutrition": "48",
+        "@shopcategory": "farming",
+        "@shopsubcategory1": "pasture",
+        "@resourcetype": "PRODUCTS",
+        "@tier": "5",
+        "@weight": "0.6",
+        "@maxstacksize": "999",
+        "@itemvalue": "40",
+        "@famevalue": "20",
+        "@shopsubcategory2": "egg"
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T8_FARM_HORSE_GROWN",
+      "index": "48",
+      "category": "Farming_Pasture",
+      "slot": "2h",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": "0",
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T8_FARM_HORSE_GROWN",
+        "item_database_index": "48"
+      },
+      "tier": 8,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Elder's Horse",
+        "DE-DE": "Pferd des Ältesten",
+        "FR-FR": "Cheval du sage",
+        "RU-RU": "Лошадь (старейшина)",
+        "PL-PL": "Koń Starszego",
+        "ES-ES": "Caballo del anciano",
+        "PT-BR": "Cavalo do Ancião",
+        "IT-IT": "Cavallo dell'anziano",
+        "ZH-CN": "禅师级成年马",
+        "KO-KR": "장로의 말",
+        "JA-JP": "馬（老熟）",
+        "ZH-TW": "禪師級成年馬",
+        "ID-ID": "Kuda Tetua",
+        "TR-TR": "Yüce Atı",
+        "AR-SA": "حصان الحكيم"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Can be used to craft an Elder's Riding Horse or an Elder's Armored Horse.",
+        "DE-DE": "Daraus kann ein Reitpferd des Ältesten oder ein Gepanzertes Pferd des Ältesten gefertigt werden.",
+        "FR-FR": "Peut être utilisé pour fabriquer un cheval de monte du sage ou un cheval protégé du sage",
+        "RU-RU": "Лошадь старейшины можно сделать ездовой или боевой.",
+        "PL-PL": "Można go użyć do stworzenia Konia Wierzchowego lub Konia w Zbroi Starszego.",
+        "ES-ES": "Se puede utilizar para crear un caballo de montar del anciano o un caballo blindado del anciano.",
+        "PT-BR": "Pode ser usado para virar um Cavalo de Montar do Ancião ou um Cavalo Blindado do Ancião.",
+        "IT-IT": "Si può usare per creare un cavallo da sella dell'anziano o un cavallo corazzato dell'anziano.",
+        "ZH-CN": "可以驯养成为禅师级骑乘马或禅师级铠马。",
+        "KO-KR": "장로의 승용마 또는 장로의 갑주마를 제작하는 데 사용될 수 있습니다.",
+        "JA-JP": "乗用馬（老熟）または装甲馬（老熟）の製造に使用可能です。",
+        "ZH-TW": "可訓練成禪師級騎乘馬或禪師級鐵甲馬。",
+        "ID-ID": "Bisa digunakan untuk membuat Kuda Tunggangan Tetua atau Kuda Berzirah Tetua.",
+        "TR-TR": "Bir Yüce Binek Atı veya bir Yüce Zırhlı Atı zanaatında kullanılabilir.",
+        "AR-SA": "يمكن استخدامه لتصنيع حصان ركوب للحكيم أو حصان مدرّع للحكيم."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T8_FARM_HORSE_GROWN",
+        "description_variable": "@ITEMS_T8_FARM_HORSE_GROWN_DESC"
+      },
+      "origin": "Farming/Pasture/Pasture_T8_FARM_HORSE_GROWN.json",
+      "raw": {
+        "@uniquename": "T8_FARM_HORSE_GROWN",
+        "@tier": "8",
+        "@placefame": "0",
+        "@pickupable": "true",
+        "@destroyable": "false",
+        "@unlockedtoplace": "false",
+        "@maxstacksize": "999",
+        "@shopcategory": "farming",
+        "@shopsubcategory1": "pasture",
+        "@kind": "animal",
+        "@weight": "15",
+        "@unlockedtocraft": "false",
+        "@tile": "T8_FARM_HORSE_BABY",
+        "@prefabname": "FARM_HORSE_GROWN_06",
+        "@prefabscale": "1.44",
+        "@resourcevalue": "0",
+        "@animationid": "breed",
+        "@shopsubcategory2": "animals",
+        "@shopsubcategory3": "horse",
+        "@nutrition": "59049",
+        "@foodcategory": "mount",
+        "AudioInfo": {
+          "@name": "FARMABLE_HORSE"
+        }
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T6_FARM_SHEEP_GROWN",
+      "index": "114",
+      "category": "Farming_Pasture",
+      "slot": "2h",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": "720",
+        "resourcevalue": "341",
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T6_FARM_SHEEP_GROWN",
+        "item_database_index": "114"
+      },
+      "tier": 6,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Sheep",
+        "DE-DE": "Schaf",
+        "FR-FR": "Mouton",
+        "RU-RU": "Овца",
+        "PL-PL": "Owca",
+        "ES-ES": "Oveja",
+        "PT-BR": "Ovelha",
+        "IT-IT": "Pecora",
+        "ZH-CN": "成年绵羊",
+        "KO-KR": "양",
+        "JA-JP": "羊",
+        "ZH-TW": "綿羊",
+        "ID-ID": "Domba",
+        "TR-TR": "Koyun",
+        "AR-SA": "الخراف"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Sheep can be slaughtered to produce Raw Mutton, or left alive to produce Sheep's Milk",
+        "DE-DE": "Schlachte Schafe für rohes Hammelfleisch oder lass sie am Leben und erhalte Schafsmilch.",
+        "FR-FR": "Tuez un mouton pour obtenir du mouton cru ou gardez-le en vie pour son lait de mouton",
+        "RU-RU": "Забейте овцу ради мяса или оставьте в живых - пусть дает молоко.",
+        "PL-PL": "Owce można zabić na surową baraninę lub zostawić na owcze mleko",
+        "ES-ES": "Puedes sacrificar ovejas para conseguir carne de carnero o dejarlas vivas y obtener leche",
+        "PT-BR": "Abata Ovelhas para produzir Carneiro Cru ou deixe-as vivas para produzirem Leite de Ovelha",
+        "IT-IT": "Una pecora può essere macellata per produrre carne di montone cruda, oppure può essere lasciata in vita per ottenerne latte di pecora.",
+        "ZH-CN": "绵羊可以宰杀变成绵羊肉，或者留着生产绵羊奶",
+        "KO-KR": "양은 도살해서 생 양고기를 만들거나, 살려 두면 양젖을 생산합니다.",
+        "JA-JP": "羊は屠殺して生のマトンに加工できます。生かしたままにしておけば、羊のミルクが取れます。",
+        "ZH-TW": "綿羊可經屠宰製成生綿羊肉，或留著持續生產綿羊奶",
+        "ID-ID": "Domba bisa disembelih untuk menghasilkan Daging Domba Mentah, atau dipelihara agar menghasilkan Susu Domba.",
+        "TR-TR": "Koyunlar, Çiğ Koyun Eti elde etmek üzere kesilebilir ya da sağ bırakılarak Koyun Sütü üretmeleri sağlanabilir.",
+        "AR-SA": "يمكن ذبح الخراف لإنتاج اللحم الضأن النيئ، أو تركها على قيد الحياة لإنتاج حليب الخراف"
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T6_FARM_SHEEP_GROWN",
+        "description_variable": "@ITEMS_T6_FARM_SHEEP_GROWN_DESC"
+      },
+      "origin": "Farming/Pasture/Pasture_T6_FARM_SHEEP_GROWN.json",
+      "raw": {
+        "@uniquename": "T6_FARM_SHEEP_GROWN",
+        "@tier": "6",
+        "@placefame": "0",
+        "@pickupable": "true",
+        "@destroyable": "false",
+        "@unlockedtoplace": "false",
+        "@maxstacksize": "999",
+        "@shopcategory": "farming",
+        "@shopsubcategory1": "pasture",
+        "@kind": "animal",
+        "@weight": "10.83",
+        "@unlockedtocraft": "false",
+        "@tile": "T6_FARM_SHEEP_BABY",
+        "@prefabname": "FARM_SHEEP_GROWN_01",
+        "@prefabscale": "1.1",
+        "@resourcevalue": "341",
+        "@animationid": "breed",
+        "@itemvalue": "720",
+        "@shopsubcategory2": "animals",
+        "@shopsubcategory3": "sheep",
+        "AudioInfo": {
+          "@name": "FARMABLE_SHEEP"
+        },
+        "consumption": {
+          "food": {
+            "@nutritionmax": "864",
+            "@secondspernutrition": "91.67",
+            "@hungryoverheadicon": "FX/ClientPrefabs/fx_farming_focus_icon_potato",
+            "acceptedfood": {
+              "@foodcategory": "plants",
+              "@favorite": "T6_POTATO",
+              "@favoritebonus": "1"
+            }
+          }
+        },
+        "products": {
+          "product": {
+            "@productiontime": "79200",
+            "@actionname": "@FARMABLE_GETPRODUCT_BUTTON_MILK",
+            "@lootlist": "T6_SHEEP_LOOT",
+            "@lootchance": "1",
+            "@fame": "100"
+          }
+        }
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T3_FARM_OX_GROWN",
+      "index": "31",
+      "category": "Farming_Pasture",
+      "slot": "2h",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": "0",
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T3_FARM_OX_GROWN",
+        "item_database_index": "31"
+      },
+      "tier": 3,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Journeyman's Ox",
+        "DE-DE": "Ochse des Gesellen",
+        "FR-FR": "Bœuf du compagnon",
+        "RU-RU": "Бык (странник)",
+        "PL-PL": "Wół Czeladnika",
+        "ES-ES": "Buey del obrero",
+        "PT-BR": "Boi do Iniciante",
+        "IT-IT": "Bue dell'apprendista",
+        "ZH-CN": "学徒级成年牛",
+        "KO-KR": "장인의 황소",
+        "JA-JP": "牛（熟練）",
+        "ZH-TW": "學徒級公牛",
+        "ID-ID": "Lembu Pengembara",
+        "TR-TR": "Kalfa Öküzü",
+        "AR-SA": "ثور الموثوق"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Can be used to craft a Journeyman's Transport Ox.",
+        "DE-DE": "Daraus kann ein Transportochse des Gesellen werden.",
+        "FR-FR": "Peut être utilisé pour fabriquer un bœuf de transport du compagnon.",
+        "RU-RU": "Используется для создания Упряжного быка (странник).",
+        "PL-PL": "Można użyć do stworzenia Wołu Pociągowego Czeladnika.",
+        "ES-ES": "Puede ser usado para fabricar un Buey de transporte.",
+        "PT-BR": "Pode ser usado para virar um Boi de Transporte do Iniciante.",
+        "IT-IT": "Si può usare per creare un Bue da Soma dell'apprendista.",
+        "ZH-CN": "可以驯养成为学徒级役牛。",
+        "KO-KR": "장인의 수송용 황소를 제작하는 데 사용될 수 있습니다.",
+        "JA-JP": "荷運び牛（熟練）の製造に使用可能です。",
+        "ZH-TW": "可訓練成學徒級運輸公牛。",
+        "ID-ID": "Bisa digunakan untuk membuat Lembu Pengangkut Pengembara.",
+        "TR-TR": "Bir Kalfa Yük Öküzü zanaatı için kullanılabilir.",
+        "AR-SA": "يمكن استخدامه لتصنيع ثور نقل للموثوق."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T3_FARM_OX_GROWN",
+        "description_variable": "@ITEMS_T3_FARM_OX_GROWN_DESC"
+      },
+      "origin": "Farming/Pasture/Pasture_T3_FARM_OX_GROWN.json",
+      "raw": {
+        "@uniquename": "T3_FARM_OX_GROWN",
+        "@tier": "3",
+        "@placefame": "0",
+        "@pickupable": "true",
+        "@destroyable": "false",
+        "@unlockedtoplace": "false",
+        "@maxstacksize": "999",
+        "@shopcategory": "farming",
+        "@shopsubcategory1": "pasture",
+        "@kind": "animal",
+        "@weight": "15",
+        "@unlockedtocraft": "false",
+        "@tile": "T3_FARM_OX_BABY",
+        "@prefabname": "FARM_OX_GROWN_01",
+        "@prefabscale": "1.2",
+        "@resourcevalue": "0",
+        "@animationid": "breed",
+        "@shopsubcategory2": "animals",
+        "@shopsubcategory3": "ox",
+        "@nutrition": "170",
+        "@foodcategory": "mount",
+        "AudioInfo": {
+          "@name": "FARMABLE_OX"
+        }
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T6_FARM_GIANTSTAG_MOOSE_BABY",
+      "index": "58",
+      "category": "Farming_Pasture",
+      "slot": "2h",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": "1280",
+        "resourcevalue": "0",
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T6_FARM_GIANTSTAG_MOOSE_BABY",
+        "item_database_index": "58"
+      },
+      "tier": 6,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Moose Calf",
+        "DE-DE": "Elchkalb",
+        "FR-FR": "Faon",
+        "RU-RU": "Лосенок",
+        "PL-PL": "Cielę Łosia",
+        "ES-ES": "Cría de alce",
+        "PT-BR": "Alce Filhote",
+        "IT-IT": "Cucciolo di alce",
+        "ZH-CN": "小驼鹿",
+        "KO-KR": "무스 새끼",
+        "JA-JP": "ムースの子",
+        "ZH-TW": "小駝鹿",
+        "ID-ID": "Anak Rusa Besar",
+        "TR-TR": "Sığın Yavrusu",
+        "AR-SA": "صغير الظبي"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "A Moose Calf placed in a Pasture will grow into a Tame Moose, which can be trained into a mount.",
+        "DE-DE": "Ein Elchkalb wird auf einer Weide zu einem Zahmen Elch heranwachsen, dieser kann dann zu einem Reittier ausgebildet werden.",
+        "FR-FR": "Un Faon peut être placé dans un pâturage grandira en Élan apprivoisé, et pourra être entraîné en monture.",
+        "RU-RU": "Поместите Лосёнка на пастбище, чтобы вырастить из него Ручного лося, которого затем можно сделать скакуном.",
+        "PL-PL": "Cielę Łosia umieszczone w Zagrodzie wyrośnie na Oswojonego Łosia, który może być wytrenowany na wierzchowca.",
+        "ES-ES": "Una cría de alce colocada en un pasto se convertirá en un alce domado, que puede ser entrenado en una montura.",
+        "PT-BR": "Um Alce Filhote em um Pasto crescerá até virar um Alce Manso, que pode ser treinado para virar uma montaria.",
+        "IT-IT": "Un cucciolo di alce assegnato a un pascolo crescerà fino a diventare un alce domato, che potrai addestrare come cavalcatura.",
+        "ZH-CN": "小驼鹿送进栏圈之后，会长成家养驼鹿，然后可以驯养成为坐骑。",
+        "KO-KR": "목장에 놓여진 무스 새끼는 길들인 무스로 자랄 것이며, 이는 탈것으로 훈련될 수 있습니다.",
+        "JA-JP": "ムースの子は牧草地に配置すると、成長して飼い慣らしたムースになります。訓練を行なって騎獣にすることが可能です。",
+        "ZH-TW": "您可以把小駝鹿放入牧場，讓牠長大成為馴化駝鹿，再訓練成坐騎。",
+        "ID-ID": "Anak Rusa Besar yang diletakkan di Padang Rumput akan tumbuh menjadi Rusa Besar Jinak, yang bisa dilatih menjadi tunggangan.",
+        "TR-TR": "Sığın Yavruları otlak yerlerine yerleştirilip Evcil Sığın olmak üzere yetiştirilebilir ve binek olarak eğitilebilir.",
+        "AR-SA": "سينمو صغير الظبي الموجود في مرعى ليصبح ظبيًا أليفًا، ويمكن تدريبه ليُستخدم كمطية."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T6_FARM_GIANTSTAG_MOOSE_BABY",
+        "description_variable": "@ITEMS_T6_FARM_GIANTSTAG_MOOSE_BABY_DESC"
+      },
+      "origin": "Farming/Pasture/Pasture_T6_FARM_GIANTSTAG_MOOSE_BABY.json",
+      "raw": {
+        "@uniquename": "T6_FARM_GIANTSTAG_MOOSE_BABY",
+        "@itemvalue": "1280",
+        "@uisprite": "FARM_GIANTSTAG_MOOSE_BABY_01",
+        "@tier": "6",
+        "@placefame": "0",
+        "@pickupable": "true",
+        "@destroyable": "false",
+        "@unlockedtoplace": "false",
+        "@maxstacksize": "999",
+        "@shopcategory": "farming",
+        "@shopsubcategory1": "pasture",
+        "@kind": "animal",
+        "@weight": "3",
+        "@unlockedtocraft": "true",
+        "@animationid": "breed",
+        "@prefabname": "FARM_GIANTSTAG_MOOSE_BABY_01",
+        "@prefabscale": "1.1",
+        "@resourcevalue": "0",
+        "@activefarmfocuscost": "1000",
+        "@activefarmmaxcycles": "4",
+        "@activefarmactiondurationseconds": "1",
+        "@activefarmcyclelengthseconds": "79200",
+        "@activefarmbonus": "0.06",
+        "@showinmarketplace": "true",
+        "@shopsubcategory2": "babys",
+        "@shopsubcategory3": "moose",
+        "AudioInfo": {
+          "@name": "FARMABLE_GIANTSTAG_BABY"
+        },
+        "grownitem": {
+          "@uniquename": "T6_FARM_GIANTSTAG_MOOSE_GROWN",
+          "@growtime": "676800",
+          "@fame": "400",
+          "offspring": {
+            "@chance": "0.0",
+            "@amount": "1"
+          }
+        },
+        "consumption": {
+          "food": {
+            "@nutritionmax": "3312",
+            "@secondspernutrition": "52.22",
+            "@lossbeforehungry": "48",
+            "@hungryoverheadicon": "FX/ClientPrefabs/fx_farming_focus_icon_vegetable",
+            "acceptedfood": {
+              "@foodcategory": "plants"
+            }
+          }
+        }
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T3_FARM_HORSE_GROWN",
+      "index": "43",
+      "category": "Farming_Pasture",
+      "slot": "2h",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": "0",
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T3_FARM_HORSE_GROWN",
+        "item_database_index": "43"
+      },
+      "tier": 3,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Journeyman's Horse",
+        "DE-DE": "Pferd des Gesellen",
+        "FR-FR": "Cheval du compagnon",
+        "RU-RU": "Лошадь (странник)",
+        "PL-PL": "Koń Czeladnika",
+        "ES-ES": "Caballo del obrero",
+        "PT-BR": "Cavalo do Iniciante",
+        "IT-IT": "Cavallo dell'apprendista",
+        "ZH-CN": "学徒级成年马",
+        "KO-KR": "장인의 말",
+        "JA-JP": "馬（熟練）",
+        "ZH-TW": "學徒級成年馬",
+        "ID-ID": "Kuda Pengembara",
+        "TR-TR": "Kalfa Atı",
+        "AR-SA": "حصان الموثوق"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Can be used to craft a Journeyman's Riding Horse.",
+        "DE-DE": "Daraus kann ein Reitpferd des Gesellen werden.",
+        "FR-FR": "Peut être utilisé pour fabriquer un cheval de monte du compagnon.",
+        "RU-RU": "Используется для создания Ездовой лошади (странник).",
+        "PL-PL": "Można użyć do stworzenia Konia Wierzchowego Czeladnika.",
+        "ES-ES": "Puede ser usado para fabricar un caballo de montar del obrero.",
+        "PT-BR": "Pode ser usado para virar um Cavalo de Montar do Iniciante.",
+        "IT-IT": "Si può usare per creare un cavallo da sella dell'apprendista.",
+        "ZH-CN": "可以驯养成为学徒级骑乘马。",
+        "KO-KR": "장인의 승용마를 제작하는 데 사용될 수 있습니다.",
+        "JA-JP": "乗用馬（熟練）の製造に使用可能です。",
+        "ZH-TW": "可訓練成學徒級騎乘馬。",
+        "ID-ID": "Bisa digunakan untuk membuat Kuda Tunggangan Pengembara.",
+        "TR-TR": "Bir Kalfa Binek Atı zanaatı için kullanılabilir.",
+        "AR-SA": "ينمو ليصبح حصان ركوب للموثوق."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T3_FARM_HORSE_GROWN",
+        "description_variable": "@ITEMS_T3_FARM_HORSE_GROWN_DESC"
+      },
+      "origin": "Farming/Pasture/Pasture_T3_FARM_HORSE_GROWN.json",
+      "raw": {
+        "@uniquename": "T3_FARM_HORSE_GROWN",
+        "@tier": "3",
+        "@placefame": "0",
+        "@pickupable": "true",
+        "@destroyable": "false",
+        "@unlockedtoplace": "false",
+        "@maxstacksize": "999",
+        "@shopcategory": "farming",
+        "@shopsubcategory1": "pasture",
+        "@kind": "animal",
+        "@weight": "15",
+        "@unlockedtocraft": "false",
+        "@tile": "T3_FARM_HORSE_BABY",
+        "@prefabname": "FARM_HORSE_GROWN_01",
+        "@prefabscale": "1.44",
+        "@resourcevalue": "0",
+        "@animationid": "breed",
+        "@shopsubcategory2": "animals",
+        "@shopsubcategory3": "horse",
+        "@nutrition": "170",
+        "@foodcategory": "mount",
+        "AudioInfo": {
+          "@name": "FARMABLE_HORSE"
+        }
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T4_FARM_GOAT_GROWN",
+      "index": "112",
+      "category": "Farming_Pasture",
+      "slot": "2h",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": "720",
+        "resourcevalue": "154",
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T4_FARM_GOAT_GROWN",
+        "item_database_index": "112"
+      },
+      "tier": 4,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Goat",
+        "DE-DE": "Ziege",
+        "FR-FR": "Chèvre",
+        "RU-RU": "Коза",
+        "PL-PL": "Koza",
+        "ES-ES": "Cabra",
+        "PT-BR": "Cabra",
+        "IT-IT": "Capra",
+        "ZH-CN": "山羊",
+        "KO-KR": "염소",
+        "JA-JP": "ヤギ",
+        "ZH-TW": "山羊",
+        "ID-ID": "Kambing",
+        "TR-TR": "Keçi",
+        "AR-SA": "الماعز"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Goats can be slaughtered to produce Raw Goat, or kept alive to produce Goat's Milk.",
+        "DE-DE": "Schlachte Ziegen für rohes Ziegenfleisch oder lass sie am Leben und erhalte Ziegenmilch.",
+        "FR-FR": "Tuez une chèvre pour obtenir de la chèvre crue ou gardez-la en vie pour son lait de chèvre",
+        "RU-RU": "Забейте козу ради мяса или оставьте в живых - пусть дает молоко.",
+        "PL-PL": "Kozy można zabić, aby otrzymać Surowe Kozie Mięso, albo pozostawić przy życiu, aby otrzymywać Kozie Mleko",
+        "ES-ES": "Puedes sacrificar cabras para conseguir carne de cabras o dejarlas vivas y obtener leche.",
+        "PT-BR": "Abata Cabras para produzir Cabra Crua ou deixe-as vivas para produzirem Leite de Cabra",
+        "IT-IT": "Una capra può essere macellata per produrre carne di capra cruda, oppure può essere lasciata in vita per ottenerne latte di capra.",
+        "ZH-CN": "山羊可以宰杀变成山羊肉，或者留着生产山羊奶。",
+        "KO-KR": "염소는 도살해서 생 염소고기를 만들거나, 살려 두면 염소젖을 생산합니다.",
+        "JA-JP": "ヤギは屠殺して生のヤギ肉に加工できます。生かしておけば、ヤギのミルクが取れます。",
+        "ZH-TW": "山羊可經屠宰製成生山羊肉，或留著持續生產山羊奶。",
+        "ID-ID": "Kambing bisa disembelih untuk menghasilkan daging Kambing Mentah, atau dipelihara agar menghasilkan Susu Kambing.",
+        "TR-TR": "Keçiler, Çiğ Keçi Eti elde etmek için kesilebilir ya da sağ bırakılarak Keçi Sütü üretmeleri sağlanabilir.",
+        "AR-SA": "يمكن ذبح الماعز لإنتاج ماعز نيئ، أو تركه حيًا لإنتاج حليب الماعز."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T4_FARM_GOAT_GROWN",
+        "description_variable": "@ITEMS_T4_FARM_GOAT_GROWN_DESC"
+      },
+      "origin": "Farming/Pasture/Pasture_T4_FARM_GOAT_GROWN.json",
+      "raw": {
+        "@uniquename": "T4_FARM_GOAT_GROWN",
+        "@tier": "4",
+        "@placefame": "0",
+        "@pickupable": "true",
+        "@destroyable": "false",
+        "@unlockedtoplace": "false",
+        "@maxstacksize": "999",
+        "@shopcategory": "farming",
+        "@shopsubcategory1": "pasture",
+        "@kind": "animal",
+        "@weight": "10.83",
+        "@unlockedtocraft": "false",
+        "@tile": "T4_FARM_GOAT_BABY",
+        "@prefabname": "FARM_GOAT_GROWN_01",
+        "@prefabscale": "1.1",
+        "@resourcevalue": "154",
+        "@animationid": "breed",
+        "@itemvalue": "720",
+        "@shopsubcategory2": "animals",
+        "@shopsubcategory3": "goat",
+        "AudioInfo": {
+          "@name": "FARMABLE_GOAT"
+        },
+        "consumption": {
+          "food": {
+            "@nutritionmax": "864",
+            "@secondspernutrition": "91.67",
+            "@hungryoverheadicon": "FX/ClientPrefabs/fx_farming_focus_icon_turnip",
+            "acceptedfood": {
+              "@foodcategory": "plants",
+              "@favorite": "T4_TURNIP",
+              "@favoritebonus": "1"
+            }
+          }
+        },
+        "products": {
+          "product": {
+            "@productiontime": "79200",
+            "@actionname": "@FARMABLE_GETPRODUCT_BUTTON_MILK",
+            "@lootlist": "T4_GOAT_LOOT",
+            "@lootchance": "1",
+            "@fame": "100"
+          }
+        }
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T7_FARM_HORSE_BABY",
+      "index": "41",
+      "category": "Farming_Pasture",
+      "slot": "2h",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": "0",
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T7_FARM_HORSE_BABY",
+        "item_database_index": "41"
+      },
+      "tier": 7,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Grandmaster's Foal",
+        "DE-DE": "Fohlen des Großmeisters",
+        "FR-FR": "Poulain du grand maître",
+        "RU-RU": "Жеребенок (магистр)",
+        "PL-PL": "Źrebak Wszechmistrza",
+        "ES-ES": "Potro del gran maestro",
+        "PT-BR": "Potro do Grão-mestre",
+        "IT-IT": "Puledro del gran maestro",
+        "ZH-CN": "宗师级马驹",
+        "KO-KR": "그랜드 마스터의 망아지",
+        "JA-JP": "子馬（グランドマスター）",
+        "ZH-TW": "宗師級小馬",
+        "ID-ID": "Anak Kuda Grandmaster",
+        "TR-TR": "Büyük Usta Tayı",
+        "AR-SA": "مهر الأستاذ"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Grow into a Grandmaster's Horse which can be used to craft a Grandmaster's Riding Horse or a Grandmaster's Armored Horse.",
+        "DE-DE": "Wird zu einem Pferd des Großmeisters, woraus ein Reitpferd des Großmeisters oder ein Gepanzertes Pferd des Großmeisters gefertigt werden kann.",
+        "FR-FR": "Devient un cheval du grand maître pouvant être utilisé pour fabriquer un cheval de monte du grand maître ou un cheval protégé du grand maître",
+        "RU-RU": "Вырастет в лошадь магистра, которую можно сделать ездовой или боевой.",
+        "PL-PL": "Z czasem staje się Koniem Wszechmistrza, którego można użyć do stworzenia Konia Wierzchowego lub Konia w Zbroi Wszechmistrza.",
+        "ES-ES": "Se convierte en un caballo del gran maestro, que se puede utilizar para crear un caballo de montar del gran maestro o un caballo blindado del gran maestro.",
+        "PT-BR": "Cresce e vira um Cavalo do Grão-mestre, que pode ser usado para virar um Cavalo de Montar do Grão-mestre ou um Cavalo Blindado do Grão-mestre.",
+        "IT-IT": "Crescendo diventa un cavallo del gran maestro, che si può usare per creare un cavallo da sella del gran maestro o un cavallo corazzato del gran maestro.",
+        "ZH-CN": "可以长成宗师级成年马，之后可以驯养成为宗师级骑乘马或者宗师级铠马。",
+        "KO-KR": "자라면 그랜드 마스터의 말이 되어, 그랜드 마스터의 승용마 또는 그랜드 마스터의 갑주마를 제작하는 데 사용될 수 있습니다.",
+        "JA-JP": "成長すると馬（グランドマスター）になります。乗用馬（グランドマスター）または装甲馬（グランドマスター）の製造に使用可能です。",
+        "ZH-TW": "長大後成為宗師級成年馬，可訓練成宗師級騎乘馬或宗師級鐵甲馬。",
+        "ID-ID": "Tumbuh menjadi Kuda Grandmaster yang bisa digunakan untuk membuat Kuda Tunggangan Grandmaster atau Kuda Berzirah Grandmaster.",
+        "TR-TR": "Yetiştiğinde Büyük Usta Atı olur, bu da bir Büyük Usta Binek Atı ya da Büyük Usta Zırhlı Atı zanaatı için kullanılabilir.",
+        "AR-SA": "ينمو ليصبح حصان الأستاذ والذي يمكن استخدامه لتصنيع حصان ركوب للأستاذ أو حصان مدرع للأستاذ."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T7_FARM_HORSE_BABY",
+        "description_variable": "@ITEMS_T7_FARM_HORSE_BABY_DESC"
+      },
+      "origin": "Farming/Pasture/Pasture_T7_FARM_HORSE_BABY.json",
+      "raw": {
+        "@uniquename": "T7_FARM_HORSE_BABY",
+        "@tier": "7",
+        "@placefame": "0",
+        "@pickupable": "true",
+        "@destroyable": "false",
+        "@unlockedtoplace": "false",
+        "@maxstacksize": "999",
+        "@shopcategory": "farming",
+        "@shopsubcategory1": "pasture",
+        "@kind": "animal",
+        "@weight": "1.5",
+        "@unlockedtocraft": "true",
+        "@animationid": "breed",
+        "@prefabname": "FARM_HORSE_BABY_05",
+        "@prefabscale": "0.96",
+        "@resourcevalue": "0",
+        "@activefarmfocuscost": "1000",
+        "@activefarmmaxcycles": "5",
+        "@activefarmactiondurationseconds": "1",
+        "@activefarmcyclelengthseconds": "79200",
+        "@activefarmbonus": "0.0395",
+        "@shopsubcategory2": "babys",
+        "@shopsubcategory3": "horse",
+        "AudioInfo": {
+          "@name": "FARMABLE_HORSE_BABY"
+        },
+        "craftingrequirements": {
+          "@silver": "2025000",
+          "@time": "0",
+          "@swaptransaction": "true"
+        },
+        "grownitem": {
+          "@uniquename": "T7_FARM_HORSE_GROWN",
+          "@growtime": "849600",
+          "@fame": "500",
+          "offspring": {
+            "@chance": "0.8420",
+            "@amount": "1"
+          }
+        },
+        "consumption": {
+          "food": {
+            "@nutritionmax": "7920",
+            "@secondspernutrition": "21.85",
+            "@lossbeforehungry": "48",
+            "@hungryoverheadicon": "FX/ClientPrefabs/fx_farming_focus_icon_vegetable",
+            "acceptedfood": {
+              "@foodcategory": "plants"
+            }
+          }
+        }
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T3_FARM_CHICKEN_GROWN",
+      "index": "111",
+      "category": "Farming_Pasture",
+      "slot": "2h",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": "720",
+        "resourcevalue": "132",
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T3_FARM_CHICKEN_GROWN",
+        "item_database_index": "111"
+      },
+      "tier": 3,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Chicken",
+        "DE-DE": "Huhn",
+        "FR-FR": "Poulet",
+        "RU-RU": "Курица",
+        "PL-PL": "Kura",
+        "ES-ES": "Pollo",
+        "PT-BR": "Galinha",
+        "IT-IT": "Pollo",
+        "ZH-CN": "家鸡",
+        "KO-KR": "닭",
+        "JA-JP": "鶏",
+        "ZH-TW": "雞",
+        "ID-ID": "Ayam",
+        "TR-TR": "Tavuk",
+        "AR-SA": "الدجاج"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Chickens can be slaughtered to produce Raw Chicken, or left alive to produce Hen Eggs.",
+        "DE-DE": "Schlachte Hühner für rohes Huhn oder lass sie am Leben und erhalte Hühnereier.",
+        "FR-FR": "Tuez un poulet pour obtenir du poulet cru ou gardez-le en vie pour ses œufs de poule",
+        "RU-RU": "Забейте курицу ради мяса или оставьте в живых - пусть несет яйца.",
+        "PL-PL": "Kury można zabić, aby otrzymać Surowego Kurczaka, albo pozostawić przy życiu, aby otrzymywać Kurze Jaja",
+        "ES-ES": "Puedes sacrificar pollos para conseguir carne de pollo o dejarlos vivos y obtener huevos",
+        "PT-BR": "Abata Galinhas para produzir Galinha Crua ou deixe-as vivas para produzirem Ovos de Galinha",
+        "IT-IT": "Un pollo può essere macellato per produrre carne di pollo cruda, oppure può essere lasciato in vita per ottenerne uova di gallina.",
+        "ZH-CN": "家鸡可以宰杀变成鸡肉，或者留着孵蛋。",
+        "KO-KR": "닭은 도살해서 생 닭고기를 만들거나, 살려 두면 달걀을 생산합니다.",
+        "JA-JP": "鶏は屠殺して生の鶏肉に加工できます。生かしておけば鶏の卵を産みます。",
+        "ZH-TW": "雞可經屠宰製成生雞肉，或留著持續生產雞蛋。",
+        "ID-ID": "Ayam bisa disembelih untuk menghasilkan Daging Ayam Mentah, atau dibiarkan hidup untuk menghasilkan Telur Ayam.",
+        "TR-TR": "Tavuklar, Çiğ Tavuk Eti elde etmek için kesilebilir ya da sağ bırakılarak Tavuk Yumurtaları üretmeleri sağlanabilir.",
+        "AR-SA": "يمكن ذبح الدجاج لإنتاج دجاج نيء، أو تركه حيًا لإنتاج بيض الدجاج."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T3_FARM_CHICKEN_GROWN",
+        "description_variable": "@ITEMS_T3_FARM_CHICKEN_GROWN_DESC"
+      },
+      "origin": "Farming/Pasture/Pasture_T3_FARM_CHICKEN_GROWN.json",
+      "raw": {
+        "@uniquename": "T3_FARM_CHICKEN_GROWN",
+        "@tier": "3",
+        "@placefame": "0",
+        "@pickupable": "true",
+        "@destroyable": "false",
+        "@unlockedtoplace": "false",
+        "@maxstacksize": "999",
+        "@shopcategory": "farming",
+        "@shopsubcategory1": "pasture",
+        "@kind": "animal",
+        "@weight": "10.83",
+        "@unlockedtocraft": "false",
+        "@tile": "T3_FARM_CHICKEN_BABY",
+        "@prefabname": "FARM_CHICKEN_GROWN_01",
+        "@prefabscale": "1.1",
+        "@resourcevalue": "132",
+        "@animationid": "breed",
+        "@itemvalue": "720",
+        "@shopsubcategory2": "animals",
+        "@shopsubcategory3": "chicken",
+        "AudioInfo": {
+          "@name": "FARMABLE_CHICKEN"
+        },
+        "consumption": {
+          "food": {
+            "@nutritionmax": "864",
+            "@secondspernutrition": "91.67",
+            "@hungryoverheadicon": "FX/ClientPrefabs/fx_farming_focus_icon_wheat",
+            "acceptedfood": {
+              "@foodcategory": "plants",
+              "@favorite": "T3_WHEAT",
+              "@favoritebonus": "1"
+            }
+          }
+        },
+        "products": {
+          "product": {
+            "@productiontime": "79200",
+            "@actionname": "@FARMABLE_GETPRODUCT_BUTTON_EGG",
+            "@lootlist": "T3_CHICKEN_LOOT",
+            "@lootchance": "1",
+            "@fame": "100"
+          }
+        }
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T4_FARM_GOAT_BABY",
+      "index": "106",
+      "category": "Farming_Pasture",
+      "slot": "2h",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": "720",
+        "resourcevalue": "154",
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T4_FARM_GOAT_BABY",
+        "item_database_index": "106"
+      },
+      "tier": 4,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Kid",
+        "DE-DE": "Zicklein",
+        "FR-FR": "Chevreau",
+        "RU-RU": "Козленок",
+        "PL-PL": "Koźlę",
+        "ES-ES": "Cabrito",
+        "PT-BR": "Cabrito",
+        "IT-IT": "Capretto",
+        "ZH-CN": "小羊",
+        "KO-KR": "새끼 염소",
+        "JA-JP": "子ヤギ",
+        "ZH-TW": "小山羊",
+        "ID-ID": "Anak Kambing",
+        "TR-TR": "Oğlak",
+        "AR-SA": "صغير الماعز"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Kids placed in a pasture will grow into Goats.",
+        "DE-DE": "Zicklein auf der Weide wachsen zu Ziegen heran.",
+        "FR-FR": "Dans votre pâturage, les chevreaux deviennent des chèvres",
+        "RU-RU": "Отправьте козлят на пастбище, и они вырастут в коз.",
+        "PL-PL": "Koźle umieszczone na farmie z czasem stanie się dorosłą kozą",
+        "ES-ES": "Los cabritos colocados en el pasto se convertirán en cabras.",
+        "PT-BR": "Cabritos no pasto crescerão até virarem Cabras",
+        "IT-IT": "Un capretto assegnato a un pascolo crescerà fino a diventare una capra.",
+        "ZH-CN": "小羊送进栏圈之后，会长成山羊。",
+        "KO-KR": "새끼 염소를 목초지에 배치하면 염소로 자랍니다.",
+        "JA-JP": "子ヤギは牧草地に配置すると、成長してヤギになります。",
+        "ZH-TW": "您可以把小山羊放入牧場，將牠們養大。",
+        "ID-ID": "Anak kambing yang diletakkan di padang rumput akan tumbuh menjadi Kambing dewasa.",
+        "TR-TR": "Otlak yerine yerleştirilen Oğlaklar yetiştiklerinde Keçi olurlar.",
+        "AR-SA": "سينمو صغار الماعز الموجودون في المرعى ليصبحوا ماعزًا."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T4_FARM_GOAT_BABY",
+        "description_variable": "@ITEMS_T4_FARM_GOAT_BABY_DESC"
+      },
+      "origin": "Farming/Pasture/Pasture_T4_FARM_GOAT_BABY.json",
+      "raw": {
+        "@uniquename": "T4_FARM_GOAT_BABY",
+        "@tier": "4",
+        "@placefame": "0",
+        "@pickupable": "true",
+        "@destroyable": "false",
+        "@unlockedtoplace": "false",
+        "@maxstacksize": "999",
+        "@shopcategory": "farming",
+        "@shopsubcategory1": "pasture",
+        "@kind": "animal",
+        "@weight": "0.2",
+        "@unlockedtocraft": "true",
+        "@animationid": "breed",
+        "@prefabname": "FARM_GOAT_BABY_01",
+        "@prefabscale": "0.7",
+        "@resourcevalue": "154",
+        "@activefarmfocuscost": "1000",
+        "@activefarmmaxcycles": "1",
+        "@activefarmactiondurationseconds": "1",
+        "@activefarmcyclelengthseconds": "79200",
+        "@activefarmbonus": "0.5333",
+        "@itemvalue": "720",
+        "@shopsubcategory2": "babys",
+        "@shopsubcategory3": "goat",
+        "craftingrequirements": {
+          "@silver": "7500",
+          "@time": "0",
+          "@swaptransaction": "true"
+        },
+        "AudioInfo": {
+          "@name": "FARMABLE_GOAT_BABY"
+        },
+        "grownitem": {
+          "@uniquename": "T4_FARM_GOAT_GROWN",
+          "@growtime": "158400",
+          "@fame": "100",
+          "offspring": {
+            "@chance": "0.7333",
+            "@amount": "1"
+          }
+        },
+        "consumption": {
+          "food": {
+            "@nutritionmax": "864",
+            "@secondspernutrition": "183.34",
+            "@hungryoverheadicon": "FX/ClientPrefabs/fx_farming_focus_icon_turnip",
+            "acceptedfood": {
+              "@foodcategory": "plants",
+              "@favorite": "T4_TURNIP",
+              "@favoritebonus": "1"
+            }
+          }
+        }
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T6_FARM_SHEEP_BABY",
+      "index": "108",
+      "category": "Farming_Pasture",
+      "slot": "2h",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": "720",
+        "resourcevalue": "341",
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T6_FARM_SHEEP_BABY",
+        "item_database_index": "108"
+      },
+      "tier": 6,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Lamb",
+        "DE-DE": "Lamm",
+        "FR-FR": "Agneau",
+        "RU-RU": "Ягненок",
+        "PL-PL": "Jagnię",
+        "ES-ES": "Cordero",
+        "PT-BR": "Cordeiro",
+        "IT-IT": "Agnello",
+        "ZH-CN": "小绵羊",
+        "KO-KR": "새끼 양",
+        "JA-JP": "子羊",
+        "ZH-TW": "小綿羊",
+        "ID-ID": "Anak Domba",
+        "TR-TR": "Kuzu",
+        "AR-SA": "حمَل"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "You can place Lambs on your pasture for them to grow up into Sheep",
+        "DE-DE": "Du kannst Lämmer auf die Weide schicken, damit sie zu Schafen werden.",
+        "FR-FR": "Dans votre pâturage, les agneaux deviennent des moutons",
+        "RU-RU": "Отправьте ягнят на пастбище, и они вырастут в овец.",
+        "PL-PL": "Możesz umieścić jagnięcia na swoim pastwisku, aby wyrosły z nich owce",
+        "ES-ES": "Puedes colocar corderos en tu pasto para que se conviertan en ovejas",
+        "PT-BR": "Coloque as Cordeiros no pasto e elas crescerão até virarem Ovelhas",
+        "IT-IT": "Assegna gli agnelli a un pascolo per farli diventare pecore.",
+        "ZH-CN": "小绵羊可以送进栏圈，之后可以长成绵羊。",
+        "KO-KR": "새끼 양을 목초지에 배치해서 양으로 키울 수 있습니다.",
+        "JA-JP": "子羊を牧草地に配置して、羊に成長させることができる",
+        "ZH-TW": "您可以把小綿羊放入牧場，將牠們養大",
+        "ID-ID": "Kamu bisa meletakkan Anak Domba di padang rumput agar tumbuh menjadi Domba.",
+        "TR-TR": "Otlak yerlerine Kuzular yerleştirerek Koyun elde etmek üzere yetiştirebilirsin.",
+        "AR-SA": "يمكنك وضع الحملان في المرعى كي تنمو وتصبح خرافًا."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T6_FARM_SHEEP_BABY",
+        "description_variable": "@ITEMS_T6_FARM_SHEEP_BABY_DESC"
+      },
+      "origin": "Farming/Pasture/Pasture_T6_FARM_SHEEP_BABY.json",
+      "raw": {
+        "@uniquename": "T6_FARM_SHEEP_BABY",
+        "@tier": "6",
+        "@placefame": "0",
+        "@pickupable": "true",
+        "@destroyable": "false",
+        "@unlockedtoplace": "false",
+        "@maxstacksize": "999",
+        "@shopcategory": "farming",
+        "@shopsubcategory1": "pasture",
+        "@kind": "animal",
+        "@weight": "0.2",
+        "@unlockedtocraft": "true",
+        "@animationid": "breed",
+        "@prefabname": "FARM_SHEEP_BABY_01",
+        "@prefabscale": "0.8",
+        "@resourcevalue": "341",
+        "@activefarmfocuscost": "1000",
+        "@activefarmmaxcycles": "1",
+        "@activefarmactiondurationseconds": "1",
+        "@activefarmcyclelengthseconds": "79200",
+        "@activefarmbonus": "0.2667",
+        "@itemvalue": "720",
+        "@shopsubcategory2": "babys",
+        "@shopsubcategory3": "sheep",
+        "craftingrequirements": {
+          "@silver": "15000",
+          "@time": "0",
+          "@swaptransaction": "true"
+        },
+        "AudioInfo": {
+          "@name": "FARMABLE_SHEEP_BABY"
+        },
+        "grownitem": {
+          "@uniquename": "T6_FARM_SHEEP_GROWN",
+          "@growtime": "158400",
+          "@fame": "100",
+          "offspring": {
+            "@chance": "0.8667",
+            "@amount": "1"
+          }
+        },
+        "consumption": {
+          "food": {
+            "@nutritionmax": "864",
+            "@secondspernutrition": "183.34",
+            "@hungryoverheadicon": "FX/ClientPrefabs/fx_farming_focus_icon_potato",
+            "acceptedfood": {
+              "@foodcategory": "plants",
+              "@favorite": "T6_POTATO",
+              "@favoritebonus": "1"
+            }
+          }
+        }
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T3_FARM_HORSE_BABY",
+      "index": "37",
+      "category": "Farming_Pasture",
+      "slot": "2h",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": "0",
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T3_FARM_HORSE_BABY",
+        "item_database_index": "37"
+      },
+      "tier": 3,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Journeyman's Foal",
+        "DE-DE": "Fohlen des Gesellen",
+        "FR-FR": "Poulain du compagnon",
+        "RU-RU": "Жеребенок (странник)",
+        "PL-PL": "Źrebak Czeladnika",
+        "ES-ES": "Potro del obrero",
+        "PT-BR": "Potro do Iniciante",
+        "IT-IT": "Puledro dell'apprendista",
+        "ZH-CN": "学徒级马驹",
+        "KO-KR": "장인의 망아지",
+        "JA-JP": "子馬（熟練）",
+        "ZH-TW": "學徒級小馬",
+        "ID-ID": "Anak Kuda Pengembara",
+        "TR-TR": "Kalfa Tayı",
+        "AR-SA": "مُهر الموثوق"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Grows into a Journeyman's Horse, which can be used to craft a Journeyman's Riding Horse.",
+        "DE-DE": "Entwickelt sich zu einem Pferd des Gesellen, woraus ein Reitpferd des Gesellen werden kann.",
+        "FR-FR": "Devient un cheval du compagnon pouvant être utilisé pour fabriquer un cheval de monter du compagnon.",
+        "RU-RU": "Вырастет в Лошадь (странник), которую можно сделать ездовой.",
+        "PL-PL": "Z czasem wyrasta na Konia Czeladnika, którego można użyć do stworzenia Konia Wierzchowego Czeladnika.",
+        "ES-ES": "Crece y se convierte en un Caballo del obrero, que puede ser usado para fabricar un Caballo de montar del obrero.",
+        "PT-BR": "Cresce e vira um Cavalo comum do Iniciante, que pode ser usado para virar um Cavalo de Montar do Iniciante.",
+        "IT-IT": "Crescendo diventa un cavallo dell'apprendista, che si può usare per creare un cavallo da sella dell'apprendista.",
+        "ZH-CN": "可以长成学徒级成年马，之后可以驯养成为学徒级骑乘马。",
+        "KO-KR": "자라면 장인의 말이 되어, 장인의 승용마를 제작하는 데 사용될 수 있습니다.",
+        "JA-JP": "成長すると馬（熟練）になります。馬（熟練）は、乗用馬（熟練）の製造に使用可能です。",
+        "ZH-TW": "長大後成為學徒級成年馬，可訓練成學徒級騎乘馬。",
+        "ID-ID": "Tumbuh menjadi Kuda Pengembara, yang bisa digunakan untuk membuat Kuda Tunggangan Pengembara.",
+        "TR-TR": "Yetiştiğinde Kalfa Atı olur, bu da bir Kalfa Binek Atı zanaatı için kullanılabilir.",
+        "AR-SA": "تنمو لتصبح حصان الموثوق، الذي يمكن استخدامه لتصنيع حصان ركوب للموثوق."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T3_FARM_HORSE_BABY",
+        "description_variable": "@ITEMS_T3_FARM_HORSE_BABY_DESC"
+      },
+      "origin": "Farming/Pasture/Pasture_T3_FARM_HORSE_BABY.json",
+      "raw": {
+        "@uniquename": "T3_FARM_HORSE_BABY",
+        "@tier": "3",
+        "@placefame": "0",
+        "@pickupable": "true",
+        "@destroyable": "false",
+        "@unlockedtoplace": "false",
+        "@maxstacksize": "999",
+        "@shopcategory": "farming",
+        "@shopsubcategory1": "pasture",
+        "@kind": "animal",
+        "@weight": "1.5",
+        "@unlockedtocraft": "true",
+        "@animationid": "breed",
+        "@prefabname": "FARM_HORSE_BABY_01",
+        "@prefabscale": "0.96",
+        "@resourcevalue": "0",
+        "@activefarmfocuscost": "1000",
+        "@activefarmmaxcycles": "1",
+        "@activefarmactiondurationseconds": "1",
+        "@activefarmcyclelengthseconds": "79200",
+        "@activefarmbonus": "0.2000",
+        "@shopsubcategory2": "babys",
+        "@shopsubcategory3": "horse",
+        "AudioInfo": {
+          "@name": "FARMABLE_HORSE_BABY"
+        },
+        "craftingrequirements": {
+          "@silver": "25000",
+          "@time": "0",
+          "@swaptransaction": "true"
+        },
+        "grownitem": {
+          "@uniquename": "T3_FARM_HORSE_GROWN",
+          "@growtime": "158400",
+          "@fame": "100",
+          "offspring": {
+            "@chance": "0.8400",
+            "@amount": "1"
+          }
+        },
+        "consumption": {
+          "food": {
+            "@nutritionmax": "480",
+            "@secondspernutrition": "330",
+            "@hungryoverheadicon": "FX/ClientPrefabs/fx_farming_focus_icon_vegetable",
+            "acceptedfood": {
+              "@foodcategory": "plants"
+            }
+          }
+        }
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T6_FARM_GIANTSTAG_MOOSE_GROWN",
+      "index": "88",
+      "category": "Farming_Pasture",
+      "slot": "2h",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": "0",
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T6_FARM_GIANTSTAG_MOOSE_GROWN",
+        "item_database_index": "88"
+      },
+      "tier": 6,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Tame Moose",
+        "DE-DE": "Zahmer Elch",
+        "FR-FR": "Élan apprivoisé",
+        "RU-RU": "Ручной лось",
+        "PL-PL": "Oswojony Łoś",
+        "ES-ES": "Alce domado",
+        "PT-BR": "Alce Manso",
+        "IT-IT": "Alce domato",
+        "ZH-CN": "家养驼鹿",
+        "KO-KR": "길들인 무스",
+        "JA-JP": "飼い慣らしたムース",
+        "ZH-TW": "馴化駝鹿",
+        "ID-ID": "Rusa Besar Jinak",
+        "TR-TR": "Evcil Sığın",
+        "AR-SA": "الظبي الأليف"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Can be used to craft a Moose mount.",
+        "DE-DE": "Kann zu einem reitbaren Elch gemacht werden.",
+        "FR-FR": "Peut être utilisé pour fabriquer une monture Élan.",
+        "RU-RU": "Можно использовать для создания скакуна «Лось».",
+        "PL-PL": "Może być użyty do wytworzenia wierzchowca - Łosia.",
+        "ES-ES": "Se puede utilizar para fabricar una montura de alce.",
+        "PT-BR": "Pode ser usado para fabricar a montaria Alce.",
+        "IT-IT": "Si può usare per creare una cavalcatura \"Alce\".",
+        "ZH-CN": "可以驯养成为驼鹿坐骑。",
+        "KO-KR": "무스 탈것을 만드는 데 사용할 수 있습니다.",
+        "JA-JP": "ムース（騎獣）の製造に使用可能です。",
+        "ZH-TW": "可訓練成駝鹿坐騎。",
+        "ID-ID": "Bisa digunakan untuk membuat Rusa Besar tunggangan.",
+        "TR-TR": "Bir Sığın bineği zanaatı için kullanılabilir.",
+        "AR-SA": "يمكن استخدامه لتصنيع مطية ظبي."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T6_FARM_GIANTSTAG_MOOSE_GROWN",
+        "description_variable": "@ITEMS_T6_FARM_GIANTSTAG_MOOSE_GROWN_DESC"
+      },
+      "origin": "Farming/Pasture/Pasture_T6_FARM_GIANTSTAG_MOOSE_GROWN.json",
+      "raw": {
+        "@uniquename": "T6_FARM_GIANTSTAG_MOOSE_GROWN",
+        "@uisprite": "FARM_GIANTSTAG_MOOSE_GROWN_01",
+        "@tier": "6",
+        "@placefame": "0",
+        "@pickupable": "true",
+        "@destroyable": "false",
+        "@unlockedtoplace": "false",
+        "@maxstacksize": "999",
+        "@shopcategory": "farming",
+        "@shopsubcategory1": "pasture",
+        "@kind": "animal",
+        "@weight": "30",
+        "@unlockedtocraft": "false",
+        "@tile": "T6_FARM_GIANTSTAG_MOOSE_BABY",
+        "@prefabname": "FARM_GIANTSTAG_MOOSE_GROWN_01",
+        "@prefabscale": "2.1",
+        "@resourcevalue": "0",
+        "@animationid": "breed",
+        "@shopsubcategory2": "animals",
+        "@shopsubcategory3": "moose",
+        "@nutrition": "5905",
+        "@foodcategory": "mount",
+        "AudioInfo": {
+          "@name": "FARMABLE_GIANTSTAG"
+        }
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T6_FARM_GIANTSTAG_BABY",
+      "index": "57",
+      "category": "Farming_Pasture",
+      "slot": "2h",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": "1280",
+        "resourcevalue": "0",
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T6_FARM_GIANTSTAG_BABY",
+        "item_database_index": "57"
+      },
+      "tier": 6,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Master's Fawn",
+        "DE-DE": "Rehkitz des Meisters",
+        "FR-FR": "Faon du maître",
+        "RU-RU": "Олененок (мастер)",
+        "PL-PL": "Jelonek Mistrza",
+        "ES-ES": "Cervatillo del maestro",
+        "PT-BR": "Gamo do Mestre",
+        "IT-IT": "Cerbiatto del maestro",
+        "ZH-CN": "大师级小鹿",
+        "KO-KR": "마스터의 새끼 사슴",
+        "JA-JP": "子鹿（マスター）",
+        "ZH-TW": "大師級小鹿",
+        "ID-ID": "Rusa Kecil Master",
+        "TR-TR": "Usta Yavru Geyiği",
+        "AR-SA": "صغير الغزال للخبير"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "A fawn placed in a pasture will grow into a Tame Giant Stag. Note: Master's Tame Giant Stags can be kept in a pasture, but cannot be trained into mounts.",
+        "DE-DE": "Ein Rehkitz, das auf eine Weide gesetzt wird, wächst zu einem zahmen Riesenhirsch heran. Anm.: Zahme Riesenhirsche des Meisters können auf der Weide gehalten, aber nicht mehr zu Reittieren ausgebildet werden.",
+        "FR-FR": "Un faon placé dans un pâturage grandira pour devenir un Cerf géant apprivoisé. Note : Les Cerfs géants apprivoisés de Maître peuvent rester dans les pâturages mais ne peuvent pas être entrainés en monture.",
+        "RU-RU": "Олененка можно поместить в загон, чтобы вырастить из него Ручного гигантского оленя. Примечание: Ручной гигантский олень мастера может быть помещен в загон, но из него невозможно создать скакуна.",
+        "PL-PL": "Jelonek umieszczony na pastwisku wyrośnie na Oswojonego Jelonka Olbrzymiego. Uwaga: Oswojone Jelonki Olbrzymie Mistrza mogą być trzymane na pastwisku, lecz nie mogą zostać wyszkolone na wierzchowce.",
+        "ES-ES": "Un cervatillo colocado en el pasto crecerá en un ciervo gigante domado, que se puede entrenar como una montura.",
+        "PT-BR": "Um Gamo em um Pasto crescerá até virar um Veado Gigante Manso. Note: Veados Gigantes Mansos do Mestre poderão ser mantidos em um pasto, mas não podem virar montarias.",
+        "IT-IT": "Un cerbiatto assegnato a un pascolo crescerà fino a diventare un cervo gigante domato. Nota: i cervi giganti domati del maestro si possono tenere in un pascolo, ma non si possono addestrare come cavalcatura.",
+        "ZH-CN": "小鹿送进栏圈之后，会长成家养巨鹿。注意：大师级家养巨鹿可以在栏圈里饲养，但是不能驯养成为坐骑。",
+        "KO-KR": "목초지에 배치한 새끼 사슴은 길들인 거대 숫사슴으로 성장합니다. 주: 마스터의 길들인 거대 숫사슴은 목초지에 둘 수 있지만, 훈련을 거쳐 탈것이 되지는 않습니다.",
+        "JA-JP": "子鹿は牧草地に配置すると、成長して飼い慣らした巨大雄ジカになります。注：飼い慣らした巨大雄ジカ（マスター）は牧草地に置いておけますが、訓練して騎獣にすることはできません。",
+        "ZH-TW": "您可以把小鹿放入牧場，讓牠長大成為馴化巨鹿。請注意：大師級馴化巨鹿可飼養於牧場中，但無法訓練成坐騎。",
+        "ID-ID": "Rusa kecil yang diletakkan di padang rumput akan tumbuh menjadi Rusa Raksasa Jinak. Catatan: Rusa Raksasa Jinak Master bisa diletakkan di padang rumput, tapi tidak bisa dilatih menjadi tunggangan.",
+        "TR-TR": "Yavru Geyikler otlak yerlerine yerleştirilip Evcil Dev Geyik olmak üzere yetiştirilebilir. Not: Usta Evcil Dev Geyikleri otlak yerlerinde tutulmaya devam edilebilir ancak binek olarak eğitilemezler.",
+        "AR-SA": "سينمو صغير الغزال الموجود في مرعى ليصبح الأيل العملاق أليفًا. ملاحظة: يمكن وضع حيوانات الأيل العملاقة الأليفة للخبير في مرعى، لكن لا يمكن تدريبها لتصبح مطية."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T6_FARM_GIANTSTAG_BABY",
+        "description_variable": "@ITEMS_T6_FARM_GIANTSTAG_BABY_DESC"
+      },
+      "origin": "Farming/Pasture/Pasture_T6_FARM_GIANTSTAG_BABY.json",
+      "raw": {
+        "@uniquename": "T6_FARM_GIANTSTAG_BABY",
+        "@itemvalue": "1280",
+        "@uisprite": "FARM_GIANTSTAG_BABY_02",
+        "@tier": "6",
+        "@placefame": "0",
+        "@pickupable": "true",
+        "@destroyable": "false",
+        "@unlockedtoplace": "false",
+        "@maxstacksize": "999",
+        "@shopcategory": "farming",
+        "@shopsubcategory1": "pasture",
+        "@kind": "animal",
+        "@weight": "3",
+        "@unlockedtocraft": "true",
+        "@animationid": "breed",
+        "@prefabname": "FARM_GIANTSTAG_BABY_02",
+        "@prefabscale": "0.8",
+        "@resourcevalue": "0",
+        "@activefarmfocuscost": "1000",
+        "@activefarmmaxcycles": "4",
+        "@activefarmactiondurationseconds": "1",
+        "@activefarmcyclelengthseconds": "79200",
+        "@activefarmbonus": "0.06",
+        "@showinmarketplace": "true",
+        "@shopsubcategory2": "babys",
+        "@shopsubcategory3": "giantstag",
+        "AudioInfo": {
+          "@name": "FARMABLE_GIANTSTAG_BABY"
+        },
+        "grownitem": {
+          "@uniquename": "T6_FARM_GIANTSTAG_GROWN",
+          "@growtime": "676800",
+          "@fame": "400",
+          "offspring": {
+            "@chance": "0.0",
+            "@amount": "1"
+          }
+        },
+        "consumption": {
+          "food": {
+            "@nutritionmax": "3312",
+            "@secondspernutrition": "52.22",
+            "@lossbeforehungry": "48",
+            "@hungryoverheadicon": "FX/ClientPrefabs/fx_farming_focus_icon_vegetable",
+            "acceptedfood": {
+              "@foodcategory": "plants"
+            }
+          }
+        }
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T8_FARM_OX_BABY",
+      "index": "30",
+      "category": "Farming_Pasture",
+      "slot": "2h",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": "0",
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T8_FARM_OX_BABY",
+        "item_database_index": "30"
+      },
+      "tier": 8,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Elder's Ox Calf",
+        "DE-DE": "Ochsenkalb des Ältesten",
+        "FR-FR": "Veau du sage",
+        "RU-RU": "Бычок (старейшина)",
+        "PL-PL": "Cielę Wołu Starszego",
+        "ES-ES": "Becerro del anciano",
+        "PT-BR": "Novilho do Ancião",
+        "IT-IT": "Vitello di bue dell'anziano",
+        "ZH-CN": "禅师级牛犊",
+        "KO-KR": "장로의 황소 송아지",
+        "JA-JP": "子牛（老熟）",
+        "ZH-TW": "禪師級小公牛",
+        "ID-ID": "Anak Lembu Tetua",
+        "TR-TR": "Yüce Öküz Buzağısı",
+        "AR-SA": "عجل الثور للحكيم"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Grows into an Elder's Ox which can be used to craft an Elder's Transport Ox.",
+        "DE-DE": "Wird zu einem Ochsen des Ältesten, woraus ein Transportochse des Ältesten gefertigt werden kann.",
+        "FR-FR": "Devient un bœuf du sage pouvant être utilisé pour fabriquer un bœuf de transport du sage",
+        "RU-RU": "Вырастет в быка старейшины, которого можно сделать ездовым.",
+        "PL-PL": "Z czasem staje się Wołem Starszego, którego można użyć do stworzenia Wołu Pociągowego Starszego.",
+        "ES-ES": "Se convierte en un buey del anciano, que se puede utilizar para crear un buey de transporte del anciano.",
+        "PT-BR": "Cresce e vira um Boi do Ancião, que pode ser usado para virar um Boi de Transporte do Ancião.",
+        "IT-IT": "Crescendo diventa un bue dell'anziano, che si può usare per creare un Bue da Soma dell'anziano.",
+        "ZH-CN": "可以长成禅师级成年牛，之后可以驯养成为禅师级役牛。",
+        "KO-KR": "자라면 장로의 황소가 되어, 장로의 수송용 황소를 제작하는 데 사용될 수 있습니다.",
+        "JA-JP": "成長すると牛（老熟）になります。荷運び牛（老熟）の製造に使用可能です。",
+        "ZH-TW": "長大後成為禪師級公牛，可訓練成禪師級運輸公牛。",
+        "ID-ID": "Tumbuh menjadi Lembu Tetua yang bisa digunakan untuk membuat Lembu Pengangkut Tetua.",
+        "TR-TR": "Yetiştiğinde Yüce Öküzü olur ve bir Yüce Yük Öküzü zanaatında kullanılabilir.",
+        "AR-SA": "ينمو ليصبح ثور للحكيم والذي يمكن استخدامه لتصنيع ثور نقل للحكيم."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T8_FARM_OX_BABY",
+        "description_variable": "@ITEMS_T8_FARM_OX_BABY_DESC"
+      },
+      "origin": "Farming/Pasture/Pasture_T8_FARM_OX_BABY.json",
+      "raw": {
+        "@uniquename": "T8_FARM_OX_BABY",
+        "@tier": "8",
+        "@placefame": "0",
+        "@pickupable": "true",
+        "@destroyable": "false",
+        "@unlockedtoplace": "false",
+        "@maxstacksize": "999",
+        "@shopcategory": "farming",
+        "@shopsubcategory1": "pasture",
+        "@kind": "animal",
+        "@weight": "1.5",
+        "@unlockedtocraft": "true",
+        "@animationid": "breed",
+        "@prefabname": "FARM_OX_BABY_06",
+        "@prefabscale": "0.72",
+        "@resourcevalue": "0",
+        "@activefarmfocuscost": "1000",
+        "@activefarmmaxcycles": "6",
+        "@activefarmactiondurationseconds": "1",
+        "@activefarmcyclelengthseconds": "79200",
+        "@activefarmbonus": "0.0263",
+        "@shopsubcategory2": "babys",
+        "@shopsubcategory3": "ox",
+        "AudioInfo": {
+          "@name": "FARMABLE_OX_BABY"
+        },
+        "craftingrequirements": {
+          "@silver": "6075000",
+          "@time": "0",
+          "@swaptransaction": "true"
+        },
+        "grownitem": {
+          "@uniquename": "T8_FARM_OX_GROWN",
+          "@growtime": "1022400",
+          "@fame": "600",
+          "offspring": {
+            "@chance": "0.8736",
+            "@amount": "1"
+          }
+        },
+        "consumption": {
+          "food": {
+            "@nutritionmax": "19728",
+            "@secondspernutrition": "8.77",
+            "@lossbeforehungry": "48",
+            "@hungryoverheadicon": "FX/ClientPrefabs/fx_farming_focus_icon_vegetable",
+            "acceptedfood": {
+              "@foodcategory": "plants"
+            }
+          }
+        }
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T7_FARM_HORSE_GROWN",
+      "index": "47",
+      "category": "Farming_Pasture",
+      "slot": "2h",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": "0",
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T7_FARM_HORSE_GROWN",
+        "item_database_index": "47"
+      },
+      "tier": 7,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Grandmaster's Horse",
+        "DE-DE": "Pferd des Großmeisters",
+        "FR-FR": "Cheval du grand maître",
+        "RU-RU": "Лошадь (магистр)",
+        "PL-PL": "Koń Wszechmistrza",
+        "ES-ES": "Caballo del gran maestro",
+        "PT-BR": "Cavalo do Grão-mestre",
+        "IT-IT": "Cavallo del gran maestro",
+        "ZH-CN": "宗师级成年马",
+        "KO-KR": "그랜드 마스터의 말",
+        "JA-JP": "馬（グランドマスター）",
+        "ZH-TW": "宗師級成年馬",
+        "ID-ID": "Kuda Grandmaster",
+        "TR-TR": "Büyük Usta Atı",
+        "AR-SA": "حصان للأستاذ"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Can be used to craft a Grandmaster's Riding Horse or a Grandmaster's Armored Horse.",
+        "DE-DE": "Daraus kann ein Reitpferd des Großmeisters oder ein Gepanzertes Pferd des Großmeisters gefertigt werden.",
+        "FR-FR": "Peut être utilisé pour fabriquer un cheval de monte du grand maître ou un cheval protégé du grand maître",
+        "RU-RU": "Лошадь магистра можно сделать ездовой или боевой.",
+        "PL-PL": "Można go użyć do stworzenia Konia Wierzchowego lub Konia w Zbroi Wszechmistrza.",
+        "ES-ES": "Se puede utilizar para crear un caballo de montar del gran maestro o un caballo blindado del gran maestro.",
+        "PT-BR": "Pode ser usado para virar um Cavalo de Montar do Grão-mestre ou um Cavalo Blindado do Grão-mestre.",
+        "IT-IT": "Si può usare per creare un cavallo da sella del gran maestro o un cavallo corazzato del gran maestro.",
+        "ZH-CN": "可以驯养成为宗师级骑乘马或者宗师级铠马。",
+        "KO-KR": "그랜드 마스터의 승용마 또는 그랜드 마스터의 갑주마를 제작하는 데 사용될 수 있습니다.",
+        "JA-JP": "乗用馬（グランドマスター）または装甲馬（グランドマスター）の製造に使用可能です。",
+        "ZH-TW": "可訓練成宗師級騎乘馬或宗師級鐵甲馬。",
+        "ID-ID": "Bisa digunakan untuk membuat Kuda Tunggangan Grandmaster atau Kuda Berzirah Grandmaster.",
+        "TR-TR": "Bir Büyük Usta Binek Atı ya da Büyük Usta Zırhlı Atı zanaatı için kullanılabilir.",
+        "AR-SA": "يمكن استخدامه لتصنيع حصان ركوب للأستاذ أو حصان مدرع للأستاذ."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T7_FARM_HORSE_GROWN",
+        "description_variable": "@ITEMS_T7_FARM_HORSE_GROWN_DESC"
+      },
+      "origin": "Farming/Pasture/Pasture_T7_FARM_HORSE_GROWN.json",
+      "raw": {
+        "@uniquename": "T7_FARM_HORSE_GROWN",
+        "@tier": "7",
+        "@placefame": "0",
+        "@pickupable": "true",
+        "@destroyable": "false",
+        "@unlockedtoplace": "false",
+        "@maxstacksize": "999",
+        "@shopcategory": "farming",
+        "@shopsubcategory1": "pasture",
+        "@kind": "animal",
+        "@weight": "15",
+        "@unlockedtocraft": "false",
+        "@tile": "T7_FARM_HORSE_BABY",
+        "@prefabname": "FARM_HORSE_GROWN_05",
+        "@prefabscale": "1.44",
+        "@resourcevalue": "0",
+        "@animationid": "breed",
+        "@shopsubcategory2": "animals",
+        "@shopsubcategory3": "horse",
+        "@nutrition": "18699",
+        "@foodcategory": "mount",
+        "AudioInfo": {
+          "@name": "FARMABLE_HORSE"
+        }
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T3_EGG",
+      "index": "139",
+      "category": "Farming_Pasture",
+      "slot": "2h",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": "40",
+        "resourcevalue": null,
+        "famevalue": "20",
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T3_EGG",
+        "item_database_index": "139"
+      },
+      "tier": 3,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Hen Eggs",
+        "DE-DE": "Hühnereier",
+        "FR-FR": "Œufs de poule",
+        "RU-RU": "Куриные яйца",
+        "PL-PL": "Kurze Jaja",
+        "ES-ES": "Huevos de gallina",
+        "PT-BR": "Ovos de Galinha",
+        "IT-IT": "Uova di gallina",
+        "ZH-CN": "鸡蛋",
+        "KO-KR": "달걀",
+        "JA-JP": "鶏の卵",
+        "ZH-TW": "雞蛋",
+        "ID-ID": "Telur Ayam",
+        "TR-TR": "Tavuk Yumurtaları",
+        "AR-SA": "بيض الدجاج"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Hen Eggs are used in several cooking recipes and potions.",
+        "DE-DE": "Mehrere Kochrezepte und Tränke verwenden Hühnereier.",
+        "FR-FR": "Les œufs de poule servent à concocter recettes et potions",
+        "RU-RU": "Используются в приготовлении еды и зелий.",
+        "PL-PL": "Kurze Jaja są używane w wielu przepisach i miksturach",
+        "ES-ES": "Los huevos de gallina se usan en recetas de cocina y pociones",
+        "PT-BR": "Os ovos de galinha são usados em várias receitas e poções",
+        "IT-IT": "Le uova di gallina sono un ingrediente di molte ricette e pozioni.",
+        "ZH-CN": "鸡蛋可以用于烹饪多种食物或配制多种药水。",
+        "KO-KR": "달걀은 다양한 요리 레시피와 포션에 사용됩니다.",
+        "JA-JP": "鶏の卵は、様々な調理レシピやポーションに使われています。",
+        "ZH-TW": "雞蛋可作為數種料理的食材和藥水的原料。",
+        "ID-ID": "Telur Ayam digunakan dalam beberapa resep masakan dan ramuan.",
+        "TR-TR": "Tavuk Yumurtaları, çeşitli yemek tariflerinde ve iksir yapımlarında kullanılır.",
+        "AR-SA": "يُستخدم بيض الدجاج في جرعات ووصفات طبخ عديدة."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T3_EGG",
+        "description_variable": "@ITEMS_T3_EGG_DESC"
+      },
+      "origin": "Farming/Pasture/Pasture_T3_EGG.json",
+      "raw": {
+        "@uniquename": "T3_EGG",
+        "@nutrition": "48",
+        "@shopcategory": "farming",
+        "@shopsubcategory1": "pasture",
+        "@resourcetype": "PRODUCTS",
+        "@tier": "3",
+        "@weight": "0.6",
+        "@maxstacksize": "999",
+        "@itemvalue": "40",
+        "@famevalue": "20",
+        "@shopsubcategory2": "egg"
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T5_FARM_GOOSE_GROWN",
+      "index": "113",
+      "category": "Farming_Pasture",
+      "slot": "2h",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": "720",
+        "resourcevalue": "220",
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T5_FARM_GOOSE_GROWN",
+        "item_database_index": "113"
+      },
+      "tier": 5,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Goose",
+        "DE-DE": "Gans",
+        "FR-FR": "Oie",
+        "RU-RU": "Гусыня",
+        "PL-PL": "Gęś",
+        "ES-ES": "Ganso",
+        "PT-BR": "Ganso",
+        "IT-IT": "Oca",
+        "ZH-CN": "成年鹅",
+        "KO-KR": "거위",
+        "JA-JP": "ガチョウ",
+        "ZH-TW": "鵝",
+        "ID-ID": "Angsa",
+        "TR-TR": "Kaz",
+        "AR-SA": "الإوز"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Geese can be slaughtered to produce Raw Goose, or left alive to produce Goose Eggs.",
+        "DE-DE": "Schlachte Gänse für rohes Gänsefleisch oder lass sie am Leben und erhalte Gänseeier.",
+        "FR-FR": "Tuez une oie pour obtenir de l'oie crue ou gardez-la en vie pour ses œufs d'oie",
+        "RU-RU": "Забейте гусыню ради мяса или оставьте в живых - пусть несет яйца.",
+        "PL-PL": "Gęsi można zabić na surową gęsinę lub zostawić na gęsie jaja",
+        "ES-ES": "Puedes sacrificar a los gansos para conseguir carne de ganso o dejarlos vivos y obtener huevos",
+        "PT-BR": "Abata Gansos para produzir Ganso Cru ou deixe-os vivos para produzirem Ovos de Ganso",
+        "IT-IT": "Un'oca può essere macellata per produrre carne di oca cruda, può essere lasciata in vita per ottenerne uova di oca.",
+        "ZH-CN": "家鹅可以宰杀变成鹅肉，或者留着孵蛋。",
+        "KO-KR": "거위는 도살해서 생 거위고기를 만들거나, 살려 두면 거위 알을 생산합니다.",
+        "JA-JP": "ガチョウは屠殺して生のガチョウ肉に加工できます。または生かしたままにしてガチョウの卵を産ませられます。",
+        "ZH-TW": "鵝可經屠宰製成生鵝肉，或留著持續生產鵝蛋。",
+        "ID-ID": "Angsa bisa disembelih untuk menghasilkan daging angsa Mentah, atau dipelihara agar menghasilkan Telur Angsa.",
+        "TR-TR": "Kazlar, Çiğ Kaz Eti elde etmek için kesilebilir ya da sağ bırakılarak Kaz Yumurtaları üretmeleri sağlanabilir.",
+        "AR-SA": "يمكن ذبح الإوز لإنتاج إوز نيئ، أو تركه حيًا لإنتاج بيض الإوز."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T5_FARM_GOOSE_GROWN",
+        "description_variable": "@ITEMS_T5_FARM_GOOSE_GROWN_DESC"
+      },
+      "origin": "Farming/Pasture/Pasture_T5_FARM_GOOSE_GROWN.json",
+      "raw": {
+        "@uniquename": "T5_FARM_GOOSE_GROWN",
+        "@tier": "5",
+        "@placefame": "0",
+        "@pickupable": "true",
+        "@destroyable": "false",
+        "@unlockedtoplace": "false",
+        "@maxstacksize": "999",
+        "@shopcategory": "farming",
+        "@shopsubcategory1": "pasture",
+        "@kind": "animal",
+        "@weight": "10.83",
+        "@unlockedtocraft": "false",
+        "@tile": "T5_FARM_GOOSE_BABY",
+        "@prefabname": "FARM_GOOSE_GROWN_01",
+        "@prefabscale": "1.1",
+        "@resourcevalue": "220",
+        "@animationid": "breed",
+        "@itemvalue": "720",
+        "@shopsubcategory2": "animals",
+        "@shopsubcategory3": "goose",
+        "AudioInfo": {
+          "@name": "FARMABLE_GOOSE"
+        },
+        "consumption": {
+          "food": {
+            "@nutritionmax": "864",
+            "@secondspernutrition": "91.67",
+            "@hungryoverheadicon": "FX/ClientPrefabs/fx_farming_focus_icon_cabbage",
+            "acceptedfood": {
+              "@foodcategory": "plants",
+              "@favorite": "T5_CABBAGE",
+              "@favoritebonus": "1"
+            }
+          }
+        },
+        "products": {
+          "product": {
+            "@productiontime": "79200",
+            "@actionname": "@FARMABLE_GETPRODUCT_BUTTON_EGG",
+            "@lootlist": "T5_GOOSE_LOOT",
+            "@lootchance": "1",
+            "@fame": "100"
+          }
+        }
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T3_FARM_CHICKEN_BABY",
+      "index": "105",
+      "category": "Farming_Pasture",
+      "slot": "2h",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": "720",
+        "resourcevalue": "132",
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T3_FARM_CHICKEN_BABY",
+        "item_database_index": "105"
+      },
+      "tier": 3,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Baby Chickens",
+        "DE-DE": "Küken",
+        "FR-FR": "Poussins",
+        "RU-RU": "Цыплята",
+        "PL-PL": "Kurczaki",
+        "ES-ES": "Pollitos",
+        "PT-BR": "Pintos",
+        "IT-IT": "Pulcini",
+        "ZH-CN": "小鸡",
+        "KO-KR": "어린 병아리",
+        "JA-JP": "鶏のひよこ",
+        "ZH-TW": "小雞",
+        "ID-ID": "Anak Ayam",
+        "TR-TR": "Civciv",
+        "AR-SA": "أفراخ الدجاج"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "You can place Baby Chickens in your pasture to grow them into Chickens.",
+        "DE-DE": "Du kannst Küken auf die Weide schicken, damit sie zu Hühnern werden.",
+        "FR-FR": "Dans votre pâturage, les poussins deviennent des poulets",
+        "RU-RU": "Отправьте цыплят на пастбище, и они вырастут в куриц.",
+        "PL-PL": "Można umieścić kurczaki na swojej farmie, gdzie z czasem staną się dorosłymi kurami",
+        "ES-ES": "Puedes colocar pollitos en tu pasto para que se conviertan en pollos",
+        "PT-BR": "Coloque os Pintos no pasto e eles crescerão até virarem Galinhas",
+        "IT-IT": "Assegna i pulcini a un pascolo per farli diventare polli.",
+        "ZH-CN": "你可以把小鸡送进你的栏圈，把它们养大。",
+        "KO-KR": "어린 병아리를 목초지에 배치해서 닭으로 키울 수 있습니다.",
+        "JA-JP": "鶏のひよこを牧草地に配置すれば、鶏に育てることができます。",
+        "ZH-TW": "您可以把小雞放入牧場，將牠們養大。",
+        "ID-ID": "Kamu bisa meletakkan Anak Ayam di padang rumput agar mereka tumbuh menjadi Ayam dewasa.",
+        "TR-TR": "Civcivlerini otlak yerlerine koyup Tavuk olmaları için yetiştirebilirsin.",
+        "AR-SA": "يمكنك وضع أفراخ الدجاج في مرعى لتنمو وتتحول إلى دجاج."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T3_FARM_CHICKEN_BABY",
+        "description_variable": "@ITEMS_T3_FARM_CHICKEN_BABY_DESC"
+      },
+      "origin": "Farming/Pasture/Pasture_T3_FARM_CHICKEN_BABY.json",
+      "raw": {
+        "@uniquename": "T3_FARM_CHICKEN_BABY",
+        "@tier": "3",
+        "@placefame": "0",
+        "@pickupable": "true",
+        "@destroyable": "false",
+        "@unlockedtoplace": "false",
+        "@maxstacksize": "999",
+        "@shopcategory": "farming",
+        "@shopsubcategory1": "pasture",
+        "@kind": "animal",
+        "@weight": "0.2",
+        "@unlockedtocraft": "true",
+        "@animationid": "breed",
+        "@prefabname": "FARM_CHICKEN_BABY_01",
+        "@prefabscale": "1.1",
+        "@resourcevalue": "132",
+        "@activefarmfocuscost": "1000",
+        "@activefarmmaxcycles": "1",
+        "@activefarmactiondurationseconds": "1",
+        "@activefarmcyclelengthseconds": "79200",
+        "@activefarmbonus": "0.8",
+        "@itemvalue": "720",
+        "@shopsubcategory2": "babys",
+        "@shopsubcategory3": "chicken",
+        "craftingrequirements": {
+          "@silver": "5000",
+          "@time": "0",
+          "@swaptransaction": "true"
+        },
+        "AudioInfo": {
+          "@name": "FARMABLE_CHICKEN_BABY"
+        },
+        "grownitem": {
+          "@uniquename": "T3_FARM_CHICKEN_GROWN",
+          "@growtime": "158400",
+          "@fame": "100",
+          "offspring": {
+            "@chance": "0.6000",
+            "@amount": "1"
+          }
+        },
+        "consumption": {
+          "food": {
+            "@nutritionmax": "864",
+            "@secondspernutrition": "183.34",
+            "@hungryoverheadicon": "FX/ClientPrefabs/fx_farming_focus_icon_wheat",
+            "acceptedfood": {
+              "@foodcategory": "plants",
+              "@favorite": "T3_WHEAT",
+              "@favoritebonus": "1"
+            }
+          }
+        }
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T5_FARM_OX_GROWN",
+      "index": "33",
+      "category": "Farming_Pasture",
+      "slot": "2h",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": "0",
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T5_FARM_OX_GROWN",
+        "item_database_index": "33"
+      },
+      "tier": 5,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Expert's Ox",
+        "DE-DE": "Ochse des Experten",
+        "FR-FR": "Bœuf de l'expert",
+        "RU-RU": "Бык (эксперт)",
+        "PL-PL": "Wół Znawcy",
+        "ES-ES": "Buey del experto",
+        "PT-BR": "Boi do Perito",
+        "IT-IT": "Bue dell'esperto",
+        "ZH-CN": "专家级成年牛",
+        "KO-KR": "전문가의 황소",
+        "JA-JP": "牛（達人）",
+        "ZH-TW": "專家級公牛",
+        "ID-ID": "Lembu Ahli",
+        "TR-TR": "Uzman Öküzü",
+        "AR-SA": "ثور الأخصائي"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Can be used to craft an Expert's Transport Ox.",
+        "DE-DE": "Daraus kann ein Transportochse des Experten gefertigt werden.",
+        "FR-FR": "Peut être utilisé pour fabriquer un bœuf de transport de l'expert",
+        "RU-RU": "Этого быка можно сделать ездовым.",
+        "PL-PL": "Można go użyć do stworzenia Wołu Pociągowego Znawcy.",
+        "ES-ES": "Se puede utilizar para crear un buey de transporte del experto.",
+        "PT-BR": "Pode ser usado para virar um Boi de Transporte do Perito.",
+        "IT-IT": "Si può usare per creare un Bue da Soma dell'esperto.",
+        "ZH-CN": "可以驯养成为专家级役牛。",
+        "KO-KR": "전문가의 수송용 황소를 제작하는 데 사용될 수 있습니다.",
+        "JA-JP": "荷運び牛（達人）の製造に使用可能です。",
+        "ZH-TW": "可訓練成專家級運輸公牛。",
+        "ID-ID": "Bisa digunakan untuk membuat Lembu Pengangkut Ahli.",
+        "TR-TR": "Bir Uzman Yük Öküzü zanaatı için kullanılabilir.",
+        "AR-SA": "يمكن استخدامه لتصنيع ثور نقل للأخصائي."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T5_FARM_OX_GROWN",
+        "description_variable": "@ITEMS_T5_FARM_OX_GROWN_DESC"
+      },
+      "origin": "Farming/Pasture/Pasture_T5_FARM_OX_GROWN.json",
+      "raw": {
+        "@uniquename": "T5_FARM_OX_GROWN",
+        "@tier": "5",
+        "@placefame": "0",
+        "@pickupable": "true",
+        "@destroyable": "false",
+        "@unlockedtoplace": "false",
+        "@maxstacksize": "999",
+        "@shopcategory": "farming",
+        "@shopsubcategory1": "pasture",
+        "@kind": "animal",
+        "@weight": "15",
+        "@unlockedtocraft": "false",
+        "@tile": "T5_FARM_OX_BABY",
+        "@prefabname": "FARM_OX_GROWN_03",
+        "@prefabscale": "1.2",
+        "@resourcevalue": "0",
+        "@animationid": "breed",
+        "@shopsubcategory2": "animals",
+        "@shopsubcategory3": "ox",
+        "@nutrition": "1859",
+        "@foodcategory": "mount",
+        "AudioInfo": {
+          "@name": "FARMABLE_OX"
+        }
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T6_FARM_HORSE_GROWN",
+      "index": "46",
+      "category": "Farming_Pasture",
+      "slot": "2h",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": "0",
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T6_FARM_HORSE_GROWN",
+        "item_database_index": "46"
+      },
+      "tier": 6,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Master's Horse",
+        "DE-DE": "Pferd des Meisters",
+        "FR-FR": "Cheval du maître",
+        "RU-RU": "Лошадь (мастер)",
+        "PL-PL": "Koń Mistrza",
+        "ES-ES": "Caballo del maestro",
+        "PT-BR": "Cavalo do Mestre",
+        "IT-IT": "Cavallo del maestro",
+        "ZH-CN": "大师级成年马",
+        "KO-KR": "마스터의 말",
+        "JA-JP": "馬（マスター）",
+        "ZH-TW": "大師級成年馬",
+        "ID-ID": "Kuda Master",
+        "TR-TR": "Usta Atı",
+        "AR-SA": "حصان للخبير"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Can be used to craft a Master's Riding Horse or a Master's Armored Horse.",
+        "DE-DE": "Daraus kann ein Reitpferd des Meisters oder ein Gepanzertes Pferd des Meisters gefertigt werden.",
+        "FR-FR": "Peut être utilisé pour fabriquer un cheval de monte du maître ou un cheval protégé du maître",
+        "RU-RU": "Лошадь мастера можно сделать ездовой или боевой.",
+        "PL-PL": "Można go użyć do stworzenia Konia Wierzchowego lub Konia w Zbroi Mistrza.",
+        "ES-ES": "Se puede utilizar para crear un caballo de montar del maestro o un caballo blindado del maestro.",
+        "PT-BR": "Pode ser usado para virar um Cavalo de Montar do Mestre ou um Cavalo Blindado do Mestre.",
+        "IT-IT": "Si può usare per creare un cavallo da sella del maestro o un cavallo corazzato del maestro.",
+        "ZH-CN": "可以驯养成为大师级骑乘马或者大师级铠马。",
+        "KO-KR": "마스터의 승용마 또는 마스터의 갑주마를 제작하는 데 사용될 수 있습니다.",
+        "JA-JP": "乗用馬（マスター）または装甲馬（マスター）の製造に使用可能です。",
+        "ZH-TW": "可訓練成大師級騎乘馬或大師級鐵甲馬。",
+        "ID-ID": "Bisa digunakan untuk membuat Kuda Tunggangan Master atau Kuda Berzirah Master.",
+        "TR-TR": "Bir Usta Binek Atı ya da Usta Zırhlı Atı zanaatı için kullanılabilir.",
+        "AR-SA": "يمكن استخدامه لتصنيع حصان ركوب للخبير أو حصان مدرع للخبير."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T6_FARM_HORSE_GROWN",
+        "description_variable": "@ITEMS_T6_FARM_HORSE_GROWN_DESC"
+      },
+      "origin": "Farming/Pasture/Pasture_T6_FARM_HORSE_GROWN.json",
+      "raw": {
+        "@uniquename": "T6_FARM_HORSE_GROWN",
+        "@tier": "6",
+        "@placefame": "0",
+        "@pickupable": "true",
+        "@destroyable": "false",
+        "@unlockedtoplace": "false",
+        "@maxstacksize": "999",
+        "@shopcategory": "farming",
+        "@shopsubcategory1": "pasture",
+        "@kind": "animal",
+        "@weight": "15",
+        "@unlockedtocraft": "false",
+        "@tile": "T6_FARM_HORSE_BABY",
+        "@prefabname": "FARM_HORSE_GROWN_04",
+        "@prefabscale": "1.44",
+        "@resourcevalue": "0",
+        "@animationid": "breed",
+        "@shopsubcategory2": "animals",
+        "@shopsubcategory3": "horse",
+        "@nutrition": "5905",
+        "@foodcategory": "mount",
+        "AudioInfo": {
+          "@name": "FARMABLE_HORSE"
+        }
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T6_FARM_OX_GROWN",
+      "index": "34",
+      "category": "Farming_Pasture",
+      "slot": "2h",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": "0",
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T6_FARM_OX_GROWN",
+        "item_database_index": "34"
+      },
+      "tier": 6,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Master's Ox",
+        "DE-DE": "Ochse des Meisters",
+        "FR-FR": "Bœuf du maître",
+        "RU-RU": "Бык (мастер)",
+        "PL-PL": "Wół Mistrza",
+        "ES-ES": "Buey del maestro",
+        "PT-BR": "Boi do Mestre",
+        "IT-IT": "Bue del maestro",
+        "ZH-CN": "大师级成年牛",
+        "KO-KR": "마스터의 황소",
+        "JA-JP": "牛（マスター）",
+        "ZH-TW": "大師級公牛",
+        "ID-ID": "Lembu Master",
+        "TR-TR": "Usta Öküzü",
+        "AR-SA": "ثور للخبير"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Can be used to craft a Master's Transport Ox.",
+        "DE-DE": "Daraus kann ein Transportochse des Meisters gefertigt werden.",
+        "FR-FR": "Peut être utilisé pour fabriquer un bœuf de transport du maître",
+        "RU-RU": "Этого быка можно сделать ездовым.",
+        "PL-PL": "Można go użyć do stworzenia Wołu Pociągowego Mistrza.",
+        "ES-ES": "Se puede utilizar para crear un buey de transporte del maestro.",
+        "PT-BR": "Pode ser usado para virar um Boi de Transporte do Mestre.",
+        "IT-IT": "Si può usare per creare un Bue da Soma del maestro.",
+        "ZH-CN": "可以驯养成为大师级役牛。",
+        "KO-KR": "마스터의 수송용 황소를 제작하는 데 사용될 수 있습니다.",
+        "JA-JP": "荷運び牛（マスター）の製造に使用可能です。",
+        "ZH-TW": "可訓練成大師級運輸公牛。",
+        "ID-ID": "Bisa digunakan untuk membuat Lembu Pengangkut Master.",
+        "TR-TR": "Bir Usta Yük Öküzü zanaatı için kullanılabilir.",
+        "AR-SA": "يمكن استخدامه لتصنيع ثور نقل للخبير."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T6_FARM_OX_GROWN",
+        "description_variable": "@ITEMS_T6_FARM_OX_GROWN_DESC"
+      },
+      "origin": "Farming/Pasture/Pasture_T6_FARM_OX_GROWN.json",
+      "raw": {
+        "@uniquename": "T6_FARM_OX_GROWN",
+        "@tier": "6",
+        "@placefame": "0",
+        "@pickupable": "true",
+        "@destroyable": "false",
+        "@unlockedtoplace": "false",
+        "@maxstacksize": "999",
+        "@shopcategory": "farming",
+        "@shopsubcategory1": "pasture",
+        "@kind": "animal",
+        "@weight": "15",
+        "@unlockedtocraft": "false",
+        "@tile": "T6_FARM_OX_BABY",
+        "@prefabname": "FARM_OX_GROWN_04",
+        "@prefabscale": "1.2",
+        "@resourcevalue": "0",
+        "@animationid": "breed",
+        "@shopsubcategory2": "animals",
+        "@shopsubcategory3": "ox",
+        "@nutrition": "5905",
+        "@foodcategory": "mount",
+        "AudioInfo": {
+          "@name": "FARMABLE_OX"
+        }
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T6_FARM_HORSE_BABY",
+      "index": "40",
+      "category": "Farming_Pasture",
+      "slot": "2h",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": "0",
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T6_FARM_HORSE_BABY",
+        "item_database_index": "40"
+      },
+      "tier": 6,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Master's Foal",
+        "DE-DE": "Fohlen des Meisters",
+        "FR-FR": "Poulain du maître",
+        "RU-RU": "Жеребенок (мастер)",
+        "PL-PL": "Źrebak Mistrza",
+        "ES-ES": "Potro del maestro",
+        "PT-BR": "Potro do Mestre",
+        "IT-IT": "Puledro del maestro",
+        "ZH-CN": "大师级马驹",
+        "KO-KR": "마스터의 망아지",
+        "JA-JP": "子馬（マスター）",
+        "ZH-TW": "大師級小馬",
+        "ID-ID": "Anak Kuda Master",
+        "TR-TR": "Usta Tayı",
+        "AR-SA": "مهر للخبير"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Grow into a Master's Horse which can be used to craft a Master's Riding Horse or a Master's Armored Horse.",
+        "DE-DE": "Wird zu einem Pferd des Meisters, woraus ein Reitpferd des Meisters oder ein Gepanzertes Pferd des Meisters gefertigt werden kann.",
+        "FR-FR": "Devient un cheval du maître pouvant être utilisé pour fabriquer un cheval de monte du maître ou un cheval protégé du maître",
+        "RU-RU": "Такие жеребята вырастают в лошадей мастера, которых можно превратить в ездовых животных.",
+        "PL-PL": "Z czasem staje się Koniem Mistrza, którego można użyć do stworzenia Konia Wierzchowego lub Konia w Zbroi Mistrza.",
+        "ES-ES": "Se convierte en un caballo del maestro, que se puede utilizar para crear un caballo de montar del maestro o un caballo blindado del maestro.",
+        "PT-BR": "Cresce e vira um Cavalo do Mestre, que pode ser usado para virar um Cavalo de Montar do Mestre ou um Cavalo Blindado do Mestre.",
+        "IT-IT": "Crescendo diventa un cavallo del maestro, che si può usare per creare un cavallo da sella del maestro o un cavallo corazzato del maestro.",
+        "ZH-CN": "可以长成大师级成年马，之后可以驯养成为大师级骑乘马或大师级铠马。",
+        "KO-KR": "자라면 마스터의 말이 되어, 마스터의 승용마 또는 마스터의 갑주마를 제작하는 데 사용될 수 있습니다.",
+        "JA-JP": "成長して馬（マスター）になります。乗用馬（マスター）または装甲馬（マスター）の製造に使用可能です。",
+        "ZH-TW": "長大後成為大師級成年馬，可訓練成大師級騎乘馬或大師級鐵甲馬。",
+        "ID-ID": "Tumbuh menjadi Kuda Master yang bisa digunakan untuk membuat Kuda Tunggangan Master atau Kuda Berzirah Master.",
+        "TR-TR": "Yetiştiğinde Usta Atı olur, bu da bir Usta Binek Atı ya da Usta Zırhlı Atı zanaatı için kullanılabilir.",
+        "AR-SA": "ينمو ليصبح حصانًا للخبير، يمكن استخدامه لتصنيع حصان ركوب للخبير أو حصانًا مدرعًا للخبير."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T6_FARM_HORSE_BABY",
+        "description_variable": "@ITEMS_T6_FARM_HORSE_BABY_DESC"
+      },
+      "origin": "Farming/Pasture/Pasture_T6_FARM_HORSE_BABY.json",
+      "raw": {
+        "@uniquename": "T6_FARM_HORSE_BABY",
+        "@tier": "6",
+        "@placefame": "0",
+        "@pickupable": "true",
+        "@destroyable": "false",
+        "@unlockedtoplace": "false",
+        "@maxstacksize": "999",
+        "@shopcategory": "farming",
+        "@shopsubcategory1": "pasture",
+        "@kind": "animal",
+        "@weight": "1.5",
+        "@unlockedtocraft": "true",
+        "@animationid": "breed",
+        "@prefabname": "FARM_HORSE_BABY_04",
+        "@prefabscale": "0.96",
+        "@resourcevalue": "0",
+        "@activefarmfocuscost": "1000",
+        "@activefarmmaxcycles": "4",
+        "@activefarmactiondurationseconds": "1",
+        "@activefarmcyclelengthseconds": "79200",
+        "@activefarmbonus": "0.0593",
+        "@shopsubcategory2": "babys",
+        "@shopsubcategory3": "horse",
+        "AudioInfo": {
+          "@name": "FARMABLE_HORSE_BABY"
+        },
+        "craftingrequirements": {
+          "@silver": "675000",
+          "@time": "0",
+          "@swaptransaction": "true"
+        },
+        "grownitem": {
+          "@uniquename": "T6_FARM_HORSE_GROWN",
+          "@growtime": "676800",
+          "@fame": "400",
+          "offspring": {
+            "@chance": "0.8104",
+            "@amount": "1"
+          }
+        },
+        "consumption": {
+          "food": {
+            "@nutritionmax": "3312",
+            "@secondspernutrition": "52.22",
+            "@lossbeforehungry": "48",
+            "@hungryoverheadicon": "FX/ClientPrefabs/fx_farming_focus_icon_vegetable",
+            "acceptedfood": {
+              "@foodcategory": "plants"
+            }
+          }
+        }
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T4_FARM_GIANTSTAG_BABY",
+      "index": "56",
+      "category": "Farming_Pasture",
+      "slot": "2h",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": "320",
+        "resourcevalue": "0",
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T4_FARM_GIANTSTAG_BABY",
+        "item_database_index": "56"
+      },
+      "tier": 4,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Adept's Fawn",
+        "DE-DE": "Rehkitz des Adepten",
+        "FR-FR": "Faon de l'adepte",
+        "RU-RU": "Олененок (знаток)",
+        "PL-PL": "Jelonek Adepta",
+        "ES-ES": "Cervatillo del iniciado",
+        "PT-BR": "Gamo do Adepto",
+        "IT-IT": "Cerbiatto del sapiente",
+        "ZH-CN": "老手级小鹿",
+        "KO-KR": "숙련자의 새끼 사슴",
+        "JA-JP": "子鹿（名人）",
+        "ZH-TW": "老手級小鹿",
+        "ID-ID": "Rusa Kecil Mahir",
+        "TR-TR": "Ehil Yavru Geyiği",
+        "AR-SA": "صغير الغزال البارع"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "A fawn placed in a Pasture will grow into a Tame Giant Stag, which can be trained into a mount.",
+        "DE-DE": "Ein Rehkitz, das auf eine Weide gesetzt wird, wächst zu einem zahmen Riesenhirsch heran, der zu einem Reittier ausgebildet werden kann.",
+        "FR-FR": "Un faon placé dans un pâturage grandira pour devenir un Cerf géant apprivoisé, qui peut être entraîné pour devenir une monture.",
+        "RU-RU": "Оленёнка можно поместить в загон, чтобы вырастить из него Ручного гигантского оленя, который может стать скакуном.",
+        "PL-PL": "Jelonek umieszczony na pastwisku wyrośnie na Oswojonego Jelonka Olbrzymiego, który może zostać wytrenowany na wierzchowca.",
+        "ES-ES": "Un cervatillo colocado en el pasto crecerá en un ciervo gigante domado, que se puede entrenar como una montura.",
+        "PT-BR": "Um Gamo em um Pasto crescerá até virar um Veado Gigante Manso, que pode ser treinado para virar uma montaria.",
+        "IT-IT": "Un cerbiatto assegnato a un pascolo crescerà fino a diventare un cervo gigante domato, che potrai addestrare come cavalcatura.",
+        "ZH-CN": "小鹿送进栏圈之后，会长成家养巨鹿，然后可以驯养成为坐骑。",
+        "KO-KR": "목초지에 배치한 새끼 사슴은 길들인 거대 숫사슴으로 성장하며, 훈련을 거쳐 탈것으로 만들 수 있습니다.",
+        "JA-JP": "子鹿は牧草地に配置すると、成長して飼い慣らした巨大雄ジカになります。訓練を行なって騎獣にすることが可能です。",
+        "ZH-TW": "您可以把小鹿放入牧場，讓牠長大成為馴化巨鹿，再訓練成坐騎。",
+        "ID-ID": "Rusa kecil yang diletakkan di padang rumput akan tumbuh menjadi Rusa Raksasa Jinak, yang bisa dilatih menjadi tunggangan.",
+        "TR-TR": "Yavru Geyikler otlak yerlerine yerleştirilip Evcil Dev Geyik olmak üzere yetiştirilebilir ve binek olarak eğitilebilir.",
+        "AR-SA": "سينمو صغير الغزال الموجود في مرعى ليصبح أيلًا عملاقًا مروّضًا، والذي يمكن تدريبه ليصبح مطية."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T4_FARM_GIANTSTAG_BABY",
+        "description_variable": "@ITEMS_T4_FARM_GIANTSTAG_BABY_DESC"
+      },
+      "origin": "Farming/Pasture/Pasture_T4_FARM_GIANTSTAG_BABY.json",
+      "raw": {
+        "@uniquename": "T4_FARM_GIANTSTAG_BABY",
+        "@itemvalue": "320",
+        "@uisprite": "FARM_GIANTSTAG_BABY_01",
+        "@tier": "4",
+        "@placefame": "0",
+        "@pickupable": "true",
+        "@destroyable": "false",
+        "@unlockedtoplace": "false",
+        "@maxstacksize": "999",
+        "@shopcategory": "farming",
+        "@shopsubcategory1": "pasture",
+        "@kind": "animal",
+        "@weight": "1.5",
+        "@unlockedtocraft": "true",
+        "@animationid": "breed",
+        "@prefabname": "FARM_GIANTSTAG_BABY_01",
+        "@prefabscale": "0.8",
+        "@resourcevalue": "0",
+        "@activefarmfocuscost": "1000",
+        "@activefarmmaxcycles": "2",
+        "@activefarmactiondurationseconds": "1",
+        "@activefarmcyclelengthseconds": "79200",
+        "@activefarmbonus": "0.175",
+        "@shopsubcategory2": "babys",
+        "@shopsubcategory3": "giantstag",
+        "AudioInfo": {
+          "@name": "FARMABLE_GIANTSTAG_BABY"
+        },
+        "grownitem": {
+          "@uniquename": "T4_FARM_GIANTSTAG_GROWN",
+          "@growtime": "331200",
+          "@fame": "200",
+          "offspring": {
+            "@chance": "0.0",
+            "@amount": "1"
+          }
+        },
+        "consumption": {
+          "food": {
+            "@nutritionmax": "768",
+            "@secondspernutrition": "230",
+            "@lossbeforehungry": "48",
+            "@hungryoverheadicon": "FX/ClientPrefabs/fx_farming_focus_icon_vegetable",
+            "acceptedfood": {
+              "@foodcategory": "plants"
+            }
+          }
+        }
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T7_FARM_OX_GROWN",
+      "index": "35",
+      "category": "Farming_Pasture",
+      "slot": "2h",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": "0",
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T7_FARM_OX_GROWN",
+        "item_database_index": "35"
+      },
+      "tier": 7,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Grandmaster's Ox",
+        "DE-DE": "Ochse des Großmeisters",
+        "FR-FR": "Bœuf du grand maître",
+        "RU-RU": "Бык (магистр)",
+        "PL-PL": "Wół Wszechmistrza",
+        "ES-ES": "Buey del gran maestro",
+        "PT-BR": "Boi do Grão-mestre",
+        "IT-IT": "Bue del gran maestro",
+        "ZH-CN": "宗师级成年牛",
+        "KO-KR": "그랜드 마스터의 황소",
+        "JA-JP": "牛（グランドマスター）",
+        "ZH-TW": "宗師級公牛",
+        "ID-ID": "Lembu Grandmaster",
+        "TR-TR": "Büyük Usta Öküzü",
+        "AR-SA": "ثور الأستاذ"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Can be used to craft a Grandmaster's Transport Ox.",
+        "DE-DE": "Daraus kann ein Transportochse des Großmeisters gefertigt werden.",
+        "FR-FR": "Peut être utilisé pour fabriquer un bœuf de transport du grand maître",
+        "RU-RU": "Этого быка можно сделать ездовым.",
+        "PL-PL": "Można go użyć do stworzenia Wołu Pociągowego Wszechmistrza.",
+        "ES-ES": "Se puede utilizar para crear un buey de transporte del gran maestro.",
+        "PT-BR": "Pode ser usado para virar um Boi de Transporte do Grão-mestre.",
+        "IT-IT": "Si può usare per creare un Bue da Soma del gran maestro.",
+        "ZH-CN": "可以驯养成为宗师级役牛。",
+        "KO-KR": "그랜드 마스터의 수송용 황소를 제작하는 데 사용될 수 있습니다.",
+        "JA-JP": "荷運び牛（グランドマスター）の製造に使用可能。",
+        "ZH-TW": "可訓練成宗師級運輸公牛。",
+        "ID-ID": "Bisa digunakan untuk membuat Lembu Pengangkut Grandmaster.",
+        "TR-TR": "Bir Büyük Usta Yük Öküzü zanaatı için kullanılabilir.",
+        "AR-SA": "يمكن استخدامه لتصنيع ثور نقل للأستاذ."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T7_FARM_OX_GROWN",
+        "description_variable": "@ITEMS_T7_FARM_OX_GROWN_DESC"
+      },
+      "origin": "Farming/Pasture/Pasture_T7_FARM_OX_GROWN.json",
+      "raw": {
+        "@uniquename": "T7_FARM_OX_GROWN",
+        "@tier": "7",
+        "@placefame": "0",
+        "@pickupable": "true",
+        "@destroyable": "false",
+        "@unlockedtoplace": "false",
+        "@maxstacksize": "999",
+        "@shopcategory": "farming",
+        "@shopsubcategory1": "pasture",
+        "@kind": "animal",
+        "@weight": "15",
+        "@unlockedtocraft": "false",
+        "@tile": "T7_FARM_OX_BABY",
+        "@prefabname": "FARM_OX_GROWN_05",
+        "@prefabscale": "1.2",
+        "@resourcevalue": "0",
+        "@animationid": "breed",
+        "@shopsubcategory2": "animals",
+        "@shopsubcategory3": "ox",
+        "@nutrition": "18699",
+        "@foodcategory": "mount",
+        "AudioInfo": {
+          "@name": "FARMABLE_OX"
+        }
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T8_FARM_COW_GROWN",
+      "index": "116",
+      "category": "Farming_Pasture",
+      "slot": "2h",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": "720",
+        "resourcevalue": "931",
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T8_FARM_COW_GROWN",
+        "item_database_index": "116"
+      },
+      "tier": 8,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Cow",
+        "DE-DE": "Kuh",
+        "FR-FR": "Vache",
+        "RU-RU": "Корова",
+        "PL-PL": "Krowa",
+        "ES-ES": "Vaca",
+        "PT-BR": "Vaca",
+        "IT-IT": "Mucca",
+        "ZH-CN": "奶牛",
+        "KO-KR": "암소",
+        "JA-JP": "雌牛",
+        "ZH-TW": "乳牛",
+        "ID-ID": "Sapi",
+        "TR-TR": "İnek",
+        "AR-SA": "بقرة"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Cows can be slaughtered to produce Raw Beef, or left alive to produce Cow's Milk",
+        "DE-DE": "Schlachte Kühe für rohes Rind oder lass sie am Leben und erhalte Kuhmilch.",
+        "FR-FR": "Tuez une vache pour obtenir du bœuf cru ou gardez-la en vie pour son lait de vache",
+        "RU-RU": "Забейте корову ради мяса или оставьте в живых - пусть дает молоко.",
+        "PL-PL": "Krowy można zabić, aby otrzymać Surową Wołowinę, albo pozostawić przy życiu, aby otrzymywać Krowie Mleko",
+        "ES-ES": "Puedes sacrificar vacas para conseguir carne de ternera o dejarlas vivas y obtener leche",
+        "PT-BR": "Abata Vacas para produzir Carne Crua ou deixe-as vivas para produzirem Leite de Vaca",
+        "IT-IT": "Una mucca può essere macellata per produrre carne di manzo cruda, oppure può essere lasciata in vita per ottenerne latte di mucca.",
+        "ZH-CN": "奶牛可以宰杀变成牛肉，或者留着生产牛奶",
+        "KO-KR": "암소는 도살해서 생 쇠고기를 만들거나, 살려 두면 우유를 생산합니다.",
+        "JA-JP": "雌牛は屠殺して生の牛肉に加工できます。生かしておけば、雌牛のミルクが取れます。",
+        "ZH-TW": "乳牛可經屠宰製成生牛肉，或留著持續生產牛奶",
+        "ID-ID": "Sapi bisa disembelih untuk menghasilkan Daging Sapi Mentah, atau dipelihara agar menghasilkan Susu Sapi",
+        "TR-TR": "İnekler, Çiğ Sığır Eti elde etmek üzere kesilebilir ya da sağ bırakılarak İnek Sütü üretmeleri sağlanabilir.",
+        "AR-SA": "يمكن ذبح الأبقار لإنتاج لحم بقر نيئ، أو تركها حية لإنتاج حليب البقر"
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T8_FARM_COW_GROWN",
+        "description_variable": "@ITEMS_T8_FARM_COW_GROWN_DESC"
+      },
+      "origin": "Farming/Pasture/Pasture_T8_FARM_COW_GROWN.json",
+      "raw": {
+        "@uniquename": "T8_FARM_COW_GROWN",
+        "@tier": "8",
+        "@placefame": "0",
+        "@pickupable": "true",
+        "@destroyable": "false",
+        "@unlockedtoplace": "false",
+        "@maxstacksize": "999",
+        "@shopcategory": "farming",
+        "@shopsubcategory1": "pasture",
+        "@kind": "animal",
+        "@weight": "10.83",
+        "@unlockedtocraft": "false",
+        "@tile": "T8_FARM_COW_BABY",
+        "@prefabname": "FARM_COW_GROWN_01",
+        "@prefabscale": "1",
+        "@resourcevalue": "931",
+        "@animationid": "breed",
+        "@itemvalue": "720",
+        "@shopsubcategory2": "animals",
+        "@shopsubcategory3": "cow",
+        "AudioInfo": {
+          "@name": "FARMABLE_COW"
+        },
+        "consumption": {
+          "food": {
+            "@nutritionmax": "864",
+            "@secondspernutrition": "91.67",
+            "@hungryoverheadicon": "FX/ClientPrefabs/fx_farming_focus_icon_pumpkin",
+            "acceptedfood": {
+              "@foodcategory": "plants",
+              "@favorite": "T8_PUMPKIN",
+              "@favoritebonus": "1"
+            }
+          }
+        },
+        "products": {
+          "product": {
+            "@productiontime": "79200",
+            "@actionname": "@FARMABLE_GETPRODUCT_BUTTON_MILK",
+            "@lootlist": "T8_COW_LOOT",
+            "@lootchance": "1",
+            "@fame": "100"
+          }
+        }
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T6_FARM_OX_BABY",
+      "index": "28",
+      "category": "Farming_Pasture",
+      "slot": "2h",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": "0",
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T6_FARM_OX_BABY",
+        "item_database_index": "28"
+      },
+      "tier": 6,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Master's Ox Calf",
+        "DE-DE": "Ochsenkalb des Meisters",
+        "FR-FR": "Veau du maître",
+        "RU-RU": "Бычок (мастер)",
+        "PL-PL": "Cielę Wołu Mistrza",
+        "ES-ES": "Becerro del maestro",
+        "PT-BR": "Novilho do Mestre",
+        "IT-IT": "Vitello di bue del maestro",
+        "ZH-CN": "大师级牛犊",
+        "KO-KR": "마스터의 황소 송아지",
+        "JA-JP": "子牛（マスター）",
+        "ZH-TW": "大師級小公牛",
+        "ID-ID": "Anak Lembu Master",
+        "TR-TR": "Usta Buzağısı",
+        "AR-SA": "عجل الثور"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Grows into an Master's Ox which can be used to craft a Master's Transport Ox.",
+        "DE-DE": "Wird zu einem Ochsen des Meisters, woraus ein Transportochse des Meisters gefertigt werden kann.",
+        "FR-FR": "Devient un bœuf du maître pouvant être utilisé pour fabriquer un bœuf de transport du maître",
+        "RU-RU": "Вырастет в быка мастера, которого можно сделать ездовым.",
+        "PL-PL": "Z czasem staje się Wołem Mistrza, którego można użyć do stworzenia Wołu Pociągowego Mistrza.",
+        "ES-ES": "Se convierte en un buey del maestro, que se puede utilizar para crear un buey de transporte del maestro.",
+        "PT-BR": "Cresce e vira um Boi do Mestre, que pode ser usado para virar um Boi de Transporte do Adepto.",
+        "IT-IT": "Crescendo diventa un bue del maestro, che si può usare per creare un Bue da Soma del maestro.",
+        "ZH-CN": "可以长成大师级成年牛，之后可以驯养成为大师级役牛。",
+        "KO-KR": "자라면 마스터의 황소가 되어, 마스터의 수송용 황소를 제작하는 데 사용될 수 있습니다.",
+        "JA-JP": "成長すると牛（マスター）になります。荷運び牛（マスター）の製造に使用可能です。",
+        "ZH-TW": "長大後成為大師級公牛，可訓練成大師級運輸公牛。",
+        "ID-ID": "Tumbuh menjadi Lembu Master yang bisa digunakan untuk membuat Lembu Pengangkut Master.",
+        "TR-TR": "Yetiştiğinde Usta Öküzü olur ve bir Usta Yük Öküzü zanaatı için kullanılabilir.",
+        "AR-SA": "ينمو ليصبح ثور للخبير الذي يمكن استخدامه لتصنيع ثور نقل للخبير."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T6_FARM_OX_BABY",
+        "description_variable": "@ITEMS_T6_FARM_OX_BABY_DESC"
+      },
+      "origin": "Farming/Pasture/Pasture_T6_FARM_OX_BABY.json",
+      "raw": {
+        "@uniquename": "T6_FARM_OX_BABY",
+        "@tier": "6",
+        "@placefame": "0",
+        "@pickupable": "true",
+        "@destroyable": "false",
+        "@unlockedtoplace": "false",
+        "@maxstacksize": "999",
+        "@shopcategory": "farming",
+        "@shopsubcategory1": "pasture",
+        "@kind": "animal",
+        "@weight": "1.5",
+        "@unlockedtocraft": "true",
+        "@animationid": "breed",
+        "@prefabname": "FARM_OX_BABY_04",
+        "@prefabscale": "0.72",
+        "@resourcevalue": "0",
+        "@activefarmfocuscost": "1000",
+        "@activefarmmaxcycles": "4",
+        "@activefarmactiondurationseconds": "1",
+        "@activefarmcyclelengthseconds": "79200",
+        "@activefarmbonus": "0.0593",
+        "@shopsubcategory2": "babys",
+        "@shopsubcategory3": "ox",
+        "AudioInfo": {
+          "@name": "FARMABLE_OX_BABY"
+        },
+        "craftingrequirements": {
+          "@silver": "675000",
+          "@time": "0",
+          "@swaptransaction": "true"
+        },
+        "grownitem": {
+          "@uniquename": "T6_FARM_OX_GROWN",
+          "@growtime": "676800",
+          "@fame": "400",
+          "offspring": {
+            "@chance": "0.8104",
+            "@amount": "1"
+          }
+        },
+        "consumption": {
+          "food": {
+            "@nutritionmax": "3312",
+            "@secondspernutrition": "52.22",
+            "@lossbeforehungry": "48",
+            "@hungryoverheadicon": "FX/ClientPrefabs/fx_farming_focus_icon_vegetable",
+            "acceptedfood": {
+              "@foodcategory": "plants"
+            }
+          }
+        }
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T5_FARM_HORSE_GROWN",
+      "index": "45",
+      "category": "Farming_Pasture",
+      "slot": "2h",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": "0",
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T5_FARM_HORSE_GROWN",
+        "item_database_index": "45"
+      },
+      "tier": 5,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Expert's Horse",
+        "DE-DE": "Pferd des Experten",
+        "FR-FR": "Cheval de l'expert",
+        "RU-RU": "Лошадь (эксперт)",
+        "PL-PL": "Koń Znawcy",
+        "ES-ES": "Caballo del experto",
+        "PT-BR": "Cavalo do Perito",
+        "IT-IT": "Cavallo dell'esperto",
+        "ZH-CN": "专家级成年马",
+        "KO-KR": "전문가의 말",
+        "JA-JP": "馬（達人）",
+        "ZH-TW": "專家級成年馬",
+        "ID-ID": "Kuda Ahli",
+        "TR-TR": "Uzman Atı",
+        "AR-SA": "حصان الأخصائي"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Can be used to craft an Expert's Riding Horse or an Expert's Armored Horse.",
+        "DE-DE": "Daraus kann ein Reitpferd des Experten oder ein Gepanzertes Pferd des Experten gefertigt werden.",
+        "FR-FR": "Peut être utilisé pour fabriquer un cheval de monte de l'expert ou un cheval protégé de l'expert",
+        "RU-RU": "Лошадь эксперта можно сделать ездовой или боевой.",
+        "PL-PL": "Można go użyć do stworzenia Konia Wierzchowego Znawcy lub Konia w Zbroi Znawcy.",
+        "ES-ES": "Se puede utilizar para crear un caballo de montar del experto o un caballo blindado del experto.",
+        "PT-BR": "Pode ser usado para virar um Cavalo de Montar do Perito ou um Cavalo Blindado do Perito.",
+        "IT-IT": "Si può usare per creare un cavallo da sella dell'esperto o un cavallo corazzato dell'esperto.",
+        "ZH-CN": "可以驯养成为专家级骑乘马或专家级铠马。",
+        "KO-KR": "전문가의 승용마 또는 전문가의 갑주마를 제작하는 데 사용될 수 있습니다.",
+        "JA-JP": "乗用馬（達人）または装甲馬（達人）の製造に使用可能です。",
+        "ZH-TW": "可訓練成專家級騎乘馬或專家級鐵甲馬。",
+        "ID-ID": "Bisa digunakan untuk membuat Kuda Tunggangan Ahli atau Kuda Berzirah Ahli.",
+        "TR-TR": "Bir Uzman Binek Atı veya Uzman Zırhlı Atı zanaatı için kullanılabilir.",
+        "AR-SA": "يمكن استخدامه لتصنيع حصان ركوب للأخصائي أو حصان مدرّع للأخصائي."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T5_FARM_HORSE_GROWN",
+        "description_variable": "@ITEMS_T5_FARM_HORSE_GROWN_DESC"
+      },
+      "origin": "Farming/Pasture/Pasture_T5_FARM_HORSE_GROWN.json",
+      "raw": {
+        "@uniquename": "T5_FARM_HORSE_GROWN",
+        "@tier": "5",
+        "@placefame": "0",
+        "@pickupable": "true",
+        "@destroyable": "false",
+        "@unlockedtoplace": "false",
+        "@maxstacksize": "999",
+        "@shopcategory": "farming",
+        "@shopsubcategory1": "pasture",
+        "@kind": "animal",
+        "@weight": "15",
+        "@unlockedtocraft": "false",
+        "@tile": "T5_FARM_HORSE_BABY",
+        "@prefabname": "FARM_HORSE_GROWN_03",
+        "@prefabscale": "1.44",
+        "@resourcevalue": "0",
+        "@animationid": "breed",
+        "@shopsubcategory2": "animals",
+        "@shopsubcategory3": "horse",
+        "@nutrition": "1859",
+        "@foodcategory": "mount",
+        "AudioInfo": {
+          "@name": "FARMABLE_HORSE"
+        }
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    }
+  ]
+}

@@ -1,0 +1,2258 @@
+{
+  "version": 1,
+  "item_count": 18,
+  "items": [
+    {
+      "id": "UNIQUE_VANITY_2H_PHYLACTERY_SOULKEEPER",
+      "index": "11395",
+      "category": "Vanity_Weapons",
+      "slot": "MainHand",
+      "two_handed": true,
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "UNIQUE_VANITY_2H_PHYLACTERY_SOULKEEPER",
+        "item_database_index": "11395"
+      },
+      "tier": null,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Phylactery of Souls",
+        "DE-DE": "Seelengefäß",
+        "FR-FR": "Phylactère des âmes",
+        "RU-RU": "Филактерия",
+        "PL-PL": "Filakterium Dusz",
+        "ES-ES": "Filacteria de almas",
+        "PT-BR": "Talismã das Almas",
+        "IT-IT": "Filatterio di anime",
+        "ZH-CN": "灵魂经匣",
+        "KO-KR": "영혼의 성구함",
+        "JA-JP": "魂の聖句箱",
+        "ZH-TW": "護魂匣",
+        "ID-ID": "Wadah Jiwa",
+        "TR-TR": "Ruh Muskası",
+        "AR-SA": "تميمة الأرواح"
+      },
+      "localized_all_descriptions": {},
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_UNIQUE_VANITY_2H_PHYLACTERY_SOULKEEPER",
+        "description_variable": "@ITEMS_UNIQUE_VANITY_2H_PHYLACTERY_SOULKEEPER_DESC"
+      },
+      "origin": "Vanity/Weapons/Weapons_UNIQUE_VANITY_2H_PHYLACTERY_SOULKEEPER.json",
+      "descriptions": {
+        "description_en": "",
+        "description_ar": "",
+        "description_de": "",
+        "description_fr": "",
+        "description_es": "",
+        "description_ru": ""
+      },
+      "raw": {
+        "@uniquename": "UNIQUE_VANITY_2H_PHYLACTERY_SOULKEEPER",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "100",
+        "@slottype": "mainhand",
+        "@attacktype": "magic",
+        "@twohanded": "true",
+        "@shopcategory": "vanity",
+        "@shopsubcategory1": "weapons",
+        "@skincount": "2",
+        "@tier": "3",
+        "@weight": "1.1",
+        "@activespellslots": "0",
+        "@passivespellslots": "1",
+        "@physicalarmor": "0",
+        "@magicresistance": "0",
+        "@durability": "16200",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@mainhandanimationtype": "phylactery",
+        "@unlockedtocraft": "true",
+        "@unlockedtoequip": "true",
+        "@hitpointsmax": "0",
+        "@hitpointsregenerationbonus": "0",
+        "@energymax": "0",
+        "@energyregenerationbonus": "0",
+        "@crowdcontrolresistance": "0",
+        "@itempower": "500",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@healbonus": "0",
+        "@bonusccdurationvsplayers": "0",
+        "@bonusccdurationvsmobs": "0",
+        "@threatbonus": "0",
+        "@magiccooldownreduction": "0",
+        "@bonusdefensevsplayers": "0",
+        "@bonusdefensevsmobs": "0",
+        "@magiccasttimereduction": "0",
+        "@attackspeedbonus": "0",
+        "@movespeedbonus": "0",
+        "@showinmarketplace": "false",
+        "@hidefromplayeroncontext": "all",
+        "@uicraftsoundstart": "Play_ui_action_craft_tool_start",
+        "@uicraftsoundfinish": "Play_ui_action_craft_tool_finish",
+        "craftingspelllist": {
+          "craftspell": {
+            "@uniquename": "PASSIVE_CANNOTATTACK"
+          }
+        },
+        "AssetVfxPreset": {
+          "@name": "UNIQUE_PHYLACTERY_VANITY_SOULKEEPER"
+        }
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 1
+    },
+    {
+      "id": "UNIQUE_VANITY_2H_FW_BRIDGEWATCH_BANNER",
+      "index": "11151",
+      "category": "Vanity_Weapons",
+      "slot": "MainHand",
+      "two_handed": true,
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "UNIQUE_VANITY_2H_FW_BRIDGEWATCH_BANNER",
+        "item_database_index": "11151"
+      },
+      "tier": null,
+      "enchantment": 0,
+      "localized_all_names": {},
+      "localized_all_descriptions": {},
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_UNIQUE_VANITY_2H_FW_BRIDGEWATCH_BANNER",
+        "description_variable": "@ITEMS_UNIQUE_VANITY_2H_FW_BRIDGEWATCH_BANNER_DESC"
+      },
+      "origin": "Vanity/Weapons/Weapons_UNIQUE_VANITY_2H_FW_BRIDGEWATCH_BANNER.json",
+      "name_en": "",
+      "name_ar": "",
+      "name_de": "",
+      "name_fr": "",
+      "name_es": "",
+      "name_ru": "",
+      "localized": {
+        "name_en": "",
+        "name_ar": "",
+        "name_de": "",
+        "name_fr": "",
+        "name_es": "",
+        "name_ru": ""
+      },
+      "descriptions": {
+        "description_en": "",
+        "description_ar": "",
+        "description_de": "",
+        "description_fr": "",
+        "description_es": "",
+        "description_ru": ""
+      },
+      "raw": {
+        "@uniquename": "UNIQUE_VANITY_2H_FW_BRIDGEWATCH_BANNER",
+        "@tradable": "false",
+        "@maxqualitylevel": "1",
+        "@abilitypower": "100",
+        "@slottype": "mainhand",
+        "@attacktype": "melee",
+        "@twohanded": "true",
+        "@shopcategory": "vanity",
+        "@shopsubcategory1": "weapons",
+        "@skincount": "2",
+        "@tier": "3",
+        "@weight": "1.1",
+        "@activespellslots": "1",
+        "@passivespellslots": "1",
+        "@physicalarmor": "0",
+        "@magicresistance": "0",
+        "@durability": "16200",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@mainhandanimationtype": "warbanner",
+        "@unlockedtocraft": "true",
+        "@unlockedtoequip": "true",
+        "@hitpointsmax": "0",
+        "@hitpointsregenerationbonus": "0",
+        "@energymax": "0",
+        "@energyregenerationbonus": "0",
+        "@crowdcontrolresistance": "0",
+        "@itempower": "500",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@healbonus": "0",
+        "@bonusccdurationvsplayers": "0",
+        "@bonusccdurationvsmobs": "0",
+        "@threatbonus": "0",
+        "@magiccooldownreduction": "0",
+        "@bonusdefensevsplayers": "0",
+        "@bonusdefensevsmobs": "0",
+        "@magiccasttimereduction": "0",
+        "@attackspeedbonus": "0",
+        "@movespeedbonus": "0",
+        "@showinmarketplace": "false",
+        "@hidefromplayeroncontext": "all",
+        "@uicraftsoundstart": "Play_ui_action_craft_tool_start",
+        "@uicraftsoundfinish": "Play_ui_action_craft_tool_finish",
+        "@namelocatag": "@ITEMS_UNIQUE_UNLOCK_VANITY_2H_FW_BRIDGEWATCH_BANNER",
+        "craftingspelllist": {
+          "craftspell": [
+            {
+              "@uniquename": "VANITY_WARBANNER_PRESENT_FW_BRIDGEWATCH",
+              "@slots": "1"
+            },
+            {
+              "@uniquename": "PASSIVE_CANNOTATTACK"
+            }
+          ]
+        },
+        "AssetVfxPreset": {
+          "@name": "UNIQUE_VANITY_2H_FW_BRIDGEWATCH_BANNER"
+        }
+      },
+      "name_sources_ref": 1,
+      "description_sources_ref": 1
+    },
+    {
+      "id": "UNIQUE_VANITY_2H_BANNER_GUIDON_AJ",
+      "index": "11878",
+      "category": "Vanity_Weapons",
+      "slot": "MainHand",
+      "two_handed": true,
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "UNIQUE_VANITY_2H_BANNER_GUIDON_AJ",
+        "item_database_index": "11878"
+      },
+      "tier": null,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Heraldic Guidon",
+        "DE-DE": "Heraldische Standarte",
+        "FR-FR": "Étendard Héraldique",
+        "RU-RU": "Геральдический вымпел",
+        "PL-PL": "Chorągiew z Herbem",
+        "ES-ES": "Banderín Heráldico",
+        "PT-BR": "Guião Heráldico",
+        "IT-IT": "Vessillo Araldico",
+        "ZH-CN": "纹章会旗",
+        "KO-KR": "전령의 깃발",
+        "JA-JP": "紋章付き小旗",
+        "ZH-TW": "紋章會旗",
+        "ID-ID": "Bendera Heraldik",
+        "TR-TR": "Hanedan Flaması",
+        "AR-SA": "الراية النبيلة"
+      },
+      "localized_all_descriptions": {},
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_UNIQUE_VANITY_2H_BANNER_GUIDON_AJ",
+        "description_variable": "@ITEMS_UNIQUE_VANITY_2H_BANNER_GUIDON_AJ_DESC"
+      },
+      "origin": "Vanity/Weapons/Weapons_UNIQUE_VANITY_2H_BANNER_GUIDON_AJ.json",
+      "descriptions": {
+        "description_en": "",
+        "description_ar": "",
+        "description_de": "",
+        "description_fr": "",
+        "description_es": "",
+        "description_ru": ""
+      },
+      "raw": {
+        "@uniquename": "UNIQUE_VANITY_2H_BANNER_GUIDON_AJ",
+        "@maxqualitylevel": "5",
+        "@twohanded": "true",
+        "@abilitypower": "100",
+        "@slottype": "mainhand",
+        "@shopcategory": "vanity",
+        "@shopsubcategory1": "weapons",
+        "@skincount": "2",
+        "@tier": "8",
+        "@weight": "1.1",
+        "@activespellslots": "1",
+        "@passivespellslots": "1",
+        "@physicalarmor": "0",
+        "@magicresistance": "0",
+        "@durability": "16200",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@attacktype": "melee",
+        "@attackdamage": "0",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@mainhandanimationtype": "guidonbanner",
+        "@unlockedtocraft": "true",
+        "@unlockedtoequip": "true",
+        "@hitpointsmax": "0",
+        "@hitpointsregenerationbonus": "0",
+        "@energymax": "0",
+        "@energyregenerationbonus": "0",
+        "@crowdcontrolresistance": "0",
+        "@itempower": "500",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@healbonus": "0",
+        "@bonusccdurationvsplayers": "0",
+        "@bonusccdurationvsmobs": "0",
+        "@threatbonus": "0",
+        "@magiccooldownreduction": "0",
+        "@bonusdefensevsplayers": "0",
+        "@bonusdefensevsmobs": "0",
+        "@magiccasttimereduction": "0",
+        "@attackspeedbonus": "0",
+        "@movespeedbonus": "0",
+        "@showinmarketplace": "false",
+        "@hidefromplayeroncontext": "all",
+        "@uicraftsoundstart": "Play_ui_action_craft_tool_start",
+        "@uicraftsoundfinish": "Play_ui_action_craft_tool_finish",
+        "@salvageable": "false",
+        "@tradable": "false",
+        "craftingspelllist": {
+          "craftspell": [
+            {
+              "@uniquename": "VANITY_2H_BANNER_GUIDON_AJ_SPELL",
+              "@slots": "1"
+            },
+            {
+              "@uniquename": "PASSIVE_CANNOTATTACK"
+            }
+          ]
+        },
+        "AssetVfxPreset": {
+          "@name": "UNIQUE_VANITY_2H_BANNER_GUIDON_AJ"
+        }
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 1
+    },
+    {
+      "id": "UNIQUE_VANITY_2H_MULTITOOL_OVERCHARGED_AJ",
+      "index": "11840",
+      "category": "Vanity_Weapons",
+      "slot": "MainHand",
+      "two_handed": true,
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "UNIQUE_VANITY_2H_MULTITOOL_OVERCHARGED_AJ",
+        "item_database_index": "11840"
+      },
+      "tier": null,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Razor-Sharp Axe",
+        "DE-DE": "Rasiermesserscharfe Axt",
+        "FR-FR": "Hache très aiguisée",
+        "RU-RU": "Идеально острый топор",
+        "PL-PL": "Topór Ostry jak Brzytwa",
+        "ES-ES": "Hacha afiladísima",
+        "PT-BR": "Machado Afiadíssimo",
+        "IT-IT": "Ascia affilatissima",
+        "ZH-CN": "锐利如刃的斧头",
+        "KO-KR": "날카롭게 벼려진 도끼",
+        "JA-JP": "鋭い斧",
+        "ZH-TW": "銳利如刃的斧頭",
+        "ID-ID": "Kapak Setajam Silet",
+        "TR-TR": "Jilet Balta",
+        "AR-SA": "فأس حاد للغاية"
+      },
+      "localized_all_descriptions": {},
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_UNIQUE_VANITY_2H_MULTITOOL_OVERCHARGED_AJ",
+        "description_variable": "@ITEMS_UNIQUE_VANITY_2H_MULTITOOL_OVERCHARGED_AJ_DESC"
+      },
+      "origin": "Vanity/Weapons/Weapons_UNIQUE_VANITY_2H_MULTITOOL_OVERCHARGED_AJ.json",
+      "descriptions": {
+        "description_en": "",
+        "description_ar": "",
+        "description_de": "",
+        "description_fr": "",
+        "description_es": "",
+        "description_ru": ""
+      },
+      "raw": {
+        "@uniquename": "UNIQUE_VANITY_2H_MULTITOOL_OVERCHARGED_AJ",
+        "@twohanded": "true",
+        "@attacktype": "melee",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "100",
+        "@slottype": "mainhand",
+        "@shopcategory": "vanity",
+        "@shopsubcategory1": "weapons",
+        "@skincount": "2",
+        "@tier": "8",
+        "@weight": "1.1",
+        "@activespellslots": "1",
+        "@passivespellslots": "1",
+        "@physicalarmor": "0",
+        "@magicresistance": "0",
+        "@durability": "16200",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@mainhandanimationtype": "axe2h",
+        "@unlockedtocraft": "true",
+        "@unlockedtoequip": "true",
+        "@hitpointsmax": "0",
+        "@hitpointsregenerationbonus": "0",
+        "@energymax": "0",
+        "@energyregenerationbonus": "0",
+        "@crowdcontrolresistance": "0",
+        "@itempower": "500",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@healbonus": "0",
+        "@bonusccdurationvsplayers": "0",
+        "@bonusccdurationvsmobs": "0",
+        "@threatbonus": "0",
+        "@magiccooldownreduction": "0",
+        "@bonusdefensevsplayers": "0",
+        "@bonusdefensevsmobs": "0",
+        "@magiccasttimereduction": "0",
+        "@attackspeedbonus": "0",
+        "@movespeedbonus": "0",
+        "@showinmarketplace": "false",
+        "@hidefromplayeroncontext": "all",
+        "@uicraftsoundstart": "Play_ui_action_craft_tool_start",
+        "@uicraftsoundfinish": "Play_ui_action_craft_tool_finish",
+        "@salvageable": "false",
+        "@tradable": "false",
+        "craftingspelllist": {
+          "craftspell": [
+            {
+              "@uniquename": "VANITY_2H_MULTITOOL_OVERCHARGED_AJ_SPELL",
+              "@slots": "1"
+            },
+            {
+              "@uniquename": "PASSIVE_CANNOTATTACK"
+            }
+          ]
+        },
+        "AssetVfxPreset": {
+          "@name": "UNIQUE_VANITY_2H_MULTITOOL_OVERCHARGED_AJ"
+        }
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 1
+    },
+    {
+      "id": "UNIQUE_VANITY_2H_MULTITOOL_AJ",
+      "index": "11838",
+      "category": "Vanity_Weapons",
+      "slot": "MainHand",
+      "two_handed": true,
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "UNIQUE_VANITY_2H_MULTITOOL_AJ",
+        "item_database_index": "11838"
+      },
+      "tier": null,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Sharpened Axe",
+        "DE-DE": "Geschärfte Axt",
+        "FR-FR": "Hache aiguisée",
+        "RU-RU": "Острый топор",
+        "PL-PL": "Zaostrzony Topór",
+        "ES-ES": "Hacha afilada",
+        "PT-BR": "Machado Afiado",
+        "IT-IT": "Ascia affilata",
+        "ZH-CN": "锋利的斧头",
+        "KO-KR": "예리한 도끼",
+        "JA-JP": "研いだ斧",
+        "ZH-TW": "鋒利的斧頭",
+        "ID-ID": "Kapak Terasah",
+        "TR-TR": "Keskin Balta",
+        "AR-SA": "فأس مشحوذ"
+      },
+      "localized_all_descriptions": {},
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_UNIQUE_VANITY_2H_MULTITOOL_AJ",
+        "description_variable": "@ITEMS_UNIQUE_VANITY_2H_MULTITOOL_AJ_DESC"
+      },
+      "origin": "Vanity/Weapons/Weapons_UNIQUE_VANITY_2H_MULTITOOL_AJ.json",
+      "descriptions": {
+        "description_en": "",
+        "description_ar": "",
+        "description_de": "",
+        "description_fr": "",
+        "description_es": "",
+        "description_ru": ""
+      },
+      "raw": {
+        "@uniquename": "UNIQUE_VANITY_2H_MULTITOOL_AJ",
+        "@twohanded": "true",
+        "@attacktype": "melee",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "100",
+        "@slottype": "mainhand",
+        "@shopcategory": "vanity",
+        "@shopsubcategory1": "weapons",
+        "@skincount": "2",
+        "@tier": "8",
+        "@weight": "1.1",
+        "@activespellslots": "1",
+        "@passivespellslots": "1",
+        "@physicalarmor": "0",
+        "@magicresistance": "0",
+        "@durability": "16200",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@mainhandanimationtype": "axe2h",
+        "@unlockedtocraft": "true",
+        "@unlockedtoequip": "true",
+        "@hitpointsmax": "0",
+        "@hitpointsregenerationbonus": "0",
+        "@energymax": "0",
+        "@energyregenerationbonus": "0",
+        "@crowdcontrolresistance": "0",
+        "@itempower": "500",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@healbonus": "0",
+        "@bonusccdurationvsplayers": "0",
+        "@bonusccdurationvsmobs": "0",
+        "@threatbonus": "0",
+        "@magiccooldownreduction": "0",
+        "@bonusdefensevsplayers": "0",
+        "@bonusdefensevsmobs": "0",
+        "@magiccasttimereduction": "0",
+        "@attackspeedbonus": "0",
+        "@movespeedbonus": "0",
+        "@showinmarketplace": "false",
+        "@hidefromplayeroncontext": "all",
+        "@uicraftsoundstart": "Play_ui_action_craft_tool_start",
+        "@uicraftsoundfinish": "Play_ui_action_craft_tool_finish",
+        "@salvageable": "false",
+        "@tradable": "false",
+        "craftingspelllist": {
+          "craftspell": [
+            {
+              "@uniquename": "VANITY_2H_MULTITOOL_AJ_SPELL",
+              "@slots": "1"
+            },
+            {
+              "@uniquename": "PASSIVE_CANNOTATTACK"
+            }
+          ]
+        },
+        "AssetVfxPreset": {
+          "@name": "UNIQUE_VANITY_2H_MULTITOOL_AJ"
+        }
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 1
+    },
+    {
+      "id": "UNIQUE_VANITY_2H_BANNER_KNIGHT_GUILD_COLORED",
+      "index": "11369",
+      "category": "Vanity_Weapons",
+      "slot": "MainHand",
+      "two_handed": true,
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "UNIQUE_VANITY_2H_BANNER_KNIGHT_GUILD_COLORED",
+        "item_database_index": "11369"
+      },
+      "tier": null,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Knight Adventurer's Warbanner",
+        "DE-DE": "Kriegsbanner des ritterlichen Abenteurers",
+        "FR-FR": "Bannière de guerre du Chevalier Aventurier",
+        "RU-RU": "Знамя войны рыцаря-авантюриста",
+        "PL-PL": "Sztandar Wojenny Poszukiwacza Przygód - Rycerza",
+        "ES-ES": "Estandarte de guerra de caballero aventurero",
+        "PT-BR": "Brasão do Cavaleiro Aventureiro",
+        "IT-IT": "Stendardo di guerra del cavaliere avventuriere",
+        "ZH-CN": "骑士冒险者战旗",
+        "KO-KR": "기사 모험가의 전쟁 깃발",
+        "JA-JP": "騎士冒険者の戦旗",
+        "ZH-TW": "騎士冒險者戰爭旗幟",
+        "ID-ID": "Panji Petualang Kesatria",
+        "TR-TR": "Şövalye Maceracı Savaş Sancağı",
+        "AR-SA": "أيل المغامر الفارس"
+      },
+      "localized_all_descriptions": {},
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_UNIQUE_VANITY_2H_BANNER_KNIGHT_GUILD_COLORED",
+        "description_variable": "@ITEMS_UNIQUE_VANITY_2H_BANNER_KNIGHT_GUILD_COLORED_DESC"
+      },
+      "origin": "Vanity/Weapons/Weapons_UNIQUE_VANITY_2H_BANNER_KNIGHT_GUILD_COLORED.json",
+      "descriptions": {
+        "description_en": "",
+        "description_ar": "",
+        "description_de": "",
+        "description_fr": "",
+        "description_es": "",
+        "description_ru": ""
+      },
+      "raw": {
+        "@uniquename": "UNIQUE_VANITY_2H_BANNER_KNIGHT_GUILD_COLORED",
+        "@uisprite": "UNIQUE_VANITY_2H_BANNER_KNIGHT",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "100",
+        "@slottype": "mainhand",
+        "@attacktype": "melee",
+        "@twohanded": "true",
+        "@shopcategory": "vanity",
+        "@shopsubcategory1": "weapons",
+        "@skincount": "2",
+        "@tier": "3",
+        "@weight": "1.1",
+        "@activespellslots": "2",
+        "@passivespellslots": "1",
+        "@physicalarmor": "0",
+        "@magicresistance": "0",
+        "@durability": "16200",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@mainhandanimationtype": "warbanner",
+        "@unlockedtocraft": "true",
+        "@unlockedtoequip": "true",
+        "@hitpointsmax": "0",
+        "@hitpointsregenerationbonus": "0",
+        "@energymax": "0",
+        "@energyregenerationbonus": "0",
+        "@crowdcontrolresistance": "0",
+        "@itempower": "500",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@healbonus": "0",
+        "@bonusccdurationvsplayers": "0",
+        "@bonusccdurationvsmobs": "0",
+        "@threatbonus": "0",
+        "@magiccooldownreduction": "0",
+        "@bonusdefensevsplayers": "0",
+        "@bonusdefensevsmobs": "0",
+        "@magiccasttimereduction": "0",
+        "@attackspeedbonus": "0",
+        "@movespeedbonus": "0",
+        "@showinmarketplace": "false",
+        "@hidefromplayeroncontext": "all",
+        "@uicraftsoundstart": "Play_ui_action_craft_tool_start",
+        "@uicraftsoundfinish": "Play_ui_action_craft_tool_finish",
+        "AssetVfxPreset": {
+          "@name": "UNIQUE_VANITY_2H_BANNER_KNIGHT"
+        },
+        "craftingspelllist": {
+          "craftspell": [
+            {
+              "@uniquename": "VANITY_WARBANNER_PRESENT",
+              "@slots": "1"
+            },
+            {
+              "@uniquename": "VANITY_WARBANNER_CHARGE",
+              "@slots": "2"
+            },
+            {
+              "@uniquename": "PASSIVE_CANNOTATTACK"
+            }
+          ]
+        }
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 1
+    },
+    {
+      "id": "UNIQUE_VANITY_2H_LUTE_MAGNIFICENT_AJ",
+      "index": "11864",
+      "category": "Vanity_Weapons",
+      "slot": "MainHand",
+      "two_handed": true,
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "UNIQUE_VANITY_2H_LUTE_MAGNIFICENT_AJ",
+        "item_database_index": "11864"
+      },
+      "tier": null,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Troubadour's Lute",
+        "DE-DE": "Laute des Troubadours",
+        "FR-FR": "Luth du troubadour",
+        "RU-RU": "Лютня трубадура",
+        "PL-PL": "Lutnia Trubadura",
+        "ES-ES": "Laúd de trovador",
+        "PT-BR": "Alaúde do Trovador",
+        "IT-IT": "Liuto del Trovatore",
+        "ZH-CN": "吟游诗人的鲁特琴",
+        "KO-KR": "음유시인의 류트",
+        "JA-JP": "トルバドールのリュート",
+        "ZH-TW": "吟遊詩人的魯特琴",
+        "ID-ID": "Kecapi Trubadur",
+        "TR-TR": "Ozanın Udu",
+        "AR-SA": "عود التروبادور"
+      },
+      "localized_all_descriptions": {},
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_UNIQUE_VANITY_2H_LUTE_MAGNIFICENT_AJ",
+        "description_variable": "@ITEMS_UNIQUE_VANITY_2H_LUTE_MAGNIFICENT_AJ_DESC"
+      },
+      "origin": "Vanity/Weapons/Weapons_UNIQUE_VANITY_2H_LUTE_MAGNIFICENT_AJ.json",
+      "descriptions": {
+        "description_en": "",
+        "description_ar": "",
+        "description_de": "",
+        "description_fr": "",
+        "description_es": "",
+        "description_ru": ""
+      },
+      "raw": {
+        "@uniquename": "UNIQUE_VANITY_2H_LUTE_MAGNIFICENT_AJ",
+        "@maxqualitylevel": "5",
+        "@twohanded": "true",
+        "@attacktype": "magic",
+        "@abilitypower": "100",
+        "@slottype": "mainhand",
+        "@shopcategory": "vanity",
+        "@shopsubcategory1": "weapons",
+        "@skincount": "2",
+        "@tier": "8",
+        "@weight": "1.1",
+        "@activespellslots": "3",
+        "@passivespellslots": "1",
+        "@physicalarmor": "0",
+        "@magicresistance": "0",
+        "@durability": "16200",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@mainhandanimationtype": "lute",
+        "@unlockedtocraft": "true",
+        "@unlockedtoequip": "true",
+        "@hitpointsmax": "0",
+        "@hitpointsregenerationbonus": "0",
+        "@energymax": "0",
+        "@energyregenerationbonus": "0",
+        "@crowdcontrolresistance": "0",
+        "@itempower": "500",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@healbonus": "0",
+        "@bonusccdurationvsplayers": "0",
+        "@bonusccdurationvsmobs": "0",
+        "@threatbonus": "0",
+        "@magiccooldownreduction": "0",
+        "@bonusdefensevsplayers": "0",
+        "@bonusdefensevsmobs": "0",
+        "@magiccasttimereduction": "0",
+        "@attackspeedbonus": "0",
+        "@movespeedbonus": "0",
+        "@showinmarketplace": "false",
+        "@hidefromplayeroncontext": "all",
+        "@uicraftsoundstart": "Play_ui_action_craft_tool_start",
+        "@uicraftsoundfinish": "Play_ui_action_craft_tool_finish",
+        "@salvageable": "false",
+        "@tradable": "false",
+        "craftingspelllist": {
+          "craftspell": [
+            {
+              "@uniquename": "VANITY_2H_LUTE_MAGNIFICENT_AJ_OLDTOWNS_SPELL",
+              "@slots": "1"
+            },
+            {
+              "@uniquename": "VANITY_2H_LUTE_MAGNIFICENT_AJ_LOVESONG_SPELL",
+              "@slots": "2"
+            },
+            {
+              "@uniquename": "VANITY_2H_LUTE_MAGNIFICENT_AJ_ALBION_SPELL",
+              "@slots": "3"
+            },
+            {
+              "@uniquename": "PASSIVE_CANNOTATTACK"
+            }
+          ]
+        }
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 1
+    },
+    {
+      "id": "UNIQUE_VANITY_2H_FW_LYMHURST_BANNER",
+      "index": "11159",
+      "category": "Vanity_Weapons",
+      "slot": "MainHand",
+      "two_handed": true,
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "UNIQUE_VANITY_2H_FW_LYMHURST_BANNER",
+        "item_database_index": "11159"
+      },
+      "tier": null,
+      "enchantment": 0,
+      "localized_all_names": {},
+      "localized_all_descriptions": {},
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_UNIQUE_VANITY_2H_FW_LYMHURST_BANNER",
+        "description_variable": "@ITEMS_UNIQUE_VANITY_2H_FW_LYMHURST_BANNER_DESC"
+      },
+      "origin": "Vanity/Weapons/Weapons_UNIQUE_VANITY_2H_FW_LYMHURST_BANNER.json",
+      "name_en": "",
+      "name_ar": "",
+      "name_de": "",
+      "name_fr": "",
+      "name_es": "",
+      "name_ru": "",
+      "localized": {
+        "name_en": "",
+        "name_ar": "",
+        "name_de": "",
+        "name_fr": "",
+        "name_es": "",
+        "name_ru": ""
+      },
+      "descriptions": {
+        "description_en": "",
+        "description_ar": "",
+        "description_de": "",
+        "description_fr": "",
+        "description_es": "",
+        "description_ru": ""
+      },
+      "raw": {
+        "@uniquename": "UNIQUE_VANITY_2H_FW_LYMHURST_BANNER",
+        "@tradable": "false",
+        "@maxqualitylevel": "1",
+        "@abilitypower": "100",
+        "@slottype": "mainhand",
+        "@attacktype": "melee",
+        "@twohanded": "true",
+        "@shopcategory": "vanity",
+        "@shopsubcategory1": "weapons",
+        "@skincount": "2",
+        "@tier": "3",
+        "@weight": "1.1",
+        "@activespellslots": "1",
+        "@passivespellslots": "1",
+        "@physicalarmor": "0",
+        "@magicresistance": "0",
+        "@durability": "16200",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@mainhandanimationtype": "warbanner",
+        "@unlockedtocraft": "true",
+        "@unlockedtoequip": "true",
+        "@hitpointsmax": "0",
+        "@hitpointsregenerationbonus": "0",
+        "@energymax": "0",
+        "@energyregenerationbonus": "0",
+        "@crowdcontrolresistance": "0",
+        "@itempower": "500",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@healbonus": "0",
+        "@bonusccdurationvsplayers": "0",
+        "@bonusccdurationvsmobs": "0",
+        "@threatbonus": "0",
+        "@magiccooldownreduction": "0",
+        "@bonusdefensevsplayers": "0",
+        "@bonusdefensevsmobs": "0",
+        "@magiccasttimereduction": "0",
+        "@attackspeedbonus": "0",
+        "@movespeedbonus": "0",
+        "@showinmarketplace": "false",
+        "@hidefromplayeroncontext": "all",
+        "@uicraftsoundstart": "Play_ui_action_craft_tool_start",
+        "@uicraftsoundfinish": "Play_ui_action_craft_tool_finish",
+        "@namelocatag": "@ITEMS_UNIQUE_UNLOCK_VANITY_2H_FW_LYMHURST_BANNER",
+        "craftingspelllist": {
+          "craftspell": [
+            {
+              "@uniquename": "VANITY_WARBANNER_PRESENT_FW_LYMHURST",
+              "@slots": "1"
+            },
+            {
+              "@uniquename": "PASSIVE_CANNOTATTACK"
+            }
+          ]
+        },
+        "AssetVfxPreset": {
+          "@name": "UNIQUE_VANITY_2H_FW_LYMHURST_BANNER"
+        }
+      },
+      "name_sources_ref": 1,
+      "description_sources_ref": 1
+    },
+    {
+      "id": "UNIQUE_VANITY_2H_PORTALGUN_TELLAFRIEND",
+      "index": "11237",
+      "category": "Vanity_Weapons",
+      "slot": "MainHand",
+      "two_handed": true,
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": {
+        "primary_resource": "T4_PLANKS",
+        "primary_count": 20,
+        "secondary_resource": "T4_METALBAR",
+        "secondary_count": 12,
+        "resources": [
+          {
+            "id": "T4_PLANKS",
+            "count": 20
+          },
+          {
+            "id": "T4_METALBAR",
+            "count": 12
+          }
+        ]
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "UNIQUE_VANITY_2H_PORTALGUN_TELLAFRIEND",
+        "item_database_index": "11237"
+      },
+      "tier": null,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Recruiter's Portal Cannon",
+        "DE-DE": "Portalkanone des Anwerbers",
+        "FR-FR": "Canon portatif du recruteur",
+        "RU-RU": "Портальная пушка рекрутера",
+        "PL-PL": "Działo Portalu Rekrutera",
+        "ES-ES": "Cañón de portal del reclutador",
+        "PT-BR": "Canhão de Portal do Recrutador",
+        "IT-IT": "Cannone spara-portali del reclutatore",
+        "ZH-CN": "推广大使传送炮",
+        "KO-KR": "신병 모집자의 포탈 캐넌",
+        "JA-JP": "リクルーターのポータルキャノン",
+        "ZH-TW": "招募者的傳送門火砲",
+        "ID-ID": "Meriam Portal Perekrut",
+        "TR-TR": "Çağıranın Portal Topu",
+        "AR-SA": "مدفع البوابة لمسؤول التجنيد"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Equipment Item - Recruitment Reward",
+        "DE-DE": "Ausrüstungsgegenstand - Anwerbungsbelohnung",
+        "FR-FR": "Pièce d'équipement - Récompense de recrutement",
+        "RU-RU": "Предмет снаряжения - награда за рекрутинг",
+        "PL-PL": "Przedmiot do wyposażenia - nagroda za rekrutację",
+        "ES-ES": "Objeto de equipo - Recompensa de reclutamiento",
+        "PT-BR": "Item de Equipamento - Recompensa de Recrutamento",
+        "IT-IT": "Oggetto d'equipaggiamento - Ricompensa per il reclutamento",
+        "ZH-CN": "装备物品 - 推广奖励",
+        "KO-KR": "장비 아이템 - 모집 보상",
+        "JA-JP": "装備アイテム - リクルート報酬",
+        "ZH-TW": "裝備物品 - 招募獎勵",
+        "ID-ID": "Item Perlengkapan - Hadiah Rekrutmen",
+        "TR-TR": "Ekipman Eşyası - Referans Ödülü",
+        "AR-SA": "عنصر معدات - مكافأة التجنيد"
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_UNIQUE_VANITY_2H_PORTALGUN_TELLAFRIEND",
+        "description_variable": "@ITEMS_UNIQUE_VANITY_2H_PORTALGUN_TELLAFRIEND_DESC"
+      },
+      "origin": "Vanity/Weapons/Weapons_UNIQUE_VANITY_2H_PORTALGUN_TELLAFRIEND.json",
+      "raw": {
+        "@uniquename": "UNIQUE_VANITY_2H_PORTALGUN_TELLAFRIEND",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "120",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@slottype": "mainhand",
+        "@shopcategory": "vanity",
+        "@shopsubcategory1": "weapons",
+        "@attacktype": "ranged",
+        "@mainhandanimationtype": "largecrossbow",
+        "@attackdamage": "44",
+        "@attackspeed": "1",
+        "@twohanded": "true",
+        "@attackrange": "11",
+        "@tier": "4",
+        "@weight": "6.8",
+        "@activespellslots": "1",
+        "@passivespellslots": "0",
+        "@durability": "12706",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@fxbonename": "LeftArm_3",
+        "@fxboneoffset": "0.2 -0.227 0.135",
+        "@unlockedtocraft": "true",
+        "@unlockedtoequip": "true",
+        "@hitpointsmax": "0",
+        "@itempower": "700",
+        "@hitpointsregenerationbonus": "0",
+        "@itempowerprogressiontype": "mainhand",
+        "@focusfireprotectionpenetration": "0",
+        "@uicraftsoundstart": "Play_ui_action_craft_tool_start",
+        "@uicraftsoundfinish": "Play_ui_action_craft_tool_finish",
+        "@showinmarketplace": "false",
+        "@hidefromplayeroncontext": "all",
+        "projectile": {
+          "@prefab": "FX/ClientPrefabs/fx_spell_vanity_portal_autoattack_projectile_01",
+          "@startsocket": "mainhandprojectile",
+          "@hitsocket": "damage",
+          "@flyspeed": "40",
+          "impactvfx": {
+            "@prefab": "FX/ClientPrefabs/fx_spell_vanity_portal_autoattack_impact_01",
+            "@impactsocket": "damage"
+          },
+          "AudioInfo": {
+            "@name": "PROJECTILEHIT_WEAPON_IMPACT"
+          }
+        },
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "2",
+          "@craftingfocus": "1540",
+          "craftresource": [
+            {
+              "@uniquename": "T4_PLANKS",
+              "@count": "20"
+            },
+            {
+              "@uniquename": "T4_METALBAR",
+              "@count": "12"
+            }
+          ]
+        },
+        "craftingspelllist": {
+          "craftspell": {
+            "@uniquename": "VANITY_SUMMONING_PORTAL",
+            "@slots": "1"
+          }
+        },
+        "SocketPreset": {
+          "@name": "ITEM_2H_PORTALGUN"
+        },
+        "AudioInfo": {
+          "@name": "ITEM_PORTAL_GUN"
+        },
+        "AssetVfxPreset": {
+          "@name": "UNIQUE_VANITY_2H_PORTALGUN_TELLAFRIEND"
+        }
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "UNIQUE_VANITY_2H_SPELLBOOK_MAGE",
+      "index": "11379",
+      "category": "Vanity_Weapons",
+      "slot": "MainHand",
+      "two_handed": true,
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "UNIQUE_VANITY_2H_SPELLBOOK_MAGE",
+        "item_database_index": "11379"
+      },
+      "tier": null,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Mage Adventurer's Spellbook",
+        "DE-DE": "Zauberbuch des Magier-Abenteurers",
+        "FR-FR": "Grimoire des sorts de Mage aventurier",
+        "RU-RU": "Книга заклинаний мага-авантюриста",
+        "PL-PL": "Księga Zaklęć Poszukiwacza Przygód-Maga",
+        "ES-ES": "Libro de hechizos de mago aventurero",
+        "PT-BR": "Livro de Feitiços do Mago Aventureiro",
+        "IT-IT": "Libro degli incantesimi del mago avventuriere",
+        "ZH-CN": "法师冒险者咒书",
+        "KO-KR": "마법사 모험가의 마법서",
+        "JA-JP": "魔法使いの冒険者の呪文の本",
+        "ZH-TW": "法師冒險者咒術書",
+        "ID-ID": "Buku Mantra Petualang Magi",
+        "TR-TR": "Büyücü Maceracı'nın Büyü Kitabı",
+        "AR-SA": "كتاب تعويذات المغامر الساحر"
+      },
+      "localized_all_descriptions": {},
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_UNIQUE_VANITY_2H_SPELLBOOK_MAGE",
+        "description_variable": "@ITEMS_UNIQUE_VANITY_2H_SPELLBOOK_MAGE_DESC"
+      },
+      "origin": "Vanity/Weapons/Weapons_UNIQUE_VANITY_2H_SPELLBOOK_MAGE.json",
+      "descriptions": {
+        "description_en": "",
+        "description_ar": "",
+        "description_de": "",
+        "description_fr": "",
+        "description_es": "",
+        "description_ru": ""
+      },
+      "raw": {
+        "@uniquename": "UNIQUE_VANITY_2H_SPELLBOOK_MAGE",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "100",
+        "@slottype": "mainhand",
+        "@attacktype": "magic",
+        "@twohanded": "true",
+        "@shopcategory": "vanity",
+        "@shopsubcategory1": "weapons",
+        "@skincount": "2",
+        "@tier": "3",
+        "@weight": "1.1",
+        "@activespellslots": "2",
+        "@passivespellslots": "1",
+        "@physicalarmor": "0",
+        "@magicresistance": "0",
+        "@durability": "16200",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@mainhandanimationtype": "spellbook",
+        "@unlockedtocraft": "true",
+        "@unlockedtoequip": "true",
+        "@hitpointsmax": "0",
+        "@hitpointsregenerationbonus": "0",
+        "@energymax": "0",
+        "@energyregenerationbonus": "0",
+        "@crowdcontrolresistance": "0",
+        "@itempower": "500",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@healbonus": "0",
+        "@bonusccdurationvsplayers": "0",
+        "@bonusccdurationvsmobs": "0",
+        "@threatbonus": "0",
+        "@magiccooldownreduction": "0",
+        "@bonusdefensevsplayers": "0",
+        "@bonusdefensevsmobs": "0",
+        "@magiccasttimereduction": "0",
+        "@attackspeedbonus": "0",
+        "@movespeedbonus": "0",
+        "@showinmarketplace": "false",
+        "@hidefromplayeroncontext": "all",
+        "@uicraftsoundstart": "Play_ui_action_craft_tool_start",
+        "@uicraftsoundfinish": "Play_ui_action_craft_tool_finish",
+        "craftingspelllist": {
+          "craftspell": [
+            {
+              "@uniquename": "VANITY_SPELLBOOK_FIREWORKS",
+              "@slots": "1"
+            },
+            {
+              "@uniquename": "VANITY_SPELLBOOK_BIRD",
+              "@slots": "2"
+            },
+            {
+              "@uniquename": "PASSIVE_CANNOTATTACK"
+            }
+          ]
+        }
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 1
+    },
+    {
+      "id": "UNIQUE_VANITY_2H_LUTE_AJ",
+      "index": "11862",
+      "category": "Vanity_Weapons",
+      "slot": "MainHand",
+      "two_handed": true,
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "UNIQUE_VANITY_2H_LUTE_AJ",
+        "item_database_index": "11862"
+      },
+      "tier": null,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Wanderer's Lute",
+        "DE-DE": "Laute des Wanderers",
+        "FR-FR": "Luth du nomade",
+        "RU-RU": "Лютня странника",
+        "PL-PL": "Lutnia Wędrowcy",
+        "ES-ES": "Laúd del errante",
+        "PT-BR": "Alaúde do Andarilho",
+        "IT-IT": "Liuto del Viandante",
+        "ZH-CN": "游荡者的鲁特琴",
+        "KO-KR": "방랑자의 류트",
+        "JA-JP": "放浪者のリュート",
+        "ZH-TW": "遊蕩者的魯特琴",
+        "ID-ID": "Kecapi Pengembara",
+        "TR-TR": "Gezginin Udu",
+        "AR-SA": "عود المتجول"
+      },
+      "localized_all_descriptions": {},
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_UNIQUE_VANITY_2H_LUTE_AJ",
+        "description_variable": "@ITEMS_UNIQUE_VANITY_2H_LUTE_AJ_DESC"
+      },
+      "origin": "Vanity/Weapons/Weapons_UNIQUE_VANITY_2H_LUTE_AJ.json",
+      "descriptions": {
+        "description_en": "",
+        "description_ar": "",
+        "description_de": "",
+        "description_fr": "",
+        "description_es": "",
+        "description_ru": ""
+      },
+      "raw": {
+        "@uniquename": "UNIQUE_VANITY_2H_LUTE_AJ",
+        "@maxqualitylevel": "5",
+        "@twohanded": "true",
+        "@abilitypower": "100",
+        "@attacktype": "magic",
+        "@slottype": "mainhand",
+        "@shopcategory": "vanity",
+        "@shopsubcategory1": "weapons",
+        "@skincount": "2",
+        "@tier": "8",
+        "@weight": "1.1",
+        "@activespellslots": "2",
+        "@passivespellslots": "1",
+        "@physicalarmor": "0",
+        "@magicresistance": "0",
+        "@durability": "16200",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@mainhandanimationtype": "lute",
+        "@unlockedtocraft": "true",
+        "@unlockedtoequip": "true",
+        "@hitpointsmax": "0",
+        "@hitpointsregenerationbonus": "0",
+        "@energymax": "0",
+        "@energyregenerationbonus": "0",
+        "@crowdcontrolresistance": "0",
+        "@itempower": "500",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@healbonus": "0",
+        "@bonusccdurationvsplayers": "0",
+        "@bonusccdurationvsmobs": "0",
+        "@threatbonus": "0",
+        "@magiccooldownreduction": "0",
+        "@bonusdefensevsplayers": "0",
+        "@bonusdefensevsmobs": "0",
+        "@magiccasttimereduction": "0",
+        "@attackspeedbonus": "0",
+        "@movespeedbonus": "0",
+        "@showinmarketplace": "false",
+        "@hidefromplayeroncontext": "all",
+        "@uicraftsoundstart": "Play_ui_action_craft_tool_start",
+        "@uicraftsoundfinish": "Play_ui_action_craft_tool_finish",
+        "@salvageable": "false",
+        "@tradable": "false",
+        "craftingspelllist": {
+          "craftspell": [
+            {
+              "@uniquename": "VANITY_2H_LUTE_AJ_OLDTOWNS_SPELL",
+              "@slots": "1"
+            },
+            {
+              "@uniquename": "VANITY_2H_LUTE_AJ_LOVESONG_SPELL",
+              "@slots": "2"
+            },
+            {
+              "@uniquename": "PASSIVE_CANNOTATTACK"
+            }
+          ]
+        }
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 1
+    },
+    {
+      "id": "UNIQUE_VANITY_2H_FW_MARTLOCK_BANNER",
+      "index": "11157",
+      "category": "Vanity_Weapons",
+      "slot": "MainHand",
+      "two_handed": true,
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "UNIQUE_VANITY_2H_FW_MARTLOCK_BANNER",
+        "item_database_index": "11157"
+      },
+      "tier": null,
+      "enchantment": 0,
+      "localized_all_names": {},
+      "localized_all_descriptions": {},
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_UNIQUE_VANITY_2H_FW_MARTLOCK_BANNER",
+        "description_variable": "@ITEMS_UNIQUE_VANITY_2H_FW_MARTLOCK_BANNER_DESC"
+      },
+      "origin": "Vanity/Weapons/Weapons_UNIQUE_VANITY_2H_FW_MARTLOCK_BANNER.json",
+      "name_en": "",
+      "name_ar": "",
+      "name_de": "",
+      "name_fr": "",
+      "name_es": "",
+      "name_ru": "",
+      "localized": {
+        "name_en": "",
+        "name_ar": "",
+        "name_de": "",
+        "name_fr": "",
+        "name_es": "",
+        "name_ru": ""
+      },
+      "descriptions": {
+        "description_en": "",
+        "description_ar": "",
+        "description_de": "",
+        "description_fr": "",
+        "description_es": "",
+        "description_ru": ""
+      },
+      "raw": {
+        "@uniquename": "UNIQUE_VANITY_2H_FW_MARTLOCK_BANNER",
+        "@tradable": "false",
+        "@maxqualitylevel": "1",
+        "@abilitypower": "100",
+        "@slottype": "mainhand",
+        "@attacktype": "melee",
+        "@twohanded": "true",
+        "@shopcategory": "vanity",
+        "@shopsubcategory1": "weapons",
+        "@skincount": "2",
+        "@tier": "3",
+        "@weight": "1.1",
+        "@activespellslots": "1",
+        "@passivespellslots": "1",
+        "@physicalarmor": "0",
+        "@magicresistance": "0",
+        "@durability": "16200",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@mainhandanimationtype": "warbanner",
+        "@unlockedtocraft": "true",
+        "@unlockedtoequip": "true",
+        "@hitpointsmax": "0",
+        "@hitpointsregenerationbonus": "0",
+        "@energymax": "0",
+        "@energyregenerationbonus": "0",
+        "@crowdcontrolresistance": "0",
+        "@itempower": "500",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@healbonus": "0",
+        "@bonusccdurationvsplayers": "0",
+        "@bonusccdurationvsmobs": "0",
+        "@threatbonus": "0",
+        "@magiccooldownreduction": "0",
+        "@bonusdefensevsplayers": "0",
+        "@bonusdefensevsmobs": "0",
+        "@magiccasttimereduction": "0",
+        "@attackspeedbonus": "0",
+        "@movespeedbonus": "0",
+        "@showinmarketplace": "false",
+        "@hidefromplayeroncontext": "all",
+        "@uicraftsoundstart": "Play_ui_action_craft_tool_start",
+        "@uicraftsoundfinish": "Play_ui_action_craft_tool_finish",
+        "@namelocatag": "@ITEMS_UNIQUE_UNLOCK_VANITY_2H_FW_MARTLOCK_BANNER",
+        "craftingspelllist": {
+          "craftspell": [
+            {
+              "@uniquename": "VANITY_WARBANNER_PRESENT_FW_MARTLOCK",
+              "@slots": "1"
+            },
+            {
+              "@uniquename": "PASSIVE_CANNOTATTACK"
+            }
+          ]
+        },
+        "AssetVfxPreset": {
+          "@name": "UNIQUE_VANITY_2H_FW_MARTLOCK_BANNER"
+        }
+      },
+      "name_sources_ref": 1,
+      "description_sources_ref": 1
+    },
+    {
+      "id": "UNIQUE_VANITY_2H_CHICKENGUN_EASTER",
+      "index": "11239",
+      "category": "Vanity_Weapons",
+      "slot": "MainHand",
+      "two_handed": true,
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "UNIQUE_VANITY_2H_CHICKENGUN_EASTER",
+        "item_database_index": "11239"
+      },
+      "tier": null,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "The Eggsecutioner",
+        "DE-DE": "Der Eierwerfer",
+        "FR-FR": "L'Exécutœuf",
+        "RU-RU": "Яйцемёт",
+        "PL-PL": "Eggzekutor",
+        "ES-ES": "El Eggsecutioner",
+        "PT-BR": "O Ovossalador",
+        "IT-IT": "Sganciauova",
+        "ZH-CN": "刽子蛋",
+        "KO-KR": "달걀 투사",
+        "JA-JP": "エッグセキューショナー",
+        "ZH-TW": "蛋蛋無限槍",
+        "ID-ID": "Pelontar Telur",
+        "TR-TR": "Yumurta Silahı",
+        "AR-SA": "مسدس البيض"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "This most Heretic of inventions comes with an unlimited supply of eggs!",
+        "DE-DE": "Diese verwerflichste aller Erfindungen verfügt über einen unendlichen Nachschub an Eiern!",
+        "FR-FR": "Cette invention des plus hérétiques s'accompagne d'une réserve d'œufs illimitée !",
+        "RU-RU": "Одно из самых еретичных изобретений с неограниченным запасом яиц!",
+        "PL-PL": "Ten Heretycki wynalazek posiada nieograniczony zapas jajek!",
+        "ES-ES": "¡El más Hereje de los inventos viene con un suministro ilimitado de huevos!",
+        "PT-BR": "A mais herege das invenções vem com um suprimento ilimitado de ovos!",
+        "IT-IT": "Quest'invenzione degna di un dissidente può contare su una fornitura illimitata di uova!",
+        "ZH-CN": "最具异教特色的发明，带来无限量的彩蛋！",
+        "KO-KR": "고작 달걀로 이런 발명계의 이단아가 나오다니!",
+        "JA-JP": "最も異端なこのアイテムは、無限の卵の補給が付いています！",
+        "ZH-TW": "極具異端色彩的發明，提供無限的蛋蛋！",
+        "ID-ID": "Penemuan paling Sesat ini hadir dengan persediaan telur yang tak terbatas!",
+        "TR-TR": "Gelmiş geçmiş en sapkın icat olan bu Yumurta Silahı, sınırsız yumurtayla birlikte geliyor!",
+        "AR-SA": "أعظم اختراعات المنشقين، يأتي إلى جانب مؤن لا محدودة من البيض!"
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_UNIQUE_VANITY_2H_CHICKENGUN_EASTER",
+        "description_variable": "@ITEMS_UNIQUE_VANITY_2H_CHICKENGUN_EASTER_DESC"
+      },
+      "origin": "Vanity/Weapons/Weapons_UNIQUE_VANITY_2H_CHICKENGUN_EASTER.json",
+      "raw": {
+        "@uniquename": "UNIQUE_VANITY_2H_CHICKENGUN_EASTER",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "120",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@slottype": "mainhand",
+        "@shopcategory": "vanity",
+        "@shopsubcategory1": "weapons",
+        "@attacktype": "ranged",
+        "@mainhandanimationtype": "largecrossbow_easter",
+        "@attackdamage": "44",
+        "@attackspeed": "1",
+        "@twohanded": "true",
+        "@attackrange": "11",
+        "@tier": "4",
+        "@weight": "6.8",
+        "@activespellslots": "3",
+        "@passivespellslots": "0",
+        "@durability": "12706",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@fxbonename": "LeftArm_3",
+        "@fxboneoffset": "0.2 -0.227 0.135",
+        "@unlockedtocraft": "true",
+        "@unlockedtoequip": "true",
+        "@hitpointsmax": "0",
+        "@itempower": "700",
+        "@hitpointsregenerationbonus": "0",
+        "@itempowerprogressiontype": "mainhand",
+        "@focusfireprotectionpenetration": "0",
+        "@uicraftsoundstart": "Play_ui_action_craft_tool_start",
+        "@uicraftsoundfinish": "Play_ui_action_craft_tool_finish",
+        "@showinmarketplace": "false",
+        "@hidefromplayeroncontext": "all",
+        "projectile": {
+          "@prefab": "FX/ClientPrefabs/fx_spell_vanity_chickengun_autoattack_projectile_01",
+          "@startsocket": "mainhandprojectilemuzzle",
+          "@hitsocket": "damage",
+          "@flyspeed": "40",
+          "impactvfx": {
+            "@prefab": "FX/ClientPrefabs/fx_spell_vanity_chickengun_autoattack_impact_01",
+            "@impactsocket": "damage"
+          },
+          "AudioInfo": {
+            "@name": "PROJECTILEHIT_WEAPON_IMPACT"
+          }
+        },
+        "craftingspelllist": {
+          "craftspell": [
+            {
+              "@uniquename": "VANITY_SUMMONING_HILLMARMOT",
+              "@slots": "1"
+            },
+            {
+              "@uniquename": "VANITY_SUMMONING_TOAD_EASTER",
+              "@slots": "2"
+            },
+            {
+              "@uniquename": "VANITY_SUMMONING_SNOWRABBIT",
+              "@slots": "3"
+            }
+          ]
+        },
+        "SocketPreset": {
+          "@name": "ITEM_2H_PORTALGUN"
+        },
+        "AssetVfxPreset": {
+          "@name": "UNIQUE_VANITY_2H_CHICKENGUN_EASTER"
+        },
+        "AudioInfo": {
+          "@name": "ITEM_PORTAL_GUN"
+        }
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "UNIQUE_VANITY_2H_FW_THETFORD_BANNER",
+      "index": "11153",
+      "category": "Vanity_Weapons",
+      "slot": "MainHand",
+      "two_handed": true,
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "UNIQUE_VANITY_2H_FW_THETFORD_BANNER",
+        "item_database_index": "11153"
+      },
+      "tier": null,
+      "enchantment": 0,
+      "localized_all_names": {},
+      "localized_all_descriptions": {},
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_UNIQUE_VANITY_2H_FW_THETFORD_BANNER",
+        "description_variable": "@ITEMS_UNIQUE_VANITY_2H_FW_THETFORD_BANNER_DESC"
+      },
+      "origin": "Vanity/Weapons/Weapons_UNIQUE_VANITY_2H_FW_THETFORD_BANNER.json",
+      "name_en": "",
+      "name_ar": "",
+      "name_de": "",
+      "name_fr": "",
+      "name_es": "",
+      "name_ru": "",
+      "localized": {
+        "name_en": "",
+        "name_ar": "",
+        "name_de": "",
+        "name_fr": "",
+        "name_es": "",
+        "name_ru": ""
+      },
+      "descriptions": {
+        "description_en": "",
+        "description_ar": "",
+        "description_de": "",
+        "description_fr": "",
+        "description_es": "",
+        "description_ru": ""
+      },
+      "raw": {
+        "@uniquename": "UNIQUE_VANITY_2H_FW_THETFORD_BANNER",
+        "@tradable": "false",
+        "@maxqualitylevel": "1",
+        "@abilitypower": "100",
+        "@slottype": "mainhand",
+        "@attacktype": "melee",
+        "@twohanded": "true",
+        "@shopcategory": "vanity",
+        "@shopsubcategory1": "weapons",
+        "@skincount": "2",
+        "@tier": "3",
+        "@weight": "1.1",
+        "@activespellslots": "1",
+        "@passivespellslots": "1",
+        "@physicalarmor": "0",
+        "@magicresistance": "0",
+        "@durability": "16200",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@mainhandanimationtype": "warbanner",
+        "@unlockedtocraft": "true",
+        "@unlockedtoequip": "true",
+        "@hitpointsmax": "0",
+        "@hitpointsregenerationbonus": "0",
+        "@energymax": "0",
+        "@energyregenerationbonus": "0",
+        "@crowdcontrolresistance": "0",
+        "@itempower": "500",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@healbonus": "0",
+        "@bonusccdurationvsplayers": "0",
+        "@bonusccdurationvsmobs": "0",
+        "@threatbonus": "0",
+        "@magiccooldownreduction": "0",
+        "@bonusdefensevsplayers": "0",
+        "@bonusdefensevsmobs": "0",
+        "@magiccasttimereduction": "0",
+        "@attackspeedbonus": "0",
+        "@movespeedbonus": "0",
+        "@showinmarketplace": "false",
+        "@hidefromplayeroncontext": "all",
+        "@uicraftsoundstart": "Play_ui_action_craft_tool_start",
+        "@uicraftsoundfinish": "Play_ui_action_craft_tool_finish",
+        "@namelocatag": "@ITEMS_UNIQUE_UNLOCK_VANITY_2H_FW_THETFORD_BANNER",
+        "craftingspelllist": {
+          "craftspell": [
+            {
+              "@uniquename": "VANITY_WARBANNER_PRESENT_FW_THETFORD",
+              "@slots": "1"
+            },
+            {
+              "@uniquename": "PASSIVE_CANNOTATTACK"
+            }
+          ]
+        },
+        "AssetVfxPreset": {
+          "@name": "UNIQUE_VANITY_2H_FW_THETFORD_BANNER"
+        }
+      },
+      "name_sources_ref": 1,
+      "description_sources_ref": 1
+    },
+    {
+      "id": "UNIQUE_VANITY_2H_FW_FORTSTERLING_BANNER",
+      "index": "11155",
+      "category": "Vanity_Weapons",
+      "slot": "MainHand",
+      "two_handed": true,
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "UNIQUE_VANITY_2H_FW_FORTSTERLING_BANNER",
+        "item_database_index": "11155"
+      },
+      "tier": null,
+      "enchantment": 0,
+      "localized_all_names": {},
+      "localized_all_descriptions": {},
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_UNIQUE_VANITY_2H_FW_FORTSTERLING_BANNER",
+        "description_variable": "@ITEMS_UNIQUE_VANITY_2H_FW_FORTSTERLING_BANNER_DESC"
+      },
+      "origin": "Vanity/Weapons/Weapons_UNIQUE_VANITY_2H_FW_FORTSTERLING_BANNER.json",
+      "name_en": "",
+      "name_ar": "",
+      "name_de": "",
+      "name_fr": "",
+      "name_es": "",
+      "name_ru": "",
+      "localized": {
+        "name_en": "",
+        "name_ar": "",
+        "name_de": "",
+        "name_fr": "",
+        "name_es": "",
+        "name_ru": ""
+      },
+      "descriptions": {
+        "description_en": "",
+        "description_ar": "",
+        "description_de": "",
+        "description_fr": "",
+        "description_es": "",
+        "description_ru": ""
+      },
+      "raw": {
+        "@uniquename": "UNIQUE_VANITY_2H_FW_FORTSTERLING_BANNER",
+        "@tradable": "false",
+        "@maxqualitylevel": "1",
+        "@abilitypower": "100",
+        "@slottype": "mainhand",
+        "@attacktype": "melee",
+        "@twohanded": "true",
+        "@shopcategory": "vanity",
+        "@shopsubcategory1": "weapons",
+        "@skincount": "2",
+        "@tier": "3",
+        "@weight": "1.1",
+        "@activespellslots": "1",
+        "@passivespellslots": "1",
+        "@physicalarmor": "0",
+        "@magicresistance": "0",
+        "@durability": "16200",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@mainhandanimationtype": "warbanner",
+        "@unlockedtocraft": "true",
+        "@unlockedtoequip": "true",
+        "@hitpointsmax": "0",
+        "@hitpointsregenerationbonus": "0",
+        "@energymax": "0",
+        "@energyregenerationbonus": "0",
+        "@crowdcontrolresistance": "0",
+        "@itempower": "500",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@healbonus": "0",
+        "@bonusccdurationvsplayers": "0",
+        "@bonusccdurationvsmobs": "0",
+        "@threatbonus": "0",
+        "@magiccooldownreduction": "0",
+        "@bonusdefensevsplayers": "0",
+        "@bonusdefensevsmobs": "0",
+        "@magiccasttimereduction": "0",
+        "@attackspeedbonus": "0",
+        "@movespeedbonus": "0",
+        "@showinmarketplace": "false",
+        "@hidefromplayeroncontext": "all",
+        "@uicraftsoundstart": "Play_ui_action_craft_tool_start",
+        "@uicraftsoundfinish": "Play_ui_action_craft_tool_finish",
+        "@namelocatag": "@ITEMS_UNIQUE_UNLOCK_VANITY_2H_FW_FORTSTERLING_BANNER",
+        "craftingspelllist": {
+          "craftspell": [
+            {
+              "@uniquename": "VANITY_WARBANNER_PRESENT_FW_FORTSTERLING",
+              "@slots": "1"
+            },
+            {
+              "@uniquename": "PASSIVE_CANNOTATTACK"
+            }
+          ]
+        },
+        "AssetVfxPreset": {
+          "@name": "UNIQUE_VANITY_2H_FW_FORTSTERLING_BANNER"
+        }
+      },
+      "name_sources_ref": 1,
+      "description_sources_ref": 1
+    },
+    {
+      "id": "UNIQUE_VANITY_2H_FW_CAERLEON_BANNER",
+      "index": "11161",
+      "category": "Vanity_Weapons",
+      "slot": "MainHand",
+      "two_handed": true,
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "UNIQUE_VANITY_2H_FW_CAERLEON_BANNER",
+        "item_database_index": "11161"
+      },
+      "tier": null,
+      "enchantment": 0,
+      "localized_all_names": {},
+      "localized_all_descriptions": {},
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_UNIQUE_VANITY_2H_FW_CAERLEON_BANNER",
+        "description_variable": "@ITEMS_UNIQUE_VANITY_2H_FW_CAERLEON_BANNER_DESC"
+      },
+      "origin": "Vanity/Weapons/Weapons_UNIQUE_VANITY_2H_FW_CAERLEON_BANNER.json",
+      "name_en": "",
+      "name_ar": "",
+      "name_de": "",
+      "name_fr": "",
+      "name_es": "",
+      "name_ru": "",
+      "localized": {
+        "name_en": "",
+        "name_ar": "",
+        "name_de": "",
+        "name_fr": "",
+        "name_es": "",
+        "name_ru": ""
+      },
+      "descriptions": {
+        "description_en": "",
+        "description_ar": "",
+        "description_de": "",
+        "description_fr": "",
+        "description_es": "",
+        "description_ru": ""
+      },
+      "raw": {
+        "@uniquename": "UNIQUE_VANITY_2H_FW_CAERLEON_BANNER",
+        "@tradable": "false",
+        "@maxqualitylevel": "1",
+        "@abilitypower": "100",
+        "@slottype": "mainhand",
+        "@attacktype": "melee",
+        "@twohanded": "true",
+        "@shopcategory": "vanity",
+        "@shopsubcategory1": "weapons",
+        "@skincount": "2",
+        "@tier": "3",
+        "@weight": "1.1",
+        "@activespellslots": "1",
+        "@passivespellslots": "1",
+        "@physicalarmor": "0",
+        "@magicresistance": "0",
+        "@durability": "16200",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@mainhandanimationtype": "warbanner",
+        "@unlockedtocraft": "true",
+        "@unlockedtoequip": "true",
+        "@hitpointsmax": "0",
+        "@hitpointsregenerationbonus": "0",
+        "@energymax": "0",
+        "@energyregenerationbonus": "0",
+        "@crowdcontrolresistance": "0",
+        "@itempower": "500",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@healbonus": "0",
+        "@bonusccdurationvsplayers": "0",
+        "@bonusccdurationvsmobs": "0",
+        "@threatbonus": "0",
+        "@magiccooldownreduction": "0",
+        "@bonusdefensevsplayers": "0",
+        "@bonusdefensevsmobs": "0",
+        "@magiccasttimereduction": "0",
+        "@attackspeedbonus": "0",
+        "@movespeedbonus": "0",
+        "@showinmarketplace": "false",
+        "@hidefromplayeroncontext": "all",
+        "@uicraftsoundstart": "Play_ui_action_craft_tool_start",
+        "@uicraftsoundfinish": "Play_ui_action_craft_tool_finish",
+        "@namelocatag": "@ITEMS_UNIQUE_UNLOCK_VANITY_2H_FW_CAERLEON_BANNER",
+        "craftingspelllist": {
+          "craftspell": [
+            {
+              "@uniquename": "VANITY_WARBANNER_PRESENT_FW_CAERLEON",
+              "@slots": "1"
+            },
+            {
+              "@uniquename": "PASSIVE_CANNOTATTACK"
+            }
+          ]
+        },
+        "AssetVfxPreset": {
+          "@name": "UNIQUE_VANITY_2H_FW_CAERLEON_BANNER"
+        }
+      },
+      "name_sources_ref": 1,
+      "description_sources_ref": 1
+    },
+    {
+      "id": "UNIQUE_VANITY_2H_GUN_ANNIVERSARY",
+      "index": "11241",
+      "category": "Vanity_Weapons",
+      "slot": "MainHand",
+      "two_handed": true,
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "UNIQUE_VANITY_2H_GUN_ANNIVERSARY",
+        "item_database_index": "11241"
+      },
+      "tier": null,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Chromacannon",
+        "DE-DE": "Chromakanone",
+        "FR-FR": "Chromacanon",
+        "RU-RU": "Хромапушка",
+        "PL-PL": "Chromarmata",
+        "ES-ES": "Cromacañón",
+        "PT-BR": "Corcanhão",
+        "IT-IT": "Cannone cromatico",
+        "ZH-CN": "多彩火炮",
+        "KO-KR": "크로마캐논",
+        "JA-JP": "クロマキャノン",
+        "ZH-TW": "多彩火砲",
+        "ID-ID": "Meriam Kroma",
+        "TR-TR": "Renktopu",
+        "AR-SA": "مدفع ألعاب نارية ملونة"
+      },
+      "localized_all_descriptions": {},
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_UNIQUE_VANITY_2H_GUN_ANNIVERSARY",
+        "description_variable": "@ITEMS_UNIQUE_VANITY_2H_GUN_ANNIVERSARY_DESC"
+      },
+      "origin": "Vanity/Weapons/Weapons_UNIQUE_VANITY_2H_GUN_ANNIVERSARY.json",
+      "descriptions": {
+        "description_en": "",
+        "description_ar": "",
+        "description_de": "",
+        "description_fr": "",
+        "description_es": "",
+        "description_ru": ""
+      },
+      "raw": {
+        "@uniquename": "UNIQUE_VANITY_2H_GUN_ANNIVERSARY",
+        "@maxqualitylevel": "5",
+        "@abilitypower": "120",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@slottype": "mainhand",
+        "@shopcategory": "vanity",
+        "@shopsubcategory1": "weapons",
+        "@attacktype": "ranged",
+        "@mainhandanimationtype": "largecrossbow_easter",
+        "@attackdamage": "44",
+        "@attackspeed": "1",
+        "@twohanded": "true",
+        "@attackrange": "11",
+        "@tier": "6",
+        "@weight": "6.8",
+        "@activespellslots": "3",
+        "@passivespellslots": "0",
+        "@durability": "12706",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@fxbonename": "LeftArm_3",
+        "@fxboneoffset": "0.2 -0.227 0.135",
+        "@unlockedtocraft": "true",
+        "@unlockedtoequip": "true",
+        "@hitpointsmax": "0",
+        "@itempower": "700",
+        "@hitpointsregenerationbonus": "0",
+        "@itempowerprogressiontype": "mainhand",
+        "@focusfireprotectionpenetration": "0",
+        "@uicraftsoundstart": "Play_ui_action_craft_tool_start",
+        "@uicraftsoundfinish": "Play_ui_action_craft_tool_finish",
+        "@showinmarketplace": "false",
+        "@hidefromplayeroncontext": "all",
+        "projectile": {
+          "@prefab": "FX/ClientPrefabs/fx_spell_vanity_chickengun_autoattack_projectile_01",
+          "@startsocket": "mainhandprojectilemuzzle",
+          "@hitsocket": "damage",
+          "@flyspeed": "40",
+          "impactvfx": {
+            "@prefab": "FX/ClientPrefabs/fx_spell_vanity_chickengun_autoattack_impact_01",
+            "@impactsocket": "damage"
+          },
+          "AudioInfo": {
+            "@name": "PROJECTILEHIT_WEAPON_IMPACT"
+          }
+        },
+        "craftingspelllist": {
+          "craftspell": [
+            {
+              "@uniquename": "VANITY_FIREWORK_BLUE",
+              "@slots": "1"
+            },
+            {
+              "@uniquename": "VANITY_FIREWORK_GREEN",
+              "@slots": "2"
+            },
+            {
+              "@uniquename": "VANITY_FIREWORK_RED",
+              "@slots": "3"
+            }
+          ]
+        },
+        "SocketPreset": {
+          "@name": "ITEM_2H_PORTALGUN"
+        },
+        "AudioInfo": {
+          "@name": "ITEM_PORTAL_GUN"
+        }
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 1
+    },
+    {
+      "id": "UNIQUE_VANITY_2H_BANNER_GUIDON_GOLDEN_AJ",
+      "index": "11880",
+      "category": "Vanity_Weapons",
+      "slot": "MainHand",
+      "two_handed": true,
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "UNIQUE_VANITY_2H_BANNER_GUIDON_GOLDEN_AJ",
+        "item_database_index": "11880"
+      },
+      "tier": null,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Glorious Heraldic Guidon",
+        "DE-DE": "Glorreich Heraldische Standarte",
+        "FR-FR": "Glorieux Étendard Héraldique",
+        "RU-RU": "Великолепный геральдический вымпел",
+        "PL-PL": "Wspaniała Chorągiew z Herbem",
+        "ES-ES": "Glorioso Banderín Heráldico",
+        "PT-BR": "Guião Heráldico Glorioso",
+        "IT-IT": "Vessillo Araldico Glorioso",
+        "ZH-CN": "荣耀纹章会旗",
+        "KO-KR": "명예로운 전령의 깃발",
+        "JA-JP": "名誉高い紋章付き小旗",
+        "ZH-TW": "榮耀紋章會旗",
+        "ID-ID": "Bendera Heraldik Mulia",
+        "TR-TR": "İhtişamlı Hanedan Flaması",
+        "AR-SA": "الراية النبيلة المجيدة"
+      },
+      "localized_all_descriptions": {},
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_UNIQUE_VANITY_2H_BANNER_GUIDON_GOLDEN_AJ",
+        "description_variable": "@ITEMS_UNIQUE_VANITY_2H_BANNER_GUIDON_GOLDEN_AJ_DESC"
+      },
+      "origin": "Vanity/Weapons/Weapons_UNIQUE_VANITY_2H_BANNER_GUIDON_GOLDEN_AJ.json",
+      "descriptions": {
+        "description_en": "",
+        "description_ar": "",
+        "description_de": "",
+        "description_fr": "",
+        "description_es": "",
+        "description_ru": ""
+      },
+      "raw": {
+        "@uniquename": "UNIQUE_VANITY_2H_BANNER_GUIDON_GOLDEN_AJ",
+        "@maxqualitylevel": "5",
+        "@twohanded": "true",
+        "@abilitypower": "100",
+        "@slottype": "mainhand",
+        "@shopcategory": "vanity",
+        "@shopsubcategory1": "weapons",
+        "@skincount": "2",
+        "@tier": "8",
+        "@weight": "1.1",
+        "@activespellslots": "1",
+        "@passivespellslots": "1",
+        "@physicalarmor": "0",
+        "@magicresistance": "0",
+        "@durability": "16200",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@attacktype": "melee",
+        "@attackdamage": "0",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@mainhandanimationtype": "guidonbanner",
+        "@unlockedtocraft": "true",
+        "@unlockedtoequip": "true",
+        "@hitpointsmax": "0",
+        "@hitpointsregenerationbonus": "0",
+        "@energymax": "0",
+        "@energyregenerationbonus": "0",
+        "@crowdcontrolresistance": "0",
+        "@itempower": "500",
+        "@physicalattackdamagebonus": "0",
+        "@magicattackdamagebonus": "0",
+        "@physicalspelldamagebonus": "0",
+        "@magicspelldamagebonus": "0",
+        "@healbonus": "0",
+        "@bonusccdurationvsplayers": "0",
+        "@bonusccdurationvsmobs": "0",
+        "@threatbonus": "0",
+        "@magiccooldownreduction": "0",
+        "@bonusdefensevsplayers": "0",
+        "@bonusdefensevsmobs": "0",
+        "@magiccasttimereduction": "0",
+        "@attackspeedbonus": "0",
+        "@movespeedbonus": "0",
+        "@showinmarketplace": "false",
+        "@hidefromplayeroncontext": "all",
+        "@uicraftsoundstart": "Play_ui_action_craft_tool_start",
+        "@uicraftsoundfinish": "Play_ui_action_craft_tool_finish",
+        "@salvageable": "false",
+        "@tradable": "false",
+        "craftingspelllist": {
+          "craftspell": [
+            {
+              "@uniquename": "VANITY_2H_BANNER_GUIDON_GOLDEN_AJ_SPELL",
+              "@slots": "1"
+            },
+            {
+              "@uniquename": "PASSIVE_CANNOTATTACK"
+            }
+          ]
+        },
+        "AssetVfxPreset": {
+          "@name": "UNIQUE_VANITY_2H_BANNER_GUIDON_GOLDEN_AJ"
+        }
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 1
+    }
+  ]
+}

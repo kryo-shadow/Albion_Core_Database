@@ -1,0 +1,1442 @@
+{
+  "version": 1,
+  "item_count": 14,
+  "items": [
+    {
+      "id": "T4_MEAT",
+      "index": "934",
+      "category": "Farming_Farming_Products",
+      "slot": "2h",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": "40",
+        "resourcevalue": null,
+        "famevalue": "20",
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": {
+        "primary_resource": "T4_FARM_GOAT_GROWN",
+        "primary_count": 1,
+        "secondary_resource": "",
+        "secondary_count": 0,
+        "resources": [
+          {
+            "id": "T4_FARM_GOAT_GROWN",
+            "count": 1
+          }
+        ]
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T4_MEAT",
+        "item_database_index": "934"
+      },
+      "tier": 4,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Raw Goat",
+        "DE-DE": "Rohes Ziegenfleisch",
+        "FR-FR": "Chèvre crue",
+        "RU-RU": "Козлятина",
+        "PL-PL": "Surowe mięso z kozy",
+        "ES-ES": "Carne de cabra",
+        "PT-BR": "Cabra Crua",
+        "IT-IT": "Carne di capra cruda",
+        "ZH-CN": "山羊肉",
+        "KO-KR": "생 염소고기",
+        "JA-JP": "生のヤギ肉",
+        "ZH-TW": "生山羊肉",
+        "ID-ID": "Daging Kambing Mentah",
+        "TR-TR": "Çiğ Keçi Eti",
+        "AR-SA": "لحم ماعز نيء"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Cooking ingredient, used in various recipes.",
+        "DE-DE": "Kochzutat für verschiedene Rezepte.",
+        "FR-FR": "Ingrédient de cuisine, utilisé dans divers recettes.",
+        "RU-RU": "Ингредиент для приготовления блюд, используется в различных рецептах.",
+        "PL-PL": "Składnik kuchenny używany w wielu przepisach.",
+        "ES-ES": "Ingrediente de cocina, utilizado en varias recetas.",
+        "PT-BR": "Ingrediente de cozinha, usado em várias receitas.",
+        "IT-IT": "Ingrediente utilizzato per cucinare varie ricette.",
+        "ZH-CN": "烹饪原料，用于烹饪多种食物。",
+        "KO-KR": "여러 레시피에 쓰이는 요리 재료.",
+        "JA-JP": "様々なレシピに使われる調理の原料。",
+        "ZH-TW": "料理食材，可用於各式各樣的料理。",
+        "ID-ID": "Bahan memasak, digunakan di berbagai resep.",
+        "TR-TR": "Çeşitli tariflerde kullanılan bir yemek malzemesi.",
+        "AR-SA": "مكون للطبخ، يُستخدم في وصفات عديدة."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T4_MEAT",
+        "description_variable": "@ITEMS_T4_MEAT_DESC"
+      },
+      "origin": "Farming/Farming_Products/Farming_Products_T4_MEAT.json",
+      "raw": {
+        "@uniquename": "T4_MEAT",
+        "@shopcategory": "farming",
+        "@nutrition": "52",
+        "@shopsubcategory1": "farmingproducts",
+        "@tier": "4",
+        "@weight": "0.65",
+        "@maxstacksize": "999",
+        "@resourcetype": "MEAT",
+        "@unlockedtocraft": "false",
+        "@foodcategory": "meat",
+        "@uicraftsoundstart": "Play_ui_action_craft_meat_start",
+        "@uicraftsoundfinish": "Play_ui_action_craft_meat_finish",
+        "@itemvalue": "40",
+        "@famevalue": "20",
+        "@craftingcategory": "meat_goat",
+        "@shopsubcategory2": "meat",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "0.02",
+          "@amountcrafted": "18",
+          "@craftingfocus": "38",
+          "@returnproductnotresource": "true",
+          "craftresource": {
+            "@uniquename": "T4_FARM_GOAT_GROWN",
+            "@count": "1",
+            "@maxreturnamount": "0"
+          }
+        }
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T4_BREAD",
+      "index": "945",
+      "category": "Farming_Farming_Products",
+      "slot": "2h",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": {
+        "primary_resource": "T3_FLOUR",
+        "primary_count": 1,
+        "secondary_resource": "",
+        "secondary_count": 0,
+        "resources": [
+          {
+            "id": "T3_FLOUR",
+            "count": 1
+          }
+        ]
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T4_BREAD",
+        "item_database_index": "945"
+      },
+      "tier": 4,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Bread",
+        "DE-DE": "Brot",
+        "FR-FR": "Pain",
+        "RU-RU": "Хлеб",
+        "PL-PL": "Chleb",
+        "ES-ES": "Pan",
+        "PT-BR": "Pão",
+        "IT-IT": "Pane",
+        "ZH-CN": "面包",
+        "KO-KR": "빵",
+        "JA-JP": "パン",
+        "ZH-TW": "麵包",
+        "ID-ID": "Roti",
+        "TR-TR": "Ekmek",
+        "AR-SA": "خبز"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "An adequate source of nutrition. Made from flour.",
+        "DE-DE": "Brot wird aus Mehl gemacht.",
+        "FR-FR": "Fabriqué à base de farine",
+        "RU-RU": "Хлеб пекут из муки.",
+        "PL-PL": "Chleb jest wytwarzany z Mąki",
+        "ES-ES": "El pan está hecho de harina",
+        "PT-BR": "Pão é feito de farinha",
+        "IT-IT": "Una degna fonte di nutrimento. Si ottiene con la farina.",
+        "ZH-CN": "充足的营养来源，面粉制成。",
+        "KO-KR": "적절한 영양분 공급원. 밀가루로 만듭니다.",
+        "JA-JP": "十分な栄養源。原料は小麦粉。",
+        "ZH-TW": "可提供充分的營養。由麵粉製成。",
+        "ID-ID": "Sumber nutrisi yang mencukupi. Terbuat dari tepung.",
+        "TR-TR": "Oldukça yeterli bir besin kaynağı. Undan yapılır.",
+        "AR-SA": "مصدر مناسب للعناصر الغذائية. مصنوع من الدقيق."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T4_BREAD",
+        "description_variable": "@ITEMS_T4_BREAD_DESC"
+      },
+      "origin": "Farming/Farming_Products/Farming_Products_T4_BREAD.json",
+      "raw": {
+        "@uniquename": "T4_BREAD",
+        "@shopcategory": "farming",
+        "@shopsubcategory1": "farmingproducts",
+        "@craftingcategory": "food",
+        "@tier": "4",
+        "@weight": "0.71",
+        "@maxstacksize": "999",
+        "@unlockedtocraft": "false",
+        "@uicraftsoundstart": "Play_ui_action_craft_food_firm_start",
+        "@uicraftsoundfinish": "Play_ui_action_craft_food_finish",
+        "@nutrition": "57",
+        "@shopsubcategory2": "bread",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "0.02",
+          "@amountcrafted": "1",
+          "@craftingfocus": "42",
+          "craftresource": {
+            "@uniquename": "T3_FLOUR",
+            "@count": "1"
+          }
+        }
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T7_MEAT",
+      "index": "937",
+      "category": "Farming_Farming_Products",
+      "slot": "2h",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": "40",
+        "resourcevalue": null,
+        "famevalue": "20",
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": {
+        "primary_resource": "T7_FARM_PIG_GROWN",
+        "primary_count": 1,
+        "secondary_resource": "",
+        "secondary_count": 0,
+        "resources": [
+          {
+            "id": "T7_FARM_PIG_GROWN",
+            "count": 1
+          }
+        ]
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T7_MEAT",
+        "item_database_index": "937"
+      },
+      "tier": 7,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Raw Pork",
+        "DE-DE": "Rohes Schweinefleisch",
+        "FR-FR": "Porc cru",
+        "RU-RU": "Свинина",
+        "PL-PL": "Surowa Wieprzowina",
+        "ES-ES": "Carne de cerdo",
+        "PT-BR": "Porco Cru",
+        "IT-IT": "Carne di maiale cruda",
+        "ZH-CN": "猪肉",
+        "KO-KR": "생 돼지고기",
+        "JA-JP": "生の豚肉",
+        "ZH-TW": "生豬肉",
+        "ID-ID": "Daging Babi Mentah",
+        "TR-TR": "Çiğ Domuz Eti",
+        "AR-SA": "لحم خنزير نيء"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Cooking ingredient, used in various recipes.",
+        "DE-DE": "Kochzutat für verschiedene Rezepte.",
+        "FR-FR": "Ingrédient de cuisine, utilisé dans divers recettes.",
+        "RU-RU": "Ингредиент для приготовления блюд, используется в различных рецептах.",
+        "PL-PL": "Składnik kuchenny używany w wielu przepisach.",
+        "ES-ES": "Ingrediente de cocina, utilizado en varias recetas.",
+        "PT-BR": "Ingrediente de cozinha, usado em várias receitas.",
+        "IT-IT": "Ingrediente utilizzato per cucinare varie ricette.",
+        "ZH-CN": "烹饪原料，用于烹饪多种食物。",
+        "KO-KR": "여러 레시피에 쓰이는 요리 재료.",
+        "JA-JP": "様々なレシピに使われる調理の原料。",
+        "ZH-TW": "料理食材，可用於各式各樣的料理。",
+        "ID-ID": "Bahan memasak, digunakan di berbagai resep.",
+        "TR-TR": "Çeşitli tariflerde kullanılan bir yemek malzemesi.",
+        "AR-SA": "مكون للطبخ، يُستخدم في وصفات عديدة."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T7_MEAT",
+        "description_variable": "@ITEMS_T7_MEAT_DESC"
+      },
+      "origin": "Farming/Farming_Products/Farming_Products_T7_MEAT.json",
+      "raw": {
+        "@uniquename": "T7_MEAT",
+        "@shopcategory": "farming",
+        "@nutrition": "52",
+        "@shopsubcategory1": "farmingproducts",
+        "@tier": "7",
+        "@weight": "0.65",
+        "@maxstacksize": "999",
+        "@resourcetype": "MEAT",
+        "@unlockedtocraft": "false",
+        "@foodcategory": "meat",
+        "@uicraftsoundstart": "Play_ui_action_craft_meat_start",
+        "@uicraftsoundfinish": "Play_ui_action_craft_meat_finish",
+        "@itemvalue": "40",
+        "@famevalue": "20",
+        "@craftingcategory": "meat_pig",
+        "@shopsubcategory2": "meat",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "0.02",
+          "@amountcrafted": "18",
+          "@craftingfocus": "38",
+          "@returnproductnotresource": "true",
+          "craftresource": {
+            "@uniquename": "T7_FARM_PIG_GROWN",
+            "@count": "1",
+            "@maxreturnamount": "0"
+          }
+        }
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T8_ALCOHOL",
+      "index": "944",
+      "category": "Farming_Farming_Products",
+      "slot": "2h",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": {
+        "primary_resource": "T8_PUMPKIN",
+        "primary_count": 1,
+        "secondary_resource": "",
+        "secondary_count": 0,
+        "resources": [
+          {
+            "id": "T8_PUMPKIN",
+            "count": 1
+          }
+        ]
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T8_ALCOHOL",
+        "item_database_index": "944"
+      },
+      "tier": 8,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Pumpkin Moonshine",
+        "DE-DE": "Kürbisschnaps",
+        "FR-FR": "Gnôle de citrouille",
+        "RU-RU": "Тыквенный самогон",
+        "PL-PL": "Księżycówka z Dyni",
+        "ES-ES": "Aguardiente de calabaza",
+        "PT-BR": "Goró de Abóbora",
+        "IT-IT": "Distillato alla zucca",
+        "ZH-CN": "南瓜月光私酒",
+        "KO-KR": "호박 밀주",
+        "JA-JP": "カボチャの密造酒",
+        "ZH-TW": "南瓜私釀酒",
+        "ID-ID": "Bir Labu",
+        "TR-TR": "Bal Kabağı Mehtabı",
+        "AR-SA": "مشروب اليقطين"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Pumpkin Moonshine is brewed from Pumpkins, and used in various alchemical decoctions",
+        "DE-DE": "Kürbisschnaps wird aus Kürbissen gebraut und wird in alchemistischen Tränken verwendet.",
+        "FR-FR": "Distillé à partir de citrouilles et utilisé pour des décoctions alchimiques",
+        "RU-RU": "Делается из тыквы и используется в эликсирах.",
+        "PL-PL": "Bimber z dyni wytwarza się z dyni i używa się go w alchemii",
+        "ES-ES": "El aguardiente de calabaza se elabora con maíz y varias decocciones alquímicas",
+        "PT-BR": "O Goró de Abóbora é feito de Abóbora e usado em várias decocções alquímicas",
+        "IT-IT": "Questo distillato di zucche è un ingrediente di molti preparati alchemici.",
+        "ZH-CN": "南瓜月光私酒采用南瓜酿造而成，可以用于配制多重炼金煎剂。",
+        "KO-KR": "호박 밀주는 호박을 양조해서 만들며, 다양한 연금술 탕약에 쓰입니다.",
+        "JA-JP": "カボチャの密造酒はカボチャから醸造され、様々な錬金の煎じ薬に使われています。",
+        "ZH-TW": "南瓜私釀酒是由南瓜釀製而成，可作為多種鍊金藥劑的原料",
+        "ID-ID": "Bir Labu diseduh dari Labu, dan digunakan dalam berbagai rebusan alkemi.",
+        "TR-TR": "Bal Kabağı Mehtabı, Bal Kabakları kullanılarak hazırlanır ve çeşitli simyasal kaynatma işlemlerinde kullanılır.",
+        "AR-SA": "تُحضّر مشروبات اليقطين من اليقطين، وتُستخدم في العديد من المستحضرات الكيميائية"
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T8_ALCOHOL",
+        "description_variable": "@ITEMS_T8_ALCOHOL_DESC"
+      },
+      "origin": "Farming/Farming_Products/Farming_Products_T8_ALCOHOL.json",
+      "raw": {
+        "@uniquename": "T8_ALCOHOL",
+        "@shopcategory": "farming",
+        "@shopsubcategory1": "farmingproducts",
+        "@craftingcategory": "food",
+        "@tier": "8",
+        "@weight": "0.65",
+        "@maxstacksize": "999",
+        "@unlockedtocraft": "false",
+        "@uicraftsoundstart": "Play_ui_action_craft_food_liquid_start",
+        "@uicraftsoundfinish": "Play_ui_action_craft_food_finish",
+        "@nutrition": "52",
+        "@shopsubcategory2": "alcohol",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "0.02",
+          "@amountcrafted": "1",
+          "@craftingfocus": "38",
+          "craftresource": {
+            "@uniquename": "T8_PUMPKIN",
+            "@count": "1"
+          }
+        }
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T4_BUTTER",
+      "index": "939",
+      "category": "Farming_Farming_Products",
+      "slot": "2h",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": {
+        "primary_resource": "T4_MILK",
+        "primary_count": 1,
+        "secondary_resource": "",
+        "secondary_count": 0,
+        "resources": [
+          {
+            "id": "T4_MILK",
+            "count": 1
+          }
+        ]
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T4_BUTTER",
+        "item_database_index": "939"
+      },
+      "tier": 4,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Goat's Butter",
+        "DE-DE": "Ziegenmilchbutter",
+        "FR-FR": "Beurre de chèvre",
+        "RU-RU": "Козье масло",
+        "PL-PL": "Kozie Masło",
+        "ES-ES": "Manteca de cabra",
+        "PT-BR": "Manteiga de Cabra",
+        "IT-IT": "Burro di capra",
+        "ZH-CN": "山羊黄油",
+        "KO-KR": "염소젖 버터",
+        "JA-JP": "ヤギのバター",
+        "ZH-TW": "山羊奶油",
+        "ID-ID": "Mentega Kambing",
+        "TR-TR": "Keçi Tereyağı",
+        "AR-SA": "زبدة الماعز"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Goat's Butter is used to make Sandwiches.",
+        "DE-DE": "Ziegenmilchbutter wird benutzt, um Sandwiches zu machen.",
+        "FR-FR": "Le beurre de chèvre sert à faire des sandwichs.",
+        "RU-RU": "Масло нужно для приготовления сэндвичей",
+        "PL-PL": "Kozie masło służy do przygotowania kanapek",
+        "ES-ES": "La manteca de cabra se usa para hacer bocadillos",
+        "PT-BR": "A Manteiga de Cabra é usada para fazer Sanduíches.",
+        "IT-IT": "Il burro di capra si utilizza per preparare panini.",
+        "ZH-CN": "山羊黄油用于制作三明治。",
+        "KO-KR": "염소젖 버터는 샌드위치를 만드는 데 사용됩니다.",
+        "JA-JP": "ヤギのバターはサンドイッチづくりに使われています。",
+        "ZH-TW": "山羊奶油可用於製作三明治。",
+        "ID-ID": "Mentega Kambing digunakan untuk membuat Roti Lapis.",
+        "TR-TR": "Keçi Tereyağı, Sandviç yapımında kullanılır.",
+        "AR-SA": "تُستخدم زبدة الماعز لصناعة الشطائر."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T4_BUTTER",
+        "description_variable": "@ITEMS_T4_BUTTER_DESC"
+      },
+      "origin": "Farming/Farming_Products/Farming_Products_T4_BUTTER.json",
+      "raw": {
+        "@uniquename": "T4_BUTTER",
+        "@shopcategory": "farming",
+        "@shopsubcategory1": "farmingproducts",
+        "@craftingcategory": "food",
+        "@tier": "4",
+        "@weight": "0.65",
+        "@maxstacksize": "999",
+        "@unlockedtocraft": "false",
+        "@uicraftsoundstart": "Play_ui_action_craft_food_fry_start",
+        "@uicraftsoundfinish": "Play_ui_action_craft_food_finish",
+        "@nutrition": "52",
+        "@shopsubcategory2": "butter",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "0.02",
+          "@amountcrafted": "1",
+          "@craftingfocus": "38",
+          "craftresource": {
+            "@uniquename": "T4_MILK",
+            "@count": "1"
+          }
+        }
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T5_MEAT",
+      "index": "935",
+      "category": "Farming_Farming_Products",
+      "slot": "2h",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": "40",
+        "resourcevalue": null,
+        "famevalue": "20",
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": {
+        "primary_resource": "T5_FARM_GOOSE_GROWN",
+        "primary_count": 1,
+        "secondary_resource": "",
+        "secondary_count": 0,
+        "resources": [
+          {
+            "id": "T5_FARM_GOOSE_GROWN",
+            "count": 1
+          }
+        ]
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T5_MEAT",
+        "item_database_index": "935"
+      },
+      "tier": 5,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Raw Goose",
+        "DE-DE": "Rohes Gänsefleisch",
+        "FR-FR": "Oie crue",
+        "RU-RU": "Гусятина",
+        "PL-PL": "Surowe mięso z gęsi",
+        "ES-ES": "Carne de ganso",
+        "PT-BR": "Ganso Cru",
+        "IT-IT": "Carne d'oca cruda",
+        "ZH-CN": "鹅肉",
+        "KO-KR": "생 거위고기",
+        "JA-JP": "生のガチョウ肉",
+        "ZH-TW": "生鵝肉",
+        "ID-ID": "Daging Angsa Mentah",
+        "TR-TR": "Çiğ Kaz Eti",
+        "AR-SA": "لحم أوز نيء"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Cooking ingredient, used in various recipes.",
+        "DE-DE": "Kochzutat für verschiedene Rezepte.",
+        "FR-FR": "Ingrédient de cuisine, utilisé dans divers recettes.",
+        "RU-RU": "Ингредиент для приготовления блюд, используется в различных рецептах.",
+        "PL-PL": "Składnik kuchenny używany w wielu przepisach.",
+        "ES-ES": "Ingrediente de cocina, utilizado en varias recetas.",
+        "PT-BR": "Ingrediente de cozinha, usado em várias receitas.",
+        "IT-IT": "Ingrediente utilizzato per cucinare varie ricette.",
+        "ZH-CN": "烹饪原料，用于烹饪多种食物。",
+        "KO-KR": "여러 레시피에 쓰이는 요리 재료.",
+        "JA-JP": "様々なレシピに使われる調理の原料。",
+        "ZH-TW": "料理食材，可用於各式各樣的料理。",
+        "ID-ID": "Bahan memasak, digunakan di berbagai resep.",
+        "TR-TR": "Çeşitli tariflerde kullanılan bir yemek malzemesi.",
+        "AR-SA": "مكون للطبخ، يُستخدم في وصفات عديدة."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T5_MEAT",
+        "description_variable": "@ITEMS_T5_MEAT_DESC"
+      },
+      "origin": "Farming/Farming_Products/Farming_Products_T5_MEAT.json",
+      "raw": {
+        "@uniquename": "T5_MEAT",
+        "@shopcategory": "farming",
+        "@nutrition": "52",
+        "@shopsubcategory1": "farmingproducts",
+        "@tier": "5",
+        "@weight": "0.65",
+        "@maxstacksize": "999",
+        "@resourcetype": "MEAT",
+        "@unlockedtocraft": "false",
+        "@foodcategory": "meat",
+        "@uicraftsoundstart": "Play_ui_action_craft_meat_start",
+        "@uicraftsoundfinish": "Play_ui_action_craft_meat_finish",
+        "@itemvalue": "40",
+        "@famevalue": "20",
+        "@craftingcategory": "meat_goose",
+        "@shopsubcategory2": "meat",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "0.02",
+          "@amountcrafted": "18",
+          "@craftingfocus": "38",
+          "@returnproductnotresource": "true",
+          "craftresource": {
+            "@uniquename": "T5_FARM_GOOSE_GROWN",
+            "@count": "1",
+            "@maxreturnamount": "0"
+          }
+        }
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T3_MEAT",
+      "index": "933",
+      "category": "Farming_Farming_Products",
+      "slot": "2h",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": "40",
+        "resourcevalue": null,
+        "famevalue": "20",
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": {
+        "primary_resource": "T3_FARM_CHICKEN_GROWN",
+        "primary_count": 1,
+        "secondary_resource": "",
+        "secondary_count": 0,
+        "resources": [
+          {
+            "id": "T3_FARM_CHICKEN_GROWN",
+            "count": 1
+          }
+        ]
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T3_MEAT",
+        "item_database_index": "933"
+      },
+      "tier": 3,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Raw Chicken",
+        "DE-DE": "Rohes Huhn",
+        "FR-FR": "Poulet cru",
+        "RU-RU": "Куриное мясо",
+        "PL-PL": "Surowy kurczak",
+        "ES-ES": "Carne de pollo",
+        "PT-BR": "Galinha Crua",
+        "IT-IT": "Carne di pollo cruda",
+        "ZH-CN": "鸡肉",
+        "KO-KR": "생 닭고기",
+        "JA-JP": "生の鶏肉",
+        "ZH-TW": "生雞肉",
+        "ID-ID": "Ayam Mentah",
+        "TR-TR": "Çiğ Tavuk Eti",
+        "AR-SA": "دجاج نيء"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Cooking ingredient, used in various recipes.",
+        "DE-DE": "Kochzutat für verschiedene Rezepte.",
+        "FR-FR": "Ingrédient de cuisine, utilisé dans divers recettes.",
+        "RU-RU": "Ингредиент для приготовления блюд, используется в различных рецептах.",
+        "PL-PL": "Składnik kuchenny używany w wielu przepisach.",
+        "ES-ES": "Ingrediente de cocina, utilizado en varias recetas.",
+        "PT-BR": "Ingrediente de cozinha, usado em várias receitas.",
+        "IT-IT": "Ingrediente utilizzato per cucinare varie ricette.",
+        "ZH-CN": "烹饪原料，用于烹饪多种食物。",
+        "KO-KR": "여러 레시피에 쓰이는 요리 재료.",
+        "JA-JP": "様々なレシピに使われる調理の原料。",
+        "ZH-TW": "料理食材，可用於各式各樣的料理。",
+        "ID-ID": "Bahan memasak, digunakan di berbagai resep.",
+        "TR-TR": "Çeşitli tariflerde kullanılan bir yemek malzemesi.",
+        "AR-SA": "مكون للطبخ، يُستخدم في وصفات عديدة."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T3_MEAT",
+        "description_variable": "@ITEMS_T3_MEAT_DESC"
+      },
+      "origin": "Farming/Farming_Products/Farming_Products_T3_MEAT.json",
+      "raw": {
+        "@uniquename": "T3_MEAT",
+        "@shopcategory": "farming",
+        "@nutrition": "52",
+        "@shopsubcategory1": "farmingproducts",
+        "@tier": "3",
+        "@weight": "0.65",
+        "@maxstacksize": "999",
+        "@resourcetype": "MEAT",
+        "@unlockedtocraft": "false",
+        "@foodcategory": "meat",
+        "@uicraftsoundstart": "Play_ui_action_craft_meat_start",
+        "@uicraftsoundfinish": "Play_ui_action_craft_meat_finish",
+        "@itemvalue": "40",
+        "@famevalue": "20",
+        "@craftingcategory": "meat_chicken",
+        "@shopsubcategory2": "meat",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "0.02",
+          "@amountcrafted": "18",
+          "@craftingfocus": "38",
+          "@returnproductnotresource": "true",
+          "craftresource": {
+            "@uniquename": "T3_FARM_CHICKEN_GROWN",
+            "@count": "1",
+            "@maxreturnamount": "0"
+          }
+        }
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T7_ALCOHOL",
+      "index": "943",
+      "category": "Farming_Farming_Products",
+      "slot": "2h",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": {
+        "primary_resource": "T7_CORN",
+        "primary_count": 1,
+        "secondary_resource": "",
+        "secondary_count": 0,
+        "resources": [
+          {
+            "id": "T7_CORN",
+            "count": 1
+          }
+        ]
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T7_ALCOHOL",
+        "item_database_index": "943"
+      },
+      "tier": 7,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Corn Hooch",
+        "DE-DE": "Klarer Fusel",
+        "FR-FR": "Gnôle de maïs",
+        "RU-RU": "Кукурузный самогон",
+        "PL-PL": "Bimber z Kukurydzy",
+        "ES-ES": "Orujo de maíz",
+        "PT-BR": "Carraspana de Milho",
+        "IT-IT": "Liquore di mais",
+        "ZH-CN": "玉米烈酒",
+        "KO-KR": "옥수수 밀주",
+        "JA-JP": "トウモロコシの密造酒",
+        "ZH-TW": "玉米烈酒",
+        "ID-ID": "Bir Jagung",
+        "TR-TR": "Mısır İçkisi",
+        "AR-SA": "مشروب الذرة"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Corn Hooch is brewed from Corn, and used in various alchemical decoctions",
+        "DE-DE": "Klarer Fusel wird aus Korn gebraut und wird in alchemistischen Tränken verwendet.",
+        "FR-FR": "Distillé à partir de maïs et utilisé pour des décoctions alchimiques",
+        "RU-RU": "Делается из кукурузы и используется в эликсирах.",
+        "PL-PL": "Bimber z kukurydzy wytwarza się z kukurydzy i używa się go w alchemii",
+        "ES-ES": "El orujo de maíz se elabora con maíz y varias decocciones alquímicas",
+        "PT-BR": "A Carraspana de Milho é feita de Milho e usada em várias decocções alquímicas",
+        "IT-IT": "Questo liquore di mais è un ingrediente di molti preparati alchemici.",
+        "ZH-CN": "玉米烈酒采用玉米酿造而成，可以用于配制多重炼金煎剂。",
+        "KO-KR": "옥수수 밀주는 옥수수를 양조해서 만들며, 다양한 연금술 탕약에 쓰입니다.",
+        "JA-JP": "トウモロコシの密造酒はトウモロコシから醸造され、様々な錬金の煎じ薬に使われています。",
+        "ZH-TW": "玉米烈酒是由玉米釀製而成，可作為多種鍊金藥劑的原料",
+        "ID-ID": "Bir Jagung diseduh dari Jagung, dan digunakan dalam berbagai rebusan alkemi.",
+        "TR-TR": "Mısır İçkisi, Mısır kullanılarak hazırlanır ve çeşitli simyasal kaynatma işlemlerinde kullanılır.",
+        "AR-SA": "يُحضّر مشروب الذرة من الذرة، ويمكن استخدامه في العديد من المستحضرات الكيميائية"
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T7_ALCOHOL",
+        "description_variable": "@ITEMS_T7_ALCOHOL_DESC"
+      },
+      "origin": "Farming/Farming_Products/Farming_Products_T7_ALCOHOL.json",
+      "raw": {
+        "@uniquename": "T7_ALCOHOL",
+        "@shopcategory": "farming",
+        "@shopsubcategory1": "farmingproducts",
+        "@craftingcategory": "food",
+        "@tier": "7",
+        "@weight": "0.65",
+        "@maxstacksize": "999",
+        "@unlockedtocraft": "false",
+        "@uicraftsoundstart": "Play_ui_action_craft_food_liquid_start",
+        "@uicraftsoundfinish": "Play_ui_action_craft_food_finish",
+        "@nutrition": "52",
+        "@shopsubcategory2": "alcohol",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "0.02",
+          "@amountcrafted": "1",
+          "@craftingfocus": "38",
+          "craftresource": {
+            "@uniquename": "T7_CORN",
+            "@count": "1"
+          }
+        }
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T3_FLOUR",
+      "index": "946",
+      "category": "Farming_Farming_Products",
+      "slot": "2h",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": {
+        "primary_resource": "T3_WHEAT",
+        "primary_count": 1,
+        "secondary_resource": "",
+        "secondary_count": 0,
+        "resources": [
+          {
+            "id": "T3_WHEAT",
+            "count": 1
+          }
+        ]
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T3_FLOUR",
+        "item_database_index": "946"
+      },
+      "tier": 3,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Flour",
+        "DE-DE": "Mehl",
+        "FR-FR": "Farine",
+        "RU-RU": "Мука",
+        "PL-PL": "Mąka",
+        "ES-ES": "Harina",
+        "PT-BR": "Farinha",
+        "IT-IT": "Farina",
+        "ZH-CN": "面粉",
+        "KO-KR": "밀가루",
+        "JA-JP": "小麦粉",
+        "ZH-TW": "麵粉",
+        "ID-ID": "Tepung",
+        "TR-TR": "Un",
+        "AR-SA": "الدقيق"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Used to make Bread.",
+        "DE-DE": "Für Brot notwendig.",
+        "FR-FR": "Pour fabriquer du pain.",
+        "RU-RU": "Используется для выпечки хлеба.",
+        "PL-PL": "Używana do produkcji chleba.",
+        "ES-ES": "Se usa para hacer pan.",
+        "PT-BR": "Usada para fazer Pão.",
+        "IT-IT": "Utile per produrre pane.",
+        "ZH-CN": "用于制作面包。",
+        "KO-KR": "빵을 만드는 데 사용됩니다.",
+        "JA-JP": "パンづくりに使う",
+        "ZH-TW": "用於製作麵包。",
+        "ID-ID": "Digunakan untuk membuat Roti.",
+        "TR-TR": "Ekmek yapmak için kullanılır.",
+        "AR-SA": "يُستخدم لصناعة الخبز."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T3_FLOUR",
+        "description_variable": "@ITEMS_T3_FLOUR_DESC"
+      },
+      "origin": "Farming/Farming_Products/Farming_Products_T3_FLOUR.json",
+      "raw": {
+        "@uniquename": "T3_FLOUR",
+        "@shopcategory": "farming",
+        "@shopsubcategory1": "farmingproducts",
+        "@craftingcategory": "food",
+        "@tier": "3",
+        "@weight": "0.65",
+        "@maxstacksize": "999",
+        "@unlockedtocraft": "false",
+        "@uicraftsoundstart": "Play_ui_action_craft_flour_start",
+        "@uicraftsoundfinish": "Play_ui_action_craft_flour_finish",
+        "@nutrition": "52",
+        "@shopsubcategory2": "flour",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "0.02",
+          "@amountcrafted": "1",
+          "@craftingfocus": "38",
+          "craftresource": {
+            "@uniquename": "T3_WHEAT",
+            "@count": "1"
+          }
+        }
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T8_MEAT",
+      "index": "938",
+      "category": "Farming_Farming_Products",
+      "slot": "2h",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": "40",
+        "resourcevalue": null,
+        "famevalue": "20",
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": {
+        "primary_resource": "T8_FARM_COW_GROWN",
+        "primary_count": 1,
+        "secondary_resource": "",
+        "secondary_count": 0,
+        "resources": [
+          {
+            "id": "T8_FARM_COW_GROWN",
+            "count": 1
+          }
+        ]
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T8_MEAT",
+        "item_database_index": "938"
+      },
+      "tier": 8,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Raw Beef",
+        "DE-DE": "Rohes Rind",
+        "FR-FR": "Bœuf cru",
+        "RU-RU": "Говядина",
+        "PL-PL": "Surowa wołowina",
+        "ES-ES": "Carne de ternera",
+        "PT-BR": "Carne Crua",
+        "IT-IT": "Carne di manzo cruda",
+        "ZH-CN": "牛肉",
+        "KO-KR": "생 쇠고기",
+        "JA-JP": "生の牛肉",
+        "ZH-TW": "生牛肉",
+        "ID-ID": "Daging Sapi Mentah",
+        "TR-TR": "Çiğ Sığır Eti",
+        "AR-SA": "لحم بقر نيء"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Cooking ingredient, used in various recipes.",
+        "DE-DE": "Kochzutat für verschiedene Rezepte.",
+        "FR-FR": "Ingrédient de cuisine, utilisé dans divers recettes.",
+        "RU-RU": "Ингредиент для приготовления блюд, используется в различных рецептах.",
+        "PL-PL": "Składnik kuchenny używany w wielu przepisach.",
+        "ES-ES": "Ingrediente de cocina, utilizado en varias recetas.",
+        "PT-BR": "Ingrediente de cozinha, usado em várias receitas.",
+        "IT-IT": "Ingrediente utilizzato per cucinare varie ricette.",
+        "ZH-CN": "烹饪原料，用于烹饪多种食物。",
+        "KO-KR": "여러 레시피에 쓰이는 요리 재료.",
+        "JA-JP": "様々なレシピに使われる調理の原料。",
+        "ZH-TW": "料理食材，可用於各式各樣的料理。",
+        "ID-ID": "Bahan memasak, digunakan di berbagai resep.",
+        "TR-TR": "Çeşitli tariflerde kullanılan bir yemek malzemesi.",
+        "AR-SA": "مكون للطبخ، يُستخدم في وصفات عديدة."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T8_MEAT",
+        "description_variable": "@ITEMS_T8_MEAT_DESC"
+      },
+      "origin": "Farming/Farming_Products/Farming_Products_T8_MEAT.json",
+      "raw": {
+        "@uniquename": "T8_MEAT",
+        "@shopcategory": "farming",
+        "@nutrition": "52",
+        "@shopsubcategory1": "farmingproducts",
+        "@tier": "8",
+        "@weight": "0.65",
+        "@maxstacksize": "999",
+        "@resourcetype": "MEAT",
+        "@unlockedtocraft": "false",
+        "@foodcategory": "meat",
+        "@uicraftsoundstart": "Play_ui_action_craft_meat_start",
+        "@uicraftsoundfinish": "Play_ui_action_craft_meat_finish",
+        "@itemvalue": "40",
+        "@famevalue": "20",
+        "@craftingcategory": "meat_cow",
+        "@shopsubcategory2": "meat",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "0.02",
+          "@amountcrafted": "18",
+          "@craftingfocus": "38",
+          "@returnproductnotresource": "true",
+          "craftresource": {
+            "@uniquename": "T8_FARM_COW_GROWN",
+            "@count": "1",
+            "@maxreturnamount": "0"
+          }
+        }
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T6_ALCOHOL",
+      "index": "942",
+      "category": "Farming_Farming_Products",
+      "slot": "2h",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": {
+        "primary_resource": "T6_POTATO",
+        "primary_count": 1,
+        "secondary_resource": "",
+        "secondary_count": 0,
+        "resources": [
+          {
+            "id": "T6_POTATO",
+            "count": 1
+          }
+        ]
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T6_ALCOHOL",
+        "item_database_index": "942"
+      },
+      "tier": 6,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Potato Schnapps",
+        "DE-DE": "Kartoffelschnaps",
+        "FR-FR": "Schnaps de patate",
+        "RU-RU": "Картофельный самогон",
+        "PL-PL": "Sznaps ziemniaczany",
+        "ES-ES": "Schnapps de patata",
+        "PT-BR": "Aguardente de Batata",
+        "IT-IT": "Distillato alle patate",
+        "ZH-CN": "土豆烈酒",
+        "KO-KR": "감자 슈냅스",
+        "JA-JP": "ポテトシュナップス",
+        "ZH-TW": "馬鈴薯烈酒",
+        "ID-ID": "Schnapps Kentang",
+        "TR-TR": "Patates Cini",
+        "AR-SA": "مشروبات البطاطس"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Potato Schnapps is brewed from Potatoes, and used in various alchemical decoctions.",
+        "DE-DE": "Kartoffelschnaps wird aus Kartoffeln gefertigt und wird in alchemistischen Tränken verwendet.",
+        "FR-FR": "Distillé à partir de patates et utilisé pour des décoctions alchimiques",
+        "RU-RU": "Делается из картофеля и используется в эликсирах.",
+        "PL-PL": "Sznaps ziemniaczany jest warzony z ziemniaków. Wykorzystuje się go w wielu alchemicznych wywarach",
+        "ES-ES": "El Schnapps de patata se elabora con patata y se usa en varias decocciones alquímicas",
+        "PT-BR": "A Aguardente de Batata é feita de Batatas e usada em várias decocções alquímicas",
+        "IT-IT": "Questo distillato di patate è un ingrediente di molti preparati alchemici.",
+        "ZH-CN": "土豆烈酒采用土豆酿造而成，可以用于配制多重炼金煎剂。",
+        "KO-KR": "감자 슈냅스는 감자를 양조해서 만들며, 다양한 연금술 탕약에 쓰입니다.",
+        "JA-JP": "ポテトシュナップスはじゃがいもから醸造され、様々な錬金の煎じ薬に使われています。",
+        "ZH-TW": "馬鈴薯烈酒是由馬鈴薯釀製而成，可作為多種鍊金藥劑的原料。",
+        "ID-ID": "Schnapps Kentang diseduh dari Kentang, dan digunakan dalam berbagai rebusan alkemi.",
+        "TR-TR": "Patates Cini, Patates kullanılarak hazırlanır ve çeşitli simyasal kaynatma işlemlerinde kullanılır.",
+        "AR-SA": "تُحضر مشروبات البطاطس من البطاطس، وتُستخدم في العديد من المستحضرات الكيميائية."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T6_ALCOHOL",
+        "description_variable": "@ITEMS_T6_ALCOHOL_DESC"
+      },
+      "origin": "Farming/Farming_Products/Farming_Products_T6_ALCOHOL.json",
+      "raw": {
+        "@uniquename": "T6_ALCOHOL",
+        "@shopcategory": "farming",
+        "@shopsubcategory1": "farmingproducts",
+        "@craftingcategory": "food",
+        "@tier": "6",
+        "@weight": "0.65",
+        "@maxstacksize": "999",
+        "@unlockedtocraft": "false",
+        "@uicraftsoundstart": "Play_ui_action_craft_food_liquid_start",
+        "@uicraftsoundfinish": "Play_ui_action_craft_food_finish",
+        "@nutrition": "52",
+        "@shopsubcategory2": "alcohol",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "0.02",
+          "@amountcrafted": "1",
+          "@craftingfocus": "38",
+          "craftresource": {
+            "@uniquename": "T6_POTATO",
+            "@count": "1"
+          }
+        }
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T6_MEAT",
+      "index": "936",
+      "category": "Farming_Farming_Products",
+      "slot": "2h",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": "40",
+        "resourcevalue": null,
+        "famevalue": "20",
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": {
+        "primary_resource": "T6_FARM_SHEEP_GROWN",
+        "primary_count": 1,
+        "secondary_resource": "",
+        "secondary_count": 0,
+        "resources": [
+          {
+            "id": "T6_FARM_SHEEP_GROWN",
+            "count": 1
+          }
+        ]
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T6_MEAT",
+        "item_database_index": "936"
+      },
+      "tier": 6,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Raw Mutton",
+        "DE-DE": "Rohes Hammelfleisch",
+        "FR-FR": "Mouton cru",
+        "RU-RU": "Баранина",
+        "PL-PL": "Surowa baranina",
+        "ES-ES": "Carne de carnero",
+        "PT-BR": "Carneiro Cru",
+        "IT-IT": "Carne di montone cruda",
+        "ZH-CN": "绵羊肉",
+        "KO-KR": "생 양고기",
+        "JA-JP": "生のマトン",
+        "ZH-TW": "生綿羊肉",
+        "ID-ID": "Daging Domba Mentah",
+        "TR-TR": "Çiğ Koyun Eti",
+        "AR-SA": "لحم ضأن نيء"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Cooking ingredient, used in various recipes.",
+        "DE-DE": "Kochzutat für verschiedene Rezepte.",
+        "FR-FR": "Ingrédient de cuisine, utilisé dans divers recettes.",
+        "RU-RU": "Ингредиент для приготовления блюд, используется в различных рецептах.",
+        "PL-PL": "Składnik kuchenny używany w wielu przepisach.",
+        "ES-ES": "Ingrediente de cocina, utilizado en varias recetas.",
+        "PT-BR": "Ingrediente de cozinha, usado em várias receitas.",
+        "IT-IT": "Ingrediente utilizzato per cucinare varie ricette.",
+        "ZH-CN": "烹饪原料，用于烹饪多种食物。",
+        "KO-KR": "여러 레시피에 쓰이는 요리 재료.",
+        "JA-JP": "様々なレシピに使われる調理の原料。",
+        "ZH-TW": "料理食材，可用於各式各樣的料理。",
+        "ID-ID": "Bahan memasak, digunakan di berbagai resep.",
+        "TR-TR": "Çeşitli tariflerde kullanılan bir yemek malzemesi.",
+        "AR-SA": "مكون للطبخ، يُستخدم في وصفات عديدة."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T6_MEAT",
+        "description_variable": "@ITEMS_T6_MEAT_DESC"
+      },
+      "origin": "Farming/Farming_Products/Farming_Products_T6_MEAT.json",
+      "raw": {
+        "@uniquename": "T6_MEAT",
+        "@shopcategory": "farming",
+        "@nutrition": "52",
+        "@shopsubcategory1": "farmingproducts",
+        "@tier": "6",
+        "@weight": "0.65",
+        "@maxstacksize": "999",
+        "@resourcetype": "MEAT",
+        "@unlockedtocraft": "false",
+        "@foodcategory": "meat",
+        "@uicraftsoundstart": "Play_ui_action_craft_meat_start",
+        "@uicraftsoundfinish": "Play_ui_action_craft_meat_finish",
+        "@itemvalue": "40",
+        "@famevalue": "20",
+        "@craftingcategory": "meat_sheep",
+        "@shopsubcategory2": "meat",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "0.02",
+          "@amountcrafted": "18",
+          "@craftingfocus": "38",
+          "@returnproductnotresource": "true",
+          "craftresource": {
+            "@uniquename": "T6_FARM_SHEEP_GROWN",
+            "@count": "1",
+            "@maxreturnamount": "0"
+          }
+        }
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T8_BUTTER",
+      "index": "941",
+      "category": "Farming_Farming_Products",
+      "slot": "2h",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": {
+        "primary_resource": "T8_MILK",
+        "primary_count": 1,
+        "secondary_resource": "",
+        "secondary_count": 0,
+        "resources": [
+          {
+            "id": "T8_MILK",
+            "count": 1
+          }
+        ]
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T8_BUTTER",
+        "item_database_index": "941"
+      },
+      "tier": 8,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Cow's Butter",
+        "DE-DE": "Kuhmilchbutter",
+        "FR-FR": "Beurre de vache",
+        "RU-RU": "Коровье масло",
+        "PL-PL": "Krowie Masło",
+        "ES-ES": "Manteca de vaca",
+        "PT-BR": "Manteiga de Vaca",
+        "IT-IT": "Burro di mucca",
+        "ZH-CN": "牛奶黄油",
+        "KO-KR": "우유 버터",
+        "JA-JP": "雌牛のバター",
+        "ZH-TW": "乳牛奶油",
+        "ID-ID": "Mentega Sapi",
+        "TR-TR": "İnek Tereyağı",
+        "AR-SA": "زبدة البقرة"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Cow's Butter is used to make Sandwiches",
+        "DE-DE": "Kuhmilchbutter wird benutzt, um Sandwiches zu machen.",
+        "FR-FR": "Le beurre de vache sert à faire des sandwichs.",
+        "RU-RU": "Масло нужно для приготовления сэндвичей",
+        "PL-PL": "Krowie masło służy do przygotowania kanapek",
+        "ES-ES": "La manteca de vaca se usa para hacer bocadillos",
+        "PT-BR": "A Manteiga de Vaca é usada para fazer Sanduíches.",
+        "IT-IT": "Il burro di mucca si utilizza per preparare panini.",
+        "ZH-CN": "牛奶黄油用于制作三明治。",
+        "KO-KR": "우유 버터는 샌드위치를 만드는 데 사용됩니다",
+        "JA-JP": "雌牛のバターはサンドイッチづくりに使われています。",
+        "ZH-TW": "乳牛奶油可用於製作三明治",
+        "ID-ID": "Mentega Sapi digunakan untuk membuat Roti Lapis",
+        "TR-TR": "İnek Tereyağı, Sandviç yapımında kullanılır.",
+        "AR-SA": "تُستخدم زبدة البقرة لصناعة الشطائر"
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T8_BUTTER",
+        "description_variable": "@ITEMS_T8_BUTTER_DESC"
+      },
+      "origin": "Farming/Farming_Products/Farming_Products_T8_BUTTER.json",
+      "raw": {
+        "@uniquename": "T8_BUTTER",
+        "@shopcategory": "farming",
+        "@shopsubcategory1": "farmingproducts",
+        "@craftingcategory": "food",
+        "@tier": "8",
+        "@weight": "0.65",
+        "@maxstacksize": "999",
+        "@unlockedtocraft": "false",
+        "@uicraftsoundstart": "Play_ui_action_craft_food_fry_start",
+        "@uicraftsoundfinish": "Play_ui_action_craft_food_finish",
+        "@nutrition": "52",
+        "@shopsubcategory2": "butter",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "0.02",
+          "@amountcrafted": "1",
+          "@craftingfocus": "38",
+          "craftresource": {
+            "@uniquename": "T8_MILK",
+            "@count": "1"
+          }
+        }
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T6_BUTTER",
+      "index": "940",
+      "category": "Farming_Farming_Products",
+      "slot": "2h",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": {
+        "primary_resource": "T6_MILK",
+        "primary_count": 1,
+        "secondary_resource": "",
+        "secondary_count": 0,
+        "resources": [
+          {
+            "id": "T6_MILK",
+            "count": 1
+          }
+        ]
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T6_BUTTER",
+        "item_database_index": "940"
+      },
+      "tier": 6,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Sheep's Butter",
+        "DE-DE": "Schafsmilchbutter",
+        "FR-FR": "Beurre de mouton",
+        "RU-RU": "Овечье масло",
+        "PL-PL": "Owcze Masło",
+        "ES-ES": "Manteca de oveja",
+        "PT-BR": "Manteiga de Ovelha",
+        "IT-IT": "Burro di pecora",
+        "ZH-CN": "绵羊黄油",
+        "KO-KR": "양젖 버터",
+        "JA-JP": "羊のバター",
+        "ZH-TW": "綿羊奶油",
+        "ID-ID": "Mentega Domba",
+        "TR-TR": "Koyun Tereyağı",
+        "AR-SA": "زبدة الخراف"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Sheep's Butter is used to make Sandwiches",
+        "DE-DE": "Schafsmilchbutter wird benutzt, um Sandwiches zu machen.",
+        "FR-FR": "Le beurre de mouton sert à faire des sandwichs.",
+        "RU-RU": "Масло нужно для приготовления сэндвичей",
+        "PL-PL": "Owcze masło służy do przygotowania kanapek",
+        "ES-ES": "La manteca de oveja se usa para hacer bocadillos",
+        "PT-BR": "A Manteiga de Ovelha é usada para fazer Sanduíches.",
+        "IT-IT": "Il burro di pecora si utilizza per preparare panini.",
+        "ZH-CN": "绵羊黄油用于制作三明治。",
+        "KO-KR": "양젖 버터는 샌드위치를 만드는 데 사용됩니다.",
+        "JA-JP": "羊のバターはサンドイッチづくりに使われています。",
+        "ZH-TW": "綿羊奶油可用於製作三明治",
+        "ID-ID": "Mentega Domba digunakan untuk membuat Roti Lapis.",
+        "TR-TR": "Koyun Tereyağı, Sandviç yapımında kullanılır.",
+        "AR-SA": "تُستخدم زبدة الخراف لصناعة الشطائر"
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T6_BUTTER",
+        "description_variable": "@ITEMS_T6_BUTTER_DESC"
+      },
+      "origin": "Farming/Farming_Products/Farming_Products_T6_BUTTER.json",
+      "raw": {
+        "@uniquename": "T6_BUTTER",
+        "@shopcategory": "farming",
+        "@shopsubcategory1": "farmingproducts",
+        "@craftingcategory": "food",
+        "@tier": "6",
+        "@weight": "0.65",
+        "@maxstacksize": "999",
+        "@unlockedtocraft": "false",
+        "@uicraftsoundstart": "Play_ui_action_craft_food_fry_start",
+        "@uicraftsoundfinish": "Play_ui_action_craft_food_finish",
+        "@nutrition": "52",
+        "@shopsubcategory2": "butter",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "0.02",
+          "@amountcrafted": "1",
+          "@craftingfocus": "38",
+          "craftresource": {
+            "@uniquename": "T6_MILK",
+            "@count": "1"
+          }
+        }
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    }
+  ]
+}

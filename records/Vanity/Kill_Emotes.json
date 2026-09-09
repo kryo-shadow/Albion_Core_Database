@@ -1,0 +1,1922 @@
+{
+  "version": 1,
+  "item_count": 20,
+  "items": [
+    {
+      "id": "T1_KILL_EMOTE_TOMBSTONE_CHARGES_TRADABLE",
+      "index": "11808",
+      "category": "Vanity_Kill_Emotes",
+      "slot": "2h",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": "0",
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T1_KILL_EMOTE_TOMBSTONE_CHARGES_TRADABLE",
+        "item_database_index": "11808"
+      },
+      "tier": 1,
+      "enchantment": 0,
+      "localized_all_names": {},
+      "localized_all_descriptions": {
+        "EN-US": "Consuming this item grants one charge of the following Victory Emote on this [b]server[/b]: Tombstone.",
+        "DE-DE": "Das Nutzen dieses Gegenstands bringt eine Aufladung des folgenden Sieg-Emotes für diesen [b]Server[/b]: Grabstein.",
+        "FR-FR": "Consommer cet objet accorde une charge de l'Emote de Victoire suivant sur ce [b]serveur[/b] : Pierre Tombale.",
+        "RU-RU": "Использование данного предмета добавит на этом [b]сервере[/b] один заряд победной эмоции: Надгробие.",
+        "PL-PL": "Użycie tego przedmiotu zapewnia jeden ładunek następującej Emoty Zwycięstwa na tym [b]serwerze[/b]: Nagrobek.",
+        "ES-ES": "Consumir este objeto otorga una carga del siguiente Emote de Victoria en este [b]servidor[/b]: Lápida.",
+        "PT-BR": "Consumir este item concede uma carga do seguinte Emote de Vitória neste [b]servidor[/b]: Lápide.",
+        "IT-IT": "Il consumo di questo oggetto garantisce una carica della seguente Emote di Vittoria su questo [b]server[/b]: Lapide.",
+        "ZH-CN": "消耗此物品即可在这个[b]服务器[/b]获得1点下列胜利表情动作的使用次数：墓碑。",
+        "KO-KR": "이 아이템을 소비하면 이 [b]서버[/b]에서 다음 승리 감정 표현 스택 하나를 얻게 됩니다: 묘비.",
+        "JA-JP": "このアイテムを使用すると、以下の勝利エモートをこの[b]サーバー[/b]で1回使用できます：墓石。",
+        "ZH-TW": "消耗此物品即可在這個[b]伺服器[/b]獲得1點下列勝利表情動作的使用次數：墓碑。",
+        "ID-ID": "Mengonsumsi item ini memberikan satu charge Emoji Kemenangan berikut di [b]server[/b] ini: Batu Nisan.",
+        "TR-TR": "Bu eşyayı tüketmek, bu [b]sunucuda[/b] aşağıdaki Zafer İfadesi için bir yük verir: Mezar Taşı.",
+        "AR-SA": "إن استهلاك هذا العنصر يمنح شحنة واحدة من إيماء الانتصار التالية على هذا [b]الخادم[/b]: شاهد القبر."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T1_KILL_EMOTE_TOMBSTONE_CHARGES_TRADABLE",
+        "description_variable": "@ITEMS_T1_KILL_EMOTE_TOMBSTONE_CHARGES_NONTRADABLE_DESC"
+      },
+      "origin": "Vanity/Kill_Emotes/Kill_Emotes_T1_KILL_EMOTE_TOMBSTONE_CHARGES_TRADABLE.json",
+      "name_en": "",
+      "name_ar": "",
+      "name_de": "",
+      "name_fr": "",
+      "name_es": "",
+      "name_ru": "",
+      "localized": {
+        "name_en": "",
+        "name_ar": "",
+        "name_de": "",
+        "name_fr": "",
+        "name_es": "",
+        "name_ru": ""
+      },
+      "raw": {
+        "@uniquename": "T1_KILL_EMOTE_TOMBSTONE_CHARGES_TRADABLE",
+        "@uispriteoverlay1": "ITEMOVERLAY_KILL_EMOTE",
+        "@tradable": "true",
+        "@uisprite": "UNIQUE_KILL_EMOTE_TOMBSTONE",
+        "@abilitypower": "100",
+        "@consumespell": "T1_KILL_EMOTE_ADD_CHARGES_TOMBSTONE",
+        "@shopcategory": "vanity",
+        "@shopsubcategory1": "killemotes",
+        "@tier": "6",
+        "@weight": "0.09",
+        "@dummyitempower": "300",
+        "@maxstacksize": "999",
+        "@unlockedtocraft": "true",
+        "@uicraftsoundstart": "Play_ui_action_craft_potion_start",
+        "@uicraftsoundfinish": "Play_ui_action_craft_potion_finish",
+        "@itemvalue": "0",
+        "@namelocatag": "@ITEMS_T1_KILL_EMOTE_TOMBSTONE_CHARGES_NONTRADABLE",
+        "@descriptionlocatag": "@ITEMS_T1_KILL_EMOTE_TOMBSTONE_CHARGES_NONTRADABLE_DESC"
+      },
+      "name_sources_ref": 1,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T1_KILL_EMOTE_FLAG_DESKTOP_CHARGES_NONTRADABLE",
+      "index": "11806",
+      "category": "Vanity_Kill_Emotes",
+      "slot": "2h",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": "0",
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": {
+        "primary_resource": "UNIQUE_TOKEN_COMMUNITY",
+        "primary_count": 2,
+        "secondary_resource": "",
+        "secondary_count": 0,
+        "resources": [
+          {
+            "id": "UNIQUE_TOKEN_COMMUNITY",
+            "count": 2
+          }
+        ]
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T1_KILL_EMOTE_FLAG_DESKTOP_CHARGES_NONTRADABLE",
+        "item_database_index": "11806"
+      },
+      "tier": 1,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Desktop Banner Victory Emote Charge",
+        "DE-DE": "Aufladung des Sieg-Emotes Desktopbanner",
+        "FR-FR": "Charge d'emote de victoire de bannière ordinateur",
+        "RU-RU": "Заряд победной эмоции \"Знамя для компьютеров\"",
+        "PL-PL": "Ładunek Emoty Zwycięstwa - Sztandar Desktopowy",
+        "ES-ES": "Carga del emote de victoria de estandarte de PC",
+        "PT-BR": "Carga de Emote de Vitória do Brasão do Desktop",
+        "IT-IT": "Carica per emote di vittoria Stendardo computer",
+        "ZH-CN": "台式机战旗胜利表情充能",
+        "KO-KR": "데스크톱 깃발 승리 감정 표현",
+        "JA-JP": "勝利エモート「デスクトップバナー」チャージ",
+        "ZH-TW": "電腦滑鼠戰旗勝利表情動作能量",
+        "ID-ID": "Charge Emoji Kemenangan Banner Desktop",
+        "TR-TR": "Masaüstü Sancağı Zafer İfadesi Kullanımı",
+        "AR-SA": "شحن إيماءة انتصار راية جهاز الكمبيوتر"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Consuming this item grants one charge of the following Victory Emote on this [b]server[/b]: Desktop Banner.",
+        "DE-DE": "Das Nutzen dieses Gegenstands bringt eine Aufladung des folgenden Sieg-Emotes für diesen [b]Server[/b]: Desktopbanner.",
+        "FR-FR": "Consommer cet objet accorde une charge de l'Emote de Victoire suivant sur ce [b]serveur[/b] : Bannière Ordinateur.",
+        "RU-RU": "Использование данного предмета добавит на этом [b]сервере[/b] один заряд победной эмоции: Знамя для компьютеров.",
+        "PL-PL": "Użycie tego przedmiotu zapewnia jeden ładunek następującej Emoty Zwycięstwa na tym [b]serwerze[/b]: Sztandar Desktopowy.",
+        "ES-ES": "Consumir este objeto otorga una carga del siguiente Emote de Victoria en este [b]servidor[/b]: Estandarte de PC.",
+        "PT-BR": "Consumir este item concede uma carga do seguinte Emote de Vitória neste [b]servidor[/b]: Brasão do Desktop.",
+        "IT-IT": "Il consumo di questo oggetto garantisce una carica della seguente Emote di Vittoria su questo [b]server[/b]: Stendardo Computer.",
+        "ZH-CN": "消耗此物品即可在这个[b]服务器[/b]获得1点下列胜利表情动作的使用次数：台式机战旗。",
+        "KO-KR": "이 아이템을 소비하면 이 [b]서버[/b]에서 다음 승리 감정 표현 스택 하나를 얻게 됩니다: 데스크톱 깃발.",
+        "JA-JP": "このアイテムを使用すると、以下の勝利エモートをこの[b]サーバー[/b]で1回使用できます：デスクトップバナー。",
+        "ZH-TW": "消耗此物品即可在這個[b]伺服器[/b]獲得1點下列勝利表情動作的使用次數：電腦滑鼠戰旗。",
+        "ID-ID": "Mengonsumsi item ini memberikan satu charge Emoji Kemenangan berikut di [b]server[/b] ini: Banner Desktop.",
+        "TR-TR": "Bu eşyayı tüketmek, bu [b]sunucuda[/b] aşağıdaki Zafer İfadesi için bir yük verir: Masaüstü Sancağı.",
+        "AR-SA": "إن استهلاك هذا العنصر يمنح شحنة واحدة من إيماء الانتصار التالية على هذا [b]الخادم[/b]: راية جهاز الكمبيوتر."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T1_KILL_EMOTE_FLAG_DESKTOP_CHARGES_NONTRADABLE",
+        "description_variable": "@ITEMS_T1_KILL_EMOTE_FLAG_DESKTOP_CHARGES_NONTRADABLE_DESC"
+      },
+      "origin": "Vanity/Kill_Emotes/Kill_Emotes_T1_KILL_EMOTE_FLAG_DESKTOP_CHARGES_NONTRADABLE.json",
+      "raw": {
+        "@uniquename": "T1_KILL_EMOTE_FLAG_DESKTOP_CHARGES_NONTRADABLE",
+        "@uispriteoverlay1": "ITEMOVERLAY_NON_TRADABLE_KILL_EMOTE",
+        "@tradable": "false",
+        "@uisprite": "UNIQUE_KILL_EMOTE_FLAG_DESKTOP",
+        "@abilitypower": "100",
+        "@consumespell": "T1_KILL_EMOTE_ADD_CHARGES_FLAG_DESKTOP",
+        "@shopcategory": "vanity",
+        "@shopsubcategory1": "killemotes",
+        "@tier": "4",
+        "@weight": "0.09",
+        "@dummyitempower": "300",
+        "@maxstacksize": "999",
+        "@unlockedtocraft": "true",
+        "@uicraftsoundstart": "Play_ui_action_meld_load",
+        "@uicraftsoundfinish": "Play_ui_action_meld",
+        "@itemvalue": "0",
+        "@salvageable": "true",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "1",
+          "@craftingfocus": "0",
+          "@salvageitemfactor": "0.1",
+          "@craftsingleperdefault": "true",
+          "@amountcrafted": "5",
+          "craftresource": {
+            "@uniquename": "UNIQUE_TOKEN_COMMUNITY",
+            "@count": "2",
+            "@maxreturnamount": "0"
+          }
+        }
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T1_KILL_EMOTE_HELLGATE_CHARGES_TRADABLE",
+      "index": "11812",
+      "category": "Vanity_Kill_Emotes",
+      "slot": "2h",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": "0",
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T1_KILL_EMOTE_HELLGATE_CHARGES_TRADABLE",
+        "item_database_index": "11812"
+      },
+      "tier": 1,
+      "enchantment": 0,
+      "localized_all_names": {},
+      "localized_all_descriptions": {
+        "EN-US": "Consuming this item grants one charge of the following Victory Emote on this [b]server[/b]: Hellgate.",
+        "DE-DE": "Das Nutzen dieses Gegenstands bringt eine Aufladung des folgenden Sieg-Emotes für diesen [b]Server[/b]: Höllentor.",
+        "FR-FR": "Consommer cet objet accorde une charge de l'Emote de Victoire suivant sur ce [b]serveur[/b] : Hellgate.",
+        "RU-RU": "Использование данного предмета добавит на этом [b]сервере[/b] один заряд победной эмоции: Врата Ада.",
+        "PL-PL": "Użycie tego przedmiotu zapewnia jeden ładunek następującej Emoty Zwycięstwa na tym [b]serwerze[/b]: Brama Piekieł.",
+        "ES-ES": "Consumir este objeto otorga una carga del siguiente Emote de Victoria en este [b]servidor[/b]: Hellgate.",
+        "PT-BR": "Consumir este item concede uma carga do seguinte Emote de Vitória neste [b]servidor[/b]: Hellgate.",
+        "IT-IT": "Il consumo di questo oggetto garantisce una carica della seguente Emote di Vittoria su questo [b]server[/b]: Varco per l'Inferno.",
+        "ZH-CN": "消耗此物品即可在这个[b]服务器[/b]获得1点下列胜利表情动作的使用次数：炼狱之门。",
+        "KO-KR": "이 아이템을 소비하면 이 [b]서버[/b]에서 다음 승리 감정 표현 스택 하나를 얻게 됩니다: 헬게이트.",
+        "JA-JP": "このアイテムを使用すると、以下の勝利エモートをこの[b]サーバー[/b]で1回使用できます：ヘルゲート。",
+        "ZH-TW": "消耗此物品即可在這個[b]伺服器[/b]獲得1點下列勝利表情動作的使用次數：煉獄之門。",
+        "ID-ID": "Mengonsumsi item ini memberikan satu charge Emoji Kemenangan berikut di [b]server[/b] ini: Gerbang Neraka.",
+        "TR-TR": "Bu eşyayı tüketmek, bu [b]sunucuda[/b] aşağıdaki Zafer İfadesi için bir yük verir: Cehennem Geçidi.",
+        "AR-SA": "إن استهلاك هذا العنصر يمنح شحنة واحدة من إيماء الانتصار التالية على هذا [b]الخادم[/b]: بوابة الجحيم."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T1_KILL_EMOTE_HELLGATE_CHARGES_TRADABLE",
+        "description_variable": "@ITEMS_T1_KILL_EMOTE_HELLGATE_CHARGES_NONTRADABLE_DESC"
+      },
+      "origin": "Vanity/Kill_Emotes/Kill_Emotes_T1_KILL_EMOTE_HELLGATE_CHARGES_TRADABLE.json",
+      "name_en": "",
+      "name_ar": "",
+      "name_de": "",
+      "name_fr": "",
+      "name_es": "",
+      "name_ru": "",
+      "localized": {
+        "name_en": "",
+        "name_ar": "",
+        "name_de": "",
+        "name_fr": "",
+        "name_es": "",
+        "name_ru": ""
+      },
+      "raw": {
+        "@uniquename": "T1_KILL_EMOTE_HELLGATE_CHARGES_TRADABLE",
+        "@uispriteoverlay1": "ITEMOVERLAY_KILL_EMOTE",
+        "@tradable": "true",
+        "@uisprite": "UNIQUE_KILL_EMOTE_HELLGATE",
+        "@abilitypower": "100",
+        "@consumespell": "T1_KILL_EMOTE_ADD_CHARGES_HELLGATE",
+        "@shopcategory": "vanity",
+        "@shopsubcategory1": "killemotes",
+        "@tier": "8",
+        "@weight": "0.09",
+        "@dummyitempower": "300",
+        "@maxstacksize": "999",
+        "@unlockedtocraft": "true",
+        "@uicraftsoundstart": "Play_ui_action_craft_potion_start",
+        "@uicraftsoundfinish": "Play_ui_action_craft_potion_finish",
+        "@itemvalue": "0",
+        "@salvageable": "false",
+        "@namelocatag": "@ITEMS_T1_KILL_EMOTE_HELLGATE_CHARGES_NONTRADABLE",
+        "@descriptionlocatag": "@ITEMS_T1_KILL_EMOTE_HELLGATE_CHARGES_NONTRADABLE_DESC"
+      },
+      "name_sources_ref": 1,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T1_KILL_EMOTE_FLAG_MOBILE_CHARGES_NONTRADABLE",
+      "index": "11805",
+      "category": "Vanity_Kill_Emotes",
+      "slot": "2h",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": "0",
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": {
+        "primary_resource": "UNIQUE_TOKEN_COMMUNITY",
+        "primary_count": 2,
+        "secondary_resource": "",
+        "secondary_count": 0,
+        "resources": [
+          {
+            "id": "UNIQUE_TOKEN_COMMUNITY",
+            "count": 2
+          }
+        ]
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T1_KILL_EMOTE_FLAG_MOBILE_CHARGES_NONTRADABLE",
+        "item_database_index": "11805"
+      },
+      "tier": 1,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Mobile Banner Victory Emote Charge",
+        "DE-DE": "Aufladung des Sieg-Emotes Mobilversionbanner",
+        "FR-FR": "Charge d'emote de victoire de bannière mobile",
+        "RU-RU": "Заряд победной эмоции \"Знамя для моб.устройств\"",
+        "PL-PL": "Ładunek Emoty Zwycięstwa - Sztandar Mobilny",
+        "ES-ES": "Carga del emote de victoria de estandarte de móvil",
+        "PT-BR": "Carga de Emote de Vitória do Brasão Mobile",
+        "IT-IT": "Carica per emote di vittoria Stendardo mobile",
+        "ZH-CN": "移动装置战旗胜利表情充能",
+        "KO-KR": "모바일 깃발 승리 감정 표현",
+        "JA-JP": "勝利エモート「モバイルバナー」チャージ",
+        "ZH-TW": "行動裝置戰旗勝利表情動作能量",
+        "ID-ID": "Charge Emoji Kemenangan Banner Seluler",
+        "TR-TR": "Mobil Sancağı Zafer İfadesi Kullanımı",
+        "AR-SA": "شحن إيماءة انتصار راية الهاتف الجوال"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Consuming this item grants one charge of the following Victory Emote on this [b]server[/b]: Mobile Banner.",
+        "DE-DE": "Das Nutzen dieses Gegenstands bringt eine Aufladung des folgenden Sieg-Emotes für diesen [b]Server[/b]: Mobilversionbanner.",
+        "FR-FR": "Consommer cet objet accorde une charge de l'Emote de Victoire suivant sur ce [b]serveur[/b] : Bannière Mobile.",
+        "RU-RU": "Использование данного предмета добавит на этом [b]сервере[/b] один заряд победной эмоции: Знамя для моб.устройств.",
+        "PL-PL": "Użycie tego przedmiotu zapewnia jeden ładunek następującej Emoty Zwycięstwa na tym [b]serwerze[/b]: Sztandar Mobilny.",
+        "ES-ES": "Consumir este objeto otorga una carga del siguiente Emote de Victoria en este [b]servidor[/b]: Estandarte de Móvil.",
+        "PT-BR": "Consumir este item concede uma carga do seguinte Emote de Vitória neste [b]servidor[/b]: Brasão Mobile.",
+        "IT-IT": "Il consumo di questo oggetto garantisce una carica della seguente Emote di Vittoria su questo [b]server[/b]: Stendardo Mobile.",
+        "ZH-CN": "消耗此物品即可在这个[b]服务器[/b]获得1点下列胜利表情动作的使用次数：移动装置战旗。",
+        "KO-KR": "이 아이템을 소비하면 이 [b]서버[/b]에서 다음 승리 감정 표현 스택 하나를 얻게 됩니다: 모바일 깃발.",
+        "JA-JP": "このアイテムを使用すると、以下の勝利エモートをこの[b]サーバー[/b]で1回使用できます：モバイルバナー。",
+        "ZH-TW": "消耗此物品即可在這個[b]伺服器[/b]獲得1點下列勝利表情動作的使用次數：行動裝置戰旗。",
+        "ID-ID": "Mengonsumsi item ini memberikan satu charge Emoji Kemenangan berikut di [b]server[/b] ini: Banner Seluler.",
+        "TR-TR": "Bu eşyayı tüketmek, bu [b]sunucuda[/b] aşağıdaki Zafer İfadesi için bir yük verir: Mobil Sancağı.",
+        "AR-SA": "إن استهلاك هذا العنصر يمنح شحنة واحدة من إيماء الانتصار التالية على هذا [b]الخادم[/b]: راية الهاتف الجوال."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T1_KILL_EMOTE_FLAG_MOBILE_CHARGES_NONTRADABLE",
+        "description_variable": "@ITEMS_T1_KILL_EMOTE_FLAG_MOBILE_CHARGES_NONTRADABLE_DESC"
+      },
+      "origin": "Vanity/Kill_Emotes/Kill_Emotes_T1_KILL_EMOTE_FLAG_MOBILE_CHARGES_NONTRADABLE.json",
+      "raw": {
+        "@uniquename": "T1_KILL_EMOTE_FLAG_MOBILE_CHARGES_NONTRADABLE",
+        "@uispriteoverlay1": "ITEMOVERLAY_NON_TRADABLE_KILL_EMOTE",
+        "@tradable": "false",
+        "@uisprite": "UNIQUE_KILL_EMOTE_FLAG_MOBILE",
+        "@abilitypower": "100",
+        "@consumespell": "T1_KILL_EMOTE_ADD_CHARGES_FLAG_MOBILE",
+        "@shopcategory": "vanity",
+        "@shopsubcategory1": "killemotes",
+        "@tier": "4",
+        "@weight": "0.09",
+        "@dummyitempower": "300",
+        "@maxstacksize": "999",
+        "@unlockedtocraft": "true",
+        "@uicraftsoundstart": "Play_ui_action_meld_load",
+        "@uicraftsoundfinish": "Play_ui_action_meld",
+        "@itemvalue": "0",
+        "@salvageable": "true",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "1",
+          "@craftingfocus": "0",
+          "@salvageitemfactor": "0.1",
+          "@craftsingleperdefault": "true",
+          "@amountcrafted": "5",
+          "craftresource": {
+            "@uniquename": "UNIQUE_TOKEN_COMMUNITY",
+            "@count": "2",
+            "@maxreturnamount": "0"
+          }
+        }
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T1_KILL_EMOTE_OVERGROWN_CHARGES_TRADABLE",
+      "index": "11811",
+      "category": "Vanity_Kill_Emotes",
+      "slot": "2h",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": "0",
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T1_KILL_EMOTE_OVERGROWN_CHARGES_TRADABLE",
+        "item_database_index": "11811"
+      },
+      "tier": 1,
+      "enchantment": 0,
+      "localized_all_names": {},
+      "localized_all_descriptions": {
+        "EN-US": "Consuming this item grants one charge of the following Victory Emote on this [b]server[/b]: Overgrown.",
+        "DE-DE": "Das Nutzen dieses Gegenstands bringt eine Aufladung des folgenden Sieg-Emotes für diesen [b]Server[/b]: Überwuchert.",
+        "FR-FR": "Consommer cet objet accorde une charge de l'Emote de Victoire suivant sur ce [b]serveur[/b] : Envahi par la Végétation.",
+        "RU-RU": "Использование данного предмета добавит на этом [b]сервере[/b] один заряд победной эмоции: Зелёное буйство.",
+        "PL-PL": "Użycie tego przedmiotu zapewnia jeden ładunek następującej Emoty Zwycięstwa na tym [b]serwerze[/b]: Przerośnięty.",
+        "ES-ES": "Consumir este objeto otorga una carga del siguiente Emote de Victoria en este [b]servidor[/b]: Cubierto de Vegetación.",
+        "PT-BR": "Consumir este item concede uma carga do seguinte Emote de Vitória neste [b]servidor[/b]: Coberto de Vegetação.",
+        "IT-IT": "Il consumo di questo oggetto garantisce una carica della seguente Emote di Vittoria su questo [b]server[/b]: Coperto di Vegetazione.",
+        "ZH-CN": "消耗此物品即可在这个[b]服务器[/b]获得1点下列胜利表情动作的使用次数：杂草丛生。",
+        "KO-KR": "이 아이템을 소비하면 이 [b]서버[/b]에서 다음 승리 감정 표현 스택 하나를 얻게 됩니다: 무성한 풀.",
+        "JA-JP": "このアイテムを使用すると、以下の勝利エモートをこの[b]サーバー[/b]で1回使用できます：茂生。",
+        "ZH-TW": "消耗此物品即可在這個[b]伺服器[/b]獲得1點下列勝利表情動作的使用次數：藤草蔓生。",
+        "ID-ID": "Mengonsumsi item ini memberikan satu charge Emoji Kemenangan berikut di [b]server[/b] ini: Ditumbuhi Semak.",
+        "TR-TR": "Bu eşyayı tüketmek, bu [b]sunucuda[/b] aşağıdaki Zafer İfadesi için bir yük verir: Azman.",
+        "AR-SA": "إن استهلاك هذا العنصر يمنح شحنة واحدة من إيماء الانتصار التالية على هذا [b]الخادم[/b]: كساء عُشبي."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T1_KILL_EMOTE_OVERGROWN_CHARGES_TRADABLE",
+        "description_variable": "@ITEMS_T1_KILL_EMOTE_OVERGROWN_CHARGES_NONTRADABLE_DESC"
+      },
+      "origin": "Vanity/Kill_Emotes/Kill_Emotes_T1_KILL_EMOTE_OVERGROWN_CHARGES_TRADABLE.json",
+      "name_en": "",
+      "name_ar": "",
+      "name_de": "",
+      "name_fr": "",
+      "name_es": "",
+      "name_ru": "",
+      "localized": {
+        "name_en": "",
+        "name_ar": "",
+        "name_de": "",
+        "name_fr": "",
+        "name_es": "",
+        "name_ru": ""
+      },
+      "raw": {
+        "@uniquename": "T1_KILL_EMOTE_OVERGROWN_CHARGES_TRADABLE",
+        "@uispriteoverlay1": "ITEMOVERLAY_KILL_EMOTE",
+        "@tradable": "true",
+        "@uisprite": "UNIQUE_KILL_EMOTE_OVERGROWN",
+        "@abilitypower": "100",
+        "@consumespell": "T1_KILL_EMOTE_ADD_CHARGES_OVERGROWN",
+        "@shopcategory": "vanity",
+        "@shopsubcategory1": "killemotes",
+        "@tier": "4",
+        "@weight": "0.09",
+        "@dummyitempower": "300",
+        "@maxstacksize": "999",
+        "@unlockedtocraft": "true",
+        "@uicraftsoundstart": "Play_ui_action_craft_potion_start",
+        "@uicraftsoundfinish": "Play_ui_action_craft_potion_finish",
+        "@itemvalue": "0",
+        "@namelocatag": "@ITEMS_T1_KILL_EMOTE_OVERGROWN_CHARGES_NONTRADABLE",
+        "@descriptionlocatag": "@ITEMS_T1_KILL_EMOTE_OVERGROWN_CHARGES_NONTRADABLE_DESC"
+      },
+      "name_sources_ref": 1,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T1_KILL_EMOTE_FLAG_CONTROLLER_CHARGES_NONTRADABLE",
+      "index": "11807",
+      "category": "Vanity_Kill_Emotes",
+      "slot": "2h",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": "0",
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": {
+        "primary_resource": "UNIQUE_TOKEN_COMMUNITY",
+        "primary_count": 2,
+        "secondary_resource": "",
+        "secondary_count": 0,
+        "resources": [
+          {
+            "id": "UNIQUE_TOKEN_COMMUNITY",
+            "count": 2
+          }
+        ]
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T1_KILL_EMOTE_FLAG_CONTROLLER_CHARGES_NONTRADABLE",
+        "item_database_index": "11807"
+      },
+      "tier": 1,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Controller Banner Victory Emote Charge",
+        "DE-DE": "Aufladung des Sieg-Emotes Controllerbanner",
+        "FR-FR": "Charge de l'emote de victoire de bannière manette",
+        "RU-RU": "Заряд победной эмоции \"Знамя для контроллеров\"",
+        "PL-PL": "Ładunek Emoty Zwycięstwa - Sztandar Kontrolera",
+        "ES-ES": "Carga del emote de victoria de estandarte de controles",
+        "PT-BR": "Carga de Emote de Vitória do Brasão do Console",
+        "IT-IT": "Carica per emote di vittoria Stendardo controller",
+        "ZH-CN": "主机战旗胜利表情充能",
+        "KO-KR": "컨트롤러 깃발 승리 감정 표현",
+        "JA-JP": "勝利エモート「コントローラーバナー」チャージ",
+        "ZH-TW": "控制器戰旗勝利表情動作能量",
+        "ID-ID": "Charge Emoji Kemenangan Banner Kontroler",
+        "TR-TR": "Oyun Kumandası Sancağı Zafer İfadesi Kullanımı",
+        "AR-SA": "شحن إيماءة انتصار راية وحدة التحكم"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Consuming this item grants one charge of the following Victory Emote on this [b]server[/b]: Controller Banner.",
+        "DE-DE": "Das Nutzen dieses Gegenstands bringt eine Aufladung des folgenden Sieg-Emotes für diesen [b]Server[/b]: Controllerbanner.",
+        "FR-FR": "Consommer cet objet accorde une charge de l'Emote de Victoire suivant sur ce [b]serveur[/b] : Bannière Manette.",
+        "RU-RU": "Использование данного предмета добавит на этом [b]сервере[/b] один заряд победной эмоции: Знамя для контроллеров.",
+        "PL-PL": "Użycie tego przedmiotu zapewnia jeden ładunek następującej Emoty Zwycięstwa na tym [b]serwerze[/b]: Sztandar Kontrolera.",
+        "ES-ES": "Consumir este objeto otorga una carga del siguiente Emote de Victoria en este [b]servidor[/b]: Estandarte de Controles.",
+        "PT-BR": "Consumir este item concede uma carga do seguinte Emote de Vitória neste [b]servidor[/b]: Brasão do Console.",
+        "IT-IT": "Il consumo di questo oggetto garantisce una carica della seguente Emote di Vittoria su questo [b]server[/b]: Stendardo Controller.",
+        "ZH-CN": "消耗此物品即可在这个[b]服务器[/b]获得1点下列胜利表情动作的使用次数：主机战旗。",
+        "KO-KR": "이 아이템을 소비하면 이 [b]서버[/b]에서 다음 승리 감정 표현 스택 하나를 얻게 됩니다: 컨트롤러 깃발.",
+        "JA-JP": "このアイテムを使用すると、以下の勝利エモートをこの[b]サーバー[/b]で1回使用できます：コントローラーバナー。",
+        "ZH-TW": "消耗此物品即可在這個[b]伺服器[/b]獲得1點下列勝利表情動作的使用次數：控制器戰旗。",
+        "ID-ID": "Mengonsumsi item ini memberikan satu charge Emoji Kemenangan berikut di [b]server[/b] ini: Banner Kontroler.",
+        "TR-TR": "Bu eşyayı tüketmek, bu [b]sunucuda[/b] aşağıdaki Zafer İfadesi için bir yük verir: Kontrol Cihazı Sancağı.",
+        "AR-SA": "إن استهلاك هذا العنصر يمنح شحنة واحدة من إيماء الانتصار التالية على هذا [b]الخادم[/b]: راية وحدة التحكم."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T1_KILL_EMOTE_FLAG_CONTROLLER_CHARGES_NONTRADABLE",
+        "description_variable": "@ITEMS_T1_KILL_EMOTE_FLAG_CONTROLLER_CHARGES_NONTRADABLE_DESC"
+      },
+      "origin": "Vanity/Kill_Emotes/Kill_Emotes_T1_KILL_EMOTE_FLAG_CONTROLLER_CHARGES_NONTRADABLE.json",
+      "raw": {
+        "@uniquename": "T1_KILL_EMOTE_FLAG_CONTROLLER_CHARGES_NONTRADABLE",
+        "@uispriteoverlay1": "ITEMOVERLAY_NON_TRADABLE_KILL_EMOTE",
+        "@tradable": "false",
+        "@uisprite": "UNIQUE_KILL_EMOTE_FLAG_CONTROLLER",
+        "@abilitypower": "100",
+        "@consumespell": "T1_KILL_EMOTE_ADD_CHARGES_FLAG_CONTROLLER",
+        "@shopcategory": "vanity",
+        "@shopsubcategory1": "killemotes",
+        "@tier": "4",
+        "@weight": "0.09",
+        "@dummyitempower": "300",
+        "@maxstacksize": "999",
+        "@unlockedtocraft": "true",
+        "@uicraftsoundstart": "Play_ui_action_meld_load",
+        "@uicraftsoundfinish": "Play_ui_action_meld",
+        "@itemvalue": "0",
+        "@salvageable": "true",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "1",
+          "@craftingfocus": "0",
+          "@salvageitemfactor": "0.1",
+          "@craftsingleperdefault": "true",
+          "@amountcrafted": "5",
+          "craftresource": {
+            "@uniquename": "UNIQUE_TOKEN_COMMUNITY",
+            "@count": "2",
+            "@maxreturnamount": "0"
+          }
+        }
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T1_KILL_EMOTE_OVERGROWN_CHARGES_NONTRADABLE",
+      "index": "11801",
+      "category": "Vanity_Kill_Emotes",
+      "slot": "2h",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": "0",
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": {
+        "primary_resource": "UNIQUE_TOKEN_COMMUNITY",
+        "primary_count": 2,
+        "secondary_resource": "",
+        "secondary_count": 0,
+        "resources": [
+          {
+            "id": "UNIQUE_TOKEN_COMMUNITY",
+            "count": 2
+          }
+        ]
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T1_KILL_EMOTE_OVERGROWN_CHARGES_NONTRADABLE",
+        "item_database_index": "11801"
+      },
+      "tier": 1,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Overgrown Victory Emote Charge",
+        "DE-DE": "Überwuchert Sieg-Emote Aufladung",
+        "FR-FR": "Charge d'émote de victoire \"Envahi par la végétation\"",
+        "RU-RU": "Заряд победной эмоции \"Зелёное буйство\"",
+        "PL-PL": "Ładunek Emoty Zwycięstwa - Zarośnięty",
+        "ES-ES": "Carga del emote de victoria de \"Cubierto de vegetación\"",
+        "PT-BR": "Carga de Emote de Vitória 'Coberto de vegetação'",
+        "IT-IT": "Carica per emote di vittoria \"Coperto di vegetazione\"",
+        "ZH-CN": "杂草丛生胜利表情充能",
+        "KO-KR": "무성한 풀 승리 감정 표현 스택",
+        "JA-JP": "勝利エモート「茂生」チャージ",
+        "ZH-TW": "藤草蔓生勝利表情動作能量",
+        "ID-ID": "Charge Emoji Kemenangan Ditumbuhi Semak",
+        "TR-TR": "Azman Zafer İfadesi Kullanımı",
+        "AR-SA": "شحن إيماءة انتصار الكساء العشبي"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Consuming this item grants one charge of the following Victory Emote on this [b]server[/b]: Overgrown.",
+        "DE-DE": "Das Nutzen dieses Gegenstands bringt eine Aufladung des folgenden Sieg-Emotes für diesen [b]Server[/b]: Überwuchert.",
+        "FR-FR": "Consommer cet objet accorde une charge de l'Emote de Victoire suivant sur ce [b]serveur[/b] : Envahi par la Végétation.",
+        "RU-RU": "Использование данного предмета добавит на этом [b]сервере[/b] один заряд победной эмоции: Зелёное буйство.",
+        "PL-PL": "Użycie tego przedmiotu zapewnia jeden ładunek następującej Emoty Zwycięstwa na tym [b]serwerze[/b]: Przerośnięty.",
+        "ES-ES": "Consumir este objeto otorga una carga del siguiente Emote de Victoria en este [b]servidor[/b]: Cubierto de Vegetación.",
+        "PT-BR": "Consumir este item concede uma carga do seguinte Emote de Vitória neste [b]servidor[/b]: Coberto de Vegetação.",
+        "IT-IT": "Il consumo di questo oggetto garantisce una carica della seguente Emote di Vittoria su questo [b]server[/b]: Coperto di Vegetazione.",
+        "ZH-CN": "消耗此物品即可在这个[b]服务器[/b]获得1点下列胜利表情动作的使用次数：杂草丛生。",
+        "KO-KR": "이 아이템을 소비하면 이 [b]서버[/b]에서 다음 승리 감정 표현 스택 하나를 얻게 됩니다: 무성한 풀.",
+        "JA-JP": "このアイテムを使用すると、以下の勝利エモートをこの[b]サーバー[/b]で1回使用できます：茂生。",
+        "ZH-TW": "消耗此物品即可在這個[b]伺服器[/b]獲得1點下列勝利表情動作的使用次數：藤草蔓生。",
+        "ID-ID": "Mengonsumsi item ini memberikan satu charge Emoji Kemenangan berikut di [b]server[/b] ini: Ditumbuhi Semak.",
+        "TR-TR": "Bu eşyayı tüketmek, bu [b]sunucuda[/b] aşağıdaki Zafer İfadesi için bir yük verir: Azman.",
+        "AR-SA": "إن استهلاك هذا العنصر يمنح شحنة واحدة من إيماء الانتصار التالية على هذا [b]الخادم[/b]: كساء عُشبي."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T1_KILL_EMOTE_OVERGROWN_CHARGES_NONTRADABLE",
+        "description_variable": "@ITEMS_T1_KILL_EMOTE_OVERGROWN_CHARGES_NONTRADABLE_DESC"
+      },
+      "origin": "Vanity/Kill_Emotes/Kill_Emotes_T1_KILL_EMOTE_OVERGROWN_CHARGES_NONTRADABLE.json",
+      "raw": {
+        "@uniquename": "T1_KILL_EMOTE_OVERGROWN_CHARGES_NONTRADABLE",
+        "@uispriteoverlay1": "ITEMOVERLAY_NON_TRADABLE_KILL_EMOTE",
+        "@tradable": "false",
+        "@uisprite": "UNIQUE_KILL_EMOTE_OVERGROWN",
+        "@abilitypower": "100",
+        "@consumespell": "T1_KILL_EMOTE_ADD_CHARGES_OVERGROWN",
+        "@shopcategory": "vanity",
+        "@shopsubcategory1": "killemotes",
+        "@tier": "4",
+        "@weight": "0.09",
+        "@dummyitempower": "300",
+        "@maxstacksize": "999",
+        "@unlockedtocraft": "true",
+        "@uicraftsoundstart": "Play_ui_action_meld_load",
+        "@uicraftsoundfinish": "Play_ui_action_meld",
+        "@itemvalue": "0",
+        "@salvageable": "true",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "1",
+          "@craftingfocus": "0",
+          "@salvageitemfactor": "0.1",
+          "@craftsingleperdefault": "true",
+          "@amountcrafted": "5",
+          "craftresource": {
+            "@uniquename": "UNIQUE_TOKEN_COMMUNITY",
+            "@count": "2",
+            "@maxreturnamount": "0"
+          }
+        }
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T1_KILL_EMOTE_FLAG_CHARGES_NONTRADABLE",
+      "index": "11799",
+      "category": "Vanity_Kill_Emotes",
+      "slot": "2h",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": "0",
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": {
+        "primary_resource": "UNIQUE_TOKEN_COMMUNITY",
+        "primary_count": 2,
+        "secondary_resource": "",
+        "secondary_count": 0,
+        "resources": [
+          {
+            "id": "UNIQUE_TOKEN_COMMUNITY",
+            "count": 2
+          }
+        ]
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T1_KILL_EMOTE_FLAG_CHARGES_NONTRADABLE",
+        "item_database_index": "11799"
+      },
+      "tier": 1,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Guild Banner Victory Emote Charge",
+        "DE-DE": "Gildenbanner Sieg-Emote Aufladung",
+        "FR-FR": "Charge d'émote de victoire de bannière de guilde",
+        "RU-RU": "Заряд победной эмоции \"Знамя гильдии\"",
+        "PL-PL": "Ładunek Emoty Zwycięstwa - Sztandar Gildii",
+        "ES-ES": "Carga del emote de victoria de estandarte de gremio",
+        "PT-BR": "Carga de Emote de Vitória do Bandeira da Guilda",
+        "IT-IT": "Carica per emote di vittoria \"Stendardo di gilda\"",
+        "ZH-CN": "公会战旗胜利表情充能",
+        "KO-KR": "길드 깃발 승리 감정 표현 스택",
+        "JA-JP": "勝利エモート「ギルドバナー」チャージ",
+        "ZH-TW": "公會戰旗勝利表情動作能量",
+        "ID-ID": "Charge Emoji Kemenangan Banner Guild",
+        "TR-TR": "Lonca Sancağı Zafer İfadesi Kullanımı",
+        "AR-SA": "شحن إيماءة انتصار راية الطائفة"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Consuming this item grants one charge of the following Victory Emote on this [b]server[/b]: Guild Banner.",
+        "DE-DE": "Das Nutzen dieses Gegenstands bringt eine Aufladung des folgenden Sieg-Emotes für diesen [b]Server[/b]: Gildenbanner.",
+        "FR-FR": "Consommer cet objet accorde une charge de l'Emote de Victoire suivant sur ce [b]serveur[/b] : Bannière de Guilde.",
+        "RU-RU": "Использование данного предмета добавит на этом [b]сервере[/b] один заряд победной эмоции: Знамя гильдии.",
+        "PL-PL": "Użycie tego przedmiotu zapewnia jeden ładunek następującej Emoty Zwycięstwa na tym [b]serwerze[/b]: Sztandar Gildii.",
+        "ES-ES": "Consumir este objeto otorga una carga del siguiente Emote de Victoria en este [b]servidor[/b]: Estandarte de Gremio.",
+        "PT-BR": "Consumir este item concede uma carga do seguinte Emote de Vitória neste [b]servidor[/b]: Bandeira da Guilda.",
+        "IT-IT": "Il consumo di questo oggetto garantisce una carica della seguente Emote di Vittoria su questo [b]server[/b]: Stendardo di Gilda.",
+        "ZH-CN": "消耗此物品即可在这个[b]服务器[/b]获得1点下列胜利表情动作的使用次数：公会标志。",
+        "KO-KR": "이 아이템을 소비하면 이 [b]서버[/b]에서 다음 승리 감정 표현 스택 하나를 얻게 됩니다: 길드 깃발.",
+        "JA-JP": "このアイテムを使用すると、以下の勝利エモートをこの[b]サーバー[/b]で1回使用できます：ギルドバナー。",
+        "ZH-TW": "消耗此物品即可在這個[b]伺服器[/b]獲得1點下列勝利表情動作的使用次數：公會戰旗。",
+        "ID-ID": "Mengonsumsi item ini memberikan satu charge Emoji Kemenangan berikut di [b]server[/b] ini: Banner Guild.",
+        "TR-TR": "Bu eşyayı tüketmek, bu [b]sunucuda[/b] aşağıdaki Zafer İfadesi için bir yük verir: Lonca Sancağı.",
+        "AR-SA": "إن استهلاك هذا العنصر يمنح شحنة واحدة من إيماء الانتصار التالية على هذا [b]الخادم[/b]: راية الطائفة."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T1_KILL_EMOTE_FLAG_CHARGES_NONTRADABLE",
+        "description_variable": "@ITEMS_T1_KILL_EMOTE_FLAG_CHARGES_NONTRADABLE_DESC"
+      },
+      "origin": "Vanity/Kill_Emotes/Kill_Emotes_T1_KILL_EMOTE_FLAG_CHARGES_NONTRADABLE.json",
+      "raw": {
+        "@uniquename": "T1_KILL_EMOTE_FLAG_CHARGES_NONTRADABLE",
+        "@uispriteoverlay1": "ITEMOVERLAY_NON_TRADABLE_KILL_EMOTE",
+        "@tradable": "false",
+        "@uisprite": "UNIQUE_KILL_EMOTE_FLAG",
+        "@abilitypower": "100",
+        "@consumespell": "T1_KILL_EMOTE_ADD_CHARGES_FLAG",
+        "@shopcategory": "vanity",
+        "@shopsubcategory1": "killemotes",
+        "@tier": "4",
+        "@weight": "0.09",
+        "@dummyitempower": "300",
+        "@maxstacksize": "999",
+        "@unlockedtocraft": "true",
+        "@uicraftsoundstart": "Play_ui_action_meld_load",
+        "@uicraftsoundfinish": "Play_ui_action_meld",
+        "@itemvalue": "0",
+        "@salvageable": "true",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "1",
+          "@craftingfocus": "0",
+          "@salvageitemfactor": "0.1",
+          "@craftsingleperdefault": "true",
+          "@amountcrafted": "5",
+          "craftresource": {
+            "@uniquename": "UNIQUE_TOKEN_COMMUNITY",
+            "@count": "2",
+            "@maxreturnamount": "0"
+          }
+        }
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T1_KILL_EMOTE_GHOST_CHARGES_NONTRADABLE",
+      "index": "11800",
+      "category": "Vanity_Kill_Emotes",
+      "slot": "2h",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": "0",
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": {
+        "primary_resource": "UNIQUE_TOKEN_COMMUNITY",
+        "primary_count": 10,
+        "secondary_resource": "",
+        "secondary_count": 0,
+        "resources": [
+          {
+            "id": "UNIQUE_TOKEN_COMMUNITY",
+            "count": 10
+          }
+        ]
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T1_KILL_EMOTE_GHOST_CHARGES_NONTRADABLE",
+        "item_database_index": "11800"
+      },
+      "tier": 1,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Ghost Victory Emote Charge",
+        "DE-DE": "Geist Sieg-Emote Aufladung",
+        "FR-FR": "Charge d'emote de victoire fantôme",
+        "RU-RU": "Заряд победной эмоции \"Призрак\"",
+        "PL-PL": "Ładunek Emoty Zwycięstwa - Duch",
+        "ES-ES": "Carga del emote de victoria de fantasma",
+        "PT-BR": "Carga de Emote de Vitória Fantasma",
+        "IT-IT": "Carica per emote di vittoria \"Fantasma\"",
+        "ZH-CN": "鬼魂胜利表情充能",
+        "KO-KR": "유령 승리 감정 표현 스택",
+        "JA-JP": "勝利エモート「ゴースト」チャージ",
+        "ZH-TW": "鬼魂勝利表情動作能量",
+        "ID-ID": "Charge Emoji Kemenangan Hantu",
+        "TR-TR": "Hayalet Zafer İfadesi Kullanımı",
+        "AR-SA": "شحن إيماءة انتصار الشبح"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Consuming this item grants one charge of the following Victory Emote on this [b]server[/b]: Ghost.",
+        "DE-DE": "Das Nutzen dieses Gegenstands bringt eine Aufladung des folgenden Sieg-Emotes für diesen [b]Server[/b]: Geist.",
+        "FR-FR": "Consommer cet objet accorde une charge de l'Emote de Victoire suivant sur ce [b]serveur[/b] : Fantôme.",
+        "RU-RU": "Использование данного предмета добавит на этом [b]сервере[/b] один заряд победной эмоции: Призрак.",
+        "PL-PL": "Użycie tego przedmiotu zapewnia jeden ładunek następującej Emoty Zwycięstwa na tym [b]serwerze[/b]: Duch.",
+        "ES-ES": "Consumir este objeto otorga una carga del siguiente Emote de Victoria en este [b]servidor[/b]: Fantasma.",
+        "PT-BR": "Consumir este item concede uma carga do seguinte Emote de Vitória neste [b]servidor[/b]: Fantasma.",
+        "IT-IT": "Il consumo di questo oggetto garantisce una carica della seguente Emote di Vittoria su questo [b]server[/b]: Fantasma.",
+        "ZH-CN": "消耗此物品即可在这个[b]服务器[/b]获得1点下列胜利表情动作的使用次数：鬼魂。",
+        "KO-KR": "이 아이템을 소비하면 이 [b]서버[/b]에서 다음 승리 감정 표현 스택 하나를 얻게 됩니다: 유령.",
+        "JA-JP": "このアイテムを使用すると、以下の勝利エモートをこの[b]サーバー[/b]で1回使用できます：ゴースト。",
+        "ZH-TW": "消耗此物品即可在這個[b]伺服器[/b]獲得1點下列勝利表情動作的使用次數：鬼魂。",
+        "ID-ID": "Mengonsumsi item ini memberikan satu charge Emoji Kemenangan berikut di [b]server[/b] ini: Hantu.",
+        "TR-TR": "Bu eşyayı tüketmek, bu [b]sunucuda[/b] aşağıdaki Zafer İfadesi için bir yük verir: Hayalet.",
+        "AR-SA": "إن استهلاك هذا العنصر يمنح شحنة واحدة من إيماء الانتصار التالية على هذا [b]الخادم[/b]: شبح."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T1_KILL_EMOTE_GHOST_CHARGES_NONTRADABLE",
+        "description_variable": "@ITEMS_T1_KILL_EMOTE_GHOST_CHARGES_NONTRADABLE_DESC"
+      },
+      "origin": "Vanity/Kill_Emotes/Kill_Emotes_T1_KILL_EMOTE_GHOST_CHARGES_NONTRADABLE.json",
+      "raw": {
+        "@uniquename": "T1_KILL_EMOTE_GHOST_CHARGES_NONTRADABLE",
+        "@uispriteoverlay1": "ITEMOVERLAY_NON_TRADABLE_KILL_EMOTE",
+        "@tradable": "false",
+        "@uisprite": "UNIQUE_KILL_EMOTE_GHOST",
+        "@abilitypower": "100",
+        "@consumespell": "T1_KILL_EMOTE_ADD_CHARGES_GHOST",
+        "@shopcategory": "vanity",
+        "@shopsubcategory1": "killemotes",
+        "@tier": "6",
+        "@weight": "0.09",
+        "@dummyitempower": "300",
+        "@maxstacksize": "999",
+        "@unlockedtocraft": "true",
+        "@uicraftsoundstart": "Play_ui_action_meld_load",
+        "@uicraftsoundfinish": "Play_ui_action_meld",
+        "@itemvalue": "0",
+        "@salvageable": "true",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "0.01",
+          "@craftingfocus": "0",
+          "@salvageitemfactor": "0.1",
+          "@craftsingleperdefault": "true",
+          "@amountcrafted": "5",
+          "craftresource": {
+            "@uniquename": "UNIQUE_TOKEN_COMMUNITY",
+            "@count": "10",
+            "@maxreturnamount": "0"
+          }
+        }
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T1_KILL_EMOTE_HAMMER_CHARGES_NONTRADABLE",
+      "index": "11804",
+      "category": "Vanity_Kill_Emotes",
+      "slot": "2h",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": "0",
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": {
+        "primary_resource": "UNIQUE_TOKEN_COMMUNITY",
+        "primary_count": 10,
+        "secondary_resource": "",
+        "secondary_count": 0,
+        "resources": [
+          {
+            "id": "UNIQUE_TOKEN_COMMUNITY",
+            "count": 10
+          }
+        ]
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T1_KILL_EMOTE_HAMMER_CHARGES_NONTRADABLE",
+        "item_database_index": "11804"
+      },
+      "tier": 1,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Hammer Victory Emote Charge",
+        "DE-DE": "Aufladung des Sieg-Emotes Hammer",
+        "FR-FR": "Charge d'emote de victoire marteau",
+        "RU-RU": "Заряд победной эмоции \"Молот\"",
+        "PL-PL": "Ładunek Emoty Zwycięstwa - Młot",
+        "ES-ES": "Carga del emote de victoria de martillo",
+        "PT-BR": "Carga de Emote de Vitória do Martelo",
+        "IT-IT": "Carica per emote di vittoria Martello",
+        "ZH-CN": "锤子碑胜利表情充能",
+        "KO-KR": "해머 승리 감정 표현",
+        "JA-JP": "勝利エモート「ハンマー」チャージ",
+        "ZH-TW": "巨鎚勝利表情動作能量",
+        "ID-ID": "Charge Emoji Kemenangan Palu",
+        "TR-TR": "Çekiç Zafer İfadesi Kullanımı",
+        "AR-SA": "شحن إيماءة انتصار المطرقة"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Consuming this item grants one charge of the following Victory Emote on this [b]server[/b]: Hammer.",
+        "DE-DE": "Das Nutzen dieses Gegenstands bringt eine Aufladung des folgenden Sieg-Emotes für diesen [b]Server[/b]: Hammer.",
+        "FR-FR": "Consommer cet objet accorde une charge de l'Emote de Victoire suivant sur ce [b]serveur[/b] : Marteau.",
+        "RU-RU": "Использование данного предмета добавит на этом [b]сервере[/b] один заряд победной эмоции: Молот.",
+        "PL-PL": "Użycie tego przedmiotu zapewnia jeden ładunek następującej Emoty Zwycięstwa na tym [b]serwerze[/b]: Młot.",
+        "ES-ES": "Consumir este objeto otorga una carga del siguiente Emote de Victoria en este [b]servidor[/b]: Martillo.",
+        "PT-BR": "Consumir este item concede uma carga do seguinte Emote de Vitória neste [b]servidor[/b]: Martelo.",
+        "IT-IT": "Il consumo di questo oggetto garantisce una carica della seguente Emote di Vittoria su questo [b]server[/b]: Martello.",
+        "ZH-CN": "消耗此物品即可在这个[b]服务器[/b]获得1点下列胜利表情动作的使用次数：锤子。",
+        "KO-KR": "이 아이템을 소비하면 이 [b]서버[/b]에서 다음 승리 감정 표현 스택 하나를 얻게 됩니다: 망치.",
+        "JA-JP": "このアイテムを使用すると、以下の勝利エモートをこの[b]サーバー[/b]で1回使用できます：ハンマー。",
+        "ZH-TW": "消耗此物品即可在這個[b]伺服器[/b]獲得1點下列勝利表情動作的使用次數：鎚子。",
+        "ID-ID": "Mengonsumsi item ini memberikan satu charge Emoji Kemenangan berikut di [b]server[/b] ini: Palu.",
+        "TR-TR": "Bu eşyayı tüketmek, bu [b]sunucuda[/b] aşağıdaki Zafer İfadesi için bir yük verir: Çekiç.",
+        "AR-SA": "إن استهلاك هذا العنصر يمنح شحنة واحدة من إيماء الانتصار التالية على هذا [b]الخادم[/b]: مطرقة."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T1_KILL_EMOTE_HAMMER_CHARGES_NONTRADABLE",
+        "description_variable": "@ITEMS_T1_KILL_EMOTE_HAMMER_CHARGES_NONTRADABLE_DESC"
+      },
+      "origin": "Vanity/Kill_Emotes/Kill_Emotes_T1_KILL_EMOTE_HAMMER_CHARGES_NONTRADABLE.json",
+      "raw": {
+        "@uniquename": "T1_KILL_EMOTE_HAMMER_CHARGES_NONTRADABLE",
+        "@uispriteoverlay1": "ITEMOVERLAY_NON_TRADABLE_KILL_EMOTE",
+        "@tradable": "false",
+        "@uisprite": "UNIQUE_KILL_EMOTE_HAMMER",
+        "@abilitypower": "100",
+        "@consumespell": "T1_KILL_EMOTE_ADD_CHARGES_HAMMER",
+        "@shopcategory": "vanity",
+        "@shopsubcategory1": "killemotes",
+        "@tier": "6",
+        "@weight": "0.09",
+        "@dummyitempower": "300",
+        "@maxstacksize": "999",
+        "@unlockedtocraft": "true",
+        "@uicraftsoundstart": "Play_ui_action_meld_load",
+        "@uicraftsoundfinish": "Play_ui_action_meld",
+        "@itemvalue": "0",
+        "@salvageable": "true",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "1",
+          "@craftingfocus": "0",
+          "@salvageitemfactor": "0.1",
+          "@craftsingleperdefault": "true",
+          "@amountcrafted": "5",
+          "craftresource": {
+            "@uniquename": "UNIQUE_TOKEN_COMMUNITY",
+            "@count": "10",
+            "@maxreturnamount": "0"
+          }
+        }
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T1_KILL_EMOTE_FLAG_MOBILE_CHARGES_TRADABLE",
+      "index": "11815",
+      "category": "Vanity_Kill_Emotes",
+      "slot": "2h",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": "0",
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T1_KILL_EMOTE_FLAG_MOBILE_CHARGES_TRADABLE",
+        "item_database_index": "11815"
+      },
+      "tier": 1,
+      "enchantment": 0,
+      "localized_all_names": {},
+      "localized_all_descriptions": {
+        "EN-US": "Consuming this item grants one charge of the following Victory Emote on this [b]server[/b]: Mobile Banner.",
+        "DE-DE": "Das Nutzen dieses Gegenstands bringt eine Aufladung des folgenden Sieg-Emotes für diesen [b]Server[/b]: Mobilversionbanner.",
+        "FR-FR": "Consommer cet objet accorde une charge de l'Emote de Victoire suivant sur ce [b]serveur[/b] : Bannière Mobile.",
+        "RU-RU": "Использование данного предмета добавит на этом [b]сервере[/b] один заряд победной эмоции: Знамя для моб.устройств.",
+        "PL-PL": "Użycie tego przedmiotu zapewnia jeden ładunek następującej Emoty Zwycięstwa na tym [b]serwerze[/b]: Sztandar Mobilny.",
+        "ES-ES": "Consumir este objeto otorga una carga del siguiente Emote de Victoria en este [b]servidor[/b]: Estandarte de Móvil.",
+        "PT-BR": "Consumir este item concede uma carga do seguinte Emote de Vitória neste [b]servidor[/b]: Brasão Mobile.",
+        "IT-IT": "Il consumo di questo oggetto garantisce una carica della seguente Emote di Vittoria su questo [b]server[/b]: Stendardo Mobile.",
+        "ZH-CN": "消耗此物品即可在这个[b]服务器[/b]获得1点下列胜利表情动作的使用次数：移动装置战旗。",
+        "KO-KR": "이 아이템을 소비하면 이 [b]서버[/b]에서 다음 승리 감정 표현 스택 하나를 얻게 됩니다: 모바일 깃발.",
+        "JA-JP": "このアイテムを使用すると、以下の勝利エモートをこの[b]サーバー[/b]で1回使用できます：モバイルバナー。",
+        "ZH-TW": "消耗此物品即可在這個[b]伺服器[/b]獲得1點下列勝利表情動作的使用次數：行動裝置戰旗。",
+        "ID-ID": "Mengonsumsi item ini memberikan satu charge Emoji Kemenangan berikut di [b]server[/b] ini: Banner Seluler.",
+        "TR-TR": "Bu eşyayı tüketmek, bu [b]sunucuda[/b] aşağıdaki Zafer İfadesi için bir yük verir: Mobil Sancağı.",
+        "AR-SA": "إن استهلاك هذا العنصر يمنح شحنة واحدة من إيماء الانتصار التالية على هذا [b]الخادم[/b]: راية الهاتف الجوال."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T1_KILL_EMOTE_FLAG_MOBILE_CHARGES_TRADABLE",
+        "description_variable": "@ITEMS_T1_KILL_EMOTE_FLAG_MOBILE_CHARGES_NONTRADABLE_DESC"
+      },
+      "origin": "Vanity/Kill_Emotes/Kill_Emotes_T1_KILL_EMOTE_FLAG_MOBILE_CHARGES_TRADABLE.json",
+      "name_en": "",
+      "name_ar": "",
+      "name_de": "",
+      "name_fr": "",
+      "name_es": "",
+      "name_ru": "",
+      "localized": {
+        "name_en": "",
+        "name_ar": "",
+        "name_de": "",
+        "name_fr": "",
+        "name_es": "",
+        "name_ru": ""
+      },
+      "raw": {
+        "@uniquename": "T1_KILL_EMOTE_FLAG_MOBILE_CHARGES_TRADABLE",
+        "@uispriteoverlay1": "ITEMOVERLAY_KILL_EMOTE",
+        "@tradable": "true",
+        "@uisprite": "UNIQUE_KILL_EMOTE_FLAG_MOBILE",
+        "@abilitypower": "100",
+        "@consumespell": "T1_KILL_EMOTE_ADD_CHARGES_FLAG_MOBILE",
+        "@shopcategory": "vanity",
+        "@shopsubcategory1": "killemotes",
+        "@tier": "4",
+        "@weight": "0.09",
+        "@dummyitempower": "300",
+        "@maxstacksize": "999",
+        "@unlockedtocraft": "true",
+        "@uicraftsoundstart": "Play_ui_action_craft_potion_start",
+        "@uicraftsoundfinish": "Play_ui_action_craft_potion_finish",
+        "@itemvalue": "0",
+        "@salvageable": "false",
+        "@namelocatag": "@ITEMS_T1_KILL_EMOTE_FLAG_MOBILE_CHARGES_NONTRADABLE",
+        "@descriptionlocatag": "@ITEMS_T1_KILL_EMOTE_FLAG_MOBILE_CHARGES_NONTRADABLE_DESC"
+      },
+      "name_sources_ref": 1,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T1_KILL_EMOTE_FLAG_CHARGES_TRADABLE",
+      "index": "11809",
+      "category": "Vanity_Kill_Emotes",
+      "slot": "2h",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": "0",
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T1_KILL_EMOTE_FLAG_CHARGES_TRADABLE",
+        "item_database_index": "11809"
+      },
+      "tier": 1,
+      "enchantment": 0,
+      "localized_all_names": {},
+      "localized_all_descriptions": {
+        "EN-US": "Consuming this item grants one charge of the following Victory Emote on this [b]server[/b]: Guild Banner.",
+        "DE-DE": "Das Nutzen dieses Gegenstands bringt eine Aufladung des folgenden Sieg-Emotes für diesen [b]Server[/b]: Gildenbanner.",
+        "FR-FR": "Consommer cet objet accorde une charge de l'Emote de Victoire suivant sur ce [b]serveur[/b] : Bannière de Guilde.",
+        "RU-RU": "Использование данного предмета добавит на этом [b]сервере[/b] один заряд победной эмоции: Знамя гильдии.",
+        "PL-PL": "Użycie tego przedmiotu zapewnia jeden ładunek następującej Emoty Zwycięstwa na tym [b]serwerze[/b]: Sztandar Gildii.",
+        "ES-ES": "Consumir este objeto otorga una carga del siguiente Emote de Victoria en este [b]servidor[/b]: Estandarte de Gremio.",
+        "PT-BR": "Consumir este item concede uma carga do seguinte Emote de Vitória neste [b]servidor[/b]: Bandeira da Guilda.",
+        "IT-IT": "Il consumo di questo oggetto garantisce una carica della seguente Emote di Vittoria su questo [b]server[/b]: Stendardo di Gilda.",
+        "ZH-CN": "消耗此物品即可在这个[b]服务器[/b]获得1点下列胜利表情动作的使用次数：公会标志。",
+        "KO-KR": "이 아이템을 소비하면 이 [b]서버[/b]에서 다음 승리 감정 표현 스택 하나를 얻게 됩니다: 길드 깃발.",
+        "JA-JP": "このアイテムを使用すると、以下の勝利エモートをこの[b]サーバー[/b]で1回使用できます：ギルドバナー。",
+        "ZH-TW": "消耗此物品即可在這個[b]伺服器[/b]獲得1點下列勝利表情動作的使用次數：公會戰旗。",
+        "ID-ID": "Mengonsumsi item ini memberikan satu charge Emoji Kemenangan berikut di [b]server[/b] ini: Banner Guild.",
+        "TR-TR": "Bu eşyayı tüketmek, bu [b]sunucuda[/b] aşağıdaki Zafer İfadesi için bir yük verir: Lonca Sancağı.",
+        "AR-SA": "إن استهلاك هذا العنصر يمنح شحنة واحدة من إيماء الانتصار التالية على هذا [b]الخادم[/b]: راية الطائفة."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T1_KILL_EMOTE_FLAG_CHARGES_TRADABLE",
+        "description_variable": "@ITEMS_T1_KILL_EMOTE_FLAG_CHARGES_NONTRADABLE_DESC"
+      },
+      "origin": "Vanity/Kill_Emotes/Kill_Emotes_T1_KILL_EMOTE_FLAG_CHARGES_TRADABLE.json",
+      "name_en": "",
+      "name_ar": "",
+      "name_de": "",
+      "name_fr": "",
+      "name_es": "",
+      "name_ru": "",
+      "localized": {
+        "name_en": "",
+        "name_ar": "",
+        "name_de": "",
+        "name_fr": "",
+        "name_es": "",
+        "name_ru": ""
+      },
+      "raw": {
+        "@uniquename": "T1_KILL_EMOTE_FLAG_CHARGES_TRADABLE",
+        "@uispriteoverlay1": "ITEMOVERLAY_KILL_EMOTE",
+        "@tradable": "true",
+        "@uisprite": "UNIQUE_KILL_EMOTE_FLAG",
+        "@abilitypower": "100",
+        "@consumespell": "T1_KILL_EMOTE_ADD_CHARGES_FLAG",
+        "@shopcategory": "vanity",
+        "@shopsubcategory1": "killemotes",
+        "@tier": "4",
+        "@weight": "0.09",
+        "@dummyitempower": "300",
+        "@maxstacksize": "999",
+        "@unlockedtocraft": "true",
+        "@uicraftsoundstart": "Play_ui_action_craft_potion_start",
+        "@uicraftsoundfinish": "Play_ui_action_craft_potion_finish",
+        "@itemvalue": "0",
+        "@namelocatag": "@ITEMS_T1_KILL_EMOTE_FLAG_CHARGES_NONTRADABLE",
+        "@descriptionlocatag": "@ITEMS_T1_KILL_EMOTE_FLAG_CHARGES_NONTRADABLE_DESC"
+      },
+      "name_sources_ref": 1,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T1_KILL_EMOTE_TOMBSTONE_CHARGES_NONTRADABLE",
+      "index": "11798",
+      "category": "Vanity_Kill_Emotes",
+      "slot": "2h",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": "0",
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": {
+        "primary_resource": "UNIQUE_TOKEN_COMMUNITY",
+        "primary_count": 10,
+        "secondary_resource": "",
+        "secondary_count": 0,
+        "resources": [
+          {
+            "id": "UNIQUE_TOKEN_COMMUNITY",
+            "count": 10
+          }
+        ]
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T1_KILL_EMOTE_TOMBSTONE_CHARGES_NONTRADABLE",
+        "item_database_index": "11798"
+      },
+      "tier": 1,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Tombstone Victory Emote Charge",
+        "DE-DE": "Grabstein Sieg-Emote Aufladung",
+        "FR-FR": "Charge d'emote de victoire de pierre tombale",
+        "RU-RU": "Заряд победной эмоции \"Надгробие\"",
+        "PL-PL": "Ładunek Emoty Zwycięstwa - Nagrobek",
+        "ES-ES": "Carga del emote de victoria de lápida",
+        "PT-BR": "Carga de Emote de Vitória da Lápide",
+        "IT-IT": "Carica per emote di vittoria \"Lapide\"",
+        "ZH-CN": "墓碑胜利表情充能",
+        "KO-KR": "묘비 승리 감정 표현 스택",
+        "JA-JP": "勝利エモート「墓石」チャージ",
+        "ZH-TW": "墓碑勝利表情動作能量",
+        "ID-ID": "Charge Emoji Kemenangan Batu Nisan",
+        "TR-TR": "Mezar Taşı Zafer İfadesi Kullanımı",
+        "AR-SA": "شحن إيماءة انتصار شاهد القبر"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Consuming this item grants one charge of the following Victory Emote on this [b]server[/b]: Tombstone.",
+        "DE-DE": "Das Nutzen dieses Gegenstands bringt eine Aufladung des folgenden Sieg-Emotes für diesen [b]Server[/b]: Grabstein.",
+        "FR-FR": "Consommer cet objet accorde une charge de l'Emote de Victoire suivant sur ce [b]serveur[/b] : Pierre Tombale.",
+        "RU-RU": "Использование данного предмета добавит на этом [b]сервере[/b] один заряд победной эмоции: Надгробие.",
+        "PL-PL": "Użycie tego przedmiotu zapewnia jeden ładunek następującej Emoty Zwycięstwa na tym [b]serwerze[/b]: Nagrobek.",
+        "ES-ES": "Consumir este objeto otorga una carga del siguiente Emote de Victoria en este [b]servidor[/b]: Lápida.",
+        "PT-BR": "Consumir este item concede uma carga do seguinte Emote de Vitória neste [b]servidor[/b]: Lápide.",
+        "IT-IT": "Il consumo di questo oggetto garantisce una carica della seguente Emote di Vittoria su questo [b]server[/b]: Lapide.",
+        "ZH-CN": "消耗此物品即可在这个[b]服务器[/b]获得1点下列胜利表情动作的使用次数：墓碑。",
+        "KO-KR": "이 아이템을 소비하면 이 [b]서버[/b]에서 다음 승리 감정 표현 스택 하나를 얻게 됩니다: 묘비.",
+        "JA-JP": "このアイテムを使用すると、以下の勝利エモートをこの[b]サーバー[/b]で1回使用できます：墓石。",
+        "ZH-TW": "消耗此物品即可在這個[b]伺服器[/b]獲得1點下列勝利表情動作的使用次數：墓碑。",
+        "ID-ID": "Mengonsumsi item ini memberikan satu charge Emoji Kemenangan berikut di [b]server[/b] ini: Batu Nisan.",
+        "TR-TR": "Bu eşyayı tüketmek, bu [b]sunucuda[/b] aşağıdaki Zafer İfadesi için bir yük verir: Mezar Taşı.",
+        "AR-SA": "إن استهلاك هذا العنصر يمنح شحنة واحدة من إيماء الانتصار التالية على هذا [b]الخادم[/b]: شاهد القبر."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T1_KILL_EMOTE_TOMBSTONE_CHARGES_NONTRADABLE",
+        "description_variable": "@ITEMS_T1_KILL_EMOTE_TOMBSTONE_CHARGES_NONTRADABLE_DESC"
+      },
+      "origin": "Vanity/Kill_Emotes/Kill_Emotes_T1_KILL_EMOTE_TOMBSTONE_CHARGES_NONTRADABLE.json",
+      "raw": {
+        "@uniquename": "T1_KILL_EMOTE_TOMBSTONE_CHARGES_NONTRADABLE",
+        "@uispriteoverlay1": "ITEMOVERLAY_NON_TRADABLE_KILL_EMOTE",
+        "@tradable": "false",
+        "@uisprite": "UNIQUE_KILL_EMOTE_TOMBSTONE",
+        "@abilitypower": "100",
+        "@consumespell": "T1_KILL_EMOTE_ADD_CHARGES_TOMBSTONE",
+        "@shopcategory": "vanity",
+        "@shopsubcategory1": "killemotes",
+        "@tier": "6",
+        "@weight": "0.09",
+        "@dummyitempower": "300",
+        "@maxstacksize": "999",
+        "@unlockedtocraft": "true",
+        "@uicraftsoundstart": "Play_ui_action_meld_load",
+        "@uicraftsoundfinish": "Play_ui_action_meld",
+        "@itemvalue": "0",
+        "@salvageable": "true",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "1",
+          "@craftingfocus": "0",
+          "@salvageitemfactor": "0.1",
+          "@craftsingleperdefault": "true",
+          "@amountcrafted": "5",
+          "craftresource": {
+            "@uniquename": "UNIQUE_TOKEN_COMMUNITY",
+            "@count": "10",
+            "@maxreturnamount": "0"
+          }
+        }
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T1_KILL_EMOTE_GHOST_CHARGES_TRADABLE",
+      "index": "11810",
+      "category": "Vanity_Kill_Emotes",
+      "slot": "2h",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": "0",
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T1_KILL_EMOTE_GHOST_CHARGES_TRADABLE",
+        "item_database_index": "11810"
+      },
+      "tier": 1,
+      "enchantment": 0,
+      "localized_all_names": {},
+      "localized_all_descriptions": {
+        "EN-US": "Consuming this item grants one charge of the following Victory Emote on this [b]server[/b]: Ghost.",
+        "DE-DE": "Das Nutzen dieses Gegenstands bringt eine Aufladung des folgenden Sieg-Emotes für diesen [b]Server[/b]: Geist.",
+        "FR-FR": "Consommer cet objet accorde une charge de l'Emote de Victoire suivant sur ce [b]serveur[/b] : Fantôme.",
+        "RU-RU": "Использование данного предмета добавит на этом [b]сервере[/b] один заряд победной эмоции: Призрак.",
+        "PL-PL": "Użycie tego przedmiotu zapewnia jeden ładunek następującej Emoty Zwycięstwa na tym [b]serwerze[/b]: Duch.",
+        "ES-ES": "Consumir este objeto otorga una carga del siguiente Emote de Victoria en este [b]servidor[/b]: Fantasma.",
+        "PT-BR": "Consumir este item concede uma carga do seguinte Emote de Vitória neste [b]servidor[/b]: Fantasma.",
+        "IT-IT": "Il consumo di questo oggetto garantisce una carica della seguente Emote di Vittoria su questo [b]server[/b]: Fantasma.",
+        "ZH-CN": "消耗此物品即可在这个[b]服务器[/b]获得1点下列胜利表情动作的使用次数：鬼魂。",
+        "KO-KR": "이 아이템을 소비하면 이 [b]서버[/b]에서 다음 승리 감정 표현 스택 하나를 얻게 됩니다: 유령.",
+        "JA-JP": "このアイテムを使用すると、以下の勝利エモートをこの[b]サーバー[/b]で1回使用できます：ゴースト。",
+        "ZH-TW": "消耗此物品即可在這個[b]伺服器[/b]獲得1點下列勝利表情動作的使用次數：鬼魂。",
+        "ID-ID": "Mengonsumsi item ini memberikan satu charge Emoji Kemenangan berikut di [b]server[/b] ini: Hantu.",
+        "TR-TR": "Bu eşyayı tüketmek, bu [b]sunucuda[/b] aşağıdaki Zafer İfadesi için bir yük verir: Hayalet.",
+        "AR-SA": "إن استهلاك هذا العنصر يمنح شحنة واحدة من إيماء الانتصار التالية على هذا [b]الخادم[/b]: شبح."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T1_KILL_EMOTE_GHOST_CHARGES_TRADABLE",
+        "description_variable": "@ITEMS_T1_KILL_EMOTE_GHOST_CHARGES_NONTRADABLE_DESC"
+      },
+      "origin": "Vanity/Kill_Emotes/Kill_Emotes_T1_KILL_EMOTE_GHOST_CHARGES_TRADABLE.json",
+      "name_en": "",
+      "name_ar": "",
+      "name_de": "",
+      "name_fr": "",
+      "name_es": "",
+      "name_ru": "",
+      "localized": {
+        "name_en": "",
+        "name_ar": "",
+        "name_de": "",
+        "name_fr": "",
+        "name_es": "",
+        "name_ru": ""
+      },
+      "raw": {
+        "@uniquename": "T1_KILL_EMOTE_GHOST_CHARGES_TRADABLE",
+        "@uispriteoverlay1": "ITEMOVERLAY_KILL_EMOTE",
+        "@tradable": "true",
+        "@uisprite": "UNIQUE_KILL_EMOTE_GHOST",
+        "@abilitypower": "100",
+        "@consumespell": "T1_KILL_EMOTE_ADD_CHARGES_GHOST",
+        "@shopcategory": "vanity",
+        "@shopsubcategory1": "killemotes",
+        "@tier": "6",
+        "@weight": "0.09",
+        "@dummyitempower": "300",
+        "@maxstacksize": "999",
+        "@unlockedtocraft": "true",
+        "@uicraftsoundstart": "Play_ui_action_craft_potion_start",
+        "@uicraftsoundfinish": "Play_ui_action_craft_potion_finish",
+        "@itemvalue": "0",
+        "@namelocatag": "@ITEMS_T1_KILL_EMOTE_GHOST_CHARGES_NONTRADABLE",
+        "@descriptionlocatag": "@ITEMS_T1_KILL_EMOTE_GHOST_CHARGES_NONTRADABLE_DESC"
+      },
+      "name_sources_ref": 1,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T1_KILL_EMOTE_FLAG_DESKTOP_CHARGES_TRADABLE",
+      "index": "11816",
+      "category": "Vanity_Kill_Emotes",
+      "slot": "2h",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": "0",
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T1_KILL_EMOTE_FLAG_DESKTOP_CHARGES_TRADABLE",
+        "item_database_index": "11816"
+      },
+      "tier": 1,
+      "enchantment": 0,
+      "localized_all_names": {},
+      "localized_all_descriptions": {
+        "EN-US": "Consuming this item grants one charge of the following Victory Emote on this [b]server[/b]: Desktop Banner.",
+        "DE-DE": "Das Nutzen dieses Gegenstands bringt eine Aufladung des folgenden Sieg-Emotes für diesen [b]Server[/b]: Desktopbanner.",
+        "FR-FR": "Consommer cet objet accorde une charge de l'Emote de Victoire suivant sur ce [b]serveur[/b] : Bannière Ordinateur.",
+        "RU-RU": "Использование данного предмета добавит на этом [b]сервере[/b] один заряд победной эмоции: Знамя для компьютеров.",
+        "PL-PL": "Użycie tego przedmiotu zapewnia jeden ładunek następującej Emoty Zwycięstwa na tym [b]serwerze[/b]: Sztandar Desktopowy.",
+        "ES-ES": "Consumir este objeto otorga una carga del siguiente Emote de Victoria en este [b]servidor[/b]: Estandarte de PC.",
+        "PT-BR": "Consumir este item concede uma carga do seguinte Emote de Vitória neste [b]servidor[/b]: Brasão do Desktop.",
+        "IT-IT": "Il consumo di questo oggetto garantisce una carica della seguente Emote di Vittoria su questo [b]server[/b]: Stendardo Computer.",
+        "ZH-CN": "消耗此物品即可在这个[b]服务器[/b]获得1点下列胜利表情动作的使用次数：台式机战旗。",
+        "KO-KR": "이 아이템을 소비하면 이 [b]서버[/b]에서 다음 승리 감정 표현 스택 하나를 얻게 됩니다: 데스크톱 깃발.",
+        "JA-JP": "このアイテムを使用すると、以下の勝利エモートをこの[b]サーバー[/b]で1回使用できます：デスクトップバナー。",
+        "ZH-TW": "消耗此物品即可在這個[b]伺服器[/b]獲得1點下列勝利表情動作的使用次數：電腦滑鼠戰旗。",
+        "ID-ID": "Mengonsumsi item ini memberikan satu charge Emoji Kemenangan berikut di [b]server[/b] ini: Banner Desktop.",
+        "TR-TR": "Bu eşyayı tüketmek, bu [b]sunucuda[/b] aşağıdaki Zafer İfadesi için bir yük verir: Masaüstü Sancağı.",
+        "AR-SA": "إن استهلاك هذا العنصر يمنح شحنة واحدة من إيماء الانتصار التالية على هذا [b]الخادم[/b]: راية جهاز الكمبيوتر."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T1_KILL_EMOTE_FLAG_DESKTOP_CHARGES_TRADABLE",
+        "description_variable": "@ITEMS_T1_KILL_EMOTE_FLAG_DESKTOP_CHARGES_NONTRADABLE_DESC"
+      },
+      "origin": "Vanity/Kill_Emotes/Kill_Emotes_T1_KILL_EMOTE_FLAG_DESKTOP_CHARGES_TRADABLE.json",
+      "name_en": "",
+      "name_ar": "",
+      "name_de": "",
+      "name_fr": "",
+      "name_es": "",
+      "name_ru": "",
+      "localized": {
+        "name_en": "",
+        "name_ar": "",
+        "name_de": "",
+        "name_fr": "",
+        "name_es": "",
+        "name_ru": ""
+      },
+      "raw": {
+        "@uniquename": "T1_KILL_EMOTE_FLAG_DESKTOP_CHARGES_TRADABLE",
+        "@uispriteoverlay1": "ITEMOVERLAY_KILL_EMOTE",
+        "@tradable": "true",
+        "@uisprite": "UNIQUE_KILL_EMOTE_FLAG_DESKTOP",
+        "@abilitypower": "100",
+        "@consumespell": "T1_KILL_EMOTE_ADD_CHARGES_FLAG_DESKTOP",
+        "@shopcategory": "vanity",
+        "@shopsubcategory1": "killemotes",
+        "@tier": "4",
+        "@weight": "0.09",
+        "@dummyitempower": "300",
+        "@maxstacksize": "999",
+        "@unlockedtocraft": "true",
+        "@uicraftsoundstart": "Play_ui_action_craft_potion_start",
+        "@uicraftsoundfinish": "Play_ui_action_craft_potion_finish",
+        "@itemvalue": "0",
+        "@salvageable": "false",
+        "@namelocatag": "@ITEMS_T1_KILL_EMOTE_FLAG_DESKTOP_CHARGES_NONTRADABLE",
+        "@descriptionlocatag": "@ITEMS_T1_KILL_EMOTE_FLAG_DESKTOP_CHARGES_NONTRADABLE_DESC"
+      },
+      "name_sources_ref": 1,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T1_KILL_EMOTE_FLAG_CONTROLLER_CHARGES_TRADABLE",
+      "index": "11817",
+      "category": "Vanity_Kill_Emotes",
+      "slot": "2h",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": "0",
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T1_KILL_EMOTE_FLAG_CONTROLLER_CHARGES_TRADABLE",
+        "item_database_index": "11817"
+      },
+      "tier": 1,
+      "enchantment": 0,
+      "localized_all_names": {},
+      "localized_all_descriptions": {
+        "EN-US": "Consuming this item grants one charge of the following Victory Emote on this [b]server[/b]: Controller Banner.",
+        "DE-DE": "Das Nutzen dieses Gegenstands bringt eine Aufladung des folgenden Sieg-Emotes für diesen [b]Server[/b]: Controllerbanner.",
+        "FR-FR": "Consommer cet objet accorde une charge de l'Emote de Victoire suivant sur ce [b]serveur[/b] : Bannière Manette.",
+        "RU-RU": "Использование данного предмета добавит на этом [b]сервере[/b] один заряд победной эмоции: Знамя для контроллеров.",
+        "PL-PL": "Użycie tego przedmiotu zapewnia jeden ładunek następującej Emoty Zwycięstwa na tym [b]serwerze[/b]: Sztandar Kontrolera.",
+        "ES-ES": "Consumir este objeto otorga una carga del siguiente Emote de Victoria en este [b]servidor[/b]: Estandarte de Controles.",
+        "PT-BR": "Consumir este item concede uma carga do seguinte Emote de Vitória neste [b]servidor[/b]: Brasão do Console.",
+        "IT-IT": "Il consumo di questo oggetto garantisce una carica della seguente Emote di Vittoria su questo [b]server[/b]: Stendardo Controller.",
+        "ZH-CN": "消耗此物品即可在这个[b]服务器[/b]获得1点下列胜利表情动作的使用次数：主机战旗。",
+        "KO-KR": "이 아이템을 소비하면 이 [b]서버[/b]에서 다음 승리 감정 표현 스택 하나를 얻게 됩니다: 컨트롤러 깃발.",
+        "JA-JP": "このアイテムを使用すると、以下の勝利エモートをこの[b]サーバー[/b]で1回使用できます：コントローラーバナー。",
+        "ZH-TW": "消耗此物品即可在這個[b]伺服器[/b]獲得1點下列勝利表情動作的使用次數：控制器戰旗。",
+        "ID-ID": "Mengonsumsi item ini memberikan satu charge Emoji Kemenangan berikut di [b]server[/b] ini: Banner Kontroler.",
+        "TR-TR": "Bu eşyayı tüketmek, bu [b]sunucuda[/b] aşağıdaki Zafer İfadesi için bir yük verir: Kontrol Cihazı Sancağı.",
+        "AR-SA": "إن استهلاك هذا العنصر يمنح شحنة واحدة من إيماء الانتصار التالية على هذا [b]الخادم[/b]: راية وحدة التحكم."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T1_KILL_EMOTE_FLAG_CONTROLLER_CHARGES_TRADABLE",
+        "description_variable": "@ITEMS_T1_KILL_EMOTE_FLAG_CONTROLLER_CHARGES_NONTRADABLE_DESC"
+      },
+      "origin": "Vanity/Kill_Emotes/Kill_Emotes_T1_KILL_EMOTE_FLAG_CONTROLLER_CHARGES_TRADABLE.json",
+      "name_en": "",
+      "name_ar": "",
+      "name_de": "",
+      "name_fr": "",
+      "name_es": "",
+      "name_ru": "",
+      "localized": {
+        "name_en": "",
+        "name_ar": "",
+        "name_de": "",
+        "name_fr": "",
+        "name_es": "",
+        "name_ru": ""
+      },
+      "raw": {
+        "@uniquename": "T1_KILL_EMOTE_FLAG_CONTROLLER_CHARGES_TRADABLE",
+        "@uispriteoverlay1": "ITEMOVERLAY_KILL_EMOTE",
+        "@tradable": "true",
+        "@uisprite": "UNIQUE_KILL_EMOTE_FLAG_CONTROLLER",
+        "@abilitypower": "100",
+        "@consumespell": "T1_KILL_EMOTE_ADD_CHARGES_FLAG_CONTROLLER",
+        "@shopcategory": "vanity",
+        "@shopsubcategory1": "killemotes",
+        "@tier": "4",
+        "@weight": "0.09",
+        "@dummyitempower": "300",
+        "@maxstacksize": "999",
+        "@unlockedtocraft": "true",
+        "@uicraftsoundstart": "Play_ui_action_craft_potion_start",
+        "@uicraftsoundfinish": "Play_ui_action_craft_potion_finish",
+        "@itemvalue": "0",
+        "@salvageable": "false",
+        "@namelocatag": "@ITEMS_T1_KILL_EMOTE_FLAG_CONTROLLER_CHARGES_NONTRADABLE",
+        "@descriptionlocatag": "@ITEMS_T1_KILL_EMOTE_FLAG_CONTROLLER_CHARGES_NONTRADABLE_DESC"
+      },
+      "name_sources_ref": 1,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T1_KILL_EMOTE_HAMMER_CHARGES_TRADABLE",
+      "index": "11814",
+      "category": "Vanity_Kill_Emotes",
+      "slot": "2h",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": "0",
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T1_KILL_EMOTE_HAMMER_CHARGES_TRADABLE",
+        "item_database_index": "11814"
+      },
+      "tier": 1,
+      "enchantment": 0,
+      "localized_all_names": {},
+      "localized_all_descriptions": {
+        "EN-US": "Consuming this item grants one charge of the following Victory Emote on this [b]server[/b]: Hammer.",
+        "DE-DE": "Das Nutzen dieses Gegenstands bringt eine Aufladung des folgenden Sieg-Emotes für diesen [b]Server[/b]: Hammer.",
+        "FR-FR": "Consommer cet objet accorde une charge de l'Emote de Victoire suivant sur ce [b]serveur[/b] : Marteau.",
+        "RU-RU": "Использование данного предмета добавит на этом [b]сервере[/b] один заряд победной эмоции: Молот.",
+        "PL-PL": "Użycie tego przedmiotu zapewnia jeden ładunek następującej Emoty Zwycięstwa na tym [b]serwerze[/b]: Młot.",
+        "ES-ES": "Consumir este objeto otorga una carga del siguiente Emote de Victoria en este [b]servidor[/b]: Martillo.",
+        "PT-BR": "Consumir este item concede uma carga do seguinte Emote de Vitória neste [b]servidor[/b]: Martelo.",
+        "IT-IT": "Il consumo di questo oggetto garantisce una carica della seguente Emote di Vittoria su questo [b]server[/b]: Martello.",
+        "ZH-CN": "消耗此物品即可在这个[b]服务器[/b]获得1点下列胜利表情动作的使用次数：锤子。",
+        "KO-KR": "이 아이템을 소비하면 이 [b]서버[/b]에서 다음 승리 감정 표현 스택 하나를 얻게 됩니다: 망치.",
+        "JA-JP": "このアイテムを使用すると、以下の勝利エモートをこの[b]サーバー[/b]で1回使用できます：ハンマー。",
+        "ZH-TW": "消耗此物品即可在這個[b]伺服器[/b]獲得1點下列勝利表情動作的使用次數：鎚子。",
+        "ID-ID": "Mengonsumsi item ini memberikan satu charge Emoji Kemenangan berikut di [b]server[/b] ini: Palu.",
+        "TR-TR": "Bu eşyayı tüketmek, bu [b]sunucuda[/b] aşağıdaki Zafer İfadesi için bir yük verir: Çekiç.",
+        "AR-SA": "إن استهلاك هذا العنصر يمنح شحنة واحدة من إيماء الانتصار التالية على هذا [b]الخادم[/b]: مطرقة."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T1_KILL_EMOTE_HAMMER_CHARGES_TRADABLE",
+        "description_variable": "@ITEMS_T1_KILL_EMOTE_HAMMER_CHARGES_NONTRADABLE_DESC"
+      },
+      "origin": "Vanity/Kill_Emotes/Kill_Emotes_T1_KILL_EMOTE_HAMMER_CHARGES_TRADABLE.json",
+      "name_en": "",
+      "name_ar": "",
+      "name_de": "",
+      "name_fr": "",
+      "name_es": "",
+      "name_ru": "",
+      "localized": {
+        "name_en": "",
+        "name_ar": "",
+        "name_de": "",
+        "name_fr": "",
+        "name_es": "",
+        "name_ru": ""
+      },
+      "raw": {
+        "@uniquename": "T1_KILL_EMOTE_HAMMER_CHARGES_TRADABLE",
+        "@uispriteoverlay1": "ITEMOVERLAY_KILL_EMOTE",
+        "@tradable": "true",
+        "@uisprite": "UNIQUE_KILL_EMOTE_HAMMER",
+        "@abilitypower": "100",
+        "@consumespell": "T1_KILL_EMOTE_ADD_CHARGES_HAMMER",
+        "@shopcategory": "vanity",
+        "@shopsubcategory1": "killemotes",
+        "@tier": "6",
+        "@weight": "0.09",
+        "@dummyitempower": "300",
+        "@maxstacksize": "999",
+        "@unlockedtocraft": "true",
+        "@uicraftsoundstart": "Play_ui_action_craft_potion_start",
+        "@uicraftsoundfinish": "Play_ui_action_craft_potion_finish",
+        "@itemvalue": "0",
+        "@salvageable": "false",
+        "@namelocatag": "@ITEMS_T1_KILL_EMOTE_HAMMER_CHARGES_NONTRADABLE",
+        "@descriptionlocatag": "@ITEMS_T1_KILL_EMOTE_HAMMER_CHARGES_NONTRADABLE_DESC"
+      },
+      "name_sources_ref": 1,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T1_KILL_EMOTE_SWORD_CHARGES_NONTRADABLE",
+      "index": "11803",
+      "category": "Vanity_Kill_Emotes",
+      "slot": "2h",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": "0",
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": {
+        "primary_resource": "UNIQUE_TOKEN_COMMUNITY",
+        "primary_count": 10,
+        "secondary_resource": "",
+        "secondary_count": 0,
+        "resources": [
+          {
+            "id": "UNIQUE_TOKEN_COMMUNITY",
+            "count": 10
+          }
+        ]
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T1_KILL_EMOTE_SWORD_CHARGES_NONTRADABLE",
+        "item_database_index": "11803"
+      },
+      "tier": 1,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Sword Victory Emote Charge",
+        "DE-DE": "Aufladung des Sieg-Emotes Schwert",
+        "FR-FR": "Charge d'émote de victoire épée",
+        "RU-RU": "Заряд победной эмоции \"Меч\"",
+        "PL-PL": "Ładunek Emoty Zwycięstwa - Miecz",
+        "ES-ES": "Carga del emote de victoria de espada",
+        "PT-BR": "Carga de Emote de Vitória da Espada",
+        "IT-IT": "Carica per emote di vittoria Spada",
+        "ZH-CN": "剑胜利表情充能",
+        "KO-KR": "검 승리 감정 표현",
+        "JA-JP": "勝利エモート「剣」チャージ",
+        "ZH-TW": "大劍勝利表情動作能量",
+        "ID-ID": "Charge Emoji Kemenangan Pedang",
+        "TR-TR": "Kılıç Zafer İfadesi Kullanımı",
+        "AR-SA": "شحن إيماءة انتصار السيف"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Consuming this item grants one charge of the following Victory Emote on this [b]server[/b]: Sword.",
+        "DE-DE": "Das Nutzen dieses Gegenstands bringt eine Aufladung des folgenden Sieg-Emotes für diesen [b]Server[/b]: Schwert.",
+        "FR-FR": "Consommer cet objet accorde une charge de l'Emote de Victoire suivant sur ce [b]serveur[/b] : Épée.",
+        "RU-RU": "Использование данного предмета добавит на этом [b]сервере[/b] один заряд победной эмоции: Меч.",
+        "PL-PL": "Użycie tego przedmiotu zapewnia jeden ładunek następującej Emoty Zwycięstwa na tym [b]serwerze[/b]: Miecz.",
+        "ES-ES": "Consumir este objeto otorga una carga del siguiente Emote de Victoria en este [b]servidor[/b]: Espada.",
+        "PT-BR": "Consumir este item concede uma carga do seguinte Emote de Vitória neste [b]servidor[/b]: Espada.",
+        "IT-IT": "Il consumo di questo oggetto garantisce una carica della seguente Emote di Vittoria su questo [b]server[/b]: Spada.",
+        "ZH-CN": "消耗此物品即可在这个[b]服务器[/b]获得1点下列胜利表情动作的使用次数：剑。",
+        "KO-KR": "이 아이템을 소비하면 이 [b]서버[/b]에서 다음 승리 감정 표현 스택 하나를 얻게 됩니다: 검.",
+        "JA-JP": "このアイテムを使用すると、以下の勝利エモートをこの[b]サーバー[/b]で1回使用できます：剣。",
+        "ZH-TW": "消耗此物品即可在這個[b]伺服器[/b]獲得1點下列勝利表情動作的使用次數：劍。",
+        "ID-ID": "Mengonsumsi item ini memberikan satu charge Emoji Kemenangan berikut di [b]server[/b] ini: Pedang.",
+        "TR-TR": "Bu eşyayı tüketmek, bu [b]sunucuda[/b] aşağıdaki Zafer İfadesi için bir yük verir: Kılıç.",
+        "AR-SA": "إن استهلاك هذا العنصر يمنح شحنة واحدة من إيماء الانتصار التالية على هذا [b]الخادم[/b]: السيف."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T1_KILL_EMOTE_SWORD_CHARGES_NONTRADABLE",
+        "description_variable": "@ITEMS_T1_KILL_EMOTE_SWORD_CHARGES_NONTRADABLE_DESC"
+      },
+      "origin": "Vanity/Kill_Emotes/Kill_Emotes_T1_KILL_EMOTE_SWORD_CHARGES_NONTRADABLE.json",
+      "raw": {
+        "@uniquename": "T1_KILL_EMOTE_SWORD_CHARGES_NONTRADABLE",
+        "@uispriteoverlay1": "ITEMOVERLAY_NON_TRADABLE_KILL_EMOTE",
+        "@tradable": "false",
+        "@uisprite": "UNIQUE_KILL_EMOTE_SWORD",
+        "@abilitypower": "100",
+        "@consumespell": "T1_KILL_EMOTE_ADD_CHARGES_SWORD",
+        "@shopcategory": "vanity",
+        "@shopsubcategory1": "killemotes",
+        "@tier": "6",
+        "@weight": "0.09",
+        "@dummyitempower": "300",
+        "@maxstacksize": "999",
+        "@unlockedtocraft": "true",
+        "@uicraftsoundstart": "Play_ui_action_meld_load",
+        "@uicraftsoundfinish": "Play_ui_action_meld",
+        "@itemvalue": "0",
+        "@salvageable": "true",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "1",
+          "@craftingfocus": "0",
+          "@salvageitemfactor": "0.1",
+          "@craftsingleperdefault": "true",
+          "@amountcrafted": "5",
+          "craftresource": {
+            "@uniquename": "UNIQUE_TOKEN_COMMUNITY",
+            "@count": "10",
+            "@maxreturnamount": "0"
+          }
+        }
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T1_KILL_EMOTE_SWORD_CHARGES_TRADABLE",
+      "index": "11813",
+      "category": "Vanity_Kill_Emotes",
+      "slot": "2h",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": "0",
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T1_KILL_EMOTE_SWORD_CHARGES_TRADABLE",
+        "item_database_index": "11813"
+      },
+      "tier": 1,
+      "enchantment": 0,
+      "localized_all_names": {},
+      "localized_all_descriptions": {
+        "EN-US": "Consuming this item grants one charge of the following Victory Emote on this [b]server[/b]: Sword.",
+        "DE-DE": "Das Nutzen dieses Gegenstands bringt eine Aufladung des folgenden Sieg-Emotes für diesen [b]Server[/b]: Schwert.",
+        "FR-FR": "Consommer cet objet accorde une charge de l'Emote de Victoire suivant sur ce [b]serveur[/b] : Épée.",
+        "RU-RU": "Использование данного предмета добавит на этом [b]сервере[/b] один заряд победной эмоции: Меч.",
+        "PL-PL": "Użycie tego przedmiotu zapewnia jeden ładunek następującej Emoty Zwycięstwa na tym [b]serwerze[/b]: Miecz.",
+        "ES-ES": "Consumir este objeto otorga una carga del siguiente Emote de Victoria en este [b]servidor[/b]: Espada.",
+        "PT-BR": "Consumir este item concede uma carga do seguinte Emote de Vitória neste [b]servidor[/b]: Espada.",
+        "IT-IT": "Il consumo di questo oggetto garantisce una carica della seguente Emote di Vittoria su questo [b]server[/b]: Spada.",
+        "ZH-CN": "消耗此物品即可在这个[b]服务器[/b]获得1点下列胜利表情动作的使用次数：剑。",
+        "KO-KR": "이 아이템을 소비하면 이 [b]서버[/b]에서 다음 승리 감정 표현 스택 하나를 얻게 됩니다: 검.",
+        "JA-JP": "このアイテムを使用すると、以下の勝利エモートをこの[b]サーバー[/b]で1回使用できます：剣。",
+        "ZH-TW": "消耗此物品即可在這個[b]伺服器[/b]獲得1點下列勝利表情動作的使用次數：劍。",
+        "ID-ID": "Mengonsumsi item ini memberikan satu charge Emoji Kemenangan berikut di [b]server[/b] ini: Pedang.",
+        "TR-TR": "Bu eşyayı tüketmek, bu [b]sunucuda[/b] aşağıdaki Zafer İfadesi için bir yük verir: Kılıç.",
+        "AR-SA": "إن استهلاك هذا العنصر يمنح شحنة واحدة من إيماء الانتصار التالية على هذا [b]الخادم[/b]: السيف."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T1_KILL_EMOTE_SWORD_CHARGES_TRADABLE",
+        "description_variable": "@ITEMS_T1_KILL_EMOTE_SWORD_CHARGES_NONTRADABLE_DESC"
+      },
+      "origin": "Vanity/Kill_Emotes/Kill_Emotes_T1_KILL_EMOTE_SWORD_CHARGES_TRADABLE.json",
+      "name_en": "",
+      "name_ar": "",
+      "name_de": "",
+      "name_fr": "",
+      "name_es": "",
+      "name_ru": "",
+      "localized": {
+        "name_en": "",
+        "name_ar": "",
+        "name_de": "",
+        "name_fr": "",
+        "name_es": "",
+        "name_ru": ""
+      },
+      "raw": {
+        "@uniquename": "T1_KILL_EMOTE_SWORD_CHARGES_TRADABLE",
+        "@uispriteoverlay1": "ITEMOVERLAY_KILL_EMOTE",
+        "@tradable": "true",
+        "@uisprite": "UNIQUE_KILL_EMOTE_SWORD",
+        "@abilitypower": "100",
+        "@consumespell": "T1_KILL_EMOTE_ADD_CHARGES_SWORD",
+        "@shopcategory": "vanity",
+        "@shopsubcategory1": "killemotes",
+        "@tier": "6",
+        "@weight": "0.09",
+        "@dummyitempower": "300",
+        "@maxstacksize": "999",
+        "@unlockedtocraft": "true",
+        "@uicraftsoundstart": "Play_ui_action_craft_potion_start",
+        "@uicraftsoundfinish": "Play_ui_action_craft_potion_finish",
+        "@itemvalue": "0",
+        "@salvageable": "false",
+        "@namelocatag": "@ITEMS_T1_KILL_EMOTE_SWORD_CHARGES_NONTRADABLE",
+        "@descriptionlocatag": "@ITEMS_T1_KILL_EMOTE_SWORD_CHARGES_NONTRADABLE_DESC"
+      },
+      "name_sources_ref": 1,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T1_KILL_EMOTE_HELLGATE_CHARGES_NONTRADABLE",
+      "index": "11802",
+      "category": "Vanity_Kill_Emotes",
+      "slot": "2h",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": "0",
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": {
+        "primary_resource": "UNIQUE_TOKEN_COMMUNITY",
+        "primary_count": 50,
+        "secondary_resource": "",
+        "secondary_count": 0,
+        "resources": [
+          {
+            "id": "UNIQUE_TOKEN_COMMUNITY",
+            "count": 50
+          }
+        ]
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T1_KILL_EMOTE_HELLGATE_CHARGES_NONTRADABLE",
+        "item_database_index": "11802"
+      },
+      "tier": 1,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Hellgate Victory Emote Charge",
+        "DE-DE": "Aufladung des Sieg-Emotes Höllentor",
+        "FR-FR": "Charge d'emote de victoire Hellgate",
+        "RU-RU": "Заряд победной эмоции \"Врата Ада\"",
+        "PL-PL": "Ładunek Emoty Zwycięstwa - Brama Piekieł",
+        "ES-ES": "Carga del emote de victoria de Hellgate",
+        "PT-BR": "Carga de Emote de Vitória do Hellgate",
+        "IT-IT": "Carica per emote di vittoria Varco per l'inferno",
+        "ZH-CN": "炼狱之门胜利表情充能",
+        "KO-KR": "헬게이트 승리 감정 표현",
+        "JA-JP": "勝利エモート「ヘルゲート」チャージ",
+        "ZH-TW": "煉獄之門勝利表情動作能量",
+        "ID-ID": "Charge Emoji Kemenangan Gerbang Neraka",
+        "TR-TR": "Cehennem Geçidi Zafer İfadesi Kullanımı",
+        "AR-SA": "شحن إيماءة انتصار بوابة الجحيم"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Consuming this item grants one charge of the following Victory Emote on this [b]server[/b]: Hellgate.",
+        "DE-DE": "Das Nutzen dieses Gegenstands bringt eine Aufladung des folgenden Sieg-Emotes für diesen [b]Server[/b]: Höllentor.",
+        "FR-FR": "Consommer cet objet accorde une charge de l'Emote de Victoire suivant sur ce [b]serveur[/b] : Hellgate.",
+        "RU-RU": "Использование данного предмета добавит на этом [b]сервере[/b] один заряд победной эмоции: Врата Ада.",
+        "PL-PL": "Użycie tego przedmiotu zapewnia jeden ładunek następującej Emoty Zwycięstwa na tym [b]serwerze[/b]: Brama Piekieł.",
+        "ES-ES": "Consumir este objeto otorga una carga del siguiente Emote de Victoria en este [b]servidor[/b]: Hellgate.",
+        "PT-BR": "Consumir este item concede uma carga do seguinte Emote de Vitória neste [b]servidor[/b]: Hellgate.",
+        "IT-IT": "Il consumo di questo oggetto garantisce una carica della seguente Emote di Vittoria su questo [b]server[/b]: Varco per l'Inferno.",
+        "ZH-CN": "消耗此物品即可在这个[b]服务器[/b]获得1点下列胜利表情动作的使用次数：炼狱之门。",
+        "KO-KR": "이 아이템을 소비하면 이 [b]서버[/b]에서 다음 승리 감정 표현 스택 하나를 얻게 됩니다: 헬게이트.",
+        "JA-JP": "このアイテムを使用すると、以下の勝利エモートをこの[b]サーバー[/b]で1回使用できます：ヘルゲート。",
+        "ZH-TW": "消耗此物品即可在這個[b]伺服器[/b]獲得1點下列勝利表情動作的使用次數：煉獄之門。",
+        "ID-ID": "Mengonsumsi item ini memberikan satu charge Emoji Kemenangan berikut di [b]server[/b] ini: Gerbang Neraka.",
+        "TR-TR": "Bu eşyayı tüketmek, bu [b]sunucuda[/b] aşağıdaki Zafer İfadesi için bir yük verir: Cehennem Geçidi.",
+        "AR-SA": "إن استهلاك هذا العنصر يمنح شحنة واحدة من إيماء الانتصار التالية على هذا [b]الخادم[/b]: بوابة الجحيم."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T1_KILL_EMOTE_HELLGATE_CHARGES_NONTRADABLE",
+        "description_variable": "@ITEMS_T1_KILL_EMOTE_HELLGATE_CHARGES_NONTRADABLE_DESC"
+      },
+      "origin": "Vanity/Kill_Emotes/Kill_Emotes_T1_KILL_EMOTE_HELLGATE_CHARGES_NONTRADABLE.json",
+      "raw": {
+        "@uniquename": "T1_KILL_EMOTE_HELLGATE_CHARGES_NONTRADABLE",
+        "@uispriteoverlay1": "ITEMOVERLAY_NON_TRADABLE_KILL_EMOTE",
+        "@tradable": "false",
+        "@uisprite": "UNIQUE_KILL_EMOTE_HELLGATE",
+        "@abilitypower": "100",
+        "@consumespell": "T1_KILL_EMOTE_ADD_CHARGES_HELLGATE",
+        "@shopcategory": "vanity",
+        "@shopsubcategory1": "killemotes",
+        "@tier": "8",
+        "@weight": "0.09",
+        "@dummyitempower": "300",
+        "@maxstacksize": "999",
+        "@unlockedtocraft": "true",
+        "@uicraftsoundstart": "Play_ui_action_meld_load",
+        "@uicraftsoundfinish": "Play_ui_action_meld",
+        "@itemvalue": "0",
+        "@salvageable": "true",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "1",
+          "@craftingfocus": "0",
+          "@salvageitemfactor": "0.1",
+          "@craftsingleperdefault": "true",
+          "@amountcrafted": "5",
+          "craftresource": {
+            "@uniquename": "UNIQUE_TOKEN_COMMUNITY",
+            "@count": "50",
+            "@maxreturnamount": "0"
+          }
+        }
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    }
+  ]
+}

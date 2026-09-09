@@ -1,0 +1,565 @@
+{
+  "version": 1,
+  "item_count": 6,
+  "items": [
+    {
+      "id": "T1_FACTION_SWAMP_TOKEN_1",
+      "index": "9952",
+      "category": "Crafting_City_Resources",
+      "slot": "Resource",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T1_FACTION_SWAMP_TOKEN_1",
+        "item_database_index": "9952"
+      },
+      "tier": 1,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Vineheart",
+        "DE-DE": "Traubenherz",
+        "FR-FR": "Vignecœur",
+        "RU-RU": "Сердце лозы",
+        "PL-PL": "Serce Winorośli",
+        "ES-ES": "Corazón de vid",
+        "PT-BR": "Coração Videira",
+        "IT-IT": "Cuore di vite",
+        "ZH-CN": "藤木之心",
+        "KO-KR": "바인하트",
+        "JA-JP": "バインハート",
+        "ZH-TW": "藤蔓之心",
+        "ID-ID": "Vineheart",
+        "TR-TR": "Asmakalp",
+        "AR-SA": "مادة الكرمات"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "A local resource which can be bought in Thetford for Faction Points.",
+        "DE-DE": "Eine lokale Ressource, die in Thetford für Fraktionspunkte erhältlich ist",
+        "FR-FR": "Ressource locale qui peut être achetée à Thetford avec des points de Faction",
+        "RU-RU": "Местный ресурс, который можно купить в городе Thetford за очки фракции",
+        "PL-PL": "Lokalny surowiec, który można zakupić w Thetford za Punkty Frakcji",
+        "ES-ES": "Un recurso local que se puede comprar en Thetford con puntos de facción",
+        "PT-BR": "Um recurso local que pode ser comprado em Thetford por Pontos de Facção",
+        "IT-IT": "Una risorsa locale che si può acquistare a Thetford in cambio di punti fazione.",
+        "ZH-CN": "一种特产资源，可通过消耗阵营点数在 Thetford 购入。",
+        "KO-KR": "파벌 포인트로 Thetford에서 구매할 수 있는 지역 자원입니다",
+        "JA-JP": "派閥ポイントを使用してThetfordで購入可能な地域限定資源。",
+        "ZH-TW": "一種區域限定的資源，能在Thetford以陣營點數購入。",
+        "ID-ID": "Sumber daya yang bisa dibeli di Thetford untuk Poin Faksi.",
+        "TR-TR": "Thetford'da Beylik puanı karşılığında satın alınabilecek bir yerel kaynak.",
+        "AR-SA": "مورد محلي يمكن شراؤه بنقاط الفصائل في Thetford."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T1_FACTION_SWAMP_TOKEN_1",
+        "description_variable": "@ITEMS_T1_FACTION_SWAMP_TOKEN_1_DESC"
+      },
+      "origin": "Crafting/City_Resources/City_Resources_T1_FACTION_SWAMP_TOKEN_1.json",
+      "raw": {
+        "@uniquename": "T1_FACTION_SWAMP_TOKEN_1",
+        "@tier": "1",
+        "@weight": "2.56",
+        "@fasttravelfactor": "256",
+        "@maxstacksize": "999",
+        "@unlockedtocraft": "true",
+        "@shopcategory": "crafting",
+        "@shopsubcategory1": "cityresources",
+        "@shopsubcategory2": "vineheart",
+        "craftingrequirements": [
+          {
+            "@time": "0",
+            "@craftingfocus": "0",
+            "currency": {
+              "@uniquename": "FACTION_SWAMP",
+              "@amount": "3000"
+            }
+          },
+          {
+            "@silver": "5000",
+            "@time": "0",
+            "@craftingfocus": "0",
+            "craftresource": {
+              "@uniquename": "T1_FACTION_CAERLEON_TOKEN_1",
+              "@count": "1"
+            }
+          }
+        ]
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T1_FACTION_FOREST_TOKEN_1",
+      "index": "9948",
+      "category": "Crafting_City_Resources",
+      "slot": "Resource",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T1_FACTION_FOREST_TOKEN_1",
+        "item_database_index": "9948"
+      },
+      "tier": 1,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Treeheart",
+        "DE-DE": "Baumherz",
+        "FR-FR": "Sylvecœur",
+        "RU-RU": "Сердце древа",
+        "PL-PL": "Serce Drzewa",
+        "ES-ES": "Corazón de árbol",
+        "PT-BR": "Coração Arbóreo",
+        "IT-IT": "Cuore d'albero",
+        "ZH-CN": "树木之心",
+        "KO-KR": "트리하트",
+        "JA-JP": "ツリーハート",
+        "ZH-TW": "樹木之心",
+        "ID-ID": "Treeheart",
+        "TR-TR": "Ağaçkalp",
+        "AR-SA": "مادة الشجر"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "A local resource which can be bought in Lymhurst for Faction Points.",
+        "DE-DE": "Eine lokale Ressource, die in Lymhurst für Fraktionspunkte erhältlich ist",
+        "FR-FR": "Ressource locale qui peut être achetée à Lymhurst avec des points de Faction",
+        "RU-RU": "Местный ресурс, который можно купить в городе Lymhurst за очки фракции",
+        "PL-PL": "Lokalny surowiec, który można zakupić w Lymhurst za Punkty Frakcji",
+        "ES-ES": "Un recurso local que se puede comprar en Lymhurst con puntos de facción",
+        "PT-BR": "Um recurso local que pode ser comprado em Lymhurst por Pontos de Facção",
+        "IT-IT": "Una risorsa locale che si può acquistare a Lymhurst in cambio di punti fazione.",
+        "ZH-CN": "一种特产资源，可通过消耗阵营点数在 Lymhurst 购入。",
+        "KO-KR": "파벌 포인트로 Lymhurst에서 구매할 수 있는 지역 자원입니다",
+        "JA-JP": "派閥ポイントを使用してLymhurstで購入可能な地域限定資源。",
+        "ZH-TW": "一種區域限定的資源，能在Lymhurst以陣營點數購入。",
+        "ID-ID": "Sumber daya lokal yang bisa dibeli di Lymhurst untuk Poin Faksi.",
+        "TR-TR": "Lymhurst'te Beylik puanı karşılığında satın alınabilecek bir yerel kaynak.",
+        "AR-SA": "مورد محلي يمكن شراؤه بنقاط الفصائل في Lymhurst."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T1_FACTION_FOREST_TOKEN_1",
+        "description_variable": "@ITEMS_T1_FACTION_FOREST_TOKEN_1_DESC"
+      },
+      "origin": "Crafting/City_Resources/City_Resources_T1_FACTION_FOREST_TOKEN_1.json",
+      "raw": {
+        "@uniquename": "T1_FACTION_FOREST_TOKEN_1",
+        "@tier": "1",
+        "@weight": "2.56",
+        "@fasttravelfactor": "256",
+        "@maxstacksize": "999",
+        "@unlockedtocraft": "true",
+        "@shopcategory": "crafting",
+        "@shopsubcategory1": "cityresources",
+        "@shopsubcategory2": "treeheart",
+        "craftingrequirements": [
+          {
+            "@time": "0",
+            "@craftingfocus": "0",
+            "currency": {
+              "@uniquename": "FACTION_FOREST",
+              "@amount": "3000"
+            }
+          },
+          {
+            "@silver": "5000",
+            "@time": "0",
+            "@craftingfocus": "0",
+            "craftresource": {
+              "@uniquename": "T1_FACTION_CAERLEON_TOKEN_1",
+              "@count": "1"
+            }
+          }
+        ]
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T1_FACTION_MOUNTAIN_TOKEN_1",
+      "index": "9951",
+      "category": "Crafting_City_Resources",
+      "slot": "Resource",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T1_FACTION_MOUNTAIN_TOKEN_1",
+        "item_database_index": "9951"
+      },
+      "tier": 1,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Mountainheart",
+        "DE-DE": "Gebirgsherz",
+        "FR-FR": "Cimecœur",
+        "RU-RU": "Сердце горы",
+        "PL-PL": "Serce Góry",
+        "ES-ES": "Corazón de montaña",
+        "PT-BR": "Coração Montanhoso",
+        "IT-IT": "Cuore di montagna",
+        "ZH-CN": "山脉之心",
+        "KO-KR": "마운틴하트",
+        "JA-JP": "マウンテンハート",
+        "ZH-TW": "山脈之心",
+        "ID-ID": "Mountainheart",
+        "TR-TR": "Dağkalp",
+        "AR-SA": "مادة الجبل"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "A local resource which can be bought in Fort Sterling for Faction Points.",
+        "DE-DE": "Eine lokale Ressource, die in Fort Sterling für Fraktionspunkte erhältlich ist",
+        "FR-FR": "Ressource locale qui peut être achetée à Fort Sterling avec des points de Faction",
+        "RU-RU": "Местный ресурс, который можно купить в городе Fort Sterling за очки фракции",
+        "PL-PL": "Lokalny surowiec, który można zakupić w Fort Sterling za Punkty Frakcji",
+        "ES-ES": "Un recurso local que se puede comprar en Fort Sterling con puntos de facción",
+        "PT-BR": "Um recurso local que pode ser comprado em Fort Sterling por Pontos de Facção",
+        "IT-IT": "Una risorsa locale che si può acquistare a Fort Sterling in cambio di punti fazione.",
+        "ZH-CN": "一种特产资源，可通过消耗阵营点数在 Fort Sterling 购入。",
+        "KO-KR": "파벌 포인트로 Fort Sterling에서 구매할 수 있는 지역 자원입니다",
+        "JA-JP": "派閥ポイントを使用してFort Sterlingで購入可能な地域限定資源。",
+        "ZH-TW": "一種區域限定的資源，能在Fort Sterling以陣營點數購入。",
+        "ID-ID": "Sumber daya lokal yang bisa dibeli di Fort Sterling untuk Poin Faksi.",
+        "TR-TR": "Fort Sterling'de Beylik puanı karşılığında satın alınabilecek bir yerel kaynak.",
+        "AR-SA": "مورد محلي يمكن شراؤه بنقاط الفصائل في Fort Sterling."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T1_FACTION_MOUNTAIN_TOKEN_1",
+        "description_variable": "@ITEMS_T1_FACTION_MOUNTAIN_TOKEN_1_DESC"
+      },
+      "origin": "Crafting/City_Resources/City_Resources_T1_FACTION_MOUNTAIN_TOKEN_1.json",
+      "raw": {
+        "@uniquename": "T1_FACTION_MOUNTAIN_TOKEN_1",
+        "@tier": "1",
+        "@weight": "2.56",
+        "@fasttravelfactor": "256",
+        "@maxstacksize": "999",
+        "@unlockedtocraft": "true",
+        "@shopcategory": "crafting",
+        "@shopsubcategory1": "cityresources",
+        "@shopsubcategory2": "mountainheart",
+        "craftingrequirements": [
+          {
+            "@time": "0",
+            "@craftingfocus": "0",
+            "currency": {
+              "@uniquename": "FACTION_MOUNTAIN",
+              "@amount": "3000"
+            }
+          },
+          {
+            "@silver": "5000",
+            "@time": "0",
+            "@craftingfocus": "0",
+            "craftresource": {
+              "@uniquename": "T1_FACTION_CAERLEON_TOKEN_1",
+              "@count": "1"
+            }
+          }
+        ]
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T1_FACTION_HIGHLAND_TOKEN_1",
+      "index": "9949",
+      "category": "Crafting_City_Resources",
+      "slot": "Resource",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T1_FACTION_HIGHLAND_TOKEN_1",
+        "item_database_index": "9949"
+      },
+      "tier": 1,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Rockheart",
+        "DE-DE": "Felsherz",
+        "FR-FR": "Rochecœur",
+        "RU-RU": "Сердце камня",
+        "PL-PL": "Serce Kamienia",
+        "ES-ES": "Corazón de piedra",
+        "PT-BR": "Coração Empedrado",
+        "IT-IT": "Cuore di pietra",
+        "ZH-CN": "岩石之心",
+        "KO-KR": "록하트",
+        "JA-JP": "ロックハート",
+        "ZH-TW": "岩石之心",
+        "ID-ID": "Rockheart",
+        "TR-TR": "Kayakalp",
+        "AR-SA": "مادة الصخر"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "A local resource which can be bought in Martlock for Faction Points.",
+        "DE-DE": "Eine lokale Ressource, die in Martlock für Fraktionspunkte erhältlich ist",
+        "FR-FR": "Ressource locale qui peut être achetée à Martlock avec des points de Faction",
+        "RU-RU": "Местный ресурс, который можно купить в городе Martlock за очки фракции",
+        "PL-PL": "Lokalny surowiec, który można zakupić w Martlock za Punkty Frakcji",
+        "ES-ES": "Un recurso local que se puede comprar en Martlock con puntos de facción",
+        "PT-BR": "Um recurso local que pode ser comprado em Martlock por Pontos de Facção",
+        "IT-IT": "Una risorsa locale che si può acquistare a Martlock in cambio di punti fazione.",
+        "ZH-CN": "一种特产资源，可通过消耗阵营点数在 Martlock 购入。",
+        "KO-KR": "파벌 포인트로 Martlock에서 구매할 수 있는 지역 자원입니다",
+        "JA-JP": "派閥ポイントを使用してMartlockで購入可能な地域限定資源。",
+        "ZH-TW": "一種區域限定的資源，能在Martlock以陣營點數購入。",
+        "ID-ID": "Sumber daya lokal yang bisa dibeli di Martlock untuk Poin Faksi.",
+        "TR-TR": "Martlock'ta Beylik puanı karşılığında satın alınabilecek bir yerel kaynak.",
+        "AR-SA": "مورد محلي يمكن شراؤه بنقاط الفصائل في Martlock."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T1_FACTION_HIGHLAND_TOKEN_1",
+        "description_variable": "@ITEMS_T1_FACTION_HIGHLAND_TOKEN_1_DESC"
+      },
+      "origin": "Crafting/City_Resources/City_Resources_T1_FACTION_HIGHLAND_TOKEN_1.json",
+      "raw": {
+        "@uniquename": "T1_FACTION_HIGHLAND_TOKEN_1",
+        "@tier": "1",
+        "@weight": "2.56",
+        "@fasttravelfactor": "256",
+        "@maxstacksize": "999",
+        "@unlockedtocraft": "true",
+        "@shopcategory": "crafting",
+        "@shopsubcategory1": "cityresources",
+        "@shopsubcategory2": "rockheart",
+        "craftingrequirements": [
+          {
+            "@time": "0",
+            "@craftingfocus": "0",
+            "currency": {
+              "@uniquename": "FACTION_HIGHLAND",
+              "@amount": "3000"
+            }
+          },
+          {
+            "@silver": "5000",
+            "@time": "0",
+            "@craftingfocus": "0",
+            "craftresource": {
+              "@uniquename": "T1_FACTION_CAERLEON_TOKEN_1",
+              "@count": "1"
+            }
+          }
+        ]
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T1_FACTION_STEPPE_TOKEN_1",
+      "index": "9950",
+      "category": "Crafting_City_Resources",
+      "slot": "Resource",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T1_FACTION_STEPPE_TOKEN_1",
+        "item_database_index": "9950"
+      },
+      "tier": 1,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Beastheart",
+        "DE-DE": "Biesterherz",
+        "FR-FR": "Fauvecœur",
+        "RU-RU": "Сердце зверя",
+        "PL-PL": "Serce Bestii",
+        "ES-ES": "Corazón de bestia",
+        "PT-BR": "Coração Bestial",
+        "IT-IT": "Cuore di bestia",
+        "ZH-CN": "野兽之心",
+        "KO-KR": "비스트하트",
+        "JA-JP": "ビーストハート",
+        "ZH-TW": "野獸之心",
+        "ID-ID": "Beastheart",
+        "TR-TR": "Yırtıcıkalp",
+        "AR-SA": "مادة الحيوانات"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "A local resource which can be bought in Bridgewatch for Faction Points.",
+        "DE-DE": "Eine lokale Ressource, die in Bridgewatch für Fraktionspunkte erhältlich ist",
+        "FR-FR": "Ressource locale qui peut être achetée à Bridgewatch avec des points de Faction",
+        "RU-RU": "Местный ресурс, который можно купить в городе Bridgewatch за очки фракции",
+        "PL-PL": "Lokalny surowiec, który można zakupić w Bridgewatch za Punkty Frakcji",
+        "ES-ES": "Un recurso local que se puede comprar en Bridgewatch con puntos de facción",
+        "PT-BR": "Um recurso local que pode ser comprado em Bridgewatch por Pontos de Facção",
+        "IT-IT": "Una risorsa locale che si può acquistare a Bridgewatch in cambio di punti fazione.",
+        "ZH-CN": "一种特产资源，可通过消耗阵营点数在 Bridgewatch 购入。",
+        "KO-KR": "파벌 포인트로 Bridgewatch에서 구매할 수 있는 지역 자원입니다",
+        "JA-JP": "派閥ポイントを使用してBridgewatchで購入可能な地域限定資源。",
+        "ZH-TW": "一種區域限定的資源，能在Bridgewatch以陣營點數購入。",
+        "ID-ID": "Sumber daya lokal yang bisa dibeli di Bridgewatch untuk Poin Faksi.",
+        "TR-TR": "Bridgewatch'ta Beylik puanı karşılığında satın alınabilecek bir yerel kaynak.",
+        "AR-SA": "مورد محلي يمكن شراؤه بنقاط الفصائل في Bridgewatch."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T1_FACTION_STEPPE_TOKEN_1",
+        "description_variable": "@ITEMS_T1_FACTION_STEPPE_TOKEN_1_DESC"
+      },
+      "origin": "Crafting/City_Resources/City_Resources_T1_FACTION_STEPPE_TOKEN_1.json",
+      "raw": {
+        "@uniquename": "T1_FACTION_STEPPE_TOKEN_1",
+        "@tier": "1",
+        "@weight": "2.56",
+        "@fasttravelfactor": "256",
+        "@maxstacksize": "999",
+        "@unlockedtocraft": "true",
+        "@shopcategory": "crafting",
+        "@shopsubcategory1": "cityresources",
+        "@shopsubcategory2": "beastheart",
+        "craftingrequirements": [
+          {
+            "@time": "0",
+            "@craftingfocus": "0",
+            "currency": {
+              "@uniquename": "FACTION_STEPPE",
+              "@amount": "3000"
+            }
+          },
+          {
+            "@silver": "5000",
+            "@time": "0",
+            "@craftingfocus": "0",
+            "craftresource": {
+              "@uniquename": "T1_FACTION_CAERLEON_TOKEN_1",
+              "@count": "1"
+            }
+          }
+        ]
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T1_FACTION_CAERLEON_TOKEN_1",
+      "index": "9953",
+      "category": "Crafting_City_Resources",
+      "slot": "Resource",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T1_FACTION_CAERLEON_TOKEN_1",
+        "item_database_index": "9953"
+      },
+      "tier": 1,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Shadowheart",
+        "DE-DE": "Schattenherz",
+        "FR-FR": "Ombrecœur",
+        "RU-RU": "Теневое сердце",
+        "PL-PL": "Serce Cienia",
+        "ES-ES": "Corazón sombrío",
+        "PT-BR": "Coração Sombrio",
+        "IT-IT": "Cuore d'ombra",
+        "ZH-CN": "暗影之心",
+        "KO-KR": "섀도우하트",
+        "JA-JP": "シャドウハート",
+        "ZH-TW": "暗影之心",
+        "ID-ID": "Shadowheart",
+        "TR-TR": "Gölgekalp",
+        "AR-SA": "روح الظلام"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "A local resource which can be bought in Caerleon for Faction Points. This is used in some crafting recipes or can be exchanged for another Faction's resources in that Faction's city.",
+        "DE-DE": "Eine lokale Ressource, die in Caerleon mit Fraktionspunkten erworben werden kann. Wird genutzt für manche Handwerksrezepte und kann gegen andere Fraktionsressourcen in den entsprechenden Fraktionsstädten eingetauscht werden.",
+        "FR-FR": "Une ressource locale qui peut être achetée à Caerleon contre des points de faction. Elle est utilisé dans certaines recettes d'artisanat ou peut être échangée contre les ressources d'une autre faction dans la ville de celle-ci.",
+        "RU-RU": "Местный ресурс, который можно купить в городе Caerleon за очки фракции. Используется в крафте, а также его можно обменять на ресурсы другой фракции в соответствующем городе.",
+        "PL-PL": "Lokalny surowiec, który można zakupić w Caerleon za Punkty Frakcji. Jest on wykorzystywany w niektórych przepisach rzemieślniczych, może być też wymieniony za surowce innej Frakcji miejskiej w jej mieście.",
+        "ES-ES": "Un recurso local que se puede comprar en Caerleon con puntos de facción. Este se usa en algunas recetas de fabricación o se puede intercambiar por los recursos de otra Facción en la ciudad de esa Facción.",
+        "PT-BR": "Um recurso local que pode ser comprado em Caerleon por Pontos de Facção. Isso é usado em algumas receitas de fabricação ou pode ser trocado por recursos de outra Facção na cidade dessa Facção.",
+        "IT-IT": "Una risorsa locale che si può acquistare a Caerleon in cambio di punti fazione. Può rivelarsi utile per alcune ricette di creazione, oppure si può scambiare per risorse di un'altra fazione nella città di quella fazione.",
+        "ZH-CN": "一种特产资源，可通过消耗阵营点数在 Caerleon 购入，可作为材料用于某些工艺制作图谱中，也可以在其他阵营的城市中交换该阵营的资源。",
+        "KO-KR": "파벌 포인트로 Caerleon에서 구매할 수 있는 지역 자원입니다. 이것은 어떤 제조에 사용되거나 다른 파벌의 도시에 있는 다른 파벌의 자원으로 교환할 수 있습니다.",
+        "JA-JP": "派閥ポイントを使用してCaerleonで購入可能な地域限定資源。これは製造のレシピで使用したり、他の派閥の街における派閥の資源と交換が可能です。",
+        "ZH-TW": "一種區域限定的資源，能在Caerleon以陣營點數購入。此資源可用來製作部分物品，或在其他陣營的城市交換該陣營的資源。",
+        "ID-ID": "Sumber daya lokal yang bisa dibeli di Caerleon untuk Poin Faksi. Ini digunakan untuk membuat resep atau bisa ditukar dengan sumber daya Faksi lain di kota Faksi tersebut.",
+        "TR-TR": "Caerleon'da Beylik puanı karşılığında satın alınabilecek bir yerel kaynak. Bazı zanaat tariflerinde kullanılabilir veya başka bir beyliğin kaynakları için o beyliğin şehrinden takas edilebilir.",
+        "AR-SA": "مورد محلي يمكن شراؤه بنقاط الفصائل في Caerleon. يُستخدم في تصنيع بعض الوصفات أو يمكن مبادلته بموارد أخرى للفصيل في مدينة الفصيل تلك."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T1_FACTION_CAERLEON_TOKEN_1",
+        "description_variable": "@ITEMS_T1_FACTION_CAERLEON_TOKEN_1_DESC"
+      },
+      "origin": "Crafting/City_Resources/City_Resources_T1_FACTION_CAERLEON_TOKEN_1.json",
+      "raw": {
+        "@uniquename": "T1_FACTION_CAERLEON_TOKEN_1",
+        "@tier": "1",
+        "@weight": "2.56",
+        "@fasttravelfactor": "256",
+        "@maxstacksize": "999",
+        "@unlockedtocraft": "true",
+        "@shopcategory": "crafting",
+        "@shopsubcategory1": "cityresources",
+        "@shopsubcategory2": "blackheart",
+        "craftingrequirements": {
+          "@time": "0",
+          "@craftingfocus": "0",
+          "currency": {
+            "@uniquename": "FACTION_CAERLEON",
+            "@amount": "3000"
+          }
+        }
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    }
+  ]
+}

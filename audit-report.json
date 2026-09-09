@@ -1,0 +1,10 @@
+{
+  "input_json_files": 4670,
+  "input_items": 9968,
+  "unique_ids": 9968,
+  "exact_duplicate_item_records": 0,
+  "output_shards": 82,
+  "raw_preserved": 9347,
+  "attributes_only": 621,
+  "source_file_metadata_preserved": 4670
+}

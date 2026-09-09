@@ -1,0 +1,3541 @@
+{
+  "version": 1,
+  "item_count": 38,
+  "items": [
+    {
+      "id": "T7_ALCHEMY_RARE_WEREWOLF",
+      "index": "1986",
+      "category": "Crafting_Alchemy",
+      "slot": "Resource",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T7_ALCHEMY_RARE_WEREWOLF",
+        "item_database_index": "1986"
+      },
+      "tier": 7,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Excellent Werewolf Fangs",
+        "DE-DE": "Exzellente Werwolfzähne",
+        "FR-FR": "Crocs de loup-garou excellents",
+        "RU-RU": "Превосходные клыки вервольфа",
+        "PL-PL": "Wspaniałe Pazury Wilkołaka",
+        "ES-ES": "Colmillos de hombre lobo excelentes",
+        "PT-BR": "Presas de Lobisomem Excelentes",
+        "IT-IT": "Zanne di licantropo eccellenti",
+        "ZH-CN": "无瑕的狼人獠牙",
+        "KO-KR": "우수한 늑대인간 송곳니",
+        "JA-JP": "エクセレントなウェアウルフの牙",
+        "ZH-TW": "無瑕的狼人獠牙",
+        "ID-ID": "Taring Manusia Serigala Sangat Baik",
+        "TR-TR": "Fevkalade Kurt Adam Dişleri",
+        "AR-SA": "أنياب المستذئب الممتازة"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Parts of magical animals used as rare alchemical ingredients to create powerful Potions or as parts of the Shapeshifter weapons",
+        "DE-DE": "Teile von magischen Tieren werden als seltene alchemistische Zutaten genutzt, um daraus mächtige Tränke herzustellen, oder auch als Kernelement einer Gestaltwandler-Waffe.",
+        "FR-FR": "Des parties d'animaux magiques utilisées comme ingrédients alchimiques rares pour créer de puissantes potions ou comme pièces pour les armes de changeforme",
+        "RU-RU": "Останки магических животных, используемые как редкие алхимические ингредиенты для создания мощных зелий или в качестве частей оружия оборотней",
+        "PL-PL": "Części magicznych stworzeń wykorzystywane jako składniki do wytwarzania potężnych Mikstur lub jako elementy Broni Zmiennokształtnych",
+        "ES-ES": "Partes de animales mágicos utilizadas como ingredientes alquímicos raros para crear poderosas pociones o como partes para las armas de cambiaformas",
+        "PT-BR": "Partes de animais mágicos usados como ingredientes alquímicos raros para criar Poções poderosas ou como partes das Armas de Metamorfos",
+        "IT-IT": "Parti di animali magici utilizzate come ingredienti alchemici rari per creare potenti Pozioni o come parti delle armi del Mutaforma",
+        "ZH-CN": "具有魔法特性的动物残骸，可以做为稀有炼金材料来制造强大的药水，或作为幻形者武器的一部分材料",
+        "KO-KR": "강력한 포션을 만들기 위한 희귀한 연금술 재료나 셰이프시프터 무기의 부품으로 사용되는 마법 동물의 일부입니다",
+        "JA-JP": "強力なポーションを作るための希少な錬金術の材料として、あるいはシェイプシフターの武器の部品として使われる魔法動物の部位。",
+        "ZH-TW": "具有魔法特性的動物殘骸，可以做為稀有煉金材料來製造強大的藥水，或作為幻形者武器的一部分材料",
+        "ID-ID": "Bagian dari hewan sihir yang digunakan sebagai bahan alkimia langka untuk meramu Ramuan kuat atau sebagai bagian dari senjata Malih Rupa",
+        "TR-TR": "Güçlü iksirler üretmede bileşen veya Şekil Değiştiren silahlarında parça olarak kullanılabilen sihirli hayvan parçaları.",
+        "AR-SA": "أجزاء من حيوانات سحرية تُستخدم كمكونات كيميائية لصنع جرعات قوية أو لتكوّن أجزاء أسلحة المتحول"
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T7_ALCHEMY_RARE_WEREWOLF",
+        "description_variable": "@ITEMS_ALCHEMY_RARE_DESC"
+      },
+      "origin": "Crafting/Alchemy/Alchemy_T7_ALCHEMY_RARE_WEREWOLF.json",
+      "raw": {
+        "@uniquename": "T7_ALCHEMY_RARE_WEREWOLF",
+        "@tier": "7",
+        "@weight": "0.05",
+        "@maxstacksize": "999",
+        "@resourcetype": "ESSENCE",
+        "@shopcategory": "crafting",
+        "@shopsubcategory1": "alchemy",
+        "@unlockedtocraft": "true",
+        "@descriptionlocatag": "@ITEMS_ALCHEMY_RARE_DESC",
+        "@shopsubcategory2": "remains_werewolf"
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T5_ALCHEMY_RARE_ELEMENTAL",
+      "index": "1991",
+      "category": "Crafting_Alchemy",
+      "slot": "Resource",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": {
+        "primary_resource": "T7_ALCHEMY_RARE_ELEMENTAL",
+        "primary_count": 1,
+        "secondary_resource": "",
+        "secondary_count": 0,
+        "resources": [
+          {
+            "id": "T7_ALCHEMY_RARE_ELEMENTAL",
+            "count": 1
+          }
+        ]
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T5_ALCHEMY_RARE_ELEMENTAL",
+        "item_database_index": "1991"
+      },
+      "tier": 5,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Fine Runestone Tooth",
+        "DE-DE": "Feiner Runensteinzahn",
+        "FR-FR": "Dent de pierre runique délicate",
+        "RU-RU": "Отличная зубчатая руна",
+        "PL-PL": "Porządny Runiczny Ząb",
+        "ES-ES": "Diente de piedra rúnica fino",
+        "PT-BR": "Dente de Pedra Rúnica Fino",
+        "IT-IT": "Dente della pietra runica pregiato",
+        "ZH-CN": "良好的符石牙齿",
+        "KO-KR": "질 좋은 룬스톤 톱니",
+        "JA-JP": "名なルーンストーンの歯",
+        "ZH-TW": "良好的符石牙齒",
+        "ID-ID": "Gigi Batu Simbol Baik",
+        "TR-TR": "Kaliteli Rün Taşı Dişi",
+        "AR-SA": "سن الحجر الروني الجميل"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Parts of magical animals used as rare alchemical ingredients to create powerful Potions or as parts of the Shapeshifter weapons",
+        "DE-DE": "Teile von magischen Tieren werden als seltene alchemistische Zutaten genutzt, um daraus mächtige Tränke herzustellen, oder auch als Kernelement einer Gestaltwandler-Waffe.",
+        "FR-FR": "Des parties d'animaux magiques utilisées comme ingrédients alchimiques rares pour créer de puissantes potions ou comme pièces pour les armes de changeforme",
+        "RU-RU": "Останки магических животных, используемые как редкие алхимические ингредиенты для создания мощных зелий или в качестве частей оружия оборотней",
+        "PL-PL": "Części magicznych stworzeń wykorzystywane jako składniki do wytwarzania potężnych Mikstur lub jako elementy Broni Zmiennokształtnych",
+        "ES-ES": "Partes de animales mágicos utilizadas como ingredientes alquímicos raros para crear poderosas pociones o como partes para las armas de cambiaformas",
+        "PT-BR": "Partes de animais mágicos usados como ingredientes alquímicos raros para criar Poções poderosas ou como partes das Armas de Metamorfos",
+        "IT-IT": "Parti di animali magici utilizzate come ingredienti alchemici rari per creare potenti Pozioni o come parti delle armi del Mutaforma",
+        "ZH-CN": "具有魔法特性的动物残骸，可以做为稀有炼金材料来制造强大的药水，或作为幻形者武器的一部分材料",
+        "KO-KR": "강력한 포션을 만들기 위한 희귀한 연금술 재료나 셰이프시프터 무기의 부품으로 사용되는 마법 동물의 일부입니다",
+        "JA-JP": "強力なポーションを作るための希少な錬金術の材料として、あるいはシェイプシフターの武器の部品として使われる魔法動物の部位。",
+        "ZH-TW": "具有魔法特性的動物殘骸，可以做為稀有煉金材料來製造強大的藥水，或作為幻形者武器的一部分材料",
+        "ID-ID": "Bagian dari hewan sihir yang digunakan sebagai bahan alkimia langka untuk meramu Ramuan kuat atau sebagai bagian dari senjata Malih Rupa",
+        "TR-TR": "Güçlü iksirler üretmede bileşen veya Şekil Değiştiren silahlarında parça olarak kullanılabilen sihirli hayvan parçaları.",
+        "AR-SA": "أجزاء من حيوانات سحرية تُستخدم كمكونات كيميائية لصنع جرعات قوية أو لتكوّن أجزاء أسلحة المتحول"
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T5_ALCHEMY_RARE_ELEMENTAL",
+        "description_variable": "@ITEMS_ALCHEMY_RARE_DESC"
+      },
+      "origin": "Crafting/Alchemy/Alchemy_T5_ALCHEMY_RARE_ELEMENTAL.json",
+      "raw": {
+        "@uniquename": "T5_ALCHEMY_RARE_ELEMENTAL",
+        "@tier": "5",
+        "@weight": "0.05",
+        "@maxstacksize": "999",
+        "@resourcetype": "ESSENCE",
+        "@shopcategory": "crafting",
+        "@shopsubcategory1": "alchemy",
+        "@unlockedtocraft": "true",
+        "@descriptionlocatag": "@ITEMS_ALCHEMY_RARE_DESC",
+        "@shopsubcategory2": "remains_elemental",
+        "craftingrequirements": {
+          "@amountcrafted": "2",
+          "craftresource": {
+            "@uniquename": "T7_ALCHEMY_RARE_ELEMENTAL",
+            "@count": "1",
+            "@maxreturnamount": "0"
+          }
+        }
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T7_ALCHEMY_RARE_DIREBEAR",
+      "index": "1983",
+      "category": "Crafting_Alchemy",
+      "slot": "Resource",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T7_ALCHEMY_RARE_DIREBEAR",
+        "item_database_index": "1983"
+      },
+      "tier": 7,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Excellent Spirit Paws",
+        "DE-DE": "Exzellente Geisterpfoten",
+        "FR-FR": "Pattes d'esprit excellentes",
+        "RU-RU": "Превосходные лапы духа медведя",
+        "PL-PL": "Wspaniałe Duchowe Łapy",
+        "ES-ES": "Patas de espíritu excelentes",
+        "PT-BR": "Patas Espirituais Excelentes",
+        "IT-IT": "Zampe spirituali eccellenti",
+        "ZH-CN": "无瑕的灵性之爪",
+        "KO-KR": "우수한 정령 앞발",
+        "JA-JP": "エクセレントなスピリットポウ",
+        "ZH-TW": "無瑕的靈性之爪",
+        "ID-ID": "Kaki Roh Sangat Baik",
+        "TR-TR": "Fevkalade Ruh Pençeleri",
+        "AR-SA": "مخالب الروح الممتازة"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Parts of magical animals used as rare alchemical ingredients to create powerful Potions or as parts of the Shapeshifter weapons",
+        "DE-DE": "Teile von magischen Tieren werden als seltene alchemistische Zutaten genutzt, um daraus mächtige Tränke herzustellen, oder auch als Kernelement einer Gestaltwandler-Waffe.",
+        "FR-FR": "Des parties d'animaux magiques utilisées comme ingrédients alchimiques rares pour créer de puissantes potions ou comme pièces pour les armes de changeforme",
+        "RU-RU": "Останки магических животных, используемые как редкие алхимические ингредиенты для создания мощных зелий или в качестве частей оружия оборотней",
+        "PL-PL": "Części magicznych stworzeń wykorzystywane jako składniki do wytwarzania potężnych Mikstur lub jako elementy Broni Zmiennokształtnych",
+        "ES-ES": "Partes de animales mágicos utilizadas como ingredientes alquímicos raros para crear poderosas pociones o como partes para las armas de cambiaformas",
+        "PT-BR": "Partes de animais mágicos usados como ingredientes alquímicos raros para criar Poções poderosas ou como partes das Armas de Metamorfos",
+        "IT-IT": "Parti di animali magici utilizzate come ingredienti alchemici rari per creare potenti Pozioni o come parti delle armi del Mutaforma",
+        "ZH-CN": "具有魔法特性的动物残骸，可以做为稀有炼金材料来制造强大的药水，或作为幻形者武器的一部分材料",
+        "KO-KR": "강력한 포션을 만들기 위한 희귀한 연금술 재료나 셰이프시프터 무기의 부품으로 사용되는 마법 동물의 일부입니다",
+        "JA-JP": "強力なポーションを作るための希少な錬金術の材料として、あるいはシェイプシフターの武器の部品として使われる魔法動物の部位。",
+        "ZH-TW": "具有魔法特性的動物殘骸，可以做為稀有煉金材料來製造強大的藥水，或作為幻形者武器的一部分材料",
+        "ID-ID": "Bagian dari hewan sihir yang digunakan sebagai bahan alkimia langka untuk meramu Ramuan kuat atau sebagai bagian dari senjata Malih Rupa",
+        "TR-TR": "Güçlü iksirler üretmede bileşen veya Şekil Değiştiren silahlarında parça olarak kullanılabilen sihirli hayvan parçaları.",
+        "AR-SA": "أجزاء من حيوانات سحرية تُستخدم كمكونات كيميائية لصنع جرعات قوية أو لتكوّن أجزاء أسلحة المتحول"
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T7_ALCHEMY_RARE_DIREBEAR",
+        "description_variable": "@ITEMS_ALCHEMY_RARE_DESC"
+      },
+      "origin": "Crafting/Alchemy/Alchemy_T7_ALCHEMY_RARE_DIREBEAR.json",
+      "raw": {
+        "@uniquename": "T7_ALCHEMY_RARE_DIREBEAR",
+        "@tier": "7",
+        "@weight": "0.05",
+        "@maxstacksize": "999",
+        "@resourcetype": "ESSENCE",
+        "@shopcategory": "crafting",
+        "@shopsubcategory1": "alchemy",
+        "@unlockedtocraft": "true",
+        "@uisprite": "ALCHEMY_RARE_BEAR",
+        "@descriptionlocatag": "@ITEMS_ALCHEMY_RARE_DESC",
+        "@shopsubcategory2": "remains_direbear"
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T8_ESSENCE",
+      "index": "2036",
+      "category": "Crafting_Alchemy",
+      "slot": "Resource",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T8_ESSENCE",
+        "item_database_index": "2036"
+      },
+      "tier": 8,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Elder's Faded Essence",
+        "DE-DE": "Verblasste Essenz des Ältesten",
+        "FR-FR": "Essence ternie du sage",
+        "RU-RU": "Угасшая эссенция (старейшина)",
+        "PL-PL": "Wyblakła Esencja Starszego",
+        "ES-ES": "Escancia debilitada del Anciano",
+        "PT-BR": "Essência Enfraquecida do Ancião",
+        "IT-IT": "Essenza sbiadita dell'anziano",
+        "ZH-CN": "禅师级过期精华",
+        "KO-KR": "장로의 희미해진 정수",
+        "JA-JP": "色褪せたエッセンス（老熟）",
+        "ZH-TW": "禪師級黯淡精華",
+        "ID-ID": "Esens Pudar Tetua",
+        "TR-TR": "Yüce Solmuş Özütü",
+        "AR-SA": "الجوهر المتلاشي للحكيم"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "This essence has passed its use-by date. It can be combined with others like it at an Artifact Foundry.",
+        "DE-DE": "Diese Essenz hat ihr Verbrauchsdatum überschritten. Sie kann mit weiteren, ähnlichen Essenzen in einer Artefaktschmiede kombiniert werden",
+        "FR-FR": "Cette essence est périmée. Elle peut être utilisée avec d'autres similaires dans une fonderie d'artefact.",
+        "RU-RU": "Дни эссенции давно минули. Ее можно совместить с другими подобными в мастерской артефактов.",
+        "PL-PL": "Ta esencja nie nadaje się do użytku - według daty na opakowaniu. Można łączyć ją z takimi samymi esencjami w Budynku Łączenia",
+        "ES-ES": "Esta esencia ya no es válida. Se puede combinar con otras de su tipo en una fundición de artefactos",
+        "PT-BR": "Essa essência passou da validade. Ela pode ser combinada com outras do seu tipo em uma Fusão de Artefato",
+        "IT-IT": "La data di scadenza di questa essenza è già passata. Si può combinare con oggetti simili presso una Fucina di Manufatti.",
+        "ZH-CN": "这个精华已经过了使用期限，可以带到神器铸造店，与其他精华混合。",
+        "KO-KR": "이 정수는 사용 기한이 지났습니다. 아티팩트 공장에서 같은 것들과 결합할 수 있습니다.",
+        "JA-JP": "このエッセンスは使用期限が切れています。アーティファクト工房で、他の類似品と組み合わせが可能です。",
+        "ZH-TW": "此精華已經超過使用期限。在神器鍛造所，您可以將所有過期精華融為一體。",
+        "ID-ID": "Esens ini telah melewati masa pakainya. Bisa digabungkan dengan yang serupa di Bengkel Artefak.",
+        "TR-TR": "Bu Özüt'ün son kullanım tarihi geçmiş durumdadır. Bir Eser Dökümhanesi'nde kendisi gibi olan Özütlerle birleştirilebilir.",
+        "AR-SA": "انتهى تاريخ صلاحية هذا الجوهر. يمكن دمجه مع أشباهه في المسبك."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T8_ESSENCE",
+        "description_variable": "@ITEMS_T8_ESSENCE_DESC"
+      },
+      "origin": "Crafting/Alchemy/Alchemy_T8_ESSENCE.json",
+      "raw": {
+        "@uniquename": "T8_ESSENCE",
+        "@tier": "8",
+        "@weight": "1",
+        "@maxstacksize": "999",
+        "@resourcetype": "ESSENCE",
+        "@shopcategory": "crafting",
+        "@shopsubcategory1": "alchemy",
+        "@uisprite": "JEWEL",
+        "@unlockedtocraft": "true",
+        "@shopsubcategory2": "essence",
+        "@uicraftsoundstart": "Play_ui_action_meld_load",
+        "@uicraftsoundfinish": "Play_ui_action_meld"
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T4_ESSENCE_POTION",
+      "index": "2003",
+      "category": "Crafting_Alchemy",
+      "slot": "Resource",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": "0.1",
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T4_ESSENCE_POTION",
+        "item_database_index": "2003"
+      },
+      "tier": 4,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Adept's Arcane Essence",
+        "DE-DE": "Arkane Essenz des Adepten",
+        "FR-FR": "Essence arcanique de l'adepte",
+        "RU-RU": "Мистическая эссенция (знаток)",
+        "PL-PL": "Tajemna Esencja Adepta",
+        "ES-ES": "Esencia arcana del iniciado",
+        "PT-BR": "Essência Arcana do Adepto",
+        "IT-IT": "Essenza arcana del sapiente",
+        "ZH-CN": "老手级奥术精华",
+        "KO-KR": "숙련자의 아케인 정수",
+        "JA-JP": "アーケインのエッセンス（名人）",
+        "ZH-TW": "老手級祕術精華",
+        "ID-ID": "Esens Arcane Mahir",
+        "TR-TR": "Ehil Arkana Özütü",
+        "AR-SA": "جوهر الساحر للغامض"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "A magical essence that has outlived its usefulness. It can be salvaged for Silver at the Artifact Foundry.",
+        "DE-DE": "Eine magische Essenz, die ihre Nützlichkeit verloren hat. Sie kann in der Artefaktschmiede für Silber wiederverwertet werden.",
+        "FR-FR": "Une essence magique qui n'a plus d'utilité. Elle peut être recyclée contre de l'argent à la Fonderie d'artefact.",
+        "RU-RU": "Магическая эссенция, утратившая свою силу. Ее можно разобрать на серебро в мастерской артефактов.",
+        "PL-PL": "Magiczna esencja, która przeżyła swój termin przydatności. Możesz odzyskać z niej srebro w Kuźni Artefaktów",
+        "ES-ES": "Una esencia mágica que ya no sirve para nada. Se puede reciclar a cambio de plata en la Fundición de artefactos.",
+        "PT-BR": "Uma essência mágica que viveu mais do que foi útil. Pode ser reciclada por prata na Fundição de Artefatos.",
+        "IT-IT": "Un'essenza magica che ha esaurito la sua utilità. Può essere riciclata per argento alla Fucina di Manufatti.",
+        "ZH-CN": "一种神奇的魔法精华，但时光的流逝已经使它不再有用。可以在神器铸造店分解以获得银币。",
+        "KO-KR": "오래되어 사용할 수 없게 된 마법의 정수입니다. 아티팩트 제작소에서 회수하여 실버를 획득할 수 있습니다.",
+        "JA-JP": "使い古された魔法のエッセンス。アーティファクト工房でシルバーに換金できる。",
+        "ZH-TW": "一種神奇的魔法精華，但時光的流逝已經使它不再有用。可以在神器鍛造所分解以獲得銀幣。",
+        "ID-ID": "Esens magis yang telah melampaui kegunaannya. Dapat di daur ulang untuk mendapatkan perak di Bengkel Artefak.",
+        "TR-TR": "Kullanışlığını yitirmiş büyülü bir öz. Eser Dökümhanesi'nde Gümüş karşılığında geri dönüştürülebilir.",
+        "AR-SA": "جوهر سحري تجاوز فائدته. يمكن تفكيكها مقابل الفضة في المسبك."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T4_ESSENCE_POTION",
+        "description_variable": "@ITEMS_T4_ESSENCE_POTION_DESC"
+      },
+      "origin": "Crafting/Alchemy/Alchemy_T4_ESSENCE_POTION.json",
+      "raw": {
+        "@uniquename": "T4_ESSENCE_POTION",
+        "@tier": "4",
+        "@weight": "0.05",
+        "@maxstacksize": "999",
+        "@resourcetype": "ESSENCE",
+        "@shopcategory": "crafting",
+        "@shopsubcategory1": "alchemy",
+        "@uisprite": "FRAGMENT_BLUE_F1",
+        "@unlockedtocraft": "true",
+        "@itemvalue": "0.1",
+        "@salvageable": "true",
+        "@shopsubcategory2": "essence",
+        "@uicraftsoundstart": "Play_ui_action_meld_load",
+        "@uicraftsoundfinish": "Play_ui_action_meld",
+        "craftingrequirements": {
+          "@time": "0.01",
+          "@silver": "0",
+          "@salvageitemfactor": "0",
+          "@salvagesilverfactor": "5"
+        }
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T7_ALCHEMY_RARE_EAGLE",
+      "index": "1995",
+      "category": "Crafting_Alchemy",
+      "slot": "Resource",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T7_ALCHEMY_RARE_EAGLE",
+        "item_database_index": "1995"
+      },
+      "tier": 7,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Excellent Dawnfeather",
+        "DE-DE": "Exzellente Morgenfeder",
+        "FR-FR": "Plume de l'aube excellente",
+        "RU-RU": "Превосходное перо рассвета",
+        "PL-PL": "Wspaniałe Pióro Brzasku",
+        "ES-ES": "Pluma de alba excelente",
+        "PT-BR": "Pena da Alvorada Excelente",
+        "IT-IT": "Piuma d'alba eccellente",
+        "ZH-CN": "无瑕的黎明羽毛",
+        "KO-KR": "우수한 던버드 깃털",
+        "JA-JP": "エクセレントなドーンフェザー",
+        "ZH-TW": "無瑕的黎明羽毛",
+        "ID-ID": "Bulu Burung Fajar Sangat Baik",
+        "TR-TR": "Fevkalade Şafak Tüyü",
+        "AR-SA": "ريشة ممتازة"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Parts of magical animals used as rare alchemical ingredients to create powerful Potions or as parts of the Shapeshifter weapons",
+        "DE-DE": "Teile von magischen Tieren werden als seltene alchemistische Zutaten genutzt, um daraus mächtige Tränke herzustellen, oder auch als Kernelement einer Gestaltwandler-Waffe.",
+        "FR-FR": "Des parties d'animaux magiques utilisées comme ingrédients alchimiques rares pour créer de puissantes potions ou comme pièces pour les armes de changeforme",
+        "RU-RU": "Останки магических животных, используемые как редкие алхимические ингредиенты для создания мощных зелий или в качестве частей оружия оборотней",
+        "PL-PL": "Części magicznych stworzeń wykorzystywane jako składniki do wytwarzania potężnych Mikstur lub jako elementy Broni Zmiennokształtnych",
+        "ES-ES": "Partes de animales mágicos utilizadas como ingredientes alquímicos raros para crear poderosas pociones o como partes para las armas de cambiaformas",
+        "PT-BR": "Partes de animais mágicos usados como ingredientes alquímicos raros para criar Poções poderosas ou como partes das Armas de Metamorfos",
+        "IT-IT": "Parti di animali magici utilizzate come ingredienti alchemici rari per creare potenti Pozioni o come parti delle armi del Mutaforma",
+        "ZH-CN": "具有魔法特性的动物残骸，可以做为稀有炼金材料来制造强大的药水，或作为幻形者武器的一部分材料",
+        "KO-KR": "강력한 포션을 만들기 위한 희귀한 연금술 재료나 셰이프시프터 무기의 부품으로 사용되는 마법 동물의 일부입니다",
+        "JA-JP": "強力なポーションを作るための希少な錬金術の材料として、あるいはシェイプシフターの武器の部品として使われる魔法動物の部位。",
+        "ZH-TW": "具有魔法特性的動物殘骸，可以做為稀有煉金材料來製造強大的藥水，或作為幻形者武器的一部分材料",
+        "ID-ID": "Bagian dari hewan sihir yang digunakan sebagai bahan alkimia langka untuk meramu Ramuan kuat atau sebagai bagian dari senjata Malih Rupa",
+        "TR-TR": "Güçlü iksirler üretmede bileşen veya Şekil Değiştiren silahlarında parça olarak kullanılabilen sihirli hayvan parçaları.",
+        "AR-SA": "أجزاء من حيوانات سحرية تُستخدم كمكونات كيميائية لصنع جرعات قوية أو لتكوّن أجزاء أسلحة المتحول"
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T7_ALCHEMY_RARE_EAGLE",
+        "description_variable": "@ITEMS_ALCHEMY_RARE_DESC"
+      },
+      "origin": "Crafting/Alchemy/Alchemy_T7_ALCHEMY_RARE_EAGLE.json",
+      "raw": {
+        "@uniquename": "T7_ALCHEMY_RARE_EAGLE",
+        "@tier": "7",
+        "@weight": "0.05",
+        "@maxstacksize": "999",
+        "@resourcetype": "ESSENCE",
+        "@shopcategory": "crafting",
+        "@shopsubcategory1": "alchemy",
+        "@unlockedtocraft": "true",
+        "@descriptionlocatag": "@ITEMS_ALCHEMY_RARE_DESC",
+        "@shopsubcategory2": "remains_eagle"
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T4_ALCHEMY_RARE_DRAGONAREA",
+      "index": "1997",
+      "category": "Crafting_Alchemy",
+      "slot": "Resource",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T4_ALCHEMY_RARE_DRAGONAREA",
+        "item_database_index": "1997"
+      },
+      "tier": 4,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Diluted Dragon Blood",
+        "DE-DE": "Verdünntes Drachenblut",
+        "FR-FR": "Sang de Dragon dilué",
+        "RU-RU": "Разбавленная кровь дракона",
+        "PL-PL": "Rozcieńczona Smocza Krew",
+        "ES-ES": "Sangre de Dragón diluida",
+        "PT-BR": "Sangue de Dragão Diluído",
+        "IT-IT": "Sangue di Drago Diluito",
+        "ZH-CN": "稀释龙血",
+        "KO-KR": "희석된 드래곤의 피",
+        "JA-JP": "薄められたドラゴンの血",
+        "ZH-TW": "稀釋龍血",
+        "ID-ID": "Darah Naga Encer",
+        "TR-TR": "Seyreltilmiş Ejderha Kanı",
+        "AR-SA": "دم التنين المخفف"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "The lifeblood of a dragon, prized as a rare alchemical ingredient for brewing powerful potions.",
+        "DE-DE": "Herzblut eines Drachen, eine hochgeschätzte alchemistische Zutat für die Herstellung mächtiger Tränke.",
+        "FR-FR": "Le sang d'un dragon, très prisé comme ingrédient alchimique rare pour la fabrication de puissantes potions.",
+        "RU-RU": "Живительная кровь дракона, высоко ценимая как редкий алхимический ингредиент для приготовления мощных зелий.",
+        "PL-PL": "Krew smoka, ceniona jako rzadki składnik alchemiczny do warzenia potężnych mikstur.",
+        "ES-ES": "La sangre vital de un dragón, muy apreciada como ingrediente alquímico poco común para elaborar pociones poderosas.",
+        "PT-BR": "O sangue vívido de um dragão, cobiçado como um ingrediente alquímico raro para a fabricação de poções poderosas.",
+        "IT-IT": "Il sangue vitale di un drago, molto apprezzato come raro ingrediente alchemico per la preparazione di potenti pozioni.",
+        "ZH-CN": "巨龙的生命之血，被视作稀有炼金原料，用以配制强效药水。",
+        "KO-KR": "드래곤의 생명줄과도 같은 것으로, 강력한 포션을 제조하는 데 사용되는 희귀한 연금술 재료로 귀하게 여겨집니다.",
+        "JA-JP": "ドラゴンの生命の源であり、強力なポーションを醸造するための希少な錬金術素材として珍重される。",
+        "ZH-TW": "巨龍的生命之血，被視作稀有煉金原料，可用來釀製強大的藥水。",
+        "ID-ID": "Sumber kehidupan naga, sangat dicari sebagai bahan alkemis langka untuk meramu ramuan kuat.",
+        "TR-TR": "Güçlü iksirler hazırlamak için nadide bir simya malzemesi olarak değer gören ejderha can suyu.",
+        "AR-SA": "دم التنين، الذي يُعتبر مكونًا كيميائيًّا نادرًا وقيِّمًا لصنع الجرعات السحرية القوية."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T4_ALCHEMY_RARE_DRAGONAREA",
+        "description_variable": "@ITEMS_ALCHEMY_RARE_DRAGONAREA_DESC"
+      },
+      "origin": "Crafting/Alchemy/Alchemy_T4_ALCHEMY_RARE_DRAGONAREA.json",
+      "raw": {
+        "@uniquename": "T4_ALCHEMY_RARE_DRAGONAREA",
+        "@tier": "4",
+        "@weight": "2",
+        "@maxstacksize": "999",
+        "@resourcetype": "ESSENCE",
+        "@shopcategory": "crafting",
+        "@shopsubcategory1": "alchemy",
+        "@unlockedtocraft": "true",
+        "@descriptionlocatag": "@ITEMS_ALCHEMY_RARE_DRAGONAREA_DESC",
+        "@shopsubcategory2": "dragonblood"
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T5_ALCHEMY_RARE_ENT",
+      "index": "1979",
+      "category": "Crafting_Alchemy",
+      "slot": "Resource",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": {
+        "primary_resource": "T7_ALCHEMY_RARE_ENT",
+        "primary_count": 1,
+        "secondary_resource": "",
+        "secondary_count": 0,
+        "resources": [
+          {
+            "id": "T7_ALCHEMY_RARE_ENT",
+            "count": 1
+          }
+        ]
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T5_ALCHEMY_RARE_ENT",
+        "item_database_index": "1979"
+      },
+      "tier": 5,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Fine Sylvian Root",
+        "DE-DE": "Feine Sylvanierwurzel",
+        "FR-FR": "Racine de sylvain délicate",
+        "RU-RU": "Отличные корни хьерна",
+        "PL-PL": "Porządny Korzeń Drzewca",
+        "ES-ES": "Raíz silvana fina",
+        "PT-BR": "Raiz Arbórea Fina",
+        "IT-IT": "Radici di Sylvian pregiate",
+        "ZH-CN": "良好的树人之根",
+        "KO-KR": "질 좋은 실비안 뿌리",
+        "JA-JP": "名なシルヴィアンのルート",
+        "ZH-TW": "良好的樹人之根",
+        "ID-ID": "Akar Sylvian Baik",
+        "TR-TR": "Kaliteli Orman Kökü",
+        "AR-SA": "الجذر الخشبي الجميل"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Parts of magical animals used as rare alchemical ingredients to create powerful Potions or as parts of the Shapeshifter weapons",
+        "DE-DE": "Teile von magischen Tieren werden als seltene alchemistische Zutaten genutzt, um daraus mächtige Tränke herzustellen, oder auch als Kernelement einer Gestaltwandler-Waffe.",
+        "FR-FR": "Des parties d'animaux magiques utilisées comme ingrédients alchimiques rares pour créer de puissantes potions ou comme pièces pour les armes de changeforme",
+        "RU-RU": "Останки магических животных, используемые как редкие алхимические ингредиенты для создания мощных зелий или в качестве частей оружия оборотней",
+        "PL-PL": "Części magicznych stworzeń wykorzystywane jako składniki do wytwarzania potężnych Mikstur lub jako elementy Broni Zmiennokształtnych",
+        "ES-ES": "Partes de animales mágicos utilizadas como ingredientes alquímicos raros para crear poderosas pociones o como partes para las armas de cambiaformas",
+        "PT-BR": "Partes de animais mágicos usados como ingredientes alquímicos raros para criar Poções poderosas ou como partes das Armas de Metamorfos",
+        "IT-IT": "Parti di animali magici utilizzate come ingredienti alchemici rari per creare potenti Pozioni o come parti delle armi del Mutaforma",
+        "ZH-CN": "具有魔法特性的动物残骸，可以做为稀有炼金材料来制造强大的药水，或作为幻形者武器的一部分材料",
+        "KO-KR": "강력한 포션을 만들기 위한 희귀한 연금술 재료나 셰이프시프터 무기의 부품으로 사용되는 마법 동물의 일부입니다",
+        "JA-JP": "強力なポーションを作るための希少な錬金術の材料として、あるいはシェイプシフターの武器の部品として使われる魔法動物の部位。",
+        "ZH-TW": "具有魔法特性的動物殘骸，可以做為稀有煉金材料來製造強大的藥水，或作為幻形者武器的一部分材料",
+        "ID-ID": "Bagian dari hewan sihir yang digunakan sebagai bahan alkimia langka untuk meramu Ramuan kuat atau sebagai bagian dari senjata Malih Rupa",
+        "TR-TR": "Güçlü iksirler üretmede bileşen veya Şekil Değiştiren silahlarında parça olarak kullanılabilen sihirli hayvan parçaları.",
+        "AR-SA": "أجزاء من حيوانات سحرية تُستخدم كمكونات كيميائية لصنع جرعات قوية أو لتكوّن أجزاء أسلحة المتحول"
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T5_ALCHEMY_RARE_ENT",
+        "description_variable": "@ITEMS_ALCHEMY_RARE_DESC"
+      },
+      "origin": "Crafting/Alchemy/Alchemy_T5_ALCHEMY_RARE_ENT.json",
+      "raw": {
+        "@uniquename": "T5_ALCHEMY_RARE_ENT",
+        "@tier": "5",
+        "@weight": "0.05",
+        "@maxstacksize": "999",
+        "@resourcetype": "ESSENCE",
+        "@shopcategory": "crafting",
+        "@shopsubcategory1": "alchemy",
+        "@unlockedtocraft": "true",
+        "@descriptionlocatag": "@ITEMS_ALCHEMY_RARE_DESC",
+        "@shopsubcategory2": "remains_ent",
+        "craftingrequirements": {
+          "@amountcrafted": "2",
+          "craftresource": {
+            "@uniquename": "T7_ALCHEMY_RARE_ENT",
+            "@count": "1",
+            "@maxreturnamount": "0"
+          }
+        }
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T3_ALCHEMY_RARE_ENT",
+      "index": "1978",
+      "category": "Crafting_Alchemy",
+      "slot": "Resource",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": {
+        "primary_resource": "T5_ALCHEMY_RARE_ENT",
+        "primary_count": 1,
+        "secondary_resource": "",
+        "secondary_count": 0,
+        "resources": [
+          {
+            "id": "T5_ALCHEMY_RARE_ENT",
+            "count": 1
+          }
+        ]
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T3_ALCHEMY_RARE_ENT",
+        "item_database_index": "1978"
+      },
+      "tier": 3,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Rugged Sylvian Root",
+        "DE-DE": "Grobe Sylvanierwurzel",
+        "FR-FR": "Racine de sylvain résistante",
+        "RU-RU": "Прочные корни хьерна",
+        "PL-PL": "Surowy Korzeń Drzewca",
+        "ES-ES": "Raíz silvana dura",
+        "PT-BR": "Raiz Arbórea Áspera",
+        "IT-IT": "Radici di Sylvian robuste",
+        "ZH-CN": "劣质的树人之根",
+        "KO-KR": "견고한 실비안 뿌리",
+        "JA-JP": "ゴツゴツしたシルヴィアンのルート",
+        "ZH-TW": "劣質的樹人之根",
+        "ID-ID": "Akar Sylvian Kasar",
+        "TR-TR": "İşlenmemiş Orman Kökü",
+        "AR-SA": "الجذر الخشبي الصلب"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Parts of magical animals used as rare alchemical ingredients to create powerful Potions or as parts of the Shapeshifter weapons",
+        "DE-DE": "Teile von magischen Tieren werden als seltene alchemistische Zutaten genutzt, um daraus mächtige Tränke herzustellen, oder auch als Kernelement einer Gestaltwandler-Waffe.",
+        "FR-FR": "Des parties d'animaux magiques utilisées comme ingrédients alchimiques rares pour créer de puissantes potions ou comme pièces pour les armes de changeforme",
+        "RU-RU": "Останки магических животных, используемые как редкие алхимические ингредиенты для создания мощных зелий или в качестве частей оружия оборотней",
+        "PL-PL": "Części magicznych stworzeń wykorzystywane jako składniki do wytwarzania potężnych Mikstur lub jako elementy Broni Zmiennokształtnych",
+        "ES-ES": "Partes de animales mágicos utilizadas como ingredientes alquímicos raros para crear poderosas pociones o como partes para las armas de cambiaformas",
+        "PT-BR": "Partes de animais mágicos usados como ingredientes alquímicos raros para criar Poções poderosas ou como partes das Armas de Metamorfos",
+        "IT-IT": "Parti di animali magici utilizzate come ingredienti alchemici rari per creare potenti Pozioni o come parti delle armi del Mutaforma",
+        "ZH-CN": "具有魔法特性的动物残骸，可以做为稀有炼金材料来制造强大的药水，或作为幻形者武器的一部分材料",
+        "KO-KR": "강력한 포션을 만들기 위한 희귀한 연금술 재료나 셰이프시프터 무기의 부품으로 사용되는 마법 동물의 일부입니다",
+        "JA-JP": "強力なポーションを作るための希少な錬金術の材料として、あるいはシェイプシフターの武器の部品として使われる魔法動物の部位。",
+        "ZH-TW": "具有魔法特性的動物殘骸，可以做為稀有煉金材料來製造強大的藥水，或作為幻形者武器的一部分材料",
+        "ID-ID": "Bagian dari hewan sihir yang digunakan sebagai bahan alkimia langka untuk meramu Ramuan kuat atau sebagai bagian dari senjata Malih Rupa",
+        "TR-TR": "Güçlü iksirler üretmede bileşen veya Şekil Değiştiren silahlarında parça olarak kullanılabilen sihirli hayvan parçaları.",
+        "AR-SA": "أجزاء من حيوانات سحرية تُستخدم كمكونات كيميائية لصنع جرعات قوية أو لتكوّن أجزاء أسلحة المتحول"
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T3_ALCHEMY_RARE_ENT",
+        "description_variable": "@ITEMS_ALCHEMY_RARE_DESC"
+      },
+      "origin": "Crafting/Alchemy/Alchemy_T3_ALCHEMY_RARE_ENT.json",
+      "raw": {
+        "@uniquename": "T3_ALCHEMY_RARE_ENT",
+        "@tier": "3",
+        "@weight": "0.05",
+        "@maxstacksize": "999",
+        "@resourcetype": "ESSENCE",
+        "@shopcategory": "crafting",
+        "@shopsubcategory1": "alchemy",
+        "@unlockedtocraft": "true",
+        "@descriptionlocatag": "@ITEMS_ALCHEMY_RARE_DESC",
+        "@shopsubcategory2": "remains_ent",
+        "craftingrequirements": {
+          "@amountcrafted": "2",
+          "craftresource": {
+            "@uniquename": "T5_ALCHEMY_RARE_ENT",
+            "@count": "1",
+            "@maxreturnamount": "0"
+          }
+        }
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T5_ALCHEMY_RARE_DIREBEAR",
+      "index": "1982",
+      "category": "Crafting_Alchemy",
+      "slot": "Resource",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": {
+        "primary_resource": "T7_ALCHEMY_RARE_DIREBEAR",
+        "primary_count": 1,
+        "secondary_resource": "",
+        "secondary_count": 0,
+        "resources": [
+          {
+            "id": "T7_ALCHEMY_RARE_DIREBEAR",
+            "count": 1
+          }
+        ]
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T5_ALCHEMY_RARE_DIREBEAR",
+        "item_database_index": "1982"
+      },
+      "tier": 5,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Fine Spirit Paws",
+        "DE-DE": "Feine Geisterpfoten",
+        "FR-FR": "Pattes d'esprit délicates",
+        "RU-RU": "Отличные лапы духа медведя",
+        "PL-PL": "Porządne Duchowe Łapy",
+        "ES-ES": "Patas de espíritu finas",
+        "PT-BR": "Patas Espirituais Finas",
+        "IT-IT": "Zampe spirituali pregiate",
+        "ZH-CN": "良好的灵性之爪",
+        "KO-KR": "질 좋은 정령 앞발",
+        "JA-JP": "名なスピリットポウ",
+        "ZH-TW": "良好的靈性之爪",
+        "ID-ID": "Kaki Roh Baik",
+        "TR-TR": "Kaliteli Ruh Pençeleri",
+        "AR-SA": "مخالب الروح الجميلة"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Parts of magical animals used as rare alchemical ingredients to create powerful Potions or as parts of the Shapeshifter weapons",
+        "DE-DE": "Teile von magischen Tieren werden als seltene alchemistische Zutaten genutzt, um daraus mächtige Tränke herzustellen, oder auch als Kernelement einer Gestaltwandler-Waffe.",
+        "FR-FR": "Des parties d'animaux magiques utilisées comme ingrédients alchimiques rares pour créer de puissantes potions ou comme pièces pour les armes de changeforme",
+        "RU-RU": "Останки магических животных, используемые как редкие алхимические ингредиенты для создания мощных зелий или в качестве частей оружия оборотней",
+        "PL-PL": "Części magicznych stworzeń wykorzystywane jako składniki do wytwarzania potężnych Mikstur lub jako elementy Broni Zmiennokształtnych",
+        "ES-ES": "Partes de animales mágicos utilizadas como ingredientes alquímicos raros para crear poderosas pociones o como partes para las armas de cambiaformas",
+        "PT-BR": "Partes de animais mágicos usados como ingredientes alquímicos raros para criar Poções poderosas ou como partes das Armas de Metamorfos",
+        "IT-IT": "Parti di animali magici utilizzate come ingredienti alchemici rari per creare potenti Pozioni o come parti delle armi del Mutaforma",
+        "ZH-CN": "具有魔法特性的动物残骸，可以做为稀有炼金材料来制造强大的药水，或作为幻形者武器的一部分材料",
+        "KO-KR": "강력한 포션을 만들기 위한 희귀한 연금술 재료나 셰이프시프터 무기의 부품으로 사용되는 마법 동물의 일부입니다",
+        "JA-JP": "強力なポーションを作るための希少な錬金術の材料として、あるいはシェイプシフターの武器の部品として使われる魔法動物の部位。",
+        "ZH-TW": "具有魔法特性的動物殘骸，可以做為稀有煉金材料來製造強大的藥水，或作為幻形者武器的一部分材料",
+        "ID-ID": "Bagian dari hewan sihir yang digunakan sebagai bahan alkimia langka untuk meramu Ramuan kuat atau sebagai bagian dari senjata Malih Rupa",
+        "TR-TR": "Güçlü iksirler üretmede bileşen veya Şekil Değiştiren silahlarında parça olarak kullanılabilen sihirli hayvan parçaları.",
+        "AR-SA": "أجزاء من حيوانات سحرية تُستخدم كمكونات كيميائية لصنع جرعات قوية أو لتكوّن أجزاء أسلحة المتحول"
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T5_ALCHEMY_RARE_DIREBEAR",
+        "description_variable": "@ITEMS_ALCHEMY_RARE_DESC"
+      },
+      "origin": "Crafting/Alchemy/Alchemy_T5_ALCHEMY_RARE_DIREBEAR.json",
+      "raw": {
+        "@uniquename": "T5_ALCHEMY_RARE_DIREBEAR",
+        "@tier": "5",
+        "@weight": "0.05",
+        "@maxstacksize": "999",
+        "@resourcetype": "ESSENCE",
+        "@shopcategory": "crafting",
+        "@shopsubcategory1": "alchemy",
+        "@unlockedtocraft": "true",
+        "@uisprite": "ALCHEMY_RARE_BEAR",
+        "@descriptionlocatag": "@ITEMS_ALCHEMY_RARE_DESC",
+        "@shopsubcategory2": "remains_direbear",
+        "craftingrequirements": {
+          "@amountcrafted": "2",
+          "craftresource": {
+            "@uniquename": "T7_ALCHEMY_RARE_DIREBEAR",
+            "@count": "1",
+            "@maxreturnamount": "0"
+          }
+        }
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T1_ALCHEMY_EXTRACT_LEVEL3",
+      "index": "2002",
+      "category": "Crafting_Alchemy",
+      "slot": "Resource",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": {
+        "primary_resource": "T1_ALCHEMY_COMMON",
+        "primary_count": 9,
+        "secondary_resource": "",
+        "secondary_count": 0,
+        "resources": [
+          {
+            "id": "T1_ALCHEMY_COMMON",
+            "count": 9
+          }
+        ]
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T1_ALCHEMY_EXTRACT_LEVEL3",
+        "item_database_index": "2002"
+      },
+      "tier": 1,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Pure Arcane Extract",
+        "DE-DE": "Reines Arkanes Extrakt",
+        "FR-FR": "Extrait arcanique pur",
+        "RU-RU": "Чистый магический экстракт",
+        "PL-PL": "Czysty Tajemny Ekstrakt",
+        "ES-ES": "Extracto arcano puro",
+        "PT-BR": "Extratos Arcanos Puros",
+        "IT-IT": "Estratto arcano puro",
+        "ZH-CN": "纯净奥术精粹",
+        "KO-KR": "순수한 아케인 추출물",
+        "JA-JP": "純粋なアーケインエキス",
+        "ZH-TW": "純淨奧術精粹",
+        "ID-ID": "Ekstrak Arcane Murni",
+        "TR-TR": "Saf Arkana Tözü",
+        "AR-SA": "عصارة ساحر نقية"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Liquified magic used to enchant potions.",
+        "DE-DE": "Flüssige Magie zur Verzauberung von Tränken.",
+        "FR-FR": "Magie liquide utilisée pour enchanter les potions.",
+        "RU-RU": "Жидкая магия, используемая для зачарования зелий.",
+        "PL-PL": "Płynna magia służąca do zaklinania mikstur.",
+        "ES-ES": "Magia líquida utilizada para encantar pociones.",
+        "PT-BR": "Magia liquefeita usada para encantar poções.",
+        "IT-IT": "Magia liquida usata per incantare le pozioni.",
+        "ZH-CN": "液化的魔法，可用于附魔药水。",
+        "KO-KR": "포션 인챈트에 사용되는 액체화된 마법입니다.",
+        "JA-JP": "ポーションのエンチャントに使われる液化魔法。",
+        "ZH-TW": "液化的魔法，可用於附魔藥水。",
+        "ID-ID": "Sihir berbentuk cair yang digunakan untuk meng-enchant ramuan.",
+        "TR-TR": "İksir efsunlamakta kullanılan sıvılaştırılmış sihir.",
+        "AR-SA": "عصارة سحرية سائلة تُستخدم لسَحر الجرعات."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T1_ALCHEMY_EXTRACT_LEVEL3",
+        "description_variable": "@ITEMS_T1_ALCHEMY_EXTRACT_DESC"
+      },
+      "origin": "Crafting/Alchemy/Alchemy_T1_ALCHEMY_EXTRACT_LEVEL3.json",
+      "raw": {
+        "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL3",
+        "@tier": "1",
+        "@weight": "2",
+        "@maxstacksize": "999",
+        "@resourcetype": "ESSENCE",
+        "@shopcategory": "crafting",
+        "@shopsubcategory1": "alchemy",
+        "@unlockedtocraft": "true",
+        "@descriptionlocatag": "@ITEMS_T1_ALCHEMY_EXTRACT_DESC",
+        "@shopsubcategory2": "extract",
+        "craftingrequirements": {
+          "@time": "0.01",
+          "@silver": "0",
+          "craftresource": {
+            "@uniquename": "T1_ALCHEMY_COMMON",
+            "@count": "9",
+            "@maxreturnamount": "0"
+          }
+        }
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T5_ESSENCE_POTION",
+      "index": "2011",
+      "category": "Crafting_Alchemy",
+      "slot": "Resource",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": "0.1",
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T5_ESSENCE_POTION",
+        "item_database_index": "2011"
+      },
+      "tier": 5,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Expert's Arcane Essence",
+        "DE-DE": "Arkane Essenz des Experten",
+        "FR-FR": "Essence arcanique de l'expert",
+        "RU-RU": "Мистическая эссенция (эксперт)",
+        "PL-PL": "Tajemna Esencja Znawcy",
+        "ES-ES": "Esencia Arcana del Experto",
+        "PT-BR": "Essência Arcana do Perito",
+        "IT-IT": "Essenza arcana dell'esperto",
+        "ZH-CN": "专家级奥术精华",
+        "KO-KR": "전문가의 아케인 정수",
+        "JA-JP": "アーケインのエッセンス（達人）",
+        "ZH-TW": "專家級祕術精華",
+        "ID-ID": "Esens Arcane Ahli",
+        "TR-TR": "Uzman Arkana Özütü",
+        "AR-SA": "جوهر الساحر للأخصائي"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "A magical essence, used to enchant potions.",
+        "DE-DE": "Eine magische Essenz, wird bei der Verzauberung von Tränken verwendet",
+        "FR-FR": "Une essence magique utilisée pour enchanter des potions.",
+        "RU-RU": "Волшебная эссенция, используется для зачарования зелий",
+        "PL-PL": "Magiczna esencja używana do czarowania mikstur",
+        "ES-ES": "Esencia mágica, usada para encantar pociones.",
+        "PT-BR": "Essência mágica usada para encantar poções",
+        "IT-IT": "Un'essenza magica usata per incantare pozioni.",
+        "ZH-CN": "法术精华，用于给药水附魔。",
+        "KO-KR": "마법 정수로, 포션에 마법을 부여하는 데 사용됩니다.",
+        "JA-JP": "エンチャントポーションに使える魔法のエッセンス。",
+        "ZH-TW": "一種魔法精華，可用於附魔藥水。",
+        "ID-ID": "Esens ajaib, digunakan untuk memberi enchantment pada ramuan.",
+        "TR-TR": "İksir efsunlamakta kullanılan sihirli bir Özüt.",
+        "AR-SA": "جوهر سحرية، يُستخدم في الجرعات السحرية."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T5_ESSENCE_POTION",
+        "description_variable": "@ITEMS_T5_ESSENCE_POTION_DESC"
+      },
+      "origin": "Crafting/Alchemy/Alchemy_T5_ESSENCE_POTION.json",
+      "raw": {
+        "@uniquename": "T5_ESSENCE_POTION",
+        "@tier": "5",
+        "@weight": "0.25",
+        "@maxstacksize": "999",
+        "@resourcetype": "ESSENCE",
+        "@shopcategory": "crafting",
+        "@shopsubcategory1": "alchemy",
+        "@uisprite": "FRAGMENT_BLUE_F1",
+        "@unlockedtocraft": "true",
+        "@itemvalue": "0.1",
+        "@salvageable": "true",
+        "@shopsubcategory2": "essence",
+        "@uicraftsoundstart": "Play_ui_action_meld_load",
+        "@uicraftsoundfinish": "Play_ui_action_meld",
+        "craftingrequirements": {
+          "@time": "0.01",
+          "@silver": "0",
+          "@salvageitemfactor": "0",
+          "@salvagesilverfactor": "20"
+        }
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T8_ALCHEMY_RARE_DRAGONAREA",
+      "index": "1999",
+      "category": "Crafting_Alchemy",
+      "slot": "Resource",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T8_ALCHEMY_RARE_DRAGONAREA",
+        "item_database_index": "1999"
+      },
+      "tier": 8,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Potent Dragon Blood",
+        "DE-DE": "Starkes Drachenblut",
+        "FR-FR": "Sang de Dragon puissant",
+        "RU-RU": "Концентрированная кровь дракона",
+        "PL-PL": "Silna Smocza Krew",
+        "ES-ES": "Sangre de Dragón potente",
+        "PT-BR": "Sangue de Dragão Potente",
+        "IT-IT": "Sangue di Drago Potente",
+        "ZH-CN": "强效龙血",
+        "KO-KR": "강력한 드래곤의 피",
+        "JA-JP": "強力なドラゴンの血",
+        "ZH-TW": "強效龍血",
+        "ID-ID": "Darah Naga Kental",
+        "TR-TR": "Kudretli Ejderha Kanı",
+        "AR-SA": "دم التنين القوي"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "The lifeblood of a dragon, prized as a rare alchemical ingredient for brewing powerful potions.",
+        "DE-DE": "Herzblut eines Drachen, eine hochgeschätzte alchemistische Zutat für die Herstellung mächtiger Tränke.",
+        "FR-FR": "Le sang d'un dragon, très prisé comme ingrédient alchimique rare pour la fabrication de puissantes potions.",
+        "RU-RU": "Живительная кровь дракона, высоко ценимая как редкий алхимический ингредиент для приготовления мощных зелий.",
+        "PL-PL": "Krew smoka, ceniona jako rzadki składnik alchemiczny do warzenia potężnych mikstur.",
+        "ES-ES": "La sangre vital de un dragón, muy apreciada como ingrediente alquímico poco común para elaborar pociones poderosas.",
+        "PT-BR": "O sangue vívido de um dragão, cobiçado como um ingrediente alquímico raro para a fabricação de poções poderosas.",
+        "IT-IT": "Il sangue vitale di un drago, molto apprezzato come raro ingrediente alchemico per la preparazione di potenti pozioni.",
+        "ZH-CN": "巨龙的生命之血，被视作稀有炼金原料，用以配制强效药水。",
+        "KO-KR": "드래곤의 생명줄과도 같은 것으로, 강력한 포션을 제조하는 데 사용되는 희귀한 연금술 재료로 귀하게 여겨집니다.",
+        "JA-JP": "ドラゴンの生命の源であり、強力なポーションを醸造するための希少な錬金術素材として珍重される。",
+        "ZH-TW": "巨龍的生命之血，被視作稀有煉金原料，可用來釀製強大的藥水。",
+        "ID-ID": "Sumber kehidupan naga, sangat dicari sebagai bahan alkemis langka untuk meramu ramuan kuat.",
+        "TR-TR": "Güçlü iksirler hazırlamak için nadide bir simya malzemesi olarak değer gören ejderha can suyu.",
+        "AR-SA": "دم التنين، الذي يُعتبر مكونًا كيميائيًّا نادرًا وقيِّمًا لصنع الجرعات السحرية القوية."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T8_ALCHEMY_RARE_DRAGONAREA",
+        "description_variable": "@ITEMS_ALCHEMY_RARE_DRAGONAREA_DESC"
+      },
+      "origin": "Crafting/Alchemy/Alchemy_T8_ALCHEMY_RARE_DRAGONAREA.json",
+      "raw": {
+        "@uniquename": "T8_ALCHEMY_RARE_DRAGONAREA",
+        "@tier": "8",
+        "@weight": "2",
+        "@maxstacksize": "999",
+        "@resourcetype": "ESSENCE",
+        "@shopcategory": "crafting",
+        "@shopsubcategory1": "alchemy",
+        "@unlockedtocraft": "true",
+        "@descriptionlocatag": "@ITEMS_ALCHEMY_RARE_DRAGONAREA_DESC",
+        "@shopsubcategory2": "dragonblood"
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T3_ALCHEMY_RARE_EAGLE",
+      "index": "1993",
+      "category": "Crafting_Alchemy",
+      "slot": "Resource",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": {
+        "primary_resource": "T5_ALCHEMY_RARE_EAGLE",
+        "primary_count": 1,
+        "secondary_resource": "",
+        "secondary_count": 0,
+        "resources": [
+          {
+            "id": "T5_ALCHEMY_RARE_EAGLE",
+            "count": 1
+          }
+        ]
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T3_ALCHEMY_RARE_EAGLE",
+        "item_database_index": "1993"
+      },
+      "tier": 3,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Rugged Dawnfeather",
+        "DE-DE": "Grobe Morgenfeder",
+        "FR-FR": "Plume de l'aube résistante",
+        "RU-RU": "Прочное перо рассвета",
+        "PL-PL": "Surowe Pióro Brzasku",
+        "ES-ES": "Pluma de alba dura",
+        "PT-BR": "Pena da Alvorada Áspera",
+        "IT-IT": "Piuma d'alba robusta",
+        "ZH-CN": "劣质的黎明羽毛",
+        "KO-KR": "견고한 던버드 깃털",
+        "JA-JP": "ゴツゴツしたドーンフェザー",
+        "ZH-TW": "劣質的黎明羽毛",
+        "ID-ID": "Bulu Burung Fajar Kasar",
+        "TR-TR": "İşlenmemiş Şafak Tüyü",
+        "AR-SA": "الريشة الصلبة"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Parts of magical animals used as rare alchemical ingredients to create powerful Potions or as parts of the Shapeshifter weapons",
+        "DE-DE": "Teile von magischen Tieren werden als seltene alchemistische Zutaten genutzt, um daraus mächtige Tränke herzustellen, oder auch als Kernelement einer Gestaltwandler-Waffe.",
+        "FR-FR": "Des parties d'animaux magiques utilisées comme ingrédients alchimiques rares pour créer de puissantes potions ou comme pièces pour les armes de changeforme",
+        "RU-RU": "Останки магических животных, используемые как редкие алхимические ингредиенты для создания мощных зелий или в качестве частей оружия оборотней",
+        "PL-PL": "Części magicznych stworzeń wykorzystywane jako składniki do wytwarzania potężnych Mikstur lub jako elementy Broni Zmiennokształtnych",
+        "ES-ES": "Partes de animales mágicos utilizadas como ingredientes alquímicos raros para crear poderosas pociones o como partes para las armas de cambiaformas",
+        "PT-BR": "Partes de animais mágicos usados como ingredientes alquímicos raros para criar Poções poderosas ou como partes das Armas de Metamorfos",
+        "IT-IT": "Parti di animali magici utilizzate come ingredienti alchemici rari per creare potenti Pozioni o come parti delle armi del Mutaforma",
+        "ZH-CN": "具有魔法特性的动物残骸，可以做为稀有炼金材料来制造强大的药水，或作为幻形者武器的一部分材料",
+        "KO-KR": "강력한 포션을 만들기 위한 희귀한 연금술 재료나 셰이프시프터 무기의 부품으로 사용되는 마법 동물의 일부입니다",
+        "JA-JP": "強力なポーションを作るための希少な錬金術の材料として、あるいはシェイプシフターの武器の部品として使われる魔法動物の部位。",
+        "ZH-TW": "具有魔法特性的動物殘骸，可以做為稀有煉金材料來製造強大的藥水，或作為幻形者武器的一部分材料",
+        "ID-ID": "Bagian dari hewan sihir yang digunakan sebagai bahan alkimia langka untuk meramu Ramuan kuat atau sebagai bagian dari senjata Malih Rupa",
+        "TR-TR": "Güçlü iksirler üretmede bileşen veya Şekil Değiştiren silahlarında parça olarak kullanılabilen sihirli hayvan parçaları.",
+        "AR-SA": "أجزاء من حيوانات سحرية تُستخدم كمكونات كيميائية لصنع جرعات قوية أو لتكوّن أجزاء أسلحة المتحول"
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T3_ALCHEMY_RARE_EAGLE",
+        "description_variable": "@ITEMS_ALCHEMY_RARE_DESC"
+      },
+      "origin": "Crafting/Alchemy/Alchemy_T3_ALCHEMY_RARE_EAGLE.json",
+      "raw": {
+        "@uniquename": "T3_ALCHEMY_RARE_EAGLE",
+        "@tier": "3",
+        "@weight": "0.05",
+        "@maxstacksize": "999",
+        "@resourcetype": "ESSENCE",
+        "@shopcategory": "crafting",
+        "@shopsubcategory1": "alchemy",
+        "@unlockedtocraft": "true",
+        "@descriptionlocatag": "@ITEMS_ALCHEMY_RARE_DESC",
+        "@shopsubcategory2": "remains_eagle",
+        "craftingrequirements": {
+          "@amountcrafted": "2",
+          "craftresource": {
+            "@uniquename": "T5_ALCHEMY_RARE_EAGLE",
+            "@count": "1",
+            "@maxreturnamount": "0"
+          }
+        }
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T5_ESSENCE",
+      "index": "2012",
+      "category": "Crafting_Alchemy",
+      "slot": "Resource",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T5_ESSENCE",
+        "item_database_index": "2012"
+      },
+      "tier": 5,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Expert's Faded Essence",
+        "DE-DE": "Verblasste Essenz des Experten",
+        "FR-FR": "Essence ternie de l'expert",
+        "RU-RU": "Угасшая эссенция (эксперт)",
+        "PL-PL": "Wyblakła Esencja Znawcy",
+        "ES-ES": "Escancia debilitada del Experto",
+        "PT-BR": "Essência Enfraquecida do Perito",
+        "IT-IT": "Essenza sbiadita dell'esperto",
+        "ZH-CN": "专家级过期精华",
+        "KO-KR": "전문가의 희미해진 정수",
+        "JA-JP": "色褪せたエッセンス（達人）",
+        "ZH-TW": "專家級黯淡精華",
+        "ID-ID": "Esens Pudar Ahli",
+        "TR-TR": "Uzman Solmuş Özütü",
+        "AR-SA": "الجوهر المتلاشي للأخصائي"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "This essence has passed its use-by date. It can be combined with others like it at an Artifact Foundry.",
+        "DE-DE": "Diese Essenz hat ihr Verbrauchsdatum überschritten. Sie kann mit weiteren, ähnlichen Essenzen in einer Artefaktschmiede kombiniert werden",
+        "FR-FR": "Cette essence est périmée. Elle peut être utilisée avec d'autres similaires dans une fonderie d'artefact.",
+        "RU-RU": "Дни эссенции давно минули. Ее можно совместить с другими подобными в мастерской артефактов.",
+        "PL-PL": "Ta esencja nie nadaje się do użytku - według daty na opakowaniu. Można łączyć ją z takimi samymi esencjami w Budynku Łączenia",
+        "ES-ES": "Esta esencia ya no es válida. Se puede combinar con otras de su tipo en una fundición de artefactos",
+        "PT-BR": "Essa essência passou da validade. Ela pode ser combinada com outras do seu tipo em uma Fusão de Artefato",
+        "IT-IT": "La data di scadenza di questa essenza è già passata. Si può combinare con oggetti simili presso una Fucina di Manufatti.",
+        "ZH-CN": "这个精华已经过了使用期限，可以带到神器铸造店，与其他精华混合。",
+        "KO-KR": "이 정수는 사용 기한이 지났습니다. 아티팩트 공장에서 같은 것들과 결합할 수 있습니다.",
+        "JA-JP": "このエッセンスは使用期限が切れています。アーティファクト工房で、他の類似品と組み合わせが可能です。",
+        "ZH-TW": "此精華已經超過使用期限。在神器鍛造所，您可以將所有過期精華融為一體。",
+        "ID-ID": "Esens ini telah melewati masa pakainya. Bisa digabungkan dengan yang serupa di Bengkel Artefak.",
+        "TR-TR": "Bu Özüt'ün son kullanım tarihi geçmiş durumdadır. Bir Eser Dökümhanesi'nde kendisi gibi olan Özütlerle birleştirilebilir.",
+        "AR-SA": "انتهى تاريخ صلاحية هذا الجوهر. يمكن دمجه مع أشباهه في المسبك."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T5_ESSENCE",
+        "description_variable": "@ITEMS_T5_ESSENCE_DESC"
+      },
+      "origin": "Crafting/Alchemy/Alchemy_T5_ESSENCE.json",
+      "raw": {
+        "@uniquename": "T5_ESSENCE",
+        "@tier": "5",
+        "@weight": "0.25",
+        "@maxstacksize": "999",
+        "@resourcetype": "ESSENCE",
+        "@shopcategory": "crafting",
+        "@shopsubcategory1": "alchemy",
+        "@uisprite": "JEWEL",
+        "@unlockedtocraft": "true",
+        "@shopsubcategory2": "essence",
+        "@uicraftsoundstart": "Play_ui_action_meld_load",
+        "@uicraftsoundfinish": "Play_ui_action_meld"
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T8_ESSENCE_POTION",
+      "index": "2035",
+      "category": "Crafting_Alchemy",
+      "slot": "Resource",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": "0.1",
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T8_ESSENCE_POTION",
+        "item_database_index": "2035"
+      },
+      "tier": 8,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Elder's Arcane Essence",
+        "DE-DE": "Arkane Essenz des Ältesten",
+        "FR-FR": "Essence arcanique du sage",
+        "RU-RU": "Мистическая эссенция (старейшина)",
+        "PL-PL": "Tajemna Esencja Starszego",
+        "ES-ES": "Esencia arcana del anciano",
+        "PT-BR": "Essência Arcana do Ancião",
+        "IT-IT": "Essenza arcana dell'anziano",
+        "ZH-CN": "禅师级奥术精华",
+        "KO-KR": "장로의 아케인 정수",
+        "JA-JP": "アーケインのエッセンス（老熟）",
+        "ZH-TW": "禪師級祕術精華",
+        "ID-ID": "Tongkat Arcane Tetua",
+        "TR-TR": "Yüce Arkana Özütü",
+        "AR-SA": "جوهر الساحر للحكيم"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "A magical essence, used to enchant potions",
+        "DE-DE": "Eine magische Essenz, wird bei der Verzauberung von Tränken verwendet",
+        "FR-FR": "Une essence magique utilisée pour enchanter des potions.",
+        "RU-RU": "Волшебная эссенция, используется для зачарования зелий",
+        "PL-PL": "Magiczna esencja używana do czarowania mikstur",
+        "ES-ES": "Esencia mágica, usada para encantar pociones.",
+        "PT-BR": "Essência mágica usada para encantar poções",
+        "IT-IT": "Un'essenza magica usata per incantare pozioni.",
+        "ZH-CN": "法术精华，用于给药水附魔。",
+        "KO-KR": "마법 정수로, 포션에 마법을 부여하는 데 사용됩니다",
+        "JA-JP": "ポーションのエンチャントに使える魔法のエッセンス。",
+        "ZH-TW": "一種魔法精華，可用於附魔藥水",
+        "ID-ID": "Esens ajaib, digunakan untuk memberi enchantment pada ramuan.",
+        "TR-TR": "İksir efsunlamakta kullanılan sihirli bir Özüt.",
+        "AR-SA": "خلاصة سحرية، تُستخدم للجرعات السحرية"
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T8_ESSENCE_POTION",
+        "description_variable": "@ITEMS_T8_ESSENCE_POTION_DESC"
+      },
+      "origin": "Crafting/Alchemy/Alchemy_T8_ESSENCE_POTION.json",
+      "raw": {
+        "@uniquename": "T8_ESSENCE_POTION",
+        "@tier": "8",
+        "@weight": "1",
+        "@maxstacksize": "999",
+        "@resourcetype": "ESSENCE",
+        "@shopcategory": "crafting",
+        "@shopsubcategory1": "alchemy",
+        "@uisprite": "FRAGMENT_BLUE_F1",
+        "@unlockedtocraft": "true",
+        "@itemvalue": "0.1",
+        "@salvageable": "true",
+        "@shopsubcategory2": "essence",
+        "@uicraftsoundstart": "Play_ui_action_meld_load",
+        "@uicraftsoundfinish": "Play_ui_action_meld",
+        "craftingrequirements": {
+          "@time": "0.01",
+          "@silver": "0",
+          "@salvageitemfactor": "0",
+          "@salvagesilverfactor": "1000"
+        }
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T7_ALCHEMY_RARE_IMP",
+      "index": "1989",
+      "category": "Crafting_Alchemy",
+      "slot": "Resource",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T7_ALCHEMY_RARE_IMP",
+        "item_database_index": "1989"
+      },
+      "tier": 7,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Excellent Imp's Horn",
+        "DE-DE": "Exzellentes Gnomenhorn",
+        "FR-FR": "Corne de diablotin excellente",
+        "RU-RU": "Превосходный рог чертенка",
+        "PL-PL": "Wspaniały Róg Chochlika",
+        "ES-ES": "Cuerno de diablillo excelente",
+        "PT-BR": "Chifres de Diabrete Excelentes",
+        "IT-IT": "Corno del folletto eccellente",
+        "ZH-CN": "无瑕的小恶魔号角",
+        "KO-KR": "우수한 임프의 뿔",
+        "JA-JP": "エクセレントなインプの角",
+        "ZH-TW": "無瑕的小惡魔角",
+        "ID-ID": "Tanduk Anak Api Neraka Sangat Baik",
+        "TR-TR": "Fevkalade İblis Boynuzu",
+        "AR-SA": "البوق العفريتي الممتاز"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Parts of magical animals used as rare alchemical ingredients to create powerful Potions or as parts of the Shapeshifter weapons",
+        "DE-DE": "Teile von magischen Tieren werden als seltene alchemistische Zutaten genutzt, um daraus mächtige Tränke herzustellen, oder auch als Kernelement einer Gestaltwandler-Waffe.",
+        "FR-FR": "Des parties d'animaux magiques utilisées comme ingrédients alchimiques rares pour créer de puissantes potions ou comme pièces pour les armes de changeforme",
+        "RU-RU": "Останки магических животных, используемые как редкие алхимические ингредиенты для создания мощных зелий или в качестве частей оружия оборотней",
+        "PL-PL": "Części magicznych stworzeń wykorzystywane jako składniki do wytwarzania potężnych Mikstur lub jako elementy Broni Zmiennokształtnych",
+        "ES-ES": "Partes de animales mágicos utilizadas como ingredientes alquímicos raros para crear poderosas pociones o como partes para las armas de cambiaformas",
+        "PT-BR": "Partes de animais mágicos usados como ingredientes alquímicos raros para criar Poções poderosas ou como partes das Armas de Metamorfos",
+        "IT-IT": "Parti di animali magici utilizzate come ingredienti alchemici rari per creare potenti Pozioni o come parti delle armi del Mutaforma",
+        "ZH-CN": "具有魔法特性的动物残骸，可以做为稀有炼金材料来制造强大的药水，或作为幻形者武器的一部分材料",
+        "KO-KR": "강력한 포션을 만들기 위한 희귀한 연금술 재료나 셰이프시프터 무기의 부품으로 사용되는 마법 동물의 일부입니다",
+        "JA-JP": "強力なポーションを作るための希少な錬金術の材料として、あるいはシェイプシフターの武器の部品として使われる魔法動物の部位。",
+        "ZH-TW": "具有魔法特性的動物殘骸，可以做為稀有煉金材料來製造強大的藥水，或作為幻形者武器的一部分材料",
+        "ID-ID": "Bagian dari hewan sihir yang digunakan sebagai bahan alkimia langka untuk meramu Ramuan kuat atau sebagai bagian dari senjata Malih Rupa",
+        "TR-TR": "Güçlü iksirler üretmede bileşen veya Şekil Değiştiren silahlarında parça olarak kullanılabilen sihirli hayvan parçaları.",
+        "AR-SA": "أجزاء من حيوانات سحرية تُستخدم كمكونات كيميائية لصنع جرعات قوية أو لتكوّن أجزاء أسلحة المتحول"
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T7_ALCHEMY_RARE_IMP",
+        "description_variable": "@ITEMS_ALCHEMY_RARE_DESC"
+      },
+      "origin": "Crafting/Alchemy/Alchemy_T7_ALCHEMY_RARE_IMP.json",
+      "raw": {
+        "@uniquename": "T7_ALCHEMY_RARE_IMP",
+        "@tier": "7",
+        "@weight": "0.05",
+        "@maxstacksize": "999",
+        "@resourcetype": "ESSENCE",
+        "@shopcategory": "crafting",
+        "@shopsubcategory1": "alchemy",
+        "@unlockedtocraft": "true",
+        "@descriptionlocatag": "@ITEMS_ALCHEMY_RARE_DESC",
+        "@shopsubcategory2": "remains_imp"
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T3_ALCHEMY_RARE_ELEMENTAL",
+      "index": "1990",
+      "category": "Crafting_Alchemy",
+      "slot": "Resource",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": {
+        "primary_resource": "T5_ALCHEMY_RARE_ELEMENTAL",
+        "primary_count": 1,
+        "secondary_resource": "",
+        "secondary_count": 0,
+        "resources": [
+          {
+            "id": "T5_ALCHEMY_RARE_ELEMENTAL",
+            "count": 1
+          }
+        ]
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T3_ALCHEMY_RARE_ELEMENTAL",
+        "item_database_index": "1990"
+      },
+      "tier": 3,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Rugged Runestone Tooth",
+        "DE-DE": "Grober Runensteinzahn",
+        "FR-FR": "Dent de pierre runique résistante",
+        "RU-RU": "Прочная зубчатая руна",
+        "PL-PL": "Surowy Runiczny Ząb",
+        "ES-ES": "Diente de piedra rúnica duro",
+        "PT-BR": "Dente de Pedra Rúnica Áspero",
+        "IT-IT": "Dente della pietra runica robusto",
+        "ZH-CN": "劣质的符石牙齿",
+        "KO-KR": "견고한 룬스톤 톱니",
+        "JA-JP": "ゴツゴツしたルーンストーンの歯",
+        "ZH-TW": "劣質的符石牙齒",
+        "ID-ID": "Gigi Batu Simbol Kasar",
+        "TR-TR": "İşlenmemiş Rün Taşı Diş",
+        "AR-SA": "سن الحجر الروني الصلب"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Parts of magical animals used as rare alchemical ingredients to create powerful Potions or as parts of the Shapeshifter weapons",
+        "DE-DE": "Teile von magischen Tieren werden als seltene alchemistische Zutaten genutzt, um daraus mächtige Tränke herzustellen, oder auch als Kernelement einer Gestaltwandler-Waffe.",
+        "FR-FR": "Des parties d'animaux magiques utilisées comme ingrédients alchimiques rares pour créer de puissantes potions ou comme pièces pour les armes de changeforme",
+        "RU-RU": "Останки магических животных, используемые как редкие алхимические ингредиенты для создания мощных зелий или в качестве частей оружия оборотней",
+        "PL-PL": "Części magicznych stworzeń wykorzystywane jako składniki do wytwarzania potężnych Mikstur lub jako elementy Broni Zmiennokształtnych",
+        "ES-ES": "Partes de animales mágicos utilizadas como ingredientes alquímicos raros para crear poderosas pociones o como partes para las armas de cambiaformas",
+        "PT-BR": "Partes de animais mágicos usados como ingredientes alquímicos raros para criar Poções poderosas ou como partes das Armas de Metamorfos",
+        "IT-IT": "Parti di animali magici utilizzate come ingredienti alchemici rari per creare potenti Pozioni o come parti delle armi del Mutaforma",
+        "ZH-CN": "具有魔法特性的动物残骸，可以做为稀有炼金材料来制造强大的药水，或作为幻形者武器的一部分材料",
+        "KO-KR": "강력한 포션을 만들기 위한 희귀한 연금술 재료나 셰이프시프터 무기의 부품으로 사용되는 마법 동물의 일부입니다",
+        "JA-JP": "強力なポーションを作るための希少な錬金術の材料として、あるいはシェイプシフターの武器の部品として使われる魔法動物の部位。",
+        "ZH-TW": "具有魔法特性的動物殘骸，可以做為稀有煉金材料來製造強大的藥水，或作為幻形者武器的一部分材料",
+        "ID-ID": "Bagian dari hewan sihir yang digunakan sebagai bahan alkimia langka untuk meramu Ramuan kuat atau sebagai bagian dari senjata Malih Rupa",
+        "TR-TR": "Güçlü iksirler üretmede bileşen veya Şekil Değiştiren silahlarında parça olarak kullanılabilen sihirli hayvan parçaları.",
+        "AR-SA": "أجزاء من حيوانات سحرية تُستخدم كمكونات كيميائية لصنع جرعات قوية أو لتكوّن أجزاء أسلحة المتحول"
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T3_ALCHEMY_RARE_ELEMENTAL",
+        "description_variable": "@ITEMS_ALCHEMY_RARE_DESC"
+      },
+      "origin": "Crafting/Alchemy/Alchemy_T3_ALCHEMY_RARE_ELEMENTAL.json",
+      "raw": {
+        "@uniquename": "T3_ALCHEMY_RARE_ELEMENTAL",
+        "@tier": "3",
+        "@weight": "0.05",
+        "@maxstacksize": "999",
+        "@resourcetype": "ESSENCE",
+        "@shopcategory": "crafting",
+        "@shopsubcategory1": "alchemy",
+        "@unlockedtocraft": "true",
+        "@descriptionlocatag": "@ITEMS_ALCHEMY_RARE_DESC",
+        "@shopsubcategory2": "remains_elemental",
+        "craftingrequirements": {
+          "@amountcrafted": "2",
+          "craftresource": {
+            "@uniquename": "T5_ALCHEMY_RARE_ELEMENTAL",
+            "@count": "1",
+            "@maxreturnamount": "0"
+          }
+        }
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T3_ALCHEMY_RARE_IMP",
+      "index": "1987",
+      "category": "Crafting_Alchemy",
+      "slot": "Resource",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": {
+        "primary_resource": "T5_ALCHEMY_RARE_IMP",
+        "primary_count": 1,
+        "secondary_resource": "",
+        "secondary_count": 0,
+        "resources": [
+          {
+            "id": "T5_ALCHEMY_RARE_IMP",
+            "count": 1
+          }
+        ]
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T3_ALCHEMY_RARE_IMP",
+        "item_database_index": "1987"
+      },
+      "tier": 3,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Rugged Imp's Horn",
+        "DE-DE": "Grobes Gnomenhorn",
+        "FR-FR": "Corne de diablotin résistante",
+        "RU-RU": "Прочный рог чертенка",
+        "PL-PL": "Szorstki Róg Chochlika",
+        "ES-ES": "Cuerno de diablillo duro",
+        "PT-BR": "Chifre de Diabrete Áspero",
+        "IT-IT": "Corno del folletto robusto",
+        "ZH-CN": "劣质的小恶魔号角",
+        "KO-KR": "견고한 임프의 뿔",
+        "JA-JP": "頑丈なインプの角",
+        "ZH-TW": "劣質的小惡魔角",
+        "ID-ID": "Tanduk Anak Api Neraka Kasar",
+        "TR-TR": "İşlenmemiş İblis Boynuzu",
+        "AR-SA": "البوق العفريتي الصلب"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Parts of magical animals used as rare alchemical ingredients to create powerful Potions or as parts of the Shapeshifter weapons",
+        "DE-DE": "Teile von magischen Tieren werden als seltene alchemistische Zutaten genutzt, um daraus mächtige Tränke herzustellen, oder auch als Kernelement einer Gestaltwandler-Waffe.",
+        "FR-FR": "Des parties d'animaux magiques utilisées comme ingrédients alchimiques rares pour créer de puissantes potions ou comme pièces pour les armes de changeforme",
+        "RU-RU": "Останки магических животных, используемые как редкие алхимические ингредиенты для создания мощных зелий или в качестве частей оружия оборотней",
+        "PL-PL": "Części magicznych stworzeń wykorzystywane jako składniki do wytwarzania potężnych Mikstur lub jako elementy Broni Zmiennokształtnych",
+        "ES-ES": "Partes de animales mágicos utilizadas como ingredientes alquímicos raros para crear poderosas pociones o como partes para las armas de cambiaformas",
+        "PT-BR": "Partes de animais mágicos usados como ingredientes alquímicos raros para criar Poções poderosas ou como partes das Armas de Metamorfos",
+        "IT-IT": "Parti di animali magici utilizzate come ingredienti alchemici rari per creare potenti Pozioni o come parti delle armi del Mutaforma",
+        "ZH-CN": "具有魔法特性的动物残骸，可以做为稀有炼金材料来制造强大的药水，或作为幻形者武器的一部分材料",
+        "KO-KR": "강력한 포션을 만들기 위한 희귀한 연금술 재료나 셰이프시프터 무기의 부품으로 사용되는 마법 동물의 일부입니다",
+        "JA-JP": "強力なポーションを作るための希少な錬金術の材料として、あるいはシェイプシフターの武器の部品として使われる魔法動物の部位。",
+        "ZH-TW": "具有魔法特性的動物殘骸，可以做為稀有煉金材料來製造強大的藥水，或作為幻形者武器的一部分材料",
+        "ID-ID": "Bagian dari hewan sihir yang digunakan sebagai bahan alkimia langka untuk meramu Ramuan kuat atau sebagai bagian dari senjata Malih Rupa",
+        "TR-TR": "Güçlü iksirler üretmede bileşen veya Şekil Değiştiren silahlarında parça olarak kullanılabilen sihirli hayvan parçaları.",
+        "AR-SA": "أجزاء من حيوانات سحرية تُستخدم كمكونات كيميائية لصنع جرعات قوية أو لتكوّن أجزاء أسلحة المتحول"
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T3_ALCHEMY_RARE_IMP",
+        "description_variable": "@ITEMS_ALCHEMY_RARE_DESC"
+      },
+      "origin": "Crafting/Alchemy/Alchemy_T3_ALCHEMY_RARE_IMP.json",
+      "raw": {
+        "@uniquename": "T3_ALCHEMY_RARE_IMP",
+        "@tier": "3",
+        "@weight": "0.05",
+        "@maxstacksize": "999",
+        "@resourcetype": "ESSENCE",
+        "@shopcategory": "crafting",
+        "@shopsubcategory1": "alchemy",
+        "@unlockedtocraft": "true",
+        "@descriptionlocatag": "@ITEMS_ALCHEMY_RARE_DESC",
+        "@shopsubcategory2": "remains_imp",
+        "craftingrequirements": {
+          "@amountcrafted": "2",
+          "craftresource": {
+            "@uniquename": "T5_ALCHEMY_RARE_IMP",
+            "@count": "1",
+            "@maxreturnamount": "0"
+          }
+        }
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T3_ALCHEMY_RARE_WEREWOLF",
+      "index": "1984",
+      "category": "Crafting_Alchemy",
+      "slot": "Resource",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": {
+        "primary_resource": "T5_ALCHEMY_RARE_WEREWOLF",
+        "primary_count": 1,
+        "secondary_resource": "",
+        "secondary_count": 0,
+        "resources": [
+          {
+            "id": "T5_ALCHEMY_RARE_WEREWOLF",
+            "count": 1
+          }
+        ]
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T3_ALCHEMY_RARE_WEREWOLF",
+        "item_database_index": "1984"
+      },
+      "tier": 3,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Rugged Werewolf Fangs",
+        "DE-DE": "Grobe Werwolfzähne",
+        "FR-FR": "Crocs de loup-garou résistants",
+        "RU-RU": "Прочные клыки вервольфа",
+        "PL-PL": "Surowe Pazury Wilkołaka",
+        "ES-ES": "Colmillos de hombre lobo duros",
+        "PT-BR": "Presas de Lobisomem Ásperas",
+        "IT-IT": "Zanne di licantropo robuste",
+        "ZH-CN": "劣质的狼人獠牙",
+        "KO-KR": "견고한 늑대인간 송곳니",
+        "JA-JP": "ゴツゴツしたウェアウルフの牙",
+        "ZH-TW": "劣質的狼人獠牙",
+        "ID-ID": "Taring Manusia Serigala Kasar",
+        "TR-TR": "İşlenmemiş Kurt Adam Dişi",
+        "AR-SA": "أنياب المستذئب الصلبة"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Parts of magical animals used as rare alchemical ingredients to create powerful Potions or as parts of the Shapeshifter weapons",
+        "DE-DE": "Teile von magischen Tieren werden als seltene alchemistische Zutaten genutzt, um daraus mächtige Tränke herzustellen, oder auch als Kernelement einer Gestaltwandler-Waffe.",
+        "FR-FR": "Des parties d'animaux magiques utilisées comme ingrédients alchimiques rares pour créer de puissantes potions ou comme pièces pour les armes de changeforme",
+        "RU-RU": "Останки магических животных, используемые как редкие алхимические ингредиенты для создания мощных зелий или в качестве частей оружия оборотней",
+        "PL-PL": "Części magicznych stworzeń wykorzystywane jako składniki do wytwarzania potężnych Mikstur lub jako elementy Broni Zmiennokształtnych",
+        "ES-ES": "Partes de animales mágicos utilizadas como ingredientes alquímicos raros para crear poderosas pociones o como partes para las armas de cambiaformas",
+        "PT-BR": "Partes de animais mágicos usados como ingredientes alquímicos raros para criar Poções poderosas ou como partes das Armas de Metamorfos",
+        "IT-IT": "Parti di animali magici utilizzate come ingredienti alchemici rari per creare potenti Pozioni o come parti delle armi del Mutaforma",
+        "ZH-CN": "具有魔法特性的动物残骸，可以做为稀有炼金材料来制造强大的药水，或作为幻形者武器的一部分材料",
+        "KO-KR": "강력한 포션을 만들기 위한 희귀한 연금술 재료나 셰이프시프터 무기의 부품으로 사용되는 마법 동물의 일부입니다",
+        "JA-JP": "強力なポーションを作るための希少な錬金術の材料として、あるいはシェイプシフターの武器の部品として使われる魔法動物の部位。",
+        "ZH-TW": "具有魔法特性的動物殘骸，可以做為稀有煉金材料來製造強大的藥水，或作為幻形者武器的一部分材料",
+        "ID-ID": "Bagian dari hewan sihir yang digunakan sebagai bahan alkimia langka untuk meramu Ramuan kuat atau sebagai bagian dari senjata Malih Rupa",
+        "TR-TR": "Güçlü iksirler üretmede bileşen veya Şekil Değiştiren silahlarında parça olarak kullanılabilen sihirli hayvan parçaları.",
+        "AR-SA": "أجزاء من حيوانات سحرية تُستخدم كمكونات كيميائية لصنع جرعات قوية أو لتكوّن أجزاء أسلحة المتحول"
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T3_ALCHEMY_RARE_WEREWOLF",
+        "description_variable": "@ITEMS_ALCHEMY_RARE_DESC"
+      },
+      "origin": "Crafting/Alchemy/Alchemy_T3_ALCHEMY_RARE_WEREWOLF.json",
+      "raw": {
+        "@uniquename": "T3_ALCHEMY_RARE_WEREWOLF",
+        "@tier": "3",
+        "@weight": "0.05",
+        "@maxstacksize": "999",
+        "@resourcetype": "ESSENCE",
+        "@shopcategory": "crafting",
+        "@shopsubcategory1": "alchemy",
+        "@unlockedtocraft": "true",
+        "@descriptionlocatag": "@ITEMS_ALCHEMY_RARE_DESC",
+        "@shopsubcategory2": "remains_werewolf",
+        "craftingrequirements": {
+          "@amountcrafted": "2",
+          "craftresource": {
+            "@uniquename": "T5_ALCHEMY_RARE_WEREWOLF",
+            "@count": "1",
+            "@maxreturnamount": "0"
+          }
+        }
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T7_ESSENCE_POTION",
+      "index": "2027",
+      "category": "Crafting_Alchemy",
+      "slot": "Resource",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": "0.1",
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T7_ESSENCE_POTION",
+        "item_database_index": "2027"
+      },
+      "tier": 7,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Grandmaster's Arcane Essence",
+        "DE-DE": "Arkane Essenz des Großmeisters",
+        "FR-FR": "Essence arcanique du grand maître",
+        "RU-RU": "Мистическая эссенция (магистр)",
+        "PL-PL": "Tajemna Esencja Wszechmistrza",
+        "ES-ES": "Esencia arcana del gran maestro",
+        "PT-BR": "Essência Arcana do Grão-mestre",
+        "IT-IT": "Essenza arcana del gran maestro",
+        "ZH-CN": "宗师级奥术精华",
+        "KO-KR": "그랜드 마스터의 아케인 정수",
+        "JA-JP": "アーケインのエッセンス（グランドマスター）",
+        "ZH-TW": "宗師級祕術精華",
+        "ID-ID": "Esens Arcane Grandmaster",
+        "TR-TR": "Büyük Usta Arkana Özütü",
+        "AR-SA": "جوهر الساحر للأستاذ"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "A magical essence, used to enchant potions",
+        "DE-DE": "Eine magische Essenz, wird bei der Verzauberung von Tränken verwendet",
+        "FR-FR": "Une essence magique utilisée pour enchanter des potions.",
+        "RU-RU": "Волшебная эссенция, используется для зачарования зелий",
+        "PL-PL": "Magiczna esencja używana do czarowania mikstur",
+        "ES-ES": "Esencia mágica, usada para encantar pociones.",
+        "PT-BR": "Essência mágica usada para encantar poções",
+        "IT-IT": "Un'essenza magica usata per incantare pozioni.",
+        "ZH-CN": "法术精华，用于给药水附魔。",
+        "KO-KR": "마법 정수로, 포션에 마법을 부여하는 데 사용됩니다",
+        "JA-JP": "ポーションのエンチャントに使える魔法のエッセンス。",
+        "ZH-TW": "一種魔法精華，可用於附魔藥水",
+        "ID-ID": "Esens ajaib, digunakan untuk memberi enchantment pada ramuan.",
+        "TR-TR": "İksir efsunlamakta kullanılan sihirli bir Özüt.",
+        "AR-SA": "خلاصة سحرية، تُستخدم للجرعات السحرية"
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T7_ESSENCE_POTION",
+        "description_variable": "@ITEMS_T7_ESSENCE_POTION_DESC"
+      },
+      "origin": "Crafting/Alchemy/Alchemy_T7_ESSENCE_POTION.json",
+      "raw": {
+        "@uniquename": "T7_ESSENCE_POTION",
+        "@tier": "7",
+        "@weight": "0.5",
+        "@maxstacksize": "999",
+        "@resourcetype": "ESSENCE",
+        "@shopcategory": "crafting",
+        "@shopsubcategory1": "alchemy",
+        "@uisprite": "FRAGMENT_BLUE_F1",
+        "@unlockedtocraft": "true",
+        "@itemvalue": "0.1",
+        "@salvageable": "true",
+        "@shopsubcategory2": "essence",
+        "@uicraftsoundstart": "Play_ui_action_meld_load",
+        "@uicraftsoundfinish": "Play_ui_action_meld",
+        "craftingrequirements": {
+          "@time": "0.01",
+          "@silver": "0",
+          "@salvageitemfactor": "0",
+          "@salvagesilverfactor": "250"
+        }
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T1_ALCHEMY_EXTRACT_LEVEL1",
+      "index": "2000",
+      "category": "Crafting_Alchemy",
+      "slot": "Resource",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": {
+        "primary_resource": "T1_ALCHEMY_COMMON",
+        "primary_count": 1,
+        "secondary_resource": "",
+        "secondary_count": 0,
+        "resources": [
+          {
+            "id": "T1_ALCHEMY_COMMON",
+            "count": 1
+          }
+        ]
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T1_ALCHEMY_EXTRACT_LEVEL1",
+        "item_database_index": "2000"
+      },
+      "tier": 1,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Basic Arcane Extract",
+        "DE-DE": "Einfaches Arkanes Extrakt",
+        "FR-FR": "Extrait arcanique de base",
+        "RU-RU": "Базовый магический экстракт",
+        "PL-PL": "Podstawowy Tajemny Ekstrakt",
+        "ES-ES": "Extracto arcano básico",
+        "PT-BR": "Extratos Arcanos Básicos",
+        "IT-IT": "Estratto arcano di base",
+        "ZH-CN": "基础奥术精粹",
+        "KO-KR": "기본 아케인 추출물",
+        "JA-JP": "基本のアーケインエキス",
+        "ZH-TW": "基礎奧術精粹",
+        "ID-ID": "Ekstrak Arcane Dasar",
+        "TR-TR": "Temel Arkana Tözü",
+        "AR-SA": "عصارة ساحر أساسية"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Liquified magic used to enchant potions.",
+        "DE-DE": "Flüssige Magie zur Verzauberung von Tränken.",
+        "FR-FR": "Magie liquide utilisée pour enchanter les potions.",
+        "RU-RU": "Жидкая магия, используемая для зачарования зелий.",
+        "PL-PL": "Płynna magia służąca do zaklinania mikstur.",
+        "ES-ES": "Magia líquida utilizada para encantar pociones.",
+        "PT-BR": "Magia liquefeita usada para encantar poções.",
+        "IT-IT": "Magia liquida usata per incantare le pozioni.",
+        "ZH-CN": "液化的魔法，可用于附魔药水。",
+        "KO-KR": "포션 인챈트에 사용되는 액체화된 마법입니다.",
+        "JA-JP": "ポーションのエンチャントに使われる液化魔法。",
+        "ZH-TW": "液化的魔法，可用於附魔藥水。",
+        "ID-ID": "Sihir berbentuk cair yang digunakan untuk meng-enchant ramuan.",
+        "TR-TR": "İksir efsunlamakta kullanılan sıvılaştırılmış sihir.",
+        "AR-SA": "عصارة سحرية سائلة تُستخدم لسَحر الجرعات."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T1_ALCHEMY_EXTRACT_LEVEL1",
+        "description_variable": "@ITEMS_T1_ALCHEMY_EXTRACT_DESC"
+      },
+      "origin": "Crafting/Alchemy/Alchemy_T1_ALCHEMY_EXTRACT_LEVEL1.json",
+      "raw": {
+        "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL1",
+        "@tier": "1",
+        "@weight": "1",
+        "@maxstacksize": "999",
+        "@resourcetype": "ESSENCE",
+        "@shopcategory": "crafting",
+        "@shopsubcategory1": "alchemy",
+        "@unlockedtocraft": "true",
+        "@descriptionlocatag": "@ITEMS_T1_ALCHEMY_EXTRACT_DESC",
+        "@shopsubcategory2": "extract",
+        "craftingrequirements": {
+          "@time": "0.01",
+          "@silver": "0",
+          "craftresource": {
+            "@uniquename": "T1_ALCHEMY_COMMON",
+            "@count": "1",
+            "@maxreturnamount": "0"
+          }
+        }
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T5_ALCHEMY_RARE_WEREWOLF",
+      "index": "1985",
+      "category": "Crafting_Alchemy",
+      "slot": "Resource",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": {
+        "primary_resource": "T7_ALCHEMY_RARE_WEREWOLF",
+        "primary_count": 1,
+        "secondary_resource": "",
+        "secondary_count": 0,
+        "resources": [
+          {
+            "id": "T7_ALCHEMY_RARE_WEREWOLF",
+            "count": 1
+          }
+        ]
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T5_ALCHEMY_RARE_WEREWOLF",
+        "item_database_index": "1985"
+      },
+      "tier": 5,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Fine Werewolf Fangs",
+        "DE-DE": "Feine Werwolfzähne",
+        "FR-FR": "Crocs de loup-garou délicats",
+        "RU-RU": "Отличные клыки вервольфа",
+        "PL-PL": "Porządne Pazury Wilkołaka",
+        "ES-ES": "Colmillos de hombre lobo finos",
+        "PT-BR": "Presas de Lobisomem Finas",
+        "IT-IT": "Zanne di licantropo pregiate",
+        "ZH-CN": "良好的狼人獠牙",
+        "KO-KR": "질 좋은 늑대인간 송곳니",
+        "JA-JP": "名なウェアウルフの牙",
+        "ZH-TW": "良好的狼人獠牙",
+        "ID-ID": "Taring Manusia Serigala Baik",
+        "TR-TR": "Kaliteli Kurt Adam Dişleri",
+        "AR-SA": "أنياب المستذئب الجميلة"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Parts of magical animals used as rare alchemical ingredients to create powerful Potions or as parts of the Shapeshifter weapons",
+        "DE-DE": "Teile von magischen Tieren werden als seltene alchemistische Zutaten genutzt, um daraus mächtige Tränke herzustellen, oder auch als Kernelement einer Gestaltwandler-Waffe.",
+        "FR-FR": "Des parties d'animaux magiques utilisées comme ingrédients alchimiques rares pour créer de puissantes potions ou comme pièces pour les armes de changeforme",
+        "RU-RU": "Останки магических животных, используемые как редкие алхимические ингредиенты для создания мощных зелий или в качестве частей оружия оборотней",
+        "PL-PL": "Części magicznych stworzeń wykorzystywane jako składniki do wytwarzania potężnych Mikstur lub jako elementy Broni Zmiennokształtnych",
+        "ES-ES": "Partes de animales mágicos utilizadas como ingredientes alquímicos raros para crear poderosas pociones o como partes para las armas de cambiaformas",
+        "PT-BR": "Partes de animais mágicos usados como ingredientes alquímicos raros para criar Poções poderosas ou como partes das Armas de Metamorfos",
+        "IT-IT": "Parti di animali magici utilizzate come ingredienti alchemici rari per creare potenti Pozioni o come parti delle armi del Mutaforma",
+        "ZH-CN": "具有魔法特性的动物残骸，可以做为稀有炼金材料来制造强大的药水，或作为幻形者武器的一部分材料",
+        "KO-KR": "강력한 포션을 만들기 위한 희귀한 연금술 재료나 셰이프시프터 무기의 부품으로 사용되는 마법 동물의 일부입니다",
+        "JA-JP": "強力なポーションを作るための希少な錬金術の材料として、あるいはシェイプシフターの武器の部品として使われる魔法動物の部位。",
+        "ZH-TW": "具有魔法特性的動物殘骸，可以做為稀有煉金材料來製造強大的藥水，或作為幻形者武器的一部分材料",
+        "ID-ID": "Bagian dari hewan sihir yang digunakan sebagai bahan alkimia langka untuk meramu Ramuan kuat atau sebagai bagian dari senjata Malih Rupa",
+        "TR-TR": "Güçlü iksirler üretmede bileşen veya Şekil Değiştiren silahlarında parça olarak kullanılabilen sihirli hayvan parçaları.",
+        "AR-SA": "أجزاء من حيوانات سحرية تُستخدم كمكونات كيميائية لصنع جرعات قوية أو لتكوّن أجزاء أسلحة المتحول"
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T5_ALCHEMY_RARE_WEREWOLF",
+        "description_variable": "@ITEMS_ALCHEMY_RARE_DESC"
+      },
+      "origin": "Crafting/Alchemy/Alchemy_T5_ALCHEMY_RARE_WEREWOLF.json",
+      "raw": {
+        "@uniquename": "T5_ALCHEMY_RARE_WEREWOLF",
+        "@tier": "5",
+        "@weight": "0.05",
+        "@maxstacksize": "999",
+        "@resourcetype": "ESSENCE",
+        "@shopcategory": "crafting",
+        "@shopsubcategory1": "alchemy",
+        "@unlockedtocraft": "true",
+        "@descriptionlocatag": "@ITEMS_ALCHEMY_RARE_DESC",
+        "@shopsubcategory2": "remains_werewolf",
+        "craftingrequirements": {
+          "@amountcrafted": "2",
+          "craftresource": {
+            "@uniquename": "T7_ALCHEMY_RARE_WEREWOLF",
+            "@count": "1",
+            "@maxreturnamount": "0"
+          }
+        }
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T6_ESSENCE",
+      "index": "2020",
+      "category": "Crafting_Alchemy",
+      "slot": "Resource",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T6_ESSENCE",
+        "item_database_index": "2020"
+      },
+      "tier": 6,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Master's Faded Essence",
+        "DE-DE": "Verblasste Essenz des Meisters",
+        "FR-FR": "Essence ternie du maître",
+        "RU-RU": "Угасшая эссенция (мастер)",
+        "PL-PL": "Wyblakła Esencja Mistrza",
+        "ES-ES": "Esencia debilitada del maestro",
+        "PT-BR": "Essência Enfraquecida do Mestre",
+        "IT-IT": "Essenza sbiadita del maestro",
+        "ZH-CN": "大师级过期精华",
+        "KO-KR": "마스터의 희미해진 정수",
+        "JA-JP": "色褪せたエッセンス（マスター）",
+        "ZH-TW": "大師級黯淡精華",
+        "ID-ID": "Esens Pudar Master",
+        "TR-TR": "Usta Solmuş Özütü",
+        "AR-SA": "الخلاصة المتلاشية للخبير"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "This essence has passed its use-by date. It can be combined with others like it at an Artifact Foundry.",
+        "DE-DE": "Diese Essenz hat ihr Verbrauchsdatum überschritten. Sie kann mit weiteren, ähnlichen Essenzen in einer Artefaktschmiede kombiniert werden",
+        "FR-FR": "Cette essence est périmée. Elle peut être utilisée avec d'autres similaires dans une fonderie d'artefact.",
+        "RU-RU": "Дни эссенции давно минули. Ее можно совместить с другими подобными в мастерской артефактов.",
+        "PL-PL": "Ta esencja nie nadaje się do użytku - według daty na opakowaniu. Można łączyć ją z takimi samymi esencjami w Budynku Łączenia",
+        "ES-ES": "Esta esencia ya no es válida. Se puede combinar con otras de su tipo en una fundición de artefactos",
+        "PT-BR": "Essa essência passou da validade. Ela pode ser combinada com outras do seu tipo em uma Fusão de Artefato",
+        "IT-IT": "La data di scadenza di questa essenza è già passata. Si può combinare con oggetti simili presso una Fucina di Manufatti.",
+        "ZH-CN": "这个精华已经过了使用期限，可以带到神器铸造店，与其他精华混合。",
+        "KO-KR": "이 정수는 사용 기한이 지났습니다. 아티팩트 공장에서 같은 것들과 결합할 수 있습니다.",
+        "JA-JP": "このエッセンスは使用期限が切れています。アーティファクト工房で、他の類似品と組み合わせが可能です。",
+        "ZH-TW": "此精華已經超過使用期限。在神器鍛造所，您可以將所有過期精華融為一體。",
+        "ID-ID": "Esens ini telah melewati masa pakainya. Bisa digabungkan dengan yang serupa di Bengkel Artefak.",
+        "TR-TR": "Bu Özüt'ün son kullanım tarihi geçmiş durumdadır. Bir Eser Dökümhanesi'nde kendisi gibi olan Özütlerle birleştirilebilir.",
+        "AR-SA": "انتهى تاريخ صلاحية هذا الجوهر. يمكن دمجه مع أشباهه في المسبك."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T6_ESSENCE",
+        "description_variable": "@ITEMS_T6_ESSENCE_DESC"
+      },
+      "origin": "Crafting/Alchemy/Alchemy_T6_ESSENCE.json",
+      "raw": {
+        "@uniquename": "T6_ESSENCE",
+        "@tier": "6",
+        "@weight": "0.38",
+        "@maxstacksize": "999",
+        "@resourcetype": "ESSENCE",
+        "@shopcategory": "crafting",
+        "@shopsubcategory1": "alchemy",
+        "@uisprite": "JEWEL",
+        "@unlockedtocraft": "true",
+        "@shopsubcategory2": "essence"
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T7_ALCHEMY_RARE_PANTHER",
+      "index": "1977",
+      "category": "Crafting_Alchemy",
+      "slot": "Resource",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T7_ALCHEMY_RARE_PANTHER",
+        "item_database_index": "1977"
+      },
+      "tier": 7,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Excellent Shadow Claws",
+        "DE-DE": "Exzellente Schattenklauen",
+        "FR-FR": "Griffes de l'ombre excellentes",
+        "RU-RU": "Превосходные теневые когти",
+        "PL-PL": "Wspaniałe Pazury Cienia",
+        "ES-ES": "Garras sombrías excelentes",
+        "PT-BR": "Garras Sombrias Excelentes",
+        "IT-IT": "Artigli d'ombra eccellenti",
+        "ZH-CN": "无瑕的暗影之爪",
+        "KO-KR": "우수한 그림자 발톱",
+        "JA-JP": "エクセレントなシャドークロー",
+        "ZH-TW": "無瑕的暗影之爪",
+        "ID-ID": "Cakar Bayangan Sangat Baik",
+        "TR-TR": "Fevkalade Gölge Pençeleri",
+        "AR-SA": "مخالب الظل الممتازة"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Parts of magical animals used as rare alchemical ingredients to create powerful Potions or as parts of the Shapeshifter weapons",
+        "DE-DE": "Teile von magischen Tieren werden als seltene alchemistische Zutaten genutzt, um daraus mächtige Tränke herzustellen, oder auch als Kernelement einer Gestaltwandler-Waffe.",
+        "FR-FR": "Des parties d'animaux magiques utilisées comme ingrédients alchimiques rares pour créer de puissantes potions ou comme pièces pour les armes de changeforme",
+        "RU-RU": "Останки магических животных, используемые как редкие алхимические ингредиенты для создания мощных зелий или в качестве частей оружия оборотней",
+        "PL-PL": "Części magicznych stworzeń wykorzystywane jako składniki do wytwarzania potężnych Mikstur lub jako elementy Broni Zmiennokształtnych",
+        "ES-ES": "Partes de animales mágicos utilizadas como ingredientes alquímicos raros para crear poderosas pociones o como partes para las armas de cambiaformas",
+        "PT-BR": "Partes de animais mágicos usados como ingredientes alquímicos raros para criar Poções poderosas ou como partes das Armas de Metamorfos",
+        "IT-IT": "Parti di animali magici utilizzate come ingredienti alchemici rari per creare potenti Pozioni o come parti delle armi del Mutaforma",
+        "ZH-CN": "具有魔法特性的动物残骸，可以做为稀有炼金材料来制造强大的药水，或作为幻形者武器的一部分材料",
+        "KO-KR": "강력한 포션을 만들기 위한 희귀한 연금술 재료나 셰이프시프터 무기의 부품으로 사용되는 마법 동물의 일부입니다",
+        "JA-JP": "強力なポーションを作るための希少な錬金術の材料として、あるいはシェイプシフターの武器の部品として使われる魔法動物の部位。",
+        "ZH-TW": "具有魔法特性的動物殘骸，可以做為稀有煉金材料來製造強大的藥水，或作為幻形者武器的一部分材料",
+        "ID-ID": "Bagian dari hewan sihir yang digunakan sebagai bahan alkimia langka untuk meramu Ramuan kuat atau sebagai bagian dari senjata Malih Rupa",
+        "TR-TR": "Güçlü iksirler üretmede bileşen veya Şekil Değiştiren silahlarında parça olarak kullanılabilen sihirli hayvan parçaları.",
+        "AR-SA": "أجزاء من حيوانات سحرية تُستخدم كمكونات كيميائية لصنع جرعات قوية أو لتكوّن أجزاء أسلحة المتحول"
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T7_ALCHEMY_RARE_PANTHER",
+        "description_variable": "@ITEMS_ALCHEMY_RARE_DESC"
+      },
+      "origin": "Crafting/Alchemy/Alchemy_T7_ALCHEMY_RARE_PANTHER.json",
+      "raw": {
+        "@uniquename": "T7_ALCHEMY_RARE_PANTHER",
+        "@tier": "7",
+        "@weight": "0.05",
+        "@maxstacksize": "999",
+        "@resourcetype": "ESSENCE",
+        "@shopcategory": "crafting",
+        "@shopsubcategory1": "alchemy",
+        "@unlockedtocraft": "true",
+        "@descriptionlocatag": "@ITEMS_ALCHEMY_RARE_DESC",
+        "@shopsubcategory2": "remains_panther"
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T7_ESSENCE",
+      "index": "2028",
+      "category": "Crafting_Alchemy",
+      "slot": "Resource",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T7_ESSENCE",
+        "item_database_index": "2028"
+      },
+      "tier": 7,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Grandmaster's Faded Essence",
+        "DE-DE": "Verblasste Essenz des Großmeisters",
+        "FR-FR": "Essence ternie du grand maître",
+        "RU-RU": "Угасшая эссенция (магистр)",
+        "PL-PL": "Wyblakła Esencja Wszechmistrza",
+        "ES-ES": "Esencia debilitada del Gran Maestro",
+        "PT-BR": "Essência Enfraquecida do Grão-mestre",
+        "IT-IT": "Essenza sbiadita del gran maestro",
+        "ZH-CN": "宗师级过期精华",
+        "KO-KR": "그랜드 마스터의 희미해진 정수",
+        "JA-JP": "色褪せたエッセンス（グランドマスター）",
+        "ZH-TW": "宗師級黯淡精華",
+        "ID-ID": "Esens Pudar Grandmaster",
+        "TR-TR": "Büyük Usta Solmuş Özütü",
+        "AR-SA": "الجوهر المتلاشي للأستاذ"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "This essence has passed its use-by date. It can be combined with others like it at an Artifact Foundry.",
+        "DE-DE": "Diese Essenz hat ihr Verbrauchsdatum überschritten. Sie kann mit weiteren, ähnlichen Essenzen in einer Artefaktschmiede kombiniert werden",
+        "FR-FR": "Cette essence est périmée. Elle peut être utilisée avec d'autres similaires dans une fonderie d'artefact.",
+        "RU-RU": "Дни эссенции давно минули. Ее можно совместить с другими подобными в мастерской артефактов.",
+        "PL-PL": "Ta esencja nie nadaje się do użytku - według daty na opakowaniu. Można łączyć ją z takimi samymi esencjami w Budynku Łączenia",
+        "ES-ES": "Esta esencia ya no es válida. Se puede combinar con otras de su tipo en una fundición de artefactos",
+        "PT-BR": "Essa essência passou da validade. Ela pode ser combinada com outras do seu tipo em uma Fusão de Artefato",
+        "IT-IT": "La data di scadenza di questa essenza è già passata. Si può combinare con oggetti simili presso una Fucina di Manufatti.",
+        "ZH-CN": "这个精华已经过了使用期限，可以带到神器铸造店，与其他精华混合。",
+        "KO-KR": "이 정수는 사용 기한이 지났습니다. 아티팩트 공장에서 같은 것들과 결합할 수 있습니다.",
+        "JA-JP": "このエッセンスは使用期限が切れています。アーティファクト工房で、他の類似品と組み合わせが可能です。",
+        "ZH-TW": "此精華已經超過使用期限。在神器鍛造所，您可以將所有過期精華融為一體。",
+        "ID-ID": "Esens ini telah melewati masa pakainya. Bisa digabungkan dengan yang serupa di Bengkel Artefak.",
+        "TR-TR": "Bu Özüt'ün son kullanım tarihi geçmiş durumdadır. Bir Eser Dökümhanesi'nde kendisi gibi olan Özütlerle birleştirilebilir.",
+        "AR-SA": "انتهى تاريخ صلاحية هذا الجوهر. يمكن دمجه مع أشباهه في المسبك."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T7_ESSENCE",
+        "description_variable": "@ITEMS_T7_ESSENCE_DESC"
+      },
+      "origin": "Crafting/Alchemy/Alchemy_T7_ESSENCE.json",
+      "raw": {
+        "@uniquename": "T7_ESSENCE",
+        "@tier": "7",
+        "@weight": "0.5",
+        "@maxstacksize": "999",
+        "@resourcetype": "ESSENCE",
+        "@shopcategory": "crafting",
+        "@shopsubcategory1": "alchemy",
+        "@uisprite": "JEWEL",
+        "@unlockedtocraft": "true",
+        "@shopsubcategory2": "essence",
+        "@uicraftsoundstart": "Play_ui_action_meld_load",
+        "@uicraftsoundfinish": "Play_ui_action_meld"
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T3_ALCHEMY_RARE_DIREBEAR",
+      "index": "1981",
+      "category": "Crafting_Alchemy",
+      "slot": "Resource",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": {
+        "primary_resource": "T5_ALCHEMY_RARE_DIREBEAR",
+        "primary_count": 1,
+        "secondary_resource": "",
+        "secondary_count": 0,
+        "resources": [
+          {
+            "id": "T5_ALCHEMY_RARE_DIREBEAR",
+            "count": 1
+          }
+        ]
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T3_ALCHEMY_RARE_DIREBEAR",
+        "item_database_index": "1981"
+      },
+      "tier": 3,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Rugged Spirit Paws",
+        "DE-DE": "Grobe Geisterpfoten",
+        "FR-FR": "Pattes d'esprit résistantes",
+        "RU-RU": "Прочные лапы духа медведя",
+        "PL-PL": "Surowe Duchowe Łapy",
+        "ES-ES": "Patas de espíritu duras",
+        "PT-BR": "Patas Espirituais Ásperas",
+        "IT-IT": "Zampe spirituali robuste",
+        "ZH-CN": "劣质的灵性之爪",
+        "KO-KR": "견고한 정령 앞발",
+        "JA-JP": "ゴツゴツしたスピリットポウ",
+        "ZH-TW": "劣質的靈性之爪",
+        "ID-ID": "Kaki Roh Kasar",
+        "TR-TR": "İşlenmemiş Ruh Pençeleri",
+        "AR-SA": "مخالب الروح الصلبة"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Parts of magical animals used as rare alchemical ingredients to create powerful Potions or as parts of the Shapeshifter weapons",
+        "DE-DE": "Teile von magischen Tieren werden als seltene alchemistische Zutaten genutzt, um daraus mächtige Tränke herzustellen, oder auch als Kernelement einer Gestaltwandler-Waffe.",
+        "FR-FR": "Des parties d'animaux magiques utilisées comme ingrédients alchimiques rares pour créer de puissantes potions ou comme pièces pour les armes de changeforme",
+        "RU-RU": "Останки магических животных, используемые как редкие алхимические ингредиенты для создания мощных зелий или в качестве частей оружия оборотней",
+        "PL-PL": "Części magicznych stworzeń wykorzystywane jako składniki do wytwarzania potężnych Mikstur lub jako elementy Broni Zmiennokształtnych",
+        "ES-ES": "Partes de animales mágicos utilizadas como ingredientes alquímicos raros para crear poderosas pociones o como partes para las armas de cambiaformas",
+        "PT-BR": "Partes de animais mágicos usados como ingredientes alquímicos raros para criar Poções poderosas ou como partes das Armas de Metamorfos",
+        "IT-IT": "Parti di animali magici utilizzate come ingredienti alchemici rari per creare potenti Pozioni o come parti delle armi del Mutaforma",
+        "ZH-CN": "具有魔法特性的动物残骸，可以做为稀有炼金材料来制造强大的药水，或作为幻形者武器的一部分材料",
+        "KO-KR": "강력한 포션을 만들기 위한 희귀한 연금술 재료나 셰이프시프터 무기의 부품으로 사용되는 마법 동물의 일부입니다",
+        "JA-JP": "強力なポーションを作るための希少な錬金術の材料として、あるいはシェイプシフターの武器の部品として使われる魔法動物の部位。",
+        "ZH-TW": "具有魔法特性的動物殘骸，可以做為稀有煉金材料來製造強大的藥水，或作為幻形者武器的一部分材料",
+        "ID-ID": "Bagian dari hewan sihir yang digunakan sebagai bahan alkimia langka untuk meramu Ramuan kuat atau sebagai bagian dari senjata Malih Rupa",
+        "TR-TR": "Güçlü iksirler üretmede bileşen veya Şekil Değiştiren silahlarında parça olarak kullanılabilen sihirli hayvan parçaları.",
+        "AR-SA": "أجزاء من حيوانات سحرية تُستخدم كمكونات كيميائية لصنع جرعات قوية أو لتكوّن أجزاء أسلحة المتحول"
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T3_ALCHEMY_RARE_DIREBEAR",
+        "description_variable": "@ITEMS_ALCHEMY_RARE_DESC"
+      },
+      "origin": "Crafting/Alchemy/Alchemy_T3_ALCHEMY_RARE_DIREBEAR.json",
+      "raw": {
+        "@uniquename": "T3_ALCHEMY_RARE_DIREBEAR",
+        "@tier": "3",
+        "@weight": "0.05",
+        "@maxstacksize": "999",
+        "@resourcetype": "ESSENCE",
+        "@shopcategory": "crafting",
+        "@shopsubcategory1": "alchemy",
+        "@unlockedtocraft": "true",
+        "@uisprite": "ALCHEMY_RARE_BEAR",
+        "@descriptionlocatag": "@ITEMS_ALCHEMY_RARE_DESC",
+        "@shopsubcategory2": "remains_direbear",
+        "craftingrequirements": {
+          "@amountcrafted": "2",
+          "craftresource": {
+            "@uniquename": "T5_ALCHEMY_RARE_DIREBEAR",
+            "@count": "1",
+            "@maxreturnamount": "0"
+          }
+        }
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T3_ALCHEMY_RARE_PANTHER",
+      "index": "1975",
+      "category": "Crafting_Alchemy",
+      "slot": "Resource",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": {
+        "primary_resource": "T5_ALCHEMY_RARE_PANTHER",
+        "primary_count": 1,
+        "secondary_resource": "",
+        "secondary_count": 0,
+        "resources": [
+          {
+            "id": "T5_ALCHEMY_RARE_PANTHER",
+            "count": 1
+          }
+        ]
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T3_ALCHEMY_RARE_PANTHER",
+        "item_database_index": "1975"
+      },
+      "tier": 3,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Rugged Shadow Claws",
+        "DE-DE": "Grobe Schattenklauen",
+        "FR-FR": "Griffes de l'ombre résistantes",
+        "RU-RU": "Прочные теневые когти",
+        "PL-PL": "Surowe Pazury Cienia",
+        "ES-ES": "Garras sombrías duras",
+        "PT-BR": "Garras Sombrias Ásperas",
+        "IT-IT": "Artigli d'ombra robusti",
+        "ZH-CN": "劣质的暗影之爪",
+        "KO-KR": "견고한 그림자 발톱",
+        "JA-JP": "ゴツゴツしたシャドクロー",
+        "ZH-TW": "劣質的暗影之爪",
+        "ID-ID": "Cakar Bayangan Kasar",
+        "TR-TR": "İşlenmemiş Gölge Pençeleri",
+        "AR-SA": "مخالب الظل الصلبة"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Parts of magical animals used as rare alchemical ingredients to create powerful Potions or as parts of the Shapeshifter weapons",
+        "DE-DE": "Teile von magischen Tieren werden als seltene alchemistische Zutaten genutzt, um daraus mächtige Tränke herzustellen, oder auch als Kernelement einer Gestaltwandler-Waffe.",
+        "FR-FR": "Des parties d'animaux magiques utilisées comme ingrédients alchimiques rares pour créer de puissantes potions ou comme pièces pour les armes de changeforme",
+        "RU-RU": "Останки магических животных, используемые как редкие алхимические ингредиенты для создания мощных зелий или в качестве частей оружия оборотней",
+        "PL-PL": "Części magicznych stworzeń wykorzystywane jako składniki do wytwarzania potężnych Mikstur lub jako elementy Broni Zmiennokształtnych",
+        "ES-ES": "Partes de animales mágicos utilizadas como ingredientes alquímicos raros para crear poderosas pociones o como partes para las armas de cambiaformas",
+        "PT-BR": "Partes de animais mágicos usados como ingredientes alquímicos raros para criar Poções poderosas ou como partes das Armas de Metamorfos",
+        "IT-IT": "Parti di animali magici utilizzate come ingredienti alchemici rari per creare potenti Pozioni o come parti delle armi del Mutaforma",
+        "ZH-CN": "具有魔法特性的动物残骸，可以做为稀有炼金材料来制造强大的药水，或作为幻形者武器的一部分材料",
+        "KO-KR": "강력한 포션을 만들기 위한 희귀한 연금술 재료나 셰이프시프터 무기의 부품으로 사용되는 마법 동물의 일부입니다",
+        "JA-JP": "強力なポーションを作るための希少な錬金術の材料として、あるいはシェイプシフターの武器の部品として使われる魔法動物の部位。",
+        "ZH-TW": "具有魔法特性的動物殘骸，可以做為稀有煉金材料來製造強大的藥水，或作為幻形者武器的一部分材料",
+        "ID-ID": "Bagian dari hewan sihir yang digunakan sebagai bahan alkimia langka untuk meramu Ramuan kuat atau sebagai bagian dari senjata Malih Rupa",
+        "TR-TR": "Güçlü iksirler üretmede bileşen veya Şekil Değiştiren silahlarında parça olarak kullanılabilen sihirli hayvan parçaları.",
+        "AR-SA": "أجزاء من حيوانات سحرية تُستخدم كمكونات كيميائية لصنع جرعات قوية أو لتكوّن أجزاء أسلحة المتحول"
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T3_ALCHEMY_RARE_PANTHER",
+        "description_variable": "@ITEMS_ALCHEMY_RARE_DESC"
+      },
+      "origin": "Crafting/Alchemy/Alchemy_T3_ALCHEMY_RARE_PANTHER.json",
+      "raw": {
+        "@uniquename": "T3_ALCHEMY_RARE_PANTHER",
+        "@tier": "3",
+        "@weight": "0.05",
+        "@maxstacksize": "999",
+        "@resourcetype": "ESSENCE",
+        "@shopcategory": "crafting",
+        "@shopsubcategory1": "alchemy",
+        "@unlockedtocraft": "true",
+        "@descriptionlocatag": "@ITEMS_ALCHEMY_RARE_DESC",
+        "@shopsubcategory2": "remains_panther",
+        "craftingrequirements": {
+          "@amountcrafted": "2",
+          "craftresource": {
+            "@uniquename": "T5_ALCHEMY_RARE_PANTHER",
+            "@count": "1",
+            "@maxreturnamount": "0"
+          }
+        }
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T5_ALCHEMY_RARE_IMP",
+      "index": "1988",
+      "category": "Crafting_Alchemy",
+      "slot": "Resource",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": {
+        "primary_resource": "T7_ALCHEMY_RARE_IMP",
+        "primary_count": 1,
+        "secondary_resource": "",
+        "secondary_count": 0,
+        "resources": [
+          {
+            "id": "T7_ALCHEMY_RARE_IMP",
+            "count": 1
+          }
+        ]
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T5_ALCHEMY_RARE_IMP",
+        "item_database_index": "1988"
+      },
+      "tier": 5,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Fine Imp's Horn",
+        "DE-DE": "Feines Gnomenhorn",
+        "FR-FR": "Corne de diablotin délicate",
+        "RU-RU": "Отличный рог чертенка",
+        "PL-PL": "Porządny Róg Chochlika",
+        "ES-ES": "Cuerno de diablillo fino",
+        "PT-BR": "Chifres de Diabrete Finos",
+        "IT-IT": "Corno del folletto pregiato",
+        "ZH-CN": "良好的小恶魔号角",
+        "KO-KR": "질 좋은 임프의 뿔",
+        "JA-JP": "名なインプの角",
+        "ZH-TW": "良好的小惡魔角",
+        "ID-ID": "Tanduk Anak Api Neraka Baik",
+        "TR-TR": "Kaliteli İblis Boynuzu",
+        "AR-SA": "البوق العفريتي الجميل"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Parts of magical animals used as rare alchemical ingredients to create powerful Potions or as parts of the Shapeshifter weapons",
+        "DE-DE": "Teile von magischen Tieren werden als seltene alchemistische Zutaten genutzt, um daraus mächtige Tränke herzustellen, oder auch als Kernelement einer Gestaltwandler-Waffe.",
+        "FR-FR": "Des parties d'animaux magiques utilisées comme ingrédients alchimiques rares pour créer de puissantes potions ou comme pièces pour les armes de changeforme",
+        "RU-RU": "Останки магических животных, используемые как редкие алхимические ингредиенты для создания мощных зелий или в качестве частей оружия оборотней",
+        "PL-PL": "Części magicznych stworzeń wykorzystywane jako składniki do wytwarzania potężnych Mikstur lub jako elementy Broni Zmiennokształtnych",
+        "ES-ES": "Partes de animales mágicos utilizadas como ingredientes alquímicos raros para crear poderosas pociones o como partes para las armas de cambiaformas",
+        "PT-BR": "Partes de animais mágicos usados como ingredientes alquímicos raros para criar Poções poderosas ou como partes das Armas de Metamorfos",
+        "IT-IT": "Parti di animali magici utilizzate come ingredienti alchemici rari per creare potenti Pozioni o come parti delle armi del Mutaforma",
+        "ZH-CN": "具有魔法特性的动物残骸，可以做为稀有炼金材料来制造强大的药水，或作为幻形者武器的一部分材料",
+        "KO-KR": "강력한 포션을 만들기 위한 희귀한 연금술 재료나 셰이프시프터 무기의 부품으로 사용되는 마법 동물의 일부입니다",
+        "JA-JP": "強力なポーションを作るための希少な錬金術の材料として、あるいはシェイプシフターの武器の部品として使われる魔法動物の部位。",
+        "ZH-TW": "具有魔法特性的動物殘骸，可以做為稀有煉金材料來製造強大的藥水，或作為幻形者武器的一部分材料",
+        "ID-ID": "Bagian dari hewan sihir yang digunakan sebagai bahan alkimia langka untuk meramu Ramuan kuat atau sebagai bagian dari senjata Malih Rupa",
+        "TR-TR": "Güçlü iksirler üretmede bileşen veya Şekil Değiştiren silahlarında parça olarak kullanılabilen sihirli hayvan parçaları.",
+        "AR-SA": "أجزاء من حيوانات سحرية تُستخدم كمكونات كيميائية لصنع جرعات قوية أو لتكوّن أجزاء أسلحة المتحول"
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T5_ALCHEMY_RARE_IMP",
+        "description_variable": "@ITEMS_ALCHEMY_RARE_DESC"
+      },
+      "origin": "Crafting/Alchemy/Alchemy_T5_ALCHEMY_RARE_IMP.json",
+      "raw": {
+        "@uniquename": "T5_ALCHEMY_RARE_IMP",
+        "@tier": "5",
+        "@weight": "0.05",
+        "@maxstacksize": "999",
+        "@resourcetype": "ESSENCE",
+        "@shopcategory": "crafting",
+        "@shopsubcategory1": "alchemy",
+        "@unlockedtocraft": "true",
+        "@descriptionlocatag": "@ITEMS_ALCHEMY_RARE_DESC",
+        "@shopsubcategory2": "remains_imp",
+        "craftingrequirements": {
+          "@amountcrafted": "2",
+          "craftresource": {
+            "@uniquename": "T7_ALCHEMY_RARE_IMP",
+            "@count": "1",
+            "@maxreturnamount": "0"
+          }
+        }
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T1_ALCHEMY_EXTRACT_LEVEL2",
+      "index": "2001",
+      "category": "Crafting_Alchemy",
+      "slot": "Resource",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": {
+        "primary_resource": "T1_ALCHEMY_COMMON",
+        "primary_count": 3,
+        "secondary_resource": "",
+        "secondary_count": 0,
+        "resources": [
+          {
+            "id": "T1_ALCHEMY_COMMON",
+            "count": 3
+          }
+        ]
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T1_ALCHEMY_EXTRACT_LEVEL2",
+        "item_database_index": "2001"
+      },
+      "tier": 1,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Refined Arcane Extract",
+        "DE-DE": "Verfeinertes Arkanes Extrakt",
+        "FR-FR": "Extrait arcanique raffiné",
+        "RU-RU": "Очищенный магический экстракт",
+        "PL-PL": "Przetworzony Tajemny Ekstrakt",
+        "ES-ES": "Extracto arcano refinado",
+        "PT-BR": "Extratos Arcanos Refinados",
+        "IT-IT": "Estratto arcano raffinato",
+        "ZH-CN": "优质奥术精粹",
+        "KO-KR": "정제된 아케인 추출물",
+        "JA-JP": "精錬されたアーケインエキス",
+        "ZH-TW": "優質奧術精粹",
+        "ID-ID": "Ekstrak Arcane Disempurnakan",
+        "TR-TR": "İşlenmiş Arkana Tözü",
+        "AR-SA": "عصارة ساحر معالجة"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Liquified magic used to enchant potions.",
+        "DE-DE": "Flüssige Magie zur Verzauberung von Tränken.",
+        "FR-FR": "Magie liquide utilisée pour enchanter les potions.",
+        "RU-RU": "Жидкая магия, используемая для зачарования зелий.",
+        "PL-PL": "Płynna magia służąca do zaklinania mikstur.",
+        "ES-ES": "Magia líquida utilizada para encantar pociones.",
+        "PT-BR": "Magia liquefeita usada para encantar poções.",
+        "IT-IT": "Magia liquida usata per incantare le pozioni.",
+        "ZH-CN": "液化的魔法，可用于附魔药水。",
+        "KO-KR": "포션 인챈트에 사용되는 액체화된 마법입니다.",
+        "JA-JP": "ポーションのエンチャントに使われる液化魔法。",
+        "ZH-TW": "液化的魔法，可用於附魔藥水。",
+        "ID-ID": "Sihir berbentuk cair yang digunakan untuk meng-enchant ramuan.",
+        "TR-TR": "İksir efsunlamakta kullanılan sıvılaştırılmış sihir.",
+        "AR-SA": "عصارة سحرية سائلة تُستخدم لسَحر الجرعات."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T1_ALCHEMY_EXTRACT_LEVEL2",
+        "description_variable": "@ITEMS_T1_ALCHEMY_EXTRACT_DESC"
+      },
+      "origin": "Crafting/Alchemy/Alchemy_T1_ALCHEMY_EXTRACT_LEVEL2.json",
+      "raw": {
+        "@uniquename": "T1_ALCHEMY_EXTRACT_LEVEL2",
+        "@tier": "1",
+        "@weight": "1.5",
+        "@maxstacksize": "999",
+        "@resourcetype": "ESSENCE",
+        "@shopcategory": "crafting",
+        "@shopsubcategory1": "alchemy",
+        "@unlockedtocraft": "true",
+        "@descriptionlocatag": "@ITEMS_T1_ALCHEMY_EXTRACT_DESC",
+        "@shopsubcategory2": "extract",
+        "craftingrequirements": {
+          "@time": "0.01",
+          "@silver": "0",
+          "craftresource": {
+            "@uniquename": "T1_ALCHEMY_COMMON",
+            "@count": "3",
+            "@maxreturnamount": "0"
+          }
+        }
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T5_ALCHEMY_RARE_EAGLE",
+      "index": "1994",
+      "category": "Crafting_Alchemy",
+      "slot": "Resource",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": {
+        "primary_resource": "T7_ALCHEMY_RARE_EAGLE",
+        "primary_count": 1,
+        "secondary_resource": "",
+        "secondary_count": 0,
+        "resources": [
+          {
+            "id": "T7_ALCHEMY_RARE_EAGLE",
+            "count": 1
+          }
+        ]
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T5_ALCHEMY_RARE_EAGLE",
+        "item_database_index": "1994"
+      },
+      "tier": 5,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Fine Dawnfeather",
+        "DE-DE": "Feine Morgenfeder",
+        "FR-FR": "Plume de l'aube délicate",
+        "RU-RU": "Отличное перо рассвета",
+        "PL-PL": "Porządne Pióro Brzasku",
+        "ES-ES": "Pluma de alba fina",
+        "PT-BR": "Pena da Alvorada Fina",
+        "IT-IT": "Piuma d'alba pregiata",
+        "ZH-CN": "良好的黎明羽毛",
+        "KO-KR": "질 좋은 던버드 깃털",
+        "JA-JP": "名なドーンフェザー",
+        "ZH-TW": "良好的黎明羽毛",
+        "ID-ID": "Bulu Burung Fajar Baik",
+        "TR-TR": "Kaliteli Şafak Tüyü",
+        "AR-SA": "الريشة الجميلة"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Parts of magical animals used as rare alchemical ingredients to create powerful Potions or as parts of the Shapeshifter weapons",
+        "DE-DE": "Teile von magischen Tieren werden als seltene alchemistische Zutaten genutzt, um daraus mächtige Tränke herzustellen, oder auch als Kernelement einer Gestaltwandler-Waffe.",
+        "FR-FR": "Des parties d'animaux magiques utilisées comme ingrédients alchimiques rares pour créer de puissantes potions ou comme pièces pour les armes de changeforme",
+        "RU-RU": "Останки магических животных, используемые как редкие алхимические ингредиенты для создания мощных зелий или в качестве частей оружия оборотней",
+        "PL-PL": "Części magicznych stworzeń wykorzystywane jako składniki do wytwarzania potężnych Mikstur lub jako elementy Broni Zmiennokształtnych",
+        "ES-ES": "Partes de animales mágicos utilizadas como ingredientes alquímicos raros para crear poderosas pociones o como partes para las armas de cambiaformas",
+        "PT-BR": "Partes de animais mágicos usados como ingredientes alquímicos raros para criar Poções poderosas ou como partes das Armas de Metamorfos",
+        "IT-IT": "Parti di animali magici utilizzate come ingredienti alchemici rari per creare potenti Pozioni o come parti delle armi del Mutaforma",
+        "ZH-CN": "具有魔法特性的动物残骸，可以做为稀有炼金材料来制造强大的药水，或作为幻形者武器的一部分材料",
+        "KO-KR": "강력한 포션을 만들기 위한 희귀한 연금술 재료나 셰이프시프터 무기의 부품으로 사용되는 마법 동물의 일부입니다",
+        "JA-JP": "強力なポーションを作るための希少な錬金術の材料として、あるいはシェイプシフターの武器の部品として使われる魔法動物の部位。",
+        "ZH-TW": "具有魔法特性的動物殘骸，可以做為稀有煉金材料來製造強大的藥水，或作為幻形者武器的一部分材料",
+        "ID-ID": "Bagian dari hewan sihir yang digunakan sebagai bahan alkimia langka untuk meramu Ramuan kuat atau sebagai bagian dari senjata Malih Rupa",
+        "TR-TR": "Güçlü iksirler üretmede bileşen veya Şekil Değiştiren silahlarında parça olarak kullanılabilen sihirli hayvan parçaları.",
+        "AR-SA": "أجزاء من حيوانات سحرية تُستخدم كمكونات كيميائية لصنع جرعات قوية أو لتكوّن أجزاء أسلحة المتحول"
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T5_ALCHEMY_RARE_EAGLE",
+        "description_variable": "@ITEMS_ALCHEMY_RARE_DESC"
+      },
+      "origin": "Crafting/Alchemy/Alchemy_T5_ALCHEMY_RARE_EAGLE.json",
+      "raw": {
+        "@uniquename": "T5_ALCHEMY_RARE_EAGLE",
+        "@tier": "5",
+        "@weight": "0.05",
+        "@maxstacksize": "999",
+        "@resourcetype": "ESSENCE",
+        "@shopcategory": "crafting",
+        "@shopsubcategory1": "alchemy",
+        "@unlockedtocraft": "true",
+        "@descriptionlocatag": "@ITEMS_ALCHEMY_RARE_DESC",
+        "@shopsubcategory2": "remains_eagle",
+        "craftingrequirements": {
+          "@amountcrafted": "2",
+          "craftresource": {
+            "@uniquename": "T7_ALCHEMY_RARE_EAGLE",
+            "@count": "1",
+            "@maxreturnamount": "0"
+          }
+        }
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T1_ALCHEMY_COMMON",
+      "index": "1996",
+      "category": "Crafting_Alchemy",
+      "slot": "Resource",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": {
+        "primary_resource": "T3_ALCHEMY_RARE_PANTHER",
+        "primary_count": 1,
+        "secondary_resource": "",
+        "secondary_count": 0,
+        "resources": [
+          {
+            "id": "T3_ALCHEMY_RARE_PANTHER",
+            "count": 1
+          }
+        ]
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T1_ALCHEMY_COMMON",
+        "item_database_index": "1996"
+      },
+      "tier": 1,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Rare Animal Remains",
+        "DE-DE": "Überreste seltener Tiere",
+        "FR-FR": "Restes d'animaux rares",
+        "RU-RU": "Редкие останки животных",
+        "PL-PL": "Rzadkie Szczątki Zwierząt",
+        "ES-ES": "Restos de animales raros",
+        "PT-BR": "Restos de Animais Raros",
+        "IT-IT": "Resti animali rari",
+        "ZH-CN": "稀有动物遗骸",
+        "KO-KR": "동물 잔해",
+        "JA-JP": "レアな動物の残骸",
+        "ZH-TW": "稀有動物遺骸",
+        "ID-ID": "Sisa Hewan Langka",
+        "TR-TR": "Nadir Hayvan Kalıntıları",
+        "AR-SA": "بقايا حيوانية نادرة"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Parts of magical animals holding remnants of arcane power.",
+        "DE-DE": "Teile magischer Tiere, die noch Reste ihrer arkanen Macht in sich tragen.",
+        "FR-FR": "Parties d'animaux magiques contenant des vestiges de pouvoir arcanique.",
+        "RU-RU": "Части животных, содержащие остатки магической силы.",
+        "PL-PL": "Części magicznych zwierząt z pozostałościami ich tajemnej mocy.",
+        "ES-ES": "Partes de animales mágicos que contienen restos de poder arcano.",
+        "PT-BR": "Partes de animais mágicos que guardam restos de poder arcano.",
+        "IT-IT": "Parti di animali magici che contengono residui di potere arcano.",
+        "ZH-CN": "魔法生物的部分遗骸，保留着残余的奥术力量。",
+        "KO-KR": "신비한 힘의 흔적을 지니고 있는 마법 동물의 일부입니다.",
+        "JA-JP": "魔力を秘めた動物の一部。",
+        "ZH-TW": "魔法生物的部分遺骸，保留著殘餘的奧術力量。",
+        "ID-ID": "Bagian dari hewan sihir yang menyimpan sisa-sisa kekuatan arcane.",
+        "TR-TR": "Arkana gücüne sahip sihirli hayvan parçaları.",
+        "AR-SA": "أجزاء حيوانات سحرية تحمل بقايا طاقة الساحر."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T1_ALCHEMY_COMMON",
+        "description_variable": "@ITEMS_T1_ALCHEMY_COMMON_DESC"
+      },
+      "origin": "Crafting/Alchemy/Alchemy_T1_ALCHEMY_COMMON.json",
+      "raw": {
+        "@uniquename": "T1_ALCHEMY_COMMON",
+        "@tier": "1",
+        "@weight": "0.05",
+        "@maxstacksize": "999",
+        "@resourcetype": "ESSENCE",
+        "@shopcategory": "crafting",
+        "@shopsubcategory1": "alchemy",
+        "@unlockedtocraft": "true",
+        "@shopsubcategory2": "remains",
+        "craftingrequirements": [
+          {
+            "@time": "0.01",
+            "@silver": "0",
+            "@amountcrafted": "5",
+            "craftresource": {
+              "@uniquename": "T3_ALCHEMY_RARE_PANTHER",
+              "@count": "1",
+              "@maxreturnamount": "0"
+            }
+          },
+          {
+            "@time": "0.01",
+            "@silver": "0",
+            "@amountcrafted": "10",
+            "craftresource": {
+              "@uniquename": "T5_ALCHEMY_RARE_PANTHER",
+              "@count": "1",
+              "@maxreturnamount": "0"
+            }
+          },
+          {
+            "@time": "0.01",
+            "@silver": "0",
+            "@amountcrafted": "25",
+            "craftresource": {
+              "@uniquename": "T7_ALCHEMY_RARE_PANTHER",
+              "@count": "1",
+              "@maxreturnamount": "0"
+            }
+          },
+          {
+            "@time": "0.01",
+            "@silver": "0",
+            "@amountcrafted": "5",
+            "craftresource": {
+              "@uniquename": "T3_ALCHEMY_RARE_ENT",
+              "@count": "1",
+              "@maxreturnamount": "0"
+            }
+          },
+          {
+            "@time": "0.01",
+            "@silver": "0",
+            "@amountcrafted": "10",
+            "craftresource": {
+              "@uniquename": "T5_ALCHEMY_RARE_ENT",
+              "@count": "1",
+              "@maxreturnamount": "0"
+            }
+          },
+          {
+            "@time": "0.01",
+            "@silver": "0",
+            "@amountcrafted": "25",
+            "craftresource": {
+              "@uniquename": "T7_ALCHEMY_RARE_ENT",
+              "@count": "1",
+              "@maxreturnamount": "0"
+            }
+          },
+          {
+            "@time": "0.01",
+            "@silver": "0",
+            "@amountcrafted": "5",
+            "craftresource": {
+              "@uniquename": "T3_ALCHEMY_RARE_DIREBEAR",
+              "@count": "1",
+              "@maxreturnamount": "0"
+            }
+          },
+          {
+            "@time": "0.01",
+            "@silver": "0",
+            "@amountcrafted": "10",
+            "craftresource": {
+              "@uniquename": "T5_ALCHEMY_RARE_DIREBEAR",
+              "@count": "1",
+              "@maxreturnamount": "0"
+            }
+          },
+          {
+            "@time": "0.01",
+            "@silver": "0",
+            "@amountcrafted": "25",
+            "craftresource": {
+              "@uniquename": "T7_ALCHEMY_RARE_DIREBEAR",
+              "@count": "1",
+              "@maxreturnamount": "0"
+            }
+          },
+          {
+            "@time": "0.01",
+            "@silver": "0",
+            "@amountcrafted": "5",
+            "craftresource": {
+              "@uniquename": "T3_ALCHEMY_RARE_WEREWOLF",
+              "@count": "1",
+              "@maxreturnamount": "0"
+            }
+          },
+          {
+            "@time": "0.01",
+            "@silver": "0",
+            "@amountcrafted": "10",
+            "craftresource": {
+              "@uniquename": "T5_ALCHEMY_RARE_WEREWOLF",
+              "@count": "1",
+              "@maxreturnamount": "0"
+            }
+          },
+          {
+            "@time": "0.01",
+            "@silver": "0",
+            "@amountcrafted": "25",
+            "craftresource": {
+              "@uniquename": "T7_ALCHEMY_RARE_WEREWOLF",
+              "@count": "1",
+              "@maxreturnamount": "0"
+            }
+          },
+          {
+            "@time": "0.01",
+            "@silver": "0",
+            "@amountcrafted": "5",
+            "craftresource": {
+              "@uniquename": "T3_ALCHEMY_RARE_IMP",
+              "@count": "1",
+              "@maxreturnamount": "0"
+            }
+          },
+          {
+            "@time": "0.01",
+            "@silver": "0",
+            "@amountcrafted": "10",
+            "craftresource": {
+              "@uniquename": "T5_ALCHEMY_RARE_IMP",
+              "@count": "1",
+              "@maxreturnamount": "0"
+            }
+          },
+          {
+            "@time": "0.01",
+            "@silver": "0",
+            "@amountcrafted": "25",
+            "craftresource": {
+              "@uniquename": "T7_ALCHEMY_RARE_IMP",
+              "@count": "1",
+              "@maxreturnamount": "0"
+            }
+          },
+          {
+            "@time": "0.01",
+            "@silver": "0",
+            "@amountcrafted": "5",
+            "craftresource": {
+              "@uniquename": "T3_ALCHEMY_RARE_ELEMENTAL",
+              "@count": "1",
+              "@maxreturnamount": "0"
+            }
+          },
+          {
+            "@time": "0.01",
+            "@silver": "0",
+            "@amountcrafted": "10",
+            "craftresource": {
+              "@uniquename": "T5_ALCHEMY_RARE_ELEMENTAL",
+              "@count": "1",
+              "@maxreturnamount": "0"
+            }
+          },
+          {
+            "@time": "0.01",
+            "@silver": "0",
+            "@amountcrafted": "25",
+            "craftresource": {
+              "@uniquename": "T7_ALCHEMY_RARE_ELEMENTAL",
+              "@count": "1",
+              "@maxreturnamount": "0"
+            }
+          },
+          {
+            "@time": "0.01",
+            "@silver": "0",
+            "@amountcrafted": "5",
+            "craftresource": {
+              "@uniquename": "T3_ALCHEMY_RARE_EAGLE",
+              "@count": "1",
+              "@maxreturnamount": "0"
+            }
+          },
+          {
+            "@time": "0.01",
+            "@silver": "0",
+            "@amountcrafted": "10",
+            "craftresource": {
+              "@uniquename": "T5_ALCHEMY_RARE_EAGLE",
+              "@count": "1",
+              "@maxreturnamount": "0"
+            }
+          },
+          {
+            "@time": "0.01",
+            "@silver": "0",
+            "@amountcrafted": "25",
+            "craftresource": {
+              "@uniquename": "T7_ALCHEMY_RARE_EAGLE",
+              "@count": "1",
+              "@maxreturnamount": "0"
+            }
+          }
+        ]
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T6_ESSENCE_POTION",
+      "index": "2019",
+      "category": "Crafting_Alchemy",
+      "slot": "Resource",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": "0.1",
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T6_ESSENCE_POTION",
+        "item_database_index": "2019"
+      },
+      "tier": 6,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Master's Arcane Essence",
+        "DE-DE": "Arkane Essenz des Meisters",
+        "FR-FR": "Essence arcanique du maître",
+        "RU-RU": "Мистическая эссенция (мастер)",
+        "PL-PL": "Tajemna Esencja Mistrza",
+        "ES-ES": "Esencia arcana del maestro",
+        "PT-BR": "Essência Arcana do Mestre",
+        "IT-IT": "Essenza arcana del maestro",
+        "ZH-CN": "大师级奥术精华",
+        "KO-KR": "마스터의 아케인 정수",
+        "JA-JP": "アーケインのエッセンス（マスター）",
+        "ZH-TW": "大師級祕術精華",
+        "ID-ID": "Esens Arcane Master",
+        "TR-TR": "Usta Arkana Özütü",
+        "AR-SA": "خلاصة الساحر للخبير"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "A magical essence, used to enchant potions",
+        "DE-DE": "Eine magische Essenz, wird bei der Verzauberung von Tränken verwendet",
+        "FR-FR": "Une essence magique utilisée pour enchanter des potions.",
+        "RU-RU": "Волшебная эссенция, используется для зачарования зелий",
+        "PL-PL": "Magiczna esencja używana do czarowania mikstur",
+        "ES-ES": "Esencia mágica, usada para encantar pociones.",
+        "PT-BR": "Essência mágica usada para encantar poções",
+        "IT-IT": "Un'essenza magica usata per incantare pozioni.",
+        "ZH-CN": "法术精华，用于给药水附魔。",
+        "KO-KR": "마법 정수로, 포션에 마법을 부여하는 데 사용됩니다",
+        "JA-JP": "ポーションのエンチャントに使える魔法のエッセンス。",
+        "ZH-TW": "一種魔法精華，可用於附魔藥水",
+        "ID-ID": "Esens ajaib, digunakan untuk memberi enchantment pada ramuan.",
+        "TR-TR": "İksir efsunlamakta kullanılan sihirli bir Özüt.",
+        "AR-SA": "خلاصة سحرية، تُستخدم للجرعات السحرية"
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T6_ESSENCE_POTION",
+        "description_variable": "@ITEMS_T6_ESSENCE_POTION_DESC"
+      },
+      "origin": "Crafting/Alchemy/Alchemy_T6_ESSENCE_POTION.json",
+      "raw": {
+        "@uniquename": "T6_ESSENCE_POTION",
+        "@tier": "6",
+        "@weight": "0.38",
+        "@maxstacksize": "999",
+        "@resourcetype": "ESSENCE",
+        "@shopcategory": "crafting",
+        "@shopsubcategory1": "alchemy",
+        "@uisprite": "FRAGMENT_BLUE_F1",
+        "@unlockedtocraft": "true",
+        "@itemvalue": "0.1",
+        "@salvageable": "true",
+        "@shopsubcategory2": "essence",
+        "@uicraftsoundstart": "Play_ui_action_meld_load",
+        "@uicraftsoundfinish": "Play_ui_action_meld",
+        "craftingrequirements": {
+          "@time": "0.01",
+          "@silver": "0",
+          "@salvageitemfactor": "0",
+          "@salvagesilverfactor": "80"
+        }
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T7_ALCHEMY_RARE_ENT",
+      "index": "1980",
+      "category": "Crafting_Alchemy",
+      "slot": "Resource",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T7_ALCHEMY_RARE_ENT",
+        "item_database_index": "1980"
+      },
+      "tier": 7,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Excellent Sylvian Root",
+        "DE-DE": "Exzellente Sylvanierwurzel",
+        "FR-FR": "Racine de sylvain excellente",
+        "RU-RU": "Превосходные корни хьерна",
+        "PL-PL": "Wspaniały Korzeń Drzewca",
+        "ES-ES": "Raíz silvana excelente",
+        "PT-BR": "Raiz Arbórea Excelente",
+        "IT-IT": "Radici di Sylvian eccellenti",
+        "ZH-CN": "无瑕的树人之根",
+        "KO-KR": "우수한 실비안 뿌리",
+        "JA-JP": "エクセレントなシルヴィアンのルート",
+        "ZH-TW": "無瑕的樹人之根",
+        "ID-ID": "Akar Sylvian Sangat Baik",
+        "TR-TR": "Fevkalade Orman Kökü",
+        "AR-SA": "الجذر الخشبي الممتاز"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Parts of magical animals used as rare alchemical ingredients to create powerful Potions or as parts of the Shapeshifter weapons",
+        "DE-DE": "Teile von magischen Tieren werden als seltene alchemistische Zutaten genutzt, um daraus mächtige Tränke herzustellen, oder auch als Kernelement einer Gestaltwandler-Waffe.",
+        "FR-FR": "Des parties d'animaux magiques utilisées comme ingrédients alchimiques rares pour créer de puissantes potions ou comme pièces pour les armes de changeforme",
+        "RU-RU": "Останки магических животных, используемые как редкие алхимические ингредиенты для создания мощных зелий или в качестве частей оружия оборотней",
+        "PL-PL": "Części magicznych stworzeń wykorzystywane jako składniki do wytwarzania potężnych Mikstur lub jako elementy Broni Zmiennokształtnych",
+        "ES-ES": "Partes de animales mágicos utilizadas como ingredientes alquímicos raros para crear poderosas pociones o como partes para las armas de cambiaformas",
+        "PT-BR": "Partes de animais mágicos usados como ingredientes alquímicos raros para criar Poções poderosas ou como partes das Armas de Metamorfos",
+        "IT-IT": "Parti di animali magici utilizzate come ingredienti alchemici rari per creare potenti Pozioni o come parti delle armi del Mutaforma",
+        "ZH-CN": "具有魔法特性的动物残骸，可以做为稀有炼金材料来制造强大的药水，或作为幻形者武器的一部分材料",
+        "KO-KR": "강력한 포션을 만들기 위한 희귀한 연금술 재료나 셰이프시프터 무기의 부품으로 사용되는 마법 동물의 일부입니다",
+        "JA-JP": "強力なポーションを作るための希少な錬金術の材料として、あるいはシェイプシフターの武器の部品として使われる魔法動物の部位。",
+        "ZH-TW": "具有魔法特性的動物殘骸，可以做為稀有煉金材料來製造強大的藥水，或作為幻形者武器的一部分材料",
+        "ID-ID": "Bagian dari hewan sihir yang digunakan sebagai bahan alkimia langka untuk meramu Ramuan kuat atau sebagai bagian dari senjata Malih Rupa",
+        "TR-TR": "Güçlü iksirler üretmede bileşen veya Şekil Değiştiren silahlarında parça olarak kullanılabilen sihirli hayvan parçaları.",
+        "AR-SA": "أجزاء من حيوانات سحرية تُستخدم كمكونات كيميائية لصنع جرعات قوية أو لتكوّن أجزاء أسلحة المتحول"
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T7_ALCHEMY_RARE_ENT",
+        "description_variable": "@ITEMS_ALCHEMY_RARE_DESC"
+      },
+      "origin": "Crafting/Alchemy/Alchemy_T7_ALCHEMY_RARE_ENT.json",
+      "raw": {
+        "@uniquename": "T7_ALCHEMY_RARE_ENT",
+        "@tier": "7",
+        "@weight": "0.05",
+        "@maxstacksize": "999",
+        "@resourcetype": "ESSENCE",
+        "@shopcategory": "crafting",
+        "@shopsubcategory1": "alchemy",
+        "@unlockedtocraft": "true",
+        "@descriptionlocatag": "@ITEMS_ALCHEMY_RARE_DESC",
+        "@shopsubcategory2": "remains_ent"
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T4_ESSENCE",
+      "index": "2004",
+      "category": "Crafting_Alchemy",
+      "slot": "Resource",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T4_ESSENCE",
+        "item_database_index": "2004"
+      },
+      "tier": 4,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Adept's Faded Essence",
+        "DE-DE": "Verblasste Essenz des Adepten",
+        "FR-FR": "Essence ternie de l'adepte",
+        "RU-RU": "Угасшая эссенция (знаток)",
+        "PL-PL": "Wyblakła Esencja Adepta",
+        "ES-ES": "Esencia debilitada del iniciado",
+        "PT-BR": "Essência Enfraquecida do Adepto",
+        "IT-IT": "Essenza sbiadita del sapiente",
+        "ZH-CN": "老手级过期精华",
+        "KO-KR": "숙련자의 희미해진 정수",
+        "JA-JP": "色褪せたエッセンス（名人）",
+        "ZH-TW": "老手級黯淡精華",
+        "ID-ID": "Esens Pudar Mahir",
+        "TR-TR": "Ehil Solmuş Özütü",
+        "AR-SA": "الجوهر المتلاشي للبارع"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "This essence is past its use-by date.",
+        "DE-DE": "Diese Essenz hat ihr Verfallsdatum überschritten.",
+        "FR-FR": "Cette essence est périmée.",
+        "RU-RU": "Дни эссенции давно минули.",
+        "PL-PL": "Ta esencja przeżyła swój termin przydatności.",
+        "ES-ES": "Esta esencia ha caducado.",
+        "PT-BR": "Esta essência excedeu a sua data de uso.",
+        "IT-IT": "La data di scadenza di questa essenza è già passata.",
+        "ZH-CN": "这份精华已过保存期限。",
+        "KO-KR": "이 정수는 사용 기한이 지났습니다.",
+        "JA-JP": "このエッセンスは使用期限が切れています。",
+        "ZH-TW": "這份精華已過保存期限。",
+        "ID-ID": "Esens ini telah melewati masa pakainya.",
+        "TR-TR": "Bu özün son kullanma tarihi geçti.",
+        "AR-SA": "انتهى تاريخ صلاحية هذا الجوهر."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T4_ESSENCE",
+        "description_variable": "@ITEMS_T4_ESSENCE_DESC"
+      },
+      "origin": "Crafting/Alchemy/Alchemy_T4_ESSENCE.json",
+      "raw": {
+        "@uniquename": "T4_ESSENCE",
+        "@tier": "4",
+        "@weight": "0.05",
+        "@maxstacksize": "999",
+        "@resourcetype": "ESSENCE",
+        "@shopcategory": "crafting",
+        "@shopsubcategory1": "alchemy",
+        "@uisprite": "JEWEL",
+        "@unlockedtocraft": "true",
+        "@shopsubcategory2": "essence",
+        "@uicraftsoundstart": "Play_ui_action_meld_load",
+        "@uicraftsoundfinish": "Play_ui_action_meld"
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T6_ALCHEMY_RARE_DRAGONAREA",
+      "index": "1998",
+      "category": "Crafting_Alchemy",
+      "slot": "Resource",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T6_ALCHEMY_RARE_DRAGONAREA",
+        "item_database_index": "1998"
+      },
+      "tier": 6,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Dragon Blood",
+        "DE-DE": "Drachenblut",
+        "FR-FR": "Sang de Dragon",
+        "RU-RU": "Кровь дракона",
+        "PL-PL": "Smocza Krew",
+        "ES-ES": "Sangre de Dragón",
+        "PT-BR": "Sangue de Dragão",
+        "IT-IT": "Sangue di Drago",
+        "ZH-CN": "龙血",
+        "KO-KR": "드래곤의 피",
+        "JA-JP": "ドラゴンの血",
+        "ZH-TW": "龍血",
+        "ID-ID": "Darah Naga",
+        "TR-TR": "Ejderha Kanı",
+        "AR-SA": "دم التنين"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "The lifeblood of a dragon, prized as a rare alchemical ingredient for brewing powerful potions.",
+        "DE-DE": "Herzblut eines Drachen, eine hochgeschätzte alchemistische Zutat für die Herstellung mächtiger Tränke.",
+        "FR-FR": "Le sang d'un dragon, très prisé comme ingrédient alchimique rare pour la fabrication de puissantes potions.",
+        "RU-RU": "Живительная кровь дракона, высоко ценимая как редкий алхимический ингредиент для приготовления мощных зелий.",
+        "PL-PL": "Krew smoka, ceniona jako rzadki składnik alchemiczny do warzenia potężnych mikstur.",
+        "ES-ES": "La sangre vital de un dragón, muy apreciada como ingrediente alquímico poco común para elaborar pociones poderosas.",
+        "PT-BR": "O sangue vívido de um dragão, cobiçado como um ingrediente alquímico raro para a fabricação de poções poderosas.",
+        "IT-IT": "Il sangue vitale di un drago, molto apprezzato come raro ingrediente alchemico per la preparazione di potenti pozioni.",
+        "ZH-CN": "巨龙的生命之血，被视作稀有炼金原料，用以配制强效药水。",
+        "KO-KR": "드래곤의 생명줄과도 같은 것으로, 강력한 포션을 제조하는 데 사용되는 희귀한 연금술 재료로 귀하게 여겨집니다.",
+        "JA-JP": "ドラゴンの生命の源であり、強力なポーションを醸造するための希少な錬金術素材として珍重される。",
+        "ZH-TW": "巨龍的生命之血，被視作稀有煉金原料，可用來釀製強大的藥水。",
+        "ID-ID": "Sumber kehidupan naga, sangat dicari sebagai bahan alkemis langka untuk meramu ramuan kuat.",
+        "TR-TR": "Güçlü iksirler hazırlamak için nadide bir simya malzemesi olarak değer gören ejderha can suyu.",
+        "AR-SA": "دم التنين، الذي يُعتبر مكونًا كيميائيًّا نادرًا وقيِّمًا لصنع الجرعات السحرية القوية."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T6_ALCHEMY_RARE_DRAGONAREA",
+        "description_variable": "@ITEMS_ALCHEMY_RARE_DRAGONAREA_DESC"
+      },
+      "origin": "Crafting/Alchemy/Alchemy_T6_ALCHEMY_RARE_DRAGONAREA.json",
+      "raw": {
+        "@uniquename": "T6_ALCHEMY_RARE_DRAGONAREA",
+        "@tier": "6",
+        "@weight": "2",
+        "@maxstacksize": "999",
+        "@resourcetype": "ESSENCE",
+        "@shopcategory": "crafting",
+        "@shopsubcategory1": "alchemy",
+        "@unlockedtocraft": "true",
+        "@descriptionlocatag": "@ITEMS_ALCHEMY_RARE_DRAGONAREA_DESC",
+        "@shopsubcategory2": "dragonblood"
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T5_ALCHEMY_RARE_PANTHER",
+      "index": "1976",
+      "category": "Crafting_Alchemy",
+      "slot": "Resource",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": {
+        "primary_resource": "T7_ALCHEMY_RARE_PANTHER",
+        "primary_count": 1,
+        "secondary_resource": "",
+        "secondary_count": 0,
+        "resources": [
+          {
+            "id": "T7_ALCHEMY_RARE_PANTHER",
+            "count": 1
+          }
+        ]
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T5_ALCHEMY_RARE_PANTHER",
+        "item_database_index": "1976"
+      },
+      "tier": 5,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Fine Shadow Claws",
+        "DE-DE": "Feine Schattenklauen",
+        "FR-FR": "Griffes de l'ombre délicates",
+        "RU-RU": "Отличные теневые когти",
+        "PL-PL": "Porządne Pazury Cienia",
+        "ES-ES": "Garras sombrías finas",
+        "PT-BR": "Garras Sombrias Finas",
+        "IT-IT": "Artigli d'ombra pregiati",
+        "ZH-CN": "良好的暗影之爪",
+        "KO-KR": "질 좋은 그림자 발톱",
+        "JA-JP": "名なシャドークロー",
+        "ZH-TW": "良好的暗影之爪",
+        "ID-ID": "Cakar Bayangan Baik",
+        "TR-TR": "Kaliteli Gölge Pençeleri",
+        "AR-SA": "مخالب الظل الجميلة"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Parts of magical animals used as rare alchemical ingredients to create powerful Potions or as parts of the Shapeshifter weapons",
+        "DE-DE": "Teile von magischen Tieren werden als seltene alchemistische Zutaten genutzt, um daraus mächtige Tränke herzustellen, oder auch als Kernelement einer Gestaltwandler-Waffe.",
+        "FR-FR": "Des parties d'animaux magiques utilisées comme ingrédients alchimiques rares pour créer de puissantes potions ou comme pièces pour les armes de changeforme",
+        "RU-RU": "Останки магических животных, используемые как редкие алхимические ингредиенты для создания мощных зелий или в качестве частей оружия оборотней",
+        "PL-PL": "Części magicznych stworzeń wykorzystywane jako składniki do wytwarzania potężnych Mikstur lub jako elementy Broni Zmiennokształtnych",
+        "ES-ES": "Partes de animales mágicos utilizadas como ingredientes alquímicos raros para crear poderosas pociones o como partes para las armas de cambiaformas",
+        "PT-BR": "Partes de animais mágicos usados como ingredientes alquímicos raros para criar Poções poderosas ou como partes das Armas de Metamorfos",
+        "IT-IT": "Parti di animali magici utilizzate come ingredienti alchemici rari per creare potenti Pozioni o come parti delle armi del Mutaforma",
+        "ZH-CN": "具有魔法特性的动物残骸，可以做为稀有炼金材料来制造强大的药水，或作为幻形者武器的一部分材料",
+        "KO-KR": "강력한 포션을 만들기 위한 희귀한 연금술 재료나 셰이프시프터 무기의 부품으로 사용되는 마법 동물의 일부입니다",
+        "JA-JP": "強力なポーションを作るための希少な錬金術の材料として、あるいはシェイプシフターの武器の部品として使われる魔法動物の部位。",
+        "ZH-TW": "具有魔法特性的動物殘骸，可以做為稀有煉金材料來製造強大的藥水，或作為幻形者武器的一部分材料",
+        "ID-ID": "Bagian dari hewan sihir yang digunakan sebagai bahan alkimia langka untuk meramu Ramuan kuat atau sebagai bagian dari senjata Malih Rupa",
+        "TR-TR": "Güçlü iksirler üretmede bileşen veya Şekil Değiştiren silahlarında parça olarak kullanılabilen sihirli hayvan parçaları.",
+        "AR-SA": "أجزاء من حيوانات سحرية تُستخدم كمكونات كيميائية لصنع جرعات قوية أو لتكوّن أجزاء أسلحة المتحول"
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T5_ALCHEMY_RARE_PANTHER",
+        "description_variable": "@ITEMS_ALCHEMY_RARE_DESC"
+      },
+      "origin": "Crafting/Alchemy/Alchemy_T5_ALCHEMY_RARE_PANTHER.json",
+      "raw": {
+        "@uniquename": "T5_ALCHEMY_RARE_PANTHER",
+        "@tier": "5",
+        "@weight": "0.05",
+        "@maxstacksize": "999",
+        "@resourcetype": "ESSENCE",
+        "@shopcategory": "crafting",
+        "@shopsubcategory1": "alchemy",
+        "@unlockedtocraft": "true",
+        "@descriptionlocatag": "@ITEMS_ALCHEMY_RARE_DESC",
+        "@shopsubcategory2": "remains_panther",
+        "craftingrequirements": {
+          "@amountcrafted": "2",
+          "craftresource": {
+            "@uniquename": "T7_ALCHEMY_RARE_PANTHER",
+            "@count": "1",
+            "@maxreturnamount": "0"
+          }
+        }
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T7_ALCHEMY_RARE_ELEMENTAL",
+      "index": "1992",
+      "category": "Crafting_Alchemy",
+      "slot": "Resource",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T7_ALCHEMY_RARE_ELEMENTAL",
+        "item_database_index": "1992"
+      },
+      "tier": 7,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Excellent Runestone Tooth",
+        "DE-DE": "Exzellenter Runensteinzahn",
+        "FR-FR": "Dent de pierre runique excellente",
+        "RU-RU": "Превосходная зубчатая руна",
+        "PL-PL": "Wspaniały Runiczny Ząb",
+        "ES-ES": "Diente de piedra rúnica excelente",
+        "PT-BR": "Dente de Pedra Rúnica Excelente",
+        "IT-IT": "Dente della pietra runica eccellente",
+        "ZH-CN": "无瑕的符石牙齿",
+        "KO-KR": "우수한 룬스톤 톱니",
+        "JA-JP": "エクセレントなルーンストーンの歯",
+        "ZH-TW": "無瑕的符石牙齒",
+        "ID-ID": "Gigi Batu Simbol Sangat Baik",
+        "TR-TR": "Fevkalade Rün Taşı Dişi",
+        "AR-SA": "سن الحجر الروني الممتاز"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Parts of magical animals used as rare alchemical ingredients to create powerful Potions or as parts of the Shapeshifter weapons",
+        "DE-DE": "Teile von magischen Tieren werden als seltene alchemistische Zutaten genutzt, um daraus mächtige Tränke herzustellen, oder auch als Kernelement einer Gestaltwandler-Waffe.",
+        "FR-FR": "Des parties d'animaux magiques utilisées comme ingrédients alchimiques rares pour créer de puissantes potions ou comme pièces pour les armes de changeforme",
+        "RU-RU": "Останки магических животных, используемые как редкие алхимические ингредиенты для создания мощных зелий или в качестве частей оружия оборотней",
+        "PL-PL": "Części magicznych stworzeń wykorzystywane jako składniki do wytwarzania potężnych Mikstur lub jako elementy Broni Zmiennokształtnych",
+        "ES-ES": "Partes de animales mágicos utilizadas como ingredientes alquímicos raros para crear poderosas pociones o como partes para las armas de cambiaformas",
+        "PT-BR": "Partes de animais mágicos usados como ingredientes alquímicos raros para criar Poções poderosas ou como partes das Armas de Metamorfos",
+        "IT-IT": "Parti di animali magici utilizzate come ingredienti alchemici rari per creare potenti Pozioni o come parti delle armi del Mutaforma",
+        "ZH-CN": "具有魔法特性的动物残骸，可以做为稀有炼金材料来制造强大的药水，或作为幻形者武器的一部分材料",
+        "KO-KR": "강력한 포션을 만들기 위한 희귀한 연금술 재료나 셰이프시프터 무기의 부품으로 사용되는 마법 동물의 일부입니다",
+        "JA-JP": "強力なポーションを作るための希少な錬金術の材料として、あるいはシェイプシフターの武器の部品として使われる魔法動物の部位。",
+        "ZH-TW": "具有魔法特性的動物殘骸，可以做為稀有煉金材料來製造強大的藥水，或作為幻形者武器的一部分材料",
+        "ID-ID": "Bagian dari hewan sihir yang digunakan sebagai bahan alkimia langka untuk meramu Ramuan kuat atau sebagai bagian dari senjata Malih Rupa",
+        "TR-TR": "Güçlü iksirler üretmede bileşen veya Şekil Değiştiren silahlarında parça olarak kullanılabilen sihirli hayvan parçaları.",
+        "AR-SA": "أجزاء من حيوانات سحرية تُستخدم كمكونات كيميائية لصنع جرعات قوية أو لتكوّن أجزاء أسلحة المتحول"
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T7_ALCHEMY_RARE_ELEMENTAL",
+        "description_variable": "@ITEMS_ALCHEMY_RARE_DESC"
+      },
+      "origin": "Crafting/Alchemy/Alchemy_T7_ALCHEMY_RARE_ELEMENTAL.json",
+      "raw": {
+        "@uniquename": "T7_ALCHEMY_RARE_ELEMENTAL",
+        "@tier": "7",
+        "@weight": "0.05",
+        "@maxstacksize": "999",
+        "@resourcetype": "ESSENCE",
+        "@shopcategory": "crafting",
+        "@shopsubcategory1": "alchemy",
+        "@unlockedtocraft": "true",
+        "@descriptionlocatag": "@ITEMS_ALCHEMY_RARE_DESC",
+        "@shopsubcategory2": "remains_elemental"
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    }
+  ]
+}

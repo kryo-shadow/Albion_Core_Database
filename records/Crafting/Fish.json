@@ -1,0 +1,4318 @@
+{
+  "version": 1,
+  "item_count": 46,
+  "items": [
+    {
+      "id": "T5_FISH_FRESHWATER_DRAGON_AREA_RARE",
+      "index": "182",
+      "category": "Crafting_Fish",
+      "slot": "Resource",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": "20",
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T5_FISH_FRESHWATER_DRAGON_AREA_RARE",
+        "item_database_index": "182"
+      },
+      "tier": 5,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Brightsoul Leyfin",
+        "DE-DE": "Lichtseelen-Leyflosse",
+        "FR-FR": "Tellurfin Âme-Lumière",
+        "RU-RU": "Светлодушный лейфин",
+        "PL-PL": "Jasnoduszna Liniopłetwa",
+        "ES-ES": "Leyaleta Almabrillante",
+        "PT-BR": "Leybatana Radiante",
+        "IT-IT": "Pinnarcana Radiosa",
+        "ZH-CN": "明魂灵芬鱼",
+        "KO-KR": "밝은 영혼의 레이핀",
+        "JA-JP": "ブライトソウル・レイフィン",
+        "ZH-TW": "輝魂靈芬魚",
+        "ID-ID": "Leyfin Cemerlang",
+        "TR-TR": "Işıltılı Ley Balığı",
+        "AR-SA": "ليفين الروح المشرقة"
+      },
+      "localized_all_descriptions": {},
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T5_FISH_FRESHWATER_DRAGON_AREA_RARE",
+        "description_variable": "@ITEMS_FISH_FRESHWATER_DRAGON_AREA_RARE"
+      },
+      "origin": "Crafting/Fish/Fish_T5_FISH_FRESHWATER_DRAGON_AREA_RARE.json",
+      "descriptions": {
+        "description_en": "",
+        "description_ar": "",
+        "description_de": "",
+        "description_fr": "",
+        "description_es": "",
+        "description_ru": ""
+      },
+      "raw": {
+        "@uniquename": "T5_FISH_FRESHWATER_DRAGON_AREA_RARE",
+        "@itemvalue": "20",
+        "@fishingfame": "200",
+        "@fishingminigamesetting": "T5_Rare",
+        "@descriptionlocatag": "@ITEMS_FISH_FRESHWATER_DRAGON_AREA_RARE",
+        "@uisprite": "FISH_FRESHWATER_DRAGON_AREA_RARE",
+        "@nutrition": "20",
+        "@abilitypower": "100",
+        "@slottype": "food",
+        "@consumespell": "FOOD_FISH_BUFF_HEALBONUS_2_RAW",
+        "@shopcategory": "crafting",
+        "@shopsubcategory1": "fish",
+        "@resourcetype": "FISH",
+        "@tier": "5",
+        "@weight": "0.78",
+        "@dummyitempower": "300",
+        "@maxstacksize": "999",
+        "@unlockedtocraft": "true",
+        "@unlockedtoequip": "true",
+        "@uicraftsoundstart": "Play_ui_action_craft_potion_start",
+        "@uicraftsoundfinish": "Play_ui_action_craft_potion_finish",
+        "@shopsubcategory2": "rare",
+        "@shopsubcategory3": "fish_avalon"
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 1
+    },
+    {
+      "id": "T5_FISH_FRESHWATER_HIGHLANDS_RARE",
+      "index": "167",
+      "category": "Crafting_Fish",
+      "slot": "Resource",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": "20",
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T5_FISH_FRESHWATER_HIGHLANDS_RARE",
+        "item_database_index": "167"
+      },
+      "tier": 5,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Rushwater Lurcher",
+        "DE-DE": "Schnellwasser-Lurch",
+        "FR-FR": "Loche franche",
+        "RU-RU": "Камышовый подкаменщик",
+        "PL-PL": "Salamandra Bystra",
+        "ES-ES": "Locha de agua corriente",
+        "PT-BR": "Larápio de Água corrente",
+        "IT-IT": "Assolotto dei torrenti",
+        "ZH-CN": "急流勒车鱼",
+        "KO-KR": "러시워터 떠돌이",
+        "JA-JP": "ラッシュウォーターラーチャー",
+        "ZH-TW": "激流鈍口螈",
+        "ID-ID": "Pengintai Aliran Deras",
+        "TR-TR": "İvedigöl Balığı",
+        "AR-SA": "مترصد Rushwater"
+      },
+      "localized_all_descriptions": {},
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T5_FISH_FRESHWATER_HIGHLANDS_RARE",
+        "description_variable": "@ITEMS_FISH_FRESHWATER_HIGHLANDS_RARE"
+      },
+      "origin": "Crafting/Fish/Fish_T5_FISH_FRESHWATER_HIGHLANDS_RARE.json",
+      "descriptions": {
+        "description_en": "",
+        "description_ar": "",
+        "description_de": "",
+        "description_fr": "",
+        "description_es": "",
+        "description_ru": ""
+      },
+      "raw": {
+        "@uniquename": "T5_FISH_FRESHWATER_HIGHLANDS_RARE",
+        "@itemvalue": "20",
+        "@fishingfame": "200",
+        "@fishingminigamesetting": "T5_Rare",
+        "@descriptionlocatag": "@ITEMS_FISH_FRESHWATER_HIGHLANDS_RARE",
+        "@uisprite": "FISH_FRESHWATER_HIGHLANDS_RARE",
+        "@nutrition": "20",
+        "@abilitypower": "100",
+        "@slottype": "food",
+        "@consumespell": "FOOD_FISH_BUFF_MAXHP_2_RAW",
+        "@shopcategory": "crafting",
+        "@shopsubcategory1": "fish",
+        "@resourcetype": "FISH",
+        "@tier": "5",
+        "@weight": "0.78",
+        "@dummyitempower": "300",
+        "@maxstacksize": "999",
+        "@unlockedtocraft": "true",
+        "@unlockedtoequip": "true",
+        "@uicraftsoundstart": "Play_ui_action_craft_potion_start",
+        "@uicraftsoundfinish": "Play_ui_action_craft_potion_finish",
+        "@shopsubcategory2": "rare",
+        "@shopsubcategory3": "fish_highlands"
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 1
+    },
+    {
+      "id": "T7_FISH_FRESHWATER_FOREST_RARE",
+      "index": "162",
+      "category": "Crafting_Fish",
+      "slot": "Resource",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": "30",
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T7_FISH_FRESHWATER_FOREST_RARE",
+        "item_database_index": "162"
+      },
+      "tier": 7,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Deadwater Eel",
+        "DE-DE": "Totwasser-Aal",
+        "FR-FR": "Anguille morteaux",
+        "RU-RU": "Болотный угорь",
+        "PL-PL": "Węgorz Potokowy",
+        "ES-ES": "Anguila de agua podrida",
+        "PT-BR": "Enguia de Água-podre",
+        "IT-IT": "Anguilla acquamorta",
+        "ZH-CN": "死水鳗鱼",
+        "KO-KR": "데드워터 장어",
+        "JA-JP": "デッドウォーターウナギ",
+        "ZH-TW": "死水鰻魚",
+        "ID-ID": "Belut Sungai Mati",
+        "TR-TR": "Ölüsu Yılan Balığı",
+        "AR-SA": "ثعبان البحر الميت"
+      },
+      "localized_all_descriptions": {},
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T7_FISH_FRESHWATER_FOREST_RARE",
+        "description_variable": "@ITEMS_FISH_FRESHWATER_FOREST_RARE"
+      },
+      "origin": "Crafting/Fish/Fish_T7_FISH_FRESHWATER_FOREST_RARE.json",
+      "descriptions": {
+        "description_en": "",
+        "description_ar": "",
+        "description_de": "",
+        "description_fr": "",
+        "description_es": "",
+        "description_ru": ""
+      },
+      "raw": {
+        "@uniquename": "T7_FISH_FRESHWATER_FOREST_RARE",
+        "@itemvalue": "30",
+        "@fishingfame": "300",
+        "@fishingminigamesetting": "T7_Rare",
+        "@descriptionlocatag": "@ITEMS_FISH_FRESHWATER_FOREST_RARE",
+        "@uisprite": "FISH_FRESHWATER_FOREST_RARE",
+        "@nutrition": "30",
+        "@abilitypower": "100",
+        "@slottype": "food",
+        "@consumespell": "FOOD_FISH_BUFF_DMG_3_RAW",
+        "@shopcategory": "crafting",
+        "@shopsubcategory1": "fish",
+        "@resourcetype": "FISH",
+        "@tier": "7",
+        "@weight": "1.04",
+        "@dummyitempower": "300",
+        "@maxstacksize": "999",
+        "@unlockedtocraft": "true",
+        "@unlockedtoequip": "true",
+        "@uicraftsoundstart": "Play_ui_action_craft_potion_start",
+        "@uicraftsoundfinish": "Play_ui_action_craft_potion_finish",
+        "@shopsubcategory2": "rare",
+        "@shopsubcategory3": "fish_forest"
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 1
+    },
+    {
+      "id": "T3_FISH_FRESHWATER_HIGHLANDS_RARE",
+      "index": "166",
+      "category": "Crafting_Fish",
+      "slot": "Resource",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": "10",
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T3_FISH_FRESHWATER_HIGHLANDS_RARE",
+        "item_database_index": "166"
+      },
+      "tier": 3,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Stonestream Lurcher",
+        "DE-DE": "Steinbett-Lurch",
+        "FR-FR": "Loche pétrée",
+        "RU-RU": "Пестроногий подкаменщик",
+        "PL-PL": "Salamandra Strumykowa",
+        "ES-ES": "Locha pedregosa",
+        "PT-BR": "Larápio de Pedregulho",
+        "IT-IT": "Assolotto delle secche",
+        "ZH-CN": "石溪勒车鱼",
+        "KO-KR": "스톤스트림 떠돌이",
+        "JA-JP": "ストーンストリーム・ラーチャー",
+        "ZH-TW": "石溪鈍口螈",
+        "ID-ID": "Pengintai Aliran Berbatu",
+        "TR-TR": "Taşpınar Balığı",
+        "AR-SA": "مترصد Stonestream"
+      },
+      "localized_all_descriptions": {},
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T3_FISH_FRESHWATER_HIGHLANDS_RARE",
+        "description_variable": "@ITEMS_FISH_FRESHWATER_HIGHLANDS_RARE"
+      },
+      "origin": "Crafting/Fish/Fish_T3_FISH_FRESHWATER_HIGHLANDS_RARE.json",
+      "descriptions": {
+        "description_en": "",
+        "description_ar": "",
+        "description_de": "",
+        "description_fr": "",
+        "description_es": "",
+        "description_ru": ""
+      },
+      "raw": {
+        "@uniquename": "T3_FISH_FRESHWATER_HIGHLANDS_RARE",
+        "@itemvalue": "10",
+        "@fishingfame": "100",
+        "@fishingminigamesetting": "T3_Rare",
+        "@descriptionlocatag": "@ITEMS_FISH_FRESHWATER_HIGHLANDS_RARE",
+        "@uisprite": "FISH_FRESHWATER_HIGHLANDS_RARE",
+        "@nutrition": "10",
+        "@abilitypower": "100",
+        "@slottype": "food",
+        "@consumespell": "FOOD_FISH_BUFF_MAXHP_1_RAW",
+        "@shopcategory": "crafting",
+        "@shopsubcategory1": "fish",
+        "@resourcetype": "FISH",
+        "@tier": "3",
+        "@weight": "0.52",
+        "@dummyitempower": "300",
+        "@maxstacksize": "999",
+        "@unlockedtocraft": "true",
+        "@unlockedtoequip": "true",
+        "@uicraftsoundstart": "Play_ui_action_craft_potion_start",
+        "@uicraftsoundfinish": "Play_ui_action_craft_potion_finish",
+        "@shopsubcategory2": "rare",
+        "@shopsubcategory3": "fish_highlands"
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 1
+    },
+    {
+      "id": "T3_FISH_FRESHWATER_FOREST_RARE",
+      "index": "160",
+      "category": "Crafting_Fish",
+      "slot": "Resource",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": "10",
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T3_FISH_FRESHWATER_FOREST_RARE",
+        "item_database_index": "160"
+      },
+      "tier": 3,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Greenriver Eel",
+        "DE-DE": "Grünflossenaal",
+        "FR-FR": "Anguille verte",
+        "RU-RU": "Речной угорь",
+        "PL-PL": "Węgorz Rzeczny",
+        "ES-ES": "Anguila de agua verdosa",
+        "PT-BR": "Enguia Esverdeada",
+        "IT-IT": "Anguilla delle foreste",
+        "ZH-CN": "绿河鳗鱼",
+        "KO-KR": "그린리버 장어",
+        "JA-JP": "グリーンリバー・ウナギ",
+        "ZH-TW": "綠川鰻魚",
+        "ID-ID": "Belut Sungai Hijau",
+        "TR-TR": "Yeşilırmak Yılan Balığı",
+        "AR-SA": "سمك ثعبان Greenriver"
+      },
+      "localized_all_descriptions": {},
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T3_FISH_FRESHWATER_FOREST_RARE",
+        "description_variable": "@ITEMS_FISH_FRESHWATER_FOREST_RARE"
+      },
+      "origin": "Crafting/Fish/Fish_T3_FISH_FRESHWATER_FOREST_RARE.json",
+      "descriptions": {
+        "description_en": "",
+        "description_ar": "",
+        "description_de": "",
+        "description_fr": "",
+        "description_es": "",
+        "description_ru": ""
+      },
+      "raw": {
+        "@uniquename": "T3_FISH_FRESHWATER_FOREST_RARE",
+        "@itemvalue": "10",
+        "@fishingfame": "100",
+        "@fishingminigamesetting": "T3_Rare",
+        "@descriptionlocatag": "@ITEMS_FISH_FRESHWATER_FOREST_RARE",
+        "@uisprite": "FISH_FRESHWATER_FOREST_RARE",
+        "@nutrition": "10",
+        "@abilitypower": "100",
+        "@slottype": "food",
+        "@consumespell": "FOOD_FISH_BUFF_DMG_1_RAW",
+        "@shopcategory": "crafting",
+        "@shopsubcategory1": "fish",
+        "@resourcetype": "FISH",
+        "@tier": "3",
+        "@weight": "0.52",
+        "@dummyitempower": "300",
+        "@maxstacksize": "999",
+        "@unlockedtocraft": "true",
+        "@unlockedtoequip": "true",
+        "@uicraftsoundstart": "Play_ui_action_craft_potion_start",
+        "@uicraftsoundfinish": "Play_ui_action_craft_potion_finish",
+        "@shopsubcategory2": "rare",
+        "@shopsubcategory3": "fish_forest"
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 1
+    },
+    {
+      "id": "T7_FISH_FRESHWATER_STEPPE_RARE",
+      "index": "171",
+      "category": "Crafting_Fish",
+      "slot": "Resource",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": "30",
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T7_FISH_FRESHWATER_STEPPE_RARE",
+        "item_database_index": "171"
+      },
+      "tier": 7,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Dusthole Crab",
+        "DE-DE": "Staublochkrabbe",
+        "FR-FR": "Crabe mantou",
+        "RU-RU": "Грязекраб",
+        "PL-PL": "Krab Piaskowy",
+        "ES-ES": "Cangrejo de pozo",
+        "PT-BR": "Caranguejo de Poço",
+        "IT-IT": "Granchio scavatore",
+        "ZH-CN": "尘洞螃蟹",
+        "KO-KR": "더스트홀 게",
+        "JA-JP": "ダストホールクラブ",
+        "ZH-TW": "塵洞螃蟹",
+        "ID-ID": "Kepiting Lubang Pasir",
+        "TR-TR": "Tozkovuk Yengeci",
+        "AR-SA": "سلطعون داستهول"
+      },
+      "localized_all_descriptions": {},
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T7_FISH_FRESHWATER_STEPPE_RARE",
+        "description_variable": "@ITEMS_FISH_FRESHWATER_STEPPE_RARE"
+      },
+      "origin": "Crafting/Fish/Fish_T7_FISH_FRESHWATER_STEPPE_RARE.json",
+      "descriptions": {
+        "description_en": "",
+        "description_ar": "",
+        "description_de": "",
+        "description_fr": "",
+        "description_es": "",
+        "description_ru": ""
+      },
+      "raw": {
+        "@uniquename": "T7_FISH_FRESHWATER_STEPPE_RARE",
+        "@itemvalue": "30",
+        "@fishingfame": "300",
+        "@fishingminigamesetting": "T7_Rare",
+        "@descriptionlocatag": "@ITEMS_FISH_FRESHWATER_STEPPE_RARE",
+        "@uisprite": "FISH_FRESHWATER_STEPPE_RARE",
+        "@nutrition": "30",
+        "@abilitypower": "100",
+        "@slottype": "food",
+        "@consumespell": "FOOD_FISH_BUFF_CASTSPEED_CDR_3_RAW",
+        "@shopcategory": "crafting",
+        "@shopsubcategory1": "fish",
+        "@resourcetype": "FISH",
+        "@tier": "7",
+        "@weight": "1.04",
+        "@dummyitempower": "300",
+        "@maxstacksize": "999",
+        "@unlockedtocraft": "true",
+        "@unlockedtoequip": "true",
+        "@uicraftsoundstart": "Play_ui_action_craft_potion_start",
+        "@uicraftsoundfinish": "Play_ui_action_craft_potion_finish",
+        "@shopsubcategory2": "rare",
+        "@shopsubcategory3": "fish_steppe"
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 1
+    },
+    {
+      "id": "T8_FISH_FRESHWATER_ALL_COMMON",
+      "index": "151",
+      "category": "Crafting_Fish",
+      "slot": "Resource",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": "14",
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T8_FISH_FRESHWATER_ALL_COMMON",
+        "item_database_index": "151"
+      },
+      "tier": 8,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "River Sturgeon",
+        "DE-DE": "Flußstör",
+        "FR-FR": "Esturgeon de rivière",
+        "RU-RU": "Речной осетр",
+        "PL-PL": "Jesiotr Rzeczny",
+        "ES-ES": "Esturión de río",
+        "PT-BR": "Esturjão de Rio",
+        "IT-IT": "Storione di fiume",
+        "ZH-CN": "河鲟鱼",
+        "KO-KR": "민물 철갑상어",
+        "JA-JP": "カワチョウザメ",
+        "ZH-TW": "河鱘",
+        "ID-ID": "Sturgeon Sungai",
+        "TR-TR": "Akarsu Mersin Balığı",
+        "AR-SA": "سمك الحفش النهري"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "A common Albion freshwater fish.",
+        "DE-DE": "Ein gewöhnlicher Süßwasserfisch Albions.",
+        "FR-FR": "Un poisson d'eau douce d'Albion commun.",
+        "RU-RU": "Распространенная в Альбионе пресноводная рыба.",
+        "PL-PL": "Pospolita ryba słodkowodna w Albionie.",
+        "ES-ES": "Un pescado común de las aguas dulces de Albion.",
+        "PT-BR": "Um peixe comum das águas doces de Albion.",
+        "IT-IT": "Un comune pesce d'acqua dolce di Albion.",
+        "ZH-CN": "一条普通的阿尔比恩淡水鱼。",
+        "KO-KR": "평범한 알비온의 민물고기",
+        "JA-JP": "アルビオンでは一般的な淡水魚。",
+        "ZH-TW": "一種普通的淡水魚，在阿爾比恩隨處可見。",
+        "ID-ID": "Ikan air tawar Albion biasa.",
+        "TR-TR": "Sıradan bir Albion tatlı su balığı.",
+        "AR-SA": "سمكة شائعة من مياه Albion العذبة."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T8_FISH_FRESHWATER_ALL_COMMON",
+        "description_variable": "@ITEMS_FISH_FRESHWATER_ALL_COMMON_DESC"
+      },
+      "origin": "Crafting/Fish/Fish_T8_FISH_FRESHWATER_ALL_COMMON.json",
+      "raw": {
+        "@uniquename": "T8_FISH_FRESHWATER_ALL_COMMON",
+        "@itemvalue": "14",
+        "@fishingfame": "140",
+        "@fishingminigamesetting": "T7",
+        "@descriptionlocatag": "@ITEMS_FISH_FRESHWATER_ALL_COMMON_DESC",
+        "@uisprite": "T8_FISH_FRESHWATER_ALL_COMMON",
+        "@nutrition": "14",
+        "@abilitypower": "100",
+        "@slottype": "food",
+        "@consumespell": "FOOD_FISH_FRESHWATER_8_RAW",
+        "@shopcategory": "crafting",
+        "@shopsubcategory1": "fish",
+        "@resourcetype": "FISH",
+        "@tier": "8",
+        "@weight": "0.73",
+        "@dummyitempower": "300",
+        "@maxstacksize": "999",
+        "@unlockedtocraft": "true",
+        "@unlockedtoequip": "true",
+        "@uicraftsoundstart": "Play_ui_action_craft_potion_start",
+        "@uicraftsoundfinish": "Play_ui_action_craft_potion_finish",
+        "@shopsubcategory2": "common",
+        "@shopsubcategory3": "freshwater"
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T7_FISH_SALTWATER_ALL_COMMON",
+      "index": "158",
+      "category": "Crafting_Fish",
+      "slot": "Resource",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": "10",
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T7_FISH_SALTWATER_ALL_COMMON",
+        "item_database_index": "158"
+      },
+      "tier": 7,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Bluefin Tuna",
+        "DE-DE": "Blauflossenthun",
+        "FR-FR": "Thon rouge",
+        "RU-RU": "Голубой тунец",
+        "PL-PL": "Tuńczyk Niebieskopłetwy",
+        "ES-ES": "Atún azulado",
+        "PT-BR": "Atum Azulado",
+        "IT-IT": "Tonno pinna blu",
+        "ZH-CN": "蓝鳍金枪鱼",
+        "KO-KR": "푸른 지느러미 참치",
+        "JA-JP": "クロマグロ",
+        "ZH-TW": "藍鰭鮪魚",
+        "ID-ID": "Tuna Sirip Biru",
+        "TR-TR": "Mavi Yüzgeç Orkinosu",
+        "AR-SA": "تونة Bluefin"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "A common Albion ocean fish.",
+        "DE-DE": "Ein gewöhnlicher Salzwasserfisch Albions.",
+        "FR-FR": "Un poisson océanique commun d'Albion",
+        "RU-RU": "Распространенная в Альбионе морская рыба.",
+        "PL-PL": "Pospolita ryba oceaniczna w Albionie.",
+        "ES-ES": "Un pescado común de los océanos de Albion.",
+        "PT-BR": "Um peixe comum dos oceanos de Albion.",
+        "IT-IT": "Un comune pesce oceanico di Albion.",
+        "ZH-CN": "一条普通的阿尔比恩海鱼。",
+        "KO-KR": "평범한 알비온의 민물고기",
+        "JA-JP": "アルビオンでは一般的な海水魚。",
+        "ZH-TW": "一種普通的鹹水魚，在阿爾比恩隨處可見。",
+        "ID-ID": "Ikan laut Albion biasa.",
+        "TR-TR": "Sıradan bir Albion okyanus balığı.",
+        "AR-SA": "سمكة شائعة من محيط Albion."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T7_FISH_SALTWATER_ALL_COMMON",
+        "description_variable": "@ITEMS_FISH_SALTWATER_ALL_COMMON_DESC"
+      },
+      "origin": "Crafting/Fish/Fish_T7_FISH_SALTWATER_ALL_COMMON.json",
+      "raw": {
+        "@uniquename": "T7_FISH_SALTWATER_ALL_COMMON",
+        "@itemvalue": "10",
+        "@fishingfame": "100",
+        "@fishingminigamesetting": "T7",
+        "@descriptionlocatag": "@ITEMS_FISH_SALTWATER_ALL_COMMON_DESC",
+        "@uisprite": "T7_FISH_SALTWATER_ALL_COMMON",
+        "@nutrition": "10",
+        "@abilitypower": "100",
+        "@slottype": "food",
+        "@consumespell": "FOOD_FISH_SALTWATER_7_RAW",
+        "@shopcategory": "crafting",
+        "@shopsubcategory1": "fish",
+        "@resourcetype": "FISH",
+        "@tier": "7",
+        "@weight": "0.52",
+        "@dummyitempower": "300",
+        "@maxstacksize": "999",
+        "@unlockedtocraft": "true",
+        "@unlockedtoequip": "true",
+        "@uicraftsoundstart": "Play_ui_action_craft_potion_start",
+        "@uicraftsoundfinish": "Play_ui_action_craft_potion_finish",
+        "@shopsubcategory2": "common",
+        "@shopsubcategory3": "saltwater"
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T5_FISH_FRESHWATER_ALL_COMMON",
+      "index": "148",
+      "category": "Crafting_Fish",
+      "slot": "Resource",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": "6",
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T5_FISH_FRESHWATER_ALL_COMMON",
+        "item_database_index": "148"
+      },
+      "tier": 5,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Spotted Trout",
+        "DE-DE": "Gepunktete Forelle",
+        "FR-FR": "Truite mouchetée",
+        "RU-RU": "Пятнистая форель",
+        "PL-PL": "Pstrąg Plamisty",
+        "ES-ES": "Trucha pintada",
+        "PT-BR": "Truta Pintada",
+        "IT-IT": "Trota maculata",
+        "ZH-CN": "斑点鳟鱼",
+        "KO-KR": "점박이 송어",
+        "JA-JP": "スポッテドトラウト",
+        "ZH-TW": "點紋鱒魚",
+        "ID-ID": "Ikan Trout Berbintik",
+        "TR-TR": "Benekli Alabalık",
+        "AR-SA": "سمك سلمون مرقط"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "A common Albion freshwater fish.",
+        "DE-DE": "Ein gewöhnlicher Süßwasserfisch Albions.",
+        "FR-FR": "Un poisson d'eau douce d'Albion commun.",
+        "RU-RU": "Распространенная в Альбионе пресноводная рыба.",
+        "PL-PL": "Pospolita ryba słodkowodna w Albionie.",
+        "ES-ES": "Un pescado común de las aguas dulces de Albion.",
+        "PT-BR": "Um peixe comum das águas doces de Albion.",
+        "IT-IT": "Un comune pesce d'acqua dolce di Albion.",
+        "ZH-CN": "一条普通的阿尔比恩淡水鱼。",
+        "KO-KR": "평범한 알비온의 민물고기",
+        "JA-JP": "アルビオンでは一般的な淡水魚。",
+        "ZH-TW": "一種普通的淡水魚，在阿爾比恩隨處可見。",
+        "ID-ID": "Ikan air tawar Albion biasa.",
+        "TR-TR": "Sıradan bir Albion tatlı su balığı.",
+        "AR-SA": "سمكة شائعة من مياه Albion العذبة."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T5_FISH_FRESHWATER_ALL_COMMON",
+        "description_variable": "@ITEMS_FISH_FRESHWATER_ALL_COMMON_DESC"
+      },
+      "origin": "Crafting/Fish/Fish_T5_FISH_FRESHWATER_ALL_COMMON.json",
+      "raw": {
+        "@uniquename": "T5_FISH_FRESHWATER_ALL_COMMON",
+        "@itemvalue": "6",
+        "@fishingfame": "60",
+        "@fishingminigamesetting": "T5",
+        "@descriptionlocatag": "@ITEMS_FISH_FRESHWATER_ALL_COMMON_DESC",
+        "@uisprite": "T5_FISH_FRESHWATER_ALL_COMMON",
+        "@nutrition": "6",
+        "@abilitypower": "100",
+        "@slottype": "food",
+        "@consumespell": "FOOD_FISH_FRESHWATER_5_RAW",
+        "@shopcategory": "crafting",
+        "@shopsubcategory1": "fish",
+        "@resourcetype": "FISH",
+        "@tier": "5",
+        "@weight": "0.31",
+        "@dummyitempower": "300",
+        "@maxstacksize": "999",
+        "@unlockedtocraft": "true",
+        "@unlockedtoequip": "true",
+        "@uicraftsoundstart": "Play_ui_action_craft_potion_start",
+        "@uicraftsoundfinish": "Play_ui_action_craft_potion_finish",
+        "@shopsubcategory2": "common",
+        "@shopsubcategory3": "freshwater"
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T7_FISH_FRESHWATER_HIGHLANDS_RARE",
+      "index": "168",
+      "category": "Crafting_Fish",
+      "slot": "Resource",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": "30",
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T7_FISH_FRESHWATER_HIGHLANDS_RARE",
+        "item_database_index": "168"
+      },
+      "tier": 7,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Thunderfall Lurcher",
+        "DE-DE": "Donnerbach-Lurch",
+        "FR-FR": "Loche léopard",
+        "RU-RU": "Громокрылый подкаменщик",
+        "PL-PL": "Salamandra Burzowa",
+        "ES-ES": "Locha de trueno",
+        "PT-BR": "Larápio do Trovão",
+        "IT-IT": "Assolotto delle cascate",
+        "ZH-CN": "落雷勒车鱼",
+        "KO-KR": "선더폴 떠돌이",
+        "JA-JP": "サンダーフォールラーチャー",
+        "ZH-TW": "落雷鈍口螈",
+        "ID-ID": "Pengintai Jeram Guntur",
+        "TR-TR": "Gürleyenşelale Balığı",
+        "AR-SA": "مترصد Thunderfall"
+      },
+      "localized_all_descriptions": {},
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T7_FISH_FRESHWATER_HIGHLANDS_RARE",
+        "description_variable": "@ITEMS_FISH_FRESHWATER_HIGHLANDS_RARE"
+      },
+      "origin": "Crafting/Fish/Fish_T7_FISH_FRESHWATER_HIGHLANDS_RARE.json",
+      "descriptions": {
+        "description_en": "",
+        "description_ar": "",
+        "description_de": "",
+        "description_fr": "",
+        "description_es": "",
+        "description_ru": ""
+      },
+      "raw": {
+        "@uniquename": "T7_FISH_FRESHWATER_HIGHLANDS_RARE",
+        "@itemvalue": "30",
+        "@fishingfame": "300",
+        "@fishingminigamesetting": "T7_Rare",
+        "@descriptionlocatag": "@ITEMS_FISH_FRESHWATER_HIGHLANDS_RARE",
+        "@uisprite": "FISH_FRESHWATER_HIGHLANDS_RARE",
+        "@nutrition": "30",
+        "@abilitypower": "100",
+        "@slottype": "food",
+        "@consumespell": "FOOD_FISH_BUFF_MAXHP_3_RAW",
+        "@shopcategory": "crafting",
+        "@shopsubcategory1": "fish",
+        "@resourcetype": "FISH",
+        "@tier": "7",
+        "@weight": "1.04",
+        "@dummyitempower": "300",
+        "@maxstacksize": "999",
+        "@unlockedtocraft": "true",
+        "@unlockedtoequip": "true",
+        "@uicraftsoundstart": "Play_ui_action_craft_potion_start",
+        "@uicraftsoundfinish": "Play_ui_action_craft_potion_finish",
+        "@shopsubcategory2": "rare",
+        "@shopsubcategory3": "fish_highlands"
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 1
+    },
+    {
+      "id": "T3_FISH_SALTWATER_ALL_COMMON",
+      "index": "154",
+      "category": "Crafting_Fish",
+      "slot": "Resource",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": "3",
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T3_FISH_SALTWATER_ALL_COMMON",
+        "item_database_index": "154"
+      },
+      "tier": 3,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Flatshore Plaice",
+        "DE-DE": "Küstenscholle",
+        "FR-FR": "Plie lisse",
+        "RU-RU": "Мелководная камбала",
+        "PL-PL": "Flądra Płytkobrzeżna",
+        "ES-ES": "Soya suave",
+        "PT-BR": "Solha Chata",
+        "IT-IT": "Platessa delle rive piatte",
+        "ZH-CN": "平岸鲽鱼",
+        "KO-KR": "평바닥 넙치",
+        "JA-JP": "フラットショア・プレイス",
+        "ZH-TW": "平岸鰈魚",
+        "ID-ID": "Plaice Tepi Laut Datar",
+        "TR-TR": "Yassısahil Pisi Balığı",
+        "AR-SA": "سمك الرسّاف"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "A common Albion ocean fish.",
+        "DE-DE": "Ein gewöhnlicher Salzwasserfisch Albions.",
+        "FR-FR": "Un poisson océanique commun d'Albion",
+        "RU-RU": "Распространенная в Альбионе морская рыба.",
+        "PL-PL": "Pospolita ryba oceaniczna w Albionie.",
+        "ES-ES": "Un pescado común de los océanos de Albion.",
+        "PT-BR": "Um peixe comum dos oceanos de Albion.",
+        "IT-IT": "Un comune pesce oceanico di Albion.",
+        "ZH-CN": "一条普通的阿尔比恩海鱼。",
+        "KO-KR": "평범한 알비온의 민물고기",
+        "JA-JP": "アルビオンでは一般的な海水魚。",
+        "ZH-TW": "一種普通的鹹水魚，在阿爾比恩隨處可見。",
+        "ID-ID": "Ikan laut Albion biasa.",
+        "TR-TR": "Sıradan bir Albion okyanus balığı.",
+        "AR-SA": "سمكة شائعة من محيط Albion."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T3_FISH_SALTWATER_ALL_COMMON",
+        "description_variable": "@ITEMS_FISH_SALTWATER_ALL_COMMON_DESC"
+      },
+      "origin": "Crafting/Fish/Fish_T3_FISH_SALTWATER_ALL_COMMON.json",
+      "raw": {
+        "@uniquename": "T3_FISH_SALTWATER_ALL_COMMON",
+        "@itemvalue": "3",
+        "@fishingfame": "30",
+        "@fishingminigamesetting": "T3",
+        "@descriptionlocatag": "@ITEMS_FISH_SALTWATER_ALL_COMMON_DESC",
+        "@uisprite": "T3_FISH_SALTWATER_ALL_COMMON",
+        "@nutrition": "3",
+        "@abilitypower": "100",
+        "@slottype": "food",
+        "@consumespell": "FOOD_FISH_SALTWATER_3_RAW",
+        "@shopcategory": "crafting",
+        "@shopsubcategory1": "fish",
+        "@resourcetype": "FISH",
+        "@tier": "3",
+        "@weight": "0.16",
+        "@dummyitempower": "300",
+        "@maxstacksize": "999",
+        "@unlockedtocraft": "true",
+        "@unlockedtoequip": "true",
+        "@uicraftsoundstart": "Play_ui_action_craft_potion_start",
+        "@uicraftsoundfinish": "Play_ui_action_craft_potion_finish",
+        "@shopsubcategory2": "common",
+        "@shopsubcategory3": "saltwater"
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T1_SEAWEED",
+      "index": "184",
+      "category": "Crafting_Fish",
+      "slot": "Resource",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": "1",
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T1_SEAWEED",
+        "item_database_index": "184"
+      },
+      "tier": 1,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Seaweed",
+        "DE-DE": "Seegras",
+        "FR-FR": "Algues",
+        "RU-RU": "Водоросли",
+        "PL-PL": "Wodorosty",
+        "ES-ES": "Alga",
+        "PT-BR": "Alga",
+        "IT-IT": "Alghe",
+        "ZH-CN": "海草",
+        "KO-KR": "해조",
+        "JA-JP": "海藻",
+        "ZH-TW": "海藻",
+        "ID-ID": "Rumput laut",
+        "TR-TR": "Su Yosunu",
+        "AR-SA": "طحالب"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Cooking ingredient, used in various recipes.",
+        "DE-DE": "Kochzutat für verschiedene Rezepte.",
+        "FR-FR": "Ingrédient de cuisine, utilisé dans divers recettes.",
+        "RU-RU": "Ингредиент для приготовления блюд, используется в различных рецептах.",
+        "PL-PL": "Składnik kuchenny używany w wielu przepisach.",
+        "ES-ES": "Ingrediente de cocina utilizado en varias recetas.",
+        "PT-BR": "Ingrediente de cozinha, usado em várias receitas.",
+        "IT-IT": "Ingrediente utilizzato per cucinare varie ricette.",
+        "ZH-CN": "烹饪原料，用于烹饪多种食物。",
+        "KO-KR": "여러 레시피에 쓰이는 요리 재료.",
+        "JA-JP": "様々なレシピに使われる調理の原料。",
+        "ZH-TW": "料理食材，可用於各式各樣的料理。",
+        "ID-ID": "Bahan memasak, digunakan di berbagai resep.",
+        "TR-TR": "Çeşitli tariflerde kullanılan bir yemek malzemesi.",
+        "AR-SA": "مكون للطبخ، يُستخدم في وصفات عديدة."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T1_SEAWEED",
+        "description_variable": "@ITEMS_T1_SEAWEED_DESC"
+      },
+      "origin": "Crafting/Fish/Fish_T1_SEAWEED.json",
+      "raw": {
+        "@uniquename": "T1_SEAWEED",
+        "@uisprite": "SEAWEED",
+        "@itemvalue": "1",
+        "@shopcategory": "crafting",
+        "@shopsubcategory1": "fish",
+        "@tier": "1",
+        "@resourcetype": "FISH",
+        "@weight": "1",
+        "@maxstacksize": "999",
+        "@unlockedtocraft": "true",
+        "@enchantmentlevel": "0",
+        "@shopsubcategory2": "other"
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T7_FISH_FRESHWATER_AVALON_RARE",
+      "index": "180",
+      "category": "Crafting_Fish",
+      "slot": "Resource",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": "30",
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T7_FISH_FRESHWATER_AVALON_RARE",
+        "item_database_index": "180"
+      },
+      "tier": 7,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Puremist Snapper",
+        "DE-DE": "Reinnebel Schnapper",
+        "FR-FR": "Lutjan purebrume",
+        "RU-RU": "Туманный окунь",
+        "PL-PL": "Lucjan Czystomglisty",
+        "ES-ES": "Pargo de niebla pura",
+        "PT-BR": "Pargo Neblina-pura",
+        "IT-IT": "Dentice purabruma",
+        "ZH-CN": "纯雾鲷鱼",
+        "KO-KR": "퓨어미스트 스내퍼",
+        "JA-JP": "ピュアミストスナッパー",
+        "ZH-TW": "純霧鯛魚",
+        "ID-ID": "Kakap Kabut Murni",
+        "TR-TR": "Safsis Levreği",
+        "AR-SA": "سمك نهاش Puremist"
+      },
+      "localized_all_descriptions": {},
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T7_FISH_FRESHWATER_AVALON_RARE",
+        "description_variable": "@ITEMS_FISH_FRESHWATER_AVALON_RARE"
+      },
+      "origin": "Crafting/Fish/Fish_T7_FISH_FRESHWATER_AVALON_RARE.json",
+      "descriptions": {
+        "description_en": "",
+        "description_ar": "",
+        "description_de": "",
+        "description_fr": "",
+        "description_es": "",
+        "description_ru": ""
+      },
+      "raw": {
+        "@uniquename": "T7_FISH_FRESHWATER_AVALON_RARE",
+        "@itemvalue": "30",
+        "@fishingfame": "300",
+        "@fishingminigamesetting": "T7_Rare",
+        "@descriptionlocatag": "@ITEMS_FISH_FRESHWATER_AVALON_RARE",
+        "@uisprite": "FISH_FRESHWATER_AVALON_RARE",
+        "@nutrition": "30",
+        "@abilitypower": "100",
+        "@slottype": "food",
+        "@consumespell": "FOOD_FISH_BUFF_LIFESTEAL_3_RAW",
+        "@shopcategory": "crafting",
+        "@shopsubcategory1": "fish",
+        "@resourcetype": "FISH",
+        "@tier": "7",
+        "@weight": "1.04",
+        "@dummyitempower": "300",
+        "@maxstacksize": "999",
+        "@unlockedtocraft": "true",
+        "@unlockedtoequip": "true",
+        "@uicraftsoundstart": "Play_ui_action_craft_potion_start",
+        "@uicraftsoundfinish": "Play_ui_action_craft_potion_finish",
+        "@shopsubcategory2": "rare",
+        "@shopsubcategory3": "fish_avalon"
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 1
+    },
+    {
+      "id": "T6_FISH_SALTWATER_ALL_COMMON",
+      "index": "157",
+      "category": "Crafting_Fish",
+      "slot": "Resource",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": "8",
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T6_FISH_SALTWATER_ALL_COMMON",
+        "item_database_index": "157"
+      },
+      "tier": 6,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Strongfin Salmon",
+        "DE-DE": "Buckellachs",
+        "FR-FR": "Saumon chien",
+        "RU-RU": "Твердокрылый лосось",
+        "PL-PL": "Łosoś Silnopłetwy",
+        "ES-ES": "Salmón fuerte",
+        "PT-BR": "Salmão Forte",
+        "IT-IT": "Salmone pinnaforte",
+        "ZH-CN": "健鳍鲑鱼",
+        "KO-KR": "강한 지느러미 연어",
+        "JA-JP": "ストロングフィンサーモン",
+        "ZH-TW": "健鰭鮭魚",
+        "ID-ID": "Salmon Sirip Kuat",
+        "TR-TR": "Güçlüyüzgeç Somonu",
+        "AR-SA": "السلمون ذو الزعانف القوية"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "A common Albion ocean fish.",
+        "DE-DE": "Ein gewöhnlicher Salzwasserfisch Albions.",
+        "FR-FR": "Un poisson océanique commun d'Albion",
+        "RU-RU": "Распространенная в Альбионе морская рыба.",
+        "PL-PL": "Pospolita ryba oceaniczna w Albionie.",
+        "ES-ES": "Un pescado común de los océanos de Albion.",
+        "PT-BR": "Um peixe comum dos oceanos de Albion.",
+        "IT-IT": "Un comune pesce oceanico di Albion.",
+        "ZH-CN": "一条普通的阿尔比恩海鱼。",
+        "KO-KR": "평범한 알비온의 민물고기",
+        "JA-JP": "アルビオンでは一般的な海水魚。",
+        "ZH-TW": "一種普通的鹹水魚，在阿爾比恩隨處可見。",
+        "ID-ID": "Ikan laut Albion biasa.",
+        "TR-TR": "Sıradan bir Albion okyanus balığı.",
+        "AR-SA": "سمكة شائعة من محيط Albion."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T6_FISH_SALTWATER_ALL_COMMON",
+        "description_variable": "@ITEMS_FISH_SALTWATER_ALL_COMMON_DESC"
+      },
+      "origin": "Crafting/Fish/Fish_T6_FISH_SALTWATER_ALL_COMMON.json",
+      "raw": {
+        "@uniquename": "T6_FISH_SALTWATER_ALL_COMMON",
+        "@itemvalue": "8",
+        "@fishingfame": "80",
+        "@fishingminigamesetting": "T5",
+        "@descriptionlocatag": "@ITEMS_FISH_SALTWATER_ALL_COMMON_DESC",
+        "@uisprite": "T6_FISH_SALTWATER_ALL_COMMON",
+        "@nutrition": "8",
+        "@abilitypower": "100",
+        "@slottype": "food",
+        "@consumespell": "FOOD_FISH_SALTWATER_6_RAW",
+        "@shopcategory": "crafting",
+        "@shopsubcategory1": "fish",
+        "@resourcetype": "FISH",
+        "@tier": "6",
+        "@weight": "0.41",
+        "@dummyitempower": "300",
+        "@maxstacksize": "999",
+        "@unlockedtocraft": "true",
+        "@unlockedtoequip": "true",
+        "@uicraftsoundstart": "Play_ui_action_craft_potion_start",
+        "@uicraftsoundfinish": "Play_ui_action_craft_potion_finish",
+        "@shopsubcategory2": "common",
+        "@shopsubcategory3": "saltwater"
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T1_FISHSAUCE_LEVEL2",
+      "index": "188",
+      "category": "Crafting_Fish",
+      "slot": "Resource",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": "0",
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": {
+        "primary_resource": "T1_FISHCHOPS",
+        "primary_count": 45,
+        "secondary_resource": "T1_SEAWEED",
+        "secondary_count": 3,
+        "resources": [
+          {
+            "id": "T1_FISHCHOPS",
+            "count": 45
+          },
+          {
+            "id": "T1_SEAWEED",
+            "count": 3
+          }
+        ]
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T1_FISHSAUCE_LEVEL2",
+        "item_database_index": "188"
+      },
+      "tier": 1,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Fancy Fish Sauce",
+        "DE-DE": "Besonderer Fischsauce",
+        "FR-FR": "Sauce de poisson raffinée",
+        "RU-RU": "Необычный рыбный соус",
+        "PL-PL": "Ekstrawagancki Sos Rybny",
+        "ES-ES": "Salsa de pescado extravagante",
+        "PT-BR": "Molho de Peixe Extravagante",
+        "IT-IT": "Salsa di pesce pregiata",
+        "ZH-CN": "高档鱼酱",
+        "KO-KR": "멋진 피시 소스",
+        "JA-JP": "手の込んだ魚醤",
+        "ZH-TW": "高級魚醬",
+        "ID-ID": "Saus Ikan Mewah",
+        "TR-TR": "Süslü Balık Sosu",
+        "AR-SA": "طُعم سمك فاخر"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "While cooking, add this sauce to any meal for greatly enhanced flavor!",
+        "DE-DE": "Nur ein klein wenig beim Kochen zugeben, für eine deutliche Verbesserung des Geschmacks!",
+        "FR-FR": "En cuisinant, utilisez cette sauce pour rajouter du goût à tous vos plats !",
+        "RU-RU": "Добавьте этот соус в процессе приготовления любой еды для значительного улучшения вкуса!",
+        "PL-PL": "Dodaj ten sos podczas gotowania dowolnego dania, aby znacznie poprawić jego smak!",
+        "ES-ES": "¡Mientras cocinas, añade esta salsa a cualquier comida para aumentar aún más el sabor!",
+        "PT-BR": "Enquanto cozinha, adicione esse molho a qualquer refeição para aumentar ainda mais o sabor!",
+        "IT-IT": "Mentre cucini, aggiungila a qualsiasi pietanza per esaltarne il sapore!",
+        "ZH-CN": "烹饪任何食物时加一点这种酱料都可以大大提升风味！",
+        "KO-KR": "요리 시 이 소스를 추가하면 음식의 맛이 크게 향상됩니다!",
+        "JA-JP": "調理中にこのソースを加えれば、どんな料理も素晴らしい風味になります！",
+        "ZH-TW": "烹煮任何料理時，加入這個醬料都能大幅增添風味！",
+        "ID-ID": "Saat memasak, tambahkan saus ini ke makanan apa pun untuk meningkatkan cita rasa!",
+        "TR-TR": "Yemek hazırlarken yemeğin lezzetine lezzet katmak için bu sosu kullan!",
+        "AR-SA": "في أثناء الطبخ، يمكنك إضافة هذه الصلصة إلى أي وجبة من أجل نكهة أطيب كثيرًا!"
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T1_FISHSAUCE_LEVEL2",
+        "description_variable": "@ITEMS_FISHSAUCE_DESC"
+      },
+      "origin": "Crafting/Fish/Fish_T1_FISHSAUCE_LEVEL2.json",
+      "raw": {
+        "@uniquename": "T1_FISHSAUCE_LEVEL2",
+        "@descriptionlocatag": "@ITEMS_FISHSAUCE_DESC",
+        "@uisprite": "FISHSAUCE_RARE",
+        "@shopcategory": "crafting",
+        "@shopsubcategory1": "fish",
+        "@tier": "1",
+        "@resourcetype": "TOKEN",
+        "@weight": "1.5",
+        "@maxstacksize": "999",
+        "@unlockedtocraft": "true",
+        "@enchantmentlevel": "0",
+        "@itemvalue": "0",
+        "@shopsubcategory2": "other",
+        "craftingrequirements": {
+          "@time": "0.02",
+          "craftresource": [
+            {
+              "@uniquename": "T1_FISHCHOPS",
+              "@count": "45"
+            },
+            {
+              "@uniquename": "T1_SEAWEED",
+              "@count": "3"
+            }
+          ]
+        }
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T8_FISH_SALTWATER_ALL_BOSS_SHARK",
+      "index": "185",
+      "category": "Crafting_Fish",
+      "slot": "Resource",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": "200",
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T8_FISH_SALTWATER_ALL_BOSS_SHARK",
+        "item_database_index": "185"
+      },
+      "tier": 8,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Shark",
+        "DE-DE": "Hai",
+        "FR-FR": "Requin",
+        "RU-RU": "Акула",
+        "PL-PL": "Rekin",
+        "ES-ES": "Tiburón",
+        "PT-BR": "Tubarão",
+        "IT-IT": "Squalo",
+        "ZH-CN": "鲨鱼",
+        "KO-KR": "상어",
+        "JA-JP": "サメ",
+        "ZH-TW": "鯊魚",
+        "ID-ID": "Hiu",
+        "TR-TR": "Köpek Balığı",
+        "AR-SA": "قرش"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "A monster fish! Can be used to craft a trophy for your house.",
+        "DE-DE": "Ein Monsterfisch! Aus ihm kann man eine Trophäe für dein Haus anfertigen.",
+        "FR-FR": "Un poisson monstrueux ! Peut être utilisé pour fabriquer un trophée pour votre maison.",
+        "RU-RU": "Настоящий монстр! Можно использовать для создания трофея и последующего украшения дома.",
+        "PL-PL": "Ryba-monstrum! Można jej użyć do wytworzenia trofeum do ozdobienia domu.",
+        "ES-ES": "¡Un pez monstruoso! Puede ser usado para fabricar un trofeo para tu casa.",
+        "PT-BR": "Um peixe monstro! Pode ser usado para fabricar um troféu para sua casa.",
+        "IT-IT": "Un pesce mostro! Si può usare per creare un trofeo per la tua casa.",
+        "ZH-CN": "一种怪物鱼！可以用于制作战利品，战利品可以放在你的家里。",
+        "KO-KR": "괴물 물고기입니다! 집 안의 트로피를 제작하는 데 사용할 수 있습니다.",
+        "JA-JP": "怪魚！家のトロフィーの製造に使用可能です。",
+        "ZH-TW": "真是隻怪獸級的魚！可製作成戰利品，擺放在房屋中。",
+        "ID-ID": "Ikan monster! Bisa digunakan membuat trofi untuk rumahmu.",
+        "TR-TR": "Bu bir canavar balık! Hatıra zanaatında kullanabilir ve bu hatırayla evini süsleyebilirsin.",
+        "AR-SA": "سمكة وحش! يمكن استخدامها لتصنيع جائزة لمنزلك."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T8_FISH_SALTWATER_ALL_BOSS_SHARK",
+        "description_variable": "@ITEMS_T8_FISH_SALTWATER_ALL_BOSS_SHARK_DESC"
+      },
+      "origin": "Crafting/Fish/Fish_T8_FISH_SALTWATER_ALL_BOSS_SHARK.json",
+      "raw": {
+        "@uniquename": "T8_FISH_SALTWATER_ALL_BOSS_SHARK",
+        "@itemvalue": "200",
+        "@fishingfame": "2000",
+        "@fishingminigamesetting": "Boss_Shark",
+        "@uisprite": "FISH_SALTWATER_ALL_BOSS_SHARK",
+        "@shopcategory": "crafting",
+        "@shopsubcategory1": "fish",
+        "@tier": "8",
+        "@resourcetype": "TOKEN",
+        "@weight": "10.36",
+        "@maxstacksize": "999",
+        "@unlockedtocraft": "true",
+        "@enchantmentlevel": "0",
+        "@shopsubcategory2": "other"
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T2_FISH_SALTWATER_ALL_COMMON",
+      "index": "153",
+      "category": "Crafting_Fish",
+      "slot": "Resource",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": "2",
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T2_FISH_SALTWATER_ALL_COMMON",
+        "item_database_index": "153"
+      },
+      "tier": 2,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Striped Mackerel",
+        "DE-DE": "Gestreifte Makrele",
+        "FR-FR": "Maquereau bleu",
+        "RU-RU": "Полосатая скумбрия",
+        "PL-PL": "Makrela Prążkowana",
+        "ES-ES": "Caballa rayada",
+        "PT-BR": "Cavalinha Listrada",
+        "IT-IT": "Sgombro striato",
+        "ZH-CN": "条纹鲭鱼",
+        "KO-KR": "줄무늬 고등어",
+        "JA-JP": "縞のあるサバ",
+        "ZH-TW": "條紋鯖魚",
+        "ID-ID": "Ikan Makerel Bergaris",
+        "TR-TR": "Çizgili Uskumru",
+        "AR-SA": "سمك الماكريل المقلّم"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "A common Albion ocean fish.",
+        "DE-DE": "Ein gewöhnlicher Salzwasserfisch Albions.",
+        "FR-FR": "Un poisson océanique commun d'Albion",
+        "RU-RU": "Распространенная в Альбионе морская рыба.",
+        "PL-PL": "Pospolita ryba oceaniczna w Albionie.",
+        "ES-ES": "Un pescado común de los océanos de Albion.",
+        "PT-BR": "Um peixe comum dos oceanos de Albion.",
+        "IT-IT": "Un comune pesce oceanico di Albion.",
+        "ZH-CN": "一条普通的阿尔比恩海鱼。",
+        "KO-KR": "평범한 알비온의 민물고기",
+        "JA-JP": "アルビオンでは一般的な海水魚。",
+        "ZH-TW": "一種普通的鹹水魚，在阿爾比恩隨處可見。",
+        "ID-ID": "Ikan laut Albion biasa.",
+        "TR-TR": "Sıradan bir Albion okyanus balığı.",
+        "AR-SA": "سمكة شائعة من محيط Albion."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T2_FISH_SALTWATER_ALL_COMMON",
+        "description_variable": "@ITEMS_FISH_SALTWATER_ALL_COMMON_DESC"
+      },
+      "origin": "Crafting/Fish/Fish_T2_FISH_SALTWATER_ALL_COMMON.json",
+      "raw": {
+        "@uniquename": "T2_FISH_SALTWATER_ALL_COMMON",
+        "@itemvalue": "2",
+        "@fishingfame": "20",
+        "@fishingminigamesetting": "T1",
+        "@descriptionlocatag": "@ITEMS_FISH_SALTWATER_ALL_COMMON_DESC",
+        "@uisprite": "T2_FISH_SALTWATER_ALL_COMMON",
+        "@nutrition": "2",
+        "@abilitypower": "100",
+        "@slottype": "food",
+        "@consumespell": "FOOD_FISH_SALTWATER_2_RAW",
+        "@shopcategory": "crafting",
+        "@shopsubcategory1": "fish",
+        "@resourcetype": "FISH",
+        "@tier": "2",
+        "@weight": "0.10",
+        "@dummyitempower": "300",
+        "@maxstacksize": "999",
+        "@unlockedtocraft": "true",
+        "@unlockedtoequip": "true",
+        "@uicraftsoundstart": "Play_ui_action_craft_potion_start",
+        "@uicraftsoundfinish": "Play_ui_action_craft_potion_finish",
+        "@shopsubcategory2": "common",
+        "@shopsubcategory3": "saltwater"
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T1_FISHCHOPS",
+      "index": "186",
+      "category": "Crafting_Fish",
+      "slot": "Resource",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": "1",
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": {
+        "primary_resource": "T1_FISH_FRESHWATER_ALL_COMMON",
+        "primary_count": 1,
+        "secondary_resource": "",
+        "secondary_count": 0,
+        "resources": [
+          {
+            "id": "T1_FISH_FRESHWATER_ALL_COMMON",
+            "count": 1
+          }
+        ]
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T1_FISHCHOPS",
+        "item_database_index": "186"
+      },
+      "tier": 1,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Chopped Fish",
+        "DE-DE": "Zerkleinerter Fisch",
+        "FR-FR": "Morceaux de poisson",
+        "RU-RU": "Разделанная рыба",
+        "PL-PL": "Siekana Ryba",
+        "ES-ES": "Pescado picado",
+        "PT-BR": "Peixe Picado",
+        "IT-IT": "Pesce sminuzzato",
+        "ZH-CN": "切碎的鱼",
+        "KO-KR": "토막낸 생선",
+        "JA-JP": "刻んだ魚",
+        "ZH-TW": "切碎的魚",
+        "ID-ID": "Ikan Cincang",
+        "TR-TR": "Doğranmış Balık",
+        "AR-SA": "سمك مفروم"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "The primary ingredient in all Fish Sauce",
+        "DE-DE": "Die grundlegende Zutat jeder Fischsauce",
+        "FR-FR": "L'ingrédient principal dans toutes sauces de poisson",
+        "RU-RU": "Основной ингредиент для всех рыбных соусов",
+        "PL-PL": "Główny składnik każdego sosu rybnego",
+        "ES-ES": "El ingrediente principal en todas las salsas de pescado",
+        "PT-BR": "O principal ingrediente para todos os Molhos de Peixe",
+        "IT-IT": "L'ingrediente principale di tutte le salse di pesce",
+        "ZH-CN": "所有鱼酱的主要成分",
+        "KO-KR": "모든 피시 소스의 기본 재료입니다.",
+        "JA-JP": "全ての魚醤の主な原料",
+        "ZH-TW": "所有魚醬的主要食材",
+        "ID-ID": "Bahan utama dalam semua Saus Ikan",
+        "TR-TR": "Tüm balık soslarının vazgeçilmez malzemesi.",
+        "AR-SA": "المكون الرئيسي في جميع أطباق صلصة السمك"
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T1_FISHCHOPS",
+        "description_variable": "@ITEMS_T1_FISHCHOPS_DESC"
+      },
+      "origin": "Crafting/Fish/Fish_T1_FISHCHOPS.json",
+      "raw": {
+        "@uniquename": "T1_FISHCHOPS",
+        "@uisprite": "FISHCHOPS",
+        "@itemvalue": "1",
+        "@shopcategory": "crafting",
+        "@shopsubcategory1": "fish",
+        "@tier": "1",
+        "@resourcetype": "TOKEN",
+        "@weight": "0.05",
+        "@maxstacksize": "999",
+        "@unlockedtocraft": "true",
+        "@enchantmentlevel": "0",
+        "@shopsubcategory2": "other",
+        "craftingrequirements": [
+          {
+            "@time": "0.01",
+            "@amountcrafted": "1",
+            "craftresource": {
+              "@uniquename": "T1_FISH_FRESHWATER_ALL_COMMON",
+              "@count": "1"
+            }
+          },
+          {
+            "@time": "0.02",
+            "@amountcrafted": "2",
+            "craftresource": {
+              "@uniquename": "T2_FISH_FRESHWATER_ALL_COMMON",
+              "@count": "1"
+            }
+          },
+          {
+            "@time": "0.03",
+            "@amountcrafted": "3",
+            "craftresource": {
+              "@uniquename": "T3_FISH_FRESHWATER_ALL_COMMON",
+              "@count": "1"
+            }
+          },
+          {
+            "@time": "0.04",
+            "@amountcrafted": "4",
+            "craftresource": {
+              "@uniquename": "T4_FISH_FRESHWATER_ALL_COMMON",
+              "@count": "1"
+            }
+          },
+          {
+            "@time": "0.06",
+            "@amountcrafted": "6",
+            "craftresource": {
+              "@uniquename": "T5_FISH_FRESHWATER_ALL_COMMON",
+              "@count": "1"
+            }
+          },
+          {
+            "@time": "0.08",
+            "@amountcrafted": "8",
+            "craftresource": {
+              "@uniquename": "T6_FISH_FRESHWATER_ALL_COMMON",
+              "@count": "1"
+            }
+          },
+          {
+            "@time": "0.1",
+            "@amountcrafted": "10",
+            "craftresource": {
+              "@uniquename": "T7_FISH_FRESHWATER_ALL_COMMON",
+              "@count": "1"
+            }
+          },
+          {
+            "@time": "0.14",
+            "@amountcrafted": "14",
+            "craftresource": {
+              "@uniquename": "T8_FISH_FRESHWATER_ALL_COMMON",
+              "@count": "1"
+            }
+          },
+          {
+            "@time": "0.01",
+            "@amountcrafted": "1",
+            "craftresource": {
+              "@uniquename": "T1_FISH_SALTWATER_ALL_COMMON",
+              "@count": "1"
+            }
+          },
+          {
+            "@time": "0.02",
+            "@amountcrafted": "2",
+            "craftresource": {
+              "@uniquename": "T2_FISH_SALTWATER_ALL_COMMON",
+              "@count": "1"
+            }
+          },
+          {
+            "@time": "0.03",
+            "@amountcrafted": "3",
+            "craftresource": {
+              "@uniquename": "T3_FISH_SALTWATER_ALL_COMMON",
+              "@count": "1"
+            }
+          },
+          {
+            "@time": "0.04",
+            "@amountcrafted": "4",
+            "craftresource": {
+              "@uniquename": "T4_FISH_SALTWATER_ALL_COMMON",
+              "@count": "1"
+            }
+          },
+          {
+            "@time": "0.06",
+            "@amountcrafted": "6",
+            "craftresource": {
+              "@uniquename": "T5_FISH_SALTWATER_ALL_COMMON",
+              "@count": "1"
+            }
+          },
+          {
+            "@time": "0.08",
+            "@amountcrafted": "8",
+            "craftresource": {
+              "@uniquename": "T6_FISH_SALTWATER_ALL_COMMON",
+              "@count": "1"
+            }
+          },
+          {
+            "@time": "0.1",
+            "@amountcrafted": "10",
+            "craftresource": {
+              "@uniquename": "T7_FISH_SALTWATER_ALL_COMMON",
+              "@count": "1"
+            }
+          },
+          {
+            "@time": "0.14",
+            "@amountcrafted": "14",
+            "craftresource": {
+              "@uniquename": "T8_FISH_SALTWATER_ALL_COMMON",
+              "@count": "1"
+            }
+          },
+          {
+            "@time": "0.1",
+            "@amountcrafted": "10",
+            "craftresource": {
+              "@uniquename": "T3_FISH_FRESHWATER_FOREST_RARE",
+              "@count": "1"
+            }
+          },
+          {
+            "@time": "0.2",
+            "@amountcrafted": "20",
+            "craftresource": {
+              "@uniquename": "T5_FISH_FRESHWATER_FOREST_RARE",
+              "@count": "1"
+            }
+          },
+          {
+            "@time": "0.3",
+            "@amountcrafted": "30",
+            "craftresource": {
+              "@uniquename": "T7_FISH_FRESHWATER_FOREST_RARE",
+              "@count": "1"
+            }
+          },
+          {
+            "@time": "0.1",
+            "@amountcrafted": "10",
+            "craftresource": {
+              "@uniquename": "T3_FISH_FRESHWATER_STEPPE_RARE",
+              "@count": "1"
+            }
+          },
+          {
+            "@time": "0.2",
+            "@amountcrafted": "20",
+            "craftresource": {
+              "@uniquename": "T5_FISH_FRESHWATER_STEPPE_RARE",
+              "@count": "1"
+            }
+          },
+          {
+            "@time": "0.3",
+            "@amountcrafted": "30",
+            "craftresource": {
+              "@uniquename": "T7_FISH_FRESHWATER_STEPPE_RARE",
+              "@count": "1"
+            }
+          },
+          {
+            "@time": "0.1",
+            "@amountcrafted": "10",
+            "craftresource": {
+              "@uniquename": "T3_FISH_FRESHWATER_MOUNTAIN_RARE",
+              "@count": "1"
+            }
+          },
+          {
+            "@time": "0.2",
+            "@amountcrafted": "20",
+            "craftresource": {
+              "@uniquename": "T5_FISH_FRESHWATER_MOUNTAIN_RARE",
+              "@count": "1"
+            }
+          },
+          {
+            "@time": "0.3",
+            "@amountcrafted": "30",
+            "craftresource": {
+              "@uniquename": "T7_FISH_FRESHWATER_MOUNTAIN_RARE",
+              "@count": "1"
+            }
+          },
+          {
+            "@time": "0.1",
+            "@amountcrafted": "10",
+            "craftresource": {
+              "@uniquename": "T3_FISH_FRESHWATER_HIGHLANDS_RARE",
+              "@count": "1"
+            }
+          },
+          {
+            "@time": "0.2",
+            "@amountcrafted": "20",
+            "craftresource": {
+              "@uniquename": "T5_FISH_FRESHWATER_HIGHLANDS_RARE",
+              "@count": "1"
+            }
+          },
+          {
+            "@time": "0.3",
+            "@amountcrafted": "30",
+            "craftresource": {
+              "@uniquename": "T7_FISH_FRESHWATER_HIGHLANDS_RARE",
+              "@count": "1"
+            }
+          },
+          {
+            "@time": "0.1",
+            "@amountcrafted": "10",
+            "craftresource": {
+              "@uniquename": "T3_FISH_FRESHWATER_SWAMP_RARE",
+              "@count": "1"
+            }
+          },
+          {
+            "@time": "0.2",
+            "@amountcrafted": "20",
+            "craftresource": {
+              "@uniquename": "T5_FISH_FRESHWATER_SWAMP_RARE",
+              "@count": "1"
+            }
+          },
+          {
+            "@time": "0.3",
+            "@amountcrafted": "30",
+            "craftresource": {
+              "@uniquename": "T7_FISH_FRESHWATER_SWAMP_RARE",
+              "@count": "1"
+            }
+          },
+          {
+            "@time": "0.1",
+            "@amountcrafted": "10",
+            "craftresource": {
+              "@uniquename": "T3_FISH_FRESHWATER_AVALON_RARE",
+              "@count": "1"
+            }
+          },
+          {
+            "@time": "0.2",
+            "@amountcrafted": "20",
+            "craftresource": {
+              "@uniquename": "T5_FISH_FRESHWATER_AVALON_RARE",
+              "@count": "1"
+            }
+          },
+          {
+            "@time": "0.3",
+            "@amountcrafted": "30",
+            "craftresource": {
+              "@uniquename": "T7_FISH_FRESHWATER_AVALON_RARE",
+              "@count": "1"
+            }
+          },
+          {
+            "@time": "0.1",
+            "@amountcrafted": "10",
+            "craftresource": {
+              "@uniquename": "T3_FISH_FRESHWATER_DRAGON_AREA_RARE",
+              "@count": "1"
+            }
+          },
+          {
+            "@time": "0.2",
+            "@amountcrafted": "20",
+            "craftresource": {
+              "@uniquename": "T5_FISH_FRESHWATER_DRAGON_AREA_RARE",
+              "@count": "1"
+            }
+          },
+          {
+            "@time": "0.3",
+            "@amountcrafted": "30",
+            "craftresource": {
+              "@uniquename": "T7_FISH_FRESHWATER_DRAGON_AREA_RARE",
+              "@count": "1"
+            }
+          },
+          {
+            "@time": "0.1",
+            "@amountcrafted": "10",
+            "craftresource": {
+              "@uniquename": "T3_FISH_SALTWATER_ALL_RARE",
+              "@count": "1"
+            }
+          },
+          {
+            "@time": "0.2",
+            "@amountcrafted": "20",
+            "craftresource": {
+              "@uniquename": "T5_FISH_SALTWATER_ALL_RARE",
+              "@count": "1"
+            }
+          },
+          {
+            "@time": "0.3",
+            "@amountcrafted": "30",
+            "craftresource": {
+              "@uniquename": "T7_FISH_SALTWATER_ALL_RARE",
+              "@count": "1"
+            }
+          },
+          {
+            "@time": "2.0",
+            "@amountcrafted": "200",
+            "craftresource": {
+              "@uniquename": "T8_FISH_SALTWATER_ALL_BOSS_SHARK",
+              "@count": "1"
+            }
+          }
+        ]
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T7_FISH_FRESHWATER_MOUNTAIN_RARE",
+      "index": "165",
+      "category": "Crafting_Fish",
+      "slot": "Resource",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": "30",
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T7_FISH_FRESHWATER_MOUNTAIN_RARE",
+        "item_database_index": "165"
+      },
+      "tier": 7,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Frostpeak Deadeye",
+        "DE-DE": "Froststarrer",
+        "FR-FR": "Sar boréal",
+        "RU-RU": "Морозный смертеглаз",
+        "PL-PL": "Martwook Szczytowy",
+        "ES-ES": "Ojo muerto de dos picos",
+        "PT-BR": "Olhomorto dos Picos",
+        "IT-IT": "Malocchio dei picchi",
+        "ZH-CN": "霜峰死眼鱼",
+        "KO-KR": "프로스트픽 명사수",
+        "JA-JP": "フロストピークデッドアイ",
+        "ZH-TW": "霜峰銳眼魚",
+        "ID-ID": "Ikan Buta Puncak Es",
+        "TR-TR": "Buztepe Ölügözü",
+        "AR-SA": "السمكة الميتة"
+      },
+      "localized_all_descriptions": {},
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T7_FISH_FRESHWATER_MOUNTAIN_RARE",
+        "description_variable": "@ITEMS_FISH_FRESHWATER_MOUNTAIN_RARE"
+      },
+      "origin": "Crafting/Fish/Fish_T7_FISH_FRESHWATER_MOUNTAIN_RARE.json",
+      "descriptions": {
+        "description_en": "",
+        "description_ar": "",
+        "description_de": "",
+        "description_fr": "",
+        "description_es": "",
+        "description_ru": ""
+      },
+      "raw": {
+        "@uniquename": "T7_FISH_FRESHWATER_MOUNTAIN_RARE",
+        "@itemvalue": "30",
+        "@fishingfame": "300",
+        "@fishingminigamesetting": "T7_Rare",
+        "@descriptionlocatag": "@ITEMS_FISH_FRESHWATER_MOUNTAIN_RARE",
+        "@uisprite": "FISH_FRESHWATER_MOUNTAIN_RARE",
+        "@nutrition": "30",
+        "@abilitypower": "100",
+        "@slottype": "food",
+        "@consumespell": "FOOD_FISH_LOAD_GATHER_3_RAW",
+        "@shopcategory": "crafting",
+        "@shopsubcategory1": "fish",
+        "@resourcetype": "FISH",
+        "@tier": "7",
+        "@weight": "1.04",
+        "@dummyitempower": "300",
+        "@maxstacksize": "999",
+        "@unlockedtocraft": "true",
+        "@unlockedtoequip": "true",
+        "@uicraftsoundstart": "Play_ui_action_craft_potion_start",
+        "@uicraftsoundfinish": "Play_ui_action_craft_potion_finish",
+        "@shopsubcategory2": "rare",
+        "@shopsubcategory3": "fish_mountain"
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 1
+    },
+    {
+      "id": "T1_FISHSAUCE_LEVEL1",
+      "index": "187",
+      "category": "Crafting_Fish",
+      "slot": "Resource",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": "0",
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": {
+        "primary_resource": "T1_FISHCHOPS",
+        "primary_count": 15,
+        "secondary_resource": "T1_SEAWEED",
+        "secondary_count": 1,
+        "resources": [
+          {
+            "id": "T1_FISHCHOPS",
+            "count": 15
+          },
+          {
+            "id": "T1_SEAWEED",
+            "count": 1
+          }
+        ]
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T1_FISHSAUCE_LEVEL1",
+        "item_database_index": "187"
+      },
+      "tier": 1,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Basic Fish Sauce",
+        "DE-DE": "Einfache Fischsauce",
+        "FR-FR": "Sauce de poisson basique",
+        "RU-RU": "Основной рыбный соус",
+        "PL-PL": "Podstawowy Sos Rybny",
+        "ES-ES": "Salsa de pescado básica",
+        "PT-BR": "Molho de Peixe Básico",
+        "IT-IT": "Salsa di pesce classica",
+        "ZH-CN": "基础鱼酱",
+        "KO-KR": "기본 피시 소스",
+        "JA-JP": "基本の魚醤",
+        "ZH-TW": "基礎魚醬",
+        "ID-ID": "Saus Ikan Dasar",
+        "TR-TR": "Basit Balık Sosu",
+        "AR-SA": "طُعم سمك أساسي"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "While cooking, add this sauce to any meal for greatly enhanced flavor!",
+        "DE-DE": "Nur ein klein wenig beim Kochen zugeben, für eine deutliche Verbesserung des Geschmacks!",
+        "FR-FR": "En cuisinant, utilisez cette sauce pour rajouter du goût à tous vos plats !",
+        "RU-RU": "Добавьте этот соус в процессе приготовления любой еды для значительного улучшения вкуса!",
+        "PL-PL": "Dodaj ten sos podczas gotowania dowolnego dania, aby znacznie poprawić jego smak!",
+        "ES-ES": "¡Mientras cocinas, añade esta salsa a cualquier comida para aumentar aún más el sabor!",
+        "PT-BR": "Enquanto cozinha, adicione esse molho a qualquer refeição para aumentar ainda mais o sabor!",
+        "IT-IT": "Mentre cucini, aggiungila a qualsiasi pietanza per esaltarne il sapore!",
+        "ZH-CN": "烹饪任何食物时加一点这种酱料都可以大大提升风味！",
+        "KO-KR": "요리 시 이 소스를 추가하면 음식의 맛이 크게 향상됩니다!",
+        "JA-JP": "調理中にこのソースを加えれば、どんな料理も素晴らしい風味になります！",
+        "ZH-TW": "烹煮任何料理時，加入這個醬料都能大幅增添風味！",
+        "ID-ID": "Saat memasak, tambahkan saus ini ke makanan apa pun untuk meningkatkan cita rasa!",
+        "TR-TR": "Yemek hazırlarken yemeğin lezzetine lezzet katmak için bu sosu kullan!",
+        "AR-SA": "في أثناء الطبخ، يمكنك إضافة هذه الصلصة إلى أي وجبة من أجل نكهة أطيب كثيرًا!"
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T1_FISHSAUCE_LEVEL1",
+        "description_variable": "@ITEMS_FISHSAUCE_DESC"
+      },
+      "origin": "Crafting/Fish/Fish_T1_FISHSAUCE_LEVEL1.json",
+      "raw": {
+        "@uniquename": "T1_FISHSAUCE_LEVEL1",
+        "@descriptionlocatag": "@ITEMS_FISHSAUCE_DESC",
+        "@uisprite": "FISHSAUCE_UNCOMMON",
+        "@shopcategory": "crafting",
+        "@shopsubcategory1": "fish",
+        "@tier": "1",
+        "@resourcetype": "TOKEN",
+        "@weight": "1",
+        "@maxstacksize": "999",
+        "@unlockedtocraft": "true",
+        "@enchantmentlevel": "0",
+        "@itemvalue": "0",
+        "@shopsubcategory2": "other",
+        "craftingrequirements": {
+          "@time": "0.02",
+          "craftresource": [
+            {
+              "@uniquename": "T1_FISHCHOPS",
+              "@count": "15"
+            },
+            {
+              "@uniquename": "T1_SEAWEED",
+              "@count": "1"
+            }
+          ]
+        }
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T3_FISH_FRESHWATER_SWAMP_RARE",
+      "index": "172",
+      "category": "Crafting_Fish",
+      "slot": "Resource",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": "10",
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T3_FISH_FRESHWATER_SWAMP_RARE",
+        "item_database_index": "172"
+      },
+      "tier": 3,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Greenmoor Clam",
+        "DE-DE": "Grünmoor-Muschel",
+        "FR-FR": "Clovisse blanche",
+        "RU-RU": "Илистый моллюск",
+        "PL-PL": "Małż Piaskołaz",
+        "ES-ES": "Almeja verdosa",
+        "PT-BR": "Mexilhão Esverdeado",
+        "IT-IT": "Vongola di palude",
+        "ZH-CN": "绿沼蛤蜊",
+        "KO-KR": "그린무어 조개",
+        "JA-JP": "グリーンムーア・クラム",
+        "ZH-TW": "綠沼蛤蜊",
+        "ID-ID": "Kerang Hijau",
+        "TR-TR": "Yeşilkır İstiridyesi",
+        "AR-SA": "محار جرين مور"
+      },
+      "localized_all_descriptions": {},
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T3_FISH_FRESHWATER_SWAMP_RARE",
+        "description_variable": "@ITEMS_FISH_FRESHWATER_SWAMP_RARE"
+      },
+      "origin": "Crafting/Fish/Fish_T3_FISH_FRESHWATER_SWAMP_RARE.json",
+      "descriptions": {
+        "description_en": "",
+        "description_ar": "",
+        "description_de": "",
+        "description_fr": "",
+        "description_es": "",
+        "description_ru": ""
+      },
+      "raw": {
+        "@uniquename": "T3_FISH_FRESHWATER_SWAMP_RARE",
+        "@itemvalue": "10",
+        "@fishingfame": "100",
+        "@fishingminigamesetting": "T3_Rare",
+        "@descriptionlocatag": "@ITEMS_FISH_FRESHWATER_SWAMP_RARE",
+        "@uisprite": "FISH_FRESHWATER_SWAMP_RARE",
+        "@nutrition": "10",
+        "@abilitypower": "100",
+        "@slottype": "food",
+        "@consumespell": "FOOD_FISH_HEALTH_REG_1_RAW",
+        "@shopcategory": "crafting",
+        "@shopsubcategory1": "fish",
+        "@resourcetype": "FISH",
+        "@tier": "3",
+        "@weight": "0.52",
+        "@dummyitempower": "300",
+        "@maxstacksize": "999",
+        "@unlockedtocraft": "true",
+        "@unlockedtoequip": "true",
+        "@uicraftsoundstart": "Play_ui_action_craft_potion_start",
+        "@uicraftsoundfinish": "Play_ui_action_craft_potion_finish",
+        "@shopsubcategory2": "rare",
+        "@shopsubcategory3": "fish_swamp"
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 1
+    },
+    {
+      "id": "T7_FISH_FRESHWATER_DRAGON_AREA_RARE",
+      "index": "183",
+      "category": "Crafting_Fish",
+      "slot": "Resource",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": "30",
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T7_FISH_FRESHWATER_DRAGON_AREA_RARE",
+        "item_database_index": "183"
+      },
+      "tier": 7,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Dragonbound Leyfin",
+        "DE-DE": "Drachengebundene Leyflosse",
+        "FR-FR": "Tellurfin Draconique",
+        "RU-RU": "Драконий лейфин",
+        "PL-PL": "Smocza Liniopłetwa",
+        "ES-ES": "Leyaleta Dragontina",
+        "PT-BR": "Leybatana Dracônica",
+        "IT-IT": "Pinnarcana Draconica",
+        "ZH-CN": "龙契灵芬鱼",
+        "KO-KR": "용의 결속 레이핀",
+        "JA-JP": "ドラゴンバウンド・レイフィン",
+        "ZH-TW": "龍縛靈芬魚",
+        "ID-ID": "Leyfin Terikatnaga",
+        "TR-TR": "Ejderbağlı Ley Balığı",
+        "AR-SA": "ليفين دم التنين"
+      },
+      "localized_all_descriptions": {},
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T7_FISH_FRESHWATER_DRAGON_AREA_RARE",
+        "description_variable": "@ITEMS_FISH_FRESHWATER_DRAGON_AREA_RARE"
+      },
+      "origin": "Crafting/Fish/Fish_T7_FISH_FRESHWATER_DRAGON_AREA_RARE.json",
+      "descriptions": {
+        "description_en": "",
+        "description_ar": "",
+        "description_de": "",
+        "description_fr": "",
+        "description_es": "",
+        "description_ru": ""
+      },
+      "raw": {
+        "@uniquename": "T7_FISH_FRESHWATER_DRAGON_AREA_RARE",
+        "@itemvalue": "30",
+        "@fishingfame": "300",
+        "@fishingminigamesetting": "T7_Rare",
+        "@descriptionlocatag": "@ITEMS_FISH_FRESHWATER_DRAGON_AREA_RARE",
+        "@uisprite": "FISH_FRESHWATER_DRAGON_AREA_RARE",
+        "@nutrition": "30",
+        "@abilitypower": "100",
+        "@slottype": "food",
+        "@consumespell": "FOOD_FISH_BUFF_HEALBONUS_3_RAW",
+        "@shopcategory": "crafting",
+        "@shopsubcategory1": "fish",
+        "@resourcetype": "FISH",
+        "@tier": "7",
+        "@weight": "1.04",
+        "@dummyitempower": "300",
+        "@maxstacksize": "999",
+        "@unlockedtocraft": "true",
+        "@unlockedtoequip": "true",
+        "@uicraftsoundstart": "Play_ui_action_craft_potion_start",
+        "@uicraftsoundfinish": "Play_ui_action_craft_potion_finish",
+        "@shopsubcategory2": "rare",
+        "@shopsubcategory3": "fish_avalon"
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 1
+    },
+    {
+      "id": "T5_FISH_FRESHWATER_FOREST_RARE",
+      "index": "161",
+      "category": "Crafting_Fish",
+      "slot": "Resource",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": "20",
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T5_FISH_FRESHWATER_FOREST_RARE",
+        "item_database_index": "161"
+      },
+      "tier": 5,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Redspring Eel",
+        "DE-DE": "Rotquellen-Aal",
+        "FR-FR": "Anguille rosée",
+        "RU-RU": "Красноводный угорь",
+        "PL-PL": "Węgorz Strumykowy",
+        "ES-ES": "Anguila rojiza",
+        "PT-BR": "Enguia Avermelhada",
+        "IT-IT": "Anguilla acquarossa",
+        "ZH-CN": "红泉鳗鱼",
+        "KO-KR": "레드스프링 장어",
+        "JA-JP": "レッドスプリングウナギ",
+        "ZH-TW": "赤泉鰻魚",
+        "ID-ID": "Belut Mata Air Merah",
+        "TR-TR": "Alırmak Yılan Balığı",
+        "AR-SA": "سمك ثعبان Redspring"
+      },
+      "localized_all_descriptions": {},
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T5_FISH_FRESHWATER_FOREST_RARE",
+        "description_variable": "@ITEMS_FISH_FRESHWATER_FOREST_RARE"
+      },
+      "origin": "Crafting/Fish/Fish_T5_FISH_FRESHWATER_FOREST_RARE.json",
+      "descriptions": {
+        "description_en": "",
+        "description_ar": "",
+        "description_de": "",
+        "description_fr": "",
+        "description_es": "",
+        "description_ru": ""
+      },
+      "raw": {
+        "@uniquename": "T5_FISH_FRESHWATER_FOREST_RARE",
+        "@itemvalue": "20",
+        "@fishingfame": "200",
+        "@fishingminigamesetting": "T5_Rare",
+        "@descriptionlocatag": "@ITEMS_FISH_FRESHWATER_FOREST_RARE",
+        "@uisprite": "FISH_FRESHWATER_FOREST_RARE",
+        "@nutrition": "20",
+        "@abilitypower": "100",
+        "@slottype": "food",
+        "@consumespell": "FOOD_FISH_BUFF_DMG_2_RAW",
+        "@shopcategory": "crafting",
+        "@shopsubcategory1": "fish",
+        "@resourcetype": "FISH",
+        "@tier": "5",
+        "@weight": "0.78",
+        "@dummyitempower": "300",
+        "@maxstacksize": "999",
+        "@unlockedtocraft": "true",
+        "@unlockedtoequip": "true",
+        "@uicraftsoundstart": "Play_ui_action_craft_potion_start",
+        "@uicraftsoundfinish": "Play_ui_action_craft_potion_finish",
+        "@shopsubcategory2": "rare",
+        "@shopsubcategory3": "fish_forest"
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 1
+    },
+    {
+      "id": "T3_FISH_FRESHWATER_AVALON_RARE",
+      "index": "178",
+      "category": "Crafting_Fish",
+      "slot": "Resource",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": "10",
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T3_FISH_FRESHWATER_AVALON_RARE",
+        "item_database_index": "178"
+      },
+      "tier": 3,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Whitefog Snapper",
+        "DE-DE": "Weißnebel Schnapper",
+        "FR-FR": "Lutjan albruine",
+        "RU-RU": "Дымчатый окунь",
+        "PL-PL": "Lucjan Białomglisty",
+        "ES-ES": "Pargo de niebla blanca",
+        "PT-BR": "Pargo Bruma-branca",
+        "IT-IT": "Dentice biancabruma",
+        "ZH-CN": "白雾鲷鱼",
+        "KO-KR": "화이트포그 스내퍼",
+        "JA-JP": "ホワイトフォグ・スナッパー",
+        "ZH-TW": "白霧鯛魚",
+        "ID-ID": "Kakap Kabut Putih",
+        "TR-TR": "Aksis Levreği",
+        "AR-SA": "سمك نهاش Whitefog"
+      },
+      "localized_all_descriptions": {},
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T3_FISH_FRESHWATER_AVALON_RARE",
+        "description_variable": "@ITEMS_FISH_FRESHWATER_AVALON_RARE"
+      },
+      "origin": "Crafting/Fish/Fish_T3_FISH_FRESHWATER_AVALON_RARE.json",
+      "descriptions": {
+        "description_en": "",
+        "description_ar": "",
+        "description_de": "",
+        "description_fr": "",
+        "description_es": "",
+        "description_ru": ""
+      },
+      "raw": {
+        "@uniquename": "T3_FISH_FRESHWATER_AVALON_RARE",
+        "@itemvalue": "10",
+        "@fishingfame": "100",
+        "@fishingminigamesetting": "T3_Rare",
+        "@descriptionlocatag": "@ITEMS_FISH_FRESHWATER_AVALON_RARE",
+        "@uisprite": "FISH_FRESHWATER_AVALON_RARE",
+        "@nutrition": "10",
+        "@abilitypower": "100",
+        "@slottype": "food",
+        "@consumespell": "FOOD_FISH_BUFF_LIFESTEAL_1_RAW",
+        "@shopcategory": "crafting",
+        "@shopsubcategory1": "fish",
+        "@resourcetype": "FISH",
+        "@tier": "3",
+        "@weight": "0.52",
+        "@dummyitempower": "300",
+        "@maxstacksize": "999",
+        "@unlockedtocraft": "true",
+        "@unlockedtoequip": "true",
+        "@uicraftsoundstart": "Play_ui_action_craft_potion_start",
+        "@uicraftsoundfinish": "Play_ui_action_craft_potion_finish",
+        "@shopsubcategory2": "rare",
+        "@shopsubcategory3": "fish_avalon"
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 1
+    },
+    {
+      "id": "T2_FISH_FRESHWATER_ALL_COMMON",
+      "index": "145",
+      "category": "Crafting_Fish",
+      "slot": "Resource",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": "2",
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T2_FISH_FRESHWATER_ALL_COMMON",
+        "item_database_index": "145"
+      },
+      "tier": 2,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Striped Carp",
+        "DE-DE": "Gestreifter Karpfen",
+        "FR-FR": "Bavure sept-rayée",
+        "RU-RU": "Полосатый карп",
+        "PL-PL": "Karp Prążkowany",
+        "ES-ES": "Carpa rayada",
+        "PT-BR": "Carpa Listrada",
+        "IT-IT": "Carpa striata",
+        "ZH-CN": "条纹鲤鱼",
+        "KO-KR": "줄무늬 잉어",
+        "JA-JP": "縞のあるコイ",
+        "ZH-TW": "條紋鯉魚",
+        "ID-ID": "Ikan Mas Bergaris",
+        "TR-TR": "Çizgili Sazan",
+        "AR-SA": "سمك الشبوط المقلّم"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "A common Albion freshwater fish.",
+        "DE-DE": "Ein gewöhnlicher Süßwasserfisch Albions.",
+        "FR-FR": "Un poisson d'eau douce d'Albion commun.",
+        "RU-RU": "Распространенная в Альбионе пресноводная рыба.",
+        "PL-PL": "Pospolita ryba słodkowodna w Albionie.",
+        "ES-ES": "Un pescado común de las aguas dulces de Albion.",
+        "PT-BR": "Um peixe comum das águas doces de Albion.",
+        "IT-IT": "Un comune pesce d'acqua dolce di Albion.",
+        "ZH-CN": "一条普通的阿尔比恩淡水鱼。",
+        "KO-KR": "평범한 알비온의 민물고기",
+        "JA-JP": "アルビオンでは一般的な淡水魚。",
+        "ZH-TW": "一種普通的淡水魚，在阿爾比恩隨處可見。",
+        "ID-ID": "Ikan air tawar Albion biasa.",
+        "TR-TR": "Sıradan bir Albion tatlı su balığı.",
+        "AR-SA": "سمكة شائعة من مياه Albion العذبة."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T2_FISH_FRESHWATER_ALL_COMMON",
+        "description_variable": "@ITEMS_FISH_FRESHWATER_ALL_COMMON_DESC"
+      },
+      "origin": "Crafting/Fish/Fish_T2_FISH_FRESHWATER_ALL_COMMON.json",
+      "raw": {
+        "@uniquename": "T2_FISH_FRESHWATER_ALL_COMMON",
+        "@itemvalue": "2",
+        "@fishingfame": "20",
+        "@fishingminigamesetting": "T1",
+        "@descriptionlocatag": "@ITEMS_FISH_FRESHWATER_ALL_COMMON_DESC",
+        "@uisprite": "T2_FISH_FRESHWATER_ALL_COMMON",
+        "@nutrition": "2",
+        "@abilitypower": "100",
+        "@slottype": "food",
+        "@consumespell": "FOOD_FISH_FRESHWATER_2_RAW",
+        "@shopcategory": "crafting",
+        "@shopsubcategory1": "fish",
+        "@resourcetype": "FISH",
+        "@tier": "2",
+        "@weight": "0.10",
+        "@dummyitempower": "300",
+        "@maxstacksize": "999",
+        "@unlockedtocraft": "true",
+        "@unlockedtoequip": "true",
+        "@uicraftsoundstart": "Play_ui_action_craft_potion_start",
+        "@uicraftsoundfinish": "Play_ui_action_craft_potion_finish",
+        "@shopsubcategory2": "common",
+        "@shopsubcategory3": "freshwater"
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T4_FISH_SALTWATER_ALL_COMMON",
+      "index": "155",
+      "category": "Crafting_Fish",
+      "slot": "Resource",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": "4",
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T4_FISH_SALTWATER_ALL_COMMON",
+        "item_database_index": "155"
+      },
+      "tier": 4,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Bluescale Cod",
+        "DE-DE": "Blauschuppen-Kabeljau",
+        "FR-FR": "Cabillaud charbonnier",
+        "RU-RU": "Голубая треска",
+        "PL-PL": "Dorsz Niebieskołuski",
+        "ES-ES": "Bacalao azul",
+        "PT-BR": "Bacalhau Azul",
+        "IT-IT": "Merluzzo squamazzurra",
+        "ZH-CN": "蓝鳞鳕鱼",
+        "KO-KR": "푸른 비늘 대구",
+        "JA-JP": "ブルースケールコッド",
+        "ZH-TW": "藍鱗鱈魚",
+        "ID-ID": "Kod Sisik Biru",
+        "TR-TR": "Mavi Pullu Morina Balığı",
+        "AR-SA": "سمك القد الأزرق"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "A common Albion ocean fish.",
+        "DE-DE": "Ein gewöhnlicher Salzwasserfisch Albions.",
+        "FR-FR": "Un poisson océanique commun d'Albion",
+        "RU-RU": "Распространенная в Альбионе морская рыба.",
+        "PL-PL": "Pospolita ryba oceaniczna w Albionie.",
+        "ES-ES": "Un pescado común de los océanos de Albion.",
+        "PT-BR": "Um peixe comum dos oceanos de Albion.",
+        "IT-IT": "Un comune pesce oceanico di Albion.",
+        "ZH-CN": "一条普通的阿尔比恩海鱼。",
+        "KO-KR": "평범한 알비온의 민물고기",
+        "JA-JP": "アルビオンでは一般的な海水魚。",
+        "ZH-TW": "一種普通的鹹水魚，在阿爾比恩隨處可見。",
+        "ID-ID": "Ikan laut Albion biasa.",
+        "TR-TR": "Sıradan bir Albion okyanus balığı.",
+        "AR-SA": "سمكة شائعة من محيط Albion."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T4_FISH_SALTWATER_ALL_COMMON",
+        "description_variable": "@ITEMS_FISH_SALTWATER_ALL_COMMON_DESC"
+      },
+      "origin": "Crafting/Fish/Fish_T4_FISH_SALTWATER_ALL_COMMON.json",
+      "raw": {
+        "@uniquename": "T4_FISH_SALTWATER_ALL_COMMON",
+        "@itemvalue": "4",
+        "@fishingfame": "40",
+        "@fishingminigamesetting": "T3",
+        "@descriptionlocatag": "@ITEMS_FISH_SALTWATER_ALL_COMMON_DESC",
+        "@uisprite": "T4_FISH_SALTWATER_ALL_COMMON",
+        "@nutrition": "4",
+        "@abilitypower": "100",
+        "@slottype": "food",
+        "@consumespell": "FOOD_FISH_SALTWATER_4_RAW",
+        "@shopcategory": "crafting",
+        "@shopsubcategory1": "fish",
+        "@resourcetype": "FISH",
+        "@tier": "4",
+        "@weight": "0.21",
+        "@dummyitempower": "300",
+        "@maxstacksize": "999",
+        "@unlockedtocraft": "true",
+        "@unlockedtoequip": "true",
+        "@uicraftsoundstart": "Play_ui_action_craft_potion_start",
+        "@uicraftsoundfinish": "Play_ui_action_craft_potion_finish",
+        "@shopsubcategory2": "common",
+        "@shopsubcategory3": "saltwater"
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T3_FISH_FRESHWATER_STEPPE_RARE",
+      "index": "169",
+      "category": "Crafting_Fish",
+      "slot": "Resource",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": "10",
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T3_FISH_FRESHWATER_STEPPE_RARE",
+        "item_database_index": "169"
+      },
+      "tier": 3,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Lowriver Crab",
+        "DE-DE": "Uferkrabbe",
+        "FR-FR": "Crabe fouisseur",
+        "RU-RU": "Мелководный краб",
+        "PL-PL": "Krab Rzeczny",
+        "ES-ES": "Cangrejo de río abajo",
+        "PT-BR": "Caranguejo do Rio-baixo",
+        "IT-IT": "Granchio degli argini",
+        "ZH-CN": "浅水螃蟹",
+        "KO-KR": "로우리버 게",
+        "JA-JP": "ロウリバー・クラブ",
+        "ZH-TW": "淺川螃蟹",
+        "ID-ID": "Kepiting Hilir",
+        "TR-TR": "Sığnehir Yengeci",
+        "AR-SA": "سلطعون النهر المنخفض"
+      },
+      "localized_all_descriptions": {},
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T3_FISH_FRESHWATER_STEPPE_RARE",
+        "description_variable": "@ITEMS_FISH_FRESHWATER_STEPPE_RARE"
+      },
+      "origin": "Crafting/Fish/Fish_T3_FISH_FRESHWATER_STEPPE_RARE.json",
+      "descriptions": {
+        "description_en": "",
+        "description_ar": "",
+        "description_de": "",
+        "description_fr": "",
+        "description_es": "",
+        "description_ru": ""
+      },
+      "raw": {
+        "@uniquename": "T3_FISH_FRESHWATER_STEPPE_RARE",
+        "@itemvalue": "10",
+        "@fishingfame": "100",
+        "@fishingminigamesetting": "T3_Rare",
+        "@descriptionlocatag": "@ITEMS_FISH_FRESHWATER_STEPPE_RARE",
+        "@uisprite": "FISH_FRESHWATER_STEPPE_RARE",
+        "@nutrition": "10",
+        "@abilitypower": "100",
+        "@slottype": "food",
+        "@consumespell": "FOOD_FISH_BUFF_CASTSPEED_CDR_1_RAW",
+        "@shopcategory": "crafting",
+        "@shopsubcategory1": "fish",
+        "@resourcetype": "FISH",
+        "@tier": "3",
+        "@weight": "0.52",
+        "@dummyitempower": "300",
+        "@maxstacksize": "999",
+        "@unlockedtocraft": "true",
+        "@unlockedtoequip": "true",
+        "@uicraftsoundstart": "Play_ui_action_craft_potion_start",
+        "@uicraftsoundfinish": "Play_ui_action_craft_potion_finish",
+        "@shopsubcategory2": "rare",
+        "@shopsubcategory3": "fish_steppe"
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 1
+    },
+    {
+      "id": "T7_FISH_FRESHWATER_ALL_COMMON",
+      "index": "150",
+      "category": "Crafting_Fish",
+      "slot": "Resource",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": "10",
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T7_FISH_FRESHWATER_ALL_COMMON",
+        "item_database_index": "150"
+      },
+      "tier": 7,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Danglemouth Catfish",
+        "DE-DE": "Bartelwels",
+        "FR-FR": "Poisson-chat margoulin",
+        "RU-RU": "Мешкожаберный сом",
+        "PL-PL": "Sum Niskousty",
+        "ES-ES": "Pez gato bocudo",
+        "PT-BR": "Peixe-gato Bocudo",
+        "IT-IT": "Pesce gatto boccastorta",
+        "ZH-CN": "垂嘴鲶鱼",
+        "KO-KR": "달랑 입 메기",
+        "JA-JP": "ダングルマウスナマズ",
+        "ZH-TW": "垂吻鯰魚",
+        "ID-ID": "Lele Mulut Menjuntai",
+        "TR-TR": "Sarkıkağız Yayın Balığı",
+        "AR-SA": "سمكة سلور الفم المتدلي"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "A common Albion freshwater fish.",
+        "DE-DE": "Ein gewöhnlicher Süßwasserfisch Albions.",
+        "FR-FR": "Un poisson d'eau douce d'Albion commun.",
+        "RU-RU": "Распространенная в Альбионе пресноводная рыба.",
+        "PL-PL": "Pospolita ryba słodkowodna w Albionie.",
+        "ES-ES": "Un pescado común de las aguas dulces de Albion.",
+        "PT-BR": "Um peixe comum das águas doces de Albion.",
+        "IT-IT": "Un comune pesce d'acqua dolce di Albion.",
+        "ZH-CN": "一条普通的阿尔比恩淡水鱼。",
+        "KO-KR": "평범한 알비온의 민물고기",
+        "JA-JP": "アルビオンでは一般的な淡水魚。",
+        "ZH-TW": "一種普通的淡水魚，在阿爾比恩隨處可見。",
+        "ID-ID": "Ikan air tawar Albion biasa.",
+        "TR-TR": "Sıradan bir Albion tatlı su balığı.",
+        "AR-SA": "سمكة شائعة من مياه Albion العذبة."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T7_FISH_FRESHWATER_ALL_COMMON",
+        "description_variable": "@ITEMS_FISH_FRESHWATER_ALL_COMMON_DESC"
+      },
+      "origin": "Crafting/Fish/Fish_T7_FISH_FRESHWATER_ALL_COMMON.json",
+      "raw": {
+        "@uniquename": "T7_FISH_FRESHWATER_ALL_COMMON",
+        "@itemvalue": "10",
+        "@fishingfame": "100",
+        "@fishingminigamesetting": "T7",
+        "@descriptionlocatag": "@ITEMS_FISH_FRESHWATER_ALL_COMMON_DESC",
+        "@uisprite": "T7_FISH_FRESHWATER_ALL_COMMON",
+        "@nutrition": "10",
+        "@abilitypower": "100",
+        "@slottype": "food",
+        "@consumespell": "FOOD_FISH_FRESHWATER_7_RAW",
+        "@shopcategory": "crafting",
+        "@shopsubcategory1": "fish",
+        "@resourcetype": "FISH",
+        "@tier": "7",
+        "@weight": "0.52",
+        "@dummyitempower": "300",
+        "@maxstacksize": "999",
+        "@unlockedtocraft": "true",
+        "@unlockedtoequip": "true",
+        "@uicraftsoundstart": "Play_ui_action_craft_potion_start",
+        "@uicraftsoundfinish": "Play_ui_action_craft_potion_finish",
+        "@shopsubcategory2": "common",
+        "@shopsubcategory3": "freshwater"
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T1_FISH_FRESHWATER_ALL_COMMON",
+      "index": "144",
+      "category": "Crafting_Fish",
+      "slot": "Resource",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": "1",
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T1_FISH_FRESHWATER_ALL_COMMON",
+        "item_database_index": "144"
+      },
+      "tier": 1,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Common Rudd",
+        "DE-DE": "Unechtes Rotauge",
+        "FR-FR": "Gardon rouge",
+        "RU-RU": "Красноперка обыкновенная",
+        "PL-PL": "Krasnopiórka Pospolita",
+        "ES-ES": "Corvina común",
+        "PT-BR": "Corvina Comum",
+        "IT-IT": "Scardola comune",
+        "ZH-CN": "普通红眼鱼",
+        "KO-KR": "평범한 러드",
+        "JA-JP": "普通のラッド",
+        "ZH-TW": "普通紅眼魚",
+        "ID-ID": "Rud Biasa",
+        "TR-TR": "Sıradan Kızılkanat",
+        "AR-SA": "سمك رود شائع"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "A common Albion freshwater fish.",
+        "DE-DE": "Ein gewöhnlicher Süßwasserfisch Albions.",
+        "FR-FR": "Un poisson d'eau douce d'Albion commun.",
+        "RU-RU": "Распространенная в Альбионе пресноводная рыба.",
+        "PL-PL": "Pospolita ryba słodkowodna w Albionie.",
+        "ES-ES": "Un pescado común de las aguas dulces de Albion.",
+        "PT-BR": "Um peixe comum das águas doces de Albion.",
+        "IT-IT": "Un comune pesce d'acqua dolce di Albion.",
+        "ZH-CN": "一条普通的阿尔比恩淡水鱼。",
+        "KO-KR": "평범한 알비온의 민물고기",
+        "JA-JP": "アルビオンでは一般的な淡水魚。",
+        "ZH-TW": "一種普通的淡水魚，在阿爾比恩隨處可見。",
+        "ID-ID": "Ikan air tawar Albion biasa.",
+        "TR-TR": "Sıradan bir Albion tatlı su balığı.",
+        "AR-SA": "سمكة شائعة من مياه Albion العذبة."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T1_FISH_FRESHWATER_ALL_COMMON",
+        "description_variable": "@ITEMS_FISH_FRESHWATER_ALL_COMMON_DESC"
+      },
+      "origin": "Crafting/Fish/Fish_T1_FISH_FRESHWATER_ALL_COMMON.json",
+      "raw": {
+        "@uniquename": "T1_FISH_FRESHWATER_ALL_COMMON",
+        "@itemvalue": "1",
+        "@fishingfame": "10",
+        "@fishingminigamesetting": "T1",
+        "@descriptionlocatag": "@ITEMS_FISH_FRESHWATER_ALL_COMMON_DESC",
+        "@uisprite": "T1_FISH_FRESHWATER_ALL_COMMON",
+        "@nutrition": "1",
+        "@abilitypower": "100",
+        "@slottype": "food",
+        "@consumespell": "FOOD_FISH_FRESHWATER_1_RAW",
+        "@shopcategory": "crafting",
+        "@shopsubcategory1": "fish",
+        "@resourcetype": "FISH",
+        "@tier": "1",
+        "@weight": "0.05",
+        "@dummyitempower": "300",
+        "@maxstacksize": "999",
+        "@unlockedtocraft": "true",
+        "@unlockedtoequip": "true",
+        "@uicraftsoundstart": "Play_ui_action_craft_potion_start",
+        "@uicraftsoundfinish": "Play_ui_action_craft_potion_finish",
+        "@shopsubcategory2": "common",
+        "@shopsubcategory3": "freshwater"
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T5_FISH_FRESHWATER_SWAMP_RARE",
+      "index": "173",
+      "category": "Crafting_Fish",
+      "slot": "Resource",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": "20",
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T5_FISH_FRESHWATER_SWAMP_RARE",
+        "item_database_index": "173"
+      },
+      "tier": 5,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Murkwater Clam",
+        "DE-DE": "Brackwasser-Muschel",
+        "FR-FR": "Palourde vaseuse",
+        "RU-RU": "Грязевой моллюск",
+        "PL-PL": "Małż Mętnowodny",
+        "ES-ES": "Almeja de aguas turbias",
+        "PT-BR": "Mexilhão de Águas turvas",
+        "IT-IT": "Vongola d'acquitrino",
+        "ZH-CN": "暗水蛤蜊",
+        "KO-KR": "머크워터 조개",
+        "JA-JP": "マークウォータークラム",
+        "ZH-TW": "暗水蛤蜊",
+        "ID-ID": "Kerang Air Keruh",
+        "TR-TR": "Loşsu Midyesi",
+        "AR-SA": "محار المورك"
+      },
+      "localized_all_descriptions": {},
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T5_FISH_FRESHWATER_SWAMP_RARE",
+        "description_variable": "@ITEMS_FISH_FRESHWATER_SWAMP_RARE"
+      },
+      "origin": "Crafting/Fish/Fish_T5_FISH_FRESHWATER_SWAMP_RARE.json",
+      "descriptions": {
+        "description_en": "",
+        "description_ar": "",
+        "description_de": "",
+        "description_fr": "",
+        "description_es": "",
+        "description_ru": ""
+      },
+      "raw": {
+        "@uniquename": "T5_FISH_FRESHWATER_SWAMP_RARE",
+        "@itemvalue": "20",
+        "@fishingfame": "200",
+        "@fishingminigamesetting": "T5_Rare",
+        "@descriptionlocatag": "@ITEMS_FISH_FRESHWATER_SWAMP_RARE",
+        "@uisprite": "FISH_FRESHWATER_SWAMP_RARE",
+        "@nutrition": "20",
+        "@abilitypower": "100",
+        "@slottype": "food",
+        "@consumespell": "FOOD_FISH_HEALTH_REG_2_RAW",
+        "@shopcategory": "crafting",
+        "@shopsubcategory1": "fish",
+        "@resourcetype": "FISH",
+        "@tier": "5",
+        "@weight": "0.78",
+        "@dummyitempower": "300",
+        "@maxstacksize": "999",
+        "@unlockedtocraft": "true",
+        "@unlockedtoequip": "true",
+        "@uicraftsoundstart": "Play_ui_action_craft_potion_start",
+        "@uicraftsoundfinish": "Play_ui_action_craft_potion_finish",
+        "@shopsubcategory2": "rare",
+        "@shopsubcategory3": "fish_swamp"
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 1
+    },
+    {
+      "id": "T5_FISH_FRESHWATER_MOUNTAIN_RARE",
+      "index": "164",
+      "category": "Crafting_Fish",
+      "slot": "Resource",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": "20",
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T5_FISH_FRESHWATER_MOUNTAIN_RARE",
+        "item_database_index": "164"
+      },
+      "tier": 5,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Mountain Blindeye",
+        "DE-DE": "Blindauge",
+        "FR-FR": "Cavernicole montagneux",
+        "RU-RU": "Горная слепоглазка",
+        "PL-PL": "Pustook Górski",
+        "ES-ES": "Ojo muerto de las montañas",
+        "PT-BR": "Olhocego das Montanhas",
+        "IT-IT": "Occhiodiafano di montagna",
+        "ZH-CN": "山地盲眼鱼",
+        "KO-KR": "마운틴 블라인드아이",
+        "JA-JP": "マウンテンブラインドアイ",
+        "ZH-TW": "山脈盲眼魚",
+        "ID-ID": "Ikan Buta Pegunungan",
+        "TR-TR": "Dağ Körgözü",
+        "AR-SA": "جبل Blindeye"
+      },
+      "localized_all_descriptions": {},
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T5_FISH_FRESHWATER_MOUNTAIN_RARE",
+        "description_variable": "@ITEMS_FISH_FRESHWATER_MOUNTAIN_RARE"
+      },
+      "origin": "Crafting/Fish/Fish_T5_FISH_FRESHWATER_MOUNTAIN_RARE.json",
+      "descriptions": {
+        "description_en": "",
+        "description_ar": "",
+        "description_de": "",
+        "description_fr": "",
+        "description_es": "",
+        "description_ru": ""
+      },
+      "raw": {
+        "@uniquename": "T5_FISH_FRESHWATER_MOUNTAIN_RARE",
+        "@itemvalue": "20",
+        "@fishingfame": "200",
+        "@fishingminigamesetting": "T5_Rare",
+        "@descriptionlocatag": "@ITEMS_FISH_FRESHWATER_MOUNTAIN_RARE",
+        "@uisprite": "FISH_FRESHWATER_MOUNTAIN_RARE",
+        "@nutrition": "20",
+        "@abilitypower": "100",
+        "@slottype": "food",
+        "@consumespell": "FOOD_FISH_LOAD_GATHER_2_RAW",
+        "@shopcategory": "crafting",
+        "@shopsubcategory1": "fish",
+        "@resourcetype": "FISH",
+        "@tier": "5",
+        "@weight": "0.78",
+        "@dummyitempower": "300",
+        "@maxstacksize": "999",
+        "@unlockedtocraft": "true",
+        "@unlockedtoequip": "true",
+        "@uicraftsoundstart": "Play_ui_action_craft_potion_start",
+        "@uicraftsoundfinish": "Play_ui_action_craft_potion_finish",
+        "@shopsubcategory2": "rare",
+        "@shopsubcategory3": "fish_mountain"
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 1
+    },
+    {
+      "id": "T7_FISH_FRESHWATER_SWAMP_RARE",
+      "index": "174",
+      "category": "Crafting_Fish",
+      "slot": "Resource",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": "30",
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T7_FISH_FRESHWATER_SWAMP_RARE",
+        "item_database_index": "174"
+      },
+      "tier": 7,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Blackbog Clam",
+        "DE-DE": "Schwarzsumpf-Muschel",
+        "FR-FR": "Palourde noirebière",
+        "RU-RU": "Черноводный моллюск",
+        "PL-PL": "Małż Bagienny",
+        "ES-ES": "Almeja de pantano negro",
+        "PT-BR": "Mexilhão do Brejo",
+        "IT-IT": "Vongola torbanera",
+        "ZH-CN": "黑沼蛤蜊",
+        "KO-KR": "블랙보그 조개",
+        "JA-JP": "ブラックボグクラム",
+        "ZH-TW": "黑沼蛤蜊",
+        "ID-ID": "Kerang Rawa Hitam",
+        "TR-TR": "Karabataklık İstiridyesi",
+        "AR-SA": "محار بلاك بوغ"
+      },
+      "localized_all_descriptions": {},
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T7_FISH_FRESHWATER_SWAMP_RARE",
+        "description_variable": "@ITEMS_FISH_FRESHWATER_SWAMP_RARE"
+      },
+      "origin": "Crafting/Fish/Fish_T7_FISH_FRESHWATER_SWAMP_RARE.json",
+      "descriptions": {
+        "description_en": "",
+        "description_ar": "",
+        "description_de": "",
+        "description_fr": "",
+        "description_es": "",
+        "description_ru": ""
+      },
+      "raw": {
+        "@uniquename": "T7_FISH_FRESHWATER_SWAMP_RARE",
+        "@itemvalue": "30",
+        "@fishingfame": "300",
+        "@fishingminigamesetting": "T7_Rare",
+        "@descriptionlocatag": "@ITEMS_FISH_FRESHWATER_SWAMP_RARE",
+        "@uisprite": "FISH_FRESHWATER_SWAMP_RARE",
+        "@nutrition": "30",
+        "@abilitypower": "100",
+        "@slottype": "food",
+        "@consumespell": "FOOD_FISH_HEALTH_REG_3_RAW",
+        "@shopcategory": "crafting",
+        "@shopsubcategory1": "fish",
+        "@resourcetype": "FISH",
+        "@tier": "7",
+        "@weight": "1.04",
+        "@dummyitempower": "300",
+        "@maxstacksize": "999",
+        "@unlockedtocraft": "true",
+        "@unlockedtoequip": "true",
+        "@uicraftsoundstart": "Play_ui_action_craft_potion_start",
+        "@uicraftsoundfinish": "Play_ui_action_craft_potion_finish",
+        "@shopsubcategory2": "rare",
+        "@shopsubcategory3": "fish_swamp"
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 1
+    },
+    {
+      "id": "T5_FISH_FRESHWATER_STEPPE_RARE",
+      "index": "170",
+      "category": "Crafting_Fish",
+      "slot": "Resource",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": "20",
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T5_FISH_FRESHWATER_STEPPE_RARE",
+        "item_database_index": "170"
+      },
+      "tier": 5,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Drybrook Crab",
+        "DE-DE": "Bachkrabbe",
+        "FR-FR": "Crabe de rivière",
+        "RU-RU": "Сухопутный краб",
+        "PL-PL": "Krab Potokowy",
+        "ES-ES": "Cangrejo de río",
+        "PT-BR": "Caranguejo de Riacho",
+        "IT-IT": "Granchio delle secche",
+        "ZH-CN": "干流螃蟹",
+        "KO-KR": "드라이브룩 게",
+        "JA-JP": "ドライブルッククラブ",
+        "ZH-TW": "荒溪螃蟹",
+        "ID-ID": "Kepiting Sungai Kering",
+        "TR-TR": "Kurudere Yengeci",
+        "AR-SA": "سلطعون Drybrook"
+      },
+      "localized_all_descriptions": {},
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T5_FISH_FRESHWATER_STEPPE_RARE",
+        "description_variable": "@ITEMS_FISH_FRESHWATER_STEPPE_RARE"
+      },
+      "origin": "Crafting/Fish/Fish_T5_FISH_FRESHWATER_STEPPE_RARE.json",
+      "descriptions": {
+        "description_en": "",
+        "description_ar": "",
+        "description_de": "",
+        "description_fr": "",
+        "description_es": "",
+        "description_ru": ""
+      },
+      "raw": {
+        "@uniquename": "T5_FISH_FRESHWATER_STEPPE_RARE",
+        "@itemvalue": "20",
+        "@fishingfame": "200",
+        "@fishingminigamesetting": "T5_Rare",
+        "@descriptionlocatag": "@ITEMS_FISH_FRESHWATER_STEPPE_RARE",
+        "@uisprite": "FISH_FRESHWATER_STEPPE_RARE",
+        "@nutrition": "20",
+        "@abilitypower": "100",
+        "@slottype": "food",
+        "@consumespell": "FOOD_FISH_BUFF_CASTSPEED_CDR_2_RAW",
+        "@shopcategory": "crafting",
+        "@shopsubcategory1": "fish",
+        "@resourcetype": "FISH",
+        "@tier": "5",
+        "@weight": "0.78",
+        "@dummyitempower": "300",
+        "@maxstacksize": "999",
+        "@unlockedtocraft": "true",
+        "@unlockedtoequip": "true",
+        "@uicraftsoundstart": "Play_ui_action_craft_potion_start",
+        "@uicraftsoundfinish": "Play_ui_action_craft_potion_finish",
+        "@shopsubcategory2": "rare",
+        "@shopsubcategory3": "fish_steppe"
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 1
+    },
+    {
+      "id": "T3_FISH_SALTWATER_ALL_RARE",
+      "index": "175",
+      "category": "Crafting_Fish",
+      "slot": "Resource",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": "10",
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T3_FISH_SALTWATER_ALL_RARE",
+        "item_database_index": "175"
+      },
+      "tier": 3,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Shallowshore Squid",
+        "DE-DE": "Flachwasser-Tintenfisch",
+        "FR-FR": "Calamar des récifs",
+        "RU-RU": "Мелководный кальмар",
+        "PL-PL": "Kałamarnica Płyciznowa",
+        "ES-ES": "Calamar de aguas poco profundas",
+        "PT-BR": "Lula das Águas rasas",
+        "IT-IT": "Calamaro di costa",
+        "ZH-CN": "浅岸鱿鱼",
+        "KO-KR": "섈로쇼어 오징어",
+        "JA-JP": "スワローショア・イカ",
+        "ZH-TW": "淺岸魷魚",
+        "ID-ID": "Cumi-Cumi Laut Dangkal",
+        "TR-TR": "Sığsahil Kalamarı",
+        "AR-SA": "حبار المياه الضحلة"
+      },
+      "localized_all_descriptions": {},
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T3_FISH_SALTWATER_ALL_RARE",
+        "description_variable": "@ITEMS_FISH_SALTWATER_ALL_RARE"
+      },
+      "origin": "Crafting/Fish/Fish_T3_FISH_SALTWATER_ALL_RARE.json",
+      "descriptions": {
+        "description_en": "",
+        "description_ar": "",
+        "description_de": "",
+        "description_fr": "",
+        "description_es": "",
+        "description_ru": ""
+      },
+      "raw": {
+        "@uniquename": "T3_FISH_SALTWATER_ALL_RARE",
+        "@itemvalue": "10",
+        "@fishingfame": "100",
+        "@fishingminigamesetting": "T3_Rare",
+        "@descriptionlocatag": "@ITEMS_FISH_SALTWATER_ALL_RARE",
+        "@uisprite": "FISH_SALTWATER_ALL_RARE",
+        "@nutrition": "10",
+        "@abilitypower": "100",
+        "@slottype": "food",
+        "@consumespell": "FOOD_FISH_CRAFTING_1_RAW",
+        "@shopcategory": "crafting",
+        "@shopsubcategory1": "fish",
+        "@resourcetype": "FISH",
+        "@tier": "3",
+        "@weight": "0.52",
+        "@dummyitempower": "300",
+        "@maxstacksize": "999",
+        "@unlockedtocraft": "true",
+        "@unlockedtoequip": "true",
+        "@uicraftsoundstart": "Play_ui_action_craft_potion_start",
+        "@uicraftsoundfinish": "Play_ui_action_craft_potion_finish",
+        "@shopsubcategory2": "rare",
+        "@shopsubcategory3": "fish_saltwater"
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 1
+    },
+    {
+      "id": "T3_FISH_FRESHWATER_MOUNTAIN_RARE",
+      "index": "163",
+      "category": "Crafting_Fish",
+      "slot": "Resource",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": "10",
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T3_FISH_FRESHWATER_MOUNTAIN_RARE",
+        "item_database_index": "163"
+      },
+      "tier": 3,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Upland Coldeye",
+        "DE-DE": "Kaltauge",
+        "FR-FR": "Sar noirtête",
+        "RU-RU": "Синеглазка",
+        "PL-PL": "Zimnook Wyżynny",
+        "ES-ES": "Ojo muerto de las sierras",
+        "PT-BR": "Olhofrio das Serras",
+        "IT-IT": "Occhiotruce di montagna",
+        "ZH-CN": "山地冷眼鱼",
+        "KO-KR": "업랜드 콜드아이",
+        "JA-JP": "アップランド・コールドアイ",
+        "ZH-TW": "高地冷目魚",
+        "ID-ID": "Mata Dingin Dataran Tinggi",
+        "TR-TR": "Yayla Buzgözü",
+        "AR-SA": "كولداي المرتفعات"
+      },
+      "localized_all_descriptions": {},
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T3_FISH_FRESHWATER_MOUNTAIN_RARE",
+        "description_variable": "@ITEMS_FISH_FRESHWATER_MOUNTAIN_RARE"
+      },
+      "origin": "Crafting/Fish/Fish_T3_FISH_FRESHWATER_MOUNTAIN_RARE.json",
+      "descriptions": {
+        "description_en": "",
+        "description_ar": "",
+        "description_de": "",
+        "description_fr": "",
+        "description_es": "",
+        "description_ru": ""
+      },
+      "raw": {
+        "@uniquename": "T3_FISH_FRESHWATER_MOUNTAIN_RARE",
+        "@itemvalue": "10",
+        "@fishingfame": "100",
+        "@fishingminigamesetting": "T3_Rare",
+        "@descriptionlocatag": "@ITEMS_FISH_FRESHWATER_MOUNTAIN_RARE",
+        "@uisprite": "FISH_FRESHWATER_MOUNTAIN_RARE",
+        "@nutrition": "10",
+        "@abilitypower": "100",
+        "@slottype": "food",
+        "@consumespell": "FOOD_FISH_LOAD_GATHER_1_RAW",
+        "@shopcategory": "crafting",
+        "@shopsubcategory1": "fish",
+        "@resourcetype": "FISH",
+        "@tier": "3",
+        "@weight": "0.52",
+        "@dummyitempower": "300",
+        "@maxstacksize": "999",
+        "@unlockedtocraft": "true",
+        "@unlockedtoequip": "true",
+        "@uicraftsoundstart": "Play_ui_action_craft_potion_start",
+        "@uicraftsoundfinish": "Play_ui_action_craft_potion_finish",
+        "@shopsubcategory2": "rare",
+        "@shopsubcategory3": "fish_mountain"
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 1
+    },
+    {
+      "id": "T5_FISH_SALTWATER_ALL_COMMON",
+      "index": "156",
+      "category": "Crafting_Fish",
+      "slot": "Resource",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": "6",
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T5_FISH_SALTWATER_ALL_COMMON",
+        "item_database_index": "156"
+      },
+      "tier": 5,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Spotted Wolffish",
+        "DE-DE": "Gepunkteter Seewolf",
+        "FR-FR": "Poisson-loup tacheté",
+        "RU-RU": "Пятнистая зубатка",
+        "PL-PL": "Zębacz Plamisty",
+        "ES-ES": "Pez lobo pintado",
+        "PT-BR": "Peixe-lobo Pintado",
+        "IT-IT": "Pesce lupo maculato",
+        "ZH-CN": "斑点狼鱼",
+        "KO-KR": "점박이 늑대물고기",
+        "JA-JP": "スポッテドウルフフィッシュ",
+        "ZH-TW": "點紋狼魚",
+        "ID-ID": "Ikan Serigala Berbintik",
+        "TR-TR": "Benekli Kurt Balığı",
+        "AR-SA": "سمكة الذئب المرقطة"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "A common Albion ocean fish.",
+        "DE-DE": "Ein gewöhnlicher Salzwasserfisch Albions.",
+        "FR-FR": "Un poisson océanique commun d'Albion",
+        "RU-RU": "Распространенная в Альбионе морская рыба.",
+        "PL-PL": "Pospolita ryba oceaniczna w Albionie.",
+        "ES-ES": "Un pescado común de los océanos de Albion.",
+        "PT-BR": "Um peixe comum dos oceanos de Albion.",
+        "IT-IT": "Un comune pesce oceanico di Albion.",
+        "ZH-CN": "一条普通的阿尔比恩海鱼。",
+        "KO-KR": "평범한 알비온의 민물고기",
+        "JA-JP": "アルビオンでは一般的な海水魚。",
+        "ZH-TW": "一種普通的鹹水魚，在阿爾比恩隨處可見。",
+        "ID-ID": "Ikan laut Albion biasa.",
+        "TR-TR": "Sıradan bir Albion okyanus balığı.",
+        "AR-SA": "سمكة شائعة من محيط Albion."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T5_FISH_SALTWATER_ALL_COMMON",
+        "description_variable": "@ITEMS_FISH_SALTWATER_ALL_COMMON_DESC"
+      },
+      "origin": "Crafting/Fish/Fish_T5_FISH_SALTWATER_ALL_COMMON.json",
+      "raw": {
+        "@uniquename": "T5_FISH_SALTWATER_ALL_COMMON",
+        "@itemvalue": "6",
+        "@fishingfame": "60",
+        "@fishingminigamesetting": "T5",
+        "@descriptionlocatag": "@ITEMS_FISH_SALTWATER_ALL_COMMON_DESC",
+        "@uisprite": "T5_FISH_SALTWATER_ALL_COMMON",
+        "@nutrition": "6",
+        "@abilitypower": "100",
+        "@slottype": "food",
+        "@consumespell": "FOOD_FISH_SALTWATER_5_RAW",
+        "@shopcategory": "crafting",
+        "@shopsubcategory1": "fish",
+        "@resourcetype": "FISH",
+        "@tier": "5",
+        "@weight": "0.31",
+        "@dummyitempower": "300",
+        "@maxstacksize": "999",
+        "@unlockedtocraft": "true",
+        "@unlockedtoequip": "true",
+        "@uicraftsoundstart": "Play_ui_action_craft_potion_start",
+        "@uicraftsoundfinish": "Play_ui_action_craft_potion_finish",
+        "@shopsubcategory2": "common",
+        "@shopsubcategory3": "saltwater"
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T6_FISH_FRESHWATER_ALL_COMMON",
+      "index": "149",
+      "category": "Crafting_Fish",
+      "slot": "Resource",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": "8",
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T6_FISH_FRESHWATER_ALL_COMMON",
+        "item_database_index": "149"
+      },
+      "tier": 6,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Brightscale Zander",
+        "DE-DE": "Weißschuppenzander",
+        "FR-FR": "Sandre vif-éclat",
+        "RU-RU": "Яркоперый судак",
+        "PL-PL": "Sandacz Jasnołuski",
+        "ES-ES": "Lucio brillante",
+        "PT-BR": "Sander Brilhante",
+        "IT-IT": "Lucioperca scagliaviva",
+        "ZH-CN": "亮鳞梭鲈",
+        "KO-KR": "밝은 비늘 검은 송어",
+        "JA-JP": "ブライトスケールザンダー",
+        "ZH-TW": "明鱗梭鱸",
+        "ID-ID": "Zander Sisik Cerah",
+        "TR-TR": "Parlakpul Sudağı",
+        "AR-SA": "مقياس سطوع زاندر"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "A common Albion freshwater fish.",
+        "DE-DE": "Ein gewöhnlicher Süßwasserfisch Albions.",
+        "FR-FR": "Un poisson d'eau douce d'Albion commun.",
+        "RU-RU": "Распространенная в Альбионе пресноводная рыба.",
+        "PL-PL": "Pospolita ryba słodkowodna w Albionie.",
+        "ES-ES": "Un pescado común de las aguas dulces de Albion.",
+        "PT-BR": "Um peixe comum das águas doces de Albion.",
+        "IT-IT": "Un comune pesce d'acqua dolce di Albion.",
+        "ZH-CN": "一条普通的阿尔比恩淡水鱼。",
+        "KO-KR": "평범한 알비온의 민물고기",
+        "JA-JP": "アルビオンでは一般的な淡水魚。",
+        "ZH-TW": "一種普通的淡水魚，在阿爾比恩隨處可見。",
+        "ID-ID": "Ikan air tawar Albion biasa.",
+        "TR-TR": "Sıradan bir Albion tatlı su balığı.",
+        "AR-SA": "سمكة شائعة من مياه Albion العذبة."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T6_FISH_FRESHWATER_ALL_COMMON",
+        "description_variable": "@ITEMS_FISH_FRESHWATER_ALL_COMMON_DESC"
+      },
+      "origin": "Crafting/Fish/Fish_T6_FISH_FRESHWATER_ALL_COMMON.json",
+      "raw": {
+        "@uniquename": "T6_FISH_FRESHWATER_ALL_COMMON",
+        "@itemvalue": "8",
+        "@fishingfame": "80",
+        "@fishingminigamesetting": "T5",
+        "@descriptionlocatag": "@ITEMS_FISH_FRESHWATER_ALL_COMMON_DESC",
+        "@uisprite": "T6_FISH_FRESHWATER_ALL_COMMON",
+        "@nutrition": "8",
+        "@abilitypower": "100",
+        "@slottype": "food",
+        "@consumespell": "FOOD_FISH_FRESHWATER_6_RAW",
+        "@shopcategory": "crafting",
+        "@shopsubcategory1": "fish",
+        "@resourcetype": "FISH",
+        "@tier": "6",
+        "@weight": "0.41",
+        "@dummyitempower": "300",
+        "@maxstacksize": "999",
+        "@unlockedtocraft": "true",
+        "@unlockedtoequip": "true",
+        "@uicraftsoundstart": "Play_ui_action_craft_potion_start",
+        "@uicraftsoundfinish": "Play_ui_action_craft_potion_finish",
+        "@shopsubcategory2": "common",
+        "@shopsubcategory3": "freshwater"
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T3_FISH_FRESHWATER_DRAGON_AREA_RARE",
+      "index": "181",
+      "category": "Crafting_Fish",
+      "slot": "Resource",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": "10",
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T3_FISH_FRESHWATER_DRAGON_AREA_RARE",
+        "item_database_index": "181"
+      },
+      "tier": 3,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Carefree Leyfin",
+        "DE-DE": "Unbekümmerte Leyflosse",
+        "FR-FR": "Tellurfin Serein",
+        "RU-RU": "Беззаботный лейфин",
+        "PL-PL": "Beztroska Liniopłetwa",
+        "ES-ES": "Leyaleta Serena",
+        "PT-BR": "Leybatana Mansa",
+        "IT-IT": "Pinnarcana Spensierata",
+        "ZH-CN": "无忧灵芬鱼",
+        "KO-KR": "자유로운 레이핀",
+        "JA-JP": "ケアフリー・レイフィン",
+        "ZH-TW": "悠然靈芬魚",
+        "ID-ID": "Leyfin Bebas",
+        "TR-TR": "Gamsız Ley Balığı",
+        "AR-SA": "ليفين المدهشة"
+      },
+      "localized_all_descriptions": {},
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T3_FISH_FRESHWATER_DRAGON_AREA_RARE",
+        "description_variable": "@ITEMS_FISH_FRESHWATER_DRAGON_AREA_RARE"
+      },
+      "origin": "Crafting/Fish/Fish_T3_FISH_FRESHWATER_DRAGON_AREA_RARE.json",
+      "descriptions": {
+        "description_en": "",
+        "description_ar": "",
+        "description_de": "",
+        "description_fr": "",
+        "description_es": "",
+        "description_ru": ""
+      },
+      "raw": {
+        "@uniquename": "T3_FISH_FRESHWATER_DRAGON_AREA_RARE",
+        "@itemvalue": "10",
+        "@fishingfame": "100",
+        "@fishingminigamesetting": "T3_Rare",
+        "@descriptionlocatag": "@ITEMS_FISH_FRESHWATER_DRAGON_AREA_RARE",
+        "@uisprite": "FISH_FRESHWATER_DRAGON_AREA_RARE",
+        "@nutrition": "10",
+        "@abilitypower": "100",
+        "@slottype": "food",
+        "@consumespell": "FOOD_FISH_BUFF_HEALBONUS_1_RAW",
+        "@shopcategory": "crafting",
+        "@shopsubcategory1": "fish",
+        "@resourcetype": "FISH",
+        "@tier": "3",
+        "@weight": "0.52",
+        "@dummyitempower": "300",
+        "@maxstacksize": "999",
+        "@unlockedtocraft": "true",
+        "@unlockedtoequip": "true",
+        "@uicraftsoundstart": "Play_ui_action_craft_potion_start",
+        "@uicraftsoundfinish": "Play_ui_action_craft_potion_finish",
+        "@shopsubcategory2": "rare",
+        "@shopsubcategory3": "fish_avalon"
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 1
+    },
+    {
+      "id": "T1_FISH_SALTWATER_ALL_COMMON",
+      "index": "152",
+      "category": "Crafting_Fish",
+      "slot": "Resource",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": "1",
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T1_FISH_SALTWATER_ALL_COMMON",
+        "item_database_index": "152"
+      },
+      "tier": 1,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Common Herring",
+        "DE-DE": "Gewöhnlicher Hering",
+        "FR-FR": "Hareng commun",
+        "RU-RU": "Сельдь обыкновенная",
+        "PL-PL": "Śledź Pospolity",
+        "ES-ES": "Arenque común",
+        "PT-BR": "Arenque Comum",
+        "IT-IT": "Aringa comune",
+        "ZH-CN": "普通鲱鱼",
+        "KO-KR": "일반 청어",
+        "JA-JP": "普通のニシン",
+        "ZH-TW": "普通鯡魚",
+        "ID-ID": "Haring Biasa",
+        "TR-TR": "Sıradan Ringa",
+        "AR-SA": "سمك رنجة شائع"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "A common Albion ocean fish.",
+        "DE-DE": "Ein gewöhnlicher Salzwasserfisch Albions.",
+        "FR-FR": "Un poisson océanique commun d'Albion",
+        "RU-RU": "Распространенная в Альбионе морская рыба.",
+        "PL-PL": "Pospolita ryba oceaniczna w Albionie.",
+        "ES-ES": "Un pescado común de los océanos de Albion.",
+        "PT-BR": "Um peixe comum dos oceanos de Albion.",
+        "IT-IT": "Un comune pesce oceanico di Albion.",
+        "ZH-CN": "一条普通的阿尔比恩海鱼。",
+        "KO-KR": "평범한 알비온의 민물고기",
+        "JA-JP": "アルビオンでは一般的な海水魚。",
+        "ZH-TW": "一種普通的鹹水魚，在阿爾比恩隨處可見。",
+        "ID-ID": "Ikan laut Albion biasa.",
+        "TR-TR": "Sıradan bir Albion okyanus balığı.",
+        "AR-SA": "سمكة شائعة من محيط Albion."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T1_FISH_SALTWATER_ALL_COMMON",
+        "description_variable": "@ITEMS_FISH_SALTWATER_ALL_COMMON_DESC"
+      },
+      "origin": "Crafting/Fish/Fish_T1_FISH_SALTWATER_ALL_COMMON.json",
+      "raw": {
+        "@uniquename": "T1_FISH_SALTWATER_ALL_COMMON",
+        "@itemvalue": "1",
+        "@fishingfame": "10",
+        "@fishingminigamesetting": "T1",
+        "@descriptionlocatag": "@ITEMS_FISH_SALTWATER_ALL_COMMON_DESC",
+        "@uisprite": "T1_FISH_SALTWATER_ALL_COMMON",
+        "@nutrition": "1",
+        "@abilitypower": "100",
+        "@slottype": "food",
+        "@consumespell": "FOOD_FISH_SALTWATER_1_RAW",
+        "@shopcategory": "crafting",
+        "@shopsubcategory1": "fish",
+        "@resourcetype": "FISH",
+        "@tier": "1",
+        "@weight": "0.05",
+        "@dummyitempower": "300",
+        "@maxstacksize": "999",
+        "@unlockedtocraft": "true",
+        "@unlockedtoequip": "true",
+        "@uicraftsoundstart": "Play_ui_action_craft_potion_start",
+        "@uicraftsoundfinish": "Play_ui_action_craft_potion_finish",
+        "@shopsubcategory2": "common",
+        "@shopsubcategory3": "saltwater"
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T1_FISHSAUCE_LEVEL3",
+      "index": "189",
+      "category": "Crafting_Fish",
+      "slot": "Resource",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": "0",
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": {
+        "primary_resource": "T1_FISHCHOPS",
+        "primary_count": 135,
+        "secondary_resource": "T1_SEAWEED",
+        "secondary_count": 9,
+        "resources": [
+          {
+            "id": "T1_FISHCHOPS",
+            "count": 135
+          },
+          {
+            "id": "T1_SEAWEED",
+            "count": 9
+          }
+        ]
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T1_FISHSAUCE_LEVEL3",
+        "item_database_index": "189"
+      },
+      "tier": 1,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Special Fish Sauce",
+        "DE-DE": "Spezielle Fischsauce",
+        "FR-FR": "Sauce de poisson spéciale",
+        "RU-RU": "Особый рыбный соус",
+        "PL-PL": "Specjalny Sos Rybny",
+        "ES-ES": "Salsa de pescado especial",
+        "PT-BR": "Molho de Peixe Especial",
+        "IT-IT": "Salsa di pesce speciale",
+        "ZH-CN": "特殊鱼酱",
+        "KO-KR": "특별한 피시 소스",
+        "JA-JP": "特製の魚醤",
+        "ZH-TW": "獨門魚醬",
+        "ID-ID": "Saus Ikan Istimewa",
+        "TR-TR": "Özel Balık Sosu",
+        "AR-SA": "صلصلة سمك مميزة"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "While cooking, add this sauce to any meal for greatly enhanced flavor!",
+        "DE-DE": "Nur ein klein wenig beim Kochen zugeben, für eine deutliche Verbesserung des Geschmacks!",
+        "FR-FR": "En cuisinant, utilisez cette sauce pour rajouter du goût à tous vos plats !",
+        "RU-RU": "Добавьте этот соус в процессе приготовления любой еды для значительного улучшения вкуса!",
+        "PL-PL": "Dodaj ten sos podczas gotowania dowolnego dania, aby znacznie poprawić jego smak!",
+        "ES-ES": "¡Mientras cocinas, añade esta salsa a cualquier comida para aumentar aún más el sabor!",
+        "PT-BR": "Enquanto cozinha, adicione esse molho a qualquer refeição para aumentar ainda mais o sabor!",
+        "IT-IT": "Mentre cucini, aggiungila a qualsiasi pietanza per esaltarne il sapore!",
+        "ZH-CN": "烹饪任何食物时加一点这种酱料都可以大大提升风味！",
+        "KO-KR": "요리 시 이 소스를 추가하면 음식의 맛이 크게 향상됩니다!",
+        "JA-JP": "調理中にこのソースを加えれば、どんな料理も素晴らしい風味になります！",
+        "ZH-TW": "烹煮任何料理時，加入這個醬料都能大幅增添風味！",
+        "ID-ID": "Saat memasak, tambahkan saus ini ke makanan apa pun untuk meningkatkan cita rasa!",
+        "TR-TR": "Yemek hazırlarken yemeğin lezzetine lezzet katmak için bu sosu kullan!",
+        "AR-SA": "في أثناء الطبخ، يمكنك إضافة هذه الصلصة إلى أي وجبة من أجل نكهة أطيب كثيرًا!"
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T1_FISHSAUCE_LEVEL3",
+        "description_variable": "@ITEMS_FISHSAUCE_DESC"
+      },
+      "origin": "Crafting/Fish/Fish_T1_FISHSAUCE_LEVEL3.json",
+      "raw": {
+        "@uniquename": "T1_FISHSAUCE_LEVEL3",
+        "@descriptionlocatag": "@ITEMS_FISHSAUCE_DESC",
+        "@uisprite": "FISHSAUCE_MAGIC",
+        "@shopcategory": "crafting",
+        "@shopsubcategory1": "fish",
+        "@tier": "1",
+        "@resourcetype": "TOKEN",
+        "@weight": "2",
+        "@maxstacksize": "999",
+        "@unlockedtocraft": "true",
+        "@enchantmentlevel": "0",
+        "@itemvalue": "0",
+        "@shopsubcategory2": "other",
+        "craftingrequirements": {
+          "@time": "0.02",
+          "craftresource": [
+            {
+              "@uniquename": "T1_FISHCHOPS",
+              "@count": "135"
+            },
+            {
+              "@uniquename": "T1_SEAWEED",
+              "@count": "9"
+            }
+          ]
+        }
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T7_FISH_SALTWATER_ALL_RARE",
+      "index": "177",
+      "category": "Crafting_Fish",
+      "slot": "Resource",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": "30",
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T7_FISH_SALTWATER_ALL_RARE",
+        "item_database_index": "177"
+      },
+      "tier": 7,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Deepwater Kraken",
+        "DE-DE": "Tiefseekalmar",
+        "FR-FR": "Kraken des profondeurs",
+        "RU-RU": "Глубинный кракен",
+        "PL-PL": "Kraken Głębinowy",
+        "ES-ES": "Kraken de agua profunda",
+        "PT-BR": "Kraken das Águas profundas",
+        "IT-IT": "Kraken abissale",
+        "ZH-CN": "深海巨妖",
+        "KO-KR": "딥워터 크라켄",
+        "JA-JP": "ディープウォータークラーケン",
+        "ZH-TW": "深水海怪",
+        "ID-ID": "Kraken Laut Dalam",
+        "TR-TR": "Derinsu Krakeni",
+        "AR-SA": "كراكن المياه العميقة"
+      },
+      "localized_all_descriptions": {},
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T7_FISH_SALTWATER_ALL_RARE",
+        "description_variable": "@ITEMS_FISH_SALTWATER_ALL_RARE"
+      },
+      "origin": "Crafting/Fish/Fish_T7_FISH_SALTWATER_ALL_RARE.json",
+      "descriptions": {
+        "description_en": "",
+        "description_ar": "",
+        "description_de": "",
+        "description_fr": "",
+        "description_es": "",
+        "description_ru": ""
+      },
+      "raw": {
+        "@uniquename": "T7_FISH_SALTWATER_ALL_RARE",
+        "@itemvalue": "30",
+        "@fishingfame": "300",
+        "@fishingminigamesetting": "T7_Rare",
+        "@descriptionlocatag": "@ITEMS_FISH_SALTWATER_ALL_RARE",
+        "@uisprite": "FISH_SALTWATER_ALL_RARE",
+        "@nutrition": "30",
+        "@abilitypower": "100",
+        "@slottype": "food",
+        "@consumespell": "FOOD_FISH_CRAFTING_3_RAW",
+        "@shopcategory": "crafting",
+        "@shopsubcategory1": "fish",
+        "@resourcetype": "FISH",
+        "@tier": "7",
+        "@weight": "1.04",
+        "@dummyitempower": "300",
+        "@maxstacksize": "999",
+        "@unlockedtocraft": "true",
+        "@unlockedtoequip": "true",
+        "@uicraftsoundstart": "Play_ui_action_craft_potion_start",
+        "@uicraftsoundfinish": "Play_ui_action_craft_potion_finish",
+        "@shopsubcategory2": "rare",
+        "@shopsubcategory3": "fish_saltwater"
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 1
+    },
+    {
+      "id": "T4_FISH_FRESHWATER_ALL_COMMON",
+      "index": "147",
+      "category": "Crafting_Fish",
+      "slot": "Resource",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": "4",
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T4_FISH_FRESHWATER_ALL_COMMON",
+        "item_database_index": "147"
+      },
+      "tier": 4,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Bluescale Pike",
+        "DE-DE": "Blauschuppenhecht",
+        "FR-FR": "Broche écaille-bleue",
+        "RU-RU": "Голубая щука",
+        "PL-PL": "Szczupak Niebieskołuski",
+        "ES-ES": "Pique azul",
+        "PT-BR": "Pique Azul",
+        "IT-IT": "Luccio squamazzurra",
+        "ZH-CN": "蓝鳞梭鱼",
+        "KO-KR": "푸른 비늘 강꼬치고기",
+        "JA-JP": "ブルースケールパイク",
+        "ZH-TW": "藍鱗狗魚",
+        "ID-ID": "Cucut Sisik Biru",
+        "TR-TR": "Mavi Pullu Turna Balığı",
+        "AR-SA": "سمك الكراكي الأخضر"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "A common Albion freshwater fish.",
+        "DE-DE": "Ein gewöhnlicher Süßwasserfisch Albions.",
+        "FR-FR": "Un poisson d'eau douce d'Albion commun.",
+        "RU-RU": "Распространенная в Альбионе пресноводная рыба.",
+        "PL-PL": "Pospolita ryba słodkowodna w Albionie.",
+        "ES-ES": "Un pescado común de las aguas dulces de Albion.",
+        "PT-BR": "Um peixe comum das águas doces de Albion.",
+        "IT-IT": "Un comune pesce d'acqua dolce di Albion.",
+        "ZH-CN": "一条普通的阿尔比恩淡水鱼。",
+        "KO-KR": "평범한 알비온의 민물고기",
+        "JA-JP": "アルビオンでは一般的な淡水魚。",
+        "ZH-TW": "一種普通的淡水魚，在阿爾比恩隨處可見。",
+        "ID-ID": "Ikan air tawar Albion biasa.",
+        "TR-TR": "Sıradan bir Albion tatlı su balığı.",
+        "AR-SA": "سمكة شائعة من مياه Albion العذبة."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T4_FISH_FRESHWATER_ALL_COMMON",
+        "description_variable": "@ITEMS_FISH_FRESHWATER_ALL_COMMON_DESC"
+      },
+      "origin": "Crafting/Fish/Fish_T4_FISH_FRESHWATER_ALL_COMMON.json",
+      "raw": {
+        "@uniquename": "T4_FISH_FRESHWATER_ALL_COMMON",
+        "@itemvalue": "4",
+        "@fishingfame": "40",
+        "@fishingminigamesetting": "T3",
+        "@descriptionlocatag": "@ITEMS_FISH_FRESHWATER_ALL_COMMON_DESC",
+        "@uisprite": "T4_FISH_FRESHWATER_ALL_COMMON",
+        "@nutrition": "4",
+        "@abilitypower": "100",
+        "@slottype": "food",
+        "@consumespell": "FOOD_FISH_FRESHWATER_4_RAW",
+        "@shopcategory": "crafting",
+        "@shopsubcategory1": "fish",
+        "@resourcetype": "FISH",
+        "@tier": "4",
+        "@weight": "0.21",
+        "@dummyitempower": "300",
+        "@maxstacksize": "999",
+        "@unlockedtocraft": "true",
+        "@unlockedtoequip": "true",
+        "@uicraftsoundstart": "Play_ui_action_craft_potion_start",
+        "@uicraftsoundfinish": "Play_ui_action_craft_potion_finish",
+        "@shopsubcategory2": "common",
+        "@shopsubcategory3": "freshwater"
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T3_FISH_FRESHWATER_ALL_COMMON",
+      "index": "146",
+      "category": "Crafting_Fish",
+      "slot": "Resource",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": "3",
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T3_FISH_FRESHWATER_ALL_COMMON",
+        "item_database_index": "146"
+      },
+      "tier": 3,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Albion Perch",
+        "DE-DE": "Albionbarsch",
+        "FR-FR": "Perche d'Albion",
+        "RU-RU": "Альбионский окунь",
+        "PL-PL": "Pospolity Okoń",
+        "ES-ES": "Perca de Albion",
+        "PT-BR": "Perca de Albion",
+        "IT-IT": "Persico di Albion",
+        "ZH-CN": "阿尔比恩河鲈",
+        "KO-KR": "알비온 농어",
+        "JA-JP": "アルビオン・パーチ",
+        "ZH-TW": "阿爾比恩鱸魚",
+        "ID-ID": "Kakap Putih Albion",
+        "TR-TR": "Albion Levreği",
+        "AR-SA": "سمك فرخ Albion"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "A common Albion freshwater fish.",
+        "DE-DE": "Ein gewöhnlicher Süßwasserfisch Albions.",
+        "FR-FR": "Un poisson d'eau douce d'Albion commun.",
+        "RU-RU": "Распространенная в Альбионе пресноводная рыба.",
+        "PL-PL": "Pospolita ryba słodkowodna w Albionie.",
+        "ES-ES": "Un pescado común de las aguas dulces de Albion.",
+        "PT-BR": "Um peixe comum das águas doces de Albion.",
+        "IT-IT": "Un comune pesce d'acqua dolce di Albion.",
+        "ZH-CN": "一条普通的阿尔比恩淡水鱼。",
+        "KO-KR": "평범한 알비온의 민물고기",
+        "JA-JP": "アルビオンでは一般的な淡水魚。",
+        "ZH-TW": "一種普通的淡水魚，在阿爾比恩隨處可見。",
+        "ID-ID": "Ikan air tawar Albion biasa.",
+        "TR-TR": "Sıradan bir Albion tatlı su balığı.",
+        "AR-SA": "سمكة شائعة من مياه Albion العذبة."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T3_FISH_FRESHWATER_ALL_COMMON",
+        "description_variable": "@ITEMS_FISH_FRESHWATER_ALL_COMMON_DESC"
+      },
+      "origin": "Crafting/Fish/Fish_T3_FISH_FRESHWATER_ALL_COMMON.json",
+      "raw": {
+        "@uniquename": "T3_FISH_FRESHWATER_ALL_COMMON",
+        "@itemvalue": "3",
+        "@fishingfame": "30",
+        "@fishingminigamesetting": "T3",
+        "@descriptionlocatag": "@ITEMS_FISH_FRESHWATER_ALL_COMMON_DESC",
+        "@uisprite": "T3_FISH_FRESHWATER_ALL_COMMON",
+        "@nutrition": "3",
+        "@abilitypower": "100",
+        "@slottype": "food",
+        "@consumespell": "FOOD_FISH_FRESHWATER_3_RAW",
+        "@shopcategory": "crafting",
+        "@shopsubcategory1": "fish",
+        "@resourcetype": "FISH",
+        "@tier": "3",
+        "@weight": "0.16",
+        "@dummyitempower": "300",
+        "@maxstacksize": "999",
+        "@unlockedtocraft": "true",
+        "@unlockedtoequip": "true",
+        "@uicraftsoundstart": "Play_ui_action_craft_potion_start",
+        "@uicraftsoundfinish": "Play_ui_action_craft_potion_finish",
+        "@shopsubcategory2": "common",
+        "@shopsubcategory3": "freshwater"
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T8_FISH_SALTWATER_ALL_COMMON",
+      "index": "159",
+      "category": "Crafting_Fish",
+      "slot": "Resource",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": "14",
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T8_FISH_SALTWATER_ALL_COMMON",
+        "item_database_index": "159"
+      },
+      "tier": 8,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Steelscale Swordfish",
+        "DE-DE": "Stahlschuppenschwertfisch",
+        "FR-FR": "Espadon aciécailles",
+        "RU-RU": "Меч-рыба",
+        "PL-PL": "Włócznik Twardołuski",
+        "ES-ES": "Pez espada de acero",
+        "PT-BR": "Peixe-espada de Aço",
+        "IT-IT": "Pescespada scagliacciaio",
+        "ZH-CN": "钢鳞剑鱼",
+        "KO-KR": "철 비늘 황새치",
+        "JA-JP": "スチールスケールソードフィッシュ",
+        "ZH-TW": "鋼鱗劍魚",
+        "ID-ID": "Todak Sisik Besi",
+        "TR-TR": "Çelikpullu Kılıç Balığı",
+        "AR-SA": "سمكة أبو سيف فولاذية"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "A common Albion ocean fish.",
+        "DE-DE": "Ein gewöhnlicher Salzwasserfisch Albions.",
+        "FR-FR": "Un poisson océanique commun d'Albion",
+        "RU-RU": "Распространенная в Альбионе морская рыба.",
+        "PL-PL": "Pospolita ryba oceaniczna w Albionie.",
+        "ES-ES": "Un pescado común de los océanos de Albion.",
+        "PT-BR": "Um peixe comum dos oceanos de Albion.",
+        "IT-IT": "Un comune pesce oceanico di Albion.",
+        "ZH-CN": "一条普通的阿尔比恩海鱼。",
+        "KO-KR": "평범한 알비온의 민물고기",
+        "JA-JP": "アルビオンでは一般的な海水魚。",
+        "ZH-TW": "一種普通的鹹水魚，在阿爾比恩隨處可見。",
+        "ID-ID": "Ikan laut Albion biasa.",
+        "TR-TR": "Sıradan bir Albion okyanus balığı.",
+        "AR-SA": "سمكة شائعة من محيط Albion."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T8_FISH_SALTWATER_ALL_COMMON",
+        "description_variable": "@ITEMS_FISH_SALTWATER_ALL_COMMON_DESC"
+      },
+      "origin": "Crafting/Fish/Fish_T8_FISH_SALTWATER_ALL_COMMON.json",
+      "raw": {
+        "@uniquename": "T8_FISH_SALTWATER_ALL_COMMON",
+        "@itemvalue": "14",
+        "@fishingfame": "140",
+        "@fishingminigamesetting": "T7",
+        "@descriptionlocatag": "@ITEMS_FISH_SALTWATER_ALL_COMMON_DESC",
+        "@uisprite": "T8_FISH_SALTWATER_ALL_COMMON",
+        "@nutrition": "14",
+        "@abilitypower": "100",
+        "@slottype": "food",
+        "@consumespell": "FOOD_FISH_SALTWATER_8_RAW",
+        "@shopcategory": "crafting",
+        "@shopsubcategory1": "fish",
+        "@resourcetype": "FISH",
+        "@tier": "8",
+        "@weight": "0.73",
+        "@dummyitempower": "300",
+        "@maxstacksize": "999",
+        "@unlockedtocraft": "true",
+        "@unlockedtoequip": "true",
+        "@uicraftsoundstart": "Play_ui_action_craft_potion_start",
+        "@uicraftsoundfinish": "Play_ui_action_craft_potion_finish",
+        "@shopsubcategory2": "common",
+        "@shopsubcategory3": "saltwater"
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T5_FISH_SALTWATER_ALL_RARE",
+      "index": "176",
+      "category": "Crafting_Fish",
+      "slot": "Resource",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": "20",
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T5_FISH_SALTWATER_ALL_RARE",
+        "item_database_index": "176"
+      },
+      "tier": 5,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Midwater Octopus",
+        "DE-DE": "Meeresoktopus",
+        "FR-FR": "Petite pieuvre",
+        "RU-RU": "Срединный осьминог",
+        "PL-PL": "Ośmiornica Śródoceaniczna",
+        "ES-ES": "Pulpo de aguas medias",
+        "PT-BR": "Polvo das Águas médias",
+        "IT-IT": "Polpo pelagico",
+        "ZH-CN": "中层水域章鱼",
+        "KO-KR": "미드워터 문어",
+        "JA-JP": "ミッドウォーターオクトパス",
+        "ZH-TW": "中水章魚",
+        "ID-ID": "Gurita Tengah Laut",
+        "TR-TR": "Ortasu Ahtapotu",
+        "AR-SA": "أخطبوط المياه المتوسطة"
+      },
+      "localized_all_descriptions": {},
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T5_FISH_SALTWATER_ALL_RARE",
+        "description_variable": "@ITEMS_FISH_SALTWATER_ALL_RARE"
+      },
+      "origin": "Crafting/Fish/Fish_T5_FISH_SALTWATER_ALL_RARE.json",
+      "descriptions": {
+        "description_en": "",
+        "description_ar": "",
+        "description_de": "",
+        "description_fr": "",
+        "description_es": "",
+        "description_ru": ""
+      },
+      "raw": {
+        "@uniquename": "T5_FISH_SALTWATER_ALL_RARE",
+        "@itemvalue": "20",
+        "@fishingfame": "200",
+        "@fishingminigamesetting": "T5_Rare",
+        "@descriptionlocatag": "@ITEMS_FISH_SALTWATER_ALL_RARE",
+        "@uisprite": "FISH_SALTWATER_ALL_RARE",
+        "@nutrition": "20",
+        "@abilitypower": "100",
+        "@slottype": "food",
+        "@consumespell": "FOOD_FISH_CRAFTING_2_RAW",
+        "@shopcategory": "crafting",
+        "@shopsubcategory1": "fish",
+        "@resourcetype": "FISH",
+        "@tier": "5",
+        "@weight": "0.78",
+        "@dummyitempower": "300",
+        "@maxstacksize": "999",
+        "@unlockedtocraft": "true",
+        "@unlockedtoequip": "true",
+        "@uicraftsoundstart": "Play_ui_action_craft_potion_start",
+        "@uicraftsoundfinish": "Play_ui_action_craft_potion_finish",
+        "@shopsubcategory2": "rare",
+        "@shopsubcategory3": "fish_saltwater"
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 1
+    },
+    {
+      "id": "T5_FISH_FRESHWATER_AVALON_RARE",
+      "index": "179",
+      "category": "Crafting_Fish",
+      "slot": "Resource",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": "20",
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T5_FISH_FRESHWATER_AVALON_RARE",
+        "item_database_index": "179"
+      },
+      "tier": 5,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Clearhaze Snapper",
+        "DE-DE": "Klardunst Schnapper",
+        "FR-FR": "Lutjan clairebrumasse",
+        "RU-RU": "Мглистый окунь",
+        "PL-PL": "Lucjan Jasnomglisty",
+        "ES-ES": "Pargo de niebla ligera",
+        "PT-BR": "Pargo Névoa-clara",
+        "IT-IT": "Dentice chiarofosco",
+        "ZH-CN": "清雾鲷鱼",
+        "KO-KR": "클리어해이즈 스내퍼",
+        "JA-JP": "クリアヘイズスナッパー",
+        "ZH-TW": "清霧鯛魚",
+        "ID-ID": "Kakap Kabut Bening",
+        "TR-TR": "Berrakpus Levreği",
+        "AR-SA": "سمك نهاش Clearhaze"
+      },
+      "localized_all_descriptions": {},
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T5_FISH_FRESHWATER_AVALON_RARE",
+        "description_variable": "@ITEMS_FISH_FRESHWATER_AVALON_RARE"
+      },
+      "origin": "Crafting/Fish/Fish_T5_FISH_FRESHWATER_AVALON_RARE.json",
+      "descriptions": {
+        "description_en": "",
+        "description_ar": "",
+        "description_de": "",
+        "description_fr": "",
+        "description_es": "",
+        "description_ru": ""
+      },
+      "raw": {
+        "@uniquename": "T5_FISH_FRESHWATER_AVALON_RARE",
+        "@itemvalue": "20",
+        "@fishingfame": "200",
+        "@fishingminigamesetting": "T5_Rare",
+        "@descriptionlocatag": "@ITEMS_FISH_FRESHWATER_AVALON_RARE",
+        "@uisprite": "FISH_FRESHWATER_AVALON_RARE",
+        "@nutrition": "20",
+        "@abilitypower": "100",
+        "@slottype": "food",
+        "@consumespell": "FOOD_FISH_BUFF_LIFESTEAL_2_RAW",
+        "@shopcategory": "crafting",
+        "@shopsubcategory1": "fish",
+        "@resourcetype": "FISH",
+        "@tier": "5",
+        "@weight": "0.78",
+        "@dummyitempower": "300",
+        "@maxstacksize": "999",
+        "@unlockedtocraft": "true",
+        "@unlockedtoequip": "true",
+        "@uicraftsoundstart": "Play_ui_action_craft_potion_start",
+        "@uicraftsoundfinish": "Play_ui_action_craft_potion_finish",
+        "@shopsubcategory2": "rare",
+        "@shopsubcategory3": "fish_avalon"
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 1
+    }
+  ]
+}

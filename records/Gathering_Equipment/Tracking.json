@@ -1,0 +1,768 @@
+{
+  "version": 1,
+  "item_count": 6,
+  "items": [
+    {
+      "id": "T3_2H_TOOL_TRACKING",
+      "index": "2",
+      "category": "Gathering_Tracking",
+      "slot": "MainHand",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": {
+        "primary_resource": "T3_LEATHER",
+        "primary_count": 6,
+        "secondary_resource": "T3_PLANKS",
+        "secondary_count": 2,
+        "resources": [
+          {
+            "id": "T3_LEATHER",
+            "count": 6
+          },
+          {
+            "id": "T3_PLANKS",
+            "count": 2
+          }
+        ]
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T3_2H_TOOL_TRACKING",
+        "item_database_index": "2"
+      },
+      "tier": 3,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Journeyman's Tracking Toolkit",
+        "DE-DE": "Fährtensucher-Ausrüstung des Gesellen",
+        "FR-FR": "Boîte à outils de pistage du compagnon",
+        "RU-RU": "Инструменты следопыта (странник)",
+        "PL-PL": "Zestaw Tropiciela Czeladnika",
+        "ES-ES": "Kit de rastreo del obrero",
+        "PT-BR": "Kit de Rastreamento do Iniciante",
+        "IT-IT": "Kit di strumenti traccianti dell'apprendista",
+        "ZH-CN": "学徒级追踪工具包",
+        "KO-KR": "장인의 추적 키트",
+        "JA-JP": "追跡ツールキット（熟練）",
+        "ZH-TW": "學徒級追蹤工具組",
+        "ID-ID": "Peralatan Pelacakan Pengembara",
+        "TR-TR": "Kalfa İz Sürme Alet Seti",
+        "AR-SA": "أدوات تتبع الموثوق"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Use this tool to search for tracks in the open world.",
+        "DE-DE": "Nutze dieses Werkzeug, um in der Open World nach Fährten zu suchen.",
+        "FR-FR": "Utilisez cet outil pour rechercher des pistes dans le monde ouvert.",
+        "RU-RU": "Используйте этот инструмент для поиска следов в открытом мире.",
+        "PL-PL": "Użyj tego narzędzia do poszukiwania tropów w otwartym świecie.",
+        "ES-ES": "Utiliza esta herramienta para buscar rastros en el mundo abierto.",
+        "PT-BR": "Use esta ferramenta para procurar por pistas no mundo aberto.",
+        "IT-IT": "Usa questo strumento per cercare tracce nel mondo aperto.",
+        "ZH-CN": "使用这个工具在开放世界中搜寻足迹。",
+        "KO-KR": "오픈 월드에서 흔적을 찾으려면, 해당 도구를 사용하세요.",
+        "JA-JP": "このツールを使って、オープンワールドの追跡を検索する。",
+        "ZH-TW": "使用這個工具在開放世界中搜尋足跡。",
+        "ID-ID": "Gunakan alat ini untuk mencari jejak di dunia terbuka.",
+        "TR-TR": "Açık dünyada iz sürmek için kullanılır.",
+        "AR-SA": "يمكنك استخدام هذه الأداة للبحث عن الآثار في العالم المفتوح."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T3_2H_TOOL_TRACKING",
+        "description_variable": "@ITEMS_T3_2H_TOOL_TRACKING_DESC"
+      },
+      "origin": "Gathering_Equipment/Tracking/Tracking_T3_2H_TOOL_TRACKING.json",
+      "raw": {
+        "@uniquename": "T3_2H_TOOL_TRACKING",
+        "@uisprite": "TOOL_TRACKING",
+        "@findtrackspell": "T3_FIND_TRACK",
+        "@trackingtimereduction": "0.11",
+        "@trackingfamebonus": "0",
+        "@durability": "1200",
+        "@itempower": "500",
+        "@durabilityloss_inspecttrack": "16",
+        "@durabilityloss_findtrack": "17",
+        "@tier": "3",
+        "@craftingcategory": "tools",
+        "@maxstacksize": "999",
+        "@weight": "1.13",
+        "@shopcategory": "gathering",
+        "@shopsubcategory1": "tracking",
+        "@uicraftsoundstart": "Play_ui_action_craft_tool_start",
+        "@uicraftsoundfinish": "Play_ui_action_craft_tool_finish",
+        "@slottype": "mainhand",
+        "@passivespellslots": "0",
+        "@activespellslots": "0",
+        "@descriptionlocatag": "@ITEMS_T3_2H_TOOL_TRACKING_DESC",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@abilitypower": "100",
+        "@canbeovercharged": "false",
+        "@shopsubcategory2": "toolkit",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "0.25",
+          "@craftingfocus": "245",
+          "craftresource": [
+            {
+              "@uniquename": "T3_PLANKS",
+              "@count": "2"
+            },
+            {
+              "@uniquename": "T3_LEATHER",
+              "@count": "6"
+            }
+          ]
+        }
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T8_2H_TOOL_TRACKING",
+      "index": "7",
+      "category": "Gathering_Tracking",
+      "slot": "MainHand",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": {
+        "primary_resource": "T8_LEATHER",
+        "primary_count": 6,
+        "secondary_resource": "T8_PLANKS",
+        "secondary_count": 2,
+        "resources": [
+          {
+            "id": "T8_LEATHER",
+            "count": 6
+          },
+          {
+            "id": "T8_PLANKS",
+            "count": 2
+          }
+        ]
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T8_2H_TOOL_TRACKING",
+        "item_database_index": "7"
+      },
+      "tier": 8,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Elder's Tracking Toolkit",
+        "DE-DE": "Fährtensucher-Ausrüstung des Ältesten",
+        "FR-FR": "Boîte à outils de pistage du sage",
+        "RU-RU": "Инструменты следопыта (старейшина)",
+        "PL-PL": "Zestaw Tropiciela Starszego",
+        "ES-ES": "Kit de rastreo del anciano",
+        "PT-BR": "Kit de Rastreamento do Ancião",
+        "IT-IT": "Kit di strumenti traccianti dell'anziano",
+        "ZH-CN": "禅师级追踪工具包",
+        "KO-KR": "장로의 추적 키트",
+        "JA-JP": "追跡ツールキット（老熟）",
+        "ZH-TW": "禪師級追蹤工具組",
+        "ID-ID": "Peralatan Pelacakan Tetua",
+        "TR-TR": "Yüce İz Sürme Alet Seti",
+        "AR-SA": "أدوات تتبع الحكيم"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Use this tool to search for tracks in the open world.",
+        "DE-DE": "Nutze dieses Werkzeug, um in der Open World nach Fährten zu suchen.",
+        "FR-FR": "Utilisez cet outil pour rechercher des pistes dans le monde ouvert.",
+        "RU-RU": "Используйте этот инструмент для поиска следов в открытом мире.",
+        "PL-PL": "Użyj tego narzędzia do poszukiwania tropów w otwartym świecie.",
+        "ES-ES": "Utiliza esta herramienta para buscar rastros en el mundo abierto.",
+        "PT-BR": "Use esta ferramenta para procurar por pistas no mundo aberto.",
+        "IT-IT": "Usa questo strumento per cercare tracce nel mondo aperto.",
+        "ZH-CN": "使用这个工具在开放世界中搜寻足迹。",
+        "KO-KR": "오픈 월드에서 흔적을 찾으려면, 해당 도구를 사용하세요.",
+        "JA-JP": "このツールを使って、オープンワールドの追跡を検索する。",
+        "ZH-TW": "使用這個工具在開放世界中搜尋足跡。",
+        "ID-ID": "Gunakan alat ini untuk mencari jejak di dunia terbuka.",
+        "TR-TR": "Açık dünyada iz sürmek için kullanılır.",
+        "AR-SA": "يمكنك استخدام هذه الأداة للبحث عن الآثار في العالم المفتوح."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T8_2H_TOOL_TRACKING",
+        "description_variable": "@ITEMS_T3_2H_TOOL_TRACKING_DESC"
+      },
+      "origin": "Gathering_Equipment/Tracking/Tracking_T8_2H_TOOL_TRACKING.json",
+      "raw": {
+        "@uniquename": "T8_2H_TOOL_TRACKING",
+        "@uisprite": "TOOL_TRACKING",
+        "@findtrackspell": "T8_FIND_TRACK",
+        "@trackingtimereduction": "0.11",
+        "@trackingfamebonus": "0.30",
+        "@durability": "50800",
+        "@itempower": "1100",
+        "@durabilityloss_inspecttrack": "16",
+        "@durabilityloss_findtrack": "51",
+        "@tier": "8",
+        "@craftingcategory": "tools",
+        "@maxstacksize": "999",
+        "@weight": "8.54",
+        "@shopcategory": "gathering",
+        "@shopsubcategory1": "tracking",
+        "@uicraftsoundstart": "Play_ui_action_craft_tool_start",
+        "@uicraftsoundfinish": "Play_ui_action_craft_tool_finish",
+        "@slottype": "mainhand",
+        "@passivespellslots": "0",
+        "@activespellslots": "0",
+        "@descriptionlocatag": "@ITEMS_T3_2H_TOOL_TRACKING_DESC",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@abilitypower": "100",
+        "@canbeovercharged": "false",
+        "@shopsubcategory2": "toolkit",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "1.25",
+          "@craftingfocus": "4021",
+          "craftresource": [
+            {
+              "@uniquename": "T8_PLANKS",
+              "@count": "2"
+            },
+            {
+              "@uniquename": "T8_LEATHER",
+              "@count": "6"
+            }
+          ]
+        }
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T4_2H_TOOL_TRACKING",
+      "index": "3",
+      "category": "Gathering_Tracking",
+      "slot": "MainHand",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": {
+        "primary_resource": "T4_LEATHER",
+        "primary_count": 6,
+        "secondary_resource": "T4_PLANKS",
+        "secondary_count": 2,
+        "resources": [
+          {
+            "id": "T4_LEATHER",
+            "count": 6
+          },
+          {
+            "id": "T4_PLANKS",
+            "count": 2
+          }
+        ]
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T4_2H_TOOL_TRACKING",
+        "item_database_index": "3"
+      },
+      "tier": 4,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Adept's Tracking Toolkit",
+        "DE-DE": "Fährtensucher-Ausrüstung des Adepten",
+        "FR-FR": "Boîte à outils de pistage de l'adepte",
+        "RU-RU": "Инструменты следопыта (знаток)",
+        "PL-PL": "Zestaw Tropiciela Adepta",
+        "ES-ES": "Kit de rastreo del iniciado",
+        "PT-BR": "Kit de Rastreamento do Adepto",
+        "IT-IT": "Kit di strumenti traccianti del sapiente",
+        "ZH-CN": "老手级追踪工具包",
+        "KO-KR": "숙련자의 추적 키트",
+        "JA-JP": "追跡ツールキット（名人）",
+        "ZH-TW": "老手級追蹤工具組",
+        "ID-ID": "Peralatan Pelacakan Mahir",
+        "TR-TR": "Ehil İz Sürme Alet Seti",
+        "AR-SA": "أدوات تتبع البارع"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Use this tool to search for tracks in the open world.",
+        "DE-DE": "Nutze dieses Werkzeug, um in der Open World nach Fährten zu suchen.",
+        "FR-FR": "Utilisez cet outil pour rechercher des pistes dans le monde ouvert.",
+        "RU-RU": "Используйте этот инструмент для поиска следов в открытом мире.",
+        "PL-PL": "Użyj tego narzędzia do poszukiwania tropów w otwartym świecie.",
+        "ES-ES": "Utiliza esta herramienta para buscar rastros en el mundo abierto.",
+        "PT-BR": "Use esta ferramenta para procurar por pistas no mundo aberto.",
+        "IT-IT": "Usa questo strumento per cercare tracce nel mondo aperto.",
+        "ZH-CN": "使用这个工具在开放世界中搜寻足迹。",
+        "KO-KR": "오픈 월드에서 흔적을 찾으려면, 해당 도구를 사용하세요.",
+        "JA-JP": "このツールを使って、オープンワールドの追跡を検索する。",
+        "ZH-TW": "使用這個工具在開放世界中搜尋足跡。",
+        "ID-ID": "Gunakan alat ini untuk mencari jejak di dunia terbuka.",
+        "TR-TR": "Açık dünyada iz sürmek için kullanılır.",
+        "AR-SA": "يمكنك استخدام هذه الأداة للبحث عن الآثار في العالم المفتوح."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T4_2H_TOOL_TRACKING",
+        "description_variable": "@ITEMS_T3_2H_TOOL_TRACKING_DESC"
+      },
+      "origin": "Gathering_Equipment/Tracking/Tracking_T4_2H_TOOL_TRACKING.json",
+      "raw": {
+        "@uniquename": "T4_2H_TOOL_TRACKING",
+        "@uisprite": "TOOL_TRACKING",
+        "@findtrackspell": "T4_FIND_TRACK",
+        "@trackingtimereduction": "0.11",
+        "@trackingfamebonus": "0.05",
+        "@durability": "2800",
+        "@itempower": "700",
+        "@durabilityloss_inspecttrack": "16",
+        "@durabilityloss_findtrack": "23",
+        "@tier": "4",
+        "@craftingcategory": "tools",
+        "@maxstacksize": "999",
+        "@weight": "1.69",
+        "@shopcategory": "gathering",
+        "@shopsubcategory1": "tracking",
+        "@uicraftsoundstart": "Play_ui_action_craft_tool_start",
+        "@uicraftsoundfinish": "Play_ui_action_craft_tool_finish",
+        "@slottype": "mainhand",
+        "@passivespellslots": "0",
+        "@activespellslots": "0",
+        "@descriptionlocatag": "@ITEMS_T3_2H_TOOL_TRACKING_DESC",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@abilitypower": "100",
+        "@canbeovercharged": "false",
+        "@shopsubcategory2": "toolkit",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "0.33333",
+          "@craftingfocus": "429",
+          "craftresource": [
+            {
+              "@uniquename": "T4_PLANKS",
+              "@count": "2"
+            },
+            {
+              "@uniquename": "T4_LEATHER",
+              "@count": "6"
+            }
+          ]
+        }
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T6_2H_TOOL_TRACKING",
+      "index": "5",
+      "category": "Gathering_Tracking",
+      "slot": "MainHand",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": {
+        "primary_resource": "T6_LEATHER",
+        "primary_count": 6,
+        "secondary_resource": "T6_PLANKS",
+        "secondary_count": 2,
+        "resources": [
+          {
+            "id": "T6_LEATHER",
+            "count": 6
+          },
+          {
+            "id": "T6_PLANKS",
+            "count": 2
+          }
+        ]
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T6_2H_TOOL_TRACKING",
+        "item_database_index": "5"
+      },
+      "tier": 6,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Master's Tracking Toolkit",
+        "DE-DE": "Fährtensucher-Ausrüstung des Meisters",
+        "FR-FR": "Boîte à outils de pistage du maître",
+        "RU-RU": "Инструменты следопыта (мастер)",
+        "PL-PL": "Zestaw Tropiciela Mistrza",
+        "ES-ES": "Kit de rastreo del maestro",
+        "PT-BR": "Kit de Rastreamento do Mestre",
+        "IT-IT": "Kit di strumenti traccianti del maestro",
+        "ZH-CN": "大师级追踪工具包",
+        "KO-KR": "마스터의 추적 키트",
+        "JA-JP": "追跡ツールキット（マスター）",
+        "ZH-TW": "大師級追蹤工具組",
+        "ID-ID": "Peralatan Pelacakan Master",
+        "TR-TR": "Usta İz Sürme Alet Seti",
+        "AR-SA": "أدوات تتبع الخبير"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Use this tool to search for tracks in the open world.",
+        "DE-DE": "Nutze dieses Werkzeug, um in der Open World nach Fährten zu suchen.",
+        "FR-FR": "Utilisez cet outil pour rechercher des pistes dans le monde ouvert.",
+        "RU-RU": "Используйте этот инструмент для поиска следов в открытом мире.",
+        "PL-PL": "Użyj tego narzędzia do poszukiwania tropów w otwartym świecie.",
+        "ES-ES": "Utiliza esta herramienta para buscar rastros en el mundo abierto.",
+        "PT-BR": "Use esta ferramenta para procurar por pistas no mundo aberto.",
+        "IT-IT": "Usa questo strumento per cercare tracce nel mondo aperto.",
+        "ZH-CN": "使用这个工具在开放世界中搜寻足迹。",
+        "KO-KR": "오픈 월드에서 흔적을 찾으려면, 해당 도구를 사용하세요.",
+        "JA-JP": "このツールを使って、オープンワールドの追跡を検索する。",
+        "ZH-TW": "使用這個工具在開放世界中搜尋足跡。",
+        "ID-ID": "Gunakan alat ini untuk mencari jejak di dunia terbuka.",
+        "TR-TR": "Açık dünyada iz sürmek için kullanılır.",
+        "AR-SA": "يمكنك استخدام هذه الأداة للبحث عن الآثار في العالم المفتوح."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T6_2H_TOOL_TRACKING",
+        "description_variable": "@ITEMS_T3_2H_TOOL_TRACKING_DESC"
+      },
+      "origin": "Gathering_Equipment/Tracking/Tracking_T6_2H_TOOL_TRACKING.json",
+      "raw": {
+        "@uniquename": "T6_2H_TOOL_TRACKING",
+        "@uisprite": "TOOL_TRACKING",
+        "@findtrackspell": "T6_FIND_TRACK",
+        "@trackingtimereduction": "0.11",
+        "@trackingfamebonus": "0.15",
+        "@durability": "12400",
+        "@itempower": "900",
+        "@durabilityloss_inspecttrack": "16",
+        "@durabilityloss_findtrack": "36",
+        "@tier": "6",
+        "@craftingcategory": "tools",
+        "@maxstacksize": "999",
+        "@weight": "3.8",
+        "@shopcategory": "gathering",
+        "@shopsubcategory1": "tracking",
+        "@uicraftsoundstart": "Play_ui_action_craft_tool_start",
+        "@uicraftsoundfinish": "Play_ui_action_craft_tool_finish",
+        "@slottype": "mainhand",
+        "@passivespellslots": "0",
+        "@activespellslots": "0",
+        "@descriptionlocatag": "@ITEMS_T3_2H_TOOL_TRACKING_DESC",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@abilitypower": "100",
+        "@canbeovercharged": "false",
+        "@shopsubcategory2": "toolkit",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "0.66667",
+          "@craftingfocus": "1313",
+          "craftresource": [
+            {
+              "@uniquename": "T6_PLANKS",
+              "@count": "2"
+            },
+            {
+              "@uniquename": "T6_LEATHER",
+              "@count": "6"
+            }
+          ]
+        }
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T5_2H_TOOL_TRACKING",
+      "index": "4",
+      "category": "Gathering_Tracking",
+      "slot": "MainHand",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": {
+        "primary_resource": "T5_LEATHER",
+        "primary_count": 6,
+        "secondary_resource": "T5_PLANKS",
+        "secondary_count": 2,
+        "resources": [
+          {
+            "id": "T5_LEATHER",
+            "count": 6
+          },
+          {
+            "id": "T5_PLANKS",
+            "count": 2
+          }
+        ]
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T5_2H_TOOL_TRACKING",
+        "item_database_index": "4"
+      },
+      "tier": 5,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Expert's Tracking Toolkit",
+        "DE-DE": "Fährtensucher-Ausrüstung des Experten",
+        "FR-FR": "Boîte à outils de pistage de l'expert",
+        "RU-RU": "Инструменты следопыта (эксперт)",
+        "PL-PL": "Zestaw Tropiciela Znawcy",
+        "ES-ES": "Kit de rastreo del experto",
+        "PT-BR": "Kit de Rastreamento do Perito",
+        "IT-IT": "Kit di strumenti traccianti dell'esperto",
+        "ZH-CN": "专家级追踪工具包",
+        "KO-KR": "전문가의 추적 키트",
+        "JA-JP": "追跡ツールキット（達人）",
+        "ZH-TW": "專家級追蹤工具組",
+        "ID-ID": "Peralatan Pelacakan Ahli",
+        "TR-TR": "Uzman İz Sürme Alet Seti",
+        "AR-SA": "أدوات تتبع للأخصائي"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Use this tool to search for tracks in the open world.",
+        "DE-DE": "Nutze dieses Werkzeug, um in der Open World nach Fährten zu suchen.",
+        "FR-FR": "Utilisez cet outil pour rechercher des pistes dans le monde ouvert.",
+        "RU-RU": "Используйте этот инструмент для поиска следов в открытом мире.",
+        "PL-PL": "Użyj tego narzędzia do poszukiwania tropów w otwartym świecie.",
+        "ES-ES": "Utiliza esta herramienta para buscar rastros en el mundo abierto.",
+        "PT-BR": "Use esta ferramenta para procurar por pistas no mundo aberto.",
+        "IT-IT": "Usa questo strumento per cercare tracce nel mondo aperto.",
+        "ZH-CN": "使用这个工具在开放世界中搜寻足迹。",
+        "KO-KR": "오픈 월드에서 흔적을 찾으려면, 해당 도구를 사용하세요.",
+        "JA-JP": "このツールを使って、オープンワールドの追跡を検索する。",
+        "ZH-TW": "使用這個工具在開放世界中搜尋足跡。",
+        "ID-ID": "Gunakan alat ini untuk mencari jejak di dunia terbuka.",
+        "TR-TR": "Açık dünyada iz sürmek için kullanılır.",
+        "AR-SA": "يمكنك استخدام هذه الأداة للبحث عن الآثار في العالم المفتوح."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T5_2H_TOOL_TRACKING",
+        "description_variable": "@ITEMS_T3_2H_TOOL_TRACKING_DESC"
+      },
+      "origin": "Gathering_Equipment/Tracking/Tracking_T5_2H_TOOL_TRACKING.json",
+      "raw": {
+        "@uniquename": "T5_2H_TOOL_TRACKING",
+        "@uisprite": "TOOL_TRACKING",
+        "@findtrackspell": "T5_FIND_TRACK",
+        "@trackingtimereduction": "0.11",
+        "@trackingfamebonus": "0.10",
+        "@durability": "6000",
+        "@itempower": "800",
+        "@durabilityloss_inspecttrack": "16",
+        "@durabilityloss_findtrack": "29",
+        "@tier": "5",
+        "@craftingcategory": "tools",
+        "@maxstacksize": "999",
+        "@weight": "2.53",
+        "@shopcategory": "gathering",
+        "@shopsubcategory1": "tracking",
+        "@uicraftsoundstart": "Play_ui_action_craft_tool_start",
+        "@uicraftsoundfinish": "Play_ui_action_craft_tool_finish",
+        "@slottype": "mainhand",
+        "@passivespellslots": "0",
+        "@activespellslots": "0",
+        "@descriptionlocatag": "@ITEMS_T3_2H_TOOL_TRACKING_DESC",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@abilitypower": "100",
+        "@canbeovercharged": "false",
+        "@shopsubcategory2": "toolkit",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "0.5",
+          "@craftingfocus": "750",
+          "craftresource": [
+            {
+              "@uniquename": "T5_PLANKS",
+              "@count": "2"
+            },
+            {
+              "@uniquename": "T5_LEATHER",
+              "@count": "6"
+            }
+          ]
+        }
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T7_2H_TOOL_TRACKING",
+      "index": "6",
+      "category": "Gathering_Tracking",
+      "slot": "MainHand",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": {
+        "primary_resource": "T7_LEATHER",
+        "primary_count": 6,
+        "secondary_resource": "T7_PLANKS",
+        "secondary_count": 2,
+        "resources": [
+          {
+            "id": "T7_LEATHER",
+            "count": 6
+          },
+          {
+            "id": "T7_PLANKS",
+            "count": 2
+          }
+        ]
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T7_2H_TOOL_TRACKING",
+        "item_database_index": "6"
+      },
+      "tier": 7,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Grandmaster's Tracking Toolkit",
+        "DE-DE": "Fährtensucher-Ausrüstung des Großmeisters",
+        "FR-FR": "Boîte à outils de pistage du grand maître",
+        "RU-RU": "Инструменты следопыта (магистр)",
+        "PL-PL": "Zestaw Tropiciela Wszechmistrzów",
+        "ES-ES": "Kit de rastreo del gran maestro",
+        "PT-BR": "Kit de Rastreamento do Grão-mestre",
+        "IT-IT": "Kit di strumenti traccianti del gran maestro",
+        "ZH-CN": "宗师级追踪工具包",
+        "KO-KR": "그랜드 마스터의 추적 키트",
+        "JA-JP": "追跡ツールキット（グランドマスター）",
+        "ZH-TW": "宗師級追蹤工具組",
+        "ID-ID": "Peralatan Pelacakan Grandmaster",
+        "TR-TR": "Büyük Usta İz Sürme Alet Seti",
+        "AR-SA": "أدوات تتبع للأستاذ"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Use this tool to search for tracks in the open world.",
+        "DE-DE": "Nutze dieses Werkzeug, um in der Open World nach Fährten zu suchen.",
+        "FR-FR": "Utilisez cet outil pour rechercher des pistes dans le monde ouvert.",
+        "RU-RU": "Используйте этот инструмент для поиска следов в открытом мире.",
+        "PL-PL": "Użyj tego narzędzia do poszukiwania tropów w otwartym świecie.",
+        "ES-ES": "Utiliza esta herramienta para buscar rastros en el mundo abierto.",
+        "PT-BR": "Use esta ferramenta para procurar por pistas no mundo aberto.",
+        "IT-IT": "Usa questo strumento per cercare tracce nel mondo aperto.",
+        "ZH-CN": "使用这个工具在开放世界中搜寻足迹。",
+        "KO-KR": "오픈 월드에서 흔적을 찾으려면, 해당 도구를 사용하세요.",
+        "JA-JP": "このツールを使って、オープンワールドの追跡を検索する。",
+        "ZH-TW": "使用這個工具在開放世界中搜尋足跡。",
+        "ID-ID": "Gunakan alat ini untuk mencari jejak di dunia terbuka.",
+        "TR-TR": "Açık dünyada iz sürmek için kullanılır.",
+        "AR-SA": "يمكنك استخدام هذه الأداة للبحث عن الآثار في العالم المفتوح."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T7_2H_TOOL_TRACKING",
+        "description_variable": "@ITEMS_T3_2H_TOOL_TRACKING_DESC"
+      },
+      "origin": "Gathering_Equipment/Tracking/Tracking_T7_2H_TOOL_TRACKING.json",
+      "raw": {
+        "@uniquename": "T7_2H_TOOL_TRACKING",
+        "@uisprite": "TOOL_TRACKING",
+        "@findtrackspell": "T7_FIND_TRACK",
+        "@trackingtimereduction": "0.11",
+        "@trackingfamebonus": "0.20",
+        "@durability": "25200",
+        "@itempower": "1000",
+        "@durabilityloss_inspecttrack": "16",
+        "@durabilityloss_findtrack": "43",
+        "@tier": "7",
+        "@craftingcategory": "tools",
+        "@maxstacksize": "999",
+        "@weight": "5.7",
+        "@shopcategory": "gathering",
+        "@shopsubcategory1": "tracking",
+        "@uicraftsoundstart": "Play_ui_action_craft_tool_start",
+        "@uicraftsoundfinish": "Play_ui_action_craft_tool_finish",
+        "@slottype": "mainhand",
+        "@passivespellslots": "0",
+        "@activespellslots": "0",
+        "@descriptionlocatag": "@ITEMS_T3_2H_TOOL_TRACKING_DESC",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@abilitypower": "100",
+        "@canbeovercharged": "false",
+        "@shopsubcategory2": "toolkit",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "0.83333",
+          "@craftingfocus": "2298",
+          "craftresource": [
+            {
+              "@uniquename": "T7_PLANKS",
+              "@count": "2"
+            },
+            {
+              "@uniquename": "T7_LEATHER",
+              "@count": "6"
+            }
+          ]
+        }
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    }
+  ]
+}

@@ -1,0 +1,3121 @@
+{
+  "version": 1,
+  "item_count": 30,
+  "items": [
+    {
+      "id": "T7_RELIC",
+      "index": "2031",
+      "category": "Artifact_Artifact_Fragments",
+      "slot": "Artifact",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": {
+        "primary_resource": "T6_RELIC",
+        "primary_count": 5,
+        "secondary_resource": "",
+        "secondary_count": 0,
+        "resources": [
+          {
+            "id": "T6_RELIC",
+            "count": 5
+          }
+        ]
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T7_RELIC",
+        "item_database_index": "2031"
+      },
+      "tier": 7,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Grandmaster's Relic",
+        "DE-DE": "Relikt des Großmeisters",
+        "FR-FR": "Relique du grand maître",
+        "RU-RU": "Реликт (магистр)",
+        "PL-PL": "Relikwia Wszechmistrza",
+        "ES-ES": "Reliquia del gran maestro",
+        "PT-BR": "Relíquia do Grão-mestre",
+        "IT-IT": "Reliquia del gran maestro",
+        "ZH-CN": "宗师级古遗物",
+        "KO-KR": "그랜드 마스터의 유물",
+        "JA-JP": "レリック（グランドマスター）",
+        "ZH-TW": "宗師級聖物",
+        "ID-ID": "Relik Grandmaster",
+        "TR-TR": "Büyük Usta Yadigârı",
+        "AR-SA": "أثر الأستاذ"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "An ancient relic, used to meld artifacts and enchant equipment.",
+        "DE-DE": "Ein uraltes Relikt, wird beim Verschmelzen von Artefakten und Verzaubern von Ausrüstung verwendet.",
+        "FR-FR": "Une ancienne relique, utilisée pour fusionner des artefacts et enchanter de l'équipement.",
+        "RU-RU": "Древний реликт, используемый для создания артефактов и зачарования экипировки.",
+        "PL-PL": "Starożytna relikwia używana podczas łączenia artefaktów i zaklinania ekwipunku.",
+        "ES-ES": "Una reliquia antigua, utilizada para fusionar artefactos y encantar equipos.",
+        "PT-BR": "Relíquia antiga usada para fundir artefatos e encantar equipamentos.",
+        "IT-IT": "Antica reliquia usata per fondere manufatti e incantare equipaggiamenti.",
+        "ZH-CN": "一件古代遗物，可以用于神器熔铸和装备附魔。",
+        "KO-KR": "고대의 유물로, 아티팩트 혼합 또는 장비 인챈트에 사용됩니다.",
+        "JA-JP": "古代のレリック。アーティファクトの合成や、装備のエンチャントに使用可能です。",
+        "ZH-TW": "一件古代聖物，可用於鎔鑄神器和附魔裝備。",
+        "ID-ID": "Sebuah relik kuno, digunakan untuk menggabungkan artefak memberi enchantment pada perlengkapan.",
+        "TR-TR": "Eser birleştirmede ve ekipman efsunlamada kullanılan kadim bir yadigâr.",
+        "AR-SA": "أثر قديم، يُستخدم لصهر القطع الأثرية وسحر المعدات."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T7_RELIC",
+        "description_variable": "@ITEMS_T7_RELIC_DESC"
+      },
+      "origin": "Artifact/Artifact_Fragments/Artifact_Fragments_T7_RELIC.json",
+      "raw": {
+        "@uniquename": "T7_RELIC",
+        "@tier": "7",
+        "@weight": "0.5",
+        "@maxstacksize": "999",
+        "@resourcetype": "RELIC",
+        "@shopcategory": "artefacts",
+        "@shopsubcategory1": "fragments",
+        "@uisprite": "RELIC_MANIPULATION",
+        "@unlockedtocraft": "true",
+        "@shopsubcategory2": "relics",
+        "@baselineloot": "true",
+        "@uicraftsoundstart": "Play_ui_action_meld_load",
+        "@uicraftsoundfinish": "Play_ui_action_meld",
+        "craftingrequirements": [
+          {
+            "@time": "0.01",
+            "@silver": "0",
+            "craftresource": {
+              "@uniquename": "T6_RELIC",
+              "@count": "5",
+              "@maxreturnamount": "0"
+            }
+          },
+          {
+            "@time": "0.01",
+            "@silver": "20000",
+            "craftresource": {
+              "@uniquename": "T7_SOUL",
+              "@count": "1",
+              "@maxreturnamount": "0"
+            }
+          },
+          {
+            "@time": "0.01",
+            "craftresource": {
+              "@uniquename": "UNIQUE_GVGTOKEN_GENERIC",
+              "@count": "18",
+              "@maxreturnamount": "0"
+            }
+          }
+        ]
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T7_SOUL",
+      "index": "2030",
+      "category": "Artifact_Artifact_Fragments",
+      "slot": "Artifact",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": {
+        "primary_resource": "T6_SOUL",
+        "primary_count": 5,
+        "secondary_resource": "",
+        "secondary_count": 0,
+        "resources": [
+          {
+            "id": "T6_SOUL",
+            "count": 5
+          }
+        ]
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T7_SOUL",
+        "item_database_index": "2030"
+      },
+      "tier": 7,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Grandmaster's Soul",
+        "DE-DE": "Seele des Großmeisters",
+        "FR-FR": "Âme du grand maître",
+        "RU-RU": "Душа (магистр)",
+        "PL-PL": "Dusza Wszechmistrza",
+        "ES-ES": "Alma del gran maestro",
+        "PT-BR": "Alma do Grão-mestre",
+        "IT-IT": "Anima del gran maestro",
+        "ZH-CN": "宗师级精炼之魂",
+        "KO-KR": "그랜드 마스터의 영혼",
+        "JA-JP": "魂（グランドマスター）",
+        "ZH-TW": "宗師級精魂",
+        "ID-ID": "Jiwa Grandmaster",
+        "TR-TR": "Büyük Usta Ruhu",
+        "AR-SA": "روح الأستاذ"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "A tortured soul, used to meld artifacts and enchant equipment.",
+        "DE-DE": "Eine gequälte Seele, wird beim Verschmelzen von Artefakten und Verzaubern von Ausrüstung verwendet.",
+        "FR-FR": "Une âme torturée, utilisée pour fusionner des artefacts et enchanter de l'équipement.",
+        "RU-RU": "Измученная душа, используемая для создания артефактов и зачарования экипировки.",
+        "PL-PL": "Udręczona dusza używana podczas łączenia artefaktów i zaklinania ekwipunku.",
+        "ES-ES": "Un alma torturada, utilizada para fusionar artefactos y encantar equipos.",
+        "PT-BR": "Alma torturada usada para fundir artefatos e encantar equipamentos.",
+        "IT-IT": "Anima tormentata usata per fondere manufatti e incantare equipaggiamenti.",
+        "ZH-CN": "一个饱受折磨的灵魂，可以用于神器熔铸和装备附魔。",
+        "KO-KR": "고통받는 영혼으로, 아티팩트 혼합과 장비 인챈트에 사용됩니다.",
+        "JA-JP": "苦悩の魂。アーティファクトの合成や、装備のエンチャントに使用可能です。",
+        "ZH-TW": "一個飽受折磨的魂魄，可用於鎔鑄神器和附魔裝備。",
+        "ID-ID": "Jiwa yang tersiksa, digunakan untuk menggabungkan artefak dan melakukan enchantment pada perlengkapan.",
+        "TR-TR": "Eser birleştirmede ve ekipman efsunlamada kullanılan, işkence görmüş bir ruh.",
+        "AR-SA": "روح معذّبة، تُستخدم لصهر القطع الأثرية وسحر المعدات."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T7_SOUL",
+        "description_variable": "@ITEMS_T7_SOUL_DESC"
+      },
+      "origin": "Artifact/Artifact_Fragments/Artifact_Fragments_T7_SOUL.json",
+      "raw": {
+        "@uniquename": "T7_SOUL",
+        "@tier": "7",
+        "@weight": "0.5",
+        "@maxstacksize": "999",
+        "@resourcetype": "SOUL",
+        "@shopcategory": "artefacts",
+        "@shopsubcategory1": "fragments",
+        "@uisprite": "SOUL_WARRIOR",
+        "@unlockedtocraft": "true",
+        "@shopsubcategory2": "souls",
+        "@baselineloot": "true",
+        "@uicraftsoundstart": "Play_ui_action_meld_load",
+        "@uicraftsoundfinish": "Play_ui_action_meld",
+        "craftingrequirements": [
+          {
+            "@time": "0.01",
+            "@silver": "0",
+            "craftresource": {
+              "@uniquename": "T6_SOUL",
+              "@count": "5",
+              "@maxreturnamount": "0"
+            }
+          },
+          {
+            "@time": "0.01",
+            "@silver": "5000",
+            "craftresource": {
+              "@uniquename": "T7_RUNE",
+              "@count": "1",
+              "@maxreturnamount": "0"
+            }
+          },
+          {
+            "@time": "0.01",
+            "craftresource": {
+              "@uniquename": "UNIQUE_GVGTOKEN_GENERIC",
+              "@count": "6",
+              "@maxreturnamount": "0"
+            }
+          }
+        ]
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T6_RELIC",
+      "index": "2023",
+      "category": "Artifact_Artifact_Fragments",
+      "slot": "Artifact",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": {
+        "primary_resource": "T5_RELIC",
+        "primary_count": 5,
+        "secondary_resource": "",
+        "secondary_count": 0,
+        "resources": [
+          {
+            "id": "T5_RELIC",
+            "count": 5
+          }
+        ]
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T6_RELIC",
+        "item_database_index": "2023"
+      },
+      "tier": 6,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Master's Relic",
+        "DE-DE": "Relikt des Meisters",
+        "FR-FR": "Relique du maître",
+        "RU-RU": "Реликт (мастер)",
+        "PL-PL": "Relikwia Mistrza",
+        "ES-ES": "Reliquia del maestro",
+        "PT-BR": "Relíquia do Mestre",
+        "IT-IT": "Reliquia del maestro",
+        "ZH-CN": "大师级古遗物",
+        "KO-KR": "마스터의 유물",
+        "JA-JP": "レリック（マスター）",
+        "ZH-TW": "大師級聖物",
+        "ID-ID": "Relik Master",
+        "TR-TR": "Usta Yadigârı",
+        "AR-SA": "أثر للخبير"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "An ancient relic, used to meld artifacts and enchant equipment.",
+        "DE-DE": "Ein uraltes Relikt, wird beim Verschmelzen von Artefakten und Verzaubern von Ausrüstung verwendet.",
+        "FR-FR": "Une ancienne relique, utilisée pour fusionner des artefacts et enchanter de l'équipement.",
+        "RU-RU": "Древний реликт, используемый для создания артефактов и зачарования экипировки.",
+        "PL-PL": "Starożytna relikwia używana podczas łączenia artefaktów i zaklinania ekwipunku.",
+        "ES-ES": "Una reliquia antigua, utilizada para fusionar artefactos y encantar equipos.",
+        "PT-BR": "Relíquia antiga usada para fundir artefatos e encantar equipamentos.",
+        "IT-IT": "Antica reliquia usata per fondere manufatti e incantare equipaggiamenti.",
+        "ZH-CN": "一件古代遗物，可以用于神器熔铸和装备附魔。",
+        "KO-KR": "고대의 유물로, 아티팩트 혼합 또는 장비 인챈트에 사용됩니다.",
+        "JA-JP": "古代のレリック。アーティファクトの合成や、装備のエンチャントに使用可能です。",
+        "ZH-TW": "一件古代聖物，可用於鎔鑄神器和附魔裝備。",
+        "ID-ID": "Sebuah relik kuno, digunakan untuk menggabungkan artefak memberi enchantment pada perlengkapan.",
+        "TR-TR": "Eser birleştirmede ve ekipman efsunlamada kullanılan kadim bir yadigâr.",
+        "AR-SA": "أثر قديم، يُستخدم لصهر القطع الأثرية وسحر المعدات."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T6_RELIC",
+        "description_variable": "@ITEMS_T6_RELIC_DESC"
+      },
+      "origin": "Artifact/Artifact_Fragments/Artifact_Fragments_T6_RELIC.json",
+      "raw": {
+        "@uniquename": "T6_RELIC",
+        "@tier": "6",
+        "@weight": "0.38",
+        "@maxstacksize": "999",
+        "@resourcetype": "RELIC",
+        "@shopcategory": "artefacts",
+        "@shopsubcategory1": "fragments",
+        "@uisprite": "RELIC_MANIPULATION",
+        "@unlockedtocraft": "true",
+        "@shopsubcategory2": "relics",
+        "@baselineloot": "true",
+        "@uicraftsoundstart": "Play_ui_action_meld_load",
+        "@uicraftsoundfinish": "Play_ui_action_meld",
+        "craftingrequirements": [
+          {
+            "@time": "0.01",
+            "@silver": "0",
+            "craftresource": {
+              "@uniquename": "T5_RELIC",
+              "@count": "5",
+              "@maxreturnamount": "0"
+            }
+          },
+          {
+            "@time": "0.01",
+            "@silver": "10000",
+            "craftresource": {
+              "@uniquename": "T6_SOUL",
+              "@count": "1",
+              "@maxreturnamount": "0"
+            }
+          },
+          {
+            "@time": "0.01",
+            "craftresource": {
+              "@uniquename": "UNIQUE_GVGTOKEN_GENERIC",
+              "@count": "6",
+              "@maxreturnamount": "0"
+            }
+          }
+        ]
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T6_RUNE",
+      "index": "2021",
+      "category": "Artifact_Artifact_Fragments",
+      "slot": "Artifact",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": {
+        "primary_resource": "T5_RUNE",
+        "primary_count": 5,
+        "secondary_resource": "",
+        "secondary_count": 0,
+        "resources": [
+          {
+            "id": "T5_RUNE",
+            "count": 5
+          }
+        ]
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T6_RUNE",
+        "item_database_index": "2021"
+      },
+      "tier": 6,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Master's Rune",
+        "DE-DE": "Rune des Meisters",
+        "FR-FR": "Rune du maître",
+        "RU-RU": "Руна (мастер)",
+        "PL-PL": "Runa Mistrza",
+        "ES-ES": "Runa del maestro",
+        "PT-BR": "Runa do Mestre",
+        "IT-IT": "Runa del maestro",
+        "ZH-CN": "大师级符石",
+        "KO-KR": "마스터의 룬",
+        "JA-JP": "ルーン（マスター）",
+        "ZH-TW": "大師級符石",
+        "ID-ID": "Simbol Sihir Master",
+        "TR-TR": "Usta Rünü",
+        "AR-SA": "عنصر رون للخبير"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "A pulsing rune, used to meld artifacts and enchant equipment.",
+        "DE-DE": "Eine pulsierende Rune, wird beim Verschmelzen von Artefakten und Verzaubern von Ausrüstung verwendet.",
+        "FR-FR": "Une rune pulsante, utilisée pour fusionner les artefacts et enchanter l'équipement.",
+        "RU-RU": "Пульсирующая руна, используемая для создания артефактов и зачарования экипировки.",
+        "PL-PL": "Pulsująca runa używana podczas łączenia artefaktów i zaklinania ekwipunku.",
+        "ES-ES": "Una runa pulsante, utilizada para fusionar artefactos y encantar equipos.",
+        "PT-BR": "Runa pulsante usada para fundir artefatos e encantar equipamentos.",
+        "IT-IT": "Runa pulsante usata per fondere manufatti e incantare equipaggiamenti.",
+        "ZH-CN": "一块搏动的符石，可以用于神器熔铸和装备附魔。",
+        "KO-KR": "진동하는 룬으로, 아티팩트 혼합과 장비 인챈트에 사용됩니다.",
+        "JA-JP": "脈打つルーン。アーティファクトの合成や、装備のエンチャントに使用可能です。",
+        "ZH-TW": "一種具有能量波動的符石，可用於鎔鑄神器和附魔裝備。",
+        "ID-ID": "Simbol sihir yang berdenyut, digunakan untuk menggabungkan artefak dan melakukan enchantment pada perlengkapan.",
+        "TR-TR": "Eser birleştirmede ve ekipman efsunlamada kullanılan, titreşen bir rün.",
+        "AR-SA": "عنصر رون نابض، يُستخدم لصهر القطع الأثرية وسحر المعدات."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T6_RUNE",
+        "description_variable": "@ITEMS_T6_RUNE_DESC"
+      },
+      "origin": "Artifact/Artifact_Fragments/Artifact_Fragments_T6_RUNE.json",
+      "raw": {
+        "@uniquename": "T6_RUNE",
+        "@tier": "6",
+        "@weight": "0.38",
+        "@maxstacksize": "999",
+        "@resourcetype": "RUNE",
+        "@shopcategory": "artefacts",
+        "@shopsubcategory1": "fragments",
+        "@uisprite": "RUNE_DESTRUCTION",
+        "@unlockedtocraft": "true",
+        "@shopsubcategory2": "runes",
+        "@baselineloot": "true",
+        "@uicraftsoundstart": "Play_ui_action_meld_load",
+        "@uicraftsoundfinish": "Play_ui_action_meld",
+        "craftingrequirements": [
+          {
+            "@time": "0.01",
+            "@silver": "0",
+            "craftresource": {
+              "@uniquename": "T5_RUNE",
+              "@count": "5",
+              "@maxreturnamount": "0"
+            }
+          },
+          {
+            "@time": "0.01",
+            "@amountcrafted": "3",
+            "craftresource": {
+              "@uniquename": "UNIQUE_GVGTOKEN_GENERIC",
+              "@count": "1",
+              "@maxreturnamount": "0"
+            }
+          }
+        ]
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T5_SHARD_AVALONIAN",
+      "index": "2016",
+      "category": "Artifact_Artifact_Fragments",
+      "slot": "Artifact",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": {
+        "primary_resource": "T4_SHARD_AVALONIAN",
+        "primary_count": 5,
+        "secondary_resource": "",
+        "secondary_count": 0,
+        "resources": [
+          {
+            "id": "T4_SHARD_AVALONIAN",
+            "count": 5
+          }
+        ]
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T5_SHARD_AVALONIAN",
+        "item_database_index": "2016"
+      },
+      "tier": 5,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Expert's Avalonian Shard",
+        "DE-DE": "Avalonischer Splitter des Experten",
+        "FR-FR": "Éclat d'Avalon de l'expert",
+        "RU-RU": "Осколок Авалона (эксперт)",
+        "PL-PL": "Odłamek Awalonu Znawcy",
+        "ES-ES": "Fragmento avaloniano del experto",
+        "PT-BR": "Fragmento de Avalon do Perito",
+        "IT-IT": "Scheggia avaloniana dell'esperto",
+        "ZH-CN": "专家级阿瓦隆碎片",
+        "KO-KR": "전문가의 아발론 조각",
+        "JA-JP": "アバロニア人のシャード（達人）",
+        "ZH-TW": "專家級阿瓦隆碎片",
+        "ID-ID": "Pecahan Avalonian Ahli",
+        "TR-TR": "Uzman Avalon Parçası",
+        "AR-SA": "شظية أفالونية للأخصائي"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Shard of a forgotten kingdom, used to meld artifacts.",
+        "DE-DE": "Der Splitter eines vergessenen Königreichs, wird zur Artefaktschmelze genutzt.",
+        "FR-FR": "Fragment de royaume déchu, utilisé pour fondre des artefacts.",
+        "RU-RU": "Осколок забытого королевства, используется для объединения артефактов.",
+        "PL-PL": "Odłamek zapomnianego królestwa, wykorzystywana do tworzenia artefaktów.",
+        "ES-ES": "Fragmento de un reino olvidado, usado para fusionar artefactos.",
+        "PT-BR": "Fragmento de um reino esquecido, usado para fundir artefatos.",
+        "IT-IT": "Scheggia di un regno dimenticato, usato per fondere manufatti.",
+        "ZH-CN": "某个失落王国的碎片，用于熔铸神器。",
+        "KO-KR": "잃어버린 왕국의 조각, 아티팩트를 세공하기 위해 사용 됩니다.",
+        "JA-JP": "忘れられた王国のシャード。アーティファクトの合成に使用します。",
+        "ZH-TW": "來自某個失落王國的碎片，可用於鎔鑄神器。",
+        "ID-ID": "Pecahan kerajaan yang terlupakan, digunakan untuk menggabungkan artefak.",
+        "TR-TR": "Unutulmuş bir krallığın parçası, eser birleştirmede kullanılır.",
+        "AR-SA": "شظية مملكة منسية، تُستخدم لصهر القطع الأثرية."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T5_SHARD_AVALONIAN",
+        "description_variable": "@ITEMS_SHARD_AVALONIAN_DESC"
+      },
+      "origin": "Artifact/Artifact_Fragments/Artifact_Fragments_T5_SHARD_AVALONIAN.json",
+      "raw": {
+        "@uniquename": "T5_SHARD_AVALONIAN",
+        "@uisprite": "SHARD_AVALON",
+        "@descriptionlocatag": "@ITEMS_SHARD_AVALONIAN_DESC",
+        "@tier": "5",
+        "@weight": "0.25",
+        "@maxstacksize": "999",
+        "@resourcetype": "SHARD",
+        "@shopcategory": "artefacts",
+        "@shopsubcategory1": "fragments",
+        "@unlockedtocraft": "true",
+        "@shopsubcategory2": "avalonianshards",
+        "@uicraftsoundstart": "Play_ui_action_meld_load",
+        "@uicraftsoundfinish": "Play_ui_action_meld",
+        "craftingrequirements": [
+          {
+            "@time": "0.01",
+            "@silver": "0",
+            "craftresource": {
+              "@uniquename": "T4_SHARD_AVALONIAN",
+              "@count": "5",
+              "@maxreturnamount": "0"
+            }
+          },
+          {
+            "@time": "0.01",
+            "@silver": "5000",
+            "craftresource": {
+              "@uniquename": "T5_RELIC",
+              "@count": "1",
+              "@maxreturnamount": "0"
+            }
+          },
+          {
+            "@time": "0.01",
+            "craftresource": {
+              "@uniquename": "UNIQUE_GVGTOKEN_GENERIC",
+              "@count": "6",
+              "@maxreturnamount": "0"
+            }
+          }
+        ]
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T4_SHARD_AVALONIAN",
+      "index": "2008",
+      "category": "Artifact_Artifact_Fragments",
+      "slot": "Artifact",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": "8",
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": {
+        "primary_resource": "T4_RELIC",
+        "primary_count": 1,
+        "secondary_resource": "",
+        "secondary_count": 0,
+        "resources": [
+          {
+            "id": "T4_RELIC",
+            "count": 1
+          }
+        ]
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T4_SHARD_AVALONIAN",
+        "item_database_index": "2008"
+      },
+      "tier": 4,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Adept's Avalonian Shard",
+        "DE-DE": "Avalonischer Splitter des Adepten",
+        "FR-FR": "Éclat d'Avalon de l'adepte",
+        "RU-RU": "Осколок Авалона (знаток)",
+        "PL-PL": "Odłamek Awalonu Adepta",
+        "ES-ES": "Fragmento avaloniano del iniciado",
+        "PT-BR": "Fragmento de Avalon do Adepto",
+        "IT-IT": "Scheggia avaloniana del sapiente",
+        "ZH-CN": "老手级阿瓦隆碎片",
+        "KO-KR": "숙련자의 아발론 조각",
+        "JA-JP": "アバロニア人のシャード（名人）",
+        "ZH-TW": "老手級阿瓦隆碎片",
+        "ID-ID": "Pecahan Avalonian Mahir",
+        "TR-TR": "Ehil Avalon Parçası",
+        "AR-SA": "شظية أفالونية للبارع"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Shard of a forgotten kingdom, used to meld artifacts.",
+        "DE-DE": "Der Splitter eines vergessenen Königreichs, wird zur Artefaktschmelze genutzt.",
+        "FR-FR": "Fragment de royaume déchu, utilisé pour fondre des artefacts.",
+        "RU-RU": "Осколок забытого королевства, используется для объединения артефактов.",
+        "PL-PL": "Odłamek zapomnianego królestwa, wykorzystywana do tworzenia artefaktów.",
+        "ES-ES": "Fragmento de un reino olvidado, usado para fusionar artefactos.",
+        "PT-BR": "Fragmento de um reino esquecido, usado para fundir artefatos.",
+        "IT-IT": "Scheggia di un regno dimenticato, usato per fondere manufatti.",
+        "ZH-CN": "某个失落王国的碎片，用于熔铸神器。",
+        "KO-KR": "잃어버린 왕국의 조각, 아티팩트를 세공하기 위해 사용 됩니다.",
+        "JA-JP": "忘れられた王国のシャード。アーティファクトの合成に使用します。",
+        "ZH-TW": "來自某個失落王國的碎片，可用於鎔鑄神器。",
+        "ID-ID": "Pecahan kerajaan yang terlupakan, digunakan untuk menggabungkan artefak.",
+        "TR-TR": "Unutulmuş bir krallığın parçası, eser birleştirmede kullanılır.",
+        "AR-SA": "شظية مملكة منسية، تُستخدم لصهر القطع الأثرية."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T4_SHARD_AVALONIAN",
+        "description_variable": "@ITEMS_SHARD_AVALONIAN_DESC"
+      },
+      "origin": "Artifact/Artifact_Fragments/Artifact_Fragments_T4_SHARD_AVALONIAN.json",
+      "raw": {
+        "@uniquename": "T4_SHARD_AVALONIAN",
+        "@tier": "4",
+        "@weight": "0.05",
+        "@maxstacksize": "999",
+        "@resourcetype": "SHARD",
+        "@shopcategory": "artefacts",
+        "@uisprite": "SHARD_AVALON",
+        "@descriptionlocatag": "@ITEMS_SHARD_AVALONIAN_DESC",
+        "@shopsubcategory1": "fragments",
+        "@unlockedtocraft": "true",
+        "@itemvalue": "8",
+        "@shopsubcategory2": "avalonianshards",
+        "@uicraftsoundstart": "Play_ui_action_meld_load",
+        "@uicraftsoundfinish": "Play_ui_action_meld",
+        "craftingrequirements": [
+          {
+            "@time": "0.01",
+            "@silver": "2500",
+            "craftresource": {
+              "@uniquename": "T4_RELIC",
+              "@count": "1",
+              "@maxreturnamount": "0"
+            }
+          },
+          {
+            "@time": "0.01",
+            "craftresource": {
+              "@uniquename": "UNIQUE_GVGTOKEN_GENERIC",
+              "@count": "2",
+              "@maxreturnamount": "0"
+            }
+          }
+        ]
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T8_SHARD_FIRE_DRAGON",
+      "index": "2042",
+      "category": "Artifact_Artifact_Fragments",
+      "slot": "Artifact",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": "5000",
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T8_SHARD_FIRE_DRAGON",
+        "item_database_index": "2042"
+      },
+      "tier": 8,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Elder's Fire Dragon Scales",
+        "DE-DE": "Feuerdrachenschuppen des Ältesten",
+        "FR-FR": "Écailles de Dragon de Feu du Sage",
+        "RU-RU": "Чешуя огненного дракона (старейшина)",
+        "PL-PL": "Łuski Smoka Ognia Starszego",
+        "ES-ES": "Escamas de Dragón de Fuego del Anciano",
+        "PT-BR": "Escamas de Dragão de Fogo do Ancião",
+        "IT-IT": "Scaglie del Drago di Fuoco dell'Anziano",
+        "ZH-CN": "禅师级火龙鳞片",
+        "KO-KR": "장로의 불의 드래곤 비늘",
+        "JA-JP": "老熟の炎の竜の鱗",
+        "ZH-TW": "禪師級火龍鱗片",
+        "ID-ID": "Sisik Naga Api Tetua",
+        "TR-TR": "Yüce Alev Ejderi Pulları",
+        "AR-SA": "حراشف تنين النار للحكيم"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Scales taken from a Fire Drake or Dragon, still radiating intense heat. Used to craft artifacts.",
+        "DE-DE": "Schuppen eines Feurigen Jungdrachen oder Drachen. Strahlen große Hitze aus. Material für Artefakte.",
+        "FR-FR": "Écailles prélevées sur un Drake de Feu ou un Dragon qui dégagent encore une chaleur intense. Utilisées pour fabriquer des artefacts.",
+        "RU-RU": "Чешуя Огненного дрейка или дракона, до сих пор излучающая сильный жар. Используется для создания артефактов.",
+        "PL-PL": "Łuski zdobyte z Młodego Ognistego Smoka lub Smoka, wciąż promieniujące intensywnym ciepłem. Służą do tworzenia artefaktów.",
+        "ES-ES": "Escamas extraídas de un Draco de Fuego o un Dragón que aún irradian un calor intenso. Se usan para fabricar artefactos.",
+        "PT-BR": "Escamas retiradas de um Draco de Fogo ou Dragão, ainda emanam um calor intenso. Usado para fabricar artefatos.",
+        "IT-IT": "Scaglie prelevate da un Draco di Fuoco o da un Drago, che emanano ancora un calore intenso. Utilizzato per realizzare manufatti.",
+        "ZH-CN": "取自火焰幼龙或龙族的鳞片，依旧散发灼热高温。用于制造神器。",
+        "KO-KR": "불의 드레이크나 드래곤에게서 얻은 비늘로, 여전히 강렬한 열기를 내뿜습니다. 아티팩트를 제작하는 데 사용됩니다.",
+        "JA-JP": "ファイアドレイクや竜から採取された、今なお強烈な熱を放つ鱗。アーティファクトの作成に使用。",
+        "ZH-TW": "取自火焰幼龍或巨龍的鱗片，依舊散發灼熱高溫。用來製作神器。",
+        "ID-ID": "Sisik diambil dari Drake Api atau Naga, masih memancarkan panas tinggi. Digunakan untuk membuat artefak.",
+        "TR-TR": "Bir Ateş Drakeden veya Ejderhadan alınmış, hala yoğun bir ısı yayan pullar. Eser zanaatı yapmak için kullanılır.",
+        "AR-SA": "حراشف مأخوذة من تنين ناري أو تنين، ولا تزال تشع حرارة شديدة. تُستخدم في صناعة القطع الأثرية."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T8_SHARD_FIRE_DRAGON",
+        "description_variable": "@ITEMS_SHARD_FIRE_DRAGON_DESC"
+      },
+      "origin": "Artifact/Artifact_Fragments/Artifact_Fragments_T8_SHARD_FIRE_DRAGON.json",
+      "raw": {
+        "@uniquename": "T8_SHARD_FIRE_DRAGON",
+        "@tier": "8",
+        "@weight": "1",
+        "@maxstacksize": "999",
+        "@resourcetype": "SHARD",
+        "@shopcategory": "artefacts",
+        "@uisprite": "SHARD_FIRE_DRAGON",
+        "@descriptionlocatag": "@ITEMS_SHARD_FIRE_DRAGON_DESC",
+        "@shopsubcategory1": "fragments",
+        "@unlockedtocraft": "true",
+        "@itemvalue": "5000",
+        "@shopsubcategory2": "dragonshards",
+        "@uicraftsoundstart": "Play_ui_action_meld_load",
+        "@uicraftsoundfinish": "Play_ui_action_meld"
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T8_SHARD_CRYSTAL",
+      "index": "2041",
+      "category": "Artifact_Artifact_Fragments",
+      "slot": "Artifact",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": "5000",
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T8_SHARD_CRYSTAL",
+        "item_database_index": "2041"
+      },
+      "tier": 8,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Elder's Crystal Shard",
+        "DE-DE": "Kristallsplitter des Ältesten",
+        "FR-FR": "Éclat de cristal du sage",
+        "RU-RU": "Осколок кристалла (старейшина)",
+        "PL-PL": "Kryształowy Odłamek Starszego",
+        "ES-ES": "Fragmento de cristal del anciano",
+        "PT-BR": "Fragmento de Cristal do Ancião",
+        "IT-IT": "Scheggia di cristallo dell'anziano",
+        "ZH-CN": "禅师级水晶碎片",
+        "KO-KR": "장로의 크리스탈 파편",
+        "JA-JP": "クリスタルシャード（老熟）",
+        "ZH-TW": "禪師級水晶碎片",
+        "ID-ID": "Pecahan Kristal Tetua",
+        "TR-TR": "Yüce Kristal Parçası",
+        "AR-SA": "الشظية الكريستالية للحكيم"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Shard from the Crystal Realm, used to create Artifacts",
+        "DE-DE": "Splitter der Kristallebene, wird genutzt um Artefakte zu erzeugen",
+        "FR-FR": "Éclat du Royaume Cristal, utilisé pour fabriquer des artefacts",
+        "RU-RU": "Осколок из Кристального мира, используется для создания артефактов",
+        "PL-PL": "Odłamek z Kryształowego Wymiaru, niezbędny podczas wytwarzania Artefaktów",
+        "ES-ES": "Fragmento del Reino de cristal que se utiliza para crear artefactos",
+        "PT-BR": "Fragmento do Reino de Cristal, usado para criar Artefatos",
+        "IT-IT": "Scheggia del Reame di Cristallo, usato per creare Manufatti",
+        "ZH-CN": "来自水晶领域的碎片，用于制造神器",
+        "KO-KR": "아티팩트의 제작에 사용되는 크리스탈 영역의 파편",
+        "JA-JP": "アーティファクトの作成に使用されるクリスタル・レルムの破片。",
+        "ZH-TW": "來自水晶領域的碎片，用於製造神器",
+        "ID-ID": "Pecahan dari Alam Kristal, digunakan untuk membuat Artefak",
+        "TR-TR": "Kristal Diyarı'ndan gelen parça, Eser oluşturmak için kullanılır",
+        "AR-SA": "شظية من العالم الكريستالي تُستخدم لصنع القطع الأثرية"
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T8_SHARD_CRYSTAL",
+        "description_variable": "@ITEMS_SHARD_CRYSTAL_DESC"
+      },
+      "origin": "Artifact/Artifact_Fragments/Artifact_Fragments_T8_SHARD_CRYSTAL.json",
+      "raw": {
+        "@uniquename": "T8_SHARD_CRYSTAL",
+        "@tier": "8",
+        "@weight": "1",
+        "@maxstacksize": "999",
+        "@resourcetype": "CRYSTAL",
+        "@shopcategory": "artefacts",
+        "@uisprite": "SHARD_CRYSTAL",
+        "@descriptionlocatag": "@ITEMS_SHARD_CRYSTAL_DESC",
+        "@shopsubcategory1": "fragments",
+        "@unlockedtocraft": "true",
+        "@itemvalue": "5000",
+        "@shopsubcategory2": "crystalshards",
+        "@uicraftsoundstart": "Play_ui_action_meld_load",
+        "@uicraftsoundfinish": "Play_ui_action_meld"
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T7_RUNE",
+      "index": "2029",
+      "category": "Artifact_Artifact_Fragments",
+      "slot": "Artifact",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": {
+        "primary_resource": "T6_RUNE",
+        "primary_count": 5,
+        "secondary_resource": "",
+        "secondary_count": 0,
+        "resources": [
+          {
+            "id": "T6_RUNE",
+            "count": 5
+          }
+        ]
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T7_RUNE",
+        "item_database_index": "2029"
+      },
+      "tier": 7,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Grandmaster's Rune",
+        "DE-DE": "Rune des Großmeisters",
+        "FR-FR": "Rune du grand maître",
+        "RU-RU": "Руна (магистр)",
+        "PL-PL": "Runa Wszechmistrza",
+        "ES-ES": "Runa del gran maestro",
+        "PT-BR": "Runa do Grão-mestre",
+        "IT-IT": "Runa del gran maestro",
+        "ZH-CN": "宗师级符石",
+        "KO-KR": "그랜드 마스터의 룬",
+        "JA-JP": "ルーン（グランドマスター）",
+        "ZH-TW": "宗師級符石",
+        "ID-ID": "Simbol Sihir Grandmaster",
+        "TR-TR": "Büyük Usta Rünü",
+        "AR-SA": "عنصر رون للأستاذ"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "A pulsing rune, used to meld artifacts and enchant equipment.",
+        "DE-DE": "Eine pulsierende Rune, wird beim Verschmelzen von Artefakten und Verzaubern von Ausrüstung verwendet.",
+        "FR-FR": "Une rune pulsante, utilisée pour fusionner les artefacts et enchanter l'équipement.",
+        "RU-RU": "Пульсирующая руна, используемая для создания артефактов и зачарования экипировки.",
+        "PL-PL": "Pulsująca runa używana podczas łączenia artefaktów i zaklinania ekwipunku.",
+        "ES-ES": "Una runa pulsante, utilizada para fusionar artefactos y encantar equipos.",
+        "PT-BR": "Runa pulsante usada para fundir artefatos e encantar equipamentos.",
+        "IT-IT": "Runa pulsante usata per fondere manufatti e incantare equipaggiamenti.",
+        "ZH-CN": "一块搏动的符石，可以用于神器熔铸和装备附魔。",
+        "KO-KR": "진동하는 룬으로, 아티팩트 혼합과 장비 인챈트에 사용됩니다.",
+        "JA-JP": "脈打つルーン。アーティファクトの合成や、装備のエンチャントに使用可能です。",
+        "ZH-TW": "一種具有能量波動的符石，可用於鎔鑄神器和附魔裝備。",
+        "ID-ID": "Simbol sihir yang berdenyut, digunakan untuk menggabungkan artefak dan melakukan enchantment pada perlengkapan.",
+        "TR-TR": "Eser birleştirmede ve ekipman efsunlamada kullanılan, titreşen bir rün.",
+        "AR-SA": "عنصر رون نابض، يُستخدم لصهر القطع الأثرية وسحر المعدات."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T7_RUNE",
+        "description_variable": "@ITEMS_T7_RUNE_DESC"
+      },
+      "origin": "Artifact/Artifact_Fragments/Artifact_Fragments_T7_RUNE.json",
+      "raw": {
+        "@uniquename": "T7_RUNE",
+        "@tier": "7",
+        "@weight": "0.5",
+        "@maxstacksize": "999",
+        "@resourcetype": "RUNE",
+        "@shopcategory": "artefacts",
+        "@shopsubcategory1": "fragments",
+        "@uisprite": "RUNE_DESTRUCTION",
+        "@unlockedtocraft": "true",
+        "@shopsubcategory2": "runes",
+        "@baselineloot": "true",
+        "@uicraftsoundstart": "Play_ui_action_meld_load",
+        "@uicraftsoundfinish": "Play_ui_action_meld",
+        "craftingrequirements": [
+          {
+            "@time": "0.01",
+            "@silver": "0",
+            "craftresource": {
+              "@uniquename": "T6_RUNE",
+              "@count": "5",
+              "@maxreturnamount": "0"
+            }
+          },
+          {
+            "@time": "0.01",
+            "craftresource": {
+              "@uniquename": "UNIQUE_GVGTOKEN_GENERIC",
+              "@count": "2",
+              "@maxreturnamount": "0"
+            }
+          }
+        ]
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T8_RELIC",
+      "index": "2039",
+      "category": "Artifact_Artifact_Fragments",
+      "slot": "Artifact",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": {
+        "primary_resource": "T7_RELIC",
+        "primary_count": 5,
+        "secondary_resource": "",
+        "secondary_count": 0,
+        "resources": [
+          {
+            "id": "T7_RELIC",
+            "count": 5
+          }
+        ]
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T8_RELIC",
+        "item_database_index": "2039"
+      },
+      "tier": 8,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Elder's Relic",
+        "DE-DE": "Relikt des Ältesten",
+        "FR-FR": "Relique du sage",
+        "RU-RU": "Реликт (старейшина)",
+        "PL-PL": "Relikwia Starszego",
+        "ES-ES": "Reliquia del anciano",
+        "PT-BR": "Relíquia do Ancião",
+        "IT-IT": "Reliquia dell'anziano",
+        "ZH-CN": "禅师级古遗物",
+        "KO-KR": "장로의 유물",
+        "JA-JP": "レリック（老熟）",
+        "ZH-TW": "禪師級聖物",
+        "ID-ID": "Relik Tetua",
+        "TR-TR": "Yüce Yadigârı",
+        "AR-SA": "أثر الحكيم"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "An ancient relic, used to meld artifacts and enchant equipment.",
+        "DE-DE": "Ein uraltes Relikt, wird beim Verschmelzen von Artefakten und Verzaubern von Ausrüstung verwendet.",
+        "FR-FR": "Une ancienne relique, utilisée pour fusionner des artefacts et enchanter de l'équipement.",
+        "RU-RU": "Древний реликт, используемый для создания артефактов и зачарования экипировки.",
+        "PL-PL": "Starożytna relikwia używana podczas łączenia artefaktów i zaklinania ekwipunku.",
+        "ES-ES": "Una reliquia antigua, utilizada para fusionar artefactos y encantar equipos.",
+        "PT-BR": "Relíquia antiga usada para fundir artefatos e encantar equipamentos.",
+        "IT-IT": "Antica reliquia usata per fondere manufatti e incantare equipaggiamenti.",
+        "ZH-CN": "一件古代遗物，可以用于神器熔铸和装备附魔。",
+        "KO-KR": "고대의 유물로, 아티팩트 혼합 또는 장비 인챈트에 사용됩니다.",
+        "JA-JP": "古代のレリック。アーティファクトの合成や、装備のエンチャントに使用可能です。",
+        "ZH-TW": "一件古代聖物，可用於鎔鑄神器和附魔裝備。",
+        "ID-ID": "Sebuah relik kuno, digunakan untuk menggabungkan artefak memberi enchantment pada perlengkapan.",
+        "TR-TR": "Eser birleştirmede ve ekipman efsunlamada kullanılan kadim bir yadigâr.",
+        "AR-SA": "أثر قديم، يُستخدم لصهر القطع الأثرية وسحر المعدات."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T8_RELIC",
+        "description_variable": "@ITEMS_T8_RELIC_DESC"
+      },
+      "origin": "Artifact/Artifact_Fragments/Artifact_Fragments_T8_RELIC.json",
+      "raw": {
+        "@uniquename": "T8_RELIC",
+        "@tier": "8",
+        "@weight": "1",
+        "@maxstacksize": "999",
+        "@resourcetype": "RELIC",
+        "@shopcategory": "artefacts",
+        "@shopsubcategory1": "fragments",
+        "@uisprite": "RELIC_MANIPULATION",
+        "@unlockedtocraft": "true",
+        "@shopsubcategory2": "relics",
+        "@baselineloot": "true",
+        "@uicraftsoundstart": "Play_ui_action_meld_load",
+        "@uicraftsoundfinish": "Play_ui_action_meld",
+        "craftingrequirements": [
+          {
+            "@time": "0.01",
+            "@silver": "0",
+            "craftresource": {
+              "@uniquename": "T7_RELIC",
+              "@count": "5",
+              "@maxreturnamount": "0"
+            }
+          },
+          {
+            "@time": "0.01",
+            "@silver": "40000",
+            "craftresource": {
+              "@uniquename": "T8_SOUL",
+              "@count": "1",
+              "@maxreturnamount": "0"
+            }
+          },
+          {
+            "@time": "0.01",
+            "craftresource": {
+              "@uniquename": "UNIQUE_GVGTOKEN_GENERIC",
+              "@count": "54",
+              "@maxreturnamount": "0"
+            }
+          }
+        ]
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T7_SHARD_CRYSTAL",
+      "index": "2033",
+      "category": "Artifact_Artifact_Fragments",
+      "slot": "Artifact",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": "1000",
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T7_SHARD_CRYSTAL",
+        "item_database_index": "2033"
+      },
+      "tier": 7,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Grandmaster's Crystal Shard",
+        "DE-DE": "Kristallsplitter des Großmeisters",
+        "FR-FR": "Éclat de cristal du grand maître",
+        "RU-RU": "Осколок кристалла (магистр)",
+        "PL-PL": "Kryształowy Odłamek Wszechmistrza",
+        "ES-ES": "Fragmento de cristal del gran maestro",
+        "PT-BR": "Fragmento de Cristal do Grão-mestre",
+        "IT-IT": "Scheggia di cristallo del gran maestro",
+        "ZH-CN": "宗师级水晶碎片",
+        "KO-KR": "그랜드 마스터의 크리스탈 파편",
+        "JA-JP": "クリスタルシャード（グランドマスター）",
+        "ZH-TW": "宗師級水晶碎片",
+        "ID-ID": "Pecahan Kristal Grandmaster",
+        "TR-TR": "Büyük Usta Kristal Parçası",
+        "AR-SA": "الشظية الكريستالية للأستاذ"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Shard from the Crystal Realm, used to create Artifacts",
+        "DE-DE": "Splitter der Kristallebene, wird genutzt um Artefakte zu erzeugen",
+        "FR-FR": "Éclat du Royaume Cristal, utilisé pour fabriquer des artefacts",
+        "RU-RU": "Осколок из Кристального мира, используется для создания артефактов",
+        "PL-PL": "Odłamek z Kryształowego Wymiaru, niezbędny podczas wytwarzania Artefaktów",
+        "ES-ES": "Fragmento del Reino de cristal que se utiliza para crear artefactos",
+        "PT-BR": "Fragmento do Reino de Cristal, usado para criar Artefatos",
+        "IT-IT": "Scheggia del Reame di Cristallo, usato per creare Manufatti",
+        "ZH-CN": "来自水晶领域的碎片，用于制造神器",
+        "KO-KR": "아티팩트의 제작에 사용되는 크리스탈 영역의 파편",
+        "JA-JP": "アーティファクトの作成に使用されるクリスタル・レルムの破片。",
+        "ZH-TW": "來自水晶領域的碎片，用於製造神器",
+        "ID-ID": "Pecahan dari Alam Kristal, digunakan untuk membuat Artefak",
+        "TR-TR": "Kristal Diyarı'ndan gelen parça, Eser oluşturmak için kullanılır",
+        "AR-SA": "شظية من العالم الكريستالي تُستخدم لصنع القطع الأثرية"
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T7_SHARD_CRYSTAL",
+        "description_variable": "@ITEMS_SHARD_CRYSTAL_DESC"
+      },
+      "origin": "Artifact/Artifact_Fragments/Artifact_Fragments_T7_SHARD_CRYSTAL.json",
+      "raw": {
+        "@uniquename": "T7_SHARD_CRYSTAL",
+        "@tier": "7",
+        "@weight": "0.5",
+        "@maxstacksize": "999",
+        "@resourcetype": "CRYSTAL",
+        "@shopcategory": "artefacts",
+        "@uisprite": "SHARD_CRYSTAL",
+        "@descriptionlocatag": "@ITEMS_SHARD_CRYSTAL_DESC",
+        "@shopsubcategory1": "fragments",
+        "@unlockedtocraft": "true",
+        "@itemvalue": "1000",
+        "@shopsubcategory2": "crystalshards",
+        "@uicraftsoundstart": "Play_ui_action_meld_load",
+        "@uicraftsoundfinish": "Play_ui_action_meld"
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T4_SHARD_FIRE_DRAGON",
+      "index": "2010",
+      "category": "Artifact_Artifact_Fragments",
+      "slot": "Artifact",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": "8",
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T4_SHARD_FIRE_DRAGON",
+        "item_database_index": "2010"
+      },
+      "tier": 4,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Adept's Fire Dragon Scales",
+        "DE-DE": "Feuerdrachenschuppen des Adepten",
+        "FR-FR": "Écailles de Dragon de Feu de l'Adepte",
+        "RU-RU": "Чешуя огненного дракона (знаток)",
+        "PL-PL": "Łuski Smoka Ognia Adepta",
+        "ES-ES": "Escamas de Dragón de Fuego del Iniciado",
+        "PT-BR": "Escamas de Dragão de Fogo do Adepto",
+        "IT-IT": "Scaglie del Drago di Fuoco del Sapiente",
+        "ZH-CN": "老手级火龙鳞片",
+        "KO-KR": "숙련자의 불의 드래곤 비늘",
+        "JA-JP": "名人の炎の竜の鱗",
+        "ZH-TW": "老手級火龍鱗片",
+        "ID-ID": "Sisik Naga Api Mahir",
+        "TR-TR": "Ehil Alev Ejderi Pulları",
+        "AR-SA": "حراشف تنين النار للبارع"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Scales taken from a Fire Drake or Dragon, still radiating intense heat. Used to craft artifacts.",
+        "DE-DE": "Schuppen eines Feurigen Jungdrachen oder Drachen. Strahlen große Hitze aus. Material für Artefakte.",
+        "FR-FR": "Écailles prélevées sur un Drake de Feu ou un Dragon qui dégagent encore une chaleur intense. Utilisées pour fabriquer des artefacts.",
+        "RU-RU": "Чешуя Огненного дрейка или дракона, до сих пор излучающая сильный жар. Используется для создания артефактов.",
+        "PL-PL": "Łuski zdobyte z Młodego Ognistego Smoka lub Smoka, wciąż promieniujące intensywnym ciepłem. Służą do tworzenia artefaktów.",
+        "ES-ES": "Escamas extraídas de un Draco de Fuego o un Dragón que aún irradian un calor intenso. Se usan para fabricar artefactos.",
+        "PT-BR": "Escamas retiradas de um Draco de Fogo ou Dragão, ainda emanam um calor intenso. Usado para fabricar artefatos.",
+        "IT-IT": "Scaglie prelevate da un Draco di Fuoco o da un Drago, che emanano ancora un calore intenso. Utilizzato per realizzare manufatti.",
+        "ZH-CN": "取自火焰幼龙或龙族的鳞片，依旧散发灼热高温。用于制造神器。",
+        "KO-KR": "불의 드레이크나 드래곤에게서 얻은 비늘로, 여전히 강렬한 열기를 내뿜습니다. 아티팩트를 제작하는 데 사용됩니다.",
+        "JA-JP": "ファイアドレイクや竜から採取された、今なお強烈な熱を放つ鱗。アーティファクトの作成に使用。",
+        "ZH-TW": "取自火焰幼龍或巨龍的鱗片，依舊散發灼熱高溫。用來製作神器。",
+        "ID-ID": "Sisik diambil dari Drake Api atau Naga, masih memancarkan panas tinggi. Digunakan untuk membuat artefak.",
+        "TR-TR": "Bir Ateş Drakeden veya Ejderhadan alınmış, hala yoğun bir ısı yayan pullar. Eser zanaatı yapmak için kullanılır.",
+        "AR-SA": "حراشف مأخوذة من تنين ناري أو تنين، ولا تزال تشع حرارة شديدة. تُستخدم في صناعة القطع الأثرية."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T4_SHARD_FIRE_DRAGON",
+        "description_variable": "@ITEMS_SHARD_FIRE_DRAGON_DESC"
+      },
+      "origin": "Artifact/Artifact_Fragments/Artifact_Fragments_T4_SHARD_FIRE_DRAGON.json",
+      "raw": {
+        "@uniquename": "T4_SHARD_FIRE_DRAGON",
+        "@tier": "4",
+        "@weight": "0.05",
+        "@maxstacksize": "999",
+        "@resourcetype": "SHARD",
+        "@shopcategory": "artefacts",
+        "@uisprite": "SHARD_FIRE_DRAGON",
+        "@descriptionlocatag": "@ITEMS_SHARD_FIRE_DRAGON_DESC",
+        "@shopsubcategory1": "fragments",
+        "@unlockedtocraft": "true",
+        "@itemvalue": "8",
+        "@shopsubcategory2": "dragonshards",
+        "@uicraftsoundstart": "Play_ui_action_meld_load",
+        "@uicraftsoundfinish": "Play_ui_action_meld"
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T6_SOUL",
+      "index": "2022",
+      "category": "Artifact_Artifact_Fragments",
+      "slot": "Artifact",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": {
+        "primary_resource": "T5_SOUL",
+        "primary_count": 5,
+        "secondary_resource": "",
+        "secondary_count": 0,
+        "resources": [
+          {
+            "id": "T5_SOUL",
+            "count": 5
+          }
+        ]
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T6_SOUL",
+        "item_database_index": "2022"
+      },
+      "tier": 6,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Master's Soul",
+        "DE-DE": "Seele des Meisters",
+        "FR-FR": "Âme du maître",
+        "RU-RU": "Душа (мастер)",
+        "PL-PL": "Dusza Mistrza",
+        "ES-ES": "Alma del maestro",
+        "PT-BR": "Alma do Mestre",
+        "IT-IT": "Anima del maestro",
+        "ZH-CN": "大师级精炼之魂",
+        "KO-KR": "마스터의 영혼",
+        "JA-JP": "魂（マスター）",
+        "ZH-TW": "大師級精魂",
+        "ID-ID": "Jiwa Master",
+        "TR-TR": "Usta Ruhu",
+        "AR-SA": "روح للخبير"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "A tortured soul, used to meld artifacts and enchant equipment.",
+        "DE-DE": "Eine gequälte Seele, wird beim Verschmelzen von Artefakten und Verzaubern von Ausrüstung verwendet.",
+        "FR-FR": "Une âme torturée, utilisée pour fusionner des artefacts et enchanter de l'équipement.",
+        "RU-RU": "Измученная душа, используемая для создания артефактов и зачарования экипировки.",
+        "PL-PL": "Udręczona dusza używana podczas łączenia artefaktów i zaklinania ekwipunku.",
+        "ES-ES": "Un alma torturada, utilizada para fusionar artefactos y encantar equipos.",
+        "PT-BR": "Alma torturada usada para fundir artefatos e encantar equipamentos.",
+        "IT-IT": "Anima tormentata usata per fondere manufatti e incantare equipaggiamenti.",
+        "ZH-CN": "一个饱受折磨的灵魂，可以用于神器熔铸和装备附魔。",
+        "KO-KR": "고통받는 영혼으로, 아티팩트 혼합과 장비 인챈트에 사용됩니다.",
+        "JA-JP": "苦悩の魂。アーティファクトの合成や、装備のエンチャントに使用可能です。",
+        "ZH-TW": "一個飽受折磨的魂魄，可用於鎔鑄神器和附魔裝備。",
+        "ID-ID": "Jiwa yang tersiksa, digunakan untuk menggabungkan artefak dan melakukan enchantment pada perlengkapan.",
+        "TR-TR": "Eser birleştirmede ve ekipman efsunlamada kullanılan, işkence görmüş bir ruh.",
+        "AR-SA": "روح معذّبة، تُستخدم لصهر القطع الأثرية وسحر المعدات."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T6_SOUL",
+        "description_variable": "@ITEMS_T6_SOUL_DESC"
+      },
+      "origin": "Artifact/Artifact_Fragments/Artifact_Fragments_T6_SOUL.json",
+      "raw": {
+        "@uniquename": "T6_SOUL",
+        "@tier": "6",
+        "@weight": "0.38",
+        "@maxstacksize": "999",
+        "@resourcetype": "SOUL",
+        "@shopcategory": "artefacts",
+        "@shopsubcategory1": "fragments",
+        "@uisprite": "SOUL_WARRIOR",
+        "@unlockedtocraft": "true",
+        "@shopsubcategory2": "souls",
+        "@baselineloot": "true",
+        "@uicraftsoundstart": "Play_ui_action_meld_load",
+        "@uicraftsoundfinish": "Play_ui_action_meld",
+        "craftingrequirements": [
+          {
+            "@time": "0.01",
+            "@silver": "0",
+            "craftresource": {
+              "@uniquename": "T5_SOUL",
+              "@count": "5",
+              "@maxreturnamount": "0"
+            }
+          },
+          {
+            "@time": "0.01",
+            "@silver": "2500",
+            "craftresource": {
+              "@uniquename": "T6_RUNE",
+              "@count": "1",
+              "@maxreturnamount": "0"
+            }
+          },
+          {
+            "@time": "0.01",
+            "craftresource": {
+              "@uniquename": "UNIQUE_GVGTOKEN_GENERIC",
+              "@count": "2",
+              "@maxreturnamount": "0"
+            }
+          }
+        ]
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T8_SHARD_AVALONIAN",
+      "index": "2040",
+      "category": "Artifact_Artifact_Fragments",
+      "slot": "Artifact",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": {
+        "primary_resource": "T7_SHARD_AVALONIAN",
+        "primary_count": 5,
+        "secondary_resource": "",
+        "secondary_count": 0,
+        "resources": [
+          {
+            "id": "T7_SHARD_AVALONIAN",
+            "count": 5
+          }
+        ]
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T8_SHARD_AVALONIAN",
+        "item_database_index": "2040"
+      },
+      "tier": 8,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Elder's Avalonian Shard",
+        "DE-DE": "Avalonischer Splitter des Ältesten",
+        "FR-FR": "Éclat d'Avalon du sage",
+        "RU-RU": "Осколок Авалона (старейшина)",
+        "PL-PL": "Odłamek Awalonu Znawcy",
+        "ES-ES": "Fragmento avaloniano del anciano",
+        "PT-BR": "Fragmento de Avalon do Ancião",
+        "IT-IT": "Scheggia avaloniana dell'anziano",
+        "ZH-CN": "禅师级阿瓦隆碎片",
+        "KO-KR": "장로의 아발론 조각",
+        "JA-JP": "アバロニア人のシャード（老熟）",
+        "ZH-TW": "禪師級阿瓦隆碎片",
+        "ID-ID": "Pecahan Avalonian Tetua",
+        "TR-TR": "Yüce Avalon Parçası",
+        "AR-SA": "شظية أفالونية للحكيم"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Shard of a forgotten kingdom, used to meld artifacts.",
+        "DE-DE": "Der Splitter eines vergessenen Königreichs, wird zur Artefaktschmelze genutzt.",
+        "FR-FR": "Fragment de royaume déchu, utilisé pour fondre des artefacts.",
+        "RU-RU": "Осколок забытого королевства, используется для объединения артефактов.",
+        "PL-PL": "Odłamek zapomnianego królestwa, wykorzystywana do tworzenia artefaktów.",
+        "ES-ES": "Fragmento de un reino olvidado, usado para fusionar artefactos.",
+        "PT-BR": "Fragmento de um reino esquecido, usado para fundir artefatos.",
+        "IT-IT": "Scheggia di un regno dimenticato, usato per fondere manufatti.",
+        "ZH-CN": "某个失落王国的碎片，用于熔铸神器。",
+        "KO-KR": "잃어버린 왕국의 조각, 아티팩트를 세공하기 위해 사용 됩니다.",
+        "JA-JP": "忘れられた王国のシャード。アーティファクトの合成に使用します。",
+        "ZH-TW": "來自某個失落王國的碎片，可用於鎔鑄神器。",
+        "ID-ID": "Pecahan kerajaan yang terlupakan, digunakan untuk menggabungkan artefak.",
+        "TR-TR": "Unutulmuş bir krallığın parçası, eser birleştirmede kullanılır.",
+        "AR-SA": "شظية مملكة منسية، تُستخدم لصهر القطع الأثرية."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T8_SHARD_AVALONIAN",
+        "description_variable": "@ITEMS_SHARD_AVALONIAN_DESC"
+      },
+      "origin": "Artifact/Artifact_Fragments/Artifact_Fragments_T8_SHARD_AVALONIAN.json",
+      "raw": {
+        "@uniquename": "T8_SHARD_AVALONIAN",
+        "@uisprite": "SHARD_AVALON",
+        "@descriptionlocatag": "@ITEMS_SHARD_AVALONIAN_DESC",
+        "@tier": "8",
+        "@weight": "1",
+        "@maxstacksize": "999",
+        "@resourcetype": "SHARD",
+        "@shopcategory": "artefacts",
+        "@shopsubcategory1": "fragments",
+        "@unlockedtocraft": "true",
+        "@shopsubcategory2": "avalonianshards",
+        "@uicraftsoundstart": "Play_ui_action_meld_load",
+        "@uicraftsoundfinish": "Play_ui_action_meld",
+        "craftingrequirements": [
+          {
+            "@time": "0.01",
+            "@silver": "0",
+            "craftresource": {
+              "@uniquename": "T7_SHARD_AVALONIAN",
+              "@count": "5",
+              "@maxreturnamount": "0"
+            }
+          },
+          {
+            "@time": "0.01",
+            "@silver": "40000",
+            "craftresource": {
+              "@uniquename": "T8_RELIC",
+              "@count": "1",
+              "@maxreturnamount": "0"
+            }
+          },
+          {
+            "@time": "0.01",
+            "craftresource": {
+              "@uniquename": "UNIQUE_GVGTOKEN_GENERIC",
+              "@count": "162",
+              "@maxreturnamount": "0"
+            }
+          }
+        ]
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T6_SHARD_CRYSTAL",
+      "index": "2025",
+      "category": "Artifact_Artifact_Fragments",
+      "slot": "Artifact",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": "200",
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T6_SHARD_CRYSTAL",
+        "item_database_index": "2025"
+      },
+      "tier": 6,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Master's Crystal Shard",
+        "DE-DE": "Kristallsplitter des Meisters",
+        "FR-FR": "Éclat de cristal du maître",
+        "RU-RU": "Осколок кристалла (мастер)",
+        "PL-PL": "Kryształowy Odłamek Mistrza",
+        "ES-ES": "Fragmento de cristal del maestro",
+        "PT-BR": "Fragmento de Cristal do Mestre",
+        "IT-IT": "Scheggia di cristallo del maestro",
+        "ZH-CN": "大师级水晶碎片",
+        "KO-KR": "마스터의 크리스탈 파편",
+        "JA-JP": "クリスタルシャード（マスター）",
+        "ZH-TW": "大師級水晶碎片",
+        "ID-ID": "Pecahan Kristal Master",
+        "TR-TR": "Usta Kristal Parçası",
+        "AR-SA": "الشظية الكريستالية للخبير"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Shard from the Crystal Realm, used to create Artifacts",
+        "DE-DE": "Splitter der Kristallebene, wird genutzt um Artefakte zu erzeugen",
+        "FR-FR": "Éclat du Royaume Cristal, utilisé pour fabriquer des artefacts",
+        "RU-RU": "Осколок из Кристального мира, используется для создания артефактов",
+        "PL-PL": "Odłamek z Kryształowego Wymiaru, niezbędny podczas wytwarzania Artefaktów",
+        "ES-ES": "Fragmento del Reino de cristal que se utiliza para crear artefactos",
+        "PT-BR": "Fragmento do Reino de Cristal, usado para criar Artefatos",
+        "IT-IT": "Scheggia del Reame di Cristallo, usato per creare Manufatti",
+        "ZH-CN": "来自水晶领域的碎片，用于制造神器",
+        "KO-KR": "아티팩트의 제작에 사용되는 크리스탈 영역의 파편",
+        "JA-JP": "アーティファクトの作成に使用されるクリスタル・レルムの破片。",
+        "ZH-TW": "來自水晶領域的碎片，用於製造神器",
+        "ID-ID": "Pecahan dari Alam Kristal, digunakan untuk membuat Artefak",
+        "TR-TR": "Kristal Diyarı'ndan gelen parça, Eser oluşturmak için kullanılır",
+        "AR-SA": "شظية من العالم الكريستالي تُستخدم لصنع القطع الأثرية"
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T6_SHARD_CRYSTAL",
+        "description_variable": "@ITEMS_SHARD_CRYSTAL_DESC"
+      },
+      "origin": "Artifact/Artifact_Fragments/Artifact_Fragments_T6_SHARD_CRYSTAL.json",
+      "raw": {
+        "@uniquename": "T6_SHARD_CRYSTAL",
+        "@tier": "6",
+        "@weight": "0.38",
+        "@maxstacksize": "999",
+        "@resourcetype": "CRYSTAL",
+        "@shopcategory": "artefacts",
+        "@uisprite": "SHARD_CRYSTAL",
+        "@descriptionlocatag": "@ITEMS_SHARD_CRYSTAL_DESC",
+        "@shopsubcategory1": "fragments",
+        "@unlockedtocraft": "true",
+        "@itemvalue": "200",
+        "@shopsubcategory2": "crystalshards",
+        "@uicraftsoundstart": "Play_ui_action_meld_load",
+        "@uicraftsoundfinish": "Play_ui_action_meld"
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T5_SHARD_CRYSTAL",
+      "index": "2017",
+      "category": "Artifact_Artifact_Fragments",
+      "slot": "Artifact",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": "40",
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T5_SHARD_CRYSTAL",
+        "item_database_index": "2017"
+      },
+      "tier": 5,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Expert's Crystal Shard",
+        "DE-DE": "Kristallsplitter des Experten",
+        "FR-FR": "Éclat de cristal de l'expert",
+        "RU-RU": "Осколок кристалла (эксперт)",
+        "PL-PL": "Kryształowy Odłamek Znawcy",
+        "ES-ES": "Fragmento de cristal del experto",
+        "PT-BR": "Fragmento de Cristal do Perito",
+        "IT-IT": "Scheggia di cristallo dell'esperto",
+        "ZH-CN": "专家级水晶碎片",
+        "KO-KR": "전문가의 크리스탈 파편",
+        "JA-JP": "クリスタルシャード（達人）",
+        "ZH-TW": "專家級水晶碎片",
+        "ID-ID": "Pecahan Kristal Ahli",
+        "TR-TR": "Uzman Kristal Parçası",
+        "AR-SA": "الشظية الكريستالية للمختص"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Shard from the Crystal Realm, used to create Artifacts",
+        "DE-DE": "Splitter der Kristallebene, wird genutzt um Artefakte zu erzeugen",
+        "FR-FR": "Éclat du Royaume Cristal, utilisé pour fabriquer des artefacts",
+        "RU-RU": "Осколок из Кристального мира, используется для создания артефактов",
+        "PL-PL": "Odłamek z Kryształowego Wymiaru, niezbędny podczas wytwarzania Artefaktów",
+        "ES-ES": "Fragmento del Reino de cristal que se utiliza para crear artefactos",
+        "PT-BR": "Fragmento do Reino de Cristal, usado para criar Artefatos",
+        "IT-IT": "Scheggia del Reame di Cristallo, usato per creare Manufatti",
+        "ZH-CN": "来自水晶领域的碎片，用于制造神器",
+        "KO-KR": "아티팩트의 제작에 사용되는 크리스탈 영역의 파편",
+        "JA-JP": "アーティファクトの作成に使用されるクリスタル・レルムの破片。",
+        "ZH-TW": "來自水晶領域的碎片，用於製造神器",
+        "ID-ID": "Pecahan dari Alam Kristal, digunakan untuk membuat Artefak",
+        "TR-TR": "Kristal Diyarı'ndan gelen parça, Eser oluşturmak için kullanılır",
+        "AR-SA": "شظية من العالم الكريستالي تُستخدم لصنع القطع الأثرية"
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T5_SHARD_CRYSTAL",
+        "description_variable": "@ITEMS_SHARD_CRYSTAL_DESC"
+      },
+      "origin": "Artifact/Artifact_Fragments/Artifact_Fragments_T5_SHARD_CRYSTAL.json",
+      "raw": {
+        "@uniquename": "T5_SHARD_CRYSTAL",
+        "@tier": "5",
+        "@weight": "0.25",
+        "@maxstacksize": "999",
+        "@resourcetype": "CRYSTAL",
+        "@shopcategory": "artefacts",
+        "@uisprite": "SHARD_CRYSTAL",
+        "@descriptionlocatag": "@ITEMS_SHARD_CRYSTAL_DESC",
+        "@shopsubcategory1": "fragments",
+        "@unlockedtocraft": "true",
+        "@itemvalue": "40",
+        "@shopsubcategory2": "crystalshards",
+        "@uicraftsoundstart": "Play_ui_action_meld_load",
+        "@uicraftsoundfinish": "Play_ui_action_meld"
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T6_SHARD_AVALONIAN",
+      "index": "2024",
+      "category": "Artifact_Artifact_Fragments",
+      "slot": "Artifact",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": {
+        "primary_resource": "T5_SHARD_AVALONIAN",
+        "primary_count": 5,
+        "secondary_resource": "",
+        "secondary_count": 0,
+        "resources": [
+          {
+            "id": "T5_SHARD_AVALONIAN",
+            "count": 5
+          }
+        ]
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T6_SHARD_AVALONIAN",
+        "item_database_index": "2024"
+      },
+      "tier": 6,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Master's Avalonian Shard",
+        "DE-DE": "Avalonischer Splitter des Meisters",
+        "FR-FR": "Éclat d'Avalon du maître",
+        "RU-RU": "Осколок Авалона (мастер)",
+        "PL-PL": "Odłamek Awalonu Mistrza",
+        "ES-ES": "Fragmento avaloniano del maestro",
+        "PT-BR": "Fragmento de Avalon do Mestre",
+        "IT-IT": "Scheggia avaloniana del maestro",
+        "ZH-CN": "大师级阿瓦隆碎片",
+        "KO-KR": "마스터의 아발론 조각",
+        "JA-JP": "アバロニア人のシャード（マスター）",
+        "ZH-TW": "大師級阿瓦隆碎片",
+        "ID-ID": "Pecahan Avalonian Master",
+        "TR-TR": "Usta Avalon Parçası",
+        "AR-SA": "شظية أفالونية للخبير"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Shard of a forgotten kingdom, used to meld artifacts.",
+        "DE-DE": "Der Splitter eines vergessenen Königreichs, wird zur Artefaktschmelze genutzt.",
+        "FR-FR": "Fragment de royaume déchu, utilisé pour fondre des artefacts.",
+        "RU-RU": "Осколок забытого королевства, используется для объединения артефактов.",
+        "PL-PL": "Odłamek zapomnianego królestwa, wykorzystywana do tworzenia artefaktów.",
+        "ES-ES": "Fragmento de un reino olvidado, usado para fusionar artefactos.",
+        "PT-BR": "Fragmento de um reino esquecido, usado para fundir artefatos.",
+        "IT-IT": "Scheggia di un regno dimenticato, usato per fondere manufatti.",
+        "ZH-CN": "某个失落王国的碎片，用于熔铸神器。",
+        "KO-KR": "잃어버린 왕국의 조각, 아티팩트를 세공하기 위해 사용 됩니다.",
+        "JA-JP": "忘れられた王国のシャード。アーティファクトの合成に使用します。",
+        "ZH-TW": "來自某個失落王國的碎片，可用於鎔鑄神器。",
+        "ID-ID": "Pecahan kerajaan yang terlupakan, digunakan untuk menggabungkan artefak.",
+        "TR-TR": "Unutulmuş bir krallığın parçası, eser birleştirmede kullanılır.",
+        "AR-SA": "شظية مملكة منسية، تُستخدم لصهر القطع الأثرية."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T6_SHARD_AVALONIAN",
+        "description_variable": "@ITEMS_SHARD_AVALONIAN_DESC"
+      },
+      "origin": "Artifact/Artifact_Fragments/Artifact_Fragments_T6_SHARD_AVALONIAN.json",
+      "raw": {
+        "@uniquename": "T6_SHARD_AVALONIAN",
+        "@uisprite": "SHARD_AVALON",
+        "@descriptionlocatag": "@ITEMS_SHARD_AVALONIAN_DESC",
+        "@tier": "6",
+        "@weight": "0.38",
+        "@maxstacksize": "999",
+        "@resourcetype": "SHARD",
+        "@shopcategory": "artefacts",
+        "@shopsubcategory1": "fragments",
+        "@unlockedtocraft": "true",
+        "@shopsubcategory2": "avalonianshards",
+        "@uicraftsoundstart": "Play_ui_action_meld_load",
+        "@uicraftsoundfinish": "Play_ui_action_meld",
+        "craftingrequirements": [
+          {
+            "@time": "0.01",
+            "@silver": "0",
+            "craftresource": {
+              "@uniquename": "T5_SHARD_AVALONIAN",
+              "@count": "5",
+              "@maxreturnamount": "0"
+            }
+          },
+          {
+            "@time": "0.01",
+            "@silver": "10000",
+            "craftresource": {
+              "@uniquename": "T6_RELIC",
+              "@count": "1",
+              "@maxreturnamount": "0"
+            }
+          },
+          {
+            "@time": "0.01",
+            "craftresource": {
+              "@uniquename": "UNIQUE_GVGTOKEN_GENERIC",
+              "@count": "18",
+              "@maxreturnamount": "0"
+            }
+          }
+        ]
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T4_RELIC",
+      "index": "2007",
+      "category": "Artifact_Artifact_Fragments",
+      "slot": "Artifact",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": "4",
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": {
+        "primary_resource": "T4_SOUL",
+        "primary_count": 1,
+        "secondary_resource": "",
+        "secondary_count": 0,
+        "resources": [
+          {
+            "id": "T4_SOUL",
+            "count": 1
+          }
+        ]
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T4_RELIC",
+        "item_database_index": "2007"
+      },
+      "tier": 4,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Adept's Relic",
+        "DE-DE": "Relikt des Adepten",
+        "FR-FR": "Relique de l'adepte",
+        "RU-RU": "Реликт (знаток)",
+        "PL-PL": "Relikwia Adepta",
+        "ES-ES": "Reliquia del iniciado",
+        "PT-BR": "Relíquia do Adepto",
+        "IT-IT": "Reliquia del sapiente",
+        "ZH-CN": "老手级古遗物",
+        "KO-KR": "숙련자의 유물",
+        "JA-JP": "レリック（名人）",
+        "ZH-TW": "老手級聖物",
+        "ID-ID": "Relik Mahir",
+        "TR-TR": "Ehil Yadigârı",
+        "AR-SA": "أثر للبارع"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "An ancient relic, used to meld artifacts and enchant equipment.",
+        "DE-DE": "Ein uraltes Relikt, wird beim Verschmelzen von Artefakten und Verzaubern von Ausrüstung verwendet.",
+        "FR-FR": "Une ancienne relique, utilisée pour fusionner des artefacts et enchanter de l'équipement.",
+        "RU-RU": "Древний реликт, используемый для создания артефактов и зачарования экипировки.",
+        "PL-PL": "Starożytna relikwia używana podczas łączenia artefaktów i zaklinania ekwipunku.",
+        "ES-ES": "Una reliquia antigua, utilizada para fusionar artefactos y encantar equipos.",
+        "PT-BR": "Relíquia antiga usada para fundir artefatos e encantar equipamentos.",
+        "IT-IT": "Antica reliquia usata per fondere manufatti e incantare equipaggiamenti.",
+        "ZH-CN": "一件古代遗物，可以用于神器熔铸和装备附魔。",
+        "KO-KR": "고대의 유물로, 아티팩트 혼합 또는 장비 인챈트에 사용됩니다.",
+        "JA-JP": "古代のレリック。アーティファクトの合成や、装備のエンチャントに使用可能です。",
+        "ZH-TW": "一件古代聖物，可用於鎔鑄神器和附魔裝備。",
+        "ID-ID": "Sebuah relik kuno, digunakan untuk menggabungkan artefak memberi enchantment pada perlengkapan.",
+        "TR-TR": "Eser birleştirmede ve ekipman efsunlamada kullanılan kadim bir yadigâr.",
+        "AR-SA": "أثر قديم، يُستخدم لصهر القطع الأثرية وسحر المعدات."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T4_RELIC",
+        "description_variable": "@ITEMS_T4_RELIC_DESC"
+      },
+      "origin": "Artifact/Artifact_Fragments/Artifact_Fragments_T4_RELIC.json",
+      "raw": {
+        "@uniquename": "T4_RELIC",
+        "@tier": "4",
+        "@weight": "0.05",
+        "@maxstacksize": "999",
+        "@resourcetype": "RELIC",
+        "@shopcategory": "artefacts",
+        "@shopsubcategory1": "fragments",
+        "@uisprite": "RELIC_MANIPULATION",
+        "@unlockedtocraft": "true",
+        "@itemvalue": "4",
+        "@shopsubcategory2": "relics",
+        "@baselineloot": "true",
+        "@uicraftsoundstart": "Play_ui_action_meld_load",
+        "@uicraftsoundfinish": "Play_ui_action_meld",
+        "craftingrequirements": [
+          {
+            "@time": "0.01",
+            "@silver": "2500",
+            "craftresource": {
+              "@uniquename": "T4_SOUL",
+              "@count": "1",
+              "@maxreturnamount": "0"
+            }
+          },
+          {
+            "@time": "0.01",
+            "craftresource": {
+              "@uniquename": "UNIQUE_GVGTOKEN_GENERIC",
+              "@count": "2",
+              "@maxreturnamount": "0"
+            }
+          }
+        ]
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T5_SOUL",
+      "index": "2014",
+      "category": "Artifact_Artifact_Fragments",
+      "slot": "Artifact",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": {
+        "primary_resource": "T4_SOUL",
+        "primary_count": 5,
+        "secondary_resource": "",
+        "secondary_count": 0,
+        "resources": [
+          {
+            "id": "T4_SOUL",
+            "count": 5
+          }
+        ]
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T5_SOUL",
+        "item_database_index": "2014"
+      },
+      "tier": 5,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Expert's Soul",
+        "DE-DE": "Seele des Experten",
+        "FR-FR": "Âme de l'expert",
+        "RU-RU": "Душа (эксперт)",
+        "PL-PL": "Dusza Znawcy",
+        "ES-ES": "Alma del experto",
+        "PT-BR": "Alma do Perito",
+        "IT-IT": "Anima dell'esperto",
+        "ZH-CN": "专家级精炼之魂",
+        "KO-KR": "전문가의 영혼",
+        "JA-JP": "魂（達人）",
+        "ZH-TW": "專家級精魂",
+        "ID-ID": "Jiwa Ahli",
+        "TR-TR": "Uzman Ruhu",
+        "AR-SA": "روح الأخصائي"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "A tortured soul, used to meld artifacts and enchant equipment.",
+        "DE-DE": "Eine gequälte Seele, wird beim Verschmelzen von Artefakten und Verzaubern von Ausrüstung verwendet.",
+        "FR-FR": "Une âme torturée, utilisée pour fusionner des artefacts et enchanter de l'équipement.",
+        "RU-RU": "Измученная душа, используемая для создания артефактов и зачарования экипировки.",
+        "PL-PL": "Udręczona dusza używana podczas łączenia artefaktów i zaklinania ekwipunku.",
+        "ES-ES": "Un alma torturada, utilizada para fusionar artefactos y encantar equipos.",
+        "PT-BR": "Alma torturada usada para fundir artefatos e encantar equipamentos.",
+        "IT-IT": "Anima tormentata usata per fondere manufatti e incantare equipaggiamenti.",
+        "ZH-CN": "一个饱受折磨的灵魂，可以用于神器熔铸和装备附魔。",
+        "KO-KR": "고통받는 영혼으로, 아티팩트 혼합과 장비 인챈트에 사용됩니다.",
+        "JA-JP": "苦悩の魂。アーティファクトの合成や、装備のエンチャントに使用可能です。",
+        "ZH-TW": "一個飽受折磨的魂魄，可用於鎔鑄神器和附魔裝備。",
+        "ID-ID": "Jiwa yang tersiksa, digunakan untuk menggabungkan artefak dan melakukan enchantment pada perlengkapan.",
+        "TR-TR": "Eser birleştirmede ve ekipman efsunlamada kullanılan, işkence görmüş bir ruh.",
+        "AR-SA": "روح معذّبة، تُستخدم لصهر القطع الأثرية وسحر المعدات."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T5_SOUL",
+        "description_variable": "@ITEMS_T5_SOUL_DESC"
+      },
+      "origin": "Artifact/Artifact_Fragments/Artifact_Fragments_T5_SOUL.json",
+      "raw": {
+        "@uniquename": "T5_SOUL",
+        "@tier": "5",
+        "@weight": "0.25",
+        "@maxstacksize": "999",
+        "@resourcetype": "SOUL",
+        "@shopcategory": "artefacts",
+        "@shopsubcategory1": "fragments",
+        "@uisprite": "SOUL_WARRIOR",
+        "@unlockedtocraft": "true",
+        "@shopsubcategory2": "souls",
+        "@baselineloot": "true",
+        "@uicraftsoundstart": "Play_ui_action_meld_load",
+        "@uicraftsoundfinish": "Play_ui_action_meld",
+        "craftingrequirements": [
+          {
+            "@time": "0.01",
+            "@silver": "0",
+            "craftresource": {
+              "@uniquename": "T4_SOUL",
+              "@count": "5",
+              "@maxreturnamount": "0"
+            }
+          },
+          {
+            "@time": "0.01",
+            "@silver": "1250",
+            "craftresource": {
+              "@uniquename": "T5_RUNE",
+              "@count": "1",
+              "@maxreturnamount": "0"
+            }
+          },
+          {
+            "@time": "0.01",
+            "craftresource": {
+              "@uniquename": "UNIQUE_GVGTOKEN_GENERIC",
+              "@count": "1",
+              "@maxreturnamount": "0"
+            }
+          }
+        ]
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T5_RELIC",
+      "index": "2015",
+      "category": "Artifact_Artifact_Fragments",
+      "slot": "Artifact",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": {
+        "primary_resource": "T4_RELIC",
+        "primary_count": 5,
+        "secondary_resource": "",
+        "secondary_count": 0,
+        "resources": [
+          {
+            "id": "T4_RELIC",
+            "count": 5
+          }
+        ]
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T5_RELIC",
+        "item_database_index": "2015"
+      },
+      "tier": 5,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Expert's Relic",
+        "DE-DE": "Relikt des Experten",
+        "FR-FR": "Relique de l'expert",
+        "RU-RU": "Реликт (эксперт)",
+        "PL-PL": "Relikwia Znawcy",
+        "ES-ES": "Reliquia del experto",
+        "PT-BR": "Relíquia do Perito",
+        "IT-IT": "Reliquia dell'esperto",
+        "ZH-CN": "专家级古遗物",
+        "KO-KR": "전문가의 유물",
+        "JA-JP": "レリック（達人）",
+        "ZH-TW": "專家級聖物",
+        "ID-ID": "Relik Ahli",
+        "TR-TR": "Uzman Yadigârı",
+        "AR-SA": "أثر الأخصائي"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "An ancient relic, used to meld artifacts and enchant equipment.",
+        "DE-DE": "Ein uraltes Relikt, wird beim Verschmelzen von Artefakten und Verzaubern von Ausrüstung verwendet.",
+        "FR-FR": "Une ancienne relique, utilisée pour fusionner des artefacts et enchanter de l'équipement.",
+        "RU-RU": "Древний реликт, используемый для создания артефактов и зачарования экипировки.",
+        "PL-PL": "Starożytna relikwia używana podczas łączenia artefaktów i zaklinania ekwipunku.",
+        "ES-ES": "Una reliquia antigua, utilizada para fusionar artefactos y encantar equipos.",
+        "PT-BR": "Relíquia antiga usada para fundir artefatos e encantar equipamentos.",
+        "IT-IT": "Antica reliquia usata per fondere manufatti e incantare equipaggiamenti.",
+        "ZH-CN": "一件古代遗物，可以用于神器熔铸和装备附魔。",
+        "KO-KR": "고대의 유물로, 아티팩트 혼합 또는 장비 인챈트에 사용됩니다.",
+        "JA-JP": "古代のレリック。アーティファクトの合成や、装備のエンチャントに使用可能です。",
+        "ZH-TW": "一件古代聖物，可用於鎔鑄神器和附魔裝備。",
+        "ID-ID": "Sebuah relik kuno, digunakan untuk menggabungkan artefak memberi enchantment pada perlengkapan.",
+        "TR-TR": "Eser birleştirmede ve ekipman efsunlamada kullanılan kadim bir yadigâr.",
+        "AR-SA": "أثر قديم، يُستخدم لصهر القطع الأثرية وسحر المعدات."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T5_RELIC",
+        "description_variable": "@ITEMS_T5_RELIC_DESC"
+      },
+      "origin": "Artifact/Artifact_Fragments/Artifact_Fragments_T5_RELIC.json",
+      "raw": {
+        "@uniquename": "T5_RELIC",
+        "@tier": "5",
+        "@weight": "0.25",
+        "@maxstacksize": "999",
+        "@resourcetype": "RELIC",
+        "@shopcategory": "artefacts",
+        "@shopsubcategory1": "fragments",
+        "@uisprite": "RELIC_MANIPULATION",
+        "@unlockedtocraft": "true",
+        "@shopsubcategory2": "relics",
+        "@baselineloot": "true",
+        "@uicraftsoundstart": "Play_ui_action_meld_load",
+        "@uicraftsoundfinish": "Play_ui_action_meld",
+        "craftingrequirements": [
+          {
+            "@time": "0.01",
+            "@silver": "0",
+            "craftresource": {
+              "@uniquename": "T4_RELIC",
+              "@count": "5",
+              "@maxreturnamount": "0"
+            }
+          },
+          {
+            "@time": "0.01",
+            "@silver": "5000",
+            "craftresource": {
+              "@uniquename": "T5_SOUL",
+              "@count": "1",
+              "@maxreturnamount": "0"
+            }
+          },
+          {
+            "@time": "0.01",
+            "craftresource": {
+              "@uniquename": "UNIQUE_GVGTOKEN_GENERIC",
+              "@count": "2",
+              "@maxreturnamount": "0"
+            }
+          }
+        ]
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T4_SHARD_CRYSTAL",
+      "index": "2009",
+      "category": "Artifact_Artifact_Fragments",
+      "slot": "Artifact",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": "8",
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T4_SHARD_CRYSTAL",
+        "item_database_index": "2009"
+      },
+      "tier": 4,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Adept's Crystal Shard",
+        "DE-DE": "Kristallsplitter des Adepten",
+        "FR-FR": "Éclat de cristal de l'adepte",
+        "RU-RU": "Осколок кристалла (знаток)",
+        "PL-PL": "Kryształowy Odłamek Adepta",
+        "ES-ES": "Fragmento de cristal del iniciado",
+        "PT-BR": "Fragmento de Cristal do Adepto",
+        "IT-IT": "Scheggia di cristallo del sapiente",
+        "ZH-CN": "老手级水晶碎片",
+        "KO-KR": "숙련자의 크리스탈 파편",
+        "JA-JP": "クリスタルシャード（名人）",
+        "ZH-TW": "老手級水晶碎片",
+        "ID-ID": "Pecahan Kristal Mahir",
+        "TR-TR": "Ehil Kristal Parçası",
+        "AR-SA": "الشظية الكريستالية للبارع"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Shard from the Crystal Realm, used to create Artifacts",
+        "DE-DE": "Splitter der Kristallebene, wird genutzt um Artefakte zu erzeugen",
+        "FR-FR": "Éclat du Royaume Cristal, utilisé pour fabriquer des artefacts",
+        "RU-RU": "Осколок из Кристального мира, используется для создания артефактов",
+        "PL-PL": "Odłamek z Kryształowego Wymiaru, niezbędny podczas wytwarzania Artefaktów",
+        "ES-ES": "Fragmento del Reino de cristal que se utiliza para crear artefactos",
+        "PT-BR": "Fragmento do Reino de Cristal, usado para criar Artefatos",
+        "IT-IT": "Scheggia del Reame di Cristallo, usato per creare Manufatti",
+        "ZH-CN": "来自水晶领域的碎片，用于制造神器",
+        "KO-KR": "아티팩트의 제작에 사용되는 크리스탈 영역의 파편",
+        "JA-JP": "アーティファクトの作成に使用されるクリスタル・レルムの破片。",
+        "ZH-TW": "來自水晶領域的碎片，用於製造神器",
+        "ID-ID": "Pecahan dari Alam Kristal, digunakan untuk membuat Artefak",
+        "TR-TR": "Kristal Diyarı'ndan gelen parça, Eser oluşturmak için kullanılır",
+        "AR-SA": "شظية من العالم الكريستالي تُستخدم لصنع القطع الأثرية"
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T4_SHARD_CRYSTAL",
+        "description_variable": "@ITEMS_SHARD_CRYSTAL_DESC"
+      },
+      "origin": "Artifact/Artifact_Fragments/Artifact_Fragments_T4_SHARD_CRYSTAL.json",
+      "raw": {
+        "@uniquename": "T4_SHARD_CRYSTAL",
+        "@tier": "4",
+        "@weight": "0.05",
+        "@maxstacksize": "999",
+        "@resourcetype": "CRYSTAL",
+        "@shopcategory": "artefacts",
+        "@uisprite": "SHARD_CRYSTAL",
+        "@descriptionlocatag": "@ITEMS_SHARD_CRYSTAL_DESC",
+        "@shopsubcategory1": "fragments",
+        "@unlockedtocraft": "true",
+        "@itemvalue": "8",
+        "@shopsubcategory2": "crystalshards",
+        "@uicraftsoundstart": "Play_ui_action_meld_load",
+        "@uicraftsoundfinish": "Play_ui_action_meld"
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T5_SHARD_FIRE_DRAGON",
+      "index": "2018",
+      "category": "Artifact_Artifact_Fragments",
+      "slot": "Artifact",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": "40",
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T5_SHARD_FIRE_DRAGON",
+        "item_database_index": "2018"
+      },
+      "tier": 5,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Expert's Fire Dragon Scales",
+        "DE-DE": "Feuerdrachenschuppen des Experten",
+        "FR-FR": "Écailles de Dragon de Feu de l'Expert",
+        "RU-RU": "Чешуя огненного дракона (эксперт)",
+        "PL-PL": "Łuski Smoka Ognia Znawcy",
+        "ES-ES": "Escamas de Dragón de Fuego del Experto",
+        "PT-BR": "Escamas de Dragão de Fogo do Perito",
+        "IT-IT": "Scaglie del Drago di Fuoco dell'Esperto",
+        "ZH-CN": "专家级火龙鳞片",
+        "KO-KR": "전문가의 불의 드래곤 비늘",
+        "JA-JP": "達人の炎の竜の鱗",
+        "ZH-TW": "專家級火龍鱗片",
+        "ID-ID": "Sisik Naga Api Ahli",
+        "TR-TR": "Uzman Alev Ejderi Pulları",
+        "AR-SA": "حراشف تنين النار لأخصائي"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Scales taken from a Fire Drake or Dragon, still radiating intense heat. Used to craft artifacts.",
+        "DE-DE": "Schuppen eines Feurigen Jungdrachen oder Drachen. Strahlen große Hitze aus. Material für Artefakte.",
+        "FR-FR": "Écailles prélevées sur un Drake de Feu ou un Dragon qui dégagent encore une chaleur intense. Utilisées pour fabriquer des artefacts.",
+        "RU-RU": "Чешуя Огненного дрейка или дракона, до сих пор излучающая сильный жар. Используется для создания артефактов.",
+        "PL-PL": "Łuski zdobyte z Młodego Ognistego Smoka lub Smoka, wciąż promieniujące intensywnym ciepłem. Służą do tworzenia artefaktów.",
+        "ES-ES": "Escamas extraídas de un Draco de Fuego o un Dragón que aún irradian un calor intenso. Se usan para fabricar artefactos.",
+        "PT-BR": "Escamas retiradas de um Draco de Fogo ou Dragão, ainda emanam um calor intenso. Usado para fabricar artefatos.",
+        "IT-IT": "Scaglie prelevate da un Draco di Fuoco o da un Drago, che emanano ancora un calore intenso. Utilizzato per realizzare manufatti.",
+        "ZH-CN": "取自火焰幼龙或龙族的鳞片，依旧散发灼热高温。用于制造神器。",
+        "KO-KR": "불의 드레이크나 드래곤에게서 얻은 비늘로, 여전히 강렬한 열기를 내뿜습니다. 아티팩트를 제작하는 데 사용됩니다.",
+        "JA-JP": "ファイアドレイクや竜から採取された、今なお強烈な熱を放つ鱗。アーティファクトの作成に使用。",
+        "ZH-TW": "取自火焰幼龍或巨龍的鱗片，依舊散發灼熱高溫。用來製作神器。",
+        "ID-ID": "Sisik diambil dari Drake Api atau Naga, masih memancarkan panas tinggi. Digunakan untuk membuat artefak.",
+        "TR-TR": "Bir Ateş Drakeden veya Ejderhadan alınmış, hala yoğun bir ısı yayan pullar. Eser zanaatı yapmak için kullanılır.",
+        "AR-SA": "حراشف مأخوذة من تنين ناري أو تنين، ولا تزال تشع حرارة شديدة. تُستخدم في صناعة القطع الأثرية."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T5_SHARD_FIRE_DRAGON",
+        "description_variable": "@ITEMS_SHARD_FIRE_DRAGON_DESC"
+      },
+      "origin": "Artifact/Artifact_Fragments/Artifact_Fragments_T5_SHARD_FIRE_DRAGON.json",
+      "raw": {
+        "@uniquename": "T5_SHARD_FIRE_DRAGON",
+        "@tier": "5",
+        "@weight": "0.25",
+        "@maxstacksize": "999",
+        "@resourcetype": "SHARD",
+        "@shopcategory": "artefacts",
+        "@uisprite": "SHARD_FIRE_DRAGON",
+        "@descriptionlocatag": "@ITEMS_SHARD_FIRE_DRAGON_DESC",
+        "@shopsubcategory1": "fragments",
+        "@unlockedtocraft": "true",
+        "@itemvalue": "40",
+        "@shopsubcategory2": "dragonshards",
+        "@uicraftsoundstart": "Play_ui_action_meld_load",
+        "@uicraftsoundfinish": "Play_ui_action_meld"
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T4_SOUL",
+      "index": "2006",
+      "category": "Artifact_Artifact_Fragments",
+      "slot": "Artifact",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": "2",
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": {
+        "primary_resource": "T4_RUNE",
+        "primary_count": 1,
+        "secondary_resource": "",
+        "secondary_count": 0,
+        "resources": [
+          {
+            "id": "T4_RUNE",
+            "count": 1
+          }
+        ]
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T4_SOUL",
+        "item_database_index": "2006"
+      },
+      "tier": 4,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Adept's Soul",
+        "DE-DE": "Seele des Adepten",
+        "FR-FR": "Âme de l'adepte",
+        "RU-RU": "Душа (знаток)",
+        "PL-PL": "Dusza Adepta",
+        "ES-ES": "Alma del iniciado",
+        "PT-BR": "Alma do Adepto",
+        "IT-IT": "Anima del sapiente",
+        "ZH-CN": "老手级精炼之魂",
+        "KO-KR": "숙련자의 영혼",
+        "JA-JP": "魂（名人）",
+        "ZH-TW": "老手級精魂",
+        "ID-ID": "Jiwa Mahir",
+        "TR-TR": "Ehil Ruhu",
+        "AR-SA": "روح البارع"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "A tortured soul, used to meld artifacts and enchant equipment.",
+        "DE-DE": "Eine gequälte Seele, wird beim Verschmelzen von Artefakten und Verzaubern von Ausrüstung verwendet.",
+        "FR-FR": "Une âme torturée, utilisée pour fusionner des artefacts et enchanter de l'équipement.",
+        "RU-RU": "Измученная душа, используемая для создания артефактов и зачарования экипировки.",
+        "PL-PL": "Udręczona dusza używana podczas łączenia artefaktów i zaklinania ekwipunku.",
+        "ES-ES": "Un alma torturada, utilizada para fusionar artefactos y encantar equipos.",
+        "PT-BR": "Alma torturada usada para fundir artefatos e encantar equipamentos.",
+        "IT-IT": "Anima tormentata usata per fondere manufatti e incantare equipaggiamenti.",
+        "ZH-CN": "一个饱受折磨的灵魂，可以用于神器熔铸和装备附魔。",
+        "KO-KR": "고통받는 영혼으로, 아티팩트 혼합과 장비 인챈트에 사용됩니다.",
+        "JA-JP": "苦悩の魂。アーティファクトの合成や、装備のエンチャントに使用可能です。",
+        "ZH-TW": "一個飽受折磨的魂魄，可用於鎔鑄神器和附魔裝備。",
+        "ID-ID": "Jiwa yang tersiksa, digunakan untuk menggabungkan artefak dan melakukan enchantment pada perlengkapan.",
+        "TR-TR": "Eser birleştirmede ve ekipman efsunlamada kullanılan, işkence görmüş bir ruh.",
+        "AR-SA": "روح معذّبة، تُستخدم لصهر القطع الأثرية وسحر المعدات."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T4_SOUL",
+        "description_variable": "@ITEMS_T4_SOUL_DESC"
+      },
+      "origin": "Artifact/Artifact_Fragments/Artifact_Fragments_T4_SOUL.json",
+      "raw": {
+        "@uniquename": "T4_SOUL",
+        "@tier": "4",
+        "@weight": "0.05",
+        "@maxstacksize": "999",
+        "@resourcetype": "SOUL",
+        "@shopcategory": "artefacts",
+        "@shopsubcategory1": "fragments",
+        "@uisprite": "SOUL_WARRIOR",
+        "@unlockedtocraft": "true",
+        "@itemvalue": "2",
+        "@shopsubcategory2": "souls",
+        "@baselineloot": "true",
+        "@uicraftsoundstart": "Play_ui_action_meld_load",
+        "@uicraftsoundfinish": "Play_ui_action_meld",
+        "craftingrequirements": [
+          {
+            "@time": "0.01",
+            "@silver": "625",
+            "craftresource": {
+              "@uniquename": "T4_RUNE",
+              "@count": "1",
+              "@maxreturnamount": "0"
+            }
+          },
+          {
+            "@time": "0.01",
+            "@amountcrafted": "7",
+            "craftresource": {
+              "@uniquename": "UNIQUE_GVGTOKEN_GENERIC",
+              "@count": "1",
+              "@maxreturnamount": "0"
+            }
+          }
+        ]
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T4_RUNE",
+      "index": "2005",
+      "category": "Artifact_Artifact_Fragments",
+      "slot": "Artifact",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": "1",
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": {
+        "primary_resource": "UNIQUE_GVGTOKEN_GENERIC",
+        "primary_count": 1,
+        "secondary_resource": "",
+        "secondary_count": 0,
+        "resources": [
+          {
+            "id": "UNIQUE_GVGTOKEN_GENERIC",
+            "count": 1
+          }
+        ]
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T4_RUNE",
+        "item_database_index": "2005"
+      },
+      "tier": 4,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Adept's Rune",
+        "DE-DE": "Rune des Adepten",
+        "FR-FR": "Rune de l'adepte",
+        "RU-RU": "Руна (знаток)",
+        "PL-PL": "Runa Adepta",
+        "ES-ES": "Runa del iniciado",
+        "PT-BR": "Runa do Adepto",
+        "IT-IT": "Runa del sapiente",
+        "ZH-CN": "老手级符石",
+        "KO-KR": "숙련자의 룬",
+        "JA-JP": "ルーン（名人）",
+        "ZH-TW": "老手級符石",
+        "ID-ID": "Simbol Sihir Mahir",
+        "TR-TR": "Ehil Rünü",
+        "AR-SA": "عنصر رون للبارع"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "A pulsing rune, used to meld artifacts and enchant equipment.",
+        "DE-DE": "Eine pulsierende Rune, wird beim Verschmelzen von Artefakten und Verzaubern von Ausrüstung verwendet.",
+        "FR-FR": "Une rune pulsante, utilisée pour fusionner les artefacts et enchanter l'équipement.",
+        "RU-RU": "Пульсирующая руна, используемая для создания артефактов и зачарования экипировки.",
+        "PL-PL": "Pulsująca runa używana podczas łączenia artefaktów i zaklinania ekwipunku.",
+        "ES-ES": "Una runa pulsante, utilizada para fusionar artefactos y encantar equipos.",
+        "PT-BR": "Runa pulsante usada para fundir artefatos e encantar equipamentos.",
+        "IT-IT": "Runa pulsante usata per fondere manufatti e incantare equipaggiamenti.",
+        "ZH-CN": "一块搏动的符石，可以用于神器熔铸和装备附魔。",
+        "KO-KR": "진동하는 룬으로, 아티팩트 혼합과 장비 인챈트에 사용됩니다.",
+        "JA-JP": "脈打つルーン。アーティファクトの合成や、装備のエンチャントに使用可能です。",
+        "ZH-TW": "一種具有能量波動的符石，可用於鎔鑄神器和附魔裝備。",
+        "ID-ID": "Simbol sihir yang berdenyut, digunakan untuk menggabungkan artefak dan melakukan enchantment pada perlengkapan.",
+        "TR-TR": "Eser birleştirmede ve ekipman efsunlamada kullanılan, titreşen bir rün.",
+        "AR-SA": "عنصر رون نابض، يُستخدم لصهر القطع الأثرية وسحر المعدات."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T4_RUNE",
+        "description_variable": "@ITEMS_T4_RUNE_DESC"
+      },
+      "origin": "Artifact/Artifact_Fragments/Artifact_Fragments_T4_RUNE.json",
+      "raw": {
+        "@uniquename": "T4_RUNE",
+        "@tier": "4",
+        "@weight": "0.05",
+        "@maxstacksize": "999",
+        "@resourcetype": "RUNE",
+        "@shopcategory": "artefacts",
+        "@shopsubcategory1": "fragments",
+        "@uisprite": "RUNE_DESTRUCTION",
+        "@unlockedtocraft": "true",
+        "@itemvalue": "1",
+        "@shopsubcategory2": "runes",
+        "@baselineloot": "true",
+        "@uicraftsoundstart": "Play_ui_action_meld_load",
+        "@uicraftsoundfinish": "Play_ui_action_meld",
+        "craftingrequirements": {
+          "@time": "0.01",
+          "@amountcrafted": "75",
+          "craftresource": {
+            "@uniquename": "UNIQUE_GVGTOKEN_GENERIC",
+            "@count": "1",
+            "@maxreturnamount": "0"
+          }
+        }
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T6_SHARD_FIRE_DRAGON",
+      "index": "2026",
+      "category": "Artifact_Artifact_Fragments",
+      "slot": "Artifact",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": "200",
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T6_SHARD_FIRE_DRAGON",
+        "item_database_index": "2026"
+      },
+      "tier": 6,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Master's Fire Dragon Scales",
+        "DE-DE": "Feuerdrachenschuppen des Meisters",
+        "FR-FR": "Écailles de Dragon de Feu du Maître",
+        "RU-RU": "Чешуя огненного дракона (мастер)",
+        "PL-PL": "Łuski Smoka Ognia Mistrza",
+        "ES-ES": "Escamas de Dragón de Fuego del Maestro",
+        "PT-BR": "Escamas de Dragão de Fogo do Mestre",
+        "IT-IT": "Scaglie del Drago di Fuoco del Maestro",
+        "ZH-CN": "大师级火龙鳞片",
+        "KO-KR": "마스터의 불의 드래곤 비늘",
+        "JA-JP": "マスターの炎の竜の鱗",
+        "ZH-TW": "大師級火龍鱗片",
+        "ID-ID": "Sisik Naga Api Master",
+        "TR-TR": "Usta Alev Ejderi Pulları",
+        "AR-SA": "حراشف تنين النار للخبير"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Scales taken from a Fire Drake or Dragon, still radiating intense heat. Used to craft artifacts.",
+        "DE-DE": "Schuppen eines Feurigen Jungdrachen oder Drachen. Strahlen große Hitze aus. Material für Artefakte.",
+        "FR-FR": "Écailles prélevées sur un Drake de Feu ou un Dragon qui dégagent encore une chaleur intense. Utilisées pour fabriquer des artefacts.",
+        "RU-RU": "Чешуя Огненного дрейка или дракона, до сих пор излучающая сильный жар. Используется для создания артефактов.",
+        "PL-PL": "Łuski zdobyte z Młodego Ognistego Smoka lub Smoka, wciąż promieniujące intensywnym ciepłem. Służą do tworzenia artefaktów.",
+        "ES-ES": "Escamas extraídas de un Draco de Fuego o un Dragón que aún irradian un calor intenso. Se usan para fabricar artefactos.",
+        "PT-BR": "Escamas retiradas de um Draco de Fogo ou Dragão, ainda emanam um calor intenso. Usado para fabricar artefatos.",
+        "IT-IT": "Scaglie prelevate da un Draco di Fuoco o da un Drago, che emanano ancora un calore intenso. Utilizzato per realizzare manufatti.",
+        "ZH-CN": "取自火焰幼龙或龙族的鳞片，依旧散发灼热高温。用于制造神器。",
+        "KO-KR": "불의 드레이크나 드래곤에게서 얻은 비늘로, 여전히 강렬한 열기를 내뿜습니다. 아티팩트를 제작하는 데 사용됩니다.",
+        "JA-JP": "ファイアドレイクや竜から採取された、今なお強烈な熱を放つ鱗。アーティファクトの作成に使用。",
+        "ZH-TW": "取自火焰幼龍或巨龍的鱗片，依舊散發灼熱高溫。用來製作神器。",
+        "ID-ID": "Sisik diambil dari Drake Api atau Naga, masih memancarkan panas tinggi. Digunakan untuk membuat artefak.",
+        "TR-TR": "Bir Ateş Drakeden veya Ejderhadan alınmış, hala yoğun bir ısı yayan pullar. Eser zanaatı yapmak için kullanılır.",
+        "AR-SA": "حراشف مأخوذة من تنين ناري أو تنين، ولا تزال تشع حرارة شديدة. تُستخدم في صناعة القطع الأثرية."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T6_SHARD_FIRE_DRAGON",
+        "description_variable": "@ITEMS_SHARD_FIRE_DRAGON_DESC"
+      },
+      "origin": "Artifact/Artifact_Fragments/Artifact_Fragments_T6_SHARD_FIRE_DRAGON.json",
+      "raw": {
+        "@uniquename": "T6_SHARD_FIRE_DRAGON",
+        "@tier": "6",
+        "@weight": "0.38",
+        "@maxstacksize": "999",
+        "@resourcetype": "SHARD",
+        "@shopcategory": "artefacts",
+        "@uisprite": "SHARD_FIRE_DRAGON",
+        "@descriptionlocatag": "@ITEMS_SHARD_FIRE_DRAGON_DESC",
+        "@shopsubcategory1": "fragments",
+        "@unlockedtocraft": "true",
+        "@itemvalue": "200",
+        "@shopsubcategory2": "dragonshards",
+        "@uicraftsoundstart": "Play_ui_action_meld_load",
+        "@uicraftsoundfinish": "Play_ui_action_meld"
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T7_SHARD_FIRE_DRAGON",
+      "index": "2034",
+      "category": "Artifact_Artifact_Fragments",
+      "slot": "Artifact",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": "1000",
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T7_SHARD_FIRE_DRAGON",
+        "item_database_index": "2034"
+      },
+      "tier": 7,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Grandmaster's Fire Dragon Scales",
+        "DE-DE": "Feuerdrachenschuppen des Großmeisters",
+        "FR-FR": "Écailles de Dragon de Feu du Grand Maître",
+        "RU-RU": "Чешуя огненного дракона (магистр)",
+        "PL-PL": "Łuski Smoka Ognia Wszechmistrza",
+        "ES-ES": "Escamas de Dragón de Fuego del Gran Maestro",
+        "PT-BR": "Escamas de Dragão de Fogo do Grão-mestre",
+        "IT-IT": "Scaglie del Drago di Fuoco del Gran Maestro",
+        "ZH-CN": "宗师级火龙鳞片",
+        "KO-KR": "그랜드 마스터의 불의 드래곤 비늘",
+        "JA-JP": "グランドマスターの炎の竜の鱗",
+        "ZH-TW": "宗師級火龍鱗片",
+        "ID-ID": "Sisik Naga Api Grandmaster",
+        "TR-TR": "Büyük Usta Alev Ejderi Pulları",
+        "AR-SA": "حراشف تنين النار لأستاذ"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Scales taken from a Fire Drake or Dragon, still radiating intense heat. Used to craft artifacts.",
+        "DE-DE": "Schuppen eines Feurigen Jungdrachen oder Drachen. Strahlen große Hitze aus. Material für Artefakte.",
+        "FR-FR": "Écailles prélevées sur un Drake de Feu ou un Dragon qui dégagent encore une chaleur intense. Utilisées pour fabriquer des artefacts.",
+        "RU-RU": "Чешуя Огненного дрейка или дракона, до сих пор излучающая сильный жар. Используется для создания артефактов.",
+        "PL-PL": "Łuski zdobyte z Młodego Ognistego Smoka lub Smoka, wciąż promieniujące intensywnym ciepłem. Służą do tworzenia artefaktów.",
+        "ES-ES": "Escamas extraídas de un Draco de Fuego o un Dragón que aún irradian un calor intenso. Se usan para fabricar artefactos.",
+        "PT-BR": "Escamas retiradas de um Draco de Fogo ou Dragão, ainda emanam um calor intenso. Usado para fabricar artefatos.",
+        "IT-IT": "Scaglie prelevate da un Draco di Fuoco o da un Drago, che emanano ancora un calore intenso. Utilizzato per realizzare manufatti.",
+        "ZH-CN": "取自火焰幼龙或龙族的鳞片，依旧散发灼热高温。用于制造神器。",
+        "KO-KR": "불의 드레이크나 드래곤에게서 얻은 비늘로, 여전히 강렬한 열기를 내뿜습니다. 아티팩트를 제작하는 데 사용됩니다.",
+        "JA-JP": "ファイアドレイクや竜から採取された、今なお強烈な熱を放つ鱗。アーティファクトの作成に使用。",
+        "ZH-TW": "取自火焰幼龍或巨龍的鱗片，依舊散發灼熱高溫。用來製作神器。",
+        "ID-ID": "Sisik diambil dari Drake Api atau Naga, masih memancarkan panas tinggi. Digunakan untuk membuat artefak.",
+        "TR-TR": "Bir Ateş Drakeden veya Ejderhadan alınmış, hala yoğun bir ısı yayan pullar. Eser zanaatı yapmak için kullanılır.",
+        "AR-SA": "حراشف مأخوذة من تنين ناري أو تنين، ولا تزال تشع حرارة شديدة. تُستخدم في صناعة القطع الأثرية."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T7_SHARD_FIRE_DRAGON",
+        "description_variable": "@ITEMS_SHARD_FIRE_DRAGON_DESC"
+      },
+      "origin": "Artifact/Artifact_Fragments/Artifact_Fragments_T7_SHARD_FIRE_DRAGON.json",
+      "raw": {
+        "@uniquename": "T7_SHARD_FIRE_DRAGON",
+        "@tier": "7",
+        "@weight": "0.5",
+        "@maxstacksize": "999",
+        "@resourcetype": "SHARD",
+        "@shopcategory": "artefacts",
+        "@uisprite": "SHARD_FIRE_DRAGON",
+        "@descriptionlocatag": "@ITEMS_SHARD_FIRE_DRAGON_DESC",
+        "@shopsubcategory1": "fragments",
+        "@unlockedtocraft": "true",
+        "@itemvalue": "1000",
+        "@shopsubcategory2": "dragonshards",
+        "@uicraftsoundstart": "Play_ui_action_meld_load",
+        "@uicraftsoundfinish": "Play_ui_action_meld"
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T5_RUNE",
+      "index": "2013",
+      "category": "Artifact_Artifact_Fragments",
+      "slot": "Artifact",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": {
+        "primary_resource": "T4_RUNE",
+        "primary_count": 5,
+        "secondary_resource": "",
+        "secondary_count": 0,
+        "resources": [
+          {
+            "id": "T4_RUNE",
+            "count": 5
+          }
+        ]
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T5_RUNE",
+        "item_database_index": "2013"
+      },
+      "tier": 5,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Expert's Rune",
+        "DE-DE": "Rune des Experten",
+        "FR-FR": "Rune de l'expert",
+        "RU-RU": "Руна (эксперт)",
+        "PL-PL": "Runa Znawcy",
+        "ES-ES": "Runa del experto",
+        "PT-BR": "Runa do Perito",
+        "IT-IT": "Runa dell'esperto",
+        "ZH-CN": "专家级符石",
+        "KO-KR": "전문가의 룬",
+        "JA-JP": "ルーン（達人）",
+        "ZH-TW": "專家級符石",
+        "ID-ID": "Simbol Sihir Ahli",
+        "TR-TR": "Uzman Rünü",
+        "AR-SA": "عنصر رون للأخصائي"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "A pulsing rune, used to meld artifacts and enchant equipment.",
+        "DE-DE": "Eine pulsierende Rune, wird beim Verschmelzen von Artefakten und Verzaubern von Ausrüstung verwendet.",
+        "FR-FR": "Une rune pulsante, utilisée pour fusionner les artefacts et enchanter l'équipement.",
+        "RU-RU": "Пульсирующая руна, используемая для создания артефактов и зачарования экипировки.",
+        "PL-PL": "Pulsująca runa używana podczas łączenia artefaktów i zaklinania ekwipunku.",
+        "ES-ES": "Una runa pulsante, utilizada para fusionar artefactos y encantar equipos.",
+        "PT-BR": "Runa pulsante usada para fundir artefatos e encantar equipamentos.",
+        "IT-IT": "Runa pulsante usata per fondere manufatti e incantare equipaggiamenti.",
+        "ZH-CN": "一块搏动的符石，可以用于神器熔铸和装备附魔。",
+        "KO-KR": "진동하는 룬으로, 아티팩트 혼합과 장비 인챈트에 사용됩니다.",
+        "JA-JP": "脈打つルーン。アーティファクトの合成や、装備のエンチャントに使用可能です。",
+        "ZH-TW": "一種具有能量波動的符石，可用於鎔鑄神器和附魔裝備。",
+        "ID-ID": "Simbol sihir yang berdenyut, digunakan untuk menggabungkan artefak dan melakukan enchantment pada perlengkapan.",
+        "TR-TR": "Eser birleştirmede ve ekipman efsunlamada kullanılan, titreşen bir rün.",
+        "AR-SA": "عنصر رون نابض، يُستخدم لصهر القطع الأثرية وسحر المعدات."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T5_RUNE",
+        "description_variable": "@ITEMS_T5_RUNE_DESC"
+      },
+      "origin": "Artifact/Artifact_Fragments/Artifact_Fragments_T5_RUNE.json",
+      "raw": {
+        "@uniquename": "T5_RUNE",
+        "@tier": "5",
+        "@weight": "0.25",
+        "@maxstacksize": "999",
+        "@resourcetype": "RUNE",
+        "@shopcategory": "artefacts",
+        "@shopsubcategory1": "fragments",
+        "@uisprite": "RUNE_DESTRUCTION",
+        "@unlockedtocraft": "true",
+        "@shopsubcategory2": "runes",
+        "@baselineloot": "true",
+        "@uicraftsoundstart": "Play_ui_action_meld_load",
+        "@uicraftsoundfinish": "Play_ui_action_meld",
+        "craftingrequirements": [
+          {
+            "@time": "0.01",
+            "@silver": "0",
+            "craftresource": {
+              "@uniquename": "T4_RUNE",
+              "@count": "5",
+              "@maxreturnamount": "0"
+            }
+          },
+          {
+            "@time": "0.01",
+            "@amountcrafted": "15",
+            "craftresource": {
+              "@uniquename": "UNIQUE_GVGTOKEN_GENERIC",
+              "@count": "1",
+              "@maxreturnamount": "0"
+            }
+          }
+        ]
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T7_SHARD_AVALONIAN",
+      "index": "2032",
+      "category": "Artifact_Artifact_Fragments",
+      "slot": "Artifact",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": {
+        "primary_resource": "T6_SHARD_AVALONIAN",
+        "primary_count": 5,
+        "secondary_resource": "",
+        "secondary_count": 0,
+        "resources": [
+          {
+            "id": "T6_SHARD_AVALONIAN",
+            "count": 5
+          }
+        ]
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T7_SHARD_AVALONIAN",
+        "item_database_index": "2032"
+      },
+      "tier": 7,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Grandmaster's Avalonian Shard",
+        "DE-DE": "Avalonischer Splitter des Großmeisters",
+        "FR-FR": "Éclat d'Avalon du grand maître",
+        "RU-RU": "Осколок Авалона (магистр)",
+        "PL-PL": "Odłamek Awalonu Wszechmistrza",
+        "ES-ES": "Fragmento avaloniano del gran maestro",
+        "PT-BR": "Fragmento de Avalon do Grão-mestre",
+        "IT-IT": "Scheggia avaloniana del gran maestro",
+        "ZH-CN": "宗师级阿瓦隆碎片",
+        "KO-KR": "그랜드 마스터의 아발론 조각",
+        "JA-JP": "アバロニア人のシャード（グランドマスター）",
+        "ZH-TW": "宗師級阿瓦隆碎片",
+        "ID-ID": "Pecahan Avalonian Grandmaster",
+        "TR-TR": "Büyük Usta Avalon Parçası",
+        "AR-SA": "شظية أفالونية للأستاذ"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Shard of a forgotten kingdom, used to meld artifacts.",
+        "DE-DE": "Der Splitter eines vergessenen Königreichs, wird zur Artefaktschmelze genutzt.",
+        "FR-FR": "Fragment de royaume déchu, utilisé pour fondre des artefacts.",
+        "RU-RU": "Осколок забытого королевства, используется для объединения артефактов.",
+        "PL-PL": "Odłamek zapomnianego królestwa, wykorzystywana do tworzenia artefaktów.",
+        "ES-ES": "Fragmento de un reino olvidado, usado para fusionar artefactos.",
+        "PT-BR": "Fragmento de um reino esquecido, usado para fundir artefatos.",
+        "IT-IT": "Scheggia di un regno dimenticato, usato per fondere manufatti.",
+        "ZH-CN": "某个失落王国的碎片，用于熔铸神器。",
+        "KO-KR": "잃어버린 왕국의 조각, 아티팩트를 세공하기 위해 사용 됩니다.",
+        "JA-JP": "忘れられた王国のシャード。アーティファクトの合成に使用します。",
+        "ZH-TW": "來自某個失落王國的碎片，可用於鎔鑄神器。",
+        "ID-ID": "Pecahan kerajaan yang terlupakan, digunakan untuk menggabungkan artefak.",
+        "TR-TR": "Unutulmuş bir krallığın parçası, eser birleştirmede kullanılır.",
+        "AR-SA": "شظية مملكة منسية، تُستخدم لصهر القطع الأثرية."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T7_SHARD_AVALONIAN",
+        "description_variable": "@ITEMS_SHARD_AVALONIAN_DESC"
+      },
+      "origin": "Artifact/Artifact_Fragments/Artifact_Fragments_T7_SHARD_AVALONIAN.json",
+      "raw": {
+        "@uniquename": "T7_SHARD_AVALONIAN",
+        "@uisprite": "SHARD_AVALON",
+        "@descriptionlocatag": "@ITEMS_SHARD_AVALONIAN_DESC",
+        "@tier": "7",
+        "@weight": "0.5",
+        "@maxstacksize": "999",
+        "@resourcetype": "SHARD",
+        "@shopcategory": "artefacts",
+        "@shopsubcategory1": "fragments",
+        "@unlockedtocraft": "true",
+        "@shopsubcategory2": "avalonianshards",
+        "@uicraftsoundstart": "Play_ui_action_meld_load",
+        "@uicraftsoundfinish": "Play_ui_action_meld",
+        "craftingrequirements": [
+          {
+            "@time": "0.01",
+            "@silver": "0",
+            "craftresource": {
+              "@uniquename": "T6_SHARD_AVALONIAN",
+              "@count": "5",
+              "@maxreturnamount": "0"
+            }
+          },
+          {
+            "@time": "0.01",
+            "@silver": "20000",
+            "craftresource": {
+              "@uniquename": "T7_RELIC",
+              "@count": "1",
+              "@maxreturnamount": "0"
+            }
+          },
+          {
+            "@time": "0.01",
+            "craftresource": {
+              "@uniquename": "UNIQUE_GVGTOKEN_GENERIC",
+              "@count": "54",
+              "@maxreturnamount": "0"
+            }
+          }
+        ]
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T8_SOUL",
+      "index": "2038",
+      "category": "Artifact_Artifact_Fragments",
+      "slot": "Artifact",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": {
+        "primary_resource": "T7_SOUL",
+        "primary_count": 5,
+        "secondary_resource": "",
+        "secondary_count": 0,
+        "resources": [
+          {
+            "id": "T7_SOUL",
+            "count": 5
+          }
+        ]
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T8_SOUL",
+        "item_database_index": "2038"
+      },
+      "tier": 8,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Elder's Soul",
+        "DE-DE": "Seele des Ältesten",
+        "FR-FR": "Âme du sage",
+        "RU-RU": "Душа (старейшина)",
+        "PL-PL": "Dusza Starszego",
+        "ES-ES": "Alma del anciano",
+        "PT-BR": "Alma do Ancião",
+        "IT-IT": "Anima dell'anziano",
+        "ZH-CN": "禅师级精炼之魂",
+        "KO-KR": "장로의 영혼",
+        "JA-JP": "魂（老熟）",
+        "ZH-TW": "禪師級精魂",
+        "ID-ID": "Jiwa Tetua",
+        "TR-TR": "Yüce Ruhu",
+        "AR-SA": "روح الحكيم"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "A tortured soul, used to meld artifacts and enchant equipment.",
+        "DE-DE": "Eine gequälte Seele, wird beim Verschmelzen von Artefakten und Verzaubern von Ausrüstung verwendet.",
+        "FR-FR": "Une âme torturée, utilisée pour fusionner des artefacts et enchanter de l'équipement.",
+        "RU-RU": "Измученная душа, используемая для создания артефактов и зачарования экипировки.",
+        "PL-PL": "Udręczona dusza używana podczas łączenia artefaktów i zaklinania ekwipunku.",
+        "ES-ES": "Un alma torturada, utilizada para fusionar artefactos y encantar equipos.",
+        "PT-BR": "Alma torturada usada para fundir artefatos e encantar equipamentos.",
+        "IT-IT": "Anima tormentata usata per fondere manufatti e incantare equipaggiamenti.",
+        "ZH-CN": "一个饱受折磨的灵魂，可以用于神器熔铸和装备附魔。",
+        "KO-KR": "고통받는 영혼으로, 아티팩트 혼합과 장비 인챈트에 사용됩니다.",
+        "JA-JP": "苦悩の魂。アーティファクトの合成や、装備のエンチャントに使用可能です。",
+        "ZH-TW": "一個飽受折磨的魂魄，可用於鎔鑄神器和附魔裝備。",
+        "ID-ID": "Jiwa yang tersiksa, digunakan untuk menggabungkan artefak dan melakukan enchantment pada perlengkapan.",
+        "TR-TR": "Eser birleştirmede ve ekipman efsunlamada kullanılan, işkence görmüş bir ruh.",
+        "AR-SA": "روح معذّبة، تُستخدم لصهر القطع الأثرية وسحر المعدات."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T8_SOUL",
+        "description_variable": "@ITEMS_T8_SOUL_DESC"
+      },
+      "origin": "Artifact/Artifact_Fragments/Artifact_Fragments_T8_SOUL.json",
+      "raw": {
+        "@uniquename": "T8_SOUL",
+        "@tier": "8",
+        "@weight": "1",
+        "@maxstacksize": "999",
+        "@resourcetype": "SOUL",
+        "@shopcategory": "artefacts",
+        "@shopsubcategory1": "fragments",
+        "@uisprite": "SOUL_WARRIOR",
+        "@unlockedtocraft": "true",
+        "@shopsubcategory2": "souls",
+        "@baselineloot": "true",
+        "@uicraftsoundstart": "Play_ui_action_meld_load",
+        "@uicraftsoundfinish": "Play_ui_action_meld",
+        "craftingrequirements": [
+          {
+            "@time": "0.01",
+            "@silver": "0",
+            "craftresource": {
+              "@uniquename": "T7_SOUL",
+              "@count": "5",
+              "@maxreturnamount": "0"
+            }
+          },
+          {
+            "@time": "0.01",
+            "@silver": "10000",
+            "craftresource": {
+              "@uniquename": "T8_RUNE",
+              "@count": "1",
+              "@maxreturnamount": "0"
+            }
+          },
+          {
+            "@time": "0.01",
+            "craftresource": {
+              "@uniquename": "UNIQUE_GVGTOKEN_GENERIC",
+              "@count": "18",
+              "@maxreturnamount": "0"
+            }
+          }
+        ]
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    },
+    {
+      "id": "T8_RUNE",
+      "index": "2037",
+      "category": "Artifact_Artifact_Fragments",
+      "slot": "Artifact",
+      "two_handed": false,
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "crafting_requirements": {
+        "primary_resource": "T7_RUNE",
+        "primary_count": 5,
+        "secondary_resource": "",
+        "secondary_count": 0,
+        "resources": [
+          {
+            "id": "T7_RUNE",
+            "count": 5
+          }
+        ]
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T8_RUNE",
+        "item_database_index": "2037"
+      },
+      "tier": 8,
+      "enchantment": 0,
+      "localized_all_names": {
+        "EN-US": "Elder's Rune",
+        "DE-DE": "Rune des Ältesten",
+        "FR-FR": "Rune du sage",
+        "RU-RU": "Руна (старейшина)",
+        "PL-PL": "Runa Starszego",
+        "ES-ES": "Runa del anciano",
+        "PT-BR": "Runa do Ancião",
+        "IT-IT": "Runa dell'anziano",
+        "ZH-CN": "禅师级符石",
+        "KO-KR": "장로의 룬",
+        "JA-JP": "ルーン（老熟）",
+        "ZH-TW": "禪師級符石",
+        "ID-ID": "Simbol Sihir Tetua",
+        "TR-TR": "Yüce Rünü",
+        "AR-SA": "عنصر رون للحكيم"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "A pulsing rune, used to meld artifacts and enchant equipment.",
+        "DE-DE": "Eine pulsierende Rune, wird beim Verschmelzen von Artefakten und Verzaubern von Ausrüstung verwendet.",
+        "FR-FR": "Une rune pulsante, utilisée pour fusionner les artefacts et enchanter l'équipement.",
+        "RU-RU": "Пульсирующая руна, используемая для создания артефактов и зачарования экипировки.",
+        "PL-PL": "Pulsująca runa używana podczas łączenia artefaktów i zaklinania ekwipunku.",
+        "ES-ES": "Una runa pulsante, utilizada para fusionar artefactos y encantar equipos.",
+        "PT-BR": "Runa pulsante usada para fundir artefatos e encantar equipamentos.",
+        "IT-IT": "Runa pulsante usata per fondere manufatti e incantare equipaggiamenti.",
+        "ZH-CN": "一块搏动的符石，可以用于神器熔铸和装备附魔。",
+        "KO-KR": "진동하는 룬으로, 아티팩트 혼합과 장비 인챈트에 사용됩니다.",
+        "JA-JP": "脈打つルーン。アーティファクトの合成や、装備のエンチャントに使用可能です。",
+        "ZH-TW": "一種具有能量波動的符石，可用於鎔鑄神器和附魔裝備。",
+        "ID-ID": "Simbol sihir yang berdenyut, digunakan untuk menggabungkan artefak dan melakukan enchantment pada perlengkapan.",
+        "TR-TR": "Eser birleştirmede ve ekipman efsunlamada kullanılan, titreşen bir rün.",
+        "AR-SA": "عنصر رون نابض، يُستخدم لصهر القطع الأثرية وسحر المعدات."
+      },
+      "source": "ao-bin-dumps",
+      "localization_variables": {
+        "name_variable": "@ITEMS_T8_RUNE",
+        "description_variable": "@ITEMS_T8_RUNE_DESC"
+      },
+      "origin": "Artifact/Artifact_Fragments/Artifact_Fragments_T8_RUNE.json",
+      "raw": {
+        "@uniquename": "T8_RUNE",
+        "@tier": "8",
+        "@weight": "1",
+        "@maxstacksize": "999",
+        "@resourcetype": "RUNE",
+        "@shopcategory": "artefacts",
+        "@shopsubcategory1": "fragments",
+        "@uisprite": "RUNE_DESTRUCTION",
+        "@unlockedtocraft": "true",
+        "@shopsubcategory2": "runes",
+        "@baselineloot": "true",
+        "@uicraftsoundstart": "Play_ui_action_meld_load",
+        "@uicraftsoundfinish": "Play_ui_action_meld",
+        "craftingrequirements": [
+          {
+            "@time": "0.01",
+            "@silver": "0",
+            "craftresource": {
+              "@uniquename": "T7_RUNE",
+              "@count": "5",
+              "@maxreturnamount": "0"
+            }
+          },
+          {
+            "@time": "0.01",
+            "craftresource": {
+              "@uniquename": "UNIQUE_GVGTOKEN_GENERIC",
+              "@count": "6",
+              "@maxreturnamount": "0"
+            }
+          }
+        ]
+      },
+      "name_sources_ref": 0,
+      "description_sources_ref": 0
+    }
+  ]
+}
