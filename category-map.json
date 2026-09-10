@@ -37,7 +37,7 @@
     "Bags": [
       {
         "value": "Bags",
-        "count": 7
+        "count": 27
       }
     ],
     "Caps": [
@@ -46,7 +46,7 @@
         "count": 89
       }
     ],
-    "Chest": [
+    "Chest_Armor": [
       {
         "value": "Chest_Armor_Cloth_Robes",
         "count": 232
@@ -122,7 +122,7 @@
         "count": 47
       }
     ],
-    "Foot": [
+    "Foot_Armor": [
       {
         "value": "Foot_Armor_Cloth_Sandals",
         "count": 232
@@ -158,7 +158,7 @@
         "count": 101
       }
     ],
-    "Gathering": [
+    "Gathering_Equipment": [
       {
         "value": "Gathering_Fiber",
         "count": 113
@@ -188,7 +188,7 @@
         "count": 113
       }
     ],
-    "Head": [
+    "Head_Armor": [
       {
         "value": "Head_Armor_Cloth_Cowl",
         "count": 232
@@ -216,7 +216,7 @@
         "count": 43
       }
     ],
-    "Off": [
+    "Off_Hands": [
       {
         "value": "Off_Hands_Hunter",
         "count": 151
@@ -252,10 +252,10 @@
         "count": 40
       }
     ],
-    "Satchels": [
+    "Satchels_Of_Insight": [
       {
         "value": "Satchels_Of_Insight",
-        "count": 5
+        "count": 25
       }
     ],
     "Vanity": [

@@ -3,11 +3,67 @@
   "item_count": 17,
   "items": [
     {
-      "id": "T6_SIEGE_BANNER",
-      "index": "11915",
+      "id": "T2_2H_TOOL_SIEGEHAMMER",
+      "index": "3003",
+      "name_en": "Novice's Siege Hammer",
+      "name_ar": "مطرقة الحصار للمبتدئ",
+      "name_de": "Belagerungshammer des Novizen",
+      "name_fr": "Marteau de siège de l'apprenti",
+      "name_es": "Martillo de asedio del novato",
+      "name_ru": "Осадный молот (новичок)",
+      "descriptions": {
+        "description_en": "A powerful hammer designed for destroying buildings and furniture.",
+        "description_ar": "مطرقة قوية مصممة لتدمير المباني والأثاث.",
+        "description_de": "Werkzeug zur Zerstörung von Gebäuden und Möbeln.",
+        "description_fr": "Outil de destruction des bâtiments et du mobilier",
+        "description_es": "Herramienta para destruir edificios y muebles.",
+        "description_ru": "Помогает сносить здания и ломать мебель."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T2_2H_TOOL_SIEGEHAMMER",
+        "description_variable": "@ITEMS_T2_2H_TOOL_SIEGEHAMMER_DESC"
+      },
       "category": "Other_Guilds",
-      "slot": "2h",
-      "two_handed": false,
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T2_2H_TOOL_SIEGEHAMMER",
+        "mesh": "T2_2H_SIEGEHAMMER",
+        "uisprite": "2H_SIEGEHAMMER",
+        "attackendanimgaptime": "0.1",
+        "maxqualitylevel": "1",
+        "abilitypower": "100",
+        "slottype": "mainhand",
+        "craftingcategory": "tools",
+        "shopcategory": "other",
+        "shopsubcategory1": "guilds",
+        "attacktype": "melee",
+        "attackbuildingdamage": "35",
+        "repairbuildingdamage": "29",
+        "attackdamage": "51",
+        "attackspeed": "0.5",
+        "attackrange": "3",
+        "twohanded": "true",
+        "tier": "2",
+        "weight": "0.75",
+        "activespellslots": "0",
+        "passivespellslots": "0",
+        "durability": "400",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "mainhandanimationtype": "t_siege hammer",
+        "mainhandanimationtype_repairbuilding": "t_siege_repair hammer",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "itempower": "300",
+        "unequipincombat": "false",
+        "uicraftsoundstart": "Play_ui_action_craft_tool_start",
+        "uicraftsoundfinish": "Play_ui_action_craft_tool_finish",
+        "canbeovercharged": "false",
+        "shopsubcategory2": "siegehammer"
+      },
       "item_stats": {
         "itemvalue": null,
         "resourcevalue": null,
@@ -15,110 +71,194 @@
         "salvagevalueoverride": null,
         "estimatedmarketvalueoverride": null
       },
+      "localized_all_names": {
+        "EN-US": "Novice's Siege Hammer",
+        "DE-DE": "Belagerungshammer des Novizen",
+        "FR-FR": "Marteau de siège de l'apprenti",
+        "RU-RU": "Осадный молот (новичок)",
+        "PL-PL": "Młot Oblężniczy Nowicjusza",
+        "ES-ES": "Martillo de asedio del novato",
+        "PT-BR": "Martelo de Cerco do Novato",
+        "IT-IT": "Martello d'assedio del novizio",
+        "ZH-CN": "新手级攻城锤",
+        "KO-KR": "초심자의 공성 망치",
+        "JA-JP": "シージハンマー（見習い）",
+        "ZH-TW": "新手級攻城鎚",
+        "ID-ID": "Palu Pengepungan Pemula",
+        "TR-TR": "Acemi Kuşatma Çekici",
+        "AR-SA": "مطرقة الحصار للمبتدئ"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "A powerful hammer designed for destroying buildings and furniture.",
+        "DE-DE": "Werkzeug zur Zerstörung von Gebäuden und Möbeln.",
+        "FR-FR": "Outil de destruction des bâtiments et du mobilier",
+        "RU-RU": "Помогает сносить здания и ломать мебель.",
+        "PL-PL": "Narzędzie do niszczenia budynków i mebli.",
+        "ES-ES": "Herramienta para destruir edificios y muebles.",
+        "PT-BR": "Ferramenta para destruir construções e mobílias",
+        "IT-IT": "Un grosso e pesante martello pensato per distruggere edifici e arredi.",
+        "ZH-CN": "强大的锤子，专门用于摧毁建筑和家具。",
+        "KO-KR": "건물과 가구를 파괴하도록 설계된 튼튼한 망치.",
+        "JA-JP": "建物や家具の破壊用の強力なハンマー。",
+        "ZH-TW": "一種專門設計來摧毀建築物和家具的強力鎚子。",
+        "ID-ID": "Palu kuat yang dirancang untuk menghancurkan bangunan atau furnitur.",
+        "TR-TR": "Yapı ve mobilya yok etmek için tasarlanmış güçlü bir çekiç.",
+        "AR-SA": "مطرقة قوية مصممة لتدمير المباني والأثاث."
+      },
       "crafting_requirements": {
-        "primary_resource": "T6_CLOTH",
+        "primary_resource": "T2_PLANKS",
         "primary_count": 12,
-        "secondary_resource": "T6_PLANKS",
-        "secondary_count": 4,
+        "secondary_resource": "T2_STONEBLOCK",
+        "secondary_count": 12,
         "resources": [
           {
-            "id": "T6_CLOTH",
+            "id": "T2_PLANKS",
             "count": 12
           },
           {
-            "id": "T6_PLANKS",
-            "count": 4
+            "id": "T2_STONEBLOCK",
+            "count": 12
           }
         ]
       },
       "is_artifact": false,
       "artifact_details": null,
       "integration_ids": {
-        "albion_online_data_project_id": "T6_SIEGE_BANNER",
-        "item_database_index": "11915"
+        "albion_online_data_project_id": "T2_2H_TOOL_SIEGEHAMMER",
+        "item_database_index": "3003"
       },
-      "tier": 6,
+      "tier": 2,
       "enchantment": 0,
-      "localized_all_names": {
-        "EN-US": "Master's Siege Banner",
-        "DE-DE": "Belagerungsbanner des Meisters",
-        "FR-FR": "Bannière de siège du maître",
-        "RU-RU": "Осадное знамя (мастер)",
-        "PL-PL": "Sztandar Oblężniczy Mistrza",
-        "ES-ES": "Estandarte de asedio del maestro",
-        "PT-BR": "Estandarte de Cerco do Mestre",
-        "IT-IT": "Stendardo d'assedio del maestro",
-        "ZH-CN": "大师级攻城战旗",
-        "KO-KR": "마스터의 공성 깃발",
-        "JA-JP": "シージバナー（マスター）",
-        "ZH-TW": "大師級攻城戰旗",
-        "ID-ID": "Panji Pengepungan Master",
-        "TR-TR": "Usta Kuşatma Sancağı",
-        "AR-SA": "راية حصار الخبير"
+      "localized": {
+        "name_en": "Novice's Siege Hammer",
+        "name_ar": "مطرقة الحصار للمبتدئ",
+        "name_de": "Belagerungshammer des Novizen",
+        "name_fr": "Marteau de siège de l'apprenti",
+        "name_es": "Martillo de asedio del novato",
+        "name_ru": "Осадный молот (новичок)"
       },
-      "localized_all_descriptions": {
-        "EN-US": "Use this to weaken enemy territories, making them vulnerable to attack. It is required for raiding or conquering territories.",
-        "DE-DE": "Nutze es zum Schwächen gegnerischer Territorien, wodurch sie angreifbar werden. Es ist notwendig, um Territorien zu überfallen oder zu erobern.",
-        "FR-FR": "Utilisez-la pour affaiblir les territoires ennemis et les rendre vulnérables aux attaques. Elle est nécessaire pour effectuer des raids ou conquérir des territoires.",
-        "RU-RU": "Используйте его, чтобы ослабить вражеские территории, сделав их уязвимыми для нападения. Оно необходимо для рейдов и завоевания территорий.",
-        "PL-PL": "Użyj go, aby osłabić terytoria wroga, czyniąc je łatwiejszymi do zaatakowania. Wymagany do najazdu i podboju terytoriów.",
-        "ES-ES": "Utilízalo para debilitar los territorios enemigos, de modo que sean vulnerables a los ataques. Es necesario para realizar asaltos o conquistar territorios.",
-        "PT-BR": "Use isto para enfraquecer territórios inimigos, tornando-os vulneráveis ao ataque. Este item é necessário para invadir ou conquistar territórios.",
-        "IT-IT": "Si usa per indebolire i territori nemici, rendendoli vulnerabili agli attacchi. È necessario per le razzie o la conquista di territori.",
-        "ZH-CN": "用它来削弱敌人的领地，使他们可以受到攻击。它是袭击或征服领地所必需的。",
-        "KO-KR": "아이템을 사용해 적의 영토를 약화시키고, 공격에 취약한 상태로 만듭니다. 영토를 습격하거나 정복하는 데에 필요합니다.",
-        "JA-JP": "敵の領地を弱体化させ、攻撃を受けやすくする。レイドや 領地征服の際に必要となる。",
-        "ZH-TW": "用它來削弱敵人的領地，使他們可以受到攻擊。它是襲擊或征服領地所必需的。",
-        "ID-ID": "Gunakan ini untuk melemahkan wilayah musuh, menjadikannya rentan terhadap serangan. Diperlukan untuk menyerbu atau menaklukkan wilayah.",
-        "TR-TR": "Düşman mıntıkaları zayıflatmak ve saldırıya açık hale getirmek için bunu kullan. Mıntıkalara baskın yapmak veya fethetmek için gereklidir.",
-        "AR-SA": "استخدمها لإضعاف مناطق العدو، مما يجعلها عرضة للهجوم. وهي مطلوبة للمداهمة أو غزو المناطق."
-      },
-      "source": "ao-bin-dumps",
-      "localization_variables": {
-        "name_variable": "@ITEMS_T6_SIEGE_BANNER",
-        "description_variable": "@ITEMS_T4_SIEGE_BANNER_DESC"
-      },
-      "origin": "Other/Guilds/Guilds_T6_SIEGE_BANNER.json",
       "raw": {
-        "@uniquename": "T6_SIEGE_BANNER",
-        "@referencespell": "T6_RAID_BANNER_ITEM_SPELL",
-        "@tradable": "true",
+        "@uniquename": "T2_2H_TOOL_SIEGEHAMMER",
+        "@mesh": "T2_2H_SIEGEHAMMER",
+        "@uisprite": "2H_SIEGEHAMMER",
+        "@attackendanimgaptime": "0.1",
+        "@maxqualitylevel": "1",
+        "@abilitypower": "100",
+        "@slottype": "mainhand",
+        "@craftingcategory": "tools",
         "@shopcategory": "other",
         "@shopsubcategory1": "guilds",
-        "@tier": "6",
-        "@weight": "3.8",
-        "@maxstacksize": "999",
+        "@attacktype": "melee",
+        "@attackbuildingdamage": "35",
+        "@repairbuildingdamage": "29",
+        "@attackdamage": "51",
+        "@attackspeed": "0.5",
+        "@attackrange": "3",
+        "@twohanded": "true",
+        "@tier": "2",
+        "@weight": "0.75",
+        "@activespellslots": "0",
+        "@passivespellslots": "0",
+        "@durability": "400",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@mainhandanimationtype": "t_siege hammer",
+        "@mainhandanimationtype_repairbuilding": "t_siege_repair hammer",
         "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@itempower": "300",
+        "@unequipincombat": "false",
         "@uicraftsoundstart": "Play_ui_action_craft_tool_start",
         "@uicraftsoundfinish": "Play_ui_action_craft_tool_finish",
         "@canbeovercharged": "false",
-        "@descriptionlocatag": "@ITEMS_T4_SIEGE_BANNER_DESC",
-        "@shopsubcategory2": "siegebanners",
+        "@shopsubcategory2": "siegehammer",
         "craftingrequirements": {
           "@silver": "0",
-          "@time": "0.66667",
-          "@craftingfocus": "2626",
+          "@time": "0.33333",
+          "@craftingfocus": "280",
           "craftresource": [
             {
-              "@uniquename": "T6_PLANKS",
-              "@count": "4"
+              "@uniquename": "T2_PLANKS",
+              "@count": "12"
             },
             {
-              "@uniquename": "T6_CLOTH",
+              "@uniquename": "T2_STONEBLOCK",
               "@count": "12"
             }
           ]
+        },
+        "AudioInfo": {
+          "@name": "TOOL_SIEGEHAMMER"
+        },
+        "SocketPreset": {
+          "@name": "TOOL_SIEGEHAMMER"
         }
-      },
-      "name_sources_ref": 0,
-      "description_sources_ref": 0
+      }
     },
     {
-      "id": "T4_2H_TOOL_SIEGEHAMMER_AVALON",
-      "index": "3010",
+      "id": "T3_2H_TOOL_SIEGEHAMMER",
+      "index": "3004",
+      "name_en": "Journeyman's Siege Hammer",
+      "name_ar": "مطرقة الحصار الموثوق",
+      "name_de": "Belagerungshammer des Gesellen",
+      "name_fr": "Marteau de siège du compagnon",
+      "name_es": "Martillo de asedio del obrero",
+      "name_ru": "Осадный молот (странник)",
+      "descriptions": {
+        "description_en": "A powerful hammer designed for destroying buildings and furniture.",
+        "description_ar": "مطرقة قوية مصممة لتدمير المباني والأثاث.",
+        "description_de": "Werkzeug zur Zerstörung von Gebäuden und Möbeln.",
+        "description_fr": "Outil de destruction des bâtiments et du mobilier",
+        "description_es": "Herramienta para destruir edificios y muebles.",
+        "description_ru": "Помогает сносить здания и ломать мебель."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T3_2H_TOOL_SIEGEHAMMER",
+        "description_variable": "@ITEMS_T3_2H_TOOL_SIEGEHAMMER_DESC"
+      },
       "category": "Other_Guilds",
       "slot": "MainHand",
       "two_handed": true,
+      "attributes": {
+        "uniquename": "T3_2H_TOOL_SIEGEHAMMER",
+        "mesh": "T3_2H_SIEGEHAMMER",
+        "uisprite": "2H_SIEGEHAMMER",
+        "attackendanimgaptime": "0.1",
+        "maxqualitylevel": "1",
+        "abilitypower": "100",
+        "slottype": "mainhand",
+        "craftingcategory": "tools",
+        "shopcategory": "other",
+        "shopsubcategory1": "guilds",
+        "attacktype": "melee",
+        "attackbuildingdamage": "40",
+        "repairbuildingdamage": "33",
+        "attackdamage": "60",
+        "attackspeed": "0.5",
+        "attackrange": "3",
+        "twohanded": "true",
+        "tier": "3",
+        "weight": "1.13",
+        "activespellslots": "0",
+        "passivespellslots": "0",
+        "durability": "800",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "mainhandanimationtype": "t_siege hammer",
+        "mainhandanimationtype_repairbuilding": "t_siege_repair hammer",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "itempower": "500",
+        "unequipincombat": "false",
+        "uicraftsoundstart": "Play_ui_action_craft_tool_start",
+        "uicraftsoundfinish": "Play_ui_action_craft_tool_finish",
+        "canbeovercharged": "false",
+        "shopsubcategory2": "siegehammer"
+      },
       "item_stats": {
         "itemvalue": null,
         "resourcevalue": null,
@@ -126,16 +266,241 @@
         "salvagevalueoverride": null,
         "estimatedmarketvalueoverride": null
       },
+      "localized_all_names": {
+        "EN-US": "Journeyman's Siege Hammer",
+        "DE-DE": "Belagerungshammer des Gesellen",
+        "FR-FR": "Marteau de siège du compagnon",
+        "RU-RU": "Осадный молот (странник)",
+        "PL-PL": "Młot Oblężniczy Czeladnika",
+        "ES-ES": "Martillo de asedio del obrero",
+        "PT-BR": "Martelo de Cerco do Iniciante",
+        "IT-IT": "Martello d'assedio dell'apprendista",
+        "ZH-CN": "学徒级攻城锤",
+        "KO-KR": "장인의 공성 망치",
+        "JA-JP": "シージハンマー（熟練）",
+        "ZH-TW": "學徒級攻城鎚",
+        "ID-ID": "Palu Pengepungan Pengembara",
+        "TR-TR": "Kalfa Kuşatma Çekici",
+        "AR-SA": "مطرقة الحصار الموثوق"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "A powerful hammer designed for destroying buildings and furniture.",
+        "DE-DE": "Werkzeug zur Zerstörung von Gebäuden und Möbeln.",
+        "FR-FR": "Outil de destruction des bâtiments et du mobilier",
+        "RU-RU": "Помогает сносить здания и ломать мебель.",
+        "PL-PL": "Narzędzie do niszczenia budynków i mebli.",
+        "ES-ES": "Herramienta para destruir edificios y muebles.",
+        "PT-BR": "Ferramenta para destruir construções e mobílias",
+        "IT-IT": "Un grosso e pesante martello pensato per distruggere edifici e arredi.",
+        "ZH-CN": "强大的锤子，专门用于摧毁建筑和家具。",
+        "KO-KR": "건물과 가구를 파괴하도록 설계된 튼튼한 망치.",
+        "JA-JP": "建物や家具の破壊用の強力なハンマー。",
+        "ZH-TW": "一種專門設計來摧毀建築物和家具的強力鎚子。",
+        "ID-ID": "Palu kuat yang dirancang untuk menghancurkan bangunan atau furnitur.",
+        "TR-TR": "Yapı ve mobilya yok etmek için tasarlanmış güçlü bir çekiç.",
+        "AR-SA": "مطرقة قوية مصممة لتدمير المباني والأثاث."
+      },
       "crafting_requirements": {
-        "primary_resource": "QUESTITEM_TOKEN_AVALON",
-        "primary_count": 20,
-        "secondary_resource": "T4_PLANKS",
+        "primary_resource": "T3_PLANKS",
+        "primary_count": 8,
+        "secondary_resource": "T3_STONEBLOCK",
         "secondary_count": 8,
         "resources": [
           {
-            "id": "QUESTITEM_TOKEN_AVALON",
-            "count": 20
+            "id": "T3_PLANKS",
+            "count": 8
           },
+          {
+            "id": "T3_STONEBLOCK",
+            "count": 8
+          }
+        ]
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T3_2H_TOOL_SIEGEHAMMER",
+        "item_database_index": "3004"
+      },
+      "tier": 3,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Journeyman's Siege Hammer",
+        "name_ar": "مطرقة الحصار الموثوق",
+        "name_de": "Belagerungshammer des Gesellen",
+        "name_fr": "Marteau de siège du compagnon",
+        "name_es": "Martillo de asedio del obrero",
+        "name_ru": "Осадный молот (странник)"
+      },
+      "raw": {
+        "@uniquename": "T3_2H_TOOL_SIEGEHAMMER",
+        "@mesh": "T3_2H_SIEGEHAMMER",
+        "@uisprite": "2H_SIEGEHAMMER",
+        "@attackendanimgaptime": "0.1",
+        "@maxqualitylevel": "1",
+        "@abilitypower": "100",
+        "@slottype": "mainhand",
+        "@craftingcategory": "tools",
+        "@shopcategory": "other",
+        "@shopsubcategory1": "guilds",
+        "@attacktype": "melee",
+        "@attackbuildingdamage": "40",
+        "@repairbuildingdamage": "33",
+        "@attackdamage": "60",
+        "@attackspeed": "0.5",
+        "@attackrange": "3",
+        "@twohanded": "true",
+        "@tier": "3",
+        "@weight": "1.13",
+        "@activespellslots": "0",
+        "@passivespellslots": "0",
+        "@durability": "800",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@mainhandanimationtype": "t_siege hammer",
+        "@mainhandanimationtype_repairbuilding": "t_siege_repair hammer",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@itempower": "500",
+        "@unequipincombat": "false",
+        "@uicraftsoundstart": "Play_ui_action_craft_tool_start",
+        "@uicraftsoundfinish": "Play_ui_action_craft_tool_finish",
+        "@canbeovercharged": "false",
+        "@shopsubcategory2": "siegehammer",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "0.5",
+          "@craftingfocus": "490",
+          "craftresource": [
+            {
+              "@uniquename": "T3_PLANKS",
+              "@count": "8"
+            },
+            {
+              "@uniquename": "T3_STONEBLOCK",
+              "@count": "8"
+            }
+          ]
+        },
+        "AudioInfo": {
+          "@name": "TOOL_SIEGEHAMMER"
+        },
+        "SocketPreset": {
+          "@name": "TOOL_SIEGEHAMMER"
+        }
+      }
+    },
+    {
+      "id": "T4_2H_TOOL_SIEGEHAMMER",
+      "index": "3005",
+      "name_en": "Adept's Siege Hammer",
+      "name_ar": "مطرقة الحصار للبارع",
+      "name_de": "Belagerungshammer des Adepten",
+      "name_fr": "Marteau de siège de l'adepte",
+      "name_es": "Martillo de asedio del iniciado",
+      "name_ru": "Осадный молот (знаток)",
+      "descriptions": {
+        "description_en": "A powerful hammer designed for destroying buildings and furniture.",
+        "description_ar": "مطرقة قوية مصممة لتدمير المباني والأثاث.",
+        "description_de": "Werkzeug zur Zerstörung von Gebäuden und Möbeln.",
+        "description_fr": "Outil de destruction des bâtiments et du mobilier",
+        "description_es": "Herramienta para destruir edificios y muebles.",
+        "description_ru": "Помогает сносить здания и ломать мебель."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T4_2H_TOOL_SIEGEHAMMER",
+        "description_variable": "@ITEMS_T4_2H_TOOL_SIEGEHAMMER_DESC"
+      },
+      "category": "Other_Guilds",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T4_2H_TOOL_SIEGEHAMMER",
+        "mesh": "T4_2H_SIEGEHAMMER",
+        "uisprite": "2H_SIEGEHAMMER",
+        "attackendanimgaptime": "0.1",
+        "maxqualitylevel": "1",
+        "abilitypower": "100",
+        "slottype": "mainhand",
+        "craftingcategory": "tools",
+        "shopcategory": "other",
+        "shopsubcategory1": "guilds",
+        "attacktype": "melee",
+        "attackbuildingdamage": "55",
+        "repairbuildingdamage": "45",
+        "attackdamage": "72",
+        "attackspeed": "0.5",
+        "attackrange": "3",
+        "twohanded": "true",
+        "tier": "4",
+        "weight": "1.69",
+        "activespellslots": "0",
+        "passivespellslots": "0",
+        "durability": "1600",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "mainhandanimationtype": "t_siege hammer",
+        "mainhandanimationtype_repairbuilding": "t_siege_repair hammer",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "itempower": "700",
+        "unequipincombat": "false",
+        "uicraftsoundstart": "Play_ui_action_craft_tool_start",
+        "uicraftsoundfinish": "Play_ui_action_craft_tool_finish",
+        "canbeovercharged": "false",
+        "shopsubcategory2": "siegehammer"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Adept's Siege Hammer",
+        "DE-DE": "Belagerungshammer des Adepten",
+        "FR-FR": "Marteau de siège de l'adepte",
+        "RU-RU": "Осадный молот (знаток)",
+        "PL-PL": "Młot Oblężniczy Adepta",
+        "ES-ES": "Martillo de asedio del iniciado",
+        "PT-BR": "Martelo de Cerco do Adepto",
+        "IT-IT": "Martello d'assedio del sapiente",
+        "ZH-CN": "老手级攻城锤",
+        "KO-KR": "숙련자의 공성 망치",
+        "JA-JP": "シージハンマー（名人）",
+        "ZH-TW": "老手級攻城鎚",
+        "ID-ID": "Palu Pengepungan Mahir",
+        "TR-TR": "Ehil Kuşatma Çekici",
+        "AR-SA": "مطرقة الحصار للبارع"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "A powerful hammer designed for destroying buildings and furniture.",
+        "DE-DE": "Werkzeug zur Zerstörung von Gebäuden und Möbeln.",
+        "FR-FR": "Outil de destruction des bâtiments et du mobilier",
+        "RU-RU": "Помогает сносить здания и ломать мебель.",
+        "PL-PL": "Narzędzie do niszczenia budynków i mebli.",
+        "ES-ES": "Herramienta para destruir edificios y muebles.",
+        "PT-BR": "Ferramenta para destruir construções e mobílias",
+        "IT-IT": "Un grosso e pesante martello pensato per distruggere edifici e arredi.",
+        "ZH-CN": "强大的锤子，专门用于摧毁建筑和家具。",
+        "KO-KR": "건물과 가구를 파괴하도록 설계된 튼튼한 망치.",
+        "JA-JP": "建物や家具の破壊用の強力なハンマー。",
+        "ZH-TW": "一種專門設計來摧毀建築物和家具的強力鎚子。",
+        "ID-ID": "Palu kuat yang dirancang untuk menghancurkan bangunan atau furnitur.",
+        "TR-TR": "Yapı ve mobilya yok etmek için tasarlanmış güçlü bir çekiç.",
+        "AR-SA": "مطرقة قوية مصممة لتدمير المباني والأثاث."
+      },
+      "crafting_requirements": {
+        "primary_resource": "T4_PLANKS",
+        "primary_count": 8,
+        "secondary_resource": "T4_STONEBLOCK",
+        "secondary_count": 8,
+        "resources": [
           {
             "id": "T4_PLANKS",
             "count": 8
@@ -149,11 +514,929 @@
       "is_artifact": false,
       "artifact_details": null,
       "integration_ids": {
-        "albion_online_data_project_id": "T4_2H_TOOL_SIEGEHAMMER_AVALON",
-        "item_database_index": "3010"
+        "albion_online_data_project_id": "T4_2H_TOOL_SIEGEHAMMER",
+        "item_database_index": "3005"
       },
       "tier": 4,
       "enchantment": 0,
+      "localized": {
+        "name_en": "Adept's Siege Hammer",
+        "name_ar": "مطرقة الحصار للبارع",
+        "name_de": "Belagerungshammer des Adepten",
+        "name_fr": "Marteau de siège de l'adepte",
+        "name_es": "Martillo de asedio del iniciado",
+        "name_ru": "Осадный молот (знаток)"
+      },
+      "raw": {
+        "@uniquename": "T4_2H_TOOL_SIEGEHAMMER",
+        "@mesh": "T4_2H_SIEGEHAMMER",
+        "@uisprite": "2H_SIEGEHAMMER",
+        "@attackendanimgaptime": "0.1",
+        "@maxqualitylevel": "1",
+        "@abilitypower": "100",
+        "@slottype": "mainhand",
+        "@craftingcategory": "tools",
+        "@shopcategory": "other",
+        "@shopsubcategory1": "guilds",
+        "@attacktype": "melee",
+        "@attackbuildingdamage": "55",
+        "@repairbuildingdamage": "45",
+        "@attackdamage": "72",
+        "@attackspeed": "0.5",
+        "@attackrange": "3",
+        "@twohanded": "true",
+        "@tier": "4",
+        "@weight": "1.69",
+        "@activespellslots": "0",
+        "@passivespellslots": "0",
+        "@durability": "1600",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@mainhandanimationtype": "t_siege hammer",
+        "@mainhandanimationtype_repairbuilding": "t_siege_repair hammer",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@itempower": "700",
+        "@unequipincombat": "false",
+        "@uicraftsoundstart": "Play_ui_action_craft_tool_start",
+        "@uicraftsoundfinish": "Play_ui_action_craft_tool_finish",
+        "@canbeovercharged": "false",
+        "@shopsubcategory2": "siegehammer",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "0.66667",
+          "@craftingfocus": "858",
+          "craftresource": [
+            {
+              "@uniquename": "T4_PLANKS",
+              "@count": "8"
+            },
+            {
+              "@uniquename": "T4_STONEBLOCK",
+              "@count": "8"
+            }
+          ]
+        },
+        "AudioInfo": {
+          "@name": "TOOL_SIEGEHAMMER"
+        },
+        "SocketPreset": {
+          "@name": "TOOL_SIEGEHAMMER"
+        }
+      }
+    },
+    {
+      "id": "T5_2H_TOOL_SIEGEHAMMER",
+      "index": "3006",
+      "name_en": "Expert's Siege Hammer",
+      "name_ar": "مطرقة الحصار للأخصائي",
+      "name_de": "Belagerungshammer des Experten",
+      "name_fr": "Marteau de siège de l'expert",
+      "name_es": "Martillo de asedio del experto",
+      "name_ru": "Осадный молот (эксперт)",
+      "descriptions": {
+        "description_en": "A powerful hammer designed for destroying buildings and furniture.",
+        "description_ar": "مطرقة قوية مصممة لتدمير المباني والأثاث.",
+        "description_de": "Werkzeug zur Zerstörung von Gebäuden und Möbeln.",
+        "description_fr": "Masse puissante de destruction des bâtiments et du mobilier.",
+        "description_es": "Un martillo muy poderoso diseñado para destruir edificios y muebles.",
+        "description_ru": "Помогает сносить здания и ломать мебель."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T5_2H_TOOL_SIEGEHAMMER",
+        "description_variable": "@ITEMS_T5_2H_TOOL_SIEGEHAMMER_DESC"
+      },
+      "category": "Other_Guilds",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T5_2H_TOOL_SIEGEHAMMER",
+        "mesh": "T5_2H_SIEGEHAMMER",
+        "uisprite": "2H_SIEGEHAMMER",
+        "attackendanimgaptime": "0.1",
+        "maxqualitylevel": "1",
+        "abilitypower": "100",
+        "slottype": "mainhand",
+        "craftingcategory": "tools",
+        "shopcategory": "other",
+        "shopsubcategory1": "guilds",
+        "attacktype": "melee",
+        "attackbuildingdamage": "66",
+        "repairbuildingdamage": "55",
+        "attackdamage": "86",
+        "attackspeed": "0.5",
+        "attackrange": "3",
+        "twohanded": "true",
+        "tier": "5",
+        "weight": "2.53",
+        "activespellslots": "0",
+        "passivespellslots": "0",
+        "durability": "3200",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "mainhandanimationtype": "t_siege hammer",
+        "mainhandanimationtype_repairbuilding": "t_siege_repair hammer",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "itempower": "800",
+        "unequipincombat": "false",
+        "uicraftsoundstart": "Play_ui_action_craft_tool_start",
+        "uicraftsoundfinish": "Play_ui_action_craft_tool_finish",
+        "canbeovercharged": "false",
+        "shopsubcategory2": "siegehammer"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Expert's Siege Hammer",
+        "DE-DE": "Belagerungshammer des Experten",
+        "FR-FR": "Marteau de siège de l'expert",
+        "RU-RU": "Осадный молот (эксперт)",
+        "PL-PL": "Młot Oblężniczy Znawcy",
+        "ES-ES": "Martillo de asedio del experto",
+        "PT-BR": "Martelo de Cerco do Perito",
+        "IT-IT": "Martello d'assedio dell'esperto",
+        "ZH-CN": "专家级攻城锤",
+        "KO-KR": "전문가의 공성 망치",
+        "JA-JP": "シージハンマー（達人）",
+        "ZH-TW": "專家級攻城鎚",
+        "ID-ID": "Palu Pengepungan Ahli",
+        "TR-TR": "Uzman Kuşatma Çekici",
+        "AR-SA": "مطرقة الحصار للأخصائي"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "A powerful hammer designed for destroying buildings and furniture.",
+        "DE-DE": "Werkzeug zur Zerstörung von Gebäuden und Möbeln.",
+        "FR-FR": "Masse puissante de destruction des bâtiments et du mobilier.",
+        "RU-RU": "Помогает сносить здания и ломать мебель.",
+        "PL-PL": "Potężny młot do niszczenia budynków i mebli.",
+        "ES-ES": "Un martillo muy poderoso diseñado para destruir edificios y muebles.",
+        "PT-BR": "Martelo poderoso projetado para destruir construções e mobílias.",
+        "IT-IT": "Un grosso e pesante martello pensato per distruggere edifici e arredi.",
+        "ZH-CN": "强大的锤子，专门用于摧毁建筑和家具。",
+        "KO-KR": "건물과 가구를 파괴하도록 설계된 튼튼한 망치.",
+        "JA-JP": "建物や家具の破壊用の強力なハンマー。",
+        "ZH-TW": "一種專門設計來摧毀建築物和家具的強力鎚子。",
+        "ID-ID": "Palu kuat yang dirancang untuk menghancurkan bangunan atau furnitur.",
+        "TR-TR": "Yapı ve mobilya yok etmek için tasarlanmış güçlü bir çekiç.",
+        "AR-SA": "مطرقة قوية مصممة لتدمير المباني والأثاث."
+      },
+      "crafting_requirements": {
+        "primary_resource": "T5_PLANKS",
+        "primary_count": 8,
+        "secondary_resource": "T5_STONEBLOCK",
+        "secondary_count": 8,
+        "resources": [
+          {
+            "id": "T5_PLANKS",
+            "count": 8
+          },
+          {
+            "id": "T5_STONEBLOCK",
+            "count": 8
+          }
+        ]
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T5_2H_TOOL_SIEGEHAMMER",
+        "item_database_index": "3006"
+      },
+      "tier": 5,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Expert's Siege Hammer",
+        "name_ar": "مطرقة الحصار للأخصائي",
+        "name_de": "Belagerungshammer des Experten",
+        "name_fr": "Marteau de siège de l'expert",
+        "name_es": "Martillo de asedio del experto",
+        "name_ru": "Осадный молот (эксперт)"
+      },
+      "raw": {
+        "@uniquename": "T5_2H_TOOL_SIEGEHAMMER",
+        "@mesh": "T5_2H_SIEGEHAMMER",
+        "@uisprite": "2H_SIEGEHAMMER",
+        "@attackendanimgaptime": "0.1",
+        "@maxqualitylevel": "1",
+        "@abilitypower": "100",
+        "@slottype": "mainhand",
+        "@craftingcategory": "tools",
+        "@shopcategory": "other",
+        "@shopsubcategory1": "guilds",
+        "@attacktype": "melee",
+        "@attackbuildingdamage": "66",
+        "@repairbuildingdamage": "55",
+        "@attackdamage": "86",
+        "@attackspeed": "0.5",
+        "@attackrange": "3",
+        "@twohanded": "true",
+        "@tier": "5",
+        "@weight": "2.53",
+        "@activespellslots": "0",
+        "@passivespellslots": "0",
+        "@durability": "3200",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@mainhandanimationtype": "t_siege hammer",
+        "@mainhandanimationtype_repairbuilding": "t_siege_repair hammer",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@itempower": "800",
+        "@unequipincombat": "false",
+        "@uicraftsoundstart": "Play_ui_action_craft_tool_start",
+        "@uicraftsoundfinish": "Play_ui_action_craft_tool_finish",
+        "@canbeovercharged": "false",
+        "@shopsubcategory2": "siegehammer",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "1",
+          "@craftingfocus": "1501",
+          "craftresource": [
+            {
+              "@uniquename": "T5_PLANKS",
+              "@count": "8"
+            },
+            {
+              "@uniquename": "T5_STONEBLOCK",
+              "@count": "8"
+            }
+          ]
+        },
+        "AudioInfo": {
+          "@name": "TOOL_SIEGEHAMMER"
+        },
+        "SocketPreset": {
+          "@name": "TOOL_SIEGEHAMMER"
+        }
+      }
+    },
+    {
+      "id": "T6_2H_TOOL_SIEGEHAMMER",
+      "index": "3007",
+      "name_en": "Master's Siege Hammer",
+      "name_ar": "مطرقة الحصار للخبير",
+      "name_de": "Belagerungshammer des Meisters",
+      "name_fr": "Marteau de siège du maître",
+      "name_es": "Martillo de asedio del maestro",
+      "name_ru": "Осадный молот (мастер)",
+      "descriptions": {
+        "description_en": "A powerful hammer designed for destroying buildings and furniture.",
+        "description_ar": "مطرقة قوية مصممة لتدمير المباني والأثاث.",
+        "description_de": "Werkzeug zur Zerstörung von Gebäuden und Möbeln.",
+        "description_fr": "Outil de destruction des bâtiments et du mobilier",
+        "description_es": "Herramienta para destruir edificios y muebles.",
+        "description_ru": "Помогает сносить здания и ломать мебель."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T6_2H_TOOL_SIEGEHAMMER",
+        "description_variable": "@ITEMS_T6_2H_TOOL_SIEGEHAMMER_DESC"
+      },
+      "category": "Other_Guilds",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T6_2H_TOOL_SIEGEHAMMER",
+        "mesh": "T6_2H_SIEGEHAMMER",
+        "uisprite": "2H_SIEGEHAMMER",
+        "attackendanimgaptime": "0.1",
+        "maxqualitylevel": "1",
+        "abilitypower": "100",
+        "slottype": "mainhand",
+        "craftingcategory": "tools",
+        "shopcategory": "other",
+        "shopsubcategory1": "guilds",
+        "attacktype": "melee",
+        "attackbuildingdamage": "79",
+        "repairbuildingdamage": "66",
+        "attackdamage": "94",
+        "attackspeed": "0.5",
+        "attackrange": "3",
+        "twohanded": "true",
+        "tier": "6",
+        "weight": "3.8",
+        "activespellslots": "0",
+        "passivespellslots": "0",
+        "durability": "6400",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "mainhandanimationtype": "t_siege hammer",
+        "mainhandanimationtype_repairbuilding": "t_siege_repair hammer",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "itempower": "900",
+        "unequipincombat": "false",
+        "uicraftsoundstart": "Play_ui_action_craft_tool_start",
+        "uicraftsoundfinish": "Play_ui_action_craft_tool_finish",
+        "canbeovercharged": "false",
+        "shopsubcategory2": "siegehammer"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Master's Siege Hammer",
+        "DE-DE": "Belagerungshammer des Meisters",
+        "FR-FR": "Marteau de siège du maître",
+        "RU-RU": "Осадный молот (мастер)",
+        "PL-PL": "Młot Oblężniczy Mistrza",
+        "ES-ES": "Martillo de asedio del maestro",
+        "PT-BR": "Martelo de Cerco do Mestre",
+        "IT-IT": "Martello d'assedio del maestro",
+        "ZH-CN": "大师级攻城锤",
+        "KO-KR": "마스터의 공성 망치",
+        "JA-JP": "シージハンマー（マスター）",
+        "ZH-TW": "大師級攻城鎚",
+        "ID-ID": "Palu Pengepungan Master",
+        "TR-TR": "Usta Kuşatma Çekici",
+        "AR-SA": "مطرقة الحصار للخبير"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "A powerful hammer designed for destroying buildings and furniture.",
+        "DE-DE": "Werkzeug zur Zerstörung von Gebäuden und Möbeln.",
+        "FR-FR": "Outil de destruction des bâtiments et du mobilier",
+        "RU-RU": "Помогает сносить здания и ломать мебель.",
+        "PL-PL": "Narzędzie do niszczenia budynków i mebli.",
+        "ES-ES": "Herramienta para destruir edificios y muebles.",
+        "PT-BR": "Ferramenta para destruir construções e mobílias",
+        "IT-IT": "Un grosso e pesante martello pensato per distruggere edifici e arredi.",
+        "ZH-CN": "强大的锤子，专门用于摧毁建筑和家具。",
+        "KO-KR": "건물과 가구를 파괴하도록 설계된 튼튼한 망치.",
+        "JA-JP": "建物や家具の破壊用の強力なハンマー。",
+        "ZH-TW": "一種專門設計來摧毀建築物和家具的強力鎚子。",
+        "ID-ID": "Palu kuat yang dirancang untuk menghancurkan bangunan atau furnitur.",
+        "TR-TR": "Yapı ve mobilya yok etmek için tasarlanmış güçlü bir çekiç.",
+        "AR-SA": "مطرقة قوية مصممة لتدمير المباني والأثاث."
+      },
+      "crafting_requirements": {
+        "primary_resource": "T6_PLANKS",
+        "primary_count": 8,
+        "secondary_resource": "T6_STONEBLOCK",
+        "secondary_count": 8,
+        "resources": [
+          {
+            "id": "T6_PLANKS",
+            "count": 8
+          },
+          {
+            "id": "T6_STONEBLOCK",
+            "count": 8
+          }
+        ]
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T6_2H_TOOL_SIEGEHAMMER",
+        "item_database_index": "3007"
+      },
+      "tier": 6,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Master's Siege Hammer",
+        "name_ar": "مطرقة الحصار للخبير",
+        "name_de": "Belagerungshammer des Meisters",
+        "name_fr": "Marteau de siège du maître",
+        "name_es": "Martillo de asedio del maestro",
+        "name_ru": "Осадный молот (мастер)"
+      },
+      "raw": {
+        "@uniquename": "T6_2H_TOOL_SIEGEHAMMER",
+        "@mesh": "T6_2H_SIEGEHAMMER",
+        "@uisprite": "2H_SIEGEHAMMER",
+        "@attackendanimgaptime": "0.1",
+        "@maxqualitylevel": "1",
+        "@abilitypower": "100",
+        "@slottype": "mainhand",
+        "@craftingcategory": "tools",
+        "@shopcategory": "other",
+        "@shopsubcategory1": "guilds",
+        "@attacktype": "melee",
+        "@attackbuildingdamage": "79",
+        "@repairbuildingdamage": "66",
+        "@attackdamage": "94",
+        "@attackspeed": "0.5",
+        "@attackrange": "3",
+        "@twohanded": "true",
+        "@tier": "6",
+        "@weight": "3.8",
+        "@activespellslots": "0",
+        "@passivespellslots": "0",
+        "@durability": "6400",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@mainhandanimationtype": "t_siege hammer",
+        "@mainhandanimationtype_repairbuilding": "t_siege_repair hammer",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@itempower": "900",
+        "@unequipincombat": "false",
+        "@uicraftsoundstart": "Play_ui_action_craft_tool_start",
+        "@uicraftsoundfinish": "Play_ui_action_craft_tool_finish",
+        "@canbeovercharged": "false",
+        "@shopsubcategory2": "siegehammer",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "1.33333",
+          "@craftingfocus": "2626",
+          "craftresource": [
+            {
+              "@uniquename": "T6_PLANKS",
+              "@count": "8"
+            },
+            {
+              "@uniquename": "T6_STONEBLOCK",
+              "@count": "8"
+            }
+          ]
+        },
+        "AudioInfo": {
+          "@name": "TOOL_SIEGEHAMMER_HT6"
+        },
+        "SocketPreset": {
+          "@name": "TOOL_SIEGEHAMMER"
+        }
+      }
+    },
+    {
+      "id": "T7_2H_TOOL_SIEGEHAMMER",
+      "index": "3008",
+      "name_en": "Grandmaster's Siege Hammer",
+      "name_ar": "مطرقة الحصار للأستاذ",
+      "name_de": "Belagerungshammer des Großmeisters",
+      "name_fr": "Marteau de siège du grand maître",
+      "name_es": "Martillo de asedio del gran maestro",
+      "name_ru": "Осадный молот (магистр)",
+      "descriptions": {
+        "description_en": "A powerful hammer designed for destroying buildings and furniture.",
+        "description_ar": "مطرقة قوية مصممة لتدمير المباني والأثاث.",
+        "description_de": "Werkzeug zur Zerstörung von Gebäuden und Möbeln.",
+        "description_fr": "Outil de destruction des bâtiments et du mobilier",
+        "description_es": "Herramienta para destruir edificios y muebles.",
+        "description_ru": "Помогает сносить здания и ломать мебель."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T7_2H_TOOL_SIEGEHAMMER",
+        "description_variable": "@ITEMS_T7_2H_TOOL_SIEGEHAMMER_DESC"
+      },
+      "category": "Other_Guilds",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T7_2H_TOOL_SIEGEHAMMER",
+        "mesh": "T7_2H_SIEGEHAMMER",
+        "uisprite": "2H_SIEGEHAMMER",
+        "attackendanimgaptime": "0.1",
+        "maxqualitylevel": "1",
+        "abilitypower": "100",
+        "slottype": "mainhand",
+        "craftingcategory": "tools",
+        "shopcategory": "other",
+        "shopsubcategory1": "guilds",
+        "attacktype": "melee",
+        "attackbuildingdamage": "95",
+        "repairbuildingdamage": "79",
+        "attackdamage": "102",
+        "attackspeed": "0.5",
+        "attackrange": "3",
+        "twohanded": "true",
+        "tier": "7",
+        "weight": "5.7",
+        "activespellslots": "0",
+        "passivespellslots": "0",
+        "durability": "12800",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "mainhandanimationtype": "t_siege hammer",
+        "mainhandanimationtype_repairbuilding": "t_siege_repair hammer",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "itempower": "980",
+        "unequipincombat": "false",
+        "uicraftsoundstart": "Play_ui_action_craft_tool_start",
+        "uicraftsoundfinish": "Play_ui_action_craft_tool_finish",
+        "canbeovercharged": "false",
+        "shopsubcategory2": "siegehammer"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Grandmaster's Siege Hammer",
+        "DE-DE": "Belagerungshammer des Großmeisters",
+        "FR-FR": "Marteau de siège du grand maître",
+        "RU-RU": "Осадный молот (магистр)",
+        "PL-PL": "Młot Oblężniczy Wszechmistrza",
+        "ES-ES": "Martillo de asedio del gran maestro",
+        "PT-BR": "Martelo de Cerco do Grão-mestre",
+        "IT-IT": "Martello d'assedio del gran maestro",
+        "ZH-CN": "宗师级攻城锤",
+        "KO-KR": "그랜드 마스터의 공성 망치",
+        "JA-JP": "シージハンマー（グランドマスター）",
+        "ZH-TW": "宗師級攻城鎚",
+        "ID-ID": "Palu Pengepungan Grandmaster",
+        "TR-TR": "Büyük Usta Kuşatma Çekici",
+        "AR-SA": "مطرقة الحصار للأستاذ"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "A powerful hammer designed for destroying buildings and furniture.",
+        "DE-DE": "Werkzeug zur Zerstörung von Gebäuden und Möbeln.",
+        "FR-FR": "Outil de destruction des bâtiments et du mobilier",
+        "RU-RU": "Помогает сносить здания и ломать мебель.",
+        "PL-PL": "Narzędzie do niszczenia budynków i mebli.",
+        "ES-ES": "Herramienta para destruir edificios y muebles.",
+        "PT-BR": "Ferramenta para destruir construções e mobílias",
+        "IT-IT": "Un grosso e pesante martello pensato per distruggere edifici e arredi.",
+        "ZH-CN": "强大的锤子，专门用于摧毁建筑和家具。",
+        "KO-KR": "건물과 가구를 파괴하도록 설계된 튼튼한 망치.",
+        "JA-JP": "建物や家具の破壊用の強力なハンマー。",
+        "ZH-TW": "一種專門設計來摧毀建築物和家具的強力鎚子。",
+        "ID-ID": "Palu kuat yang dirancang untuk menghancurkan bangunan atau furnitur.",
+        "TR-TR": "Yapı ve mobilya yok etmek için tasarlanmış güçlü bir çekiç.",
+        "AR-SA": "مطرقة قوية مصممة لتدمير المباني والأثاث."
+      },
+      "crafting_requirements": {
+        "primary_resource": "T7_PLANKS",
+        "primary_count": 8,
+        "secondary_resource": "T7_STONEBLOCK",
+        "secondary_count": 8,
+        "resources": [
+          {
+            "id": "T7_PLANKS",
+            "count": 8
+          },
+          {
+            "id": "T7_STONEBLOCK",
+            "count": 8
+          }
+        ]
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T7_2H_TOOL_SIEGEHAMMER",
+        "item_database_index": "3008"
+      },
+      "tier": 7,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Grandmaster's Siege Hammer",
+        "name_ar": "مطرقة الحصار للأستاذ",
+        "name_de": "Belagerungshammer des Großmeisters",
+        "name_fr": "Marteau de siège du grand maître",
+        "name_es": "Martillo de asedio del gran maestro",
+        "name_ru": "Осадный молот (магистр)"
+      },
+      "raw": {
+        "@uniquename": "T7_2H_TOOL_SIEGEHAMMER",
+        "@mesh": "T7_2H_SIEGEHAMMER",
+        "@uisprite": "2H_SIEGEHAMMER",
+        "@attackendanimgaptime": "0.1",
+        "@maxqualitylevel": "1",
+        "@abilitypower": "100",
+        "@slottype": "mainhand",
+        "@craftingcategory": "tools",
+        "@shopcategory": "other",
+        "@shopsubcategory1": "guilds",
+        "@attacktype": "melee",
+        "@attackbuildingdamage": "95",
+        "@repairbuildingdamage": "79",
+        "@attackdamage": "102",
+        "@attackspeed": "0.5",
+        "@attackrange": "3",
+        "@twohanded": "true",
+        "@tier": "7",
+        "@weight": "5.7",
+        "@activespellslots": "0",
+        "@passivespellslots": "0",
+        "@durability": "12800",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@mainhandanimationtype": "t_siege hammer",
+        "@mainhandanimationtype_repairbuilding": "t_siege_repair hammer",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@itempower": "980",
+        "@unequipincombat": "false",
+        "@uicraftsoundstart": "Play_ui_action_craft_tool_start",
+        "@uicraftsoundfinish": "Play_ui_action_craft_tool_finish",
+        "@canbeovercharged": "false",
+        "@shopsubcategory2": "siegehammer",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "1.66667",
+          "@craftingfocus": "4596",
+          "craftresource": [
+            {
+              "@uniquename": "T7_PLANKS",
+              "@count": "8"
+            },
+            {
+              "@uniquename": "T7_STONEBLOCK",
+              "@count": "8"
+            }
+          ]
+        },
+        "AudioInfo": {
+          "@name": "TOOL_SIEGEHAMMER_HT6"
+        },
+        "SocketPreset": {
+          "@name": "TOOL_SIEGEHAMMER"
+        }
+      }
+    },
+    {
+      "id": "T8_2H_TOOL_SIEGEHAMMER",
+      "index": "3009",
+      "name_en": "Elder's Siege Hammer",
+      "name_ar": "مطرقة الحصار للحكيم",
+      "name_de": "Belagerungshammer des Ältesten",
+      "name_fr": "Marteau de siège du sage",
+      "name_es": "Martillo de asedio del anciano",
+      "name_ru": "Осадный молот (старейшина)",
+      "descriptions": {
+        "description_en": "A powerful hammer designed for destroying buildings and furniture.",
+        "description_ar": "مطرقة قوية مصممة لتدمير المباني والأثاث.",
+        "description_de": "Werkzeug zur Zerstörung von Gebäuden und Möbeln.",
+        "description_fr": "Outil de destruction des bâtiments et du mobilier",
+        "description_es": "Herramienta para destruir edificios y muebles.",
+        "description_ru": "Помогает сносить здания и ломать мебель."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T8_2H_TOOL_SIEGEHAMMER",
+        "description_variable": "@ITEMS_T8_2H_TOOL_SIEGEHAMMER_DESC"
+      },
+      "category": "Other_Guilds",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T8_2H_TOOL_SIEGEHAMMER",
+        "mesh": "T8_2H_SIEGEHAMMER",
+        "uisprite": "2H_SIEGEHAMMER",
+        "attackendanimgaptime": "0.1",
+        "maxqualitylevel": "1",
+        "abilitypower": "100",
+        "slottype": "mainhand",
+        "craftingcategory": "tools",
+        "shopcategory": "other",
+        "shopsubcategory1": "guilds",
+        "attacktype": "melee",
+        "attackbuildingdamage": "114.0",
+        "repairbuildingdamage": "95",
+        "attackdamage": "112",
+        "attackspeed": "0.5",
+        "attackrange": "3",
+        "twohanded": "true",
+        "tier": "8",
+        "weight": "8.54",
+        "activespellslots": "0",
+        "passivespellslots": "0",
+        "durability": "25600",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "mainhandanimationtype": "t_siege hammer",
+        "mainhandanimationtype_repairbuilding": "t_siege_repair hammer",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "itempower": "1060",
+        "unequipincombat": "false",
+        "uicraftsoundstart": "Play_ui_action_craft_tool_start",
+        "uicraftsoundfinish": "Play_ui_action_craft_tool_finish",
+        "canbeovercharged": "false",
+        "shopsubcategory2": "siegehammer"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Elder's Siege Hammer",
+        "DE-DE": "Belagerungshammer des Ältesten",
+        "FR-FR": "Marteau de siège du sage",
+        "RU-RU": "Осадный молот (старейшина)",
+        "PL-PL": "Młot Oblężniczy Starszego",
+        "ES-ES": "Martillo de asedio del anciano",
+        "PT-BR": "Martelo de Cerco do Ancião",
+        "IT-IT": "Martello d'assedio dell'anziano",
+        "ZH-CN": "禅师级攻城锤",
+        "KO-KR": "장로의 공성 망치",
+        "JA-JP": "シージハンマー（老熟）",
+        "ZH-TW": "禪師級攻城鎚",
+        "ID-ID": "Palu Pengepungan Tetua",
+        "TR-TR": "Yüce Kuşatma Çekici",
+        "AR-SA": "مطرقة الحصار للحكيم"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "A powerful hammer designed for destroying buildings and furniture.",
+        "DE-DE": "Werkzeug zur Zerstörung von Gebäuden und Möbeln.",
+        "FR-FR": "Outil de destruction des bâtiments et du mobilier",
+        "RU-RU": "Помогает сносить здания и ломать мебель.",
+        "PL-PL": "Narzędzie do niszczenia budynków i mebli.",
+        "ES-ES": "Herramienta para destruir edificios y muebles.",
+        "PT-BR": "Ferramenta para destruir construções e mobílias",
+        "IT-IT": "Un grosso e pesante martello pensato per distruggere edifici e arredi.",
+        "ZH-CN": "强大的锤子，专门用于摧毁建筑和家具。",
+        "KO-KR": "건물과 가구를 파괴하도록 설계된 튼튼한 망치.",
+        "JA-JP": "建物や家具の破壊用の強力なハンマー。",
+        "ZH-TW": "一種專門設計來摧毀建築物和家具的強力鎚子。",
+        "ID-ID": "Palu kuat yang dirancang untuk menghancurkan bangunan atau furnitur.",
+        "TR-TR": "Yapı ve mobilya yok etmek için tasarlanmış güçlü bir çekiç.",
+        "AR-SA": "مطرقة قوية مصممة لتدمير المباني والأثاث."
+      },
+      "crafting_requirements": {
+        "primary_resource": "T8_PLANKS",
+        "primary_count": 8,
+        "secondary_resource": "T8_STONEBLOCK",
+        "secondary_count": 8,
+        "resources": [
+          {
+            "id": "T8_PLANKS",
+            "count": 8
+          },
+          {
+            "id": "T8_STONEBLOCK",
+            "count": 8
+          }
+        ]
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T8_2H_TOOL_SIEGEHAMMER",
+        "item_database_index": "3009"
+      },
+      "tier": 8,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Elder's Siege Hammer",
+        "name_ar": "مطرقة الحصار للحكيم",
+        "name_de": "Belagerungshammer des Ältesten",
+        "name_fr": "Marteau de siège du sage",
+        "name_es": "Martillo de asedio del anciano",
+        "name_ru": "Осадный молот (старейшина)"
+      },
+      "raw": {
+        "@uniquename": "T8_2H_TOOL_SIEGEHAMMER",
+        "@mesh": "T8_2H_SIEGEHAMMER",
+        "@uisprite": "2H_SIEGEHAMMER",
+        "@attackendanimgaptime": "0.1",
+        "@maxqualitylevel": "1",
+        "@abilitypower": "100",
+        "@slottype": "mainhand",
+        "@craftingcategory": "tools",
+        "@shopcategory": "other",
+        "@shopsubcategory1": "guilds",
+        "@attacktype": "melee",
+        "@attackbuildingdamage": "114.0",
+        "@repairbuildingdamage": "95",
+        "@attackdamage": "112",
+        "@attackspeed": "0.5",
+        "@attackrange": "3",
+        "@twohanded": "true",
+        "@tier": "8",
+        "@weight": "8.54",
+        "@activespellslots": "0",
+        "@passivespellslots": "0",
+        "@durability": "25600",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@mainhandanimationtype": "t_siege hammer",
+        "@mainhandanimationtype_repairbuilding": "t_siege_repair hammer",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@itempower": "1060",
+        "@unequipincombat": "false",
+        "@uicraftsoundstart": "Play_ui_action_craft_tool_start",
+        "@uicraftsoundfinish": "Play_ui_action_craft_tool_finish",
+        "@canbeovercharged": "false",
+        "@shopsubcategory2": "siegehammer",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "2.5",
+          "@craftingfocus": "8042",
+          "craftresource": [
+            {
+              "@uniquename": "T8_PLANKS",
+              "@count": "8"
+            },
+            {
+              "@uniquename": "T8_STONEBLOCK",
+              "@count": "8"
+            }
+          ]
+        },
+        "AudioInfo": {
+          "@name": "TOOL_SIEGEHAMMER_HT6"
+        },
+        "SocketPreset": {
+          "@name": "TOOL_SIEGEHAMMER"
+        }
+      }
+    },
+    {
+      "id": "T4_2H_TOOL_SIEGEHAMMER_AVALON",
+      "index": "3010",
+      "name_en": "Adept's Avalonian Siege Hammer",
+      "name_ar": "مطرقة حصار أفالوني للبارع",
+      "name_de": "Avalonischer Belagerungshammer des Adepten",
+      "name_fr": "Marteau de siège avalonien de l'adepte",
+      "name_es": "Martillo de asedio avaloniano del iniciado",
+      "name_ru": "Авалонский осадный молот (знаток)",
+      "descriptions": {
+        "description_en": "A powerful hammer designed for destroying buildings and furniture.",
+        "description_ar": "مطرقة قوية مصممة لتدمير المباني والأثاث.",
+        "description_de": "Werkzeug zur Zerstörung von Gebäuden und Möbeln.",
+        "description_fr": "Outil de destruction des bâtiments et du mobilier",
+        "description_es": "Herramienta para destruir edificios y muebles.",
+        "description_ru": "Помогает сносить здания и ломать мебель."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T4_2H_TOOL_SIEGEHAMMER_AVALON",
+        "description_variable": "@ITEMS_T8_2H_TOOL_SIEGEHAMMER_DESC"
+      },
+      "category": "Other_Guilds",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T4_2H_TOOL_SIEGEHAMMER_AVALON",
+        "mesh": "T4_2H_SIEGEHAMMER",
+        "uisprite": "2H_SIEGEHAMMER_AVALON",
+        "attackendanimgaptime": "0.1",
+        "maxqualitylevel": "1",
+        "abilitypower": "100",
+        "slottype": "mainhand",
+        "craftingcategory": "tools",
+        "shopcategory": "other",
+        "shopsubcategory1": "guilds",
+        "attacktype": "melee",
+        "attackbuildingdamage": "55",
+        "repairbuildingdamage": "45",
+        "attackdamage": "72",
+        "attackspeed": "0.625",
+        "attackrange": "3",
+        "twohanded": "true",
+        "tier": "4",
+        "weight": "1.69",
+        "activespellslots": "0",
+        "passivespellslots": "0",
+        "durability": "1600",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "mainhandanimationtype": "t_siege hammer",
+        "mainhandanimationtype_repairbuilding": "t_siege_repair hammer",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "itempower": "700",
+        "unequipincombat": "false",
+        "uicraftsoundstart": "Play_ui_action_craft_tool_start",
+        "uicraftsoundfinish": "Play_ui_action_craft_tool_finish",
+        "canbeovercharged": "false",
+        "descriptionlocatag": "@ITEMS_T8_2H_TOOL_SIEGEHAMMER_DESC",
+        "shopsubcategory2": "siegehammer"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
       "localized_all_names": {
         "EN-US": "Adept's Avalonian Siege Hammer",
         "DE-DE": "Avalonischer Belagerungshammer des Adepten",
@@ -188,12 +1471,42 @@
         "TR-TR": "Yapı ve mobilya yok etmek için tasarlanmış güçlü bir çekiç.",
         "AR-SA": "مطرقة قوية مصممة لتدمير المباني والأثاث."
       },
-      "source": "ao-bin-dumps",
-      "localization_variables": {
-        "name_variable": "@ITEMS_T4_2H_TOOL_SIEGEHAMMER_AVALON",
-        "description_variable": "@ITEMS_T8_2H_TOOL_SIEGEHAMMER_DESC"
+      "crafting_requirements": {
+        "primary_resource": "QUESTITEM_TOKEN_AVALON",
+        "primary_count": 20,
+        "secondary_resource": "T4_PLANKS",
+        "secondary_count": 8,
+        "resources": [
+          {
+            "id": "QUESTITEM_TOKEN_AVALON",
+            "count": 20
+          },
+          {
+            "id": "T4_PLANKS",
+            "count": 8
+          },
+          {
+            "id": "T4_STONEBLOCK",
+            "count": 8
+          }
+        ]
       },
-      "origin": "Other/Guilds/Guilds_T4_2H_TOOL_SIEGEHAMMER_AVALON.json",
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T4_2H_TOOL_SIEGEHAMMER_AVALON",
+        "item_database_index": "3010"
+      },
+      "tier": 4,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Adept's Avalonian Siege Hammer",
+        "name_ar": "مطرقة حصار أفالوني للبارع",
+        "name_de": "Avalonischer Belagerungshammer des Adepten",
+        "name_fr": "Marteau de siège avalonien de l'adepte",
+        "name_es": "Martillo de asedio avaloniano del iniciado",
+        "name_ru": "Авалонский осадный молот (знаток)"
+      },
       "raw": {
         "@uniquename": "T4_2H_TOOL_SIEGEHAMMER_AVALON",
         "@mesh": "T4_2H_SIEGEHAMMER",
@@ -258,1768 +1571,71 @@
         "SocketPreset": {
           "@name": "TOOL_SIEGEHAMMER"
         }
-      },
-      "name_sources_ref": 0,
-      "description_sources_ref": 0
-    },
-    {
-      "id": "T7_2H_TOOL_SIEGEHAMMER_AVALON",
-      "index": "3013",
-      "category": "Other_Guilds",
-      "slot": "MainHand",
-      "two_handed": true,
-      "item_stats": {
-        "itemvalue": null,
-        "resourcevalue": null,
-        "famevalue": null,
-        "salvagevalueoverride": null,
-        "estimatedmarketvalueoverride": null
-      },
-      "crafting_requirements": {
-        "primary_resource": "QUESTITEM_TOKEN_AVALON",
-        "primary_count": 230,
-        "secondary_resource": "T7_PLANKS",
-        "secondary_count": 8,
-        "resources": [
-          {
-            "id": "QUESTITEM_TOKEN_AVALON",
-            "count": 230
-          },
-          {
-            "id": "T7_PLANKS",
-            "count": 8
-          },
-          {
-            "id": "T7_STONEBLOCK",
-            "count": 8
-          }
-        ]
-      },
-      "is_artifact": false,
-      "artifact_details": null,
-      "integration_ids": {
-        "albion_online_data_project_id": "T7_2H_TOOL_SIEGEHAMMER_AVALON",
-        "item_database_index": "3013"
-      },
-      "tier": 7,
-      "enchantment": 0,
-      "localized_all_names": {
-        "EN-US": "Grandmaster's Avalonian Siege Hammer",
-        "DE-DE": "Avalonischer Belagerungshammer des Großmeisters",
-        "FR-FR": "Marteau de siège avalonien du grand maître",
-        "RU-RU": "Авалонский осадный молот (магистр)",
-        "PL-PL": "Awaloński Młot Oblężniczy Wszechmistrza",
-        "ES-ES": "Martillo de asedio avaloniano del gran maestro",
-        "PT-BR": "Martelo de Cerco Avaloniano do Grão-mestre",
-        "IT-IT": "Martello d'assedio avaloniano del gran maestro",
-        "ZH-CN": "宗师级阿瓦隆攻城锤",
-        "KO-KR": "그랜드 마스터의 아발로니안 공성 망치",
-        "JA-JP": "アバロンのシージハンマー（グランドマスター）",
-        "ZH-TW": "宗師級阿瓦隆攻城鎚",
-        "ID-ID": "Palu Pengepungan Avalonian Grandmaster",
-        "TR-TR": "Büyük Usta Avalon Kuşatma Çekici",
-        "AR-SA": "مطرقة حصار أفالوني للأستاذ"
-      },
-      "localized_all_descriptions": {
-        "EN-US": "A powerful hammer designed for destroying buildings and furniture.",
-        "DE-DE": "Werkzeug zur Zerstörung von Gebäuden und Möbeln.",
-        "FR-FR": "Outil de destruction des bâtiments et du mobilier",
-        "RU-RU": "Помогает сносить здания и ломать мебель.",
-        "PL-PL": "Narzędzie do niszczenia budynków i mebli.",
-        "ES-ES": "Herramienta para destruir edificios y muebles.",
-        "PT-BR": "Ferramenta para destruir construções e mobílias",
-        "IT-IT": "Un grosso e pesante martello pensato per distruggere edifici e arredi.",
-        "ZH-CN": "强大的锤子，专门用于摧毁建筑和家具。",
-        "KO-KR": "건물과 가구를 파괴하도록 설계된 튼튼한 망치.",
-        "JA-JP": "建物や家具の破壊用の強力なハンマー。",
-        "ZH-TW": "一種專門設計來摧毀建築物和家具的強力鎚子。",
-        "ID-ID": "Palu kuat yang dirancang untuk menghancurkan bangunan atau furnitur.",
-        "TR-TR": "Yapı ve mobilya yok etmek için tasarlanmış güçlü bir çekiç.",
-        "AR-SA": "مطرقة قوية مصممة لتدمير المباني والأثاث."
-      },
-      "source": "ao-bin-dumps",
-      "localization_variables": {
-        "name_variable": "@ITEMS_T7_2H_TOOL_SIEGEHAMMER_AVALON",
-        "description_variable": "@ITEMS_T8_2H_TOOL_SIEGEHAMMER_DESC"
-      },
-      "origin": "Other/Guilds/Guilds_T7_2H_TOOL_SIEGEHAMMER_AVALON.json",
-      "raw": {
-        "@uniquename": "T7_2H_TOOL_SIEGEHAMMER_AVALON",
-        "@mesh": "T7_2H_SIEGEHAMMER",
-        "@uisprite": "2H_SIEGEHAMMER_AVALON",
-        "@attackendanimgaptime": "0.1",
-        "@maxqualitylevel": "1",
-        "@abilitypower": "100",
-        "@slottype": "mainhand",
-        "@craftingcategory": "tools",
-        "@shopcategory": "other",
-        "@shopsubcategory1": "guilds",
-        "@attacktype": "melee",
-        "@attackbuildingdamage": "95",
-        "@repairbuildingdamage": "79",
-        "@attackdamage": "102",
-        "@attackspeed": "0.625",
-        "@attackrange": "3",
-        "@twohanded": "true",
-        "@tier": "7",
-        "@weight": "5.7",
-        "@activespellslots": "0",
-        "@passivespellslots": "0",
-        "@durability": "12800",
-        "@durabilityloss_attack": "1",
-        "@durabilityloss_spelluse": "1",
-        "@durabilityloss_receivedattack": "1",
-        "@durabilityloss_receivedspell": "1",
-        "@mainhandanimationtype": "t_siege hammer",
-        "@mainhandanimationtype_repairbuilding": "t_siege_repair hammer",
-        "@unlockedtocraft": "false",
-        "@unlockedtoequip": "false",
-        "@itempower": "980",
-        "@unequipincombat": "false",
-        "@uicraftsoundstart": "Play_ui_action_craft_tool_start",
-        "@uicraftsoundfinish": "Play_ui_action_craft_tool_finish",
-        "@canbeovercharged": "false",
-        "@descriptionlocatag": "@ITEMS_T8_2H_TOOL_SIEGEHAMMER_DESC",
-        "@shopsubcategory2": "siegehammer",
-        "craftingrequirements": {
-          "@silver": "0",
-          "@time": "1.66667",
-          "@craftingfocus": "4596",
-          "craftresource": [
-            {
-              "@uniquename": "T7_PLANKS",
-              "@count": "8"
-            },
-            {
-              "@uniquename": "T7_STONEBLOCK",
-              "@count": "8"
-            },
-            {
-              "@uniquename": "QUESTITEM_TOKEN_AVALON",
-              "@count": "230",
-              "@maxreturnamount": "0"
-            }
-          ]
-        },
-        "AudioInfo": {
-          "@name": "TOOL_SIEGEHAMMER_HT6"
-        },
-        "SocketPreset": {
-          "@name": "TOOL_SIEGEHAMMER"
-        }
-      },
-      "name_sources_ref": 0,
-      "description_sources_ref": 0
-    },
-    {
-      "id": "T4_SIEGE_BANNER",
-      "index": "11913",
-      "category": "Other_Guilds",
-      "slot": "2h",
-      "two_handed": false,
-      "item_stats": {
-        "itemvalue": null,
-        "resourcevalue": null,
-        "famevalue": null,
-        "salvagevalueoverride": null,
-        "estimatedmarketvalueoverride": null
-      },
-      "crafting_requirements": {
-        "primary_resource": "T4_CLOTH",
-        "primary_count": 12,
-        "secondary_resource": "T4_PLANKS",
-        "secondary_count": 4,
-        "resources": [
-          {
-            "id": "T4_CLOTH",
-            "count": 12
-          },
-          {
-            "id": "T4_PLANKS",
-            "count": 4
-          }
-        ]
-      },
-      "is_artifact": false,
-      "artifact_details": null,
-      "integration_ids": {
-        "albion_online_data_project_id": "T4_SIEGE_BANNER",
-        "item_database_index": "11913"
-      },
-      "tier": 4,
-      "enchantment": 0,
-      "localized_all_names": {
-        "EN-US": "Adept's Siege Banner",
-        "DE-DE": "Belagerungsbanner des Adepten",
-        "FR-FR": "Bannière de siège de l'adepte",
-        "RU-RU": "Осадное знамя (знаток)",
-        "PL-PL": "Sztandar Oblężniczy Adepta",
-        "ES-ES": "Estandarte de asedio del iniciado",
-        "PT-BR": "Estandarte de Cerco do Adepto",
-        "IT-IT": "Stendardo d'assedio del sapiente",
-        "ZH-CN": "老手级攻城战旗",
-        "KO-KR": "숙련자의 공성 깃발",
-        "JA-JP": "シージバナー（名人）",
-        "ZH-TW": "老手級攻城戰旗",
-        "ID-ID": "Panji Pengepungan Mahir",
-        "TR-TR": "Ehil Kuşatma Sancağı",
-        "AR-SA": "راية حصار البارع"
-      },
-      "localized_all_descriptions": {
-        "EN-US": "Use this to weaken enemy territories, making them vulnerable to attack. It is required for raiding or conquering territories.",
-        "DE-DE": "Nutze es zum Schwächen gegnerischer Territorien, wodurch sie angreifbar werden. Es ist notwendig, um Territorien zu überfallen oder zu erobern.",
-        "FR-FR": "Utilisez-la pour affaiblir les territoires ennemis et les rendre vulnérables aux attaques. Elle est nécessaire pour effectuer des raids ou conquérir des territoires.",
-        "RU-RU": "Используйте его, чтобы ослабить вражеские территории, сделав их уязвимыми для нападения. Оно необходимо для рейдов и завоевания территорий.",
-        "PL-PL": "Użyj go, aby osłabić terytoria wroga, czyniąc je łatwiejszymi do zaatakowania. Wymagany do najazdu i podboju terytoriów.",
-        "ES-ES": "Utilízalo para debilitar los territorios enemigos, de modo que sean vulnerables a los ataques. Es necesario para realizar asaltos o conquistar territorios.",
-        "PT-BR": "Use isto para enfraquecer territórios inimigos, tornando-os vulneráveis ao ataque. Este item é necessário para invadir ou conquistar territórios.",
-        "IT-IT": "Si usa per indebolire i territori nemici, rendendoli vulnerabili agli attacchi. È necessario per le razzie o la conquista di territori.",
-        "ZH-CN": "用它来削弱敌人的领地，使他们可以受到攻击。它是袭击或征服领地所必需的。",
-        "KO-KR": "아이템을 사용해 적의 영토를 약화시키고, 공격에 취약한 상태로 만듭니다. 영토를 습격하거나 정복하는 데에 필요합니다.",
-        "JA-JP": "敵の領地を弱体化させ、攻撃を受けやすくする。レイドや 領地征服の際に必要となる。",
-        "ZH-TW": "用它來削弱敵人的領地，使他們可以受到攻擊。它是襲擊或征服領地所必需的。",
-        "ID-ID": "Gunakan ini untuk melemahkan wilayah musuh, menjadikannya rentan terhadap serangan. Diperlukan untuk menyerbu atau menaklukkan wilayah.",
-        "TR-TR": "Düşman mıntıkaları zayıflatmak ve saldırıya açık hale getirmek için bunu kullan. Mıntıkalara baskın yapmak veya fethetmek için gereklidir.",
-        "AR-SA": "استخدمها لإضعاف مناطق العدو، مما يجعلها عرضة للهجوم. وهي مطلوبة للمداهمة أو غزو المناطق."
-      },
-      "source": "ao-bin-dumps",
-      "localization_variables": {
-        "name_variable": "@ITEMS_T4_SIEGE_BANNER",
-        "description_variable": "@ITEMS_T4_SIEGE_BANNER_DESC"
-      },
-      "origin": "Other/Guilds/Guilds_T4_SIEGE_BANNER.json",
-      "raw": {
-        "@uniquename": "T4_SIEGE_BANNER",
-        "@referencespell": "T4_RAID_BANNER_ITEM_SPELL",
-        "@tradable": "true",
-        "@shopcategory": "other",
-        "@shopsubcategory1": "guilds",
-        "@tier": "4",
-        "@weight": "1.69",
-        "@maxstacksize": "999",
-        "@unlockedtocraft": "false",
-        "@uicraftsoundstart": "Play_ui_action_craft_tool_start",
-        "@uicraftsoundfinish": "Play_ui_action_craft_tool_finish",
-        "@canbeovercharged": "false",
-        "@shopsubcategory2": "siegebanners",
-        "craftingrequirements": {
-          "@silver": "0",
-          "@time": "0.33333",
-          "@craftingfocus": "858",
-          "craftresource": [
-            {
-              "@uniquename": "T4_PLANKS",
-              "@count": "4"
-            },
-            {
-              "@uniquename": "T4_CLOTH",
-              "@count": "12"
-            }
-          ]
-        }
-      },
-      "name_sources_ref": 0,
-      "description_sources_ref": 0
-    },
-    {
-      "id": "T3_2H_TOOL_SIEGEHAMMER",
-      "index": "3004",
-      "category": "Other_Guilds",
-      "slot": "MainHand",
-      "two_handed": true,
-      "item_stats": {
-        "itemvalue": null,
-        "resourcevalue": null,
-        "famevalue": null,
-        "salvagevalueoverride": null,
-        "estimatedmarketvalueoverride": null
-      },
-      "crafting_requirements": {
-        "primary_resource": "T3_PLANKS",
-        "primary_count": 8,
-        "secondary_resource": "T3_STONEBLOCK",
-        "secondary_count": 8,
-        "resources": [
-          {
-            "id": "T3_PLANKS",
-            "count": 8
-          },
-          {
-            "id": "T3_STONEBLOCK",
-            "count": 8
-          }
-        ]
-      },
-      "is_artifact": false,
-      "artifact_details": null,
-      "integration_ids": {
-        "albion_online_data_project_id": "T3_2H_TOOL_SIEGEHAMMER",
-        "item_database_index": "3004"
-      },
-      "tier": 3,
-      "enchantment": 0,
-      "localized_all_names": {
-        "EN-US": "Journeyman's Siege Hammer",
-        "DE-DE": "Belagerungshammer des Gesellen",
-        "FR-FR": "Marteau de siège du compagnon",
-        "RU-RU": "Осадный молот (странник)",
-        "PL-PL": "Młot Oblężniczy Czeladnika",
-        "ES-ES": "Martillo de asedio del obrero",
-        "PT-BR": "Martelo de Cerco do Iniciante",
-        "IT-IT": "Martello d'assedio dell'apprendista",
-        "ZH-CN": "学徒级攻城锤",
-        "KO-KR": "장인의 공성 망치",
-        "JA-JP": "シージハンマー（熟練）",
-        "ZH-TW": "學徒級攻城鎚",
-        "ID-ID": "Palu Pengepungan Pengembara",
-        "TR-TR": "Kalfa Kuşatma Çekici",
-        "AR-SA": "مطرقة الحصار الموثوق"
-      },
-      "localized_all_descriptions": {
-        "EN-US": "A powerful hammer designed for destroying buildings and furniture.",
-        "DE-DE": "Werkzeug zur Zerstörung von Gebäuden und Möbeln.",
-        "FR-FR": "Outil de destruction des bâtiments et du mobilier",
-        "RU-RU": "Помогает сносить здания и ломать мебель.",
-        "PL-PL": "Narzędzie do niszczenia budynków i mebli.",
-        "ES-ES": "Herramienta para destruir edificios y muebles.",
-        "PT-BR": "Ferramenta para destruir construções e mobílias",
-        "IT-IT": "Un grosso e pesante martello pensato per distruggere edifici e arredi.",
-        "ZH-CN": "强大的锤子，专门用于摧毁建筑和家具。",
-        "KO-KR": "건물과 가구를 파괴하도록 설계된 튼튼한 망치.",
-        "JA-JP": "建物や家具の破壊用の強力なハンマー。",
-        "ZH-TW": "一種專門設計來摧毀建築物和家具的強力鎚子。",
-        "ID-ID": "Palu kuat yang dirancang untuk menghancurkan bangunan atau furnitur.",
-        "TR-TR": "Yapı ve mobilya yok etmek için tasarlanmış güçlü bir çekiç.",
-        "AR-SA": "مطرقة قوية مصممة لتدمير المباني والأثاث."
-      },
-      "source": "ao-bin-dumps",
-      "localization_variables": {
-        "name_variable": "@ITEMS_T3_2H_TOOL_SIEGEHAMMER",
-        "description_variable": "@ITEMS_T3_2H_TOOL_SIEGEHAMMER_DESC"
-      },
-      "origin": "Other/Guilds/Guilds_T3_2H_TOOL_SIEGEHAMMER.json",
-      "raw": {
-        "@uniquename": "T3_2H_TOOL_SIEGEHAMMER",
-        "@mesh": "T3_2H_SIEGEHAMMER",
-        "@uisprite": "2H_SIEGEHAMMER",
-        "@attackendanimgaptime": "0.1",
-        "@maxqualitylevel": "1",
-        "@abilitypower": "100",
-        "@slottype": "mainhand",
-        "@craftingcategory": "tools",
-        "@shopcategory": "other",
-        "@shopsubcategory1": "guilds",
-        "@attacktype": "melee",
-        "@attackbuildingdamage": "40",
-        "@repairbuildingdamage": "33",
-        "@attackdamage": "60",
-        "@attackspeed": "0.5",
-        "@attackrange": "3",
-        "@twohanded": "true",
-        "@tier": "3",
-        "@weight": "1.13",
-        "@activespellslots": "0",
-        "@passivespellslots": "0",
-        "@durability": "800",
-        "@durabilityloss_attack": "1",
-        "@durabilityloss_spelluse": "1",
-        "@durabilityloss_receivedattack": "1",
-        "@durabilityloss_receivedspell": "1",
-        "@mainhandanimationtype": "t_siege hammer",
-        "@mainhandanimationtype_repairbuilding": "t_siege_repair hammer",
-        "@unlockedtocraft": "false",
-        "@unlockedtoequip": "false",
-        "@itempower": "500",
-        "@unequipincombat": "false",
-        "@uicraftsoundstart": "Play_ui_action_craft_tool_start",
-        "@uicraftsoundfinish": "Play_ui_action_craft_tool_finish",
-        "@canbeovercharged": "false",
-        "@shopsubcategory2": "siegehammer",
-        "craftingrequirements": {
-          "@silver": "0",
-          "@time": "0.5",
-          "@craftingfocus": "490",
-          "craftresource": [
-            {
-              "@uniquename": "T3_PLANKS",
-              "@count": "8"
-            },
-            {
-              "@uniquename": "T3_STONEBLOCK",
-              "@count": "8"
-            }
-          ]
-        },
-        "AudioInfo": {
-          "@name": "TOOL_SIEGEHAMMER"
-        },
-        "SocketPreset": {
-          "@name": "TOOL_SIEGEHAMMER"
-        }
-      },
-      "name_sources_ref": 0,
-      "description_sources_ref": 0
-    },
-    {
-      "id": "T8_SIEGE_BANNER",
-      "index": "11917",
-      "category": "Other_Guilds",
-      "slot": "2h",
-      "two_handed": false,
-      "item_stats": {
-        "itemvalue": null,
-        "resourcevalue": null,
-        "famevalue": null,
-        "salvagevalueoverride": null,
-        "estimatedmarketvalueoverride": null
-      },
-      "crafting_requirements": {
-        "primary_resource": "T8_CLOTH",
-        "primary_count": 12,
-        "secondary_resource": "T8_PLANKS",
-        "secondary_count": 4,
-        "resources": [
-          {
-            "id": "T8_CLOTH",
-            "count": 12
-          },
-          {
-            "id": "T8_PLANKS",
-            "count": 4
-          }
-        ]
-      },
-      "is_artifact": false,
-      "artifact_details": null,
-      "integration_ids": {
-        "albion_online_data_project_id": "T8_SIEGE_BANNER",
-        "item_database_index": "11917"
-      },
-      "tier": 8,
-      "enchantment": 0,
-      "localized_all_names": {
-        "EN-US": "Elder's Siege Banner",
-        "DE-DE": "Belagerungsbanner des Ältesten",
-        "FR-FR": "Bannière de siège du sage",
-        "RU-RU": "Осадное знамя (старейшина)",
-        "PL-PL": "Sztandar Oblężniczy Starszego",
-        "ES-ES": "Estandarte de asedio del anciano",
-        "PT-BR": "Estandarte de Cerco do Ancião",
-        "IT-IT": "Stendardo d'assedio dell'anziano",
-        "ZH-CN": "禅师级攻城战旗",
-        "KO-KR": "장로의 공성 깃발",
-        "JA-JP": "シージバナー（老熟）",
-        "ZH-TW": "禪師級攻城戰旗",
-        "ID-ID": "Panji Pengepungan Tetua",
-        "TR-TR": "Yüce Kuşatma Sancağı",
-        "AR-SA": "راية حصار الحكيم"
-      },
-      "localized_all_descriptions": {
-        "EN-US": "Use this to weaken enemy territories, making them vulnerable to attack. It is required for raiding or conquering territories.",
-        "DE-DE": "Nutze es zum Schwächen gegnerischer Territorien, wodurch sie angreifbar werden. Es ist notwendig, um Territorien zu überfallen oder zu erobern.",
-        "FR-FR": "Utilisez-la pour affaiblir les territoires ennemis et les rendre vulnérables aux attaques. Elle est nécessaire pour effectuer des raids ou conquérir des territoires.",
-        "RU-RU": "Используйте его, чтобы ослабить вражеские территории, сделав их уязвимыми для нападения. Оно необходимо для рейдов и завоевания территорий.",
-        "PL-PL": "Użyj go, aby osłabić terytoria wroga, czyniąc je łatwiejszymi do zaatakowania. Wymagany do najazdu i podboju terytoriów.",
-        "ES-ES": "Utilízalo para debilitar los territorios enemigos, de modo que sean vulnerables a los ataques. Es necesario para realizar asaltos o conquistar territorios.",
-        "PT-BR": "Use isto para enfraquecer territórios inimigos, tornando-os vulneráveis ao ataque. Este item é necessário para invadir ou conquistar territórios.",
-        "IT-IT": "Si usa per indebolire i territori nemici, rendendoli vulnerabili agli attacchi. È necessario per le razzie o la conquista di territori.",
-        "ZH-CN": "用它来削弱敌人的领地，使他们可以受到攻击。它是袭击或征服领地所必需的。",
-        "KO-KR": "아이템을 사용해 적의 영토를 약화시키고, 공격에 취약한 상태로 만듭니다. 영토를 습격하거나 정복하는 데에 필요합니다.",
-        "JA-JP": "敵の領地を弱体化させ、攻撃を受けやすくする。レイドや 領地征服の際に必要となる。",
-        "ZH-TW": "用它來削弱敵人的領地，使他們可以受到攻擊。它是襲擊或征服領地所必需的。",
-        "ID-ID": "Gunakan ini untuk melemahkan wilayah musuh, menjadikannya rentan terhadap serangan. Diperlukan untuk menyerbu atau menaklukkan wilayah.",
-        "TR-TR": "Düşman mıntıkaları zayıflatmak ve saldırıya açık hale getirmek için bunu kullan. Mıntıkalara baskın yapmak veya fethetmek için gereklidir.",
-        "AR-SA": "استخدمها لإضعاف مناطق العدو، مما يجعلها عرضة للهجوم. وهي مطلوبة للمداهمة أو غزو المناطق."
-      },
-      "source": "ao-bin-dumps",
-      "localization_variables": {
-        "name_variable": "@ITEMS_T8_SIEGE_BANNER",
-        "description_variable": "@ITEMS_T4_SIEGE_BANNER_DESC"
-      },
-      "origin": "Other/Guilds/Guilds_T8_SIEGE_BANNER.json",
-      "raw": {
-        "@uniquename": "T8_SIEGE_BANNER",
-        "@referencespell": "T8_RAID_BANNER_ITEM_SPELL",
-        "@tradable": "true",
-        "@shopcategory": "other",
-        "@shopsubcategory1": "guilds",
-        "@tier": "8",
-        "@weight": "8.54",
-        "@maxstacksize": "999",
-        "@unlockedtocraft": "false",
-        "@uicraftsoundstart": "Play_ui_action_craft_tool_start",
-        "@uicraftsoundfinish": "Play_ui_action_craft_tool_finish",
-        "@canbeovercharged": "false",
-        "@descriptionlocatag": "@ITEMS_T4_SIEGE_BANNER_DESC",
-        "@shopsubcategory2": "siegebanners",
-        "craftingrequirements": {
-          "@silver": "0",
-          "@time": "1.25",
-          "@craftingfocus": "8042",
-          "craftresource": [
-            {
-              "@uniquename": "T8_PLANKS",
-              "@count": "4"
-            },
-            {
-              "@uniquename": "T8_CLOTH",
-              "@count": "12"
-            }
-          ]
-        }
-      },
-      "name_sources_ref": 0,
-      "description_sources_ref": 0
-    },
-    {
-      "id": "T8_2H_TOOL_SIEGEHAMMER_AVALON",
-      "index": "3014",
-      "category": "Other_Guilds",
-      "slot": "MainHand",
-      "two_handed": true,
-      "item_stats": {
-        "itemvalue": null,
-        "resourcevalue": null,
-        "famevalue": null,
-        "salvagevalueoverride": null,
-        "estimatedmarketvalueoverride": null
-      },
-      "crafting_requirements": {
-        "primary_resource": "QUESTITEM_TOKEN_AVALON",
-        "primary_count": 300,
-        "secondary_resource": "T8_PLANKS",
-        "secondary_count": 8,
-        "resources": [
-          {
-            "id": "QUESTITEM_TOKEN_AVALON",
-            "count": 300
-          },
-          {
-            "id": "T8_PLANKS",
-            "count": 8
-          },
-          {
-            "id": "T8_STONEBLOCK",
-            "count": 8
-          }
-        ]
-      },
-      "is_artifact": false,
-      "artifact_details": null,
-      "integration_ids": {
-        "albion_online_data_project_id": "T8_2H_TOOL_SIEGEHAMMER_AVALON",
-        "item_database_index": "3014"
-      },
-      "tier": 8,
-      "enchantment": 0,
-      "localized_all_names": {
-        "EN-US": "Elder's Avalonian Siege Hammer",
-        "DE-DE": "Avalonischer Belagerungshammer des Ältesten",
-        "FR-FR": "Marteau de siège avalonien du sage",
-        "RU-RU": "Авалонский осадный молот (старейшина)",
-        "PL-PL": "Awaloński Młot Oblężniczy Starszego",
-        "ES-ES": "Martillo de asedio avaloniano del anciano",
-        "PT-BR": "Martelo de Cerco Avaloniano do Ancião",
-        "IT-IT": "Martello d'assedio avaloniano dell'anziano",
-        "ZH-CN": "禅师级阿瓦隆攻城锤",
-        "KO-KR": "장로의 아발로니안 공성 망치",
-        "JA-JP": "アバロンのシージハンマー（老熟）",
-        "ZH-TW": "禪師級阿瓦隆攻城鎚",
-        "ID-ID": "Palu Pengepungan Avalonian Tetua",
-        "TR-TR": "Yüce Avalon Kuşatma Çekici",
-        "AR-SA": "مطرقة حصار أفالوني للحكيم"
-      },
-      "localized_all_descriptions": {
-        "EN-US": "A powerful hammer designed for destroying buildings and furniture.",
-        "DE-DE": "Werkzeug zur Zerstörung von Gebäuden und Möbeln.",
-        "FR-FR": "Outil de destruction des bâtiments et du mobilier",
-        "RU-RU": "Помогает сносить здания и ломать мебель.",
-        "PL-PL": "Narzędzie do niszczenia budynków i mebli.",
-        "ES-ES": "Herramienta para destruir edificios y muebles.",
-        "PT-BR": "Ferramenta para destruir construções e mobílias",
-        "IT-IT": "Un grosso e pesante martello pensato per distruggere edifici e arredi.",
-        "ZH-CN": "强大的锤子，专门用于摧毁建筑和家具。",
-        "KO-KR": "건물과 가구를 파괴하도록 설계된 튼튼한 망치.",
-        "JA-JP": "建物や家具の破壊用の強力なハンマー。",
-        "ZH-TW": "一種專門設計來摧毀建築物和家具的強力鎚子。",
-        "ID-ID": "Palu kuat yang dirancang untuk menghancurkan bangunan atau furnitur.",
-        "TR-TR": "Yapı ve mobilya yok etmek için tasarlanmış güçlü bir çekiç.",
-        "AR-SA": "مطرقة قوية مصممة لتدمير المباني والأثاث."
-      },
-      "source": "ao-bin-dumps",
-      "localization_variables": {
-        "name_variable": "@ITEMS_T8_2H_TOOL_SIEGEHAMMER_AVALON",
-        "description_variable": "@ITEMS_T8_2H_TOOL_SIEGEHAMMER_DESC"
-      },
-      "origin": "Other/Guilds/Guilds_T8_2H_TOOL_SIEGEHAMMER_AVALON.json",
-      "raw": {
-        "@uniquename": "T8_2H_TOOL_SIEGEHAMMER_AVALON",
-        "@mesh": "T8_2H_SIEGEHAMMER",
-        "@uisprite": "2H_SIEGEHAMMER_AVALON",
-        "@attackendanimgaptime": "0.1",
-        "@maxqualitylevel": "1",
-        "@abilitypower": "100",
-        "@slottype": "mainhand",
-        "@craftingcategory": "tools",
-        "@shopcategory": "other",
-        "@shopsubcategory1": "guilds",
-        "@attacktype": "melee",
-        "@attackbuildingdamage": "114.0",
-        "@repairbuildingdamage": "95",
-        "@attackdamage": "112",
-        "@attackspeed": "0.625",
-        "@attackrange": "3",
-        "@twohanded": "true",
-        "@tier": "8",
-        "@weight": "8.54",
-        "@activespellslots": "0",
-        "@passivespellslots": "0",
-        "@durability": "25600",
-        "@durabilityloss_attack": "1",
-        "@durabilityloss_spelluse": "1",
-        "@durabilityloss_receivedattack": "1",
-        "@durabilityloss_receivedspell": "1",
-        "@mainhandanimationtype": "t_siege hammer",
-        "@mainhandanimationtype_repairbuilding": "t_siege_repair hammer",
-        "@unlockedtocraft": "false",
-        "@unlockedtoequip": "false",
-        "@itempower": "1060",
-        "@unequipincombat": "false",
-        "@uicraftsoundstart": "Play_ui_action_craft_tool_start",
-        "@uicraftsoundfinish": "Play_ui_action_craft_tool_finish",
-        "@canbeovercharged": "false",
-        "@descriptionlocatag": "@ITEMS_T8_2H_TOOL_SIEGEHAMMER_DESC",
-        "@shopsubcategory2": "siegehammer",
-        "craftingrequirements": {
-          "@silver": "0",
-          "@time": "2.5",
-          "@craftingfocus": "8042",
-          "craftresource": [
-            {
-              "@uniquename": "T8_PLANKS",
-              "@count": "8"
-            },
-            {
-              "@uniquename": "T8_STONEBLOCK",
-              "@count": "8"
-            },
-            {
-              "@uniquename": "QUESTITEM_TOKEN_AVALON",
-              "@count": "300",
-              "@maxreturnamount": "0"
-            }
-          ]
-        },
-        "AudioInfo": {
-          "@name": "TOOL_SIEGEHAMMER_HT6"
-        },
-        "SocketPreset": {
-          "@name": "TOOL_SIEGEHAMMER"
-        }
-      },
-      "name_sources_ref": 0,
-      "description_sources_ref": 0
-    },
-    {
-      "id": "T5_SIEGE_BANNER",
-      "index": "11914",
-      "category": "Other_Guilds",
-      "slot": "2h",
-      "two_handed": false,
-      "item_stats": {
-        "itemvalue": null,
-        "resourcevalue": null,
-        "famevalue": null,
-        "salvagevalueoverride": null,
-        "estimatedmarketvalueoverride": null
-      },
-      "crafting_requirements": {
-        "primary_resource": "T5_CLOTH",
-        "primary_count": 12,
-        "secondary_resource": "T5_PLANKS",
-        "secondary_count": 4,
-        "resources": [
-          {
-            "id": "T5_CLOTH",
-            "count": 12
-          },
-          {
-            "id": "T5_PLANKS",
-            "count": 4
-          }
-        ]
-      },
-      "is_artifact": false,
-      "artifact_details": null,
-      "integration_ids": {
-        "albion_online_data_project_id": "T5_SIEGE_BANNER",
-        "item_database_index": "11914"
-      },
-      "tier": 5,
-      "enchantment": 0,
-      "localized_all_names": {
-        "EN-US": "Expert's Siege Banner",
-        "DE-DE": "Belagerungsbanner des Experten",
-        "FR-FR": "Bannière de siège de l'expert",
-        "RU-RU": "Осадное знамя (эксперт)",
-        "PL-PL": "Sztandar Oblężniczy Znawcy",
-        "ES-ES": "Estandarte de asedio del experto",
-        "PT-BR": "Estandarte de Cerco do Perito",
-        "IT-IT": "Stendardo d'assedio dell'esperto",
-        "ZH-CN": "专家级攻城战旗",
-        "KO-KR": "전문가의 공성 깃발",
-        "JA-JP": "シージバナー（達人）",
-        "ZH-TW": "專家級攻城戰旗",
-        "ID-ID": "Panji Pengepungan Ahli",
-        "TR-TR": "Uzman Kuşatma Sancağı",
-        "AR-SA": "راية حصار الأخصائي"
-      },
-      "localized_all_descriptions": {
-        "EN-US": "Use this to weaken enemy territories, making them vulnerable to attack. It is required for raiding or conquering territories.",
-        "DE-DE": "Nutze es zum Schwächen gegnerischer Territorien, wodurch sie angreifbar werden. Es ist notwendig, um Territorien zu überfallen oder zu erobern.",
-        "FR-FR": "Utilisez-la pour affaiblir les territoires ennemis et les rendre vulnérables aux attaques. Elle est nécessaire pour effectuer des raids ou conquérir des territoires.",
-        "RU-RU": "Используйте его, чтобы ослабить вражеские территории, сделав их уязвимыми для нападения. Оно необходимо для рейдов и завоевания территорий.",
-        "PL-PL": "Użyj go, aby osłabić terytoria wroga, czyniąc je łatwiejszymi do zaatakowania. Wymagany do najazdu i podboju terytoriów.",
-        "ES-ES": "Utilízalo para debilitar los territorios enemigos, de modo que sean vulnerables a los ataques. Es necesario para realizar asaltos o conquistar territorios.",
-        "PT-BR": "Use isto para enfraquecer territórios inimigos, tornando-os vulneráveis ao ataque. Este item é necessário para invadir ou conquistar territórios.",
-        "IT-IT": "Si usa per indebolire i territori nemici, rendendoli vulnerabili agli attacchi. È necessario per le razzie o la conquista di territori.",
-        "ZH-CN": "用它来削弱敌人的领地，使他们可以受到攻击。它是袭击或征服领地所必需的。",
-        "KO-KR": "아이템을 사용해 적의 영토를 약화시키고, 공격에 취약한 상태로 만듭니다. 영토를 습격하거나 정복하는 데에 필요합니다.",
-        "JA-JP": "敵の領地を弱体化させ、攻撃を受けやすくする。レイドや 領地征服の際に必要となる。",
-        "ZH-TW": "用它來削弱敵人的領地，使他們可以受到攻擊。它是襲擊或征服領地所必需的。",
-        "ID-ID": "Gunakan ini untuk melemahkan wilayah musuh, menjadikannya rentan terhadap serangan. Diperlukan untuk menyerbu atau menaklukkan wilayah.",
-        "TR-TR": "Düşman mıntıkaları zayıflatmak ve saldırıya açık hale getirmek için bunu kullan. Mıntıkalara baskın yapmak veya fethetmek için gereklidir.",
-        "AR-SA": "استخدمها لإضعاف مناطق العدو، مما يجعلها عرضة للهجوم. وهي مطلوبة للمداهمة أو غزو المناطق."
-      },
-      "source": "ao-bin-dumps",
-      "localization_variables": {
-        "name_variable": "@ITEMS_T5_SIEGE_BANNER",
-        "description_variable": "@ITEMS_T4_SIEGE_BANNER_DESC"
-      },
-      "origin": "Other/Guilds/Guilds_T5_SIEGE_BANNER.json",
-      "raw": {
-        "@uniquename": "T5_SIEGE_BANNER",
-        "@referencespell": "T5_RAID_BANNER_ITEM_SPELL",
-        "@tradable": "true",
-        "@shopcategory": "other",
-        "@shopsubcategory1": "guilds",
-        "@tier": "5",
-        "@weight": "2.53",
-        "@maxstacksize": "999",
-        "@unlockedtocraft": "false",
-        "@uicraftsoundstart": "Play_ui_action_craft_tool_start",
-        "@uicraftsoundfinish": "Play_ui_action_craft_tool_finish",
-        "@canbeovercharged": "false",
-        "@descriptionlocatag": "@ITEMS_T4_SIEGE_BANNER_DESC",
-        "@shopsubcategory2": "siegebanners",
-        "craftingrequirements": {
-          "@silver": "0",
-          "@time": "0.5",
-          "@craftingfocus": "1501",
-          "craftresource": [
-            {
-              "@uniquename": "T5_PLANKS",
-              "@count": "4"
-            },
-            {
-              "@uniquename": "T5_CLOTH",
-              "@count": "12"
-            }
-          ]
-        }
-      },
-      "name_sources_ref": 0,
-      "description_sources_ref": 0
-    },
-    {
-      "id": "T2_2H_TOOL_SIEGEHAMMER",
-      "index": "3003",
-      "category": "Other_Guilds",
-      "slot": "MainHand",
-      "two_handed": true,
-      "item_stats": {
-        "itemvalue": null,
-        "resourcevalue": null,
-        "famevalue": null,
-        "salvagevalueoverride": null,
-        "estimatedmarketvalueoverride": null
-      },
-      "crafting_requirements": {
-        "primary_resource": "T2_PLANKS",
-        "primary_count": 12,
-        "secondary_resource": "T2_STONEBLOCK",
-        "secondary_count": 12,
-        "resources": [
-          {
-            "id": "T2_PLANKS",
-            "count": 12
-          },
-          {
-            "id": "T2_STONEBLOCK",
-            "count": 12
-          }
-        ]
-      },
-      "is_artifact": false,
-      "artifact_details": null,
-      "integration_ids": {
-        "albion_online_data_project_id": "T2_2H_TOOL_SIEGEHAMMER",
-        "item_database_index": "3003"
-      },
-      "tier": 2,
-      "enchantment": 0,
-      "localized_all_names": {
-        "EN-US": "Novice's Siege Hammer",
-        "DE-DE": "Belagerungshammer des Novizen",
-        "FR-FR": "Marteau de siège de l'apprenti",
-        "RU-RU": "Осадный молот (новичок)",
-        "PL-PL": "Młot Oblężniczy Nowicjusza",
-        "ES-ES": "Martillo de asedio del novato",
-        "PT-BR": "Martelo de Cerco do Novato",
-        "IT-IT": "Martello d'assedio del novizio",
-        "ZH-CN": "新手级攻城锤",
-        "KO-KR": "초심자의 공성 망치",
-        "JA-JP": "シージハンマー（見習い）",
-        "ZH-TW": "新手級攻城鎚",
-        "ID-ID": "Palu Pengepungan Pemula",
-        "TR-TR": "Acemi Kuşatma Çekici",
-        "AR-SA": "مطرقة الحصار للمبتدئ"
-      },
-      "localized_all_descriptions": {
-        "EN-US": "A powerful hammer designed for destroying buildings and furniture.",
-        "DE-DE": "Werkzeug zur Zerstörung von Gebäuden und Möbeln.",
-        "FR-FR": "Outil de destruction des bâtiments et du mobilier",
-        "RU-RU": "Помогает сносить здания и ломать мебель.",
-        "PL-PL": "Narzędzie do niszczenia budynków i mebli.",
-        "ES-ES": "Herramienta para destruir edificios y muebles.",
-        "PT-BR": "Ferramenta para destruir construções e mobílias",
-        "IT-IT": "Un grosso e pesante martello pensato per distruggere edifici e arredi.",
-        "ZH-CN": "强大的锤子，专门用于摧毁建筑和家具。",
-        "KO-KR": "건물과 가구를 파괴하도록 설계된 튼튼한 망치.",
-        "JA-JP": "建物や家具の破壊用の強力なハンマー。",
-        "ZH-TW": "一種專門設計來摧毀建築物和家具的強力鎚子。",
-        "ID-ID": "Palu kuat yang dirancang untuk menghancurkan bangunan atau furnitur.",
-        "TR-TR": "Yapı ve mobilya yok etmek için tasarlanmış güçlü bir çekiç.",
-        "AR-SA": "مطرقة قوية مصممة لتدمير المباني والأثاث."
-      },
-      "source": "ao-bin-dumps",
-      "localization_variables": {
-        "name_variable": "@ITEMS_T2_2H_TOOL_SIEGEHAMMER",
-        "description_variable": "@ITEMS_T2_2H_TOOL_SIEGEHAMMER_DESC"
-      },
-      "origin": "Other/Guilds/Guilds_T2_2H_TOOL_SIEGEHAMMER.json",
-      "raw": {
-        "@uniquename": "T2_2H_TOOL_SIEGEHAMMER",
-        "@mesh": "T2_2H_SIEGEHAMMER",
-        "@uisprite": "2H_SIEGEHAMMER",
-        "@attackendanimgaptime": "0.1",
-        "@maxqualitylevel": "1",
-        "@abilitypower": "100",
-        "@slottype": "mainhand",
-        "@craftingcategory": "tools",
-        "@shopcategory": "other",
-        "@shopsubcategory1": "guilds",
-        "@attacktype": "melee",
-        "@attackbuildingdamage": "35",
-        "@repairbuildingdamage": "29",
-        "@attackdamage": "51",
-        "@attackspeed": "0.5",
-        "@attackrange": "3",
-        "@twohanded": "true",
-        "@tier": "2",
-        "@weight": "0.75",
-        "@activespellslots": "0",
-        "@passivespellslots": "0",
-        "@durability": "400",
-        "@durabilityloss_attack": "1",
-        "@durabilityloss_spelluse": "1",
-        "@durabilityloss_receivedattack": "1",
-        "@durabilityloss_receivedspell": "1",
-        "@mainhandanimationtype": "t_siege hammer",
-        "@mainhandanimationtype_repairbuilding": "t_siege_repair hammer",
-        "@unlockedtocraft": "false",
-        "@unlockedtoequip": "false",
-        "@itempower": "300",
-        "@unequipincombat": "false",
-        "@uicraftsoundstart": "Play_ui_action_craft_tool_start",
-        "@uicraftsoundfinish": "Play_ui_action_craft_tool_finish",
-        "@canbeovercharged": "false",
-        "@shopsubcategory2": "siegehammer",
-        "craftingrequirements": {
-          "@silver": "0",
-          "@time": "0.33333",
-          "@craftingfocus": "280",
-          "craftresource": [
-            {
-              "@uniquename": "T2_PLANKS",
-              "@count": "12"
-            },
-            {
-              "@uniquename": "T2_STONEBLOCK",
-              "@count": "12"
-            }
-          ]
-        },
-        "AudioInfo": {
-          "@name": "TOOL_SIEGEHAMMER"
-        },
-        "SocketPreset": {
-          "@name": "TOOL_SIEGEHAMMER"
-        }
-      },
-      "name_sources_ref": 0,
-      "description_sources_ref": 0
-    },
-    {
-      "id": "T7_2H_TOOL_SIEGEHAMMER",
-      "index": "3008",
-      "category": "Other_Guilds",
-      "slot": "MainHand",
-      "two_handed": true,
-      "item_stats": {
-        "itemvalue": null,
-        "resourcevalue": null,
-        "famevalue": null,
-        "salvagevalueoverride": null,
-        "estimatedmarketvalueoverride": null
-      },
-      "crafting_requirements": {
-        "primary_resource": "T7_PLANKS",
-        "primary_count": 8,
-        "secondary_resource": "T7_STONEBLOCK",
-        "secondary_count": 8,
-        "resources": [
-          {
-            "id": "T7_PLANKS",
-            "count": 8
-          },
-          {
-            "id": "T7_STONEBLOCK",
-            "count": 8
-          }
-        ]
-      },
-      "is_artifact": false,
-      "artifact_details": null,
-      "integration_ids": {
-        "albion_online_data_project_id": "T7_2H_TOOL_SIEGEHAMMER",
-        "item_database_index": "3008"
-      },
-      "tier": 7,
-      "enchantment": 0,
-      "localized_all_names": {
-        "EN-US": "Grandmaster's Siege Hammer",
-        "DE-DE": "Belagerungshammer des Großmeisters",
-        "FR-FR": "Marteau de siège du grand maître",
-        "RU-RU": "Осадный молот (магистр)",
-        "PL-PL": "Młot Oblężniczy Wszechmistrza",
-        "ES-ES": "Martillo de asedio del gran maestro",
-        "PT-BR": "Martelo de Cerco do Grão-mestre",
-        "IT-IT": "Martello d'assedio del gran maestro",
-        "ZH-CN": "宗师级攻城锤",
-        "KO-KR": "그랜드 마스터의 공성 망치",
-        "JA-JP": "シージハンマー（グランドマスター）",
-        "ZH-TW": "宗師級攻城鎚",
-        "ID-ID": "Palu Pengepungan Grandmaster",
-        "TR-TR": "Büyük Usta Kuşatma Çekici",
-        "AR-SA": "مطرقة الحصار للأستاذ"
-      },
-      "localized_all_descriptions": {
-        "EN-US": "A powerful hammer designed for destroying buildings and furniture.",
-        "DE-DE": "Werkzeug zur Zerstörung von Gebäuden und Möbeln.",
-        "FR-FR": "Outil de destruction des bâtiments et du mobilier",
-        "RU-RU": "Помогает сносить здания и ломать мебель.",
-        "PL-PL": "Narzędzie do niszczenia budynków i mebli.",
-        "ES-ES": "Herramienta para destruir edificios y muebles.",
-        "PT-BR": "Ferramenta para destruir construções e mobílias",
-        "IT-IT": "Un grosso e pesante martello pensato per distruggere edifici e arredi.",
-        "ZH-CN": "强大的锤子，专门用于摧毁建筑和家具。",
-        "KO-KR": "건물과 가구를 파괴하도록 설계된 튼튼한 망치.",
-        "JA-JP": "建物や家具の破壊用の強力なハンマー。",
-        "ZH-TW": "一種專門設計來摧毀建築物和家具的強力鎚子。",
-        "ID-ID": "Palu kuat yang dirancang untuk menghancurkan bangunan atau furnitur.",
-        "TR-TR": "Yapı ve mobilya yok etmek için tasarlanmış güçlü bir çekiç.",
-        "AR-SA": "مطرقة قوية مصممة لتدمير المباني والأثاث."
-      },
-      "source": "ao-bin-dumps",
-      "localization_variables": {
-        "name_variable": "@ITEMS_T7_2H_TOOL_SIEGEHAMMER",
-        "description_variable": "@ITEMS_T7_2H_TOOL_SIEGEHAMMER_DESC"
-      },
-      "origin": "Other/Guilds/Guilds_T7_2H_TOOL_SIEGEHAMMER.json",
-      "raw": {
-        "@uniquename": "T7_2H_TOOL_SIEGEHAMMER",
-        "@mesh": "T7_2H_SIEGEHAMMER",
-        "@uisprite": "2H_SIEGEHAMMER",
-        "@attackendanimgaptime": "0.1",
-        "@maxqualitylevel": "1",
-        "@abilitypower": "100",
-        "@slottype": "mainhand",
-        "@craftingcategory": "tools",
-        "@shopcategory": "other",
-        "@shopsubcategory1": "guilds",
-        "@attacktype": "melee",
-        "@attackbuildingdamage": "95",
-        "@repairbuildingdamage": "79",
-        "@attackdamage": "102",
-        "@attackspeed": "0.5",
-        "@attackrange": "3",
-        "@twohanded": "true",
-        "@tier": "7",
-        "@weight": "5.7",
-        "@activespellslots": "0",
-        "@passivespellslots": "0",
-        "@durability": "12800",
-        "@durabilityloss_attack": "1",
-        "@durabilityloss_spelluse": "1",
-        "@durabilityloss_receivedattack": "1",
-        "@durabilityloss_receivedspell": "1",
-        "@mainhandanimationtype": "t_siege hammer",
-        "@mainhandanimationtype_repairbuilding": "t_siege_repair hammer",
-        "@unlockedtocraft": "false",
-        "@unlockedtoequip": "false",
-        "@itempower": "980",
-        "@unequipincombat": "false",
-        "@uicraftsoundstart": "Play_ui_action_craft_tool_start",
-        "@uicraftsoundfinish": "Play_ui_action_craft_tool_finish",
-        "@canbeovercharged": "false",
-        "@shopsubcategory2": "siegehammer",
-        "craftingrequirements": {
-          "@silver": "0",
-          "@time": "1.66667",
-          "@craftingfocus": "4596",
-          "craftresource": [
-            {
-              "@uniquename": "T7_PLANKS",
-              "@count": "8"
-            },
-            {
-              "@uniquename": "T7_STONEBLOCK",
-              "@count": "8"
-            }
-          ]
-        },
-        "AudioInfo": {
-          "@name": "TOOL_SIEGEHAMMER_HT6"
-        },
-        "SocketPreset": {
-          "@name": "TOOL_SIEGEHAMMER"
-        }
-      },
-      "name_sources_ref": 0,
-      "description_sources_ref": 0
-    },
-    {
-      "id": "T6_2H_TOOL_SIEGEHAMMER",
-      "index": "3007",
-      "category": "Other_Guilds",
-      "slot": "MainHand",
-      "two_handed": true,
-      "item_stats": {
-        "itemvalue": null,
-        "resourcevalue": null,
-        "famevalue": null,
-        "salvagevalueoverride": null,
-        "estimatedmarketvalueoverride": null
-      },
-      "crafting_requirements": {
-        "primary_resource": "T6_PLANKS",
-        "primary_count": 8,
-        "secondary_resource": "T6_STONEBLOCK",
-        "secondary_count": 8,
-        "resources": [
-          {
-            "id": "T6_PLANKS",
-            "count": 8
-          },
-          {
-            "id": "T6_STONEBLOCK",
-            "count": 8
-          }
-        ]
-      },
-      "is_artifact": false,
-      "artifact_details": null,
-      "integration_ids": {
-        "albion_online_data_project_id": "T6_2H_TOOL_SIEGEHAMMER",
-        "item_database_index": "3007"
-      },
-      "tier": 6,
-      "enchantment": 0,
-      "localized_all_names": {
-        "EN-US": "Master's Siege Hammer",
-        "DE-DE": "Belagerungshammer des Meisters",
-        "FR-FR": "Marteau de siège du maître",
-        "RU-RU": "Осадный молот (мастер)",
-        "PL-PL": "Młot Oblężniczy Mistrza",
-        "ES-ES": "Martillo de asedio del maestro",
-        "PT-BR": "Martelo de Cerco do Mestre",
-        "IT-IT": "Martello d'assedio del maestro",
-        "ZH-CN": "大师级攻城锤",
-        "KO-KR": "마스터의 공성 망치",
-        "JA-JP": "シージハンマー（マスター）",
-        "ZH-TW": "大師級攻城鎚",
-        "ID-ID": "Palu Pengepungan Master",
-        "TR-TR": "Usta Kuşatma Çekici",
-        "AR-SA": "مطرقة الحصار للخبير"
-      },
-      "localized_all_descriptions": {
-        "EN-US": "A powerful hammer designed for destroying buildings and furniture.",
-        "DE-DE": "Werkzeug zur Zerstörung von Gebäuden und Möbeln.",
-        "FR-FR": "Outil de destruction des bâtiments et du mobilier",
-        "RU-RU": "Помогает сносить здания и ломать мебель.",
-        "PL-PL": "Narzędzie do niszczenia budynków i mebli.",
-        "ES-ES": "Herramienta para destruir edificios y muebles.",
-        "PT-BR": "Ferramenta para destruir construções e mobílias",
-        "IT-IT": "Un grosso e pesante martello pensato per distruggere edifici e arredi.",
-        "ZH-CN": "强大的锤子，专门用于摧毁建筑和家具。",
-        "KO-KR": "건물과 가구를 파괴하도록 설계된 튼튼한 망치.",
-        "JA-JP": "建物や家具の破壊用の強力なハンマー。",
-        "ZH-TW": "一種專門設計來摧毀建築物和家具的強力鎚子。",
-        "ID-ID": "Palu kuat yang dirancang untuk menghancurkan bangunan atau furnitur.",
-        "TR-TR": "Yapı ve mobilya yok etmek için tasarlanmış güçlü bir çekiç.",
-        "AR-SA": "مطرقة قوية مصممة لتدمير المباني والأثاث."
-      },
-      "source": "ao-bin-dumps",
-      "localization_variables": {
-        "name_variable": "@ITEMS_T6_2H_TOOL_SIEGEHAMMER",
-        "description_variable": "@ITEMS_T6_2H_TOOL_SIEGEHAMMER_DESC"
-      },
-      "origin": "Other/Guilds/Guilds_T6_2H_TOOL_SIEGEHAMMER.json",
-      "raw": {
-        "@uniquename": "T6_2H_TOOL_SIEGEHAMMER",
-        "@mesh": "T6_2H_SIEGEHAMMER",
-        "@uisprite": "2H_SIEGEHAMMER",
-        "@attackendanimgaptime": "0.1",
-        "@maxqualitylevel": "1",
-        "@abilitypower": "100",
-        "@slottype": "mainhand",
-        "@craftingcategory": "tools",
-        "@shopcategory": "other",
-        "@shopsubcategory1": "guilds",
-        "@attacktype": "melee",
-        "@attackbuildingdamage": "79",
-        "@repairbuildingdamage": "66",
-        "@attackdamage": "94",
-        "@attackspeed": "0.5",
-        "@attackrange": "3",
-        "@twohanded": "true",
-        "@tier": "6",
-        "@weight": "3.8",
-        "@activespellslots": "0",
-        "@passivespellslots": "0",
-        "@durability": "6400",
-        "@durabilityloss_attack": "1",
-        "@durabilityloss_spelluse": "1",
-        "@durabilityloss_receivedattack": "1",
-        "@durabilityloss_receivedspell": "1",
-        "@mainhandanimationtype": "t_siege hammer",
-        "@mainhandanimationtype_repairbuilding": "t_siege_repair hammer",
-        "@unlockedtocraft": "false",
-        "@unlockedtoequip": "false",
-        "@itempower": "900",
-        "@unequipincombat": "false",
-        "@uicraftsoundstart": "Play_ui_action_craft_tool_start",
-        "@uicraftsoundfinish": "Play_ui_action_craft_tool_finish",
-        "@canbeovercharged": "false",
-        "@shopsubcategory2": "siegehammer",
-        "craftingrequirements": {
-          "@silver": "0",
-          "@time": "1.33333",
-          "@craftingfocus": "2626",
-          "craftresource": [
-            {
-              "@uniquename": "T6_PLANKS",
-              "@count": "8"
-            },
-            {
-              "@uniquename": "T6_STONEBLOCK",
-              "@count": "8"
-            }
-          ]
-        },
-        "AudioInfo": {
-          "@name": "TOOL_SIEGEHAMMER_HT6"
-        },
-        "SocketPreset": {
-          "@name": "TOOL_SIEGEHAMMER"
-        }
-      },
-      "name_sources_ref": 0,
-      "description_sources_ref": 0
-    },
-    {
-      "id": "T4_2H_TOOL_SIEGEHAMMER",
-      "index": "3005",
-      "category": "Other_Guilds",
-      "slot": "MainHand",
-      "two_handed": true,
-      "item_stats": {
-        "itemvalue": null,
-        "resourcevalue": null,
-        "famevalue": null,
-        "salvagevalueoverride": null,
-        "estimatedmarketvalueoverride": null
-      },
-      "crafting_requirements": {
-        "primary_resource": "T4_PLANKS",
-        "primary_count": 8,
-        "secondary_resource": "T4_STONEBLOCK",
-        "secondary_count": 8,
-        "resources": [
-          {
-            "id": "T4_PLANKS",
-            "count": 8
-          },
-          {
-            "id": "T4_STONEBLOCK",
-            "count": 8
-          }
-        ]
-      },
-      "is_artifact": false,
-      "artifact_details": null,
-      "integration_ids": {
-        "albion_online_data_project_id": "T4_2H_TOOL_SIEGEHAMMER",
-        "item_database_index": "3005"
-      },
-      "tier": 4,
-      "enchantment": 0,
-      "localized_all_names": {
-        "EN-US": "Adept's Siege Hammer",
-        "DE-DE": "Belagerungshammer des Adepten",
-        "FR-FR": "Marteau de siège de l'adepte",
-        "RU-RU": "Осадный молот (знаток)",
-        "PL-PL": "Młot Oblężniczy Adepta",
-        "ES-ES": "Martillo de asedio del iniciado",
-        "PT-BR": "Martelo de Cerco do Adepto",
-        "IT-IT": "Martello d'assedio del sapiente",
-        "ZH-CN": "老手级攻城锤",
-        "KO-KR": "숙련자의 공성 망치",
-        "JA-JP": "シージハンマー（名人）",
-        "ZH-TW": "老手級攻城鎚",
-        "ID-ID": "Palu Pengepungan Mahir",
-        "TR-TR": "Ehil Kuşatma Çekici",
-        "AR-SA": "مطرقة الحصار للبارع"
-      },
-      "localized_all_descriptions": {
-        "EN-US": "A powerful hammer designed for destroying buildings and furniture.",
-        "DE-DE": "Werkzeug zur Zerstörung von Gebäuden und Möbeln.",
-        "FR-FR": "Outil de destruction des bâtiments et du mobilier",
-        "RU-RU": "Помогает сносить здания и ломать мебель.",
-        "PL-PL": "Narzędzie do niszczenia budynków i mebli.",
-        "ES-ES": "Herramienta para destruir edificios y muebles.",
-        "PT-BR": "Ferramenta para destruir construções e mobílias",
-        "IT-IT": "Un grosso e pesante martello pensato per distruggere edifici e arredi.",
-        "ZH-CN": "强大的锤子，专门用于摧毁建筑和家具。",
-        "KO-KR": "건물과 가구를 파괴하도록 설계된 튼튼한 망치.",
-        "JA-JP": "建物や家具の破壊用の強力なハンマー。",
-        "ZH-TW": "一種專門設計來摧毀建築物和家具的強力鎚子。",
-        "ID-ID": "Palu kuat yang dirancang untuk menghancurkan bangunan atau furnitur.",
-        "TR-TR": "Yapı ve mobilya yok etmek için tasarlanmış güçlü bir çekiç.",
-        "AR-SA": "مطرقة قوية مصممة لتدمير المباني والأثاث."
-      },
-      "source": "ao-bin-dumps",
-      "localization_variables": {
-        "name_variable": "@ITEMS_T4_2H_TOOL_SIEGEHAMMER",
-        "description_variable": "@ITEMS_T4_2H_TOOL_SIEGEHAMMER_DESC"
-      },
-      "origin": "Other/Guilds/Guilds_T4_2H_TOOL_SIEGEHAMMER.json",
-      "raw": {
-        "@uniquename": "T4_2H_TOOL_SIEGEHAMMER",
-        "@mesh": "T4_2H_SIEGEHAMMER",
-        "@uisprite": "2H_SIEGEHAMMER",
-        "@attackendanimgaptime": "0.1",
-        "@maxqualitylevel": "1",
-        "@abilitypower": "100",
-        "@slottype": "mainhand",
-        "@craftingcategory": "tools",
-        "@shopcategory": "other",
-        "@shopsubcategory1": "guilds",
-        "@attacktype": "melee",
-        "@attackbuildingdamage": "55",
-        "@repairbuildingdamage": "45",
-        "@attackdamage": "72",
-        "@attackspeed": "0.5",
-        "@attackrange": "3",
-        "@twohanded": "true",
-        "@tier": "4",
-        "@weight": "1.69",
-        "@activespellslots": "0",
-        "@passivespellslots": "0",
-        "@durability": "1600",
-        "@durabilityloss_attack": "1",
-        "@durabilityloss_spelluse": "1",
-        "@durabilityloss_receivedattack": "1",
-        "@durabilityloss_receivedspell": "1",
-        "@mainhandanimationtype": "t_siege hammer",
-        "@mainhandanimationtype_repairbuilding": "t_siege_repair hammer",
-        "@unlockedtocraft": "false",
-        "@unlockedtoequip": "false",
-        "@itempower": "700",
-        "@unequipincombat": "false",
-        "@uicraftsoundstart": "Play_ui_action_craft_tool_start",
-        "@uicraftsoundfinish": "Play_ui_action_craft_tool_finish",
-        "@canbeovercharged": "false",
-        "@shopsubcategory2": "siegehammer",
-        "craftingrequirements": {
-          "@silver": "0",
-          "@time": "0.66667",
-          "@craftingfocus": "858",
-          "craftresource": [
-            {
-              "@uniquename": "T4_PLANKS",
-              "@count": "8"
-            },
-            {
-              "@uniquename": "T4_STONEBLOCK",
-              "@count": "8"
-            }
-          ]
-        },
-        "AudioInfo": {
-          "@name": "TOOL_SIEGEHAMMER"
-        },
-        "SocketPreset": {
-          "@name": "TOOL_SIEGEHAMMER"
-        }
-      },
-      "name_sources_ref": 0,
-      "description_sources_ref": 0
-    },
-    {
-      "id": "T8_2H_TOOL_SIEGEHAMMER",
-      "index": "3009",
-      "category": "Other_Guilds",
-      "slot": "MainHand",
-      "two_handed": true,
-      "item_stats": {
-        "itemvalue": null,
-        "resourcevalue": null,
-        "famevalue": null,
-        "salvagevalueoverride": null,
-        "estimatedmarketvalueoverride": null
-      },
-      "crafting_requirements": {
-        "primary_resource": "T8_PLANKS",
-        "primary_count": 8,
-        "secondary_resource": "T8_STONEBLOCK",
-        "secondary_count": 8,
-        "resources": [
-          {
-            "id": "T8_PLANKS",
-            "count": 8
-          },
-          {
-            "id": "T8_STONEBLOCK",
-            "count": 8
-          }
-        ]
-      },
-      "is_artifact": false,
-      "artifact_details": null,
-      "integration_ids": {
-        "albion_online_data_project_id": "T8_2H_TOOL_SIEGEHAMMER",
-        "item_database_index": "3009"
-      },
-      "tier": 8,
-      "enchantment": 0,
-      "localized_all_names": {
-        "EN-US": "Elder's Siege Hammer",
-        "DE-DE": "Belagerungshammer des Ältesten",
-        "FR-FR": "Marteau de siège du sage",
-        "RU-RU": "Осадный молот (старейшина)",
-        "PL-PL": "Młot Oblężniczy Starszego",
-        "ES-ES": "Martillo de asedio del anciano",
-        "PT-BR": "Martelo de Cerco do Ancião",
-        "IT-IT": "Martello d'assedio dell'anziano",
-        "ZH-CN": "禅师级攻城锤",
-        "KO-KR": "장로의 공성 망치",
-        "JA-JP": "シージハンマー（老熟）",
-        "ZH-TW": "禪師級攻城鎚",
-        "ID-ID": "Palu Pengepungan Tetua",
-        "TR-TR": "Yüce Kuşatma Çekici",
-        "AR-SA": "مطرقة الحصار للحكيم"
-      },
-      "localized_all_descriptions": {
-        "EN-US": "A powerful hammer designed for destroying buildings and furniture.",
-        "DE-DE": "Werkzeug zur Zerstörung von Gebäuden und Möbeln.",
-        "FR-FR": "Outil de destruction des bâtiments et du mobilier",
-        "RU-RU": "Помогает сносить здания и ломать мебель.",
-        "PL-PL": "Narzędzie do niszczenia budynków i mebli.",
-        "ES-ES": "Herramienta para destruir edificios y muebles.",
-        "PT-BR": "Ferramenta para destruir construções e mobílias",
-        "IT-IT": "Un grosso e pesante martello pensato per distruggere edifici e arredi.",
-        "ZH-CN": "强大的锤子，专门用于摧毁建筑和家具。",
-        "KO-KR": "건물과 가구를 파괴하도록 설계된 튼튼한 망치.",
-        "JA-JP": "建物や家具の破壊用の強力なハンマー。",
-        "ZH-TW": "一種專門設計來摧毀建築物和家具的強力鎚子。",
-        "ID-ID": "Palu kuat yang dirancang untuk menghancurkan bangunan atau furnitur.",
-        "TR-TR": "Yapı ve mobilya yok etmek için tasarlanmış güçlü bir çekiç.",
-        "AR-SA": "مطرقة قوية مصممة لتدمير المباني والأثاث."
-      },
-      "source": "ao-bin-dumps",
-      "localization_variables": {
-        "name_variable": "@ITEMS_T8_2H_TOOL_SIEGEHAMMER",
-        "description_variable": "@ITEMS_T8_2H_TOOL_SIEGEHAMMER_DESC"
-      },
-      "origin": "Other/Guilds/Guilds_T8_2H_TOOL_SIEGEHAMMER.json",
-      "raw": {
-        "@uniquename": "T8_2H_TOOL_SIEGEHAMMER",
-        "@mesh": "T8_2H_SIEGEHAMMER",
-        "@uisprite": "2H_SIEGEHAMMER",
-        "@attackendanimgaptime": "0.1",
-        "@maxqualitylevel": "1",
-        "@abilitypower": "100",
-        "@slottype": "mainhand",
-        "@craftingcategory": "tools",
-        "@shopcategory": "other",
-        "@shopsubcategory1": "guilds",
-        "@attacktype": "melee",
-        "@attackbuildingdamage": "114.0",
-        "@repairbuildingdamage": "95",
-        "@attackdamage": "112",
-        "@attackspeed": "0.5",
-        "@attackrange": "3",
-        "@twohanded": "true",
-        "@tier": "8",
-        "@weight": "8.54",
-        "@activespellslots": "0",
-        "@passivespellslots": "0",
-        "@durability": "25600",
-        "@durabilityloss_attack": "1",
-        "@durabilityloss_spelluse": "1",
-        "@durabilityloss_receivedattack": "1",
-        "@durabilityloss_receivedspell": "1",
-        "@mainhandanimationtype": "t_siege hammer",
-        "@mainhandanimationtype_repairbuilding": "t_siege_repair hammer",
-        "@unlockedtocraft": "false",
-        "@unlockedtoequip": "false",
-        "@itempower": "1060",
-        "@unequipincombat": "false",
-        "@uicraftsoundstart": "Play_ui_action_craft_tool_start",
-        "@uicraftsoundfinish": "Play_ui_action_craft_tool_finish",
-        "@canbeovercharged": "false",
-        "@shopsubcategory2": "siegehammer",
-        "craftingrequirements": {
-          "@silver": "0",
-          "@time": "2.5",
-          "@craftingfocus": "8042",
-          "craftresource": [
-            {
-              "@uniquename": "T8_PLANKS",
-              "@count": "8"
-            },
-            {
-              "@uniquename": "T8_STONEBLOCK",
-              "@count": "8"
-            }
-          ]
-        },
-        "AudioInfo": {
-          "@name": "TOOL_SIEGEHAMMER_HT6"
-        },
-        "SocketPreset": {
-          "@name": "TOOL_SIEGEHAMMER"
-        }
-      },
-      "name_sources_ref": 0,
-      "description_sources_ref": 0
-    },
-    {
-      "id": "T6_2H_TOOL_SIEGEHAMMER_AVALON",
-      "index": "3012",
-      "category": "Other_Guilds",
-      "slot": "MainHand",
-      "two_handed": true,
-      "item_stats": {
-        "itemvalue": null,
-        "resourcevalue": null,
-        "famevalue": null,
-        "salvagevalueoverride": null,
-        "estimatedmarketvalueoverride": null
-      },
-      "crafting_requirements": {
-        "primary_resource": "QUESTITEM_TOKEN_AVALON",
-        "primary_count": 160,
-        "secondary_resource": "T6_PLANKS",
-        "secondary_count": 8,
-        "resources": [
-          {
-            "id": "QUESTITEM_TOKEN_AVALON",
-            "count": 160
-          },
-          {
-            "id": "T6_PLANKS",
-            "count": 8
-          },
-          {
-            "id": "T6_STONEBLOCK",
-            "count": 8
-          }
-        ]
-      },
-      "is_artifact": false,
-      "artifact_details": null,
-      "integration_ids": {
-        "albion_online_data_project_id": "T6_2H_TOOL_SIEGEHAMMER_AVALON",
-        "item_database_index": "3012"
-      },
-      "tier": 6,
-      "enchantment": 0,
-      "localized_all_names": {
-        "EN-US": "Master's Avalonian Siege Hammer",
-        "DE-DE": "Avalonischer Belagerungshammer des Meisters",
-        "FR-FR": "Marteau de siège avalonien du maître",
-        "RU-RU": "Авалонский осадный молот (мастер)",
-        "PL-PL": "Awaloński Młot Oblężniczy Mistrza",
-        "ES-ES": "Martillo de asedio avaloniano del maestro",
-        "PT-BR": "Martelo de Cerco Avaloniano do Mestre",
-        "IT-IT": "Martello d'assedio avaloniano del maestro",
-        "ZH-CN": "大师级阿瓦隆攻城锤",
-        "KO-KR": "마스터의 아발로니안 공성망치",
-        "JA-JP": "アバロンのシージハンマー（マスター）",
-        "ZH-TW": "大師級阿瓦隆攻城鎚",
-        "ID-ID": "Palu Pengepungan Avalonian Master",
-        "TR-TR": "Usta Avalon Kuşatma Çekici",
-        "AR-SA": "مطرقة حصار أفالوني للخبير"
-      },
-      "localized_all_descriptions": {
-        "EN-US": "A powerful hammer designed for destroying buildings and furniture.",
-        "DE-DE": "Werkzeug zur Zerstörung von Gebäuden und Möbeln.",
-        "FR-FR": "Outil de destruction des bâtiments et du mobilier",
-        "RU-RU": "Помогает сносить здания и ломать мебель.",
-        "PL-PL": "Narzędzie do niszczenia budynków i mebli.",
-        "ES-ES": "Herramienta para destruir edificios y muebles.",
-        "PT-BR": "Ferramenta para destruir construções e mobílias",
-        "IT-IT": "Un grosso e pesante martello pensato per distruggere edifici e arredi.",
-        "ZH-CN": "强大的锤子，专门用于摧毁建筑和家具。",
-        "KO-KR": "건물과 가구를 파괴하도록 설계된 튼튼한 망치.",
-        "JA-JP": "建物や家具の破壊用の強力なハンマー。",
-        "ZH-TW": "一種專門設計來摧毀建築物和家具的強力鎚子。",
-        "ID-ID": "Palu kuat yang dirancang untuk menghancurkan bangunan atau furnitur.",
-        "TR-TR": "Yapı ve mobilya yok etmek için tasarlanmış güçlü bir çekiç.",
-        "AR-SA": "مطرقة قوية مصممة لتدمير المباني والأثاث."
-      },
-      "source": "ao-bin-dumps",
-      "localization_variables": {
-        "name_variable": "@ITEMS_T6_2H_TOOL_SIEGEHAMMER_AVALON",
-        "description_variable": "@ITEMS_T8_2H_TOOL_SIEGEHAMMER_DESC"
-      },
-      "origin": "Other/Guilds/Guilds_T6_2H_TOOL_SIEGEHAMMER_AVALON.json",
-      "raw": {
-        "@uniquename": "T6_2H_TOOL_SIEGEHAMMER_AVALON",
-        "@mesh": "T6_2H_SIEGEHAMMER",
-        "@uisprite": "2H_SIEGEHAMMER_AVALON",
-        "@attackendanimgaptime": "0.1",
-        "@maxqualitylevel": "1",
-        "@abilitypower": "100",
-        "@slottype": "mainhand",
-        "@craftingcategory": "tools",
-        "@shopcategory": "other",
-        "@shopsubcategory1": "guilds",
-        "@attacktype": "melee",
-        "@attackbuildingdamage": "79",
-        "@repairbuildingdamage": "66",
-        "@attackdamage": "94",
-        "@attackspeed": "0.625",
-        "@attackrange": "3",
-        "@twohanded": "true",
-        "@tier": "6",
-        "@weight": "3.8",
-        "@activespellslots": "0",
-        "@passivespellslots": "0",
-        "@durability": "6400",
-        "@durabilityloss_attack": "1",
-        "@durabilityloss_spelluse": "1",
-        "@durabilityloss_receivedattack": "1",
-        "@durabilityloss_receivedspell": "1",
-        "@mainhandanimationtype": "t_siege hammer",
-        "@mainhandanimationtype_repairbuilding": "t_siege_repair hammer",
-        "@unlockedtocraft": "false",
-        "@unlockedtoequip": "false",
-        "@itempower": "900",
-        "@unequipincombat": "false",
-        "@uicraftsoundstart": "Play_ui_action_craft_tool_start",
-        "@uicraftsoundfinish": "Play_ui_action_craft_tool_finish",
-        "@canbeovercharged": "false",
-        "@descriptionlocatag": "@ITEMS_T8_2H_TOOL_SIEGEHAMMER_DESC",
-        "@shopsubcategory2": "siegehammer",
-        "craftingrequirements": {
-          "@silver": "0",
-          "@time": "1.33333",
-          "@craftingfocus": "2626",
-          "craftresource": [
-            {
-              "@uniquename": "T6_PLANKS",
-              "@count": "8"
-            },
-            {
-              "@uniquename": "T6_STONEBLOCK",
-              "@count": "8"
-            },
-            {
-              "@uniquename": "QUESTITEM_TOKEN_AVALON",
-              "@count": "160",
-              "@maxreturnamount": "0"
-            }
-          ]
-        },
-        "AudioInfo": {
-          "@name": "TOOL_SIEGEHAMMER_HT6"
-        },
-        "SocketPreset": {
-          "@name": "TOOL_SIEGEHAMMER"
-        }
-      },
-      "name_sources_ref": 0,
-      "description_sources_ref": 0
-    },
-    {
-      "id": "T5_2H_TOOL_SIEGEHAMMER",
-      "index": "3006",
-      "category": "Other_Guilds",
-      "slot": "MainHand",
-      "two_handed": true,
-      "item_stats": {
-        "itemvalue": null,
-        "resourcevalue": null,
-        "famevalue": null,
-        "salvagevalueoverride": null,
-        "estimatedmarketvalueoverride": null
-      },
-      "crafting_requirements": {
-        "primary_resource": "T5_PLANKS",
-        "primary_count": 8,
-        "secondary_resource": "T5_STONEBLOCK",
-        "secondary_count": 8,
-        "resources": [
-          {
-            "id": "T5_PLANKS",
-            "count": 8
-          },
-          {
-            "id": "T5_STONEBLOCK",
-            "count": 8
-          }
-        ]
-      },
-      "is_artifact": false,
-      "artifact_details": null,
-      "integration_ids": {
-        "albion_online_data_project_id": "T5_2H_TOOL_SIEGEHAMMER",
-        "item_database_index": "3006"
-      },
-      "tier": 5,
-      "enchantment": 0,
-      "localized_all_names": {
-        "EN-US": "Expert's Siege Hammer",
-        "DE-DE": "Belagerungshammer des Experten",
-        "FR-FR": "Marteau de siège de l'expert",
-        "RU-RU": "Осадный молот (эксперт)",
-        "PL-PL": "Młot Oblężniczy Znawcy",
-        "ES-ES": "Martillo de asedio del experto",
-        "PT-BR": "Martelo de Cerco do Perito",
-        "IT-IT": "Martello d'assedio dell'esperto",
-        "ZH-CN": "专家级攻城锤",
-        "KO-KR": "전문가의 공성 망치",
-        "JA-JP": "シージハンマー（達人）",
-        "ZH-TW": "專家級攻城鎚",
-        "ID-ID": "Palu Pengepungan Ahli",
-        "TR-TR": "Uzman Kuşatma Çekici",
-        "AR-SA": "مطرقة الحصار للأخصائي"
-      },
-      "localized_all_descriptions": {
-        "EN-US": "A powerful hammer designed for destroying buildings and furniture.",
-        "DE-DE": "Werkzeug zur Zerstörung von Gebäuden und Möbeln.",
-        "FR-FR": "Masse puissante de destruction des bâtiments et du mobilier.",
-        "RU-RU": "Помогает сносить здания и ломать мебель.",
-        "PL-PL": "Potężny młot do niszczenia budynków i mebli.",
-        "ES-ES": "Un martillo muy poderoso diseñado para destruir edificios y muebles.",
-        "PT-BR": "Martelo poderoso projetado para destruir construções e mobílias.",
-        "IT-IT": "Un grosso e pesante martello pensato per distruggere edifici e arredi.",
-        "ZH-CN": "强大的锤子，专门用于摧毁建筑和家具。",
-        "KO-KR": "건물과 가구를 파괴하도록 설계된 튼튼한 망치.",
-        "JA-JP": "建物や家具の破壊用の強力なハンマー。",
-        "ZH-TW": "一種專門設計來摧毀建築物和家具的強力鎚子。",
-        "ID-ID": "Palu kuat yang dirancang untuk menghancurkan bangunan atau furnitur.",
-        "TR-TR": "Yapı ve mobilya yok etmek için tasarlanmış güçlü bir çekiç.",
-        "AR-SA": "مطرقة قوية مصممة لتدمير المباني والأثاث."
-      },
-      "source": "ao-bin-dumps",
-      "localization_variables": {
-        "name_variable": "@ITEMS_T5_2H_TOOL_SIEGEHAMMER",
-        "description_variable": "@ITEMS_T5_2H_TOOL_SIEGEHAMMER_DESC"
-      },
-      "origin": "Other/Guilds/Guilds_T5_2H_TOOL_SIEGEHAMMER.json",
-      "raw": {
-        "@uniquename": "T5_2H_TOOL_SIEGEHAMMER",
-        "@mesh": "T5_2H_SIEGEHAMMER",
-        "@uisprite": "2H_SIEGEHAMMER",
-        "@attackendanimgaptime": "0.1",
-        "@maxqualitylevel": "1",
-        "@abilitypower": "100",
-        "@slottype": "mainhand",
-        "@craftingcategory": "tools",
-        "@shopcategory": "other",
-        "@shopsubcategory1": "guilds",
-        "@attacktype": "melee",
-        "@attackbuildingdamage": "66",
-        "@repairbuildingdamage": "55",
-        "@attackdamage": "86",
-        "@attackspeed": "0.5",
-        "@attackrange": "3",
-        "@twohanded": "true",
-        "@tier": "5",
-        "@weight": "2.53",
-        "@activespellslots": "0",
-        "@passivespellslots": "0",
-        "@durability": "3200",
-        "@durabilityloss_attack": "1",
-        "@durabilityloss_spelluse": "1",
-        "@durabilityloss_receivedattack": "1",
-        "@durabilityloss_receivedspell": "1",
-        "@mainhandanimationtype": "t_siege hammer",
-        "@mainhandanimationtype_repairbuilding": "t_siege_repair hammer",
-        "@unlockedtocraft": "false",
-        "@unlockedtoequip": "false",
-        "@itempower": "800",
-        "@unequipincombat": "false",
-        "@uicraftsoundstart": "Play_ui_action_craft_tool_start",
-        "@uicraftsoundfinish": "Play_ui_action_craft_tool_finish",
-        "@canbeovercharged": "false",
-        "@shopsubcategory2": "siegehammer",
-        "craftingrequirements": {
-          "@silver": "0",
-          "@time": "1",
-          "@craftingfocus": "1501",
-          "craftresource": [
-            {
-              "@uniquename": "T5_PLANKS",
-              "@count": "8"
-            },
-            {
-              "@uniquename": "T5_STONEBLOCK",
-              "@count": "8"
-            }
-          ]
-        },
-        "AudioInfo": {
-          "@name": "TOOL_SIEGEHAMMER"
-        },
-        "SocketPreset": {
-          "@name": "TOOL_SIEGEHAMMER"
-        }
-      },
-      "name_sources_ref": 0,
-      "description_sources_ref": 0
+      }
     },
     {
       "id": "T5_2H_TOOL_SIEGEHAMMER_AVALON",
       "index": "3011",
+      "name_en": "Expert's Avalonian Siege Hammer",
+      "name_ar": "مطرقة حصار أفالوني للأخصائي",
+      "name_de": "Avalonischer Belagerungshammer des Experten",
+      "name_fr": "Marteau de siège avalonien de l'expert",
+      "name_es": "Martillo de asedio avaloniano del experto",
+      "name_ru": "Авалонский осадный молот (эксперт)",
+      "descriptions": {
+        "description_en": "A powerful hammer designed for destroying buildings and furniture.",
+        "description_ar": "مطرقة قوية مصممة لتدمير المباني والأثاث.",
+        "description_de": "Werkzeug zur Zerstörung von Gebäuden und Möbeln.",
+        "description_fr": "Outil de destruction des bâtiments et du mobilier",
+        "description_es": "Herramienta para destruir edificios y muebles.",
+        "description_ru": "Помогает сносить здания и ломать мебель."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T5_2H_TOOL_SIEGEHAMMER_AVALON",
+        "description_variable": "@ITEMS_T8_2H_TOOL_SIEGEHAMMER_DESC"
+      },
       "category": "Other_Guilds",
       "slot": "MainHand",
       "two_handed": true,
+      "attributes": {
+        "uniquename": "T5_2H_TOOL_SIEGEHAMMER_AVALON",
+        "mesh": "T5_2H_SIEGEHAMMER",
+        "uisprite": "2H_SIEGEHAMMER_AVALON",
+        "attackendanimgaptime": "0.1",
+        "maxqualitylevel": "1",
+        "abilitypower": "100",
+        "slottype": "mainhand",
+        "craftingcategory": "tools",
+        "shopcategory": "other",
+        "shopsubcategory1": "guilds",
+        "attacktype": "melee",
+        "attackbuildingdamage": "66",
+        "repairbuildingdamage": "55",
+        "attackdamage": "86",
+        "attackspeed": "0.625",
+        "attackrange": "3",
+        "twohanded": "true",
+        "tier": "5",
+        "weight": "2.53",
+        "activespellslots": "0",
+        "passivespellslots": "0",
+        "durability": "3200",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "mainhandanimationtype": "t_siege hammer",
+        "mainhandanimationtype_repairbuilding": "t_siege_repair hammer",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "itempower": "800",
+        "unequipincombat": "false",
+        "uicraftsoundstart": "Play_ui_action_craft_tool_start",
+        "uicraftsoundfinish": "Play_ui_action_craft_tool_finish",
+        "canbeovercharged": "false",
+        "descriptionlocatag": "@ITEMS_T8_2H_TOOL_SIEGEHAMMER_DESC",
+        "shopsubcategory2": "siegehammer"
+      },
       "item_stats": {
         "itemvalue": null,
         "resourcevalue": null,
@@ -2027,34 +1643,6 @@
         "salvagevalueoverride": null,
         "estimatedmarketvalueoverride": null
       },
-      "crafting_requirements": {
-        "primary_resource": "QUESTITEM_TOKEN_AVALON",
-        "primary_count": 90,
-        "secondary_resource": "T5_PLANKS",
-        "secondary_count": 8,
-        "resources": [
-          {
-            "id": "QUESTITEM_TOKEN_AVALON",
-            "count": 90
-          },
-          {
-            "id": "T5_PLANKS",
-            "count": 8
-          },
-          {
-            "id": "T5_STONEBLOCK",
-            "count": 8
-          }
-        ]
-      },
-      "is_artifact": false,
-      "artifact_details": null,
-      "integration_ids": {
-        "albion_online_data_project_id": "T5_2H_TOOL_SIEGEHAMMER_AVALON",
-        "item_database_index": "3011"
-      },
-      "tier": 5,
-      "enchantment": 0,
       "localized_all_names": {
         "EN-US": "Expert's Avalonian Siege Hammer",
         "DE-DE": "Avalonischer Belagerungshammer des Experten",
@@ -2089,12 +1677,42 @@
         "TR-TR": "Yapı ve mobilya yok etmek için tasarlanmış güçlü bir çekiç.",
         "AR-SA": "مطرقة قوية مصممة لتدمير المباني والأثاث."
       },
-      "source": "ao-bin-dumps",
-      "localization_variables": {
-        "name_variable": "@ITEMS_T5_2H_TOOL_SIEGEHAMMER_AVALON",
-        "description_variable": "@ITEMS_T8_2H_TOOL_SIEGEHAMMER_DESC"
+      "crafting_requirements": {
+        "primary_resource": "QUESTITEM_TOKEN_AVALON",
+        "primary_count": 90,
+        "secondary_resource": "T5_PLANKS",
+        "secondary_count": 8,
+        "resources": [
+          {
+            "id": "QUESTITEM_TOKEN_AVALON",
+            "count": 90
+          },
+          {
+            "id": "T5_PLANKS",
+            "count": 8
+          },
+          {
+            "id": "T5_STONEBLOCK",
+            "count": 8
+          }
+        ]
       },
-      "origin": "Other/Guilds/Guilds_T5_2H_TOOL_SIEGEHAMMER_AVALON.json",
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T5_2H_TOOL_SIEGEHAMMER_AVALON",
+        "item_database_index": "3011"
+      },
+      "tier": 5,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Expert's Avalonian Siege Hammer",
+        "name_ar": "مطرقة حصار أفالوني للأخصائي",
+        "name_de": "Avalonischer Belagerungshammer des Experten",
+        "name_fr": "Marteau de siège avalonien de l'expert",
+        "name_es": "Martillo de asedio avaloniano del experto",
+        "name_ru": "Авалонский осадный молот (эксперт)"
+      },
       "raw": {
         "@uniquename": "T5_2H_TOOL_SIEGEHAMMER_AVALON",
         "@mesh": "T5_2H_SIEGEHAMMER",
@@ -2159,16 +1777,71 @@
         "SocketPreset": {
           "@name": "TOOL_SIEGEHAMMER"
         }
-      },
-      "name_sources_ref": 0,
-      "description_sources_ref": 0
+      }
     },
     {
-      "id": "T7_SIEGE_BANNER",
-      "index": "11916",
+      "id": "T6_2H_TOOL_SIEGEHAMMER_AVALON",
+      "index": "3012",
+      "name_en": "Master's Avalonian Siege Hammer",
+      "name_ar": "مطرقة حصار أفالوني للخبير",
+      "name_de": "Avalonischer Belagerungshammer des Meisters",
+      "name_fr": "Marteau de siège avalonien du maître",
+      "name_es": "Martillo de asedio avaloniano del maestro",
+      "name_ru": "Авалонский осадный молот (мастер)",
+      "descriptions": {
+        "description_en": "A powerful hammer designed for destroying buildings and furniture.",
+        "description_ar": "مطرقة قوية مصممة لتدمير المباني والأثاث.",
+        "description_de": "Werkzeug zur Zerstörung von Gebäuden und Möbeln.",
+        "description_fr": "Outil de destruction des bâtiments et du mobilier",
+        "description_es": "Herramienta para destruir edificios y muebles.",
+        "description_ru": "Помогает сносить здания и ломать мебель."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T6_2H_TOOL_SIEGEHAMMER_AVALON",
+        "description_variable": "@ITEMS_T8_2H_TOOL_SIEGEHAMMER_DESC"
+      },
       "category": "Other_Guilds",
-      "slot": "2h",
-      "two_handed": false,
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T6_2H_TOOL_SIEGEHAMMER_AVALON",
+        "mesh": "T6_2H_SIEGEHAMMER",
+        "uisprite": "2H_SIEGEHAMMER_AVALON",
+        "attackendanimgaptime": "0.1",
+        "maxqualitylevel": "1",
+        "abilitypower": "100",
+        "slottype": "mainhand",
+        "craftingcategory": "tools",
+        "shopcategory": "other",
+        "shopsubcategory1": "guilds",
+        "attacktype": "melee",
+        "attackbuildingdamage": "79",
+        "repairbuildingdamage": "66",
+        "attackdamage": "94",
+        "attackspeed": "0.625",
+        "attackrange": "3",
+        "twohanded": "true",
+        "tier": "6",
+        "weight": "3.8",
+        "activespellslots": "0",
+        "passivespellslots": "0",
+        "durability": "6400",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "mainhandanimationtype": "t_siege hammer",
+        "mainhandanimationtype_repairbuilding": "t_siege_repair hammer",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "itempower": "900",
+        "unequipincombat": "false",
+        "uicraftsoundstart": "Play_ui_action_craft_tool_start",
+        "uicraftsoundfinish": "Play_ui_action_craft_tool_finish",
+        "canbeovercharged": "false",
+        "descriptionlocatag": "@ITEMS_T8_2H_TOOL_SIEGEHAMMER_DESC",
+        "shopsubcategory2": "siegehammer"
+      },
       "item_stats": {
         "itemvalue": null,
         "resourcevalue": null,
@@ -2176,18 +1849,646 @@
         "salvagevalueoverride": null,
         "estimatedmarketvalueoverride": null
       },
+      "localized_all_names": {
+        "EN-US": "Master's Avalonian Siege Hammer",
+        "DE-DE": "Avalonischer Belagerungshammer des Meisters",
+        "FR-FR": "Marteau de siège avalonien du maître",
+        "RU-RU": "Авалонский осадный молот (мастер)",
+        "PL-PL": "Awaloński Młot Oblężniczy Mistrza",
+        "ES-ES": "Martillo de asedio avaloniano del maestro",
+        "PT-BR": "Martelo de Cerco Avaloniano do Mestre",
+        "IT-IT": "Martello d'assedio avaloniano del maestro",
+        "ZH-CN": "大师级阿瓦隆攻城锤",
+        "KO-KR": "마스터의 아발로니안 공성망치",
+        "JA-JP": "アバロンのシージハンマー（マスター）",
+        "ZH-TW": "大師級阿瓦隆攻城鎚",
+        "ID-ID": "Palu Pengepungan Avalonian Master",
+        "TR-TR": "Usta Avalon Kuşatma Çekici",
+        "AR-SA": "مطرقة حصار أفالوني للخبير"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "A powerful hammer designed for destroying buildings and furniture.",
+        "DE-DE": "Werkzeug zur Zerstörung von Gebäuden und Möbeln.",
+        "FR-FR": "Outil de destruction des bâtiments et du mobilier",
+        "RU-RU": "Помогает сносить здания и ломать мебель.",
+        "PL-PL": "Narzędzie do niszczenia budynków i mebli.",
+        "ES-ES": "Herramienta para destruir edificios y muebles.",
+        "PT-BR": "Ferramenta para destruir construções e mobílias",
+        "IT-IT": "Un grosso e pesante martello pensato per distruggere edifici e arredi.",
+        "ZH-CN": "强大的锤子，专门用于摧毁建筑和家具。",
+        "KO-KR": "건물과 가구를 파괴하도록 설계된 튼튼한 망치.",
+        "JA-JP": "建物や家具の破壊用の強力なハンマー。",
+        "ZH-TW": "一種專門設計來摧毀建築物和家具的強力鎚子。",
+        "ID-ID": "Palu kuat yang dirancang untuk menghancurkan bangunan atau furnitur.",
+        "TR-TR": "Yapı ve mobilya yok etmek için tasarlanmış güçlü bir çekiç.",
+        "AR-SA": "مطرقة قوية مصممة لتدمير المباني والأثاث."
+      },
       "crafting_requirements": {
-        "primary_resource": "T7_CLOTH",
-        "primary_count": 12,
-        "secondary_resource": "T7_PLANKS",
-        "secondary_count": 4,
+        "primary_resource": "QUESTITEM_TOKEN_AVALON",
+        "primary_count": 160,
+        "secondary_resource": "T6_PLANKS",
+        "secondary_count": 8,
         "resources": [
           {
-            "id": "T7_CLOTH",
-            "count": 12
+            "id": "QUESTITEM_TOKEN_AVALON",
+            "count": 160
+          },
+          {
+            "id": "T6_PLANKS",
+            "count": 8
+          },
+          {
+            "id": "T6_STONEBLOCK",
+            "count": 8
+          }
+        ]
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T6_2H_TOOL_SIEGEHAMMER_AVALON",
+        "item_database_index": "3012"
+      },
+      "tier": 6,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Master's Avalonian Siege Hammer",
+        "name_ar": "مطرقة حصار أفالوني للخبير",
+        "name_de": "Avalonischer Belagerungshammer des Meisters",
+        "name_fr": "Marteau de siège avalonien du maître",
+        "name_es": "Martillo de asedio avaloniano del maestro",
+        "name_ru": "Авалонский осадный молот (мастер)"
+      },
+      "raw": {
+        "@uniquename": "T6_2H_TOOL_SIEGEHAMMER_AVALON",
+        "@mesh": "T6_2H_SIEGEHAMMER",
+        "@uisprite": "2H_SIEGEHAMMER_AVALON",
+        "@attackendanimgaptime": "0.1",
+        "@maxqualitylevel": "1",
+        "@abilitypower": "100",
+        "@slottype": "mainhand",
+        "@craftingcategory": "tools",
+        "@shopcategory": "other",
+        "@shopsubcategory1": "guilds",
+        "@attacktype": "melee",
+        "@attackbuildingdamage": "79",
+        "@repairbuildingdamage": "66",
+        "@attackdamage": "94",
+        "@attackspeed": "0.625",
+        "@attackrange": "3",
+        "@twohanded": "true",
+        "@tier": "6",
+        "@weight": "3.8",
+        "@activespellslots": "0",
+        "@passivespellslots": "0",
+        "@durability": "6400",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@mainhandanimationtype": "t_siege hammer",
+        "@mainhandanimationtype_repairbuilding": "t_siege_repair hammer",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@itempower": "900",
+        "@unequipincombat": "false",
+        "@uicraftsoundstart": "Play_ui_action_craft_tool_start",
+        "@uicraftsoundfinish": "Play_ui_action_craft_tool_finish",
+        "@canbeovercharged": "false",
+        "@descriptionlocatag": "@ITEMS_T8_2H_TOOL_SIEGEHAMMER_DESC",
+        "@shopsubcategory2": "siegehammer",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "1.33333",
+          "@craftingfocus": "2626",
+          "craftresource": [
+            {
+              "@uniquename": "T6_PLANKS",
+              "@count": "8"
+            },
+            {
+              "@uniquename": "T6_STONEBLOCK",
+              "@count": "8"
+            },
+            {
+              "@uniquename": "QUESTITEM_TOKEN_AVALON",
+              "@count": "160",
+              "@maxreturnamount": "0"
+            }
+          ]
+        },
+        "AudioInfo": {
+          "@name": "TOOL_SIEGEHAMMER_HT6"
+        },
+        "SocketPreset": {
+          "@name": "TOOL_SIEGEHAMMER"
+        }
+      }
+    },
+    {
+      "id": "T7_2H_TOOL_SIEGEHAMMER_AVALON",
+      "index": "3013",
+      "name_en": "Grandmaster's Avalonian Siege Hammer",
+      "name_ar": "مطرقة حصار أفالوني للأستاذ",
+      "name_de": "Avalonischer Belagerungshammer des Großmeisters",
+      "name_fr": "Marteau de siège avalonien du grand maître",
+      "name_es": "Martillo de asedio avaloniano del gran maestro",
+      "name_ru": "Авалонский осадный молот (магистр)",
+      "descriptions": {
+        "description_en": "A powerful hammer designed for destroying buildings and furniture.",
+        "description_ar": "مطرقة قوية مصممة لتدمير المباني والأثاث.",
+        "description_de": "Werkzeug zur Zerstörung von Gebäuden und Möbeln.",
+        "description_fr": "Outil de destruction des bâtiments et du mobilier",
+        "description_es": "Herramienta para destruir edificios y muebles.",
+        "description_ru": "Помогает сносить здания и ломать мебель."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T7_2H_TOOL_SIEGEHAMMER_AVALON",
+        "description_variable": "@ITEMS_T8_2H_TOOL_SIEGEHAMMER_DESC"
+      },
+      "category": "Other_Guilds",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T7_2H_TOOL_SIEGEHAMMER_AVALON",
+        "mesh": "T7_2H_SIEGEHAMMER",
+        "uisprite": "2H_SIEGEHAMMER_AVALON",
+        "attackendanimgaptime": "0.1",
+        "maxqualitylevel": "1",
+        "abilitypower": "100",
+        "slottype": "mainhand",
+        "craftingcategory": "tools",
+        "shopcategory": "other",
+        "shopsubcategory1": "guilds",
+        "attacktype": "melee",
+        "attackbuildingdamage": "95",
+        "repairbuildingdamage": "79",
+        "attackdamage": "102",
+        "attackspeed": "0.625",
+        "attackrange": "3",
+        "twohanded": "true",
+        "tier": "7",
+        "weight": "5.7",
+        "activespellslots": "0",
+        "passivespellslots": "0",
+        "durability": "12800",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "mainhandanimationtype": "t_siege hammer",
+        "mainhandanimationtype_repairbuilding": "t_siege_repair hammer",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "itempower": "980",
+        "unequipincombat": "false",
+        "uicraftsoundstart": "Play_ui_action_craft_tool_start",
+        "uicraftsoundfinish": "Play_ui_action_craft_tool_finish",
+        "canbeovercharged": "false",
+        "descriptionlocatag": "@ITEMS_T8_2H_TOOL_SIEGEHAMMER_DESC",
+        "shopsubcategory2": "siegehammer"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Grandmaster's Avalonian Siege Hammer",
+        "DE-DE": "Avalonischer Belagerungshammer des Großmeisters",
+        "FR-FR": "Marteau de siège avalonien du grand maître",
+        "RU-RU": "Авалонский осадный молот (магистр)",
+        "PL-PL": "Awaloński Młot Oblężniczy Wszechmistrza",
+        "ES-ES": "Martillo de asedio avaloniano del gran maestro",
+        "PT-BR": "Martelo de Cerco Avaloniano do Grão-mestre",
+        "IT-IT": "Martello d'assedio avaloniano del gran maestro",
+        "ZH-CN": "宗师级阿瓦隆攻城锤",
+        "KO-KR": "그랜드 마스터의 아발로니안 공성 망치",
+        "JA-JP": "アバロンのシージハンマー（グランドマスター）",
+        "ZH-TW": "宗師級阿瓦隆攻城鎚",
+        "ID-ID": "Palu Pengepungan Avalonian Grandmaster",
+        "TR-TR": "Büyük Usta Avalon Kuşatma Çekici",
+        "AR-SA": "مطرقة حصار أفالوني للأستاذ"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "A powerful hammer designed for destroying buildings and furniture.",
+        "DE-DE": "Werkzeug zur Zerstörung von Gebäuden und Möbeln.",
+        "FR-FR": "Outil de destruction des bâtiments et du mobilier",
+        "RU-RU": "Помогает сносить здания и ломать мебель.",
+        "PL-PL": "Narzędzie do niszczenia budynków i mebli.",
+        "ES-ES": "Herramienta para destruir edificios y muebles.",
+        "PT-BR": "Ferramenta para destruir construções e mobílias",
+        "IT-IT": "Un grosso e pesante martello pensato per distruggere edifici e arredi.",
+        "ZH-CN": "强大的锤子，专门用于摧毁建筑和家具。",
+        "KO-KR": "건물과 가구를 파괴하도록 설계된 튼튼한 망치.",
+        "JA-JP": "建物や家具の破壊用の強力なハンマー。",
+        "ZH-TW": "一種專門設計來摧毀建築物和家具的強力鎚子。",
+        "ID-ID": "Palu kuat yang dirancang untuk menghancurkan bangunan atau furnitur.",
+        "TR-TR": "Yapı ve mobilya yok etmek için tasarlanmış güçlü bir çekiç.",
+        "AR-SA": "مطرقة قوية مصممة لتدمير المباني والأثاث."
+      },
+      "crafting_requirements": {
+        "primary_resource": "QUESTITEM_TOKEN_AVALON",
+        "primary_count": 230,
+        "secondary_resource": "T7_PLANKS",
+        "secondary_count": 8,
+        "resources": [
+          {
+            "id": "QUESTITEM_TOKEN_AVALON",
+            "count": 230
           },
           {
             "id": "T7_PLANKS",
+            "count": 8
+          },
+          {
+            "id": "T7_STONEBLOCK",
+            "count": 8
+          }
+        ]
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T7_2H_TOOL_SIEGEHAMMER_AVALON",
+        "item_database_index": "3013"
+      },
+      "tier": 7,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Grandmaster's Avalonian Siege Hammer",
+        "name_ar": "مطرقة حصار أفالوني للأستاذ",
+        "name_de": "Avalonischer Belagerungshammer des Großmeisters",
+        "name_fr": "Marteau de siège avalonien du grand maître",
+        "name_es": "Martillo de asedio avaloniano del gran maestro",
+        "name_ru": "Авалонский осадный молот (магистр)"
+      },
+      "raw": {
+        "@uniquename": "T7_2H_TOOL_SIEGEHAMMER_AVALON",
+        "@mesh": "T7_2H_SIEGEHAMMER",
+        "@uisprite": "2H_SIEGEHAMMER_AVALON",
+        "@attackendanimgaptime": "0.1",
+        "@maxqualitylevel": "1",
+        "@abilitypower": "100",
+        "@slottype": "mainhand",
+        "@craftingcategory": "tools",
+        "@shopcategory": "other",
+        "@shopsubcategory1": "guilds",
+        "@attacktype": "melee",
+        "@attackbuildingdamage": "95",
+        "@repairbuildingdamage": "79",
+        "@attackdamage": "102",
+        "@attackspeed": "0.625",
+        "@attackrange": "3",
+        "@twohanded": "true",
+        "@tier": "7",
+        "@weight": "5.7",
+        "@activespellslots": "0",
+        "@passivespellslots": "0",
+        "@durability": "12800",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@mainhandanimationtype": "t_siege hammer",
+        "@mainhandanimationtype_repairbuilding": "t_siege_repair hammer",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@itempower": "980",
+        "@unequipincombat": "false",
+        "@uicraftsoundstart": "Play_ui_action_craft_tool_start",
+        "@uicraftsoundfinish": "Play_ui_action_craft_tool_finish",
+        "@canbeovercharged": "false",
+        "@descriptionlocatag": "@ITEMS_T8_2H_TOOL_SIEGEHAMMER_DESC",
+        "@shopsubcategory2": "siegehammer",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "1.66667",
+          "@craftingfocus": "4596",
+          "craftresource": [
+            {
+              "@uniquename": "T7_PLANKS",
+              "@count": "8"
+            },
+            {
+              "@uniquename": "T7_STONEBLOCK",
+              "@count": "8"
+            },
+            {
+              "@uniquename": "QUESTITEM_TOKEN_AVALON",
+              "@count": "230",
+              "@maxreturnamount": "0"
+            }
+          ]
+        },
+        "AudioInfo": {
+          "@name": "TOOL_SIEGEHAMMER_HT6"
+        },
+        "SocketPreset": {
+          "@name": "TOOL_SIEGEHAMMER"
+        }
+      }
+    },
+    {
+      "id": "T8_2H_TOOL_SIEGEHAMMER_AVALON",
+      "index": "3014",
+      "name_en": "Elder's Avalonian Siege Hammer",
+      "name_ar": "مطرقة حصار أفالوني للحكيم",
+      "name_de": "Avalonischer Belagerungshammer des Ältesten",
+      "name_fr": "Marteau de siège avalonien du sage",
+      "name_es": "Martillo de asedio avaloniano del anciano",
+      "name_ru": "Авалонский осадный молот (старейшина)",
+      "descriptions": {
+        "description_en": "A powerful hammer designed for destroying buildings and furniture.",
+        "description_ar": "مطرقة قوية مصممة لتدمير المباني والأثاث.",
+        "description_de": "Werkzeug zur Zerstörung von Gebäuden und Möbeln.",
+        "description_fr": "Outil de destruction des bâtiments et du mobilier",
+        "description_es": "Herramienta para destruir edificios y muebles.",
+        "description_ru": "Помогает сносить здания и ломать мебель."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T8_2H_TOOL_SIEGEHAMMER_AVALON",
+        "description_variable": "@ITEMS_T8_2H_TOOL_SIEGEHAMMER_DESC"
+      },
+      "category": "Other_Guilds",
+      "slot": "MainHand",
+      "two_handed": true,
+      "attributes": {
+        "uniquename": "T8_2H_TOOL_SIEGEHAMMER_AVALON",
+        "mesh": "T8_2H_SIEGEHAMMER",
+        "uisprite": "2H_SIEGEHAMMER_AVALON",
+        "attackendanimgaptime": "0.1",
+        "maxqualitylevel": "1",
+        "abilitypower": "100",
+        "slottype": "mainhand",
+        "craftingcategory": "tools",
+        "shopcategory": "other",
+        "shopsubcategory1": "guilds",
+        "attacktype": "melee",
+        "attackbuildingdamage": "114.0",
+        "repairbuildingdamage": "95",
+        "attackdamage": "112",
+        "attackspeed": "0.625",
+        "attackrange": "3",
+        "twohanded": "true",
+        "tier": "8",
+        "weight": "8.54",
+        "activespellslots": "0",
+        "passivespellslots": "0",
+        "durability": "25600",
+        "durabilityloss_attack": "1",
+        "durabilityloss_spelluse": "1",
+        "durabilityloss_receivedattack": "1",
+        "durabilityloss_receivedspell": "1",
+        "mainhandanimationtype": "t_siege hammer",
+        "mainhandanimationtype_repairbuilding": "t_siege_repair hammer",
+        "unlockedtocraft": "false",
+        "unlockedtoequip": "false",
+        "itempower": "1060",
+        "unequipincombat": "false",
+        "uicraftsoundstart": "Play_ui_action_craft_tool_start",
+        "uicraftsoundfinish": "Play_ui_action_craft_tool_finish",
+        "canbeovercharged": "false",
+        "descriptionlocatag": "@ITEMS_T8_2H_TOOL_SIEGEHAMMER_DESC",
+        "shopsubcategory2": "siegehammer"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Elder's Avalonian Siege Hammer",
+        "DE-DE": "Avalonischer Belagerungshammer des Ältesten",
+        "FR-FR": "Marteau de siège avalonien du sage",
+        "RU-RU": "Авалонский осадный молот (старейшина)",
+        "PL-PL": "Awaloński Młot Oblężniczy Starszego",
+        "ES-ES": "Martillo de asedio avaloniano del anciano",
+        "PT-BR": "Martelo de Cerco Avaloniano do Ancião",
+        "IT-IT": "Martello d'assedio avaloniano dell'anziano",
+        "ZH-CN": "禅师级阿瓦隆攻城锤",
+        "KO-KR": "장로의 아발로니안 공성 망치",
+        "JA-JP": "アバロンのシージハンマー（老熟）",
+        "ZH-TW": "禪師級阿瓦隆攻城鎚",
+        "ID-ID": "Palu Pengepungan Avalonian Tetua",
+        "TR-TR": "Yüce Avalon Kuşatma Çekici",
+        "AR-SA": "مطرقة حصار أفالوني للحكيم"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "A powerful hammer designed for destroying buildings and furniture.",
+        "DE-DE": "Werkzeug zur Zerstörung von Gebäuden und Möbeln.",
+        "FR-FR": "Outil de destruction des bâtiments et du mobilier",
+        "RU-RU": "Помогает сносить здания и ломать мебель.",
+        "PL-PL": "Narzędzie do niszczenia budynków i mebli.",
+        "ES-ES": "Herramienta para destruir edificios y muebles.",
+        "PT-BR": "Ferramenta para destruir construções e mobílias",
+        "IT-IT": "Un grosso e pesante martello pensato per distruggere edifici e arredi.",
+        "ZH-CN": "强大的锤子，专门用于摧毁建筑和家具。",
+        "KO-KR": "건물과 가구를 파괴하도록 설계된 튼튼한 망치.",
+        "JA-JP": "建物や家具の破壊用の強力なハンマー。",
+        "ZH-TW": "一種專門設計來摧毀建築物和家具的強力鎚子。",
+        "ID-ID": "Palu kuat yang dirancang untuk menghancurkan bangunan atau furnitur.",
+        "TR-TR": "Yapı ve mobilya yok etmek için tasarlanmış güçlü bir çekiç.",
+        "AR-SA": "مطرقة قوية مصممة لتدمير المباني والأثاث."
+      },
+      "crafting_requirements": {
+        "primary_resource": "QUESTITEM_TOKEN_AVALON",
+        "primary_count": 300,
+        "secondary_resource": "T8_PLANKS",
+        "secondary_count": 8,
+        "resources": [
+          {
+            "id": "QUESTITEM_TOKEN_AVALON",
+            "count": 300
+          },
+          {
+            "id": "T8_PLANKS",
+            "count": 8
+          },
+          {
+            "id": "T8_STONEBLOCK",
+            "count": 8
+          }
+        ]
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T8_2H_TOOL_SIEGEHAMMER_AVALON",
+        "item_database_index": "3014"
+      },
+      "tier": 8,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Elder's Avalonian Siege Hammer",
+        "name_ar": "مطرقة حصار أفالوني للحكيم",
+        "name_de": "Avalonischer Belagerungshammer des Ältesten",
+        "name_fr": "Marteau de siège avalonien du sage",
+        "name_es": "Martillo de asedio avaloniano del anciano",
+        "name_ru": "Авалонский осадный молот (старейшина)"
+      },
+      "raw": {
+        "@uniquename": "T8_2H_TOOL_SIEGEHAMMER_AVALON",
+        "@mesh": "T8_2H_SIEGEHAMMER",
+        "@uisprite": "2H_SIEGEHAMMER_AVALON",
+        "@attackendanimgaptime": "0.1",
+        "@maxqualitylevel": "1",
+        "@abilitypower": "100",
+        "@slottype": "mainhand",
+        "@craftingcategory": "tools",
+        "@shopcategory": "other",
+        "@shopsubcategory1": "guilds",
+        "@attacktype": "melee",
+        "@attackbuildingdamage": "114.0",
+        "@repairbuildingdamage": "95",
+        "@attackdamage": "112",
+        "@attackspeed": "0.625",
+        "@attackrange": "3",
+        "@twohanded": "true",
+        "@tier": "8",
+        "@weight": "8.54",
+        "@activespellslots": "0",
+        "@passivespellslots": "0",
+        "@durability": "25600",
+        "@durabilityloss_attack": "1",
+        "@durabilityloss_spelluse": "1",
+        "@durabilityloss_receivedattack": "1",
+        "@durabilityloss_receivedspell": "1",
+        "@mainhandanimationtype": "t_siege hammer",
+        "@mainhandanimationtype_repairbuilding": "t_siege_repair hammer",
+        "@unlockedtocraft": "false",
+        "@unlockedtoequip": "false",
+        "@itempower": "1060",
+        "@unequipincombat": "false",
+        "@uicraftsoundstart": "Play_ui_action_craft_tool_start",
+        "@uicraftsoundfinish": "Play_ui_action_craft_tool_finish",
+        "@canbeovercharged": "false",
+        "@descriptionlocatag": "@ITEMS_T8_2H_TOOL_SIEGEHAMMER_DESC",
+        "@shopsubcategory2": "siegehammer",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "2.5",
+          "@craftingfocus": "8042",
+          "craftresource": [
+            {
+              "@uniquename": "T8_PLANKS",
+              "@count": "8"
+            },
+            {
+              "@uniquename": "T8_STONEBLOCK",
+              "@count": "8"
+            },
+            {
+              "@uniquename": "QUESTITEM_TOKEN_AVALON",
+              "@count": "300",
+              "@maxreturnamount": "0"
+            }
+          ]
+        },
+        "AudioInfo": {
+          "@name": "TOOL_SIEGEHAMMER_HT6"
+        },
+        "SocketPreset": {
+          "@name": "TOOL_SIEGEHAMMER"
+        }
+      }
+    },
+    {
+      "id": "T4_SIEGE_BANNER",
+      "index": "11913",
+      "name_en": "Adept's Siege Banner",
+      "name_ar": "راية حصار البارع",
+      "name_de": "Belagerungsbanner des Adepten",
+      "name_fr": "Bannière de siège de l'adepte",
+      "name_es": "Estandarte de asedio del iniciado",
+      "name_ru": "Осадное знамя (знаток)",
+      "descriptions": {
+        "description_en": "Use this to weaken enemy territories, making them vulnerable to attack. It is required for raiding or conquering territories.",
+        "description_ar": "استخدمها لإضعاف مناطق العدو، مما يجعلها عرضة للهجوم. وهي مطلوبة للمداهمة أو غزو المناطق.",
+        "description_de": "Nutze es zum Schwächen gegnerischer Territorien, wodurch sie angreifbar werden. Es ist notwendig, um Territorien zu überfallen oder zu erobern.",
+        "description_fr": "Utilisez-la pour affaiblir les territoires ennemis et les rendre vulnérables aux attaques. Elle est nécessaire pour effectuer des raids ou conquérir des territoires.",
+        "description_es": "Utilízalo para debilitar los territorios enemigos, de modo que sean vulnerables a los ataques. Es necesario para realizar asaltos o conquistar territorios.",
+        "description_ru": "Используйте его, чтобы ослабить вражеские территории, сделав их уязвимыми для нападения. Оно необходимо для рейдов и завоевания территорий."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T4_SIEGE_BANNER",
+        "description_variable": "@ITEMS_T4_SIEGE_BANNER_DESC"
+      },
+      "category": "Other_Guilds",
+      "slot": "2h",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T4_SIEGE_BANNER",
+        "referencespell": "T4_RAID_BANNER_ITEM_SPELL",
+        "tradable": "true",
+        "shopcategory": "other",
+        "shopsubcategory1": "guilds",
+        "tier": "4",
+        "weight": "1.69",
+        "maxstacksize": "999",
+        "unlockedtocraft": "false",
+        "uicraftsoundstart": "Play_ui_action_craft_tool_start",
+        "uicraftsoundfinish": "Play_ui_action_craft_tool_finish",
+        "canbeovercharged": "false",
+        "shopsubcategory2": "siegebanners"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Adept's Siege Banner",
+        "DE-DE": "Belagerungsbanner des Adepten",
+        "FR-FR": "Bannière de siège de l'adepte",
+        "RU-RU": "Осадное знамя (знаток)",
+        "PL-PL": "Sztandar Oblężniczy Adepta",
+        "ES-ES": "Estandarte de asedio del iniciado",
+        "PT-BR": "Estandarte de Cerco do Adepto",
+        "IT-IT": "Stendardo d'assedio del sapiente",
+        "ZH-CN": "老手级攻城战旗",
+        "KO-KR": "숙련자의 공성 깃발",
+        "JA-JP": "シージバナー（名人）",
+        "ZH-TW": "老手級攻城戰旗",
+        "ID-ID": "Panji Pengepungan Mahir",
+        "TR-TR": "Ehil Kuşatma Sancağı",
+        "AR-SA": "راية حصار البارع"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Use this to weaken enemy territories, making them vulnerable to attack. It is required for raiding or conquering territories.",
+        "DE-DE": "Nutze es zum Schwächen gegnerischer Territorien, wodurch sie angreifbar werden. Es ist notwendig, um Territorien zu überfallen oder zu erobern.",
+        "FR-FR": "Utilisez-la pour affaiblir les territoires ennemis et les rendre vulnérables aux attaques. Elle est nécessaire pour effectuer des raids ou conquérir des territoires.",
+        "RU-RU": "Используйте его, чтобы ослабить вражеские территории, сделав их уязвимыми для нападения. Оно необходимо для рейдов и завоевания территорий.",
+        "PL-PL": "Użyj go, aby osłabić terytoria wroga, czyniąc je łatwiejszymi do zaatakowania. Wymagany do najazdu i podboju terytoriów.",
+        "ES-ES": "Utilízalo para debilitar los territorios enemigos, de modo que sean vulnerables a los ataques. Es necesario para realizar asaltos o conquistar territorios.",
+        "PT-BR": "Use isto para enfraquecer territórios inimigos, tornando-os vulneráveis ao ataque. Este item é necessário para invadir ou conquistar territórios.",
+        "IT-IT": "Si usa per indebolire i territori nemici, rendendoli vulnerabili agli attacchi. È necessario per le razzie o la conquista di territori.",
+        "ZH-CN": "用它来削弱敌人的领地，使他们可以受到攻击。它是袭击或征服领地所必需的。",
+        "KO-KR": "아이템을 사용해 적의 영토를 약화시키고, 공격에 취약한 상태로 만듭니다. 영토를 습격하거나 정복하는 데에 필요합니다.",
+        "JA-JP": "敵の領地を弱体化させ、攻撃を受けやすくする。レイドや 領地征服の際に必要となる。",
+        "ZH-TW": "用它來削弱敵人的領地，使他們可以受到攻擊。它是襲擊或征服領地所必需的。",
+        "ID-ID": "Gunakan ini untuk melemahkan wilayah musuh, menjadikannya rentan terhadap serangan. Diperlukan untuk menyerbu atau menaklukkan wilayah.",
+        "TR-TR": "Düşman mıntıkaları zayıflatmak ve saldırıya açık hale getirmek için bunu kullan. Mıntıkalara baskın yapmak veya fethetmek için gereklidir.",
+        "AR-SA": "استخدمها لإضعاف مناطق العدو، مما يجعلها عرضة للهجوم. وهي مطلوبة للمداهمة أو غزو المناطق."
+      },
+      "crafting_requirements": {
+        "primary_resource": "T4_CLOTH",
+        "primary_count": 12,
+        "secondary_resource": "T4_PLANKS",
+        "secondary_count": 4,
+        "resources": [
+          {
+            "id": "T4_CLOTH",
+            "count": 12
+          },
+          {
+            "id": "T4_PLANKS",
             "count": 4
           }
         ]
@@ -2195,11 +2496,387 @@
       "is_artifact": false,
       "artifact_details": null,
       "integration_ids": {
-        "albion_online_data_project_id": "T7_SIEGE_BANNER",
-        "item_database_index": "11916"
+        "albion_online_data_project_id": "T4_SIEGE_BANNER",
+        "item_database_index": "11913"
       },
-      "tier": 7,
+      "tier": 4,
       "enchantment": 0,
+      "localized": {
+        "name_en": "Adept's Siege Banner",
+        "name_ar": "راية حصار البارع",
+        "name_de": "Belagerungsbanner des Adepten",
+        "name_fr": "Bannière de siège de l'adepte",
+        "name_es": "Estandarte de asedio del iniciado",
+        "name_ru": "Осадное знамя (знаток)"
+      },
+      "raw": {
+        "@uniquename": "T4_SIEGE_BANNER",
+        "@referencespell": "T4_RAID_BANNER_ITEM_SPELL",
+        "@tradable": "true",
+        "@shopcategory": "other",
+        "@shopsubcategory1": "guilds",
+        "@tier": "4",
+        "@weight": "1.69",
+        "@maxstacksize": "999",
+        "@unlockedtocraft": "false",
+        "@uicraftsoundstart": "Play_ui_action_craft_tool_start",
+        "@uicraftsoundfinish": "Play_ui_action_craft_tool_finish",
+        "@canbeovercharged": "false",
+        "@shopsubcategory2": "siegebanners",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "0.33333",
+          "@craftingfocus": "858",
+          "craftresource": [
+            {
+              "@uniquename": "T4_PLANKS",
+              "@count": "4"
+            },
+            {
+              "@uniquename": "T4_CLOTH",
+              "@count": "12"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "T5_SIEGE_BANNER",
+      "index": "11914",
+      "name_en": "Expert's Siege Banner",
+      "name_ar": "راية حصار الأخصائي",
+      "name_de": "Belagerungsbanner des Experten",
+      "name_fr": "Bannière de siège de l'expert",
+      "name_es": "Estandarte de asedio del experto",
+      "name_ru": "Осадное знамя (эксперт)",
+      "descriptions": {
+        "description_en": "Use this to weaken enemy territories, making them vulnerable to attack. It is required for raiding or conquering territories.",
+        "description_ar": "استخدمها لإضعاف مناطق العدو، مما يجعلها عرضة للهجوم. وهي مطلوبة للمداهمة أو غزو المناطق.",
+        "description_de": "Nutze es zum Schwächen gegnerischer Territorien, wodurch sie angreifbar werden. Es ist notwendig, um Territorien zu überfallen oder zu erobern.",
+        "description_fr": "Utilisez-la pour affaiblir les territoires ennemis et les rendre vulnérables aux attaques. Elle est nécessaire pour effectuer des raids ou conquérir des territoires.",
+        "description_es": "Utilízalo para debilitar los territorios enemigos, de modo que sean vulnerables a los ataques. Es necesario para realizar asaltos o conquistar territorios.",
+        "description_ru": "Используйте его, чтобы ослабить вражеские территории, сделав их уязвимыми для нападения. Оно необходимо для рейдов и завоевания территорий."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T5_SIEGE_BANNER",
+        "description_variable": "@ITEMS_T4_SIEGE_BANNER_DESC"
+      },
+      "category": "Other_Guilds",
+      "slot": "2h",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T5_SIEGE_BANNER",
+        "referencespell": "T5_RAID_BANNER_ITEM_SPELL",
+        "tradable": "true",
+        "shopcategory": "other",
+        "shopsubcategory1": "guilds",
+        "tier": "5",
+        "weight": "2.53",
+        "maxstacksize": "999",
+        "unlockedtocraft": "false",
+        "uicraftsoundstart": "Play_ui_action_craft_tool_start",
+        "uicraftsoundfinish": "Play_ui_action_craft_tool_finish",
+        "canbeovercharged": "false",
+        "descriptionlocatag": "@ITEMS_T4_SIEGE_BANNER_DESC",
+        "shopsubcategory2": "siegebanners"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Expert's Siege Banner",
+        "DE-DE": "Belagerungsbanner des Experten",
+        "FR-FR": "Bannière de siège de l'expert",
+        "RU-RU": "Осадное знамя (эксперт)",
+        "PL-PL": "Sztandar Oblężniczy Znawcy",
+        "ES-ES": "Estandarte de asedio del experto",
+        "PT-BR": "Estandarte de Cerco do Perito",
+        "IT-IT": "Stendardo d'assedio dell'esperto",
+        "ZH-CN": "专家级攻城战旗",
+        "KO-KR": "전문가의 공성 깃발",
+        "JA-JP": "シージバナー（達人）",
+        "ZH-TW": "專家級攻城戰旗",
+        "ID-ID": "Panji Pengepungan Ahli",
+        "TR-TR": "Uzman Kuşatma Sancağı",
+        "AR-SA": "راية حصار الأخصائي"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Use this to weaken enemy territories, making them vulnerable to attack. It is required for raiding or conquering territories.",
+        "DE-DE": "Nutze es zum Schwächen gegnerischer Territorien, wodurch sie angreifbar werden. Es ist notwendig, um Territorien zu überfallen oder zu erobern.",
+        "FR-FR": "Utilisez-la pour affaiblir les territoires ennemis et les rendre vulnérables aux attaques. Elle est nécessaire pour effectuer des raids ou conquérir des territoires.",
+        "RU-RU": "Используйте его, чтобы ослабить вражеские территории, сделав их уязвимыми для нападения. Оно необходимо для рейдов и завоевания территорий.",
+        "PL-PL": "Użyj go, aby osłabić terytoria wroga, czyniąc je łatwiejszymi do zaatakowania. Wymagany do najazdu i podboju terytoriów.",
+        "ES-ES": "Utilízalo para debilitar los territorios enemigos, de modo que sean vulnerables a los ataques. Es necesario para realizar asaltos o conquistar territorios.",
+        "PT-BR": "Use isto para enfraquecer territórios inimigos, tornando-os vulneráveis ao ataque. Este item é necessário para invadir ou conquistar territórios.",
+        "IT-IT": "Si usa per indebolire i territori nemici, rendendoli vulnerabili agli attacchi. È necessario per le razzie o la conquista di territori.",
+        "ZH-CN": "用它来削弱敌人的领地，使他们可以受到攻击。它是袭击或征服领地所必需的。",
+        "KO-KR": "아이템을 사용해 적의 영토를 약화시키고, 공격에 취약한 상태로 만듭니다. 영토를 습격하거나 정복하는 데에 필요합니다.",
+        "JA-JP": "敵の領地を弱体化させ、攻撃を受けやすくする。レイドや 領地征服の際に必要となる。",
+        "ZH-TW": "用它來削弱敵人的領地，使他們可以受到攻擊。它是襲擊或征服領地所必需的。",
+        "ID-ID": "Gunakan ini untuk melemahkan wilayah musuh, menjadikannya rentan terhadap serangan. Diperlukan untuk menyerbu atau menaklukkan wilayah.",
+        "TR-TR": "Düşman mıntıkaları zayıflatmak ve saldırıya açık hale getirmek için bunu kullan. Mıntıkalara baskın yapmak veya fethetmek için gereklidir.",
+        "AR-SA": "استخدمها لإضعاف مناطق العدو، مما يجعلها عرضة للهجوم. وهي مطلوبة للمداهمة أو غزو المناطق."
+      },
+      "crafting_requirements": {
+        "primary_resource": "T5_CLOTH",
+        "primary_count": 12,
+        "secondary_resource": "T5_PLANKS",
+        "secondary_count": 4,
+        "resources": [
+          {
+            "id": "T5_CLOTH",
+            "count": 12
+          },
+          {
+            "id": "T5_PLANKS",
+            "count": 4
+          }
+        ]
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T5_SIEGE_BANNER",
+        "item_database_index": "11914"
+      },
+      "tier": 5,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Expert's Siege Banner",
+        "name_ar": "راية حصار الأخصائي",
+        "name_de": "Belagerungsbanner des Experten",
+        "name_fr": "Bannière de siège de l'expert",
+        "name_es": "Estandarte de asedio del experto",
+        "name_ru": "Осадное знамя (эксперт)"
+      },
+      "raw": {
+        "@uniquename": "T5_SIEGE_BANNER",
+        "@referencespell": "T5_RAID_BANNER_ITEM_SPELL",
+        "@tradable": "true",
+        "@shopcategory": "other",
+        "@shopsubcategory1": "guilds",
+        "@tier": "5",
+        "@weight": "2.53",
+        "@maxstacksize": "999",
+        "@unlockedtocraft": "false",
+        "@uicraftsoundstart": "Play_ui_action_craft_tool_start",
+        "@uicraftsoundfinish": "Play_ui_action_craft_tool_finish",
+        "@canbeovercharged": "false",
+        "@descriptionlocatag": "@ITEMS_T4_SIEGE_BANNER_DESC",
+        "@shopsubcategory2": "siegebanners",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "0.5",
+          "@craftingfocus": "1501",
+          "craftresource": [
+            {
+              "@uniquename": "T5_PLANKS",
+              "@count": "4"
+            },
+            {
+              "@uniquename": "T5_CLOTH",
+              "@count": "12"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "T6_SIEGE_BANNER",
+      "index": "11915",
+      "name_en": "Master's Siege Banner",
+      "name_ar": "راية حصار الخبير",
+      "name_de": "Belagerungsbanner des Meisters",
+      "name_fr": "Bannière de siège du maître",
+      "name_es": "Estandarte de asedio del maestro",
+      "name_ru": "Осадное знамя (мастер)",
+      "descriptions": {
+        "description_en": "Use this to weaken enemy territories, making them vulnerable to attack. It is required for raiding or conquering territories.",
+        "description_ar": "استخدمها لإضعاف مناطق العدو، مما يجعلها عرضة للهجوم. وهي مطلوبة للمداهمة أو غزو المناطق.",
+        "description_de": "Nutze es zum Schwächen gegnerischer Territorien, wodurch sie angreifbar werden. Es ist notwendig, um Territorien zu überfallen oder zu erobern.",
+        "description_fr": "Utilisez-la pour affaiblir les territoires ennemis et les rendre vulnérables aux attaques. Elle est nécessaire pour effectuer des raids ou conquérir des territoires.",
+        "description_es": "Utilízalo para debilitar los territorios enemigos, de modo que sean vulnerables a los ataques. Es necesario para realizar asaltos o conquistar territorios.",
+        "description_ru": "Используйте его, чтобы ослабить вражеские территории, сделав их уязвимыми для нападения. Оно необходимо для рейдов и завоевания территорий."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T6_SIEGE_BANNER",
+        "description_variable": "@ITEMS_T4_SIEGE_BANNER_DESC"
+      },
+      "category": "Other_Guilds",
+      "slot": "2h",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T6_SIEGE_BANNER",
+        "referencespell": "T6_RAID_BANNER_ITEM_SPELL",
+        "tradable": "true",
+        "shopcategory": "other",
+        "shopsubcategory1": "guilds",
+        "tier": "6",
+        "weight": "3.8",
+        "maxstacksize": "999",
+        "unlockedtocraft": "false",
+        "uicraftsoundstart": "Play_ui_action_craft_tool_start",
+        "uicraftsoundfinish": "Play_ui_action_craft_tool_finish",
+        "canbeovercharged": "false",
+        "descriptionlocatag": "@ITEMS_T4_SIEGE_BANNER_DESC",
+        "shopsubcategory2": "siegebanners"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Master's Siege Banner",
+        "DE-DE": "Belagerungsbanner des Meisters",
+        "FR-FR": "Bannière de siège du maître",
+        "RU-RU": "Осадное знамя (мастер)",
+        "PL-PL": "Sztandar Oblężniczy Mistrza",
+        "ES-ES": "Estandarte de asedio del maestro",
+        "PT-BR": "Estandarte de Cerco do Mestre",
+        "IT-IT": "Stendardo d'assedio del maestro",
+        "ZH-CN": "大师级攻城战旗",
+        "KO-KR": "마스터의 공성 깃발",
+        "JA-JP": "シージバナー（マスター）",
+        "ZH-TW": "大師級攻城戰旗",
+        "ID-ID": "Panji Pengepungan Master",
+        "TR-TR": "Usta Kuşatma Sancağı",
+        "AR-SA": "راية حصار الخبير"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Use this to weaken enemy territories, making them vulnerable to attack. It is required for raiding or conquering territories.",
+        "DE-DE": "Nutze es zum Schwächen gegnerischer Territorien, wodurch sie angreifbar werden. Es ist notwendig, um Territorien zu überfallen oder zu erobern.",
+        "FR-FR": "Utilisez-la pour affaiblir les territoires ennemis et les rendre vulnérables aux attaques. Elle est nécessaire pour effectuer des raids ou conquérir des territoires.",
+        "RU-RU": "Используйте его, чтобы ослабить вражеские территории, сделав их уязвимыми для нападения. Оно необходимо для рейдов и завоевания территорий.",
+        "PL-PL": "Użyj go, aby osłabić terytoria wroga, czyniąc je łatwiejszymi do zaatakowania. Wymagany do najazdu i podboju terytoriów.",
+        "ES-ES": "Utilízalo para debilitar los territorios enemigos, de modo que sean vulnerables a los ataques. Es necesario para realizar asaltos o conquistar territorios.",
+        "PT-BR": "Use isto para enfraquecer territórios inimigos, tornando-os vulneráveis ao ataque. Este item é necessário para invadir ou conquistar territórios.",
+        "IT-IT": "Si usa per indebolire i territori nemici, rendendoli vulnerabili agli attacchi. È necessario per le razzie o la conquista di territori.",
+        "ZH-CN": "用它来削弱敌人的领地，使他们可以受到攻击。它是袭击或征服领地所必需的。",
+        "KO-KR": "아이템을 사용해 적의 영토를 약화시키고, 공격에 취약한 상태로 만듭니다. 영토를 습격하거나 정복하는 데에 필요합니다.",
+        "JA-JP": "敵の領地を弱体化させ、攻撃を受けやすくする。レイドや 領地征服の際に必要となる。",
+        "ZH-TW": "用它來削弱敵人的領地，使他們可以受到攻擊。它是襲擊或征服領地所必需的。",
+        "ID-ID": "Gunakan ini untuk melemahkan wilayah musuh, menjadikannya rentan terhadap serangan. Diperlukan untuk menyerbu atau menaklukkan wilayah.",
+        "TR-TR": "Düşman mıntıkaları zayıflatmak ve saldırıya açık hale getirmek için bunu kullan. Mıntıkalara baskın yapmak veya fethetmek için gereklidir.",
+        "AR-SA": "استخدمها لإضعاف مناطق العدو، مما يجعلها عرضة للهجوم. وهي مطلوبة للمداهمة أو غزو المناطق."
+      },
+      "crafting_requirements": {
+        "primary_resource": "T6_CLOTH",
+        "primary_count": 12,
+        "secondary_resource": "T6_PLANKS",
+        "secondary_count": 4,
+        "resources": [
+          {
+            "id": "T6_CLOTH",
+            "count": 12
+          },
+          {
+            "id": "T6_PLANKS",
+            "count": 4
+          }
+        ]
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T6_SIEGE_BANNER",
+        "item_database_index": "11915"
+      },
+      "tier": 6,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Master's Siege Banner",
+        "name_ar": "راية حصار الخبير",
+        "name_de": "Belagerungsbanner des Meisters",
+        "name_fr": "Bannière de siège du maître",
+        "name_es": "Estandarte de asedio del maestro",
+        "name_ru": "Осадное знамя (мастер)"
+      },
+      "raw": {
+        "@uniquename": "T6_SIEGE_BANNER",
+        "@referencespell": "T6_RAID_BANNER_ITEM_SPELL",
+        "@tradable": "true",
+        "@shopcategory": "other",
+        "@shopsubcategory1": "guilds",
+        "@tier": "6",
+        "@weight": "3.8",
+        "@maxstacksize": "999",
+        "@unlockedtocraft": "false",
+        "@uicraftsoundstart": "Play_ui_action_craft_tool_start",
+        "@uicraftsoundfinish": "Play_ui_action_craft_tool_finish",
+        "@canbeovercharged": "false",
+        "@descriptionlocatag": "@ITEMS_T4_SIEGE_BANNER_DESC",
+        "@shopsubcategory2": "siegebanners",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "0.66667",
+          "@craftingfocus": "2626",
+          "craftresource": [
+            {
+              "@uniquename": "T6_PLANKS",
+              "@count": "4"
+            },
+            {
+              "@uniquename": "T6_CLOTH",
+              "@count": "12"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "T7_SIEGE_BANNER",
+      "index": "11916",
+      "name_en": "Grandmaster's Siege Banner",
+      "name_ar": "راية حصار الأستاذ",
+      "name_de": "Belagerungsbanner des Großmeisters",
+      "name_fr": "Bannière de siège du grand maître",
+      "name_es": "Estandarte de asedio del gran maestro",
+      "name_ru": "Осадное знамя (магистр)",
+      "descriptions": {
+        "description_en": "Use this to weaken enemy territories, making them vulnerable to attack. It is required for raiding or conquering territories.",
+        "description_ar": "استخدمها لإضعاف مناطق العدو، مما يجعلها عرضة للهجوم. وهي مطلوبة للمداهمة أو غزو المناطق.",
+        "description_de": "Nutze es zum Schwächen gegnerischer Territorien, wodurch sie angreifbar werden. Es ist notwendig, um Territorien zu überfallen oder zu erobern.",
+        "description_fr": "Utilisez-la pour affaiblir les territoires ennemis et les rendre vulnérables aux attaques. Elle est nécessaire pour effectuer des raids ou conquérir des territoires.",
+        "description_es": "Utilízalo para debilitar los territorios enemigos, de modo que sean vulnerables a los ataques. Es necesario para realizar asaltos o conquistar territorios.",
+        "description_ru": "Используйте его, чтобы ослабить вражеские территории, сделав их уязвимыми для нападения. Оно необходимо для рейдов и завоевания территорий."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T7_SIEGE_BANNER",
+        "description_variable": "@ITEMS_T4_SIEGE_BANNER_DESC"
+      },
+      "category": "Other_Guilds",
+      "slot": "2h",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T7_SIEGE_BANNER",
+        "referencespell": "T7_RAID_BANNER_ITEM_SPELL",
+        "tradable": "true",
+        "shopcategory": "other",
+        "shopsubcategory1": "guilds",
+        "tier": "7",
+        "weight": "5.7",
+        "maxstacksize": "999",
+        "unlockedtocraft": "false",
+        "uicraftsoundstart": "Play_ui_action_craft_tool_start",
+        "uicraftsoundfinish": "Play_ui_action_craft_tool_finish",
+        "canbeovercharged": "false",
+        "descriptionlocatag": "@ITEMS_T4_SIEGE_BANNER_DESC",
+        "shopsubcategory2": "siegebanners"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
       "localized_all_names": {
         "EN-US": "Grandmaster's Siege Banner",
         "DE-DE": "Belagerungsbanner des Großmeisters",
@@ -2234,12 +2911,38 @@
         "TR-TR": "Düşman mıntıkaları zayıflatmak ve saldırıya açık hale getirmek için bunu kullan. Mıntıkalara baskın yapmak veya fethetmek için gereklidir.",
         "AR-SA": "استخدمها لإضعاف مناطق العدو، مما يجعلها عرضة للهجوم. وهي مطلوبة للمداهمة أو غزو المناطق."
       },
-      "source": "ao-bin-dumps",
-      "localization_variables": {
-        "name_variable": "@ITEMS_T7_SIEGE_BANNER",
-        "description_variable": "@ITEMS_T4_SIEGE_BANNER_DESC"
+      "crafting_requirements": {
+        "primary_resource": "T7_CLOTH",
+        "primary_count": 12,
+        "secondary_resource": "T7_PLANKS",
+        "secondary_count": 4,
+        "resources": [
+          {
+            "id": "T7_CLOTH",
+            "count": 12
+          },
+          {
+            "id": "T7_PLANKS",
+            "count": 4
+          }
+        ]
       },
-      "origin": "Other/Guilds/Guilds_T7_SIEGE_BANNER.json",
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T7_SIEGE_BANNER",
+        "item_database_index": "11916"
+      },
+      "tier": 7,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Grandmaster's Siege Banner",
+        "name_ar": "راية حصار الأستاذ",
+        "name_de": "Belagerungsbanner des Großmeisters",
+        "name_fr": "Bannière de siège du grand maître",
+        "name_es": "Estandarte de asedio del gran maestro",
+        "name_ru": "Осадное знамя (магистр)"
+      },
       "raw": {
         "@uniquename": "T7_SIEGE_BANNER",
         "@referencespell": "T7_RAID_BANNER_ITEM_SPELL",
@@ -2270,9 +2973,152 @@
             }
           ]
         }
+      }
+    },
+    {
+      "id": "T8_SIEGE_BANNER",
+      "index": "11917",
+      "name_en": "Elder's Siege Banner",
+      "name_ar": "راية حصار الحكيم",
+      "name_de": "Belagerungsbanner des Ältesten",
+      "name_fr": "Bannière de siège du sage",
+      "name_es": "Estandarte de asedio del anciano",
+      "name_ru": "Осадное знамя (старейшина)",
+      "descriptions": {
+        "description_en": "Use this to weaken enemy territories, making them vulnerable to attack. It is required for raiding or conquering territories.",
+        "description_ar": "استخدمها لإضعاف مناطق العدو، مما يجعلها عرضة للهجوم. وهي مطلوبة للمداهمة أو غزو المناطق.",
+        "description_de": "Nutze es zum Schwächen gegnerischer Territorien, wodurch sie angreifbar werden. Es ist notwendig, um Territorien zu überfallen oder zu erobern.",
+        "description_fr": "Utilisez-la pour affaiblir les territoires ennemis et les rendre vulnérables aux attaques. Elle est nécessaire pour effectuer des raids ou conquérir des territoires.",
+        "description_es": "Utilízalo para debilitar los territorios enemigos, de modo que sean vulnerables a los ataques. Es necesario para realizar asaltos o conquistar territorios.",
+        "description_ru": "Используйте его, чтобы ослабить вражеские территории, сделав их уязвимыми для нападения. Оно необходимо для рейдов и завоевания территорий."
       },
-      "name_sources_ref": 0,
-      "description_sources_ref": 0
+      "localization_variables": {
+        "name_variable": "@ITEMS_T8_SIEGE_BANNER",
+        "description_variable": "@ITEMS_T4_SIEGE_BANNER_DESC"
+      },
+      "category": "Other_Guilds",
+      "slot": "2h",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T8_SIEGE_BANNER",
+        "referencespell": "T8_RAID_BANNER_ITEM_SPELL",
+        "tradable": "true",
+        "shopcategory": "other",
+        "shopsubcategory1": "guilds",
+        "tier": "8",
+        "weight": "8.54",
+        "maxstacksize": "999",
+        "unlockedtocraft": "false",
+        "uicraftsoundstart": "Play_ui_action_craft_tool_start",
+        "uicraftsoundfinish": "Play_ui_action_craft_tool_finish",
+        "canbeovercharged": "false",
+        "descriptionlocatag": "@ITEMS_T4_SIEGE_BANNER_DESC",
+        "shopsubcategory2": "siegebanners"
+      },
+      "item_stats": {
+        "itemvalue": null,
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Elder's Siege Banner",
+        "DE-DE": "Belagerungsbanner des Ältesten",
+        "FR-FR": "Bannière de siège du sage",
+        "RU-RU": "Осадное знамя (старейшина)",
+        "PL-PL": "Sztandar Oblężniczy Starszego",
+        "ES-ES": "Estandarte de asedio del anciano",
+        "PT-BR": "Estandarte de Cerco do Ancião",
+        "IT-IT": "Stendardo d'assedio dell'anziano",
+        "ZH-CN": "禅师级攻城战旗",
+        "KO-KR": "장로의 공성 깃발",
+        "JA-JP": "シージバナー（老熟）",
+        "ZH-TW": "禪師級攻城戰旗",
+        "ID-ID": "Panji Pengepungan Tetua",
+        "TR-TR": "Yüce Kuşatma Sancağı",
+        "AR-SA": "راية حصار الحكيم"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Use this to weaken enemy territories, making them vulnerable to attack. It is required for raiding or conquering territories.",
+        "DE-DE": "Nutze es zum Schwächen gegnerischer Territorien, wodurch sie angreifbar werden. Es ist notwendig, um Territorien zu überfallen oder zu erobern.",
+        "FR-FR": "Utilisez-la pour affaiblir les territoires ennemis et les rendre vulnérables aux attaques. Elle est nécessaire pour effectuer des raids ou conquérir des territoires.",
+        "RU-RU": "Используйте его, чтобы ослабить вражеские территории, сделав их уязвимыми для нападения. Оно необходимо для рейдов и завоевания территорий.",
+        "PL-PL": "Użyj go, aby osłabić terytoria wroga, czyniąc je łatwiejszymi do zaatakowania. Wymagany do najazdu i podboju terytoriów.",
+        "ES-ES": "Utilízalo para debilitar los territorios enemigos, de modo que sean vulnerables a los ataques. Es necesario para realizar asaltos o conquistar territorios.",
+        "PT-BR": "Use isto para enfraquecer territórios inimigos, tornando-os vulneráveis ao ataque. Este item é necessário para invadir ou conquistar territórios.",
+        "IT-IT": "Si usa per indebolire i territori nemici, rendendoli vulnerabili agli attacchi. È necessario per le razzie o la conquista di territori.",
+        "ZH-CN": "用它来削弱敌人的领地，使他们可以受到攻击。它是袭击或征服领地所必需的。",
+        "KO-KR": "아이템을 사용해 적의 영토를 약화시키고, 공격에 취약한 상태로 만듭니다. 영토를 습격하거나 정복하는 데에 필요합니다.",
+        "JA-JP": "敵の領地を弱体化させ、攻撃を受けやすくする。レイドや 領地征服の際に必要となる。",
+        "ZH-TW": "用它來削弱敵人的領地，使他們可以受到攻擊。它是襲擊或征服領地所必需的。",
+        "ID-ID": "Gunakan ini untuk melemahkan wilayah musuh, menjadikannya rentan terhadap serangan. Diperlukan untuk menyerbu atau menaklukkan wilayah.",
+        "TR-TR": "Düşman mıntıkaları zayıflatmak ve saldırıya açık hale getirmek için bunu kullan. Mıntıkalara baskın yapmak veya fethetmek için gereklidir.",
+        "AR-SA": "استخدمها لإضعاف مناطق العدو، مما يجعلها عرضة للهجوم. وهي مطلوبة للمداهمة أو غزو المناطق."
+      },
+      "crafting_requirements": {
+        "primary_resource": "T8_CLOTH",
+        "primary_count": 12,
+        "secondary_resource": "T8_PLANKS",
+        "secondary_count": 4,
+        "resources": [
+          {
+            "id": "T8_CLOTH",
+            "count": 12
+          },
+          {
+            "id": "T8_PLANKS",
+            "count": 4
+          }
+        ]
+      },
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T8_SIEGE_BANNER",
+        "item_database_index": "11917"
+      },
+      "tier": 8,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Elder's Siege Banner",
+        "name_ar": "راية حصار الحكيم",
+        "name_de": "Belagerungsbanner des Ältesten",
+        "name_fr": "Bannière de siège du sage",
+        "name_es": "Estandarte de asedio del anciano",
+        "name_ru": "Осадное знамя (старейшина)"
+      },
+      "raw": {
+        "@uniquename": "T8_SIEGE_BANNER",
+        "@referencespell": "T8_RAID_BANNER_ITEM_SPELL",
+        "@tradable": "true",
+        "@shopcategory": "other",
+        "@shopsubcategory1": "guilds",
+        "@tier": "8",
+        "@weight": "8.54",
+        "@maxstacksize": "999",
+        "@unlockedtocraft": "false",
+        "@uicraftsoundstart": "Play_ui_action_craft_tool_start",
+        "@uicraftsoundfinish": "Play_ui_action_craft_tool_finish",
+        "@canbeovercharged": "false",
+        "@descriptionlocatag": "@ITEMS_T4_SIEGE_BANNER_DESC",
+        "@shopsubcategory2": "siegebanners",
+        "craftingrequirements": {
+          "@silver": "0",
+          "@time": "1.25",
+          "@craftingfocus": "8042",
+          "craftresource": [
+            {
+              "@uniquename": "T8_PLANKS",
+              "@count": "4"
+            },
+            {
+              "@uniquename": "T8_CLOTH",
+              "@count": "12"
+            }
+          ]
+        }
+      }
     }
   ]
 }

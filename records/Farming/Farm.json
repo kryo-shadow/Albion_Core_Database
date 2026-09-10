@@ -3,383 +3,52 @@
   "item_count": 16,
   "items": [
     {
-      "id": "T8_PUMPKIN",
-      "index": "131",
-      "category": "Farming_Farm",
-      "slot": "2h",
-      "two_handed": false,
-      "item_stats": {
-        "itemvalue": "40",
-        "resourcevalue": null,
-        "famevalue": "20",
-        "salvagevalueoverride": null,
-        "estimatedmarketvalueoverride": null
-      },
-      "crafting_requirements": null,
-      "is_artifact": false,
-      "artifact_details": null,
-      "integration_ids": {
-        "albion_online_data_project_id": "T8_PUMPKIN",
-        "item_database_index": "131"
-      },
-      "tier": 8,
-      "enchantment": 0,
-      "localized_all_names": {
-        "EN-US": "Pumpkin",
-        "DE-DE": "Kürbis",
-        "FR-FR": "Citrouille",
-        "RU-RU": "Тыква",
-        "PL-PL": "Dynia",
-        "ES-ES": "Calabaza",
-        "PT-BR": "Abóbora",
-        "IT-IT": "Zucca",
-        "ZH-CN": "南瓜",
-        "KO-KR": "호박",
-        "JA-JP": "カボチャ",
-        "ZH-TW": "南瓜",
-        "ID-ID": "Labu",
-        "TR-TR": "Bal Kabağı",
-        "AR-SA": "يقطين"
-      },
-      "localized_all_descriptions": {
-        "EN-US": "Pumpkins are used in a variety of meals",
-        "DE-DE": "Viele Gerichte verwenden Kürbisse.",
-        "FR-FR": "Les citrouilles servent à faire à manger",
-        "RU-RU": "Из тыквы готовят различную еду.",
-        "PL-PL": "Dynie są używane w wielu potrawach",
-        "ES-ES": "Las calabazas se usan en varias comidas",
-        "PT-BR": "Abóboras são ingredientes de várias comidas",
-        "IT-IT": "La zucca è un ingrediente per varie pietanze.",
-        "ZH-CN": "南瓜可以用于多种餐食。",
-        "KO-KR": "호박은 다양한 식사에 사용됩니다",
-        "JA-JP": "カボチャは様々な料理で使われています。",
-        "ZH-TW": "南瓜可作為多種料理的食材",
-        "ID-ID": "Labu digunakan dalam berbagai makanan.",
-        "TR-TR": "Bal Kabakları, çeşitli yemeklerin yapımında kullanılır.",
-        "AR-SA": "يُستخدم اليقطين في مجموعة وجبات متنوعة"
-      },
-      "source": "ao-bin-dumps",
-      "localization_variables": {
-        "name_variable": "@ITEMS_T8_PUMPKIN",
-        "description_variable": "@ITEMS_T8_PUMPKIN_DESC"
-      },
-      "origin": "Farming/Farm/Farm_T8_PUMPKIN.json",
-      "raw": {
-        "@uniquename": "T8_PUMPKIN",
-        "@nutrition": "48",
-        "@foodcategory": "plants",
-        "@shopcategory": "farming",
-        "@shopsubcategory1": "farm",
-        "@resourcetype": "CROP",
-        "@tier": "8",
-        "@weight": "0.6",
-        "@maxstacksize": "999",
-        "@itemvalue": "40",
-        "@famevalue": "20",
-        "@shopsubcategory2": "plants",
-        "@shopsubcategory3": "pumpkin"
-      },
-      "name_sources_ref": 0,
-      "description_sources_ref": 0
-    },
-    {
-      "id": "T7_CORN",
-      "index": "130",
-      "category": "Farming_Farm",
-      "slot": "2h",
-      "two_handed": false,
-      "item_stats": {
-        "itemvalue": "40",
-        "resourcevalue": null,
-        "famevalue": "20",
-        "salvagevalueoverride": null,
-        "estimatedmarketvalueoverride": null
-      },
-      "crafting_requirements": null,
-      "is_artifact": false,
-      "artifact_details": null,
-      "integration_ids": {
-        "albion_online_data_project_id": "T7_CORN",
-        "item_database_index": "130"
-      },
-      "tier": 7,
-      "enchantment": 0,
-      "localized_all_names": {
-        "EN-US": "Bundle of Corn",
-        "DE-DE": "Maisbündel",
-        "FR-FR": "Gerbe de maïs",
-        "RU-RU": "Кукурузные початки",
-        "PL-PL": "Pęczek Kukurydzy",
-        "ES-ES": "Fardo de maíz",
-        "PT-BR": "Fardo de Milho",
-        "IT-IT": "Fascio di mais",
-        "ZH-CN": "玉米",
-        "KO-KR": "옥수수 꾸러미",
-        "JA-JP": "トウモロコシの束",
-        "ZH-TW": "玉米",
-        "ID-ID": "Bundel Jagung",
-        "TR-TR": "Mısır Yığını",
-        "AR-SA": "حزمة ذرة"
-      },
-      "localized_all_descriptions": {
-        "EN-US": "Corn is used in a variety of foods",
-        "DE-DE": "Viele Gerichte verwenden Mais",
-        "FR-FR": "Le maïs sert à faire à manger",
-        "RU-RU": "Из кукурузы готовят различную еду.",
-        "PL-PL": "Kukurydza jest używana w wielu daniach",
-        "ES-ES": "El maíz se usa en varias comidas",
-        "PT-BR": "O milho é ingrediente de várias comidas",
-        "IT-IT": "Il mais è un ingrediente per varie pietanze.",
-        "ZH-CN": "玉米可以用于多种餐食。",
-        "KO-KR": "옥수수는 다양한 음식에 사용됩니다",
-        "JA-JP": "トウモロコシは様々な料理で使われています。",
-        "ZH-TW": "玉米可作為多種食物的食材",
-        "ID-ID": "Jagung digunakan dalam berbagai makanan.",
-        "TR-TR": "Mısır, çeşitli yemeklerin yapımında kullanılır.",
-        "AR-SA": "تُستخدم الذرة في وجبات متنوعة"
-      },
-      "source": "ao-bin-dumps",
-      "localization_variables": {
-        "name_variable": "@ITEMS_T7_CORN",
-        "description_variable": "@ITEMS_T7_CORN_DESC"
-      },
-      "origin": "Farming/Farm/Farm_T7_CORN.json",
-      "raw": {
-        "@uniquename": "T7_CORN",
-        "@nutrition": "48",
-        "@foodcategory": "plants",
-        "@shopcategory": "farming",
-        "@shopsubcategory1": "farm",
-        "@resourcetype": "CROP",
-        "@tier": "7",
-        "@weight": "0.6",
-        "@maxstacksize": "999",
-        "@itemvalue": "40",
-        "@famevalue": "20",
-        "@shopsubcategory2": "plants",
-        "@shopsubcategory3": "corn"
-      },
-      "name_sources_ref": 0,
-      "description_sources_ref": 0
-    },
-    {
-      "id": "T2_FARM_BEAN_SEED",
-      "index": "9",
-      "category": "Farming_Farm",
-      "slot": "2h",
-      "two_handed": false,
-      "item_stats": {
-        "itemvalue": "600",
-        "resourcevalue": null,
-        "famevalue": null,
-        "salvagevalueoverride": null,
-        "estimatedmarketvalueoverride": null
-      },
-      "crafting_requirements": null,
-      "is_artifact": false,
-      "artifact_details": null,
-      "integration_ids": {
-        "albion_online_data_project_id": "T2_FARM_BEAN_SEED",
-        "item_database_index": "9"
-      },
-      "tier": 2,
-      "enchantment": 0,
-      "localized_all_names": {
-        "EN-US": "Bean Seeds",
-        "DE-DE": "Bohnensamen",
-        "FR-FR": "Graines de haricots",
-        "RU-RU": "Семена бобов",
-        "PL-PL": "Nasiona Fasoli",
-        "ES-ES": "Semillas de frijoles",
-        "PT-BR": "Sementes de Feijão",
-        "IT-IT": "Semi di fagiolo",
-        "ZH-CN": "豌豆种子",
-        "KO-KR": "콩 씨앗",
-        "JA-JP": "マメの種子",
-        "ZH-TW": "豆類種子",
-        "ID-ID": "Benih Buncis",
-        "TR-TR": "Fasulye Tohumları",
-        "AR-SA": "بذور الفاصولياء"
-      },
-      "localized_all_descriptions": {
-        "EN-US": "Bean Seeds are used to plant a patch of Beans.",
-        "DE-DE": "Bohnensamen dienen dazu, ein Bohnenbeet zu pflanzen.",
-        "FR-FR": "Les graines de haricot font pousser des carrés de haricots",
-        "RU-RU": "Засейте семенами поле и вырастите бобы.",
-        "PL-PL": "Nasiona fasoli są używane do sadzenia fasoli.",
-        "ES-ES": "Con semillas de frijoles se plantan terrenos de frijoles",
-        "PT-BR": "Sementes de Feijão são usadas para plantar canteiros de Feijões",
-        "IT-IT": "Con i semi di fagiolo puoi piantare un appezzamento di fagioli.",
-        "ZH-CN": "豌豆种子可以用于种植豌豆。",
-        "KO-KR": "콩 씨앗은 콩밭을 재배하는 데 사용됩니다.",
-        "JA-JP": "マメの種子はマメ畑に植えることができます。",
-        "ZH-TW": "豆類種子可用來種植一片豆田。",
-        "ID-ID": "Benih Buncis digunakan untuk menanam sepetak Buncis.",
-        "TR-TR": "Fasulye Tohumları, Fasulye yetiştirmek için kullanılır.",
-        "AR-SA": "تُستخدم بذور البقول لزراعة قطعة أرض من البقول."
-      },
-      "source": "ao-bin-dumps",
-      "localization_variables": {
-        "name_variable": "@ITEMS_T2_FARM_BEAN_SEED",
-        "description_variable": "@ITEMS_T2_FARM_BEAN_SEED_DESC"
-      },
-      "origin": "Farming/Farm/Farm_T2_FARM_BEAN_SEED.json",
-      "raw": {
-        "@uniquename": "T2_FARM_BEAN_SEED",
-        "@tier": "2",
-        "@placefame": "0",
-        "@pickupable": "false",
-        "@destroyable": "true",
-        "@unlockedtoplace": "false",
-        "@maxstacksize": "999",
-        "@shopcategory": "farming",
-        "@shopsubcategory1": "farm",
-        "@kind": "plant",
-        "@weight": "0.2",
-        "@unlockedtocraft": "true",
-        "@animationid": "sow",
-        "@activefarmfocuscost": "1000",
-        "@activefarmmaxcycles": "1",
-        "@activefarmactiondurationseconds": "1",
-        "@activefarmcyclelengthseconds": "79200",
-        "@activefarmbonus": "1.3333",
-        "@itemvalue": "600",
-        "@shopsubcategory2": "seeds",
-        "@shopsubcategory3": "bean",
-        "craftingrequirements": {
-          "@silver": "3000",
-          "@time": "0",
-          "@swaptransaction": "true"
-        },
-        "AudioInfo": {
-          "@name": "FARMABLE_PLANTS_CROP"
-        },
-        "harvest": {
-          "@growtime": "79200",
-          "@lootlist": "T2_BEAN_LOOT",
-          "@lootchance": "1",
-          "@fame": "100",
-          "seed": {
-            "@chance": "0.3333",
-            "@amount": "1"
-          }
-        }
-      },
-      "name_sources_ref": 0,
-      "description_sources_ref": 0
-    },
-    {
-      "id": "T3_FARM_WHEAT_SEED",
-      "index": "10",
-      "category": "Farming_Farm",
-      "slot": "2h",
-      "two_handed": false,
-      "item_stats": {
-        "itemvalue": "1000",
-        "resourcevalue": null,
-        "famevalue": null,
-        "salvagevalueoverride": null,
-        "estimatedmarketvalueoverride": null
-      },
-      "crafting_requirements": null,
-      "is_artifact": false,
-      "artifact_details": null,
-      "integration_ids": {
-        "albion_online_data_project_id": "T3_FARM_WHEAT_SEED",
-        "item_database_index": "10"
-      },
-      "tier": 3,
-      "enchantment": 0,
-      "localized_all_names": {
-        "EN-US": "Wheat Seeds",
-        "DE-DE": "Weizensamen",
-        "FR-FR": "Graines de blé",
-        "RU-RU": "Зерна пшеницы",
-        "PL-PL": "Nasiona pszenicy",
-        "ES-ES": "Semillas de trigo",
-        "PT-BR": "Sementes de Trigo",
-        "IT-IT": "Semi di grano",
-        "ZH-CN": "小麦种子",
-        "KO-KR": "밀 씨앗",
-        "JA-JP": "小麦の種子",
-        "ZH-TW": "小麥種子",
-        "ID-ID": "Benih Gandum",
-        "TR-TR": "Buğday Tohumları",
-        "AR-SA": "بذور القمح"
-      },
-      "localized_all_descriptions": {
-        "EN-US": "Wheat Seeds are used to plant a patch of Wheat.",
-        "DE-DE": "Weizensamen dienen dazu, ein Weizenbeet zu pflanzen.",
-        "FR-FR": "Les graines de blé font pousser des carrés de blé",
-        "RU-RU": "Засейте зерном поле и вырастите пшеницу.",
-        "PL-PL": "Nasiona pszenicy są używane do sadzenia pszenicy",
-        "ES-ES": "Con semillas de trigo se plantan terrenos de trigo",
-        "PT-BR": "Sementes de Trigo são usadas para plantar canteiros de Trigo",
-        "IT-IT": "Con i semi di grano puoi piantare un appezzamento di grano.",
-        "ZH-CN": "小麦种子用于种植小麦。",
-        "KO-KR": "밀 씨앗은 밀밭을 재배하는 데 사용됩니다.",
-        "JA-JP": "小麦の種子は小麦畑に植えることができます。",
-        "ZH-TW": "小麥種子可用來種植一片小麥田。",
-        "ID-ID": "Benih Gandum digunakan untuk menanam sepetak Gandum.",
-        "TR-TR": "Buğday Tohumları, Buğday yetiştirmek için kullanılır.",
-        "AR-SA": "تُستخدم بذور القمح لزراعة قطعة أرض من القمح."
-      },
-      "source": "ao-bin-dumps",
-      "localization_variables": {
-        "name_variable": "@ITEMS_T3_FARM_WHEAT_SEED",
-        "description_variable": "@ITEMS_T3_FARM_WHEAT_SEED_DESC"
-      },
-      "origin": "Farming/Farm/Farm_T3_FARM_WHEAT_SEED.json",
-      "raw": {
-        "@uniquename": "T3_FARM_WHEAT_SEED",
-        "@tier": "3",
-        "@placefame": "0",
-        "@pickupable": "false",
-        "@destroyable": "true",
-        "@unlockedtoplace": "false",
-        "@maxstacksize": "999",
-        "@shopcategory": "farming",
-        "@shopsubcategory1": "farm",
-        "@kind": "plant",
-        "@weight": "0.2",
-        "@unlockedtocraft": "true",
-        "@animationid": "sow",
-        "@activefarmfocuscost": "1000",
-        "@activefarmmaxcycles": "1",
-        "@activefarmactiondurationseconds": "1",
-        "@activefarmcyclelengthseconds": "79200",
-        "@activefarmbonus": "0.8",
-        "@itemvalue": "1000",
-        "@shopsubcategory2": "seeds",
-        "@shopsubcategory3": "wheat",
-        "craftingrequirements": {
-          "@silver": "5000",
-          "@time": "0",
-          "@swaptransaction": "true"
-        },
-        "AudioInfo": {
-          "@name": "FARMABLE_PLANTS_CROP"
-        },
-        "harvest": {
-          "@growtime": "79200",
-          "@lootlist": "T3_WHEAT_LOOT",
-          "@lootchance": "1",
-          "@fame": "100",
-          "seed": {
-            "@chance": "0.6000",
-            "@amount": "1"
-          }
-        }
-      },
-      "name_sources_ref": 0,
-      "description_sources_ref": 0
-    },
-    {
       "id": "T1_FARM_CARROT_SEED",
       "index": "8",
+      "name_en": "Carrot Seeds",
+      "name_ar": "بذور الجزر",
+      "name_de": "Möhrensamen",
+      "name_fr": "Graines de carotte",
+      "name_es": "Semillas de zanahoria",
+      "name_ru": "Семена моркови",
+      "descriptions": {
+        "description_en": "Carrot Seeds are used to plant a patch of Carrots.",
+        "description_ar": "تُستخدم بذور الجزر لزراعة قطعة أرض من الجزر.",
+        "description_de": "Möhrensamen dienen dazu, ein Möhrenbeet zu pflanzen.",
+        "description_fr": "Les graines de carotte font pousser des carrés de carottes",
+        "description_es": "Con semillas de zanahoria se plantan terrenos de zanahoria",
+        "description_ru": "Засейте семенами поле и вырастите морковь."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T1_FARM_CARROT_SEED",
+        "description_variable": "@ITEMS_T1_FARM_CARROT_SEED_DESC"
+      },
       "category": "Farming_Farm",
       "slot": "2h",
       "two_handed": false,
+      "attributes": {
+        "uniquename": "T1_FARM_CARROT_SEED",
+        "tier": "1",
+        "placefame": "0",
+        "pickupable": "false",
+        "destroyable": "true",
+        "unlockedtoplace": "false",
+        "maxstacksize": "999",
+        "shopcategory": "farming",
+        "shopsubcategory1": "farm",
+        "kind": "plant",
+        "weight": "0.1",
+        "unlockedtocraft": "true",
+        "animationid": "planting",
+        "activefarmfocuscost": "1000",
+        "activefarmmaxcycles": "1",
+        "activefarmactiondurationseconds": "1",
+        "activefarmcyclelengthseconds": "79200",
+        "activefarmbonus": "2.0",
+        "itemvalue": "400",
+        "shopsubcategory2": "seeds",
+        "shopsubcategory3": "carrot"
+      },
       "item_stats": {
         "itemvalue": "400",
         "resourcevalue": null,
@@ -387,15 +56,6 @@
         "salvagevalueoverride": null,
         "estimatedmarketvalueoverride": null
       },
-      "crafting_requirements": null,
-      "is_artifact": false,
-      "artifact_details": null,
-      "integration_ids": {
-        "albion_online_data_project_id": "T1_FARM_CARROT_SEED",
-        "item_database_index": "8"
-      },
-      "tier": 1,
-      "enchantment": 0,
       "localized_all_names": {
         "EN-US": "Carrot Seeds",
         "DE-DE": "Möhrensamen",
@@ -430,12 +90,23 @@
         "TR-TR": "Havuç Tohumları, Havuç yetiştirmek için kullanılır.",
         "AR-SA": "تُستخدم بذور الجزر لزراعة قطعة أرض من الجزر."
       },
-      "source": "ao-bin-dumps",
-      "localization_variables": {
-        "name_variable": "@ITEMS_T1_FARM_CARROT_SEED",
-        "description_variable": "@ITEMS_T1_FARM_CARROT_SEED_DESC"
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T1_FARM_CARROT_SEED",
+        "item_database_index": "8"
       },
-      "origin": "Farming/Farm/Farm_T1_FARM_CARROT_SEED.json",
+      "tier": 1,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Carrot Seeds",
+        "name_ar": "بذور الجزر",
+        "name_de": "Möhrensamen",
+        "name_fr": "Graines de carotte",
+        "name_es": "Semillas de zanahoria",
+        "name_ru": "Семена моркови"
+      },
       "raw": {
         "@uniquename": "T1_FARM_CARROT_SEED",
         "@tier": "1",
@@ -476,235 +147,116 @@
             "@amount": "1"
           }
         }
-      },
-      "name_sources_ref": 0,
-      "description_sources_ref": 0
+      }
     },
     {
-      "id": "T4_TURNIP",
-      "index": "127",
-      "category": "Farming_Farm",
-      "slot": "2h",
-      "two_handed": false,
-      "item_stats": {
-        "itemvalue": "40",
-        "resourcevalue": null,
-        "famevalue": "20",
-        "salvagevalueoverride": null,
-        "estimatedmarketvalueoverride": null
+      "id": "T2_FARM_BEAN_SEED",
+      "index": "9",
+      "name_en": "Bean Seeds",
+      "name_ar": "بذور الفاصولياء",
+      "name_de": "Bohnensamen",
+      "name_fr": "Graines de haricots",
+      "name_es": "Semillas de frijoles",
+      "name_ru": "Семена бобов",
+      "descriptions": {
+        "description_en": "Bean Seeds are used to plant a patch of Beans.",
+        "description_ar": "تُستخدم بذور البقول لزراعة قطعة أرض من البقول.",
+        "description_de": "Bohnensamen dienen dazu, ein Bohnenbeet zu pflanzen.",
+        "description_fr": "Les graines de haricot font pousser des carrés de haricots",
+        "description_es": "Con semillas de frijoles se plantan terrenos de frijoles",
+        "description_ru": "Засейте семенами поле и вырастите бобы."
       },
-      "crafting_requirements": null,
-      "is_artifact": false,
-      "artifact_details": null,
-      "integration_ids": {
-        "albion_online_data_project_id": "T4_TURNIP",
-        "item_database_index": "127"
-      },
-      "tier": 4,
-      "enchantment": 0,
-      "localized_all_names": {
-        "EN-US": "Turnips",
-        "DE-DE": "Rüben",
-        "FR-FR": "Navets",
-        "RU-RU": "Репа",
-        "PL-PL": "Rzepy",
-        "ES-ES": "Rábanos",
-        "PT-BR": "Nabos",
-        "IT-IT": "Rape",
-        "ZH-CN": "芜菁",
-        "KO-KR": "순무",
-        "JA-JP": "カブ",
-        "ZH-TW": "蕪菁",
-        "ID-ID": "Lobak",
-        "TR-TR": "Turplar",
-        "AR-SA": "اللفت"
-      },
-      "localized_all_descriptions": {
-        "EN-US": "Turnips are used in a variety of meals.",
-        "DE-DE": "Viele Gerichte verwenden Rüben.",
-        "FR-FR": "Les navets servent à faire à manger",
-        "RU-RU": "Из репы готовят различную еду.",
-        "PL-PL": "Rzepa używana jest do wielu różnych potraw",
-        "ES-ES": "Los rábanos se usan en varias comidas",
-        "PT-BR": "Nabos são ingredientes de várias comidas",
-        "IT-IT": "Le rape sono un ingrediente per varie pietanze.",
-        "ZH-CN": "芜菁可以用于多种餐食。",
-        "KO-KR": "순무는 다양한 식사에 사용됩니다.",
-        "JA-JP": "カブは様々な料理で使われています。",
-        "ZH-TW": "蕪菁可作為多種料理的食材。",
-        "ID-ID": "Lobak digunakan dalam berbagai makanan.",
-        "TR-TR": "Turplar, çeşitli yemeklerin yapımında kullanılır.",
-        "AR-SA": "يُستخدم اللفت في وجبات متنوعة."
-      },
-      "source": "ao-bin-dumps",
       "localization_variables": {
-        "name_variable": "@ITEMS_T4_TURNIP",
-        "description_variable": "@ITEMS_T4_TURNIP_DESC"
+        "name_variable": "@ITEMS_T2_FARM_BEAN_SEED",
+        "description_variable": "@ITEMS_T2_FARM_BEAN_SEED_DESC"
       },
-      "origin": "Farming/Farm/Farm_T4_TURNIP.json",
-      "raw": {
-        "@uniquename": "T4_TURNIP",
-        "@nutrition": "48",
-        "@foodcategory": "plants",
-        "@shopcategory": "farming",
-        "@shopsubcategory1": "farm",
-        "@resourcetype": "CROP",
-        "@tier": "4",
-        "@weight": "0.6",
-        "@maxstacksize": "999",
-        "@itemvalue": "40",
-        "@famevalue": "20",
-        "@shopsubcategory2": "plants",
-        "@shopsubcategory3": "turnip"
-      },
-      "name_sources_ref": 0,
-      "description_sources_ref": 0
-    },
-    {
-      "id": "T5_CABBAGE",
-      "index": "128",
       "category": "Farming_Farm",
       "slot": "2h",
       "two_handed": false,
+      "attributes": {
+        "uniquename": "T2_FARM_BEAN_SEED",
+        "tier": "2",
+        "placefame": "0",
+        "pickupable": "false",
+        "destroyable": "true",
+        "unlockedtoplace": "false",
+        "maxstacksize": "999",
+        "shopcategory": "farming",
+        "shopsubcategory1": "farm",
+        "kind": "plant",
+        "weight": "0.2",
+        "unlockedtocraft": "true",
+        "animationid": "sow",
+        "activefarmfocuscost": "1000",
+        "activefarmmaxcycles": "1",
+        "activefarmactiondurationseconds": "1",
+        "activefarmcyclelengthseconds": "79200",
+        "activefarmbonus": "1.3333",
+        "itemvalue": "600",
+        "shopsubcategory2": "seeds",
+        "shopsubcategory3": "bean"
+      },
       "item_stats": {
-        "itemvalue": "40",
-        "resourcevalue": null,
-        "famevalue": "20",
-        "salvagevalueoverride": null,
-        "estimatedmarketvalueoverride": null
-      },
-      "crafting_requirements": null,
-      "is_artifact": false,
-      "artifact_details": null,
-      "integration_ids": {
-        "albion_online_data_project_id": "T5_CABBAGE",
-        "item_database_index": "128"
-      },
-      "tier": 5,
-      "enchantment": 0,
-      "localized_all_names": {
-        "EN-US": "Cabbage",
-        "DE-DE": "Kohl",
-        "FR-FR": "Choux",
-        "RU-RU": "Капуста",
-        "PL-PL": "Kapusta",
-        "ES-ES": "Coles",
-        "PT-BR": "Repolho",
-        "IT-IT": "Cavolo",
-        "ZH-CN": "白菜",
-        "KO-KR": "양배추",
-        "JA-JP": "キャベツ",
-        "ZH-TW": "高麗菜",
-        "ID-ID": "Kubis",
-        "TR-TR": "Lahana",
-        "AR-SA": "الملفوف"
-      },
-      "localized_all_descriptions": {
-        "EN-US": "Cabbage is used in a variety of meals.",
-        "DE-DE": "Viele Gerichte verwenden Kohl.",
-        "FR-FR": "Les choux servent à faire à manger",
-        "RU-RU": "Из капусты готовят различную еду.",
-        "PL-PL": "Z kapusty przyrządza się wiele różnych potraw",
-        "ES-ES": "Las coles se usan en varias comidas",
-        "PT-BR": "Repolhos são ingredientes de várias comidas",
-        "IT-IT": "Il cavolo è un ingrediente per varie pietanze.",
-        "ZH-CN": "白菜可以用于多种餐食。",
-        "KO-KR": "양배추는 다양한 식사에 사용됩니다.",
-        "JA-JP": "キャベツは様々な料理で使われています。",
-        "ZH-TW": "高麗菜可作為多種料理的食材。",
-        "ID-ID": "Kubis digunakan dalam berbagai makanan.",
-        "TR-TR": "Lahana, çeşitli yemeklerin yapımında kullanılır.",
-        "AR-SA": "يُستخدم الملفوف في وجبات متنوعة."
-      },
-      "source": "ao-bin-dumps",
-      "localization_variables": {
-        "name_variable": "@ITEMS_T5_CABBAGE",
-        "description_variable": "@ITEMS_T5_CABBAGE_DESC"
-      },
-      "origin": "Farming/Farm/Farm_T5_CABBAGE.json",
-      "raw": {
-        "@uniquename": "T5_CABBAGE",
-        "@nutrition": "48",
-        "@foodcategory": "plants",
-        "@shopcategory": "farming",
-        "@shopsubcategory1": "farm",
-        "@resourcetype": "CROP",
-        "@tier": "5",
-        "@weight": "0.6",
-        "@maxstacksize": "999",
-        "@itemvalue": "40",
-        "@famevalue": "20",
-        "@shopsubcategory2": "plants",
-        "@shopsubcategory3": "cabbage"
-      },
-      "name_sources_ref": 0,
-      "description_sources_ref": 0
-    },
-    {
-      "id": "T6_FARM_POTATO_SEED",
-      "index": "13",
-      "category": "Farming_Farm",
-      "slot": "2h",
-      "two_handed": false,
-      "item_stats": {
-        "itemvalue": "3000",
+        "itemvalue": "600",
         "resourcevalue": null,
         "famevalue": null,
         "salvagevalueoverride": null,
         "estimatedmarketvalueoverride": null
       },
+      "localized_all_names": {
+        "EN-US": "Bean Seeds",
+        "DE-DE": "Bohnensamen",
+        "FR-FR": "Graines de haricots",
+        "RU-RU": "Семена бобов",
+        "PL-PL": "Nasiona Fasoli",
+        "ES-ES": "Semillas de frijoles",
+        "PT-BR": "Sementes de Feijão",
+        "IT-IT": "Semi di fagiolo",
+        "ZH-CN": "豌豆种子",
+        "KO-KR": "콩 씨앗",
+        "JA-JP": "マメの種子",
+        "ZH-TW": "豆類種子",
+        "ID-ID": "Benih Buncis",
+        "TR-TR": "Fasulye Tohumları",
+        "AR-SA": "بذور الفاصولياء"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Bean Seeds are used to plant a patch of Beans.",
+        "DE-DE": "Bohnensamen dienen dazu, ein Bohnenbeet zu pflanzen.",
+        "FR-FR": "Les graines de haricot font pousser des carrés de haricots",
+        "RU-RU": "Засейте семенами поле и вырастите бобы.",
+        "PL-PL": "Nasiona fasoli są używane do sadzenia fasoli.",
+        "ES-ES": "Con semillas de frijoles se plantan terrenos de frijoles",
+        "PT-BR": "Sementes de Feijão são usadas para plantar canteiros de Feijões",
+        "IT-IT": "Con i semi di fagiolo puoi piantare un appezzamento di fagioli.",
+        "ZH-CN": "豌豆种子可以用于种植豌豆。",
+        "KO-KR": "콩 씨앗은 콩밭을 재배하는 데 사용됩니다.",
+        "JA-JP": "マメの種子はマメ畑に植えることができます。",
+        "ZH-TW": "豆類種子可用來種植一片豆田。",
+        "ID-ID": "Benih Buncis digunakan untuk menanam sepetak Buncis.",
+        "TR-TR": "Fasulye Tohumları, Fasulye yetiştirmek için kullanılır.",
+        "AR-SA": "تُستخدم بذور البقول لزراعة قطعة أرض من البقول."
+      },
       "crafting_requirements": null,
       "is_artifact": false,
       "artifact_details": null,
       "integration_ids": {
-        "albion_online_data_project_id": "T6_FARM_POTATO_SEED",
-        "item_database_index": "13"
+        "albion_online_data_project_id": "T2_FARM_BEAN_SEED",
+        "item_database_index": "9"
       },
-      "tier": 6,
+      "tier": 2,
       "enchantment": 0,
-      "localized_all_names": {
-        "EN-US": "Potato Seeds",
-        "DE-DE": "Kartoffelsamen",
-        "FR-FR": "Graines de patate",
-        "RU-RU": "Клубни картофеля",
-        "PL-PL": "Nasiona Ziemniaków",
-        "ES-ES": "Semillas de patata",
-        "PT-BR": "Sementes de Batata",
-        "IT-IT": "Semi di patata",
-        "ZH-CN": "土豆种子",
-        "KO-KR": "감자 씨앗",
-        "JA-JP": "じゃがいもの種子",
-        "ZH-TW": "馬鈴薯種子",
-        "ID-ID": "Benih Kentang",
-        "TR-TR": "Patates Tohumları",
-        "AR-SA": "بذور البطاطس"
+      "localized": {
+        "name_en": "Bean Seeds",
+        "name_ar": "بذور الفاصولياء",
+        "name_de": "Bohnensamen",
+        "name_fr": "Graines de haricots",
+        "name_es": "Semillas de frijoles",
+        "name_ru": "Семена бобов"
       },
-      "localized_all_descriptions": {
-        "EN-US": "Potato Seeds are used to plant a patch of Potatoes",
-        "DE-DE": "Kartoffelsamen dienen dazu, ein Kartoffelbeet zu pflanzen.",
-        "FR-FR": "Les graines de patate font pousser des carrés de patates",
-        "RU-RU": "Посадите клубни на поле и вырастите картофель.",
-        "PL-PL": "Nasiona ziemniaków są używane do sadzenia ziemniaków",
-        "ES-ES": "Con semillas de patata se plantan terrenos de patata",
-        "PT-BR": "Sementes de Batata são usadas para plantar canteiros de Batata",
-        "IT-IT": "Con i semi di patata puoi piantare un appezzamento di patate.",
-        "ZH-CN": "土豆种子用于种植土豆。",
-        "KO-KR": "감자 씨앗은 감자 밭을 재배하는 데 사용됩니다.",
-        "JA-JP": "じゃがいもの種子はじゃがいも畑に植えることができます。",
-        "ZH-TW": "馬鈴薯種子可用來種植一片馬鈴薯田",
-        "ID-ID": "Benih Kentang digunakan untuk menanam sepetak Kentang.",
-        "TR-TR": "Patates Tohumları, Patates yetiştirmek için kullanılır.",
-        "AR-SA": "تُستخدم بذور البطاطس لزراعة قطعة أرض من البطاطس"
-      },
-      "source": "ao-bin-dumps",
-      "localization_variables": {
-        "name_variable": "@ITEMS_T6_FARM_POTATO_SEED",
-        "description_variable": "@ITEMS_T6_FARM_POTATO_SEED_DESC"
-      },
-      "origin": "Farming/Farm/Farm_T6_FARM_POTATO_SEED.json",
       "raw": {
-        "@uniquename": "T6_FARM_POTATO_SEED",
-        "@tier": "6",
+        "@uniquename": "T2_FARM_BEAN_SEED",
+        "@tier": "2",
         "@placefame": "0",
         "@pickupable": "false",
         "@destroyable": "true",
@@ -713,125 +265,19 @@
         "@shopcategory": "farming",
         "@shopsubcategory1": "farm",
         "@kind": "plant",
-        "@weight": "0.8",
-        "@unlockedtocraft": "true",
-        "@animationid": "planting",
-        "@activefarmfocuscost": "1000",
-        "@activefarmmaxcycles": "1",
-        "@activefarmactiondurationseconds": "1",
-        "@activefarmcyclelengthseconds": "79200",
-        "@activefarmbonus": "0.2667",
-        "@itemvalue": "3000",
-        "@shopsubcategory2": "seeds",
-        "@shopsubcategory3": "potato",
-        "craftingrequirements": {
-          "@silver": "15000",
-          "@time": "0",
-          "@swaptransaction": "true"
-        },
-        "AudioInfo": {
-          "@name": "FARMABLE_PLANTS_VEGETABLES"
-        },
-        "harvest": {
-          "@growtime": "79200",
-          "@lootlist": "T6_POTATO_LOOT",
-          "@lootchance": "1",
-          "@fame": "100",
-          "seed": {
-            "@chance": "0.8667",
-            "@amount": "1"
-          }
-        }
-      },
-      "name_sources_ref": 0,
-      "description_sources_ref": 0
-    },
-    {
-      "id": "T8_FARM_PUMPKIN_SEED",
-      "index": "15",
-      "category": "Farming_Farm",
-      "slot": "2h",
-      "two_handed": false,
-      "item_stats": {
-        "itemvalue": "6000",
-        "resourcevalue": null,
-        "famevalue": null,
-        "salvagevalueoverride": null,
-        "estimatedmarketvalueoverride": null
-      },
-      "crafting_requirements": null,
-      "is_artifact": false,
-      "artifact_details": null,
-      "integration_ids": {
-        "albion_online_data_project_id": "T8_FARM_PUMPKIN_SEED",
-        "item_database_index": "15"
-      },
-      "tier": 8,
-      "enchantment": 0,
-      "localized_all_names": {
-        "EN-US": "Pumpkin Seeds",
-        "DE-DE": "Kürbissamen",
-        "FR-FR": "Graines de citrouille",
-        "RU-RU": "Семена тыквы",
-        "PL-PL": "Nasiona dyni",
-        "ES-ES": "Semillas de calabaza",
-        "PT-BR": "Sementes de Abóbora",
-        "IT-IT": "Semi di zucca",
-        "ZH-CN": "南瓜种子",
-        "KO-KR": "호박 씨앗",
-        "JA-JP": "カボチャの種子",
-        "ZH-TW": "南瓜種子",
-        "ID-ID": "Benih Labu",
-        "TR-TR": "Bal Kabağı Tohumları",
-        "AR-SA": "بذور اليقطين"
-      },
-      "localized_all_descriptions": {
-        "EN-US": "Pumpkin Seeds are used to plant a patch of Pumpkins",
-        "DE-DE": "Kürbissamen dienen dazu, ein Kürbisbeet zu pflanzen.",
-        "FR-FR": "Les graines de citrouille font pousser des carrés de citrouilles",
-        "RU-RU": "Засейте семенами поле и вырастите тыквы.",
-        "PL-PL": "Nasiona dyni są używane do sadzenia dyni",
-        "ES-ES": "Con semillas de calabaza se plantan terrenos de calabaza",
-        "PT-BR": "Sementes de Abóbora são usadas para plantar canteiros de Abóbora",
-        "IT-IT": "Con i semi di zucca puoi piantare un appezzamento di zucche.",
-        "ZH-CN": "南瓜种子用于种植南瓜。",
-        "KO-KR": "호박 씨앗은 호박 밭을 재배하는 데 사용됩니다.",
-        "JA-JP": "カボチャの種子はカボチャ畑に植えることができます。",
-        "ZH-TW": "南瓜種子可用來種植一片南瓜田",
-        "ID-ID": "Benih Labu digunakan untuk menanam sepetak Labu",
-        "TR-TR": "Bal Kabağı Tohumları, Bal Kabakları yetiştirmek için kullanılır.",
-        "AR-SA": "تُستخدم بذور اليقطين لزراعة قطعة أرض من اليقطين"
-      },
-      "source": "ao-bin-dumps",
-      "localization_variables": {
-        "name_variable": "@ITEMS_T8_FARM_PUMPKIN_SEED",
-        "description_variable": "@ITEMS_T8_FARM_PUMPKIN_SEED_DESC"
-      },
-      "origin": "Farming/Farm/Farm_T8_FARM_PUMPKIN_SEED.json",
-      "raw": {
-        "@uniquename": "T8_FARM_PUMPKIN_SEED",
-        "@tier": "8",
-        "@placefame": "0",
-        "@pickupable": "false",
-        "@destroyable": "true",
-        "@unlockedtoplace": "false",
-        "@maxstacksize": "999",
-        "@shopcategory": "farming",
-        "@shopsubcategory1": "farm",
-        "@kind": "plant",
-        "@weight": "1.7",
+        "@weight": "0.2",
         "@unlockedtocraft": "true",
         "@animationid": "sow",
         "@activefarmfocuscost": "1000",
         "@activefarmmaxcycles": "1",
         "@activefarmactiondurationseconds": "1",
         "@activefarmcyclelengthseconds": "79200",
-        "@activefarmbonus": "0.1333",
-        "@itemvalue": "6000",
+        "@activefarmbonus": "1.3333",
+        "@itemvalue": "600",
         "@shopsubcategory2": "seeds",
-        "@shopsubcategory3": "pumpkin",
+        "@shopsubcategory3": "bean",
         "craftingrequirements": {
-          "@silver": "30000",
+          "@silver": "3000",
           "@time": "0",
           "@swaptransaction": "true"
         },
@@ -840,83 +286,124 @@
         },
         "harvest": {
           "@growtime": "79200",
-          "@lootlist": "T8_PUMPKIN_LOOT",
+          "@lootlist": "T2_BEAN_LOOT",
           "@lootchance": "1",
           "@fame": "100",
           "seed": {
-            "@chance": "0.9333",
+            "@chance": "0.3333",
             "@amount": "1"
           }
         }
-      },
-      "name_sources_ref": 0,
-      "description_sources_ref": 0
+      }
     },
     {
-      "id": "T5_FARM_CABBAGE_SEED",
-      "index": "12",
+      "id": "T3_FARM_WHEAT_SEED",
+      "index": "10",
+      "name_en": "Wheat Seeds",
+      "name_ar": "بذور القمح",
+      "name_de": "Weizensamen",
+      "name_fr": "Graines de blé",
+      "name_es": "Semillas de trigo",
+      "name_ru": "Зерна пшеницы",
+      "descriptions": {
+        "description_en": "Wheat Seeds are used to plant a patch of Wheat.",
+        "description_ar": "تُستخدم بذور القمح لزراعة قطعة أرض من القمح.",
+        "description_de": "Weizensamen dienen dazu, ein Weizenbeet zu pflanzen.",
+        "description_fr": "Les graines de blé font pousser des carrés de blé",
+        "description_es": "Con semillas de trigo se plantan terrenos de trigo",
+        "description_ru": "Засейте зерном поле и вырастите пшеницу."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T3_FARM_WHEAT_SEED",
+        "description_variable": "@ITEMS_T3_FARM_WHEAT_SEED_DESC"
+      },
       "category": "Farming_Farm",
       "slot": "2h",
       "two_handed": false,
+      "attributes": {
+        "uniquename": "T3_FARM_WHEAT_SEED",
+        "tier": "3",
+        "placefame": "0",
+        "pickupable": "false",
+        "destroyable": "true",
+        "unlockedtoplace": "false",
+        "maxstacksize": "999",
+        "shopcategory": "farming",
+        "shopsubcategory1": "farm",
+        "kind": "plant",
+        "weight": "0.2",
+        "unlockedtocraft": "true",
+        "animationid": "sow",
+        "activefarmfocuscost": "1000",
+        "activefarmmaxcycles": "1",
+        "activefarmactiondurationseconds": "1",
+        "activefarmcyclelengthseconds": "79200",
+        "activefarmbonus": "0.8",
+        "itemvalue": "1000",
+        "shopsubcategory2": "seeds",
+        "shopsubcategory3": "wheat"
+      },
       "item_stats": {
-        "itemvalue": "2000",
+        "itemvalue": "1000",
         "resourcevalue": null,
         "famevalue": null,
         "salvagevalueoverride": null,
         "estimatedmarketvalueoverride": null
       },
+      "localized_all_names": {
+        "EN-US": "Wheat Seeds",
+        "DE-DE": "Weizensamen",
+        "FR-FR": "Graines de blé",
+        "RU-RU": "Зерна пшеницы",
+        "PL-PL": "Nasiona pszenicy",
+        "ES-ES": "Semillas de trigo",
+        "PT-BR": "Sementes de Trigo",
+        "IT-IT": "Semi di grano",
+        "ZH-CN": "小麦种子",
+        "KO-KR": "밀 씨앗",
+        "JA-JP": "小麦の種子",
+        "ZH-TW": "小麥種子",
+        "ID-ID": "Benih Gandum",
+        "TR-TR": "Buğday Tohumları",
+        "AR-SA": "بذور القمح"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Wheat Seeds are used to plant a patch of Wheat.",
+        "DE-DE": "Weizensamen dienen dazu, ein Weizenbeet zu pflanzen.",
+        "FR-FR": "Les graines de blé font pousser des carrés de blé",
+        "RU-RU": "Засейте зерном поле и вырастите пшеницу.",
+        "PL-PL": "Nasiona pszenicy są używane do sadzenia pszenicy",
+        "ES-ES": "Con semillas de trigo se plantan terrenos de trigo",
+        "PT-BR": "Sementes de Trigo são usadas para plantar canteiros de Trigo",
+        "IT-IT": "Con i semi di grano puoi piantare un appezzamento di grano.",
+        "ZH-CN": "小麦种子用于种植小麦。",
+        "KO-KR": "밀 씨앗은 밀밭을 재배하는 데 사용됩니다.",
+        "JA-JP": "小麦の種子は小麦畑に植えることができます。",
+        "ZH-TW": "小麥種子可用來種植一片小麥田。",
+        "ID-ID": "Benih Gandum digunakan untuk menanam sepetak Gandum.",
+        "TR-TR": "Buğday Tohumları, Buğday yetiştirmek için kullanılır.",
+        "AR-SA": "تُستخدم بذور القمح لزراعة قطعة أرض من القمح."
+      },
       "crafting_requirements": null,
       "is_artifact": false,
       "artifact_details": null,
       "integration_ids": {
-        "albion_online_data_project_id": "T5_FARM_CABBAGE_SEED",
-        "item_database_index": "12"
+        "albion_online_data_project_id": "T3_FARM_WHEAT_SEED",
+        "item_database_index": "10"
       },
-      "tier": 5,
+      "tier": 3,
       "enchantment": 0,
-      "localized_all_names": {
-        "EN-US": "Cabbage Seeds",
-        "DE-DE": "Kohlsamen",
-        "FR-FR": "Graines de chou",
-        "RU-RU": "Семена капусты",
-        "PL-PL": "Nasiona Kapusty",
-        "ES-ES": "Semillas de col",
-        "PT-BR": "Sementes de Repolho",
-        "IT-IT": "Semi di cavolo",
-        "ZH-CN": "白菜种子",
-        "KO-KR": "양배추 씨앗",
-        "JA-JP": "キャベツの種子",
-        "ZH-TW": "高麗菜種子",
-        "ID-ID": "Benih Kubis",
-        "TR-TR": "Lahana Tohumları",
-        "AR-SA": "بذور الملفوف"
+      "localized": {
+        "name_en": "Wheat Seeds",
+        "name_ar": "بذور القمح",
+        "name_de": "Weizensamen",
+        "name_fr": "Graines de blé",
+        "name_es": "Semillas de trigo",
+        "name_ru": "Зерна пшеницы"
       },
-      "localized_all_descriptions": {
-        "EN-US": "Cabbage Seeds are used to plant a patch of Cabbages.",
-        "DE-DE": "Kohlsamen dienen dazu, ein Kohlbeet zu pflanzen.",
-        "FR-FR": "Les graines de chou font pousser des carrés de choux",
-        "RU-RU": "Засейте семенами поле и вырастите капусту.",
-        "PL-PL": "Nasiona kapusty są używane do sadzenia kapusty.",
-        "ES-ES": "Con semillas de col se plantan terrenos de col",
-        "PT-BR": "Sementes de Repolho são usadas para plantar canteiros de Repolhos",
-        "IT-IT": "Con i semi di cavolo puoi piantare un appezzamento di cavoli.",
-        "ZH-CN": "白菜种子用于种植白菜。",
-        "KO-KR": "양배추 씨앗은 양배추 밭을 재배하는 데 사용됩니다.",
-        "JA-JP": "キャベツの種子はキャベツ畑に植えることができます。",
-        "ZH-TW": "高麗菜種子可用來種植一片高麗菜田。",
-        "ID-ID": "Benih Kubis digunakan untuk menanam sepetak Kubis.",
-        "TR-TR": "Lahana Tohumları, Lahana yetiştirmek için kullanılır.",
-        "AR-SA": "تُستخدم بذور الملفوف لزراعة قطعة أرض من الملفوف."
-      },
-      "source": "ao-bin-dumps",
-      "localization_variables": {
-        "name_variable": "@ITEMS_T5_FARM_CABBAGE_SEED",
-        "description_variable": "@ITEMS_T5_FARM_CABBAGE_SEED_DESC"
-      },
-      "origin": "Farming/Farm/Farm_T5_FARM_CABBAGE_SEED.json",
       "raw": {
-        "@uniquename": "T5_FARM_CABBAGE_SEED",
-        "@tier": "5",
+        "@uniquename": "T3_FARM_WHEAT_SEED",
+        "@tier": "3",
         "@placefame": "0",
         "@pickupable": "false",
         "@destroyable": "true",
@@ -925,45 +412,84 @@
         "@shopcategory": "farming",
         "@shopsubcategory1": "farm",
         "@kind": "plant",
-        "@weight": "0.5",
+        "@weight": "0.2",
         "@unlockedtocraft": "true",
-        "@animationid": "planting",
+        "@animationid": "sow",
         "@activefarmfocuscost": "1000",
         "@activefarmmaxcycles": "1",
         "@activefarmactiondurationseconds": "1",
         "@activefarmcyclelengthseconds": "79200",
-        "@activefarmbonus": "0.4",
-        "@itemvalue": "2000",
+        "@activefarmbonus": "0.8",
+        "@itemvalue": "1000",
         "@shopsubcategory2": "seeds",
-        "@shopsubcategory3": "cabbage",
+        "@shopsubcategory3": "wheat",
         "craftingrequirements": {
-          "@silver": "10000",
+          "@silver": "5000",
           "@time": "0",
           "@swaptransaction": "true"
         },
         "AudioInfo": {
-          "@name": "FARMABLE_PLANTS_VEGETABLES"
+          "@name": "FARMABLE_PLANTS_CROP"
         },
         "harvest": {
           "@growtime": "79200",
-          "@lootlist": "T5_CABBAGE_LOOT",
+          "@lootlist": "T3_WHEAT_LOOT",
           "@lootchance": "1",
           "@fame": "100",
           "seed": {
-            "@chance": "0.8000",
+            "@chance": "0.6000",
             "@amount": "1"
           }
         }
-      },
-      "name_sources_ref": 0,
-      "description_sources_ref": 0
+      }
     },
     {
       "id": "T4_FARM_TURNIP_SEED",
       "index": "11",
+      "name_en": "Turnip Seeds",
+      "name_ar": "بذور اللفت",
+      "name_de": "Rübensamen",
+      "name_fr": "Graines de navet",
+      "name_es": "Semillas de rábano",
+      "name_ru": "Семена репы",
+      "descriptions": {
+        "description_en": "Turnip Seeds are used to plant a patch of Turnips.",
+        "description_ar": "تُستخدم بذور اللفت لزراعة قطعة أرض من اللفت.",
+        "description_de": "Rübensamen dienen dazu, ein Rübenbeet zu pflanzen.",
+        "description_fr": "Les graines de navet font pousser des carrés de navets",
+        "description_es": "Con semillas de rábano se plantan terrenos de rábano",
+        "description_ru": "Засейте семенами поле и вырастите репу."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T4_FARM_TURNIP_SEED",
+        "description_variable": "@ITEMS_T4_FARM_TURNIP_SEED_DESC"
+      },
       "category": "Farming_Farm",
       "slot": "2h",
       "two_handed": false,
+      "attributes": {
+        "uniquename": "T4_FARM_TURNIP_SEED",
+        "tier": "4",
+        "placefame": "0",
+        "pickupable": "false",
+        "destroyable": "true",
+        "unlockedtoplace": "false",
+        "maxstacksize": "999",
+        "shopcategory": "farming",
+        "shopsubcategory1": "farm",
+        "kind": "plant",
+        "weight": "0.3",
+        "unlockedtocraft": "true",
+        "animationid": "planting",
+        "activefarmfocuscost": "1000",
+        "activefarmmaxcycles": "1",
+        "activefarmactiondurationseconds": "1",
+        "activefarmcyclelengthseconds": "79200",
+        "activefarmbonus": "0.5333",
+        "itemvalue": "1500",
+        "shopsubcategory2": "seeds",
+        "shopsubcategory3": "turnip"
+      },
       "item_stats": {
         "itemvalue": "1500",
         "resourcevalue": null,
@@ -971,15 +497,6 @@
         "salvagevalueoverride": null,
         "estimatedmarketvalueoverride": null
       },
-      "crafting_requirements": null,
-      "is_artifact": false,
-      "artifact_details": null,
-      "integration_ids": {
-        "albion_online_data_project_id": "T4_FARM_TURNIP_SEED",
-        "item_database_index": "11"
-      },
-      "tier": 4,
-      "enchantment": 0,
       "localized_all_names": {
         "EN-US": "Turnip Seeds",
         "DE-DE": "Rübensamen",
@@ -1014,12 +531,23 @@
         "TR-TR": "Turp Tohumları, Turp yetiştirmek için kullanılır.",
         "AR-SA": "تُستخدم بذور اللفت لزراعة قطعة أرض من اللفت."
       },
-      "source": "ao-bin-dumps",
-      "localization_variables": {
-        "name_variable": "@ITEMS_T4_FARM_TURNIP_SEED",
-        "description_variable": "@ITEMS_T4_FARM_TURNIP_SEED_DESC"
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T4_FARM_TURNIP_SEED",
+        "item_database_index": "11"
       },
-      "origin": "Farming/Farm/Farm_T4_FARM_TURNIP_SEED.json",
+      "tier": 4,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Turnip Seeds",
+        "name_ar": "بذور اللفت",
+        "name_de": "Rübensamen",
+        "name_fr": "Graines de navet",
+        "name_es": "Semillas de rábano",
+        "name_ru": "Семена репы"
+      },
       "raw": {
         "@uniquename": "T4_FARM_TURNIP_SEED",
         "@tier": "4",
@@ -1060,176 +588,349 @@
             "@amount": "1"
           }
         }
-      },
-      "name_sources_ref": 0,
-      "description_sources_ref": 0
+      }
     },
     {
-      "id": "T6_POTATO",
-      "index": "129",
+      "id": "T5_FARM_CABBAGE_SEED",
+      "index": "12",
+      "name_en": "Cabbage Seeds",
+      "name_ar": "بذور الملفوف",
+      "name_de": "Kohlsamen",
+      "name_fr": "Graines de chou",
+      "name_es": "Semillas de col",
+      "name_ru": "Семена капусты",
+      "descriptions": {
+        "description_en": "Cabbage Seeds are used to plant a patch of Cabbages.",
+        "description_ar": "تُستخدم بذور الملفوف لزراعة قطعة أرض من الملفوف.",
+        "description_de": "Kohlsamen dienen dazu, ein Kohlbeet zu pflanzen.",
+        "description_fr": "Les graines de chou font pousser des carrés de choux",
+        "description_es": "Con semillas de col se plantan terrenos de col",
+        "description_ru": "Засейте семенами поле и вырастите капусту."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T5_FARM_CABBAGE_SEED",
+        "description_variable": "@ITEMS_T5_FARM_CABBAGE_SEED_DESC"
+      },
       "category": "Farming_Farm",
       "slot": "2h",
       "two_handed": false,
+      "attributes": {
+        "uniquename": "T5_FARM_CABBAGE_SEED",
+        "tier": "5",
+        "placefame": "0",
+        "pickupable": "false",
+        "destroyable": "true",
+        "unlockedtoplace": "false",
+        "maxstacksize": "999",
+        "shopcategory": "farming",
+        "shopsubcategory1": "farm",
+        "kind": "plant",
+        "weight": "0.5",
+        "unlockedtocraft": "true",
+        "animationid": "planting",
+        "activefarmfocuscost": "1000",
+        "activefarmmaxcycles": "1",
+        "activefarmactiondurationseconds": "1",
+        "activefarmcyclelengthseconds": "79200",
+        "activefarmbonus": "0.4",
+        "itemvalue": "2000",
+        "shopsubcategory2": "seeds",
+        "shopsubcategory3": "cabbage"
+      },
       "item_stats": {
-        "itemvalue": "40",
+        "itemvalue": "2000",
         "resourcevalue": null,
-        "famevalue": "20",
+        "famevalue": null,
         "salvagevalueoverride": null,
         "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Cabbage Seeds",
+        "DE-DE": "Kohlsamen",
+        "FR-FR": "Graines de chou",
+        "RU-RU": "Семена капусты",
+        "PL-PL": "Nasiona Kapusty",
+        "ES-ES": "Semillas de col",
+        "PT-BR": "Sementes de Repolho",
+        "IT-IT": "Semi di cavolo",
+        "ZH-CN": "白菜种子",
+        "KO-KR": "양배추 씨앗",
+        "JA-JP": "キャベツの種子",
+        "ZH-TW": "高麗菜種子",
+        "ID-ID": "Benih Kubis",
+        "TR-TR": "Lahana Tohumları",
+        "AR-SA": "بذور الملفوف"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Cabbage Seeds are used to plant a patch of Cabbages.",
+        "DE-DE": "Kohlsamen dienen dazu, ein Kohlbeet zu pflanzen.",
+        "FR-FR": "Les graines de chou font pousser des carrés de choux",
+        "RU-RU": "Засейте семенами поле и вырастите капусту.",
+        "PL-PL": "Nasiona kapusty są używane do sadzenia kapusty.",
+        "ES-ES": "Con semillas de col se plantan terrenos de col",
+        "PT-BR": "Sementes de Repolho são usadas para plantar canteiros de Repolhos",
+        "IT-IT": "Con i semi di cavolo puoi piantare un appezzamento di cavoli.",
+        "ZH-CN": "白菜种子用于种植白菜。",
+        "KO-KR": "양배추 씨앗은 양배추 밭을 재배하는 데 사용됩니다.",
+        "JA-JP": "キャベツの種子はキャベツ畑に植えることができます。",
+        "ZH-TW": "高麗菜種子可用來種植一片高麗菜田。",
+        "ID-ID": "Benih Kubis digunakan untuk menanam sepetak Kubis.",
+        "TR-TR": "Lahana Tohumları, Lahana yetiştirmek için kullanılır.",
+        "AR-SA": "تُستخدم بذور الملفوف لزراعة قطعة أرض من الملفوف."
       },
       "crafting_requirements": null,
       "is_artifact": false,
       "artifact_details": null,
       "integration_ids": {
-        "albion_online_data_project_id": "T6_POTATO",
-        "item_database_index": "129"
+        "albion_online_data_project_id": "T5_FARM_CABBAGE_SEED",
+        "item_database_index": "12"
+      },
+      "tier": 5,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Cabbage Seeds",
+        "name_ar": "بذور الملفوف",
+        "name_de": "Kohlsamen",
+        "name_fr": "Graines de chou",
+        "name_es": "Semillas de col",
+        "name_ru": "Семена капусты"
+      },
+      "raw": {
+        "@uniquename": "T5_FARM_CABBAGE_SEED",
+        "@tier": "5",
+        "@placefame": "0",
+        "@pickupable": "false",
+        "@destroyable": "true",
+        "@unlockedtoplace": "false",
+        "@maxstacksize": "999",
+        "@shopcategory": "farming",
+        "@shopsubcategory1": "farm",
+        "@kind": "plant",
+        "@weight": "0.5",
+        "@unlockedtocraft": "true",
+        "@animationid": "planting",
+        "@activefarmfocuscost": "1000",
+        "@activefarmmaxcycles": "1",
+        "@activefarmactiondurationseconds": "1",
+        "@activefarmcyclelengthseconds": "79200",
+        "@activefarmbonus": "0.4",
+        "@itemvalue": "2000",
+        "@shopsubcategory2": "seeds",
+        "@shopsubcategory3": "cabbage",
+        "craftingrequirements": {
+          "@silver": "10000",
+          "@time": "0",
+          "@swaptransaction": "true"
+        },
+        "AudioInfo": {
+          "@name": "FARMABLE_PLANTS_VEGETABLES"
+        },
+        "harvest": {
+          "@growtime": "79200",
+          "@lootlist": "T5_CABBAGE_LOOT",
+          "@lootchance": "1",
+          "@fame": "100",
+          "seed": {
+            "@chance": "0.8000",
+            "@amount": "1"
+          }
+        }
+      }
+    },
+    {
+      "id": "T6_FARM_POTATO_SEED",
+      "index": "13",
+      "name_en": "Potato Seeds",
+      "name_ar": "بذور البطاطس",
+      "name_de": "Kartoffelsamen",
+      "name_fr": "Graines de patate",
+      "name_es": "Semillas de patata",
+      "name_ru": "Клубни картофеля",
+      "descriptions": {
+        "description_en": "Potato Seeds are used to plant a patch of Potatoes",
+        "description_ar": "تُستخدم بذور البطاطس لزراعة قطعة أرض من البطاطس",
+        "description_de": "Kartoffelsamen dienen dazu, ein Kartoffelbeet zu pflanzen.",
+        "description_fr": "Les graines de patate font pousser des carrés de patates",
+        "description_es": "Con semillas de patata se plantan terrenos de patata",
+        "description_ru": "Посадите клубни на поле и вырастите картофель."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T6_FARM_POTATO_SEED",
+        "description_variable": "@ITEMS_T6_FARM_POTATO_SEED_DESC"
+      },
+      "category": "Farming_Farm",
+      "slot": "2h",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T6_FARM_POTATO_SEED",
+        "tier": "6",
+        "placefame": "0",
+        "pickupable": "false",
+        "destroyable": "true",
+        "unlockedtoplace": "false",
+        "maxstacksize": "999",
+        "shopcategory": "farming",
+        "shopsubcategory1": "farm",
+        "kind": "plant",
+        "weight": "0.8",
+        "unlockedtocraft": "true",
+        "animationid": "planting",
+        "activefarmfocuscost": "1000",
+        "activefarmmaxcycles": "1",
+        "activefarmactiondurationseconds": "1",
+        "activefarmcyclelengthseconds": "79200",
+        "activefarmbonus": "0.2667",
+        "itemvalue": "3000",
+        "shopsubcategory2": "seeds",
+        "shopsubcategory3": "potato"
+      },
+      "item_stats": {
+        "itemvalue": "3000",
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Potato Seeds",
+        "DE-DE": "Kartoffelsamen",
+        "FR-FR": "Graines de patate",
+        "RU-RU": "Клубни картофеля",
+        "PL-PL": "Nasiona Ziemniaków",
+        "ES-ES": "Semillas de patata",
+        "PT-BR": "Sementes de Batata",
+        "IT-IT": "Semi di patata",
+        "ZH-CN": "土豆种子",
+        "KO-KR": "감자 씨앗",
+        "JA-JP": "じゃがいもの種子",
+        "ZH-TW": "馬鈴薯種子",
+        "ID-ID": "Benih Kentang",
+        "TR-TR": "Patates Tohumları",
+        "AR-SA": "بذور البطاطس"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Potato Seeds are used to plant a patch of Potatoes",
+        "DE-DE": "Kartoffelsamen dienen dazu, ein Kartoffelbeet zu pflanzen.",
+        "FR-FR": "Les graines de patate font pousser des carrés de patates",
+        "RU-RU": "Посадите клубни на поле и вырастите картофель.",
+        "PL-PL": "Nasiona ziemniaków są używane do sadzenia ziemniaków",
+        "ES-ES": "Con semillas de patata se plantan terrenos de patata",
+        "PT-BR": "Sementes de Batata são usadas para plantar canteiros de Batata",
+        "IT-IT": "Con i semi di patata puoi piantare un appezzamento di patate.",
+        "ZH-CN": "土豆种子用于种植土豆。",
+        "KO-KR": "감자 씨앗은 감자 밭을 재배하는 데 사용됩니다.",
+        "JA-JP": "じゃがいもの種子はじゃがいも畑に植えることができます。",
+        "ZH-TW": "馬鈴薯種子可用來種植一片馬鈴薯田",
+        "ID-ID": "Benih Kentang digunakan untuk menanam sepetak Kentang.",
+        "TR-TR": "Patates Tohumları, Patates yetiştirmek için kullanılır.",
+        "AR-SA": "تُستخدم بذور البطاطس لزراعة قطعة أرض من البطاطس"
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T6_FARM_POTATO_SEED",
+        "item_database_index": "13"
       },
       "tier": 6,
       "enchantment": 0,
-      "localized_all_names": {
-        "EN-US": "Potatoes",
-        "DE-DE": "Kartoffeln",
-        "FR-FR": "Patates",
-        "RU-RU": "Картофель",
-        "PL-PL": "Ziemniaki",
-        "ES-ES": "Patatas",
-        "PT-BR": "Batatas",
-        "IT-IT": "Patate",
-        "ZH-CN": "土豆",
-        "KO-KR": "감자",
-        "JA-JP": "じゃがいも",
-        "ZH-TW": "馬鈴薯",
-        "ID-ID": "Kentang",
-        "TR-TR": "Patates",
-        "AR-SA": "بطاطس"
+      "localized": {
+        "name_en": "Potato Seeds",
+        "name_ar": "بذور البطاطس",
+        "name_de": "Kartoffelsamen",
+        "name_fr": "Graines de patate",
+        "name_es": "Semillas de patata",
+        "name_ru": "Клубни картофеля"
       },
-      "localized_all_descriptions": {
-        "EN-US": "Potatoes are used in a variety of meals",
-        "DE-DE": "Viele Gerichte verwenden Kartoffeln.",
-        "FR-FR": "Les patates servent à faire à manger",
-        "RU-RU": "Из картофеля готовят различную еду.",
-        "PL-PL": "Ziemniaki są używane w wielu potrawach",
-        "ES-ES": "Las patatas se usan en varias comidas",
-        "PT-BR": "Batatas são ingredientes de várias comidas",
-        "IT-IT": "Le patate sono un ingrediente per varie pietanze.",
-        "ZH-CN": "土豆可以用于多种餐食。",
-        "KO-KR": "감자는 다양한 식사에 사용됩니다.",
-        "JA-JP": "じゃがいもは様々な料理で使われています。",
-        "ZH-TW": "馬鈴薯可作為多種料理的食材",
-        "ID-ID": "Kentang digunakan dalam berbagai makanan.",
-        "TR-TR": "Patatesler, çeşitli yemeklerin yapımında kullanılır.",
-        "AR-SA": "تُستخدم البطاطس في وجبات متنوعة"
-      },
-      "source": "ao-bin-dumps",
-      "localization_variables": {
-        "name_variable": "@ITEMS_T6_POTATO",
-        "description_variable": "@ITEMS_T6_POTATO_DESC"
-      },
-      "origin": "Farming/Farm/Farm_T6_POTATO.json",
       "raw": {
-        "@uniquename": "T6_POTATO",
-        "@nutrition": "48",
-        "@foodcategory": "plants",
-        "@shopcategory": "farming",
-        "@shopsubcategory1": "farm",
-        "@resourcetype": "CROP",
+        "@uniquename": "T6_FARM_POTATO_SEED",
         "@tier": "6",
-        "@weight": "0.6",
+        "@placefame": "0",
+        "@pickupable": "false",
+        "@destroyable": "true",
+        "@unlockedtoplace": "false",
         "@maxstacksize": "999",
-        "@itemvalue": "40",
-        "@famevalue": "20",
-        "@shopsubcategory2": "plants",
-        "@shopsubcategory3": "potato"
-      },
-      "name_sources_ref": 0,
-      "description_sources_ref": 0
-    },
-    {
-      "id": "T2_BEAN",
-      "index": "125",
-      "category": "Farming_Farm",
-      "slot": "2h",
-      "two_handed": false,
-      "item_stats": {
-        "itemvalue": "40",
-        "resourcevalue": null,
-        "famevalue": "20",
-        "salvagevalueoverride": null,
-        "estimatedmarketvalueoverride": null
-      },
-      "crafting_requirements": null,
-      "is_artifact": false,
-      "artifact_details": null,
-      "integration_ids": {
-        "albion_online_data_project_id": "T2_BEAN",
-        "item_database_index": "125"
-      },
-      "tier": 2,
-      "enchantment": 0,
-      "localized_all_names": {
-        "EN-US": "Beans",
-        "DE-DE": "Bohnen",
-        "FR-FR": "Haricots",
-        "RU-RU": "Бобы",
-        "PL-PL": "Fasola",
-        "ES-ES": "Frijoles",
-        "PT-BR": "Feijões",
-        "IT-IT": "Fagioli",
-        "ZH-CN": "豌豆",
-        "KO-KR": "콩류",
-        "JA-JP": "マメ",
-        "ZH-TW": "豆子",
-        "ID-ID": "Buncis",
-        "TR-TR": "Fasulyeler",
-        "AR-SA": "البقول"
-      },
-      "localized_all_descriptions": {
-        "EN-US": "Beans are used in a variety of meals.",
-        "DE-DE": "Viele Gerichte verwenden Bohnen.",
-        "FR-FR": "Les haricots servent à faire à manger",
-        "RU-RU": "Из бобов готовят различную еду.",
-        "PL-PL": "Fasola używana jest do wielu różnych potraw",
-        "ES-ES": "Los frijoles se usan en varias comidas",
-        "PT-BR": "Feijões são ingredientes de várias comidas",
-        "IT-IT": "I fagioli sono un ingrediente per varie pietanze.",
-        "ZH-CN": "豌豆可以用于多种餐食。",
-        "KO-KR": "콩은 다양한 식사에 사용됩니다.",
-        "JA-JP": "マメは様々な料理で使われています。",
-        "ZH-TW": "豆子可作為多種料理的食材。",
-        "ID-ID": "Buncis digunakan dalam berbagai makanan.",
-        "TR-TR": "Fasulyeler, çeşitli yemeklerin yapımında kullanılır.",
-        "AR-SA": "تُستخدم البقول في وجبات متنوعة."
-      },
-      "source": "ao-bin-dumps",
-      "localization_variables": {
-        "name_variable": "@ITEMS_T2_BEAN",
-        "description_variable": "@ITEMS_T2_BEAN_DESC"
-      },
-      "origin": "Farming/Farm/Farm_T2_BEAN.json",
-      "raw": {
-        "@uniquename": "T2_BEAN",
-        "@nutrition": "48",
-        "@foodcategory": "plants",
         "@shopcategory": "farming",
         "@shopsubcategory1": "farm",
-        "@resourcetype": "CROP",
-        "@tier": "2",
-        "@weight": "0.6",
-        "@maxstacksize": "999",
-        "@itemvalue": "40",
-        "@famevalue": "20",
-        "@shopsubcategory2": "plants",
-        "@shopsubcategory3": "bean"
-      },
-      "name_sources_ref": 0,
-      "description_sources_ref": 0
+        "@kind": "plant",
+        "@weight": "0.8",
+        "@unlockedtocraft": "true",
+        "@animationid": "planting",
+        "@activefarmfocuscost": "1000",
+        "@activefarmmaxcycles": "1",
+        "@activefarmactiondurationseconds": "1",
+        "@activefarmcyclelengthseconds": "79200",
+        "@activefarmbonus": "0.2667",
+        "@itemvalue": "3000",
+        "@shopsubcategory2": "seeds",
+        "@shopsubcategory3": "potato",
+        "craftingrequirements": {
+          "@silver": "15000",
+          "@time": "0",
+          "@swaptransaction": "true"
+        },
+        "AudioInfo": {
+          "@name": "FARMABLE_PLANTS_VEGETABLES"
+        },
+        "harvest": {
+          "@growtime": "79200",
+          "@lootlist": "T6_POTATO_LOOT",
+          "@lootchance": "1",
+          "@fame": "100",
+          "seed": {
+            "@chance": "0.8667",
+            "@amount": "1"
+          }
+        }
+      }
     },
     {
       "id": "T7_FARM_CORN_SEED",
       "index": "14",
+      "name_en": "Corn Seeds",
+      "name_ar": "بذور ذرة",
+      "name_de": "Maissamen",
+      "name_fr": "Graines de maïs",
+      "name_es": "Semillas de maíz",
+      "name_ru": "Семена кукурузы",
+      "descriptions": {
+        "description_en": "Corn Seeds are used to plant a patch of Corn",
+        "description_ar": "تُستخدم بذور الذرة لزراعة قطعة أرض من الذرة",
+        "description_de": "Maissamen dienen dazu, ein Maisbeet zu pflanzen.",
+        "description_fr": "Les graines de maïs font pousser des carrés de maïs",
+        "description_es": "Con semillas de maíz se plantan terrenos de maíz",
+        "description_ru": "Засейте семенами поле и вырастите кукурузу."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T7_FARM_CORN_SEED",
+        "description_variable": "@ITEMS_T7_FARM_CORN_SEED_DESC"
+      },
       "category": "Farming_Farm",
       "slot": "2h",
       "two_handed": false,
+      "attributes": {
+        "uniquename": "T7_FARM_CORN_SEED",
+        "tier": "7",
+        "placefame": "0",
+        "pickupable": "false",
+        "destroyable": "true",
+        "unlockedtoplace": "false",
+        "maxstacksize": "999",
+        "shopcategory": "farming",
+        "shopsubcategory1": "farm",
+        "kind": "plant",
+        "weight": "1.1",
+        "unlockedtocraft": "true",
+        "animationid": "sow",
+        "activefarmfocuscost": "1000",
+        "activefarmmaxcycles": "1",
+        "activefarmactiondurationseconds": "1",
+        "activefarmcyclelengthseconds": "79200",
+        "activefarmbonus": "0.1778",
+        "itemvalue": "4500",
+        "shopsubcategory2": "seeds",
+        "shopsubcategory3": "corn"
+      },
       "item_stats": {
         "itemvalue": "4500",
         "resourcevalue": null,
@@ -1237,15 +938,6 @@
         "salvagevalueoverride": null,
         "estimatedmarketvalueoverride": null
       },
-      "crafting_requirements": null,
-      "is_artifact": false,
-      "artifact_details": null,
-      "integration_ids": {
-        "albion_online_data_project_id": "T7_FARM_CORN_SEED",
-        "item_database_index": "14"
-      },
-      "tier": 7,
-      "enchantment": 0,
       "localized_all_names": {
         "EN-US": "Corn Seeds",
         "DE-DE": "Maissamen",
@@ -1280,12 +972,23 @@
         "TR-TR": "Mısır Tohumları, Mısır yetiştirmek için kullanılır.",
         "AR-SA": "تُستخدم بذور الذرة لزراعة قطعة أرض من الذرة"
       },
-      "source": "ao-bin-dumps",
-      "localization_variables": {
-        "name_variable": "@ITEMS_T7_FARM_CORN_SEED",
-        "description_variable": "@ITEMS_T7_FARM_CORN_SEED_DESC"
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T7_FARM_CORN_SEED",
+        "item_database_index": "14"
       },
-      "origin": "Farming/Farm/Farm_T7_FARM_CORN_SEED.json",
+      "tier": 7,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Corn Seeds",
+        "name_ar": "بذور ذرة",
+        "name_de": "Maissamen",
+        "name_fr": "Graines de maïs",
+        "name_es": "Semillas de maíz",
+        "name_ru": "Семена кукурузы"
+      },
       "raw": {
         "@uniquename": "T7_FARM_CORN_SEED",
         "@tier": "7",
@@ -1326,16 +1029,194 @@
             "@amount": "1"
           }
         }
+      }
+    },
+    {
+      "id": "T8_FARM_PUMPKIN_SEED",
+      "index": "15",
+      "name_en": "Pumpkin Seeds",
+      "name_ar": "بذور اليقطين",
+      "name_de": "Kürbissamen",
+      "name_fr": "Graines de citrouille",
+      "name_es": "Semillas de calabaza",
+      "name_ru": "Семена тыквы",
+      "descriptions": {
+        "description_en": "Pumpkin Seeds are used to plant a patch of Pumpkins",
+        "description_ar": "تُستخدم بذور اليقطين لزراعة قطعة أرض من اليقطين",
+        "description_de": "Kürbissamen dienen dazu, ein Kürbisbeet zu pflanzen.",
+        "description_fr": "Les graines de citrouille font pousser des carrés de citrouilles",
+        "description_es": "Con semillas de calabaza se plantan terrenos de calabaza",
+        "description_ru": "Засейте семенами поле и вырастите тыквы."
       },
-      "name_sources_ref": 0,
-      "description_sources_ref": 0
+      "localization_variables": {
+        "name_variable": "@ITEMS_T8_FARM_PUMPKIN_SEED",
+        "description_variable": "@ITEMS_T8_FARM_PUMPKIN_SEED_DESC"
+      },
+      "category": "Farming_Farm",
+      "slot": "2h",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T8_FARM_PUMPKIN_SEED",
+        "tier": "8",
+        "placefame": "0",
+        "pickupable": "false",
+        "destroyable": "true",
+        "unlockedtoplace": "false",
+        "maxstacksize": "999",
+        "shopcategory": "farming",
+        "shopsubcategory1": "farm",
+        "kind": "plant",
+        "weight": "1.7",
+        "unlockedtocraft": "true",
+        "animationid": "sow",
+        "activefarmfocuscost": "1000",
+        "activefarmmaxcycles": "1",
+        "activefarmactiondurationseconds": "1",
+        "activefarmcyclelengthseconds": "79200",
+        "activefarmbonus": "0.1333",
+        "itemvalue": "6000",
+        "shopsubcategory2": "seeds",
+        "shopsubcategory3": "pumpkin"
+      },
+      "item_stats": {
+        "itemvalue": "6000",
+        "resourcevalue": null,
+        "famevalue": null,
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Pumpkin Seeds",
+        "DE-DE": "Kürbissamen",
+        "FR-FR": "Graines de citrouille",
+        "RU-RU": "Семена тыквы",
+        "PL-PL": "Nasiona dyni",
+        "ES-ES": "Semillas de calabaza",
+        "PT-BR": "Sementes de Abóbora",
+        "IT-IT": "Semi di zucca",
+        "ZH-CN": "南瓜种子",
+        "KO-KR": "호박 씨앗",
+        "JA-JP": "カボチャの種子",
+        "ZH-TW": "南瓜種子",
+        "ID-ID": "Benih Labu",
+        "TR-TR": "Bal Kabağı Tohumları",
+        "AR-SA": "بذور اليقطين"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Pumpkin Seeds are used to plant a patch of Pumpkins",
+        "DE-DE": "Kürbissamen dienen dazu, ein Kürbisbeet zu pflanzen.",
+        "FR-FR": "Les graines de citrouille font pousser des carrés de citrouilles",
+        "RU-RU": "Засейте семенами поле и вырастите тыквы.",
+        "PL-PL": "Nasiona dyni są używane do sadzenia dyni",
+        "ES-ES": "Con semillas de calabaza se plantan terrenos de calabaza",
+        "PT-BR": "Sementes de Abóbora são usadas para plantar canteiros de Abóbora",
+        "IT-IT": "Con i semi di zucca puoi piantare un appezzamento di zucche.",
+        "ZH-CN": "南瓜种子用于种植南瓜。",
+        "KO-KR": "호박 씨앗은 호박 밭을 재배하는 데 사용됩니다.",
+        "JA-JP": "カボチャの種子はカボチャ畑に植えることができます。",
+        "ZH-TW": "南瓜種子可用來種植一片南瓜田",
+        "ID-ID": "Benih Labu digunakan untuk menanam sepetak Labu",
+        "TR-TR": "Bal Kabağı Tohumları, Bal Kabakları yetiştirmek için kullanılır.",
+        "AR-SA": "تُستخدم بذور اليقطين لزراعة قطعة أرض من اليقطين"
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T8_FARM_PUMPKIN_SEED",
+        "item_database_index": "15"
+      },
+      "tier": 8,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Pumpkin Seeds",
+        "name_ar": "بذور اليقطين",
+        "name_de": "Kürbissamen",
+        "name_fr": "Graines de citrouille",
+        "name_es": "Semillas de calabaza",
+        "name_ru": "Семена тыквы"
+      },
+      "raw": {
+        "@uniquename": "T8_FARM_PUMPKIN_SEED",
+        "@tier": "8",
+        "@placefame": "0",
+        "@pickupable": "false",
+        "@destroyable": "true",
+        "@unlockedtoplace": "false",
+        "@maxstacksize": "999",
+        "@shopcategory": "farming",
+        "@shopsubcategory1": "farm",
+        "@kind": "plant",
+        "@weight": "1.7",
+        "@unlockedtocraft": "true",
+        "@animationid": "sow",
+        "@activefarmfocuscost": "1000",
+        "@activefarmmaxcycles": "1",
+        "@activefarmactiondurationseconds": "1",
+        "@activefarmcyclelengthseconds": "79200",
+        "@activefarmbonus": "0.1333",
+        "@itemvalue": "6000",
+        "@shopsubcategory2": "seeds",
+        "@shopsubcategory3": "pumpkin",
+        "craftingrequirements": {
+          "@silver": "30000",
+          "@time": "0",
+          "@swaptransaction": "true"
+        },
+        "AudioInfo": {
+          "@name": "FARMABLE_PLANTS_CROP"
+        },
+        "harvest": {
+          "@growtime": "79200",
+          "@lootlist": "T8_PUMPKIN_LOOT",
+          "@lootchance": "1",
+          "@fame": "100",
+          "seed": {
+            "@chance": "0.9333",
+            "@amount": "1"
+          }
+        }
+      }
     },
     {
       "id": "T1_CARROT",
       "index": "124",
+      "name_en": "Carrots",
+      "name_ar": "الجزر",
+      "name_de": "Möhren",
+      "name_fr": "Carottes",
+      "name_es": "Zanahorias",
+      "name_ru": "Морковь",
+      "descriptions": {
+        "description_en": "Carrots are used in a variety of meals.",
+        "description_ar": "يُستخدم الجزر في وجبات متنوعة.",
+        "description_de": "Viele Gerichte verwenden Möhren.",
+        "description_fr": "Les carottes servent à faire à manger",
+        "description_es": "Las zanahorias se usan en varias comidas",
+        "description_ru": "Из моркови готовят различную еду."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T1_CARROT",
+        "description_variable": "@ITEMS_T1_CARROT_DESC"
+      },
       "category": "Farming_Farm",
       "slot": "2h",
       "two_handed": false,
+      "attributes": {
+        "uniquename": "T1_CARROT",
+        "nutrition": "48",
+        "foodcategory": "plants",
+        "shopcategory": "farming",
+        "shopsubcategory1": "farm",
+        "resourcetype": "CROP",
+        "tier": "1",
+        "weight": "0.6",
+        "maxstacksize": "999",
+        "itemvalue": "40",
+        "famevalue": "20",
+        "shopsubcategory2": "plants",
+        "shopsubcategory3": "carrot"
+      },
       "item_stats": {
         "itemvalue": "40",
         "resourcevalue": null,
@@ -1343,15 +1224,6 @@
         "salvagevalueoverride": null,
         "estimatedmarketvalueoverride": null
       },
-      "crafting_requirements": null,
-      "is_artifact": false,
-      "artifact_details": null,
-      "integration_ids": {
-        "albion_online_data_project_id": "T1_CARROT",
-        "item_database_index": "124"
-      },
-      "tier": 1,
-      "enchantment": 0,
       "localized_all_names": {
         "EN-US": "Carrots",
         "DE-DE": "Möhren",
@@ -1386,12 +1258,23 @@
         "TR-TR": "Havuçlar, çeşitli yemeklerin yapımında kullanılır.",
         "AR-SA": "يُستخدم الجزر في وجبات متنوعة."
       },
-      "source": "ao-bin-dumps",
-      "localization_variables": {
-        "name_variable": "@ITEMS_T1_CARROT",
-        "description_variable": "@ITEMS_T1_CARROT_DESC"
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T1_CARROT",
+        "item_database_index": "124"
       },
-      "origin": "Farming/Farm/Farm_T1_CARROT.json",
+      "tier": 1,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Carrots",
+        "name_ar": "الجزر",
+        "name_de": "Möhren",
+        "name_fr": "Carottes",
+        "name_es": "Zanahorias",
+        "name_ru": "Морковь"
+      },
       "raw": {
         "@uniquename": "T1_CARROT",
         "@nutrition": "48",
@@ -1406,16 +1289,47 @@
         "@famevalue": "20",
         "@shopsubcategory2": "plants",
         "@shopsubcategory3": "carrot"
-      },
-      "name_sources_ref": 0,
-      "description_sources_ref": 0
+      }
     },
     {
-      "id": "T3_WHEAT",
-      "index": "126",
+      "id": "T2_BEAN",
+      "index": "125",
+      "name_en": "Beans",
+      "name_ar": "البقول",
+      "name_de": "Bohnen",
+      "name_fr": "Haricots",
+      "name_es": "Frijoles",
+      "name_ru": "Бобы",
+      "descriptions": {
+        "description_en": "Beans are used in a variety of meals.",
+        "description_ar": "تُستخدم البقول في وجبات متنوعة.",
+        "description_de": "Viele Gerichte verwenden Bohnen.",
+        "description_fr": "Les haricots servent à faire à manger",
+        "description_es": "Los frijoles se usan en varias comidas",
+        "description_ru": "Из бобов готовят различную еду."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T2_BEAN",
+        "description_variable": "@ITEMS_T2_BEAN_DESC"
+      },
       "category": "Farming_Farm",
       "slot": "2h",
       "two_handed": false,
+      "attributes": {
+        "uniquename": "T2_BEAN",
+        "nutrition": "48",
+        "foodcategory": "plants",
+        "shopcategory": "farming",
+        "shopsubcategory1": "farm",
+        "resourcetype": "CROP",
+        "tier": "2",
+        "weight": "0.6",
+        "maxstacksize": "999",
+        "itemvalue": "40",
+        "famevalue": "20",
+        "shopsubcategory2": "plants",
+        "shopsubcategory3": "bean"
+      },
       "item_stats": {
         "itemvalue": "40",
         "resourcevalue": null,
@@ -1423,15 +1337,119 @@
         "salvagevalueoverride": null,
         "estimatedmarketvalueoverride": null
       },
+      "localized_all_names": {
+        "EN-US": "Beans",
+        "DE-DE": "Bohnen",
+        "FR-FR": "Haricots",
+        "RU-RU": "Бобы",
+        "PL-PL": "Fasola",
+        "ES-ES": "Frijoles",
+        "PT-BR": "Feijões",
+        "IT-IT": "Fagioli",
+        "ZH-CN": "豌豆",
+        "KO-KR": "콩류",
+        "JA-JP": "マメ",
+        "ZH-TW": "豆子",
+        "ID-ID": "Buncis",
+        "TR-TR": "Fasulyeler",
+        "AR-SA": "البقول"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Beans are used in a variety of meals.",
+        "DE-DE": "Viele Gerichte verwenden Bohnen.",
+        "FR-FR": "Les haricots servent à faire à manger",
+        "RU-RU": "Из бобов готовят различную еду.",
+        "PL-PL": "Fasola używana jest do wielu różnych potraw",
+        "ES-ES": "Los frijoles se usan en varias comidas",
+        "PT-BR": "Feijões são ingredientes de várias comidas",
+        "IT-IT": "I fagioli sono un ingrediente per varie pietanze.",
+        "ZH-CN": "豌豆可以用于多种餐食。",
+        "KO-KR": "콩은 다양한 식사에 사용됩니다.",
+        "JA-JP": "マメは様々な料理で使われています。",
+        "ZH-TW": "豆子可作為多種料理的食材。",
+        "ID-ID": "Buncis digunakan dalam berbagai makanan.",
+        "TR-TR": "Fasulyeler, çeşitli yemeklerin yapımında kullanılır.",
+        "AR-SA": "تُستخدم البقول في وجبات متنوعة."
+      },
       "crafting_requirements": null,
       "is_artifact": false,
       "artifact_details": null,
       "integration_ids": {
-        "albion_online_data_project_id": "T3_WHEAT",
-        "item_database_index": "126"
+        "albion_online_data_project_id": "T2_BEAN",
+        "item_database_index": "125"
       },
-      "tier": 3,
+      "tier": 2,
       "enchantment": 0,
+      "localized": {
+        "name_en": "Beans",
+        "name_ar": "البقول",
+        "name_de": "Bohnen",
+        "name_fr": "Haricots",
+        "name_es": "Frijoles",
+        "name_ru": "Бобы"
+      },
+      "raw": {
+        "@uniquename": "T2_BEAN",
+        "@nutrition": "48",
+        "@foodcategory": "plants",
+        "@shopcategory": "farming",
+        "@shopsubcategory1": "farm",
+        "@resourcetype": "CROP",
+        "@tier": "2",
+        "@weight": "0.6",
+        "@maxstacksize": "999",
+        "@itemvalue": "40",
+        "@famevalue": "20",
+        "@shopsubcategory2": "plants",
+        "@shopsubcategory3": "bean"
+      }
+    },
+    {
+      "id": "T3_WHEAT",
+      "index": "126",
+      "name_en": "Sheaf of Wheat",
+      "name_ar": "حزمة قمح",
+      "name_de": "Weizenbündel",
+      "name_fr": "Gerbe de blé",
+      "name_es": "Manojo de trigo",
+      "name_ru": "Сноп пшеницы",
+      "descriptions": {
+        "description_en": "You can grind Wheat into Flour at a Mill, or use it to create meals.",
+        "description_ar": "يمكنك طحن القمح إلى دقيق في الطاحونة، أو استخدامه لصناعة الوجبات.",
+        "description_de": "Du kannst in der Mühle Weizen zu Mehl mahlen oder damit Gerichte erstellen.",
+        "description_fr": "Broyez le blé en farine au moulin ou utilisez-le pour cuisiner",
+        "description_es": "Puedes transformar el trigo en harina en un molino o usarlo para cocinar",
+        "description_ru": "Пшеницу можно использовать в блюдах или перемолоть в муку на мельнице."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T3_WHEAT",
+        "description_variable": "@ITEMS_T3_WHEAT_DESC"
+      },
+      "category": "Farming_Farm",
+      "slot": "2h",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T3_WHEAT",
+        "nutrition": "48",
+        "foodcategory": "plants",
+        "shopcategory": "farming",
+        "shopsubcategory1": "farm",
+        "resourcetype": "CROP",
+        "tier": "3",
+        "weight": "0.6",
+        "maxstacksize": "999",
+        "itemvalue": "40",
+        "famevalue": "20",
+        "shopsubcategory2": "plants",
+        "shopsubcategory3": "wheat"
+      },
+      "item_stats": {
+        "itemvalue": "40",
+        "resourcevalue": null,
+        "famevalue": "20",
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
       "localized_all_names": {
         "EN-US": "Sheaf of Wheat",
         "DE-DE": "Weizenbündel",
@@ -1466,12 +1484,23 @@
         "TR-TR": "Un elde etmek için bir Değirmen kullanarak Buğdayları öğütebilirsin. Ayrıca doğrudan bir yemekte de kullanabilirsin.",
         "AR-SA": "يمكنك طحن القمح إلى دقيق في الطاحونة، أو استخدامه لصناعة الوجبات."
       },
-      "source": "ao-bin-dumps",
-      "localization_variables": {
-        "name_variable": "@ITEMS_T3_WHEAT",
-        "description_variable": "@ITEMS_T3_WHEAT_DESC"
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T3_WHEAT",
+        "item_database_index": "126"
       },
-      "origin": "Farming/Farm/Farm_T3_WHEAT.json",
+      "tier": 3,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Sheaf of Wheat",
+        "name_ar": "حزمة قمح",
+        "name_de": "Weizenbündel",
+        "name_fr": "Gerbe de blé",
+        "name_es": "Manojo de trigo",
+        "name_ru": "Сноп пшеницы"
+      },
       "raw": {
         "@uniquename": "T3_WHEAT",
         "@nutrition": "48",
@@ -1486,9 +1515,572 @@
         "@famevalue": "20",
         "@shopsubcategory2": "plants",
         "@shopsubcategory3": "wheat"
+      }
+    },
+    {
+      "id": "T4_TURNIP",
+      "index": "127",
+      "name_en": "Turnips",
+      "name_ar": "اللفت",
+      "name_de": "Rüben",
+      "name_fr": "Navets",
+      "name_es": "Rábanos",
+      "name_ru": "Репа",
+      "descriptions": {
+        "description_en": "Turnips are used in a variety of meals.",
+        "description_ar": "يُستخدم اللفت في وجبات متنوعة.",
+        "description_de": "Viele Gerichte verwenden Rüben.",
+        "description_fr": "Les navets servent à faire à manger",
+        "description_es": "Los rábanos se usan en varias comidas",
+        "description_ru": "Из репы готовят различную еду."
       },
-      "name_sources_ref": 0,
-      "description_sources_ref": 0
+      "localization_variables": {
+        "name_variable": "@ITEMS_T4_TURNIP",
+        "description_variable": "@ITEMS_T4_TURNIP_DESC"
+      },
+      "category": "Farming_Farm",
+      "slot": "2h",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T4_TURNIP",
+        "nutrition": "48",
+        "foodcategory": "plants",
+        "shopcategory": "farming",
+        "shopsubcategory1": "farm",
+        "resourcetype": "CROP",
+        "tier": "4",
+        "weight": "0.6",
+        "maxstacksize": "999",
+        "itemvalue": "40",
+        "famevalue": "20",
+        "shopsubcategory2": "plants",
+        "shopsubcategory3": "turnip"
+      },
+      "item_stats": {
+        "itemvalue": "40",
+        "resourcevalue": null,
+        "famevalue": "20",
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Turnips",
+        "DE-DE": "Rüben",
+        "FR-FR": "Navets",
+        "RU-RU": "Репа",
+        "PL-PL": "Rzepy",
+        "ES-ES": "Rábanos",
+        "PT-BR": "Nabos",
+        "IT-IT": "Rape",
+        "ZH-CN": "芜菁",
+        "KO-KR": "순무",
+        "JA-JP": "カブ",
+        "ZH-TW": "蕪菁",
+        "ID-ID": "Lobak",
+        "TR-TR": "Turplar",
+        "AR-SA": "اللفت"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Turnips are used in a variety of meals.",
+        "DE-DE": "Viele Gerichte verwenden Rüben.",
+        "FR-FR": "Les navets servent à faire à manger",
+        "RU-RU": "Из репы готовят различную еду.",
+        "PL-PL": "Rzepa używana jest do wielu różnych potraw",
+        "ES-ES": "Los rábanos se usan en varias comidas",
+        "PT-BR": "Nabos são ingredientes de várias comidas",
+        "IT-IT": "Le rape sono un ingrediente per varie pietanze.",
+        "ZH-CN": "芜菁可以用于多种餐食。",
+        "KO-KR": "순무는 다양한 식사에 사용됩니다.",
+        "JA-JP": "カブは様々な料理で使われています。",
+        "ZH-TW": "蕪菁可作為多種料理的食材。",
+        "ID-ID": "Lobak digunakan dalam berbagai makanan.",
+        "TR-TR": "Turplar, çeşitli yemeklerin yapımında kullanılır.",
+        "AR-SA": "يُستخدم اللفت في وجبات متنوعة."
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T4_TURNIP",
+        "item_database_index": "127"
+      },
+      "tier": 4,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Turnips",
+        "name_ar": "اللفت",
+        "name_de": "Rüben",
+        "name_fr": "Navets",
+        "name_es": "Rábanos",
+        "name_ru": "Репа"
+      },
+      "raw": {
+        "@uniquename": "T4_TURNIP",
+        "@nutrition": "48",
+        "@foodcategory": "plants",
+        "@shopcategory": "farming",
+        "@shopsubcategory1": "farm",
+        "@resourcetype": "CROP",
+        "@tier": "4",
+        "@weight": "0.6",
+        "@maxstacksize": "999",
+        "@itemvalue": "40",
+        "@famevalue": "20",
+        "@shopsubcategory2": "plants",
+        "@shopsubcategory3": "turnip"
+      }
+    },
+    {
+      "id": "T5_CABBAGE",
+      "index": "128",
+      "name_en": "Cabbage",
+      "name_ar": "الملفوف",
+      "name_de": "Kohl",
+      "name_fr": "Choux",
+      "name_es": "Coles",
+      "name_ru": "Капуста",
+      "descriptions": {
+        "description_en": "Cabbage is used in a variety of meals.",
+        "description_ar": "يُستخدم الملفوف في وجبات متنوعة.",
+        "description_de": "Viele Gerichte verwenden Kohl.",
+        "description_fr": "Les choux servent à faire à manger",
+        "description_es": "Las coles se usan en varias comidas",
+        "description_ru": "Из капусты готовят различную еду."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T5_CABBAGE",
+        "description_variable": "@ITEMS_T5_CABBAGE_DESC"
+      },
+      "category": "Farming_Farm",
+      "slot": "2h",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T5_CABBAGE",
+        "nutrition": "48",
+        "foodcategory": "plants",
+        "shopcategory": "farming",
+        "shopsubcategory1": "farm",
+        "resourcetype": "CROP",
+        "tier": "5",
+        "weight": "0.6",
+        "maxstacksize": "999",
+        "itemvalue": "40",
+        "famevalue": "20",
+        "shopsubcategory2": "plants",
+        "shopsubcategory3": "cabbage"
+      },
+      "item_stats": {
+        "itemvalue": "40",
+        "resourcevalue": null,
+        "famevalue": "20",
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Cabbage",
+        "DE-DE": "Kohl",
+        "FR-FR": "Choux",
+        "RU-RU": "Капуста",
+        "PL-PL": "Kapusta",
+        "ES-ES": "Coles",
+        "PT-BR": "Repolho",
+        "IT-IT": "Cavolo",
+        "ZH-CN": "白菜",
+        "KO-KR": "양배추",
+        "JA-JP": "キャベツ",
+        "ZH-TW": "高麗菜",
+        "ID-ID": "Kubis",
+        "TR-TR": "Lahana",
+        "AR-SA": "الملفوف"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Cabbage is used in a variety of meals.",
+        "DE-DE": "Viele Gerichte verwenden Kohl.",
+        "FR-FR": "Les choux servent à faire à manger",
+        "RU-RU": "Из капусты готовят различную еду.",
+        "PL-PL": "Z kapusty przyrządza się wiele różnych potraw",
+        "ES-ES": "Las coles se usan en varias comidas",
+        "PT-BR": "Repolhos são ingredientes de várias comidas",
+        "IT-IT": "Il cavolo è un ingrediente per varie pietanze.",
+        "ZH-CN": "白菜可以用于多种餐食。",
+        "KO-KR": "양배추는 다양한 식사에 사용됩니다.",
+        "JA-JP": "キャベツは様々な料理で使われています。",
+        "ZH-TW": "高麗菜可作為多種料理的食材。",
+        "ID-ID": "Kubis digunakan dalam berbagai makanan.",
+        "TR-TR": "Lahana, çeşitli yemeklerin yapımında kullanılır.",
+        "AR-SA": "يُستخدم الملفوف في وجبات متنوعة."
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T5_CABBAGE",
+        "item_database_index": "128"
+      },
+      "tier": 5,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Cabbage",
+        "name_ar": "الملفوف",
+        "name_de": "Kohl",
+        "name_fr": "Choux",
+        "name_es": "Coles",
+        "name_ru": "Капуста"
+      },
+      "raw": {
+        "@uniquename": "T5_CABBAGE",
+        "@nutrition": "48",
+        "@foodcategory": "plants",
+        "@shopcategory": "farming",
+        "@shopsubcategory1": "farm",
+        "@resourcetype": "CROP",
+        "@tier": "5",
+        "@weight": "0.6",
+        "@maxstacksize": "999",
+        "@itemvalue": "40",
+        "@famevalue": "20",
+        "@shopsubcategory2": "plants",
+        "@shopsubcategory3": "cabbage"
+      }
+    },
+    {
+      "id": "T6_POTATO",
+      "index": "129",
+      "name_en": "Potatoes",
+      "name_ar": "بطاطس",
+      "name_de": "Kartoffeln",
+      "name_fr": "Patates",
+      "name_es": "Patatas",
+      "name_ru": "Картофель",
+      "descriptions": {
+        "description_en": "Potatoes are used in a variety of meals",
+        "description_ar": "تُستخدم البطاطس في وجبات متنوعة",
+        "description_de": "Viele Gerichte verwenden Kartoffeln.",
+        "description_fr": "Les patates servent à faire à manger",
+        "description_es": "Las patatas se usan en varias comidas",
+        "description_ru": "Из картофеля готовят различную еду."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T6_POTATO",
+        "description_variable": "@ITEMS_T6_POTATO_DESC"
+      },
+      "category": "Farming_Farm",
+      "slot": "2h",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T6_POTATO",
+        "nutrition": "48",
+        "foodcategory": "plants",
+        "shopcategory": "farming",
+        "shopsubcategory1": "farm",
+        "resourcetype": "CROP",
+        "tier": "6",
+        "weight": "0.6",
+        "maxstacksize": "999",
+        "itemvalue": "40",
+        "famevalue": "20",
+        "shopsubcategory2": "plants",
+        "shopsubcategory3": "potato"
+      },
+      "item_stats": {
+        "itemvalue": "40",
+        "resourcevalue": null,
+        "famevalue": "20",
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Potatoes",
+        "DE-DE": "Kartoffeln",
+        "FR-FR": "Patates",
+        "RU-RU": "Картофель",
+        "PL-PL": "Ziemniaki",
+        "ES-ES": "Patatas",
+        "PT-BR": "Batatas",
+        "IT-IT": "Patate",
+        "ZH-CN": "土豆",
+        "KO-KR": "감자",
+        "JA-JP": "じゃがいも",
+        "ZH-TW": "馬鈴薯",
+        "ID-ID": "Kentang",
+        "TR-TR": "Patates",
+        "AR-SA": "بطاطس"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Potatoes are used in a variety of meals",
+        "DE-DE": "Viele Gerichte verwenden Kartoffeln.",
+        "FR-FR": "Les patates servent à faire à manger",
+        "RU-RU": "Из картофеля готовят различную еду.",
+        "PL-PL": "Ziemniaki są używane w wielu potrawach",
+        "ES-ES": "Las patatas se usan en varias comidas",
+        "PT-BR": "Batatas são ingredientes de várias comidas",
+        "IT-IT": "Le patate sono un ingrediente per varie pietanze.",
+        "ZH-CN": "土豆可以用于多种餐食。",
+        "KO-KR": "감자는 다양한 식사에 사용됩니다.",
+        "JA-JP": "じゃがいもは様々な料理で使われています。",
+        "ZH-TW": "馬鈴薯可作為多種料理的食材",
+        "ID-ID": "Kentang digunakan dalam berbagai makanan.",
+        "TR-TR": "Patatesler, çeşitli yemeklerin yapımında kullanılır.",
+        "AR-SA": "تُستخدم البطاطس في وجبات متنوعة"
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T6_POTATO",
+        "item_database_index": "129"
+      },
+      "tier": 6,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Potatoes",
+        "name_ar": "بطاطس",
+        "name_de": "Kartoffeln",
+        "name_fr": "Patates",
+        "name_es": "Patatas",
+        "name_ru": "Картофель"
+      },
+      "raw": {
+        "@uniquename": "T6_POTATO",
+        "@nutrition": "48",
+        "@foodcategory": "plants",
+        "@shopcategory": "farming",
+        "@shopsubcategory1": "farm",
+        "@resourcetype": "CROP",
+        "@tier": "6",
+        "@weight": "0.6",
+        "@maxstacksize": "999",
+        "@itemvalue": "40",
+        "@famevalue": "20",
+        "@shopsubcategory2": "plants",
+        "@shopsubcategory3": "potato"
+      }
+    },
+    {
+      "id": "T7_CORN",
+      "index": "130",
+      "name_en": "Bundle of Corn",
+      "name_ar": "حزمة ذرة",
+      "name_de": "Maisbündel",
+      "name_fr": "Gerbe de maïs",
+      "name_es": "Fardo de maíz",
+      "name_ru": "Кукурузные початки",
+      "descriptions": {
+        "description_en": "Corn is used in a variety of foods",
+        "description_ar": "تُستخدم الذرة في وجبات متنوعة",
+        "description_de": "Viele Gerichte verwenden Mais",
+        "description_fr": "Le maïs sert à faire à manger",
+        "description_es": "El maíz se usa en varias comidas",
+        "description_ru": "Из кукурузы готовят различную еду."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T7_CORN",
+        "description_variable": "@ITEMS_T7_CORN_DESC"
+      },
+      "category": "Farming_Farm",
+      "slot": "2h",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T7_CORN",
+        "nutrition": "48",
+        "foodcategory": "plants",
+        "shopcategory": "farming",
+        "shopsubcategory1": "farm",
+        "resourcetype": "CROP",
+        "tier": "7",
+        "weight": "0.6",
+        "maxstacksize": "999",
+        "itemvalue": "40",
+        "famevalue": "20",
+        "shopsubcategory2": "plants",
+        "shopsubcategory3": "corn"
+      },
+      "item_stats": {
+        "itemvalue": "40",
+        "resourcevalue": null,
+        "famevalue": "20",
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Bundle of Corn",
+        "DE-DE": "Maisbündel",
+        "FR-FR": "Gerbe de maïs",
+        "RU-RU": "Кукурузные початки",
+        "PL-PL": "Pęczek Kukurydzy",
+        "ES-ES": "Fardo de maíz",
+        "PT-BR": "Fardo de Milho",
+        "IT-IT": "Fascio di mais",
+        "ZH-CN": "玉米",
+        "KO-KR": "옥수수 꾸러미",
+        "JA-JP": "トウモロコシの束",
+        "ZH-TW": "玉米",
+        "ID-ID": "Bundel Jagung",
+        "TR-TR": "Mısır Yığını",
+        "AR-SA": "حزمة ذرة"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Corn is used in a variety of foods",
+        "DE-DE": "Viele Gerichte verwenden Mais",
+        "FR-FR": "Le maïs sert à faire à manger",
+        "RU-RU": "Из кукурузы готовят различную еду.",
+        "PL-PL": "Kukurydza jest używana w wielu daniach",
+        "ES-ES": "El maíz se usa en varias comidas",
+        "PT-BR": "O milho é ingrediente de várias comidas",
+        "IT-IT": "Il mais è un ingrediente per varie pietanze.",
+        "ZH-CN": "玉米可以用于多种餐食。",
+        "KO-KR": "옥수수는 다양한 음식에 사용됩니다",
+        "JA-JP": "トウモロコシは様々な料理で使われています。",
+        "ZH-TW": "玉米可作為多種食物的食材",
+        "ID-ID": "Jagung digunakan dalam berbagai makanan.",
+        "TR-TR": "Mısır, çeşitli yemeklerin yapımında kullanılır.",
+        "AR-SA": "تُستخدم الذرة في وجبات متنوعة"
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T7_CORN",
+        "item_database_index": "130"
+      },
+      "tier": 7,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Bundle of Corn",
+        "name_ar": "حزمة ذرة",
+        "name_de": "Maisbündel",
+        "name_fr": "Gerbe de maïs",
+        "name_es": "Fardo de maíz",
+        "name_ru": "Кукурузные початки"
+      },
+      "raw": {
+        "@uniquename": "T7_CORN",
+        "@nutrition": "48",
+        "@foodcategory": "plants",
+        "@shopcategory": "farming",
+        "@shopsubcategory1": "farm",
+        "@resourcetype": "CROP",
+        "@tier": "7",
+        "@weight": "0.6",
+        "@maxstacksize": "999",
+        "@itemvalue": "40",
+        "@famevalue": "20",
+        "@shopsubcategory2": "plants",
+        "@shopsubcategory3": "corn"
+      }
+    },
+    {
+      "id": "T8_PUMPKIN",
+      "index": "131",
+      "name_en": "Pumpkin",
+      "name_ar": "يقطين",
+      "name_de": "Kürbis",
+      "name_fr": "Citrouille",
+      "name_es": "Calabaza",
+      "name_ru": "Тыква",
+      "descriptions": {
+        "description_en": "Pumpkins are used in a variety of meals",
+        "description_ar": "يُستخدم اليقطين في مجموعة وجبات متنوعة",
+        "description_de": "Viele Gerichte verwenden Kürbisse.",
+        "description_fr": "Les citrouilles servent à faire à manger",
+        "description_es": "Las calabazas se usan en varias comidas",
+        "description_ru": "Из тыквы готовят различную еду."
+      },
+      "localization_variables": {
+        "name_variable": "@ITEMS_T8_PUMPKIN",
+        "description_variable": "@ITEMS_T8_PUMPKIN_DESC"
+      },
+      "category": "Farming_Farm",
+      "slot": "2h",
+      "two_handed": false,
+      "attributes": {
+        "uniquename": "T8_PUMPKIN",
+        "nutrition": "48",
+        "foodcategory": "plants",
+        "shopcategory": "farming",
+        "shopsubcategory1": "farm",
+        "resourcetype": "CROP",
+        "tier": "8",
+        "weight": "0.6",
+        "maxstacksize": "999",
+        "itemvalue": "40",
+        "famevalue": "20",
+        "shopsubcategory2": "plants",
+        "shopsubcategory3": "pumpkin"
+      },
+      "item_stats": {
+        "itemvalue": "40",
+        "resourcevalue": null,
+        "famevalue": "20",
+        "salvagevalueoverride": null,
+        "estimatedmarketvalueoverride": null
+      },
+      "localized_all_names": {
+        "EN-US": "Pumpkin",
+        "DE-DE": "Kürbis",
+        "FR-FR": "Citrouille",
+        "RU-RU": "Тыква",
+        "PL-PL": "Dynia",
+        "ES-ES": "Calabaza",
+        "PT-BR": "Abóbora",
+        "IT-IT": "Zucca",
+        "ZH-CN": "南瓜",
+        "KO-KR": "호박",
+        "JA-JP": "カボチャ",
+        "ZH-TW": "南瓜",
+        "ID-ID": "Labu",
+        "TR-TR": "Bal Kabağı",
+        "AR-SA": "يقطين"
+      },
+      "localized_all_descriptions": {
+        "EN-US": "Pumpkins are used in a variety of meals",
+        "DE-DE": "Viele Gerichte verwenden Kürbisse.",
+        "FR-FR": "Les citrouilles servent à faire à manger",
+        "RU-RU": "Из тыквы готовят различную еду.",
+        "PL-PL": "Dynie są używane w wielu potrawach",
+        "ES-ES": "Las calabazas se usan en varias comidas",
+        "PT-BR": "Abóboras são ingredientes de várias comidas",
+        "IT-IT": "La zucca è un ingrediente per varie pietanze.",
+        "ZH-CN": "南瓜可以用于多种餐食。",
+        "KO-KR": "호박은 다양한 식사에 사용됩니다",
+        "JA-JP": "カボチャは様々な料理で使われています。",
+        "ZH-TW": "南瓜可作為多種料理的食材",
+        "ID-ID": "Labu digunakan dalam berbagai makanan.",
+        "TR-TR": "Bal Kabakları, çeşitli yemeklerin yapımında kullanılır.",
+        "AR-SA": "يُستخدم اليقطين في مجموعة وجبات متنوعة"
+      },
+      "crafting_requirements": null,
+      "is_artifact": false,
+      "artifact_details": null,
+      "integration_ids": {
+        "albion_online_data_project_id": "T8_PUMPKIN",
+        "item_database_index": "131"
+      },
+      "tier": 8,
+      "enchantment": 0,
+      "localized": {
+        "name_en": "Pumpkin",
+        "name_ar": "يقطين",
+        "name_de": "Kürbis",
+        "name_fr": "Citrouille",
+        "name_es": "Calabaza",
+        "name_ru": "Тыква"
+      },
+      "raw": {
+        "@uniquename": "T8_PUMPKIN",
+        "@nutrition": "48",
+        "@foodcategory": "plants",
+        "@shopcategory": "farming",
+        "@shopsubcategory1": "farm",
+        "@resourcetype": "CROP",
+        "@tier": "8",
+        "@weight": "0.6",
+        "@maxstacksize": "999",
+        "@itemvalue": "40",
+        "@famevalue": "20",
+        "@shopsubcategory2": "plants",
+        "@shopsubcategory3": "pumpkin"
+      }
     }
   ]
 }
